@@ -185,10 +185,11 @@ def build():
                   note='The family theorem is min(1,4-12J) for 0<=J<1/3. At J=.3, square L>=3 has actual gap 1. Neither value is inferred from perturbation scans.')
     from extend_overview import add_extensions
     add_extensions(globals())
-    out=dict(schema_version=2,claim_selection='2026-10-10 14:12 EDT / 18:12 UTC',
+    out=dict(schema_version=2,claim_selection='2026-10-10 14:42 EDT / 18:42 UTC',
              source_commit_reported_by_project='6be889a30f642bde77fb89af75b3a7379615bed1',
              git_checkout_verified=False,root_note='Materialized tree has no .git metadata; provenance is by file hash.',
-             claims=ROWS,dimensions=DIMS,unplotted_status=STATUS,analytic_reference=analytic,sources=SOURCES)
+             claims=ROWS,dimensions=DIMS,unplotted_status=STATUS,analytic_reference=analytic,sources=SOURCES,
+             recombination_comparisons=globals().get('RECOMBINATION_COMPARISONS'))
     (HERE/'overview_data.json').write_text(json.dumps(out,indent=2)+'\n')
     for name,rows in [('certified_bounds.csv',ROWS),('trial_dimensions.csv',DIMS),('unplotted_status.csv',STATUS)]:
         with (HERE/name).open('w',newline='') as f:

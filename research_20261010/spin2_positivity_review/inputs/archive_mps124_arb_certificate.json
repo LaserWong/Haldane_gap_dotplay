@@ -1,0 +1,40 @@
+{
+  "method": "Arb ball matrix powers from exact integer highest-weight blocks",
+  "blocks_sha256": "cf79dc8f5723e180e49d506a2cfd00b8488be3f6f065e1f2e594b05391312c5d",
+  "tensor_sha256": "f82ed6c2160a25fae642b4dcde05ed3fa4e841acc92b4e5f66293159890b54dd",
+  "seconds": 159.20599913597107,
+  "results": [
+    {
+      "N": 128,
+      "energy_interval": "[-4.761255696887661815195673484244752530260 +/- 4.92e-40]",
+      "norm_positive": true,
+      "threshold_a": "4.76121",
+      "energy_less_than_minus_a": true,
+      "precision_bits": 256
+    },
+    {
+      "N": 256,
+      "energy_interval": "[-4.761218535854356322762204187659550937620 +/- 3.97e-40]",
+      "norm_positive": true,
+      "threshold_a": "4.76121",
+      "energy_less_than_minus_a": true,
+      "precision_bits": 256
+    },
+    {
+      "N": 512,
+      "energy_interval": "[-4.761218279124975867316231177983533717317 +/- 6.94e-41]",
+      "norm_positive": true,
+      "threshold_a": "4.76121",
+      "energy_less_than_minus_a": true,
+      "precision_bits": 256
+    },
+    {
+      "N": 1024,
+      "energy_interval": "[-4.761218279113298692313856711676319873607 +/- 1.40e-41]",
+      "norm_positive": true,
+      "threshold_a": "4.76121",
+      "energy_less_than_minus_a": true,
+      "precision_bits": 256
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS_ANALYTIC_LEMMA_AND_EXACT_SCALAR_CHECKS_WITH_INHERITED_FINITE_INPUTS",
+  "original_sources_rehashed": true,
+  "portable_bundle_verified": true,
+  "MPS_Z_gt_1_lengths": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "positive_trivial_atom_lower_bounds": [
+    {
+      "L": 128,
+      "ell_display": "0.971082",
+      "exclusion_upper_display": "0.9998903610827924746489157",
+      "strict_slack_display": "0.0001096389172075253510842816"
+    },
+    {
+      "L": 256,
+      "ell_display": "0.985901",
+      "exclusion_upper_display": "0.9997791028490990679962627",
+      "strict_slack_display": "0.0002208971509009320037372664"
+    },
+    {
+      "L": 512,
+      "ell_display": "0.993037",
+      "exclusion_upper_display": "0.9995874464748997161941126",
+      "strict_slack_display": "0.0004125535251002838058874094"
+    },
+    {
+      "L": 1024,
+      "ell_display": "0.99654",
+      "exclusion_upper_display": "0.9997585749306789008175096",
+      "strict_slack_display": "0.0002414250693210991824904409"
+    }
+  ],
+  "thermal_startup_claim": false,
+  "uniform_gap_claim": false,
+  "seconds": 2.601982593536377
+}

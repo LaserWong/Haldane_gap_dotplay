@@ -1,0 +1,81 @@
+{
+  "status": "PASS independent analytic and exact scalar review of all six fixed small-seed cyclic orders",
+  "updated_utc": "2026-10-10T18:31:19.899910+00:00",
+  "updated_America_New_York": "2026-10-10T14:31:19.899910-04:00",
+  "model": "ordinary spin-1/2 square bilayer; rung 1; equal straight in-layer g; no crossed exchange; periodic positive-direction multiedges",
+  "couplings": [
+    "1/25",
+    "1/20"
+  ],
+  "seed_family": [
+    "2x2",
+    "4x2",
+    "4x4"
+  ],
+  "mirrored_family": [
+    "2x2",
+    "2x4",
+    "4x4"
+  ],
+  "all_orders": [
+    "xyt",
+    "yxt",
+    "xty",
+    "ytx",
+    "txy",
+    "tyx"
+  ],
+  "beta_domain": "every finite real beta>=0; entire uniform cold ray beta>=20",
+  "obstruction": "The specified lower-bound recipe with exact physical traces has a nonpositive update.",
+  "global_maximum_failed_update": {
+    "1/25": {
+      "xyt": 4,
+      "yxt": 4,
+      "xty": 3,
+      "ytx": 3,
+      "txy": 3,
+      "tyx": 3
+    },
+    "1/20": {
+      "xyt": 2,
+      "yxt": 2,
+      "xty": 2,
+      "ytx": 2,
+      "txy": 2,
+      "tyx": 2
+    }
+  },
+  "new_review": "Independent analytical verification, all-six-order symbolic identities, full-spin bond exchange, and 320-bit outward integer/rational scalar replay.",
+  "physical_status": "Relies on accepted independent physical complete-band and full-tail reconstruction; no new physical audit rerun.",
+  "prior_physical_result_sha256": "6e78a354da036930520761566f0b255761b8baf6363e8caa6b2c3bb41ba77fa3",
+  "reviewed_producer_sha256": {
+    "certify_orders.py": "97b505d74543deae0ec379e58a38a8f3767d852483d22fd9cc6c68be609ab4c7",
+    "PROOF.md": "013f3691e3a730d8aeb23639597990adb56e3072ce074ebb1d99338129d85b7a",
+    "results.json": "53ecee579e9490a33f289d11454224c33703b8561fa7c8a5316ddc2cdd351e2a"
+  },
+  "producer_freeze_sha256": "5ec77672420f5af9ab6a450d9b7737c0fd451bca25fa4d29631b1240a4bbbc63",
+  "audit_code_sha256": "2c8c624491a413a6a02ca85f39921127b66bce45ca979002dc91fbbba3bb5956",
+  "independent_result_sha256": "5e6bad0772421edcd8036f2f6638b74660d06975d4c39df0170d3df8481dedb2",
+  "input_manifest_sha256": "6df2edd1fd64d94e82561e783746d2d9ea6df56d368ece09af864465781da6cb",
+  "verified_dependency_count": 59,
+  "closed_box_checks": 1920,
+  "seconds": 14.89905042600003,
+  "peak_rss_kib": 50232,
+  "limits": {
+    "cpus": 1,
+    "BLAS_threads": 1,
+    "address_space_bytes": 1073741824
+  },
+  "producer_files_modified": false,
+  "new_physical_vectors": false,
+  "full_ED": false,
+  "remote_writes": false,
+  "does_not_imply": [
+    "physical gaplessness",
+    "physical phase boundary",
+    "exclusion of larger seeds",
+    "exclusion of new trace injections or improved inequalities",
+    "exclusion of arbitrary adaptive reordering",
+    "fresh reconstruction of physical inputs"
+  ]
+}

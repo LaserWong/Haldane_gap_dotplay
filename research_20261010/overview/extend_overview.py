@@ -1,4 +1,4 @@
-"""Explicit additions from the sealed 18:09 UTC angle-based review snapshot."""
+"""Explicit additions from independently sealed review snapshots."""
 from fractions import Fraction as F
 
 
@@ -59,8 +59,45 @@ def add_extensions(api):
               beta=a['beta_initial'],base=a['asymptotic_L_ge'],
               note='Sealed independent rank-one sector-Temple endpoint, trace, recurrence and all-size audit; inherits identical independently verified physical moments and complete band count.')
     status[:]=[s for s in status if s['model']!='ordinary_spinhalf_bilayer']
+    # Retain every independently accepted order/tail combination, while plotting only the best per coupling.
+    p=R+'tail_comparison_review/REVIEW_STATUS.json';sealed=source(p)
+    assert sealed['status']=='passed_independent_exact_recombination_review'
+    accepted_path=R+'tail_comparison_review/results/accepted_certificates.json';accepted=source(accepted_path)
+    assert len(accepted)==35
+    evidence=[p,R+'tail_comparison_review/REVIEW.md',R+'tail_comparison_review/results/summary.json',
+              R+'tail_comparison_review/results/path_ledger.json',R+'tail_comparison_review/results/patch_review.json',
+              R+'tail_comparison_review/results/small_sizes.json']
+    for i,a in enumerate(accepted):
+        assert a['independent_exact_arithmetic']
+        row=claim('ordinary_spinhalf_bilayer','g',a['g'],accepted_path,f'/{i}/all_integer_L_ge2_gap',evidence,
+                  beta=a['beta_initial'],base=a['asymptotic_onset'],
+                  note='Independently audited same-physical-input tail/order recombination; all-size bridge included. The '+a['order']+' order is transported exactly to the canonical spatial/thermal staircase. Physical and oscillator counts are not pointwise merged.')
+        row['tail_variant']=a['variant'];row['bootstrap_order']=a['order']
+    import csv
+    comparisons={}
+    for filename,output in [('same_order_comparison.json','tail_order_comparison.csv'),('fixed_order_fixed_beta_gains.json','fixed_order_tail_gains.csv')]:
+        comparison_path=R+'tail_comparison_review/results/'+filename
+        comparison_rows=source(comparison_path)
+        enriched=[dict(a,evidence_source=comparison_path,evidence_sha256=sources[comparison_path],evidence_json_pointer=f'/{i}') for i,a in enumerate(comparison_rows)]
+        comparisons[filename]=enriched
+        with (api['HERE']/output).open('w',newline='') as f:
+            writer=csv.DictWriter(f,fieldnames=list(dict.fromkeys(k for a in enriched for k in a)))
+            writer.writeheader();writer.writerows(enriched)
+    api['RECOMBINATION_COMPARISONS']=comparisons
+    comparison_path=R+'tail_comparison_review/results/same_order_comparison.json'
+    status.append(dict(model='ordinary_spinhalf_bilayer',parameter_exact='3/50',status='original_tail_xyt_grid_no_success',gap_lower_exact=None,
+                       evidence_source=comparison_path,evidence_sha256=sources[comparison_path],
+                       scope='Original physical-number tail in xyt order only: no accepted proposal on the tested grid. Other orders and tails certify this same coupling; no all-beta exclusion or physical gaplessness claim.'))
+    patch_path=R+'tail_comparison_review/results/patch_review.json';patches=source(patch_path)
+    for i,a in enumerate(patches):
+        if a['variant']=='quadratic' and a['g']=='3/50':
+            dimension('ordinary_spinhalf_bilayer',a['g'],a['shape'],a['full_hilbert_dimension'],a['retained_full_band_dimension'],
+                      a['linear_ground_trial_dimension'],None,None,patch_path,f'/{i}',scope='compressed ground proposal; complete retained band',depth=1,
+                      notes='Same 4x4/8x4/8x8 geometry family. Full physical count, ground proposal and retained band are audited; per-column support is not separately extracted in this row. Oscillator reference overcount is not the physical Hilbert dimension.')
+            dims[-1]['translated_band_columns_per_spin_copy']=(a['retained_full_band_dimension']-1)//3
     for r in rows:
-        r['id'] += '__'+r['primary_source'].replace('/','_').removesuffix('.json')
+        r['id'] += '__'+r['primary_source'].replace('/','_').removesuffix('.json')+'__'+r['primary_json_pointer'].replace('/','_')
+        r.setdefault('tail_variant',None);r.setdefault('bootstrap_order',None)
         r['plotted_in_main_figure']=True
     for r in rows:
         if r['parameter_kind']=='point':

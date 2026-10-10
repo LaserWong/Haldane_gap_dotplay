@@ -53,7 +53,7 @@ def verify(data):
             assert row[key] is None or 0 < row[key] <= row['full_Hilbert_dimension']
         assert row['MPS_bond_dimension'] is None
     assert all(r['gap_lower_exact'] is None for r in data['unplotted_status'])
-    assert len(data['claims']) == 27
+    assert len(data['claims']) == 62
     assert len({r['id'] for r in data['claims']}) == len(data['claims'])
 
 
@@ -100,8 +100,8 @@ def plot(data):
             ax.set_ylabel('Certified gap lower bound')
             ax.text(.03,.03,'Every integer M ≥ 2',transform=ax.transAxes,fontsize=11)
         elif i==1:
-            ax.set_xlim(.005,.055);ax.set_ylim(.035,.5);ax.set_xticks([.01,.03,.05])
-            ax.annotate('0.282017228092',(.03,.282017228092),xytext=(0,12),textcoords='offset points',ha='center',fontsize=11)
+            ax.set_xlim(.005,.065);ax.set_ylim(.035,.6);ax.set_xticks([.01,.03,.05,.06])
+            ax.annotate('0.318085460990',(.03,.318085460990),xytext=(0,12),textcoords='offset points',ha='center',fontsize=11)
             ax.text(.03,.03,'Every integer L ≥ 2',transform=ax.transAxes,fontsize=11)
         else:
             anchor=data['analytic_reference']
@@ -116,6 +116,7 @@ def plot(data):
              Line2D([],[],ls='none',marker='*',color=GRAY,label='Analytic reference')]
     fig.legend(handles=handles,loc='lower center',bbox_to_anchor=(.5,.065),ncol=2,frameon=False,fontsize=11)
     fig.text(.5,.025,'Points certify individual parameters; horizontal bars certify entire intervals.',ha='center',fontsize=11)
+    fig.text(.5,-.015,'Different certificates can yield nonmonotone bounds across g; no physical-gap trend is inferred.',ha='center',fontsize=11)
     fig.subplots_adjust(left=.075,right=.98,top=.88,bottom=.27,wspace=.36)
     save(fig,'certified_bounds',plt)
 

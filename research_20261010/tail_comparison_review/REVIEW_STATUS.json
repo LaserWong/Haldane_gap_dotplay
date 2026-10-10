@@ -1,0 +1,60 @@
+{
+  "status": "passed_independent_exact_recombination_review",
+  "sealed_utc": "2026-10-10T18:42:00Z",
+  "sealed_local": "2026-10-10T14:42:00-04:00",
+  "model": "Ordinary spin-1/2 square bilayer; unit vertical rung exchange; equal straight intralayer exchange g in both directions and layers; no crossed bonds",
+  "boundary": "Periodic positive-direction edge multiplicity, including side-two parallel bonds",
+  "scope": "Every integer square side L>=2, separately at g=3/100,1/25,1/20,3/50",
+  "accepted": [
+    {
+      "variant": "quadratic",
+      "g": "3/100",
+      "order": "txy",
+      "beta_initial": "259/20",
+      "all_integer_L_ge2_gap": "31808546099/100000000000",
+      "gap_display": 0.31808546099,
+      "asymptotic_onset": 8
+    },
+    {
+      "variant": "quadratic",
+      "g": "1/25",
+      "order": "txy",
+      "beta_initial": "47/4",
+      "all_integer_L_ge2_gap": "235117964607/1000000000000",
+      "gap_display": 0.235117964607,
+      "asymptotic_onset": 8
+    },
+    {
+      "variant": "quadratic",
+      "g": "1/20",
+      "order": "txy",
+      "beta_initial": "199/20",
+      "all_integer_L_ge2_gap": "42955528921/250000000000",
+      "gap_display": 0.171822115684,
+      "asymptotic_onset": 16
+    },
+    {
+      "variant": "quadratic",
+      "g": "3/50",
+      "order": "txy",
+      "beta_initial": "203/20",
+      "all_integer_L_ge2_gap": "103487228301/1000000000000",
+      "gap_display": 0.103487228301,
+      "asymptotic_onset": 16
+    }
+  ],
+  "full_band_patches": 36,
+  "accepted_certificates": 35,
+  "finite_volume_unique_ground": true,
+  "proof_assistant_verified": false,
+  "all_new_endpoints_traces_transport_recurrence_and_bridges_recomputed": true,
+  "physical_moments_reused_by_verified_sealed_hash": true,
+  "physical_and_oscillator_multiplicities_never_pointwise_merged": true,
+  "producer_manifest_sha256": "ca267779b17e27a109cfc964c3ca6aaf6a5be9ba8cbc84b368e0c3fc0fc082dd",
+  "qualifications": [
+    "No continuous-coupling global gap interpolation",
+    "No arbitrary aspect-ratio or infinite-volume uniqueness assertion",
+    "No optimization or all-beta exclusion claim",
+    "Four quadratic xyt ratios are conservatively 3 or 4 times 10^-16 below the independent 384-bit ratio; saved valid witnesses are replayed exactly"
+  ]
+}

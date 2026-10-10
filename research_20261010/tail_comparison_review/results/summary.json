@@ -1,0 +1,47 @@
+{
+  "status": "PASS independent exact recombination audit",
+  "patches": 36,
+  "accepted_certificates": 35,
+  "three_orders": true,
+  "prior_physical_moments_hash_reused": true,
+  "independent_band_trace_transport_recurrence_and_all_size_bridges": true,
+  "physical_and_oscillator_counts_never_pointwise_merged": true,
+  "best": [
+    {
+      "variant": "quadratic",
+      "g": "3/100",
+      "order": "txy",
+      "beta_initial": "259/20",
+      "all_integer_L_ge2_gap": "31808546099/100000000000",
+      "gap_display": 0.31808546099,
+      "asymptotic_onset": 8
+    },
+    {
+      "variant": "quadratic",
+      "g": "1/25",
+      "order": "txy",
+      "beta_initial": "47/4",
+      "all_integer_L_ge2_gap": "235117964607/1000000000000",
+      "gap_display": 0.235117964607,
+      "asymptotic_onset": 8
+    },
+    {
+      "variant": "quadratic",
+      "g": "1/20",
+      "order": "txy",
+      "beta_initial": "199/20",
+      "all_integer_L_ge2_gap": "42955528921/250000000000",
+      "gap_display": 0.171822115684,
+      "asymptotic_onset": 16
+    },
+    {
+      "variant": "quadratic",
+      "g": "3/50",
+      "order": "txy",
+      "beta_initial": "203/20",
+      "all_integer_L_ge2_gap": "103487228301/1000000000000",
+      "gap_display": 0.103487228301,
+      "asymptotic_onset": 16
+    }
+  ]
+}

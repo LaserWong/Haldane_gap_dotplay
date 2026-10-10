@@ -10,7 +10,12 @@
       "review": "temple_variant_review",
       "manifest_sha256_at_acceptance": "d460804b33e39bbf35900367ff285c21a2934a11256a2106ddf1e1903dab073c",
       "all_manifest_entries_verified": 28
+    },
+    {
+      "review": "tail_comparison_review",
+      "manifest_sha256_at_acceptance": "28a3fd81c41fa5dc0b8da7b3ac427c7283659177ed9d30c098ae4f6b45609327",
+      "all_manifest_entries_verified": 147
     }
   ],
-  "scope": "ordinary bilayer g=.03/.04/.05, all integer L>=2; angle and rank-one sector-Temple variants independently accepted"
+  "scope": "ordinary bilayer discrete g=.03/.04/.05/.06, every integer L>=2; earlier angle/Temple and new tail-order recombinations independently accepted"
 }

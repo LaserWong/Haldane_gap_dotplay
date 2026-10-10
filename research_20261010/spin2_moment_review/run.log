@@ -1,0 +1,56 @@
+{
+  "status": "PASS_FOR_EXPLICIT_IP_INTERVAL_RELAXATION_WITH_SCOPE_CORRECTIONS",
+  "dimensions": {
+    "J": 1752765679903846037,
+    "N": 1752713560036067552
+  },
+  "SO3_total_dimension": 7010906360012048693,
+  "large_length_checks": [
+    {
+      "L": 128,
+      "spatial_purity_interval_rational": [
+        "273805237/1000000000",
+        "136902619/500000000"
+      ],
+      "shifted_I_lower_rational": "53761701/1000000",
+      "numerator_one_certificate_ceiling_rational": "1000000000000/2890320494413401",
+      "numerator_one_certificate_ceiling_display": "0.0003459823925868653280642715",
+      "N_mass_lower_display": "24.86617839052658776194691"
+    },
+    {
+      "L": 256,
+      "spatial_purity_interval_rational": [
+        "180094247/500000000",
+        "72037699/200000000"
+      ],
+      "shifted_I_lower_rational": "52053011/50000",
+      "numerator_one_certificate_ceiling_rational": "2500000000/2709515954166121",
+      "numerator_one_certificate_ceiling_display": "9.226740282359394691187035E-7",
+      "N_mass_lower_display": "206.1089425831638141844676"
+    },
+    {
+      "L": 512,
+      "spatial_purity_interval_rational": [
+        "328150833/500000000",
+        "656301667/1000000000"
+      ],
+      "shifted_I_lower_rational": "711303935911/1000000",
+      "numerator_one_certificate_ceiling_rational": "1000000000000/505953289242479995399921",
+      "numerator_one_certificate_ceiling_display": "1.976467040064535050817816E-12",
+      "N_mass_lower_display": "14160.29873758330594952349"
+    },
+    {
+      "L": 1024,
+      "spatial_purity_interval_rational": [
+        "120089171/125000000",
+        "960713369/1000000000"
+      ],
+      "shifted_I_lower_rational": "243038044436256377/500000",
+      "numerator_one_certificate_ceiling_rational": "250000000000/59067491043399729287532802473166129",
+      "numerator_one_certificate_ceiling_display": "4.232446572283101791795545E-24",
+      "N_mass_lower_display": "66838020.11253445605666144"
+    }
+  ],
+  "wall_seconds": 0.21901512145996094,
+  "peak_rss_kib": 11264
+}

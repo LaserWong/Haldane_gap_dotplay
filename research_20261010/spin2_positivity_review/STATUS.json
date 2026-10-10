@@ -1,0 +1,42 @@
+{
+  "updated_utc": "2026-10-10T18:41:00Z",
+  "updated_new_york": "2026-10-10T14:41:00-04:00",
+  "status": "COMPLETE_PASS_WITH_INHERITED_FINITE_INPUTS",
+  "independent_analytic_checks": [
+    "Integer-spin real self-adjoint compact transfer at all integer L>=2",
+    "A4 and D2 sector identities including odd L",
+    "Positive leading trivial-sector atom and domination of all other sectors",
+    "Finite multiplicity and infinite-spectrum limiting arguments",
+    "Both base q and witness L even in atom exclusion"
+  ],
+  "independent_exact_checks": [
+    "L8 and MPS original source provenance hashes",
+    "Portable compressed MPS blocks original SHA-256 and integer dimensions",
+    "Four exact MPS ball upper endpoints below negative target shift",
+    "Exact rational shift exponential enclosures",
+    "Four Fraction-only atom exclusion inequalities",
+    "Millionth-grid maximality without logarithms"
+  ],
+  "inherited_inputs": [
+    "Original residual-validated L8 heat trace with original arithmetic assumptions",
+    "Original integer tensor-to-block construction and Arb MPS norm/energy contractions"
+  ],
+  "beta": "8",
+  "shift": "476121/100000",
+  "strongest_positive_atom_lower": "49827/50000",
+  "thermal_startup_solved": false,
+  "uniform_gap_proved": false,
+  "producer_files_edited": false,
+  "resource_limits": {
+    "cpu_affinity": 1,
+    "address_space_bytes": 1073741824,
+    "cpu_seconds": 120
+  },
+  "no_external_path_required_for_minimal_replay": true,
+  "next_step": "Retain leading-atom localization; thermal startup remains open. Do not fund high-order traces without a successful scalar acceptance proposal.",
+  "portable_blocks": {
+    "format": "deterministic gzip split into 12 parts",
+    "max_part_bytes": 2097152,
+    "full_gzip_or_uncompressed_duplicate_shipped": false
+  }
+}

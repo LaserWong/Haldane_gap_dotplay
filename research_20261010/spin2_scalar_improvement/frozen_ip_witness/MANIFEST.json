@@ -1,0 +1,24 @@
+{
+  "frozen_utc": "2026-10-10T18:28:00Z",
+  "files": {
+    "copied_beta8_lower_trace_intervals.json": "2d8dfefc9e5ba7784f03b09f0385bf9ddab3d0d1d9b9ad0c8e376847aeed6955",
+    "verify_integer_witness.py": "815a1c7c9dd46bce80c7de1397ed3ba96121bc86102fccfa1f5c6452be955553",
+    "exact_witness_verification.json": "a2ff91e455e325b93dc6540ede79d50789ed7b9b2648e9471ffc3eeda23747c4",
+    "IP_WITNESS_PROOF.md": "58079b7e6fdc9612fe7611de5e9a1e177b920257532ad094f613af4074f30045",
+    "full_integer_witnesses.json": "15c5918f8449a550b7de45ea0aecdce28e60c1abe042d234f1a2a2057c2aa8bc",
+    "exploratory_moment_inputs.json": "7cb9b91aa7264c76b32eeefeea889d959fac7a93c4ff8d354198d92f9807bad1"
+  },
+  "input_provenance": {
+    "lower_trace_intervals": {
+      "path": "/workspace/shared/haldane_optimization/upstream/extracted/cases/spin2_followup/inputs/trace_intervals.json",
+      "sha256": "ed30cdae706c3907c08f69fe6913e81ff22c3c69e7b53733a1ef8fe0e4967690",
+      "selection": "beta=8, I/P, L2..8; exact copied rows"
+    },
+    "higher_exploratory_centers": {
+      "path": "/workspace/shared/haldane_active/research_20261010/spin2_heat/seed_feasibility/exploratory_moment_inputs.json",
+      "sha256": "7cb9b91aa7264c76b32eeefeea889d959fac7a93c4ff8d354198d92f9807bad1",
+      "selection": "a=4.7608 beta=8 order10 row; originally unverified Ritz lists"
+    }
+  },
+  "no_C_moments_or_cross_beta_constraints": true
+}

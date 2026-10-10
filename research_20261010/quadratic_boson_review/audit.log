@@ -1,0 +1,39 @@
+OSCILLATOR PASS one_positive
+OSCILLATOR PASS one_negative
+OSCILLATOR PASS two_rotated_unequal
+BINS PASS quadratic_bins_2x2_g3d100.json a2 1.8704157598234294
+BINS PASS quadratic_bins_2x2_g3d50.json a2 1.7188989435406736
+BINS PASS quadratic_bins_4x4_g1d20.json a2 1.755417527999327
+BINS PASS quadratic_bins_4x4_g1d25.json a2 1.812121111929344
+BINS PASS quadratic_bins_4x4_g3d100.json a2 1.8646652157174872
+BINS PASS quadratic_bins_4x4_g3d50.json a2 1.6942383096650777
+BINS PASS quadratic_bins_8x4_g1d20.json a2 1.7219806739988224
+BINS PASS quadratic_bins_8x4_g1d25.json a2 1.791211945876352
+BINS PASS quadratic_bins_8x4_g3d100.json a2 1.8531641275056028
+BINS PASS quadratic_bins_8x4_g3d50.json a2 1.6449170419138859
+BINS PASS quadratic_bins_8x8_g1d20.json a2 1.6551069659978128
+BINS PASS quadratic_bins_8x8_g1d25.json a2 1.749393613770368
+BINS PASS quadratic_bins_8x8_g3d100.json a2 1.8301619510818337
+BINS PASS quadratic_bins_8x8_g3d50.json a2 1.5462745064115024
+PHYSICAL COUNT PASS 3/100 0 0 0 0
+PHYSICAL COUNT PASS 3/100 1 1 1 1
+PHYSICAL COUNT PASS 3/100 2 13 13 13
+PHYSICAL COUNT PASS 3/100 3 67 67 91
+PHYSICAL COUNT PASS 3/50 0 0 0 0
+PHYSICAL COUNT PASS 3/50 1 1 1 1
+PHYSICAL COUNT PASS 3/50 2 13 13 13
+PHYSICAL COUNT PASS 3/50 3 67 67 91
+{
+  "status": "passed_independent_quadratic_comparison_proof_exact_small_mode_factorizations_full_physical_counts_and_14_directed_bins",
+  "producer_manifest_sha256": "ac5c47a1a3ccff0962b7ad5aac3968834b9ff06026644e0abc56601bec750723",
+  "exact_small_mode_cases": 3,
+  "full_Hilbert_physical_cases": 2,
+  "frozen_bin_files": 14,
+  "no_new_global_gap_claim": true,
+  "seconds": 76.99411251000129,
+  "peak_rss_kib": 80172,
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_limit_bytes": 1610612736
+}

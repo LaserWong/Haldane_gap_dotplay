@@ -1,0 +1,237 @@
+{
+  "status": "passed_internal_full_Hilbert_exact_inertia_tests_pending_independent_review",
+  "cases": [
+    {
+      "g": "3/100",
+      "shape": [
+        2,
+        2
+      ],
+      "full_dimension": 256,
+      "symmetry_block_dimensions": [
+        {
+          "parity": 0,
+          "Sz": 0,
+          "dimension": 38
+        },
+        {
+          "parity": 1,
+          "Sz": -1,
+          "dimension": 28
+        },
+        {
+          "parity": 1,
+          "Sz": 0,
+          "dimension": 32
+        },
+        {
+          "parity": 1,
+          "Sz": 1,
+          "dimension": 28
+        },
+        {
+          "parity": 0,
+          "Sz": -2,
+          "dimension": 16
+        },
+        {
+          "parity": 0,
+          "Sz": -1,
+          "dimension": 28
+        },
+        {
+          "parity": 0,
+          "Sz": 1,
+          "dimension": 28
+        },
+        {
+          "parity": 0,
+          "Sz": 2,
+          "dimension": 16
+        },
+        {
+          "parity": 1,
+          "Sz": -3,
+          "dimension": 4
+        },
+        {
+          "parity": 1,
+          "Sz": -2,
+          "dimension": 12
+        },
+        {
+          "parity": 1,
+          "Sz": 2,
+          "dimension": 12
+        },
+        {
+          "parity": 1,
+          "Sz": 3,
+          "dimension": 4
+        },
+        {
+          "parity": 0,
+          "Sz": -4,
+          "dimension": 1
+        },
+        {
+          "parity": 0,
+          "Sz": -3,
+          "dimension": 4
+        },
+        {
+          "parity": 0,
+          "Sz": 3,
+          "dimension": 4
+        },
+        {
+          "parity": 0,
+          "Sz": 4,
+          "dimension": 1
+        }
+      ],
+      "checks": [
+        {
+          "q": 0,
+          "threshold": "-13500000000000000000000000000000000000/2347603939955857388641407528386116570147",
+          "full_physical_negative_count": 0,
+          "reference_allowed_negative_count": 0
+        },
+        {
+          "q": 1,
+          "threshold": "2735934629448132431653653845853686969922591115944847325776737738974083171601609/2934504924944821735801759410482645712683750000000000000000000000000000000000000",
+          "full_physical_negative_count": 1,
+          "reference_allowed_negative_count": 1
+        },
+        {
+          "q": 2,
+          "threshold": "2744372129448132431653653845853686969922591115944847325776737738974083171601609/1467252462472410867900879705241322856341875000000000000000000000000000000000000",
+          "full_physical_negative_count": 13,
+          "reference_allowed_negative_count": 13
+        },
+        {
+          "q": 3,
+          "threshold": "8241553888344397294960961537561060909767773347834541977330213216922249514804827/2934504924944821735801759410482645712683750000000000000000000000000000000000000",
+          "full_physical_negative_count": 67,
+          "reference_allowed_negative_count": 91
+        }
+      ]
+    },
+    {
+      "g": "3/50",
+      "shape": [
+        2,
+        2
+      ],
+      "full_dimension": 256,
+      "symmetry_block_dimensions": [
+        {
+          "parity": 0,
+          "Sz": 0,
+          "dimension": 38
+        },
+        {
+          "parity": 1,
+          "Sz": -1,
+          "dimension": 28
+        },
+        {
+          "parity": 1,
+          "Sz": 0,
+          "dimension": 32
+        },
+        {
+          "parity": 1,
+          "Sz": 1,
+          "dimension": 28
+        },
+        {
+          "parity": 0,
+          "Sz": -2,
+          "dimension": 16
+        },
+        {
+          "parity": 0,
+          "Sz": -1,
+          "dimension": 28
+        },
+        {
+          "parity": 0,
+          "Sz": 1,
+          "dimension": 28
+        },
+        {
+          "parity": 0,
+          "Sz": 2,
+          "dimension": 16
+        },
+        {
+          "parity": 1,
+          "Sz": -3,
+          "dimension": 4
+        },
+        {
+          "parity": 1,
+          "Sz": -2,
+          "dimension": 12
+        },
+        {
+          "parity": 1,
+          "Sz": 2,
+          "dimension": 12
+        },
+        {
+          "parity": 1,
+          "Sz": 3,
+          "dimension": 4
+        },
+        {
+          "parity": 0,
+          "Sz": -4,
+          "dimension": 1
+        },
+        {
+          "parity": 0,
+          "Sz": -3,
+          "dimension": 4
+        },
+        {
+          "parity": 0,
+          "Sz": 3,
+          "dimension": 4
+        },
+        {
+          "parity": 0,
+          "Sz": 4,
+          "dimension": 1
+        }
+      ],
+      "checks": [
+        {
+          "q": 0,
+          "threshold": "-216000000000000000000000000000000000000/8758898943540673552236981983859615659137",
+          "full_physical_negative_count": 0,
+          "reference_allowed_negative_count": 0
+        },
+        {
+          "q": 1,
+          "threshold": "37099155351578963629842720728982308900202765780616885226027215738775538971584769/43794494717703367761184909919298078295685000000000000000000000000000000000000000",
+          "full_physical_negative_count": 1,
+          "reference_allowed_negative_count": 1
+        },
+        {
+          "q": 2,
+          "threshold": "37639155351578963629842720728982308900202765780616885226027215738775538971584769/21897247358851683880592454959649039147842500000000000000000000000000000000000000",
+          "full_physical_negative_count": 13,
+          "reference_allowed_negative_count": 13
+        },
+        {
+          "q": 3,
+          "threshold": "113457466054736890889528162186946926700608297341850655678081647216326616914754307/43794494717703367761184909919298078295685000000000000000000000000000000000000000",
+          "full_physical_negative_count": 67,
+          "reference_allowed_negative_count": 91
+        }
+      ]
+    }
+  ]
+}

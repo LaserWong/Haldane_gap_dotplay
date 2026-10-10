@@ -1,0 +1,83 @@
+[
+  {
+    "test": "one_positive",
+    "modes": 1,
+    "cutoff": 8,
+    "source_dimension": 9,
+    "image_dimension": 10,
+    "alpha": "5/4",
+    "K": [
+      [
+        "3/4"
+      ]
+    ],
+    "frequencies": [
+      "1"
+    ],
+    "exact_ground_shift": "-1/8",
+    "lower_ground_shift": "-1/8",
+    "exact_CCR": true,
+    "exact_full_leakage_factorization": true,
+    "lower_ground_PSD_inertia": [
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "test": "one_negative",
+    "modes": 1,
+    "cutoff": 8,
+    "source_dimension": 9,
+    "image_dimension": 10,
+    "alpha": "5/4",
+    "K": [
+      [
+        "-3/4"
+      ]
+    ],
+    "frequencies": [
+      "1"
+    ],
+    "exact_ground_shift": "-1/8",
+    "lower_ground_shift": "-1/8",
+    "exact_CCR": true,
+    "exact_full_leakage_factorization": true,
+    "lower_ground_PSD_inertia": [
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "test": "two_rotated_unequal",
+    "modes": 2,
+    "cutoff": 5,
+    "source_dimension": 21,
+    "image_dimension": 28,
+    "alpha": "5/4",
+    "K": [
+      [
+        "-37/100",
+        "21/25"
+      ],
+      [
+        "21/25",
+        "3/25"
+      ]
+    ],
+    "frequencies": [
+      "1",
+      "3/4"
+    ],
+    "exact_ground_shift": "-3/8",
+    "lower_ground_shift": "-25/64",
+    "exact_CCR": true,
+    "exact_full_leakage_factorization": true,
+    "lower_ground_PSD_inertia": [
+      0,
+      0,
+      21
+    ]
+  }
+]

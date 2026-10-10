@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T18:24:00Z",
+  "updated_at_utc": "2026-10-10T18:45:00Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -44,7 +44,7 @@
     },
     {
       "id": "overview",
-      "status": "updating_to_new_reviewed_results"
+      "status": "verified_frozen_stage5"
     },
     {
       "id": "trial_size_criteria",
@@ -56,17 +56,33 @@
     },
     {
       "id": "bosonic_tail_bound",
-      "status": "candidate_under_independent_review"
+      "status": "independently_verified_Jacobi_quadratic_and_global_recombinations"
     },
     {
       "id": "all_order_small_seed_exclusion",
-      "status": "running_beyond_canonical_case"
+      "status": "independently_verified_all_six_fixed_orders_all_beta"
     },
     {
       "id": "spin2_scalar_improvement",
-      "status": "finite_moment_witness_and_twisted_MPS_diagnostics_running"
+      "status": "IP_witness_and_positive_atom_bounds_independently_verified_thermal_startup_open"
+    },
+    {
+      "id": "reduced_largest_input",
+      "status": "independently_verified_ground_only_and_193_trial_variants_pending_next_publication"
+    },
+    {
+      "id": "chain_temperature_first",
+      "status": "running_saved_input_tests"
+    },
+    {
+      "id": "stronger_bilayer_frontier",
+      "status": "g007_g008_g010_prepared_bounded_tests"
+    },
+    {
+      "id": "ordinary_continuous_g_interval",
+      "status": "started_exact_interval_theory_and_ground_only_tests"
     }
   ],
-  "verification": "Independently audited all-size larger-seed ordinary bilayer gaps: g=.03 .282017228092, g=.04 .180632156388, g=.05 .104475599844. FF uniform closed interval through epsilon=.00855 has gap>.000768515509. Spin2 large traces remain uncomputed. Alternative-order g=.06 all-size gap .099555868340 independently accepted. Fixed six-vector residual floors and canonical small-seed all-beta obstructions at .04/.05 also independently accepted.",
-  "last_verified_remote_commit": "31b0146941190a6ce38828585cde93707da2d35e"
+  "verification": "Independent all-size ordinary bilayer bounds using reviewed whole-spectrum tails and transported orders: g=.03 .318085460990, g=.04 .235117964607, g=.05 .171822115684, g=.06 .103487228301. FF uniform interval through epsilon=.00855 remains certified. Six fixed small-seed orders are independently excluded for all beta at .04/.05.",
+  "last_verified_remote_commit": "7e04b3b9508ee141e327c113ec2e239d823b32da"
 }

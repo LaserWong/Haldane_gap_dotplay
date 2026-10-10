@@ -1,0 +1,40 @@
+{
+  "status": "EXACT_SCALAR_CHECK_CONDITIONAL_ON_ALL_LENGTH_TRANSFER_IDENTITIES_AND_ARCHIVED_INPUTS",
+  "beta": 8,
+  "target_shift": "4.76121",
+  "upper_trace_source_shift": "4.7608",
+  "U8": "3382547386422157/100000000000000",
+  "B_L": "1",
+  "rows": [
+    {
+      "L": 128,
+      "ell": "485541/500000",
+      "ell_display": 0.971082,
+      "exclusion_upper_display": 0.9998903610827925,
+      "exact_comparison_passed": true
+    },
+    {
+      "L": 256,
+      "ell": "985901/1000000",
+      "ell_display": 0.985901,
+      "exclusion_upper_display": 0.9997791028490991,
+      "exact_comparison_passed": true
+    },
+    {
+      "L": 512,
+      "ell": "993037/1000000",
+      "ell_display": 0.993037,
+      "exclusion_upper_display": 0.9995874464748997,
+      "exact_comparison_passed": true
+    },
+    {
+      "L": 1024,
+      "ell": "49827/50000",
+      "ell_display": 0.99654,
+      "exclusion_upper_display": 0.9997585749306789,
+      "exact_comparison_passed": true
+    }
+  ],
+  "uniform_gap_proved": false,
+  "thermal_purity_claim": false
+}

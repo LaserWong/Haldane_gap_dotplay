@@ -1,0 +1,34 @@
+{
+  "uniform_gap_proved": false,
+  "largest_validated_moment": 8,
+  "auxiliary_moment_orders": [
+    2,
+    3
+  ],
+  "physical_lengths_with_full_spectrum_enclosures": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "twists": [
+    "I",
+    "P",
+    "C"
+  ],
+  "thermal_interval_count": 105,
+  "betas": [
+    6,
+    8,
+    12,
+    16,
+    24
+  ],
+  "validation_assumptions": "See VALIDATION.md: IEEE-754, interval arithmetic inclusion, exact integer-dot-product conditions; no Lean formalization or independent full audit",
+  "order10": "Exploratory I/P Ritz data only; no verified low-energy eigenvalue counts",
+  "order10_high_magnetization_tail_certified": true,
+  "order10_complete_thermal_enclosure_certified": false,
+  "initialization_found": false,
+  "scope_of_failure": "Only the explicitly implemented finite filter/initialization search; not an impossibility result"
+}

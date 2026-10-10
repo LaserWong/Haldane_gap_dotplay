@@ -1,0 +1,97 @@
+[
+  {
+    "order": "xyt",
+    "dyadic_coordinate_path": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "adjacent_swaps": [],
+    "identities_verified": true
+  },
+  {
+    "order": "xty",
+    "dyadic_coordinate_path": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "adjacent_swaps": [
+      [
+        "t",
+        "y"
+      ]
+    ],
+    "identities_verified": true
+  },
+  {
+    "order": "txy",
+    "dyadic_coordinate_path": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "adjacent_swaps": [
+      [
+        "t",
+        "x"
+      ],
+      [
+        "t",
+        "y"
+      ]
+    ],
+    "identities_verified": true
+  }
+]
