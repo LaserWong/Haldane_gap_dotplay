@@ -1,0 +1,28 @@
+{
+  "prior_independent_sources": {
+    "research_20261010/chain_audit/verify_chain.py": "6dfea768aa06f3062bb73cd91a8936213c1ad80d13f234df88576c71461f07bc",
+    "research_20261010/chain_audit/CHAIN_CERTIFICATE_PROOF.md": "c5b4b7c39ee6964d54284b0bcaaa490ff6458226f41718b4c30e2c4ccbc7be2b",
+    "research_20261010/root_review/FINITE_WINDOW_INTERPOLATION.md": "8bee83e71362262533bdf6f3bf85ea7b374172651597d25d91460f70088b8643"
+  },
+  "copied_core_only_has_documented_changes": true,
+  "all_nine_explicitly_supplied_finalized_producer_hashes_match": true,
+  "additional_depth5_artifact_hashes_observed": {
+    "chain_sparse_s1_g323d2000_n4_depth5.json": "1791494217ade719899cde19aa187e364ec31ee92c113529364f4c61ddd7d273",
+    "chain_s1_M4_g323d2000_depth5_trial.npz": "430c22f6d85b2486c962cc3561e26e5f193b6e6892134fb20fc5414364dd7e04",
+    "chain_s1_M8_g323d2000_depth5_trial.npz": "0b65b91c6193e1db8d8fb55a3d07c98cce3062e2a189deb89fb96f024a39993b",
+    "chain_s1_M8_g323d2000_depth5_ground.json": "0031833d6dde001a807e656b82d9d0e7bd1ab3122153777d66e8e39fb8a479e9"
+  },
+  "source_tree": "expanded checkpoint; no .git in this directory",
+  "writes": "only research_20261010/chain_frontier_review",
+  "acceptance_imports": "standard library, numpy npz reader, copied prior independent_core only",
+  "notes": "Producer supplied the depth-five obstruction hash and N8 ground hash. The parent record and NPZ hashes here were independently observed after producer stated the files were finalized; they were not separately supplied by the producer.",
+  "all_physical_ground_model_couplings_match_parent_record": {
+    "chain_sparse_s1_g129d800_n4_depth4_correlated.json": "129/800",
+    "chain_sparse_s1_g13d80_n4_depth4.json": "13/80",
+    "chain_sparse_s1_g161d1000_n4_depth4_correlated.json": "161/1000",
+    "chain_sparse_s1_g323d2000_n4_depth5.json": "323/2000",
+    "chain_sparse_s1_g4d25_n4_depth4_correlated.json": "4/25",
+    "chain_sparse_s1_g7d40_n4_depth4.json": "7/40"
+  },
+  "baseline_archive_integrity": "PASS: 1149 file hashes"
+}

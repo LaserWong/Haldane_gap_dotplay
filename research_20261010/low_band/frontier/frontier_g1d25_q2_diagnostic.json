@@ -1,0 +1,110 @@
+{
+  "g": "1/25",
+  "variant": "q2_ground_waiting_for_symmetry_source",
+  "status": "float_parameter_and_ablation_scan_of_exact_patch_inputs_not_an_all_beta_exclusion",
+  "ablations": {
+    "certified_inputs_float_replay": [
+      {
+        "order": "xyt",
+        "grid_beta_start": "4",
+        "grid_beta_end": "20",
+        "step": "1/20",
+        "accepted_float": 0,
+        "best_float": null,
+        "smallest_first_cycle_defect": 0.28420848063710236
+      },
+      {
+        "order": "xty",
+        "grid_beta_start": "4",
+        "grid_beta_end": "20",
+        "step": "1/20",
+        "accepted_float": 0,
+        "best_float": null,
+        "smallest_first_cycle_defect": null
+      },
+      {
+        "order": "txy",
+        "grid_beta_start": "4",
+        "grid_beta_end": "20",
+        "step": "1/20",
+        "accepted_float": 0,
+        "best_float": null,
+        "smallest_first_cycle_defect": null
+      }
+    ],
+    "remove_only_omitted_tail": [
+      {
+        "order": "xyt",
+        "grid_beta_start": "4",
+        "grid_beta_end": "20",
+        "step": "1/20",
+        "accepted_float": 0,
+        "best_float": null,
+        "smallest_first_cycle_defect": 0.2814246489155767
+      },
+      {
+        "order": "xty",
+        "grid_beta_start": "4",
+        "grid_beta_end": "20",
+        "step": "1/20",
+        "accepted_float": 0,
+        "best_float": null,
+        "smallest_first_cycle_defect": null
+      },
+      {
+        "order": "txy",
+        "grid_beta_start": "4",
+        "grid_beta_end": "20",
+        "step": "1/20",
+        "accepted_float": 0,
+        "best_float": null,
+        "smallest_first_cycle_defect": null
+      }
+    ],
+    "zero_all_low_band_widths_and_tail": [
+      {
+        "order": "xyt",
+        "grid_beta_start": "4",
+        "grid_beta_end": "20",
+        "step": "1/20",
+        "accepted_float": 0,
+        "best_float": null,
+        "smallest_first_cycle_defect": 0.22659403556666446
+      },
+      {
+        "order": "xty",
+        "grid_beta_start": "4",
+        "grid_beta_end": "20",
+        "step": "1/20",
+        "accepted_float": 0,
+        "best_float": null,
+        "smallest_first_cycle_defect": null
+      },
+      {
+        "order": "txy",
+        "grid_beta_start": "4",
+        "grid_beta_end": "20",
+        "step": "1/20",
+        "accepted_float": 0,
+        "best_float": null,
+        "smallest_first_cycle_defect": null
+      }
+    ]
+  },
+  "seconds": 38.79704740899979,
+  "patch_cutoffs": [
+    "914811866013/500000000000",
+    "450319073601/250000000000",
+    "1775456374051/1000000000000"
+  ],
+  "residual_bounds": [
+    "8259069/125000000000",
+    "291390831/1000000000000",
+    "121905741/200000000000"
+  ],
+  "ground_widths": [
+    3.592024e-05,
+    0.00016052183,
+    0.00033993021
+  ]
+}

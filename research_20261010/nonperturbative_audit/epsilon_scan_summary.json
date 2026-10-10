@@ -1,0 +1,465 @@
+[
+  {
+    "epsilon": "3/500",
+    "audited_selected_seed_file": "ff_eps3d500_selected_seeds.json",
+    "float_successful_beta_count": 99,
+    "float_beta_grid": [
+      12,
+      120,
+      0.5
+    ],
+    "exact_successes": [
+      {
+        "beta": "49/2",
+        "n": 64,
+        "bootstrap_gap": "1199909886174616525850295539483602231/170141183460469231731687303715884105728",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "25",
+        "n": 32,
+        "bootstrap_gap": "4176369392464459954451297893305420685/340282366920938463463374607431768211456",
+        "bridge": {
+          "bound": "-16698056111/50000000000",
+          "a": "43018317/1000000000",
+          "b": "33593551/100000000000",
+          "worst_L": 31,
+          "local_exact_PSD": true,
+          "local_certificate": {
+            "spin": "1/2",
+            "coupling": "3/500",
+            "a": "43018317/1000000000",
+            "b": "33593551/100000000000",
+            "local_dimension": 16,
+            "exact_inertia": [
+              0,
+              0,
+              16
+            ],
+            "kind": "bilayer",
+            "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+            "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+          }
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "28",
+        "n": 16,
+        "bootstrap_gap": "9586303944613104486987939003027745443/340282366920938463463374607431768211456",
+        "bridge": {
+          "bound": "41/125",
+          "a": "21962059/1000000000",
+          "b": "349531033/500000000000",
+          "worst_L": 15,
+          "local_exact_PSD": true,
+          "local_certificate": {
+            "spin": "1/2",
+            "coupling": "3/500",
+            "a": "21962059/1000000000",
+            "b": "349531033/500000000000",
+            "local_dimension": 16,
+            "exact_inertia": [
+              0,
+              0,
+              16
+            ],
+            "kind": "bilayer",
+            "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+            "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+          }
+        },
+        "all_sizes_gap": "9586303944613104486987939003027745443/340282366920938463463374607431768211456"
+      },
+      {
+        "beta": "31",
+        "n": 8,
+        "bootstrap_gap": "1134612180473041385333049286639205685/42535295865117307932921825928971026432",
+        "bridge": {
+          "bound": "41/125",
+          "a": "341863/31250000",
+          "b": "1549193317/1000000000000",
+          "worst_L": 7,
+          "local_exact_PSD": true,
+          "local_certificate": {
+            "spin": "1/2",
+            "coupling": "3/500",
+            "a": "341863/31250000",
+            "b": "1549193317/1000000000000",
+            "local_dimension": 16,
+            "exact_inertia": [
+              0,
+              0,
+              16
+            ],
+            "kind": "bilayer",
+            "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+            "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+          }
+        },
+        "all_sizes_gap": "1134612180473041385333049286639205685/42535295865117307932921825928971026432"
+      },
+      {
+        "beta": "72",
+        "n": 128,
+        "bootstrap_gap": "13742302259513439271424544592029015/10633823966279326983230456482242756608",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "147/2",
+        "n": 256,
+        "bootstrap_gap": "79475119590690319492448509292637797/170141183460469231731687303715884105728",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      }
+    ],
+    "best_all_sizes": {
+      "beta": "28",
+      "n": 16,
+      "bootstrap_gap": "9586303944613104486987939003027745443/340282366920938463463374607431768211456",
+      "bridge": {
+        "bound": "41/125",
+        "a": "21962059/1000000000",
+        "b": "349531033/500000000000",
+        "worst_L": 15,
+        "local_exact_PSD": true,
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "3/500",
+          "a": "21962059/1000000000",
+          "b": "349531033/500000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        }
+      },
+      "all_sizes_gap": "9586303944613104486987939003027745443/340282366920938463463374607431768211456"
+    },
+    "seconds": 15.420658973000172
+  },
+  {
+    "epsilon": "3/400",
+    "audited_selected_seed_file": "ff_eps3d400_selected_seeds.json",
+    "float_successful_beta_count": 41,
+    "float_beta_grid": [
+      12,
+      120,
+      0.5
+    ],
+    "exact_successes": [
+      {
+        "beta": "27",
+        "n": 128,
+        "bootstrap_gap": "153747822807737761769074249641743099/42535295865117307932921825928971026432",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "55/2",
+        "n": 64,
+        "bootstrap_gap": "617523902975589266088635430244891881/85070591730234615865843651857942052864",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "59/2",
+        "n": 32,
+        "bootstrap_gap": "572791364633622374896025554619296511/42535295865117307932921825928971026432",
+        "bridge": {
+          "bound": "-333725701141/500000000000",
+          "a": "53772897/1000000000",
+          "b": "419919381/1000000000000",
+          "worst_L": 31,
+          "local_exact_PSD": true,
+          "local_certificate": {
+            "spin": "1/2",
+            "coupling": "3/400",
+            "a": "53772897/1000000000",
+            "b": "419919381/1000000000000",
+            "local_dimension": 16,
+            "exact_inertia": [
+              0,
+              0,
+              16
+            ],
+            "kind": "bilayer",
+            "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+            "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+          }
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "63/2",
+        "n": 16,
+        "bootstrap_gap": "4296709674522160098666301683786093617/340282366920938463463374607431768211456",
+        "bridge": {
+          "bound": "3350728159/20000000000",
+          "a": "27452573/1000000000",
+          "b": "873827609/1000000000000",
+          "worst_L": 15,
+          "local_exact_PSD": true,
+          "local_certificate": {
+            "spin": "1/2",
+            "coupling": "3/400",
+            "a": "27452573/1000000000",
+            "b": "873827609/1000000000000",
+            "local_dimension": 16,
+            "exact_inertia": [
+              0,
+              0,
+              16
+            ],
+            "kind": "bilayer",
+            "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+            "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+          }
+        },
+        "all_sizes_gap": "4296709674522160098666301683786093617/340282366920938463463374607431768211456"
+      },
+      {
+        "beta": "47",
+        "n": 1024,
+        "bootstrap_gap": "15886499373753967812856557642353001/85070591730234615865843651857942052864",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      }
+    ],
+    "best_all_sizes": {
+      "beta": "63/2",
+      "n": 16,
+      "bootstrap_gap": "4296709674522160098666301683786093617/340282366920938463463374607431768211456",
+      "bridge": {
+        "bound": "3350728159/20000000000",
+        "a": "27452573/1000000000",
+        "b": "873827609/1000000000000",
+        "worst_L": 15,
+        "local_exact_PSD": true,
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "3/400",
+          "a": "27452573/1000000000",
+          "b": "873827609/1000000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        }
+      },
+      "all_sizes_gap": "4296709674522160098666301683786093617/340282366920938463463374607431768211456"
+    },
+    "seconds": 12.336028959000032
+  },
+  {
+    "epsilon": "1/125",
+    "audited_selected_seed_file": "ff_eps1d125_selected_seeds.json",
+    "float_successful_beta_count": 26,
+    "float_beta_grid": [
+      12,
+      120,
+      0.5
+    ],
+    "exact_successes": [
+      {
+        "beta": "57/2",
+        "n": 128,
+        "bootstrap_gap": "69639617627887526502389875541296527/21267647932558653966460912964485513216",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "59/2",
+        "n": 64,
+        "bootstrap_gap": "1190951422235397365657127471169044671/170141183460469231731687303715884105728",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "32",
+        "n": 32,
+        "bootstrap_gap": "1445972708809357228759498140402530393/170141183460469231731687303715884105728",
+        "bridge": {
+          "bound": "-389307414493/500000000000",
+          "a": "14339439/250000000",
+          "b": "447914013/1000000000000",
+          "worst_L": 31,
+          "local_exact_PSD": true,
+          "local_certificate": {
+            "spin": "1/2",
+            "coupling": "1/125",
+            "a": "14339439/250000000",
+            "b": "447914013/1000000000000",
+            "local_dimension": 16,
+            "exact_inertia": [
+              0,
+              0,
+              16
+            ],
+            "kind": "bilayer",
+            "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+            "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+          }
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "41",
+        "n": 512,
+        "bootstrap_gap": "49324395837390571887109630367228813/170141183460469231731687303715884105728",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      }
+    ],
+    "best_all_sizes": null,
+    "seconds": 6.723492070001157
+  },
+  {
+    "epsilon": "17/2000",
+    "audited_selected_seed_file": "ff_eps17d2000_selected_seeds.json",
+    "float_successful_beta_count": 8,
+    "float_beta_grid": [
+      12,
+      120,
+      0.5
+    ],
+    "exact_successes": [
+      {
+        "beta": "31",
+        "n": 512,
+        "bootstrap_gap": "64548956396522342759855336370329891/170141183460469231731687303715884105728",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "63/2",
+        "n": 256,
+        "bootstrap_gap": "531806105172868488313790889309674293/340282366920938463463374607431768211456",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      },
+      {
+        "beta": "65/2",
+        "n": 128,
+        "bootstrap_gap": "675427740767930538083603620537361547/340282366920938463463374607431768211456",
+        "bridge": {
+          "bound": null,
+          "reason": "a outside q-sector bridge range"
+        },
+        "all_sizes_gap": null
+      }
+    ],
+    "best_all_sizes": null,
+    "seconds": 14.337117996001325
+  },
+  {
+    "epsilon": "9/1000",
+    "audited_selected_seed_file": "ff_eps9d1000_selected_seeds.json",
+    "float_successful_beta_count": 0,
+    "float_beta_grid": [
+      12,
+      120,
+      0.5
+    ],
+    "exact_successes": [],
+    "best_all_sizes": null,
+    "seconds": 23.728981066000415
+  },
+  {
+    "epsilon": "1/100",
+    "audited_selected_seed_file": "ff_eps1d100_selected_seeds.json",
+    "float_successful_beta_count": 0,
+    "float_beta_grid": [
+      12,
+      120,
+      0.5
+    ],
+    "exact_successes": [],
+    "best_all_sizes": null,
+    "seconds": 17.600170753001294
+  },
+  {
+    "epsilon": "1/80",
+    "audited_selected_seed_file": "ff_eps1d80_selected_seeds.json",
+    "float_successful_beta_count": 0,
+    "float_beta_grid": [
+      12,
+      120,
+      0.5
+    ],
+    "exact_successes": [],
+    "best_all_sizes": null,
+    "seconds": 15.732186736000585
+  },
+  {
+    "epsilon": "3/200",
+    "audited_selected_seed_file": "ff_eps3d200_selected_seeds.json",
+    "float_successful_beta_count": 0,
+    "float_beta_grid": [
+      12,
+      120,
+      0.5
+    ],
+    "exact_successes": [],
+    "best_all_sizes": null,
+    "seconds": 17.25970351399883
+  },
+  {
+    "epsilon": "1/50",
+    "audited_selected_seed_file": "ff_eps1d50_selected_seeds.json",
+    "float_successful_beta_count": 0,
+    "float_beta_grid": [
+      12,
+      120,
+      0.5
+    ],
+    "exact_successes": [],
+    "best_all_sizes": null,
+    "seconds": 13.620099355999628
+  }
+]

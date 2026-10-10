@@ -1,0 +1,83 @@
+{
+  "status": "exact_rational_sparse_support_ground_certificate",
+  "s": "1",
+  "N_dimers": 4,
+  "physical_sites": 8,
+  "full_dimension": 6561,
+  "retained_states": 1,
+  "trial_subspace_dimension": 1099,
+  "reached_support_dimension": 1107,
+  "trial_max_excited_dimers": 4,
+  "support_depth": 4,
+  "E00": "-8",
+  "Vmin": "-32/25",
+  "Vmax": "16/25",
+  "second_eigenvalue_lower": "-483330052443/62500000000",
+  "ground_lower": "-53579025574502960504722116817879241589363/6637479845560007315118672063564874146400",
+  "ground_upper": "-2529450855170753723083542165559/313353572444107960795417055200",
+  "ground_lower_display": -8.072194088897074,
+  "ground_upper_display": -8.072194088745949,
+  "ground_width_display": 1.511260430678741e-10,
+  "exact_rayleigh": "-2529450855170753723083542165559/313353572444107960795417055200",
+  "exact_residual_squared": "5029179767569304515011903207332821552515979981199/98190461363484815934991671795146040900847075703039847040000",
+  "exact_residual_squared_display": 5.121861836408034e-11,
+  "integer_matrix_denominator": 225,
+  "sparse_nnz": 32201,
+  "build_seconds": 0.5121506670002418,
+  "total_seconds": 0.6276189599993813,
+  "peak_process_rss_kib": 83564,
+  "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+  "relative_form_bound": {
+    "alpha": "17/25",
+    "B": "25830052443/62500000000",
+    "second_shift_lower": "16669947557/62500000000",
+    "local_certificate": {
+      "spin": "1",
+      "coupling": "4/25",
+      "a": "4/25",
+      "b": "25830052443/250000000000",
+      "local_dimension": 81,
+      "exact_inertia": [
+        0,
+        0,
+        81
+      ],
+      "kind": "single",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+    "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+  },
+  "trial_artifact": "chain_s1_M4_g4d25_depth4_trial.npz",
+  "weak_bonds": [
+    [
+      3,
+      1,
+      0,
+      0,
+      "4/25"
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      "4/25"
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      "4/25"
+    ],
+    [
+      2,
+      1,
+      3,
+      0,
+      "4/25"
+    ]
+  ]
+}

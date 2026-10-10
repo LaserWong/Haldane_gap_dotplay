@@ -1,0 +1,1326 @@
+{
+  "status": "passed_all_requested_independent_checks",
+  "arithmetic": "independent Fraction symmetric elimination",
+  "limits": {
+    "blas_threads": 1,
+    "cpu_affinity_count": 1,
+    "address_space_bytes": 1073741824
+  },
+  "records": [
+    {
+      "shape": "2x2",
+      "source_sha256": "6d99d94a78bc0638002a830d3062764a89f9bdab27007ccd5bcd2ac55c9d7646",
+      "local_and_global": {
+        "local_relative_bound_inertia": [
+          0,
+          0,
+          16
+        ],
+        "alpha": "47/50",
+        "B": "259807621137/1250000000000",
+        "certified_band_dimension": 13,
+        "a": "2090192378863/1250000000000",
+        "b": "19357510870107780606307711877692823/11577098515588470651151250000000000",
+        "all_scalar_relations_passed": true
+      },
+      "blocks": [
+        {
+          "parity": 0,
+          "M": 0,
+          "k": 1,
+          "trial_dimension": 19,
+          "reached_dimension": 34,
+          "independent_matrix_denominator": 400,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                0
+              ],
+              "schur_lower": [
+                0,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 0,
+          "k": 4,
+          "trial_dimension": 32,
+          "reached_dimension": 32,
+          "independent_matrix_denominator": 400,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                3
+              ],
+              "schur_lower": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                0
+              ],
+              "schur_lower": [
+                3,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 1,
+          "k": 4,
+          "trial_dimension": 28,
+          "reached_dimension": 28,
+          "independent_matrix_denominator": 400,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                3
+              ],
+              "schur_lower": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                0
+              ],
+              "schur_lower": [
+                3,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "ED_diagnostic": {
+        "kind": "full physical-spin ED, diagnostic only",
+        "dimension": 256,
+        "maximum_eigenpair_residual": 6.075926833105494e-15,
+        "certified_interval_containment": true,
+        "diagnostic_modes_below_a": 13,
+        "first_omitted_eigenvalue": 1.8813806911838948,
+        "heat_trace_tests": [
+          {
+            "beta": 0,
+            "lower": 13.0,
+            "physical_ED_trace": 256.0,
+            "upper": 256.0
+          },
+          {
+            "beta": 1,
+            "lower": 5.40626242690078,
+            "physical_ED_trace": 19.52607208994401,
+            "upper": 25.68299749013696
+          },
+          {
+            "beta": 8,
+            "lower": 1.0041698069173985,
+            "physical_ED_trace": 1.004219001351195,
+            "upper": 1.0043480030602479
+          },
+          {
+            "beta": 10,
+            "lower": 1.0005794393640473,
+            "physical_ED_trace": 1.0006329580899018,
+            "upper": 1.0007047969675318
+          },
+          {
+            "beta": 20,
+            "lower": 1.0000000330549708,
+            "physical_ED_trace": 1.0001068248823772,
+            "upper": 1.000245175097516
+          },
+          {
+            "beta": 32,
+            "lower": 1.0000000000003169,
+            "physical_ED_trace": 1.000170872398246,
+            "upper": 1.0003922561126335
+          }
+        ]
+      },
+      "seconds": 0.1254614200006472,
+      "peak_rss_kib": 51656
+    },
+    {
+      "shape": "4x2",
+      "source_sha256": "0b684675b3f056fffef26442d0cd27020c24003605bab7cd664b1eea170acf2e",
+      "local_and_global": {
+        "local_relative_bound_inertia": [
+          0,
+          0,
+          16
+        ],
+        "alpha": "22/25",
+        "B": "150000000001/625000000000",
+        "certified_band_dimension": 25,
+        "a": "949999999999/625000000000",
+        "b": "117858638869879611518249972386010669/77576107259048508743331875000000000",
+        "all_scalar_relations_passed": true
+      },
+      "blocks": [
+        {
+          "parity": 0,
+          "M": 0,
+          "k": 1,
+          "trial_dimension": 85,
+          "reached_dimension": 1101,
+          "independent_matrix_denominator": 400,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                0
+              ],
+              "schur_lower": [
+                0,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 0,
+          "k": 8,
+          "trial_dimension": 400,
+          "reached_dimension": 3048,
+          "independent_matrix_denominator": 400,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                8
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                7
+              ],
+              "schur_lower": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                4
+              ],
+              "schur_lower": [
+                3,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                4,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                3
+              ],
+              "schur_lower": [
+                4,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                7,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                8,
+                0,
+                0
+              ],
+              "schur_lower": [
+                7,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 1,
+          "k": 8,
+          "trial_dimension": 344,
+          "reached_dimension": 2544,
+          "independent_matrix_denominator": 400,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                8
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                7
+              ],
+              "schur_lower": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                4
+              ],
+              "schur_lower": [
+                3,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                4,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                3
+              ],
+              "schur_lower": [
+                4,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                7,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                8,
+                0,
+                0
+              ],
+              "schur_lower": [
+                7,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "ED_diagnostic": {
+        "kind": "physical-spin fixed-Sz ED, diagnostic only",
+        "sectors": [
+          {
+            "M": 0,
+            "dimension": 12870,
+            "checked_low_modes": 9,
+            "maximum_eigenpair_residual": 1.509023293045261e-14,
+            "certified_interval_containment": true,
+            "first_omitted_eigenvalue": 1.8752504687413747,
+            "eigenvalues": [
+              -0.008307812376828358,
+              0.9326026357415423,
+              0.9640310030151862,
+              0.9640310030151898,
+              0.9944470116232764,
+              0.9945111009845716,
+              1.0239737664130946,
+              1.0239737664130992,
+              1.052592192764707,
+              1.8752504687413747,
+              1.8913870092967604,
+              1.9006360560119957,
+              1.9006360560120001,
+              1.9065214827227916,
+              1.9065214827227983,
+              1.9189121377667908,
+              1.9245480824991243,
+              1.9273407516401786,
+              1.9280618970369672,
+              1.9286742500009153
+            ]
+          },
+          {
+            "M": 1,
+            "dimension": 11440,
+            "checked_low_modes": 8,
+            "maximum_eigenpair_residual": 2.2276042376053436e-14,
+            "certified_interval_containment": true,
+            "first_omitted_eigenvalue": 1.891387009296757,
+            "eigenvalues": [
+              0.932602635741539,
+              0.964031003015189,
+              0.9640310030151955,
+              0.9944470116232756,
+              0.9945111009845709,
+              1.023973766413095,
+              1.0239737664130995,
+              1.0525921927647044,
+              1.891387009296757,
+              1.900636056012,
+              1.900636056012012,
+              1.924548082499131,
+              1.9273407516401777,
+              1.9280618970369636,
+              1.9358621019099842,
+              1.9366405393690684,
+              1.9366405393690724,
+              1.9431291228277412,
+              1.946266993204891,
+              1.9462669932048913
+            ]
+          },
+          {
+            "M": 2,
+            "dimension": 8008,
+            "checked_low_modes": 0,
+            "maximum_eigenpair_residual": 8.106186965633783e-15,
+            "certified_interval_containment": false,
+            "first_omitted_eigenvalue": 1.8913870092967635,
+            "eigenvalues": [
+              1.8913870092967635,
+              1.93586210190999,
+              1.9366405393690738,
+              1.9366405393690798,
+              1.943129122827743,
+              1.9600526897324453,
+              1.9658560320950902,
+              1.9658560320950942,
+              1.9706874638649037,
+              1.994258537779669,
+              1.9963143687405465,
+              1.9969696189424515,
+              2.010398341849081,
+              2.010488067593755,
+              2.0104880675937653,
+              2.010735429103887,
+              2.0218683928763665,
+              2.0218683928763737,
+              2.0244539706550615,
+              2.025856591842178
+            ]
+          }
+        ]
+      },
+      "seconds": 10.485558023998237,
+      "peak_rss_kib": 78624
+    },
+    {
+      "shape": "4x4",
+      "source_sha256": "06a98a6c33b5ebf4c514784c2d25b6b7e842a0d9419c3db9d14339f874316871",
+      "local_and_global": {
+        "local_relative_bound_inertia": [
+          0,
+          0,
+          16
+        ],
+        "alpha": "41/50",
+        "B": "96862696661/312500000000",
+        "certified_band_dimension": 49,
+        "a": "415637303339/312500000000",
+        "b": "17036897413757102450989088713135993/12848022450697875151433437500000000",
+        "all_scalar_relations_passed": true
+      },
+      "blocks": [
+        {
+          "parity": 0,
+          "M": 0,
+          "k": 1,
+          "trial_dimension": 361,
+          "reached_dimension": 20081,
+          "independent_matrix_denominator": 400,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                0
+              ],
+              "schur_lower": [
+                0,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 0,
+          "k": 16,
+          "trial_dimension": 3936,
+          "reached_dimension": 168368,
+          "independent_matrix_denominator": 400,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                16
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                15
+              ],
+              "schur_lower": [
+                0,
+                0,
+                16
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                15,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                16,
+                0,
+                0
+              ],
+              "schur_lower": [
+                15,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 1,
+          "k": 16,
+          "trial_dimension": 3376,
+          "reached_dimension": 141136,
+          "independent_matrix_denominator": 400,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                16
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                15
+              ],
+              "schur_lower": [
+                0,
+                0,
+                16
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                15,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                16,
+                0,
+                0
+              ],
+              "schur_lower": [
+                15,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "seconds": 36.38200358699942,
+      "peak_rss_kib": 304828
+    }
+  ]
+}

@@ -1,0 +1,2443 @@
+{
+  "J": "3/10",
+  "epsilon": "1/100",
+  "perturbation": "straight J+epsilon, crossed J; unit rungs",
+  "ground_certificates": [
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1/2",
+      "N_dimers": 4,
+      "physical_sites": 8,
+      "full_dimension": 256,
+      "retained_states": 1,
+      "trial_subspace_dimension": 23,
+      "reached_support_dimension": 58,
+      "trial_max_excited_dimers": 2,
+      "support_depth": null,
+      "E00": "-3",
+      "Vmin": "-183/25",
+      "Vmax": "61/25",
+      "second_eigenvalue_lower": "-170000000001/62500000000",
+      "ground_lower": "-68106265966256630554059538039385989933/22690427284743203113555318328685404025",
+      "ground_upper": "-11611630843655770839342030201/3868562622766985326443787925",
+      "ground_lower_display": -3.0015418004953367,
+      "ground_upper_display": -3.0015362231232445,
+      "ground_width_display": 5.577372092108214e-06,
+      "exact_rayleigh": "-11611630843655770839342030201/3868562622766985326443787925",
+      "exact_residual_squared": "23499745679025723683767547473708543873525221356166/14965776766269776415594078792479962628858924822375805625",
+      "exact_residual_squared_display": 1.5702322736758983e-06,
+      "integer_matrix_denominator": 400,
+      "sparse_nnz": 179,
+      "build_seconds": 0.04342247599925031,
+      "total_seconds": 0.04489470299995446,
+      "peak_process_rss_kib": 105240,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "reference_certificate": {
+        "status": "exact_occupancy_star_plus_local_PSD_reference",
+        "J": "3/10",
+        "a": "0",
+        "b": "7500000001/500000000000",
+        "B": "7500000001/62500000000",
+        "second_shift_lower": "17499999999/62500000000",
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "1/100",
+          "a": "0",
+          "b": "7500000001/500000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "bins": [
+          {
+            "q": 0,
+            "energy_lower": "0",
+            "multiplicity": 1
+          },
+          {
+            "q": 1,
+            "energy_lower": "1",
+            "multiplicity": 12
+          },
+          {
+            "q": 2,
+            "energy_lower": "4/5",
+            "multiplicity": 36
+          },
+          {
+            "q": 2,
+            "energy_lower": "2",
+            "multiplicity": 18
+          },
+          {
+            "q": 3,
+            "energy_lower": "9/10",
+            "multiplicity": 108
+          },
+          {
+            "q": 4,
+            "energy_lower": "2/5",
+            "multiplicity": 81
+          }
+        ],
+        "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+      },
+      "trial_artifact": "ff_2x2_eps1d100_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          2,
+          0,
+          "31/50"
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          "31/50"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "31/50"
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "31/50"
+        ],
+        [
+          1,
+          0,
+          3,
+          0,
+          "31/50"
+        ],
+        [
+          1,
+          0,
+          3,
+          1,
+          "3/5"
+        ],
+        [
+          1,
+          1,
+          3,
+          0,
+          "3/5"
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          "31/50"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "31/50"
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "31/50"
+        ]
+      ],
+      "nx": 2,
+      "ny": 2
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1/2",
+      "N_dimers": 8,
+      "physical_sites": 16,
+      "full_dimension": 65536,
+      "retained_states": 1,
+      "trial_subspace_dimension": 93,
+      "reached_support_dimension": 1301,
+      "trial_max_excited_dimers": 2,
+      "support_depth": null,
+      "E00": "-6",
+      "Vmin": "-366/25",
+      "Vmax": "122/25",
+      "second_eigenvalue_lower": "-170000000001/31250000000",
+      "ground_lower": "-2609660561158275492208296266975889379961/434800246742660767907982498373913132640",
+      "ground_upper": "-148601484170803107146110620039/24758800785706926644836867360",
+      "ground_lower_display": -6.001975805461811,
+      "ground_upper_display": -6.001966147592643,
+      "ground_width_display": 9.657869167839629e-06,
+      "exact_rayleigh": "-148601484170803107146110620039/24758800785706926644836867360",
+      "exact_residual_squared": "83174594480799318356987521111236787821397384135005751/15324955408658048204093716021514951640131405666455834240000",
+      "exact_residual_squared_display": 5.427395529895549e-06,
+      "integer_matrix_denominator": 800,
+      "sparse_nnz": 2505,
+      "build_seconds": 0.04589423300058115,
+      "total_seconds": 0.04934755700014648,
+      "peak_process_rss_kib": 105240,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "reference_certificate": {
+        "status": "exact_occupancy_star_plus_local_PSD_reference",
+        "J": "3/10",
+        "a": "0",
+        "b": "7500000001/500000000000",
+        "B": "7500000001/31250000000",
+        "second_shift_lower": "17499999999/31250000000",
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "1/100",
+          "a": "0",
+          "b": "7500000001/500000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "bins": [
+          {
+            "q": 0,
+            "energy_lower": "0",
+            "multiplicity": 1
+          },
+          {
+            "q": 1,
+            "energy_lower": "1",
+            "multiplicity": 24
+          },
+          {
+            "q": 2,
+            "energy_lower": "4/5",
+            "multiplicity": 36
+          },
+          {
+            "q": 2,
+            "energy_lower": "7/5",
+            "multiplicity": 72
+          },
+          {
+            "q": 2,
+            "energy_lower": "2",
+            "multiplicity": 144
+          },
+          {
+            "q": 3,
+            "energy_lower": "27/20",
+            "multiplicity": 432
+          },
+          {
+            "q": 3,
+            "energy_lower": "9/5",
+            "multiplicity": 216
+          },
+          {
+            "q": 3,
+            "energy_lower": "39/20",
+            "multiplicity": 216
+          },
+          {
+            "q": 3,
+            "energy_lower": "12/5",
+            "multiplicity": 432
+          },
+          {
+            "q": 3,
+            "energy_lower": "3",
+            "multiplicity": 216
+          },
+          {
+            "q": 4,
+            "energy_lower": "1",
+            "multiplicity": 324
+          },
+          {
+            "q": 4,
+            "energy_lower": "8/5",
+            "multiplicity": 162
+          },
+          {
+            "q": 4,
+            "energy_lower": "19/10",
+            "multiplicity": 2592
+          },
+          {
+            "q": 4,
+            "energy_lower": "11/5",
+            "multiplicity": 162
+          },
+          {
+            "q": 4,
+            "energy_lower": "47/20",
+            "multiplicity": 1296
+          },
+          {
+            "q": 4,
+            "energy_lower": "14/5",
+            "multiplicity": 324
+          },
+          {
+            "q": 4,
+            "energy_lower": "59/20",
+            "multiplicity": 648
+          },
+          {
+            "q": 4,
+            "energy_lower": "4",
+            "multiplicity": 162
+          },
+          {
+            "q": 5,
+            "energy_lower": "31/20",
+            "multiplicity": 3888
+          },
+          {
+            "q": 5,
+            "energy_lower": "37/20",
+            "multiplicity": 1944
+          },
+          {
+            "q": 5,
+            "energy_lower": "43/20",
+            "multiplicity": 1944
+          },
+          {
+            "q": 5,
+            "energy_lower": "49/20",
+            "multiplicity": 3888
+          },
+          {
+            "q": 5,
+            "energy_lower": "29/10",
+            "multiplicity": 1944
+          },
+          {
+            "q": 6,
+            "energy_lower": "6/5",
+            "multiplicity": 2916
+          },
+          {
+            "q": 6,
+            "energy_lower": "9/5",
+            "multiplicity": 5832
+          },
+          {
+            "q": 6,
+            "energy_lower": "21/10",
+            "multiplicity": 11664
+          },
+          {
+            "q": 7,
+            "energy_lower": "29/20",
+            "multiplicity": 17496
+          },
+          {
+            "q": 8,
+            "energy_lower": "4/5",
+            "multiplicity": 6561
+          }
+        ],
+        "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+      },
+      "trial_artifact": "ff_4x2_eps1d100_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          2,
+          0,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "31/50"
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "31/50"
+        ],
+        [
+          1,
+          0,
+          3,
+          0,
+          "31/100"
+        ],
+        [
+          1,
+          0,
+          3,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          3,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          "31/100"
+        ],
+        [
+          2,
+          0,
+          4,
+          0,
+          "31/100"
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          4,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          4,
+          1,
+          "31/100"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "31/50"
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "31/50"
+        ],
+        [
+          3,
+          0,
+          5,
+          0,
+          "31/100"
+        ],
+        [
+          3,
+          0,
+          5,
+          1,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          5,
+          0,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          5,
+          1,
+          "31/100"
+        ],
+        [
+          4,
+          0,
+          6,
+          0,
+          "31/100"
+        ],
+        [
+          4,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          6,
+          1,
+          "31/100"
+        ],
+        [
+          4,
+          0,
+          5,
+          0,
+          "31/50"
+        ],
+        [
+          4,
+          0,
+          5,
+          1,
+          "3/5"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "3/5"
+        ],
+        [
+          4,
+          1,
+          5,
+          1,
+          "31/50"
+        ],
+        [
+          5,
+          0,
+          7,
+          0,
+          "31/100"
+        ],
+        [
+          5,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          7,
+          1,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          6,
+          1,
+          "31/100"
+        ],
+        [
+          6,
+          0,
+          7,
+          0,
+          "31/50"
+        ],
+        [
+          6,
+          0,
+          7,
+          1,
+          "3/5"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "3/5"
+        ],
+        [
+          6,
+          1,
+          7,
+          1,
+          "31/50"
+        ],
+        [
+          1,
+          0,
+          7,
+          0,
+          "31/100"
+        ],
+        [
+          1,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          7,
+          1,
+          "31/100"
+        ]
+      ],
+      "nx": 4,
+      "ny": 2
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1/2",
+      "N_dimers": 16,
+      "physical_sites": 32,
+      "full_dimension": 4294967296,
+      "retained_states": 1,
+      "trial_subspace_dimension": 377,
+      "reached_support_dimension": 21345,
+      "trial_max_excited_dimers": 2,
+      "support_depth": null,
+      "E00": "-12",
+      "Vmin": "-732/25",
+      "Vmax": "244/25",
+      "second_eigenvalue_lower": "-348567627507/31250000000",
+      "ground_lower": "-819828691311014269600884260537666147548/68309206579352724685138324554666260475",
+      "ground_upper": "-92858848329538819023466183908/7737125245533221652114468725",
+      "ground_lower_display": -12.00173054797005,
+      "ground_upper_display": -12.001724850343848,
+      "ground_width_display": 5.697626200446208e-06,
+      "exact_rayleigh": "-92858848329538819023466183908/7737125245533221652114468725",
+      "exact_residual_squared": "289083999474873883093056419938647939585250527847182/59863107065067515436795252534204608759306770489003125625",
+      "exact_residual_squared_display": 4.829084450305217e-06,
+      "integer_matrix_denominator": 800,
+      "sparse_nnz": 31001,
+      "build_seconds": 0.26731452499916486,
+      "total_seconds": 0.3154723739990004,
+      "peak_process_rss_kib": 108184,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "reference_certificate": {
+        "status": "exact_occupancy_star_plus_local_PSD_reference",
+        "J": "3/10",
+        "a": "20655179/1000000000",
+        "b": "558932533/250000000000",
+        "B": "558932533/7812500000",
+        "second_shift_lower": "26432372493/31250000000",
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "1/100",
+          "a": "20655179/1000000000",
+          "b": "558932533/250000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "bins": [
+          {
+            "q": 0,
+            "energy_lower": "0",
+            "multiplicity": 1
+          },
+          {
+            "q": 1,
+            "energy_lower": "1",
+            "multiplicity": 48
+          },
+          {
+            "q": 2,
+            "energy_lower": "7/5",
+            "multiplicity": 288
+          },
+          {
+            "q": 2,
+            "energy_lower": "2",
+            "multiplicity": 792
+          },
+          {
+            "q": 3,
+            "energy_lower": "39/20",
+            "multiplicity": 2592
+          },
+          {
+            "q": 3,
+            "energy_lower": "12/5",
+            "multiplicity": 6912
+          },
+          {
+            "q": 3,
+            "energy_lower": "3",
+            "multiplicity": 5616
+          },
+          {
+            "q": 4,
+            "energy_lower": "11/5",
+            "multiplicity": 1944
+          },
+          {
+            "q": 4,
+            "energy_lower": "5/2",
+            "multiplicity": 20736
+          },
+          {
+            "q": 4,
+            "energy_lower": "14/5",
+            "multiplicity": 12960
+          },
+          {
+            "q": 4,
+            "energy_lower": "59/20",
+            "multiplicity": 46656
+          },
+          {
+            "q": 4,
+            "energy_lower": "17/5",
+            "multiplicity": 46656
+          },
+          {
+            "q": 4,
+            "energy_lower": "4",
+            "multiplicity": 18468
+          },
+          {
+            "q": 5,
+            "energy_lower": "11/4",
+            "multiplicity": 46656
+          },
+          {
+            "q": 5,
+            "energy_lower": "61/20",
+            "multiplicity": 143856
+          },
+          {
+            "q": 5,
+            "energy_lower": "16/5",
+            "multiplicity": 23328
+          },
+          {
+            "q": 5,
+            "energy_lower": "67/20",
+            "multiplicity": 139968
+          },
+          {
+            "q": 5,
+            "energy_lower": "7/2",
+            "multiplicity": 264384
+          },
+          {
+            "q": 5,
+            "energy_lower": "19/5",
+            "multiplicity": 93312
+          },
+          {
+            "q": 5,
+            "energy_lower": "79/20",
+            "multiplicity": 209952
+          },
+          {
+            "q": 5,
+            "energy_lower": "22/5",
+            "multiplicity": 108864
+          },
+          {
+            "q": 5,
+            "energy_lower": "5",
+            "multiplicity": 31104
+          },
+          {
+            "q": 6,
+            "energy_lower": "3",
+            "multiplicity": 69984
+          },
+          {
+            "q": 6,
+            "energy_lower": "33/10",
+            "multiplicity": 513216
+          },
+          {
+            "q": 6,
+            "energy_lower": "18/5",
+            "multiplicity": 909792
+          },
+          {
+            "q": 6,
+            "energy_lower": "15/4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 6,
+            "energy_lower": "39/10",
+            "multiplicity": 921456
+          },
+          {
+            "q": 6,
+            "energy_lower": "81/20",
+            "multiplicity": 1178064
+          },
+          {
+            "q": 6,
+            "energy_lower": "21/5",
+            "multiplicity": 58320
+          },
+          {
+            "q": 6,
+            "energy_lower": "87/20",
+            "multiplicity": 419904
+          },
+          {
+            "q": 6,
+            "energy_lower": "9/2",
+            "multiplicity": 699840
+          },
+          {
+            "q": 6,
+            "energy_lower": "24/5",
+            "multiplicity": 209952
+          },
+          {
+            "q": 6,
+            "energy_lower": "99/20",
+            "multiplicity": 349920
+          },
+          {
+            "q": 6,
+            "energy_lower": "27/5",
+            "multiplicity": 46656
+          },
+          {
+            "q": 6,
+            "energy_lower": "6",
+            "multiplicity": 40824
+          },
+          {
+            "q": 7,
+            "energy_lower": "13/4",
+            "multiplicity": 139968
+          },
+          {
+            "q": 7,
+            "energy_lower": "71/20",
+            "multiplicity": 1364688
+          },
+          {
+            "q": 7,
+            "energy_lower": "77/20",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 7,
+            "energy_lower": "4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 7,
+            "energy_lower": "83/20",
+            "multiplicity": 5178816
+          },
+          {
+            "q": 7,
+            "energy_lower": "43/10",
+            "multiplicity": 2869344
+          },
+          {
+            "q": 7,
+            "energy_lower": "89/20",
+            "multiplicity": 3079296
+          },
+          {
+            "q": 7,
+            "energy_lower": "23/5",
+            "multiplicity": 3359232
+          },
+          {
+            "q": 7,
+            "energy_lower": "19/4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 7,
+            "energy_lower": "49/10",
+            "multiplicity": 1154736
+          },
+          {
+            "q": 7,
+            "energy_lower": "101/20",
+            "multiplicity": 1889568
+          },
+          {
+            "q": 7,
+            "energy_lower": "26/5",
+            "multiplicity": 139968
+          },
+          {
+            "q": 7,
+            "energy_lower": "107/20",
+            "multiplicity": 419904
+          },
+          {
+            "q": 7,
+            "energy_lower": "11/2",
+            "multiplicity": 559872
+          },
+          {
+            "q": 7,
+            "energy_lower": "119/20",
+            "multiplicity": 209952
+          },
+          {
+            "q": 7,
+            "energy_lower": "7",
+            "multiplicity": 34992
+          },
+          {
+            "q": 8,
+            "energy_lower": "16/5",
+            "multiplicity": 52488
+          },
+          {
+            "q": 8,
+            "energy_lower": "19/5",
+            "multiplicity": 5038848
+          },
+          {
+            "q": 8,
+            "energy_lower": "41/10",
+            "multiplicity": 10077696
+          },
+          {
+            "q": 8,
+            "energy_lower": "17/4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 8,
+            "energy_lower": "22/5",
+            "multiplicity": 23225940
+          },
+          {
+            "q": 8,
+            "energy_lower": "91/20",
+            "multiplicity": 5353776
+          },
+          {
+            "q": 8,
+            "energy_lower": "47/10",
+            "multiplicity": 13856832
+          },
+          {
+            "q": 8,
+            "energy_lower": "97/20",
+            "multiplicity": 7558272
+          },
+          {
+            "q": 8,
+            "energy_lower": "5",
+            "multiplicity": 4618944
+          },
+          {
+            "q": 8,
+            "energy_lower": "103/20",
+            "multiplicity": 7138368
+          },
+          {
+            "q": 8,
+            "energy_lower": "53/10",
+            "multiplicity": 2099520
+          },
+          {
+            "q": 8,
+            "energy_lower": "109/20",
+            "multiplicity": 1259712
+          },
+          {
+            "q": 8,
+            "energy_lower": "28/5",
+            "multiplicity": 2571912
+          },
+          {
+            "q": 8,
+            "energy_lower": "59/10",
+            "multiplicity": 314928
+          },
+          {
+            "q": 8,
+            "energy_lower": "121/20",
+            "multiplicity": 419904
+          },
+          {
+            "q": 8,
+            "energy_lower": "13/2",
+            "multiplicity": 419904
+          },
+          {
+            "q": 8,
+            "energy_lower": "8",
+            "multiplicity": 13122
+          },
+          {
+            "q": 9,
+            "energy_lower": "15/4",
+            "multiplicity": 1259712
+          },
+          {
+            "q": 9,
+            "energy_lower": "81/20",
+            "multiplicity": 12282192
+          },
+          {
+            "q": 9,
+            "energy_lower": "87/20",
+            "multiplicity": 37791360
+          },
+          {
+            "q": 9,
+            "energy_lower": "93/20",
+            "multiplicity": 62355744
+          },
+          {
+            "q": 9,
+            "energy_lower": "24/5",
+            "multiplicity": 10077696
+          },
+          {
+            "q": 9,
+            "energy_lower": "99/20",
+            "multiplicity": 50388480
+          },
+          {
+            "q": 9,
+            "energy_lower": "51/10",
+            "multiplicity": 11337408
+          },
+          {
+            "q": 9,
+            "energy_lower": "21/4",
+            "multiplicity": 13226976
+          },
+          {
+            "q": 9,
+            "energy_lower": "27/5",
+            "multiplicity": 14171760
+          },
+          {
+            "q": 9,
+            "energy_lower": "111/20",
+            "multiplicity": 2519424
+          },
+          {
+            "q": 9,
+            "energy_lower": "57/10",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 9,
+            "energy_lower": "117/20",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 9,
+            "energy_lower": "123/20",
+            "multiplicity": 1889568
+          },
+          {
+            "q": 9,
+            "energy_lower": "141/20",
+            "multiplicity": 314928
+          },
+          {
+            "q": 10,
+            "energy_lower": "4",
+            "multiplicity": 5668704
+          },
+          {
+            "q": 10,
+            "energy_lower": "43/10",
+            "multiplicity": 41570496
+          },
+          {
+            "q": 10,
+            "energy_lower": "23/5",
+            "multiplicity": 107705376
+          },
+          {
+            "q": 10,
+            "energy_lower": "49/10",
+            "multiplicity": 158723712
+          },
+          {
+            "q": 10,
+            "energy_lower": "101/20",
+            "multiplicity": 14171760
+          },
+          {
+            "q": 10,
+            "energy_lower": "26/5",
+            "multiplicity": 81251424
+          },
+          {
+            "q": 10,
+            "energy_lower": "107/20",
+            "multiplicity": 11337408
+          },
+          {
+            "q": 10,
+            "energy_lower": "11/2",
+            "multiplicity": 28343520
+          },
+          {
+            "q": 10,
+            "energy_lower": "113/20",
+            "multiplicity": 17006112
+          },
+          {
+            "q": 10,
+            "energy_lower": "119/20",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 10,
+            "energy_lower": "61/10",
+            "multiplicity": 472392
+          },
+          {
+            "q": 10,
+            "energy_lower": "32/5",
+            "multiplicity": 2834352
+          },
+          {
+            "q": 11,
+            "energy_lower": "17/4",
+            "multiplicity": 34012224
+          },
+          {
+            "q": 11,
+            "energy_lower": "91/20",
+            "multiplicity": 121877136
+          },
+          {
+            "q": 11,
+            "energy_lower": "97/20",
+            "multiplicity": 294772608
+          },
+          {
+            "q": 11,
+            "energy_lower": "103/20",
+            "multiplicity": 204073344
+          },
+          {
+            "q": 11,
+            "energy_lower": "53/10",
+            "multiplicity": 17006112
+          },
+          {
+            "q": 11,
+            "energy_lower": "109/20",
+            "multiplicity": 79361856
+          },
+          {
+            "q": 11,
+            "energy_lower": "23/4",
+            "multiplicity": 8503056
+          },
+          {
+            "q": 11,
+            "energy_lower": "59/10",
+            "multiplicity": 14171760
+          },
+          {
+            "q": 12,
+            "energy_lower": "21/5",
+            "multiplicity": 12754584
+          },
+          {
+            "q": 12,
+            "energy_lower": "9/2",
+            "multiplicity": 136048896
+          },
+          {
+            "q": 12,
+            "energy_lower": "24/5",
+            "multiplicity": 391140576
+          },
+          {
+            "q": 12,
+            "energy_lower": "51/10",
+            "multiplicity": 306110016
+          },
+          {
+            "q": 12,
+            "energy_lower": "27/5",
+            "multiplicity": 112665492
+          },
+          {
+            "q": 12,
+            "energy_lower": "111/20",
+            "multiplicity": 8503056
+          },
+          {
+            "q": 13,
+            "energy_lower": "89/20",
+            "multiplicity": 153055008
+          },
+          {
+            "q": 13,
+            "energy_lower": "19/4",
+            "multiplicity": 408146688
+          },
+          {
+            "q": 13,
+            "energy_lower": "101/20",
+            "multiplicity": 331619184
+          },
+          {
+            "q": 14,
+            "energy_lower": "22/5",
+            "multiplicity": 153055008
+          },
+          {
+            "q": 14,
+            "energy_lower": "47/10",
+            "multiplicity": 420901272
+          },
+          {
+            "q": 15,
+            "energy_lower": "87/20",
+            "multiplicity": 229582512
+          },
+          {
+            "q": 16,
+            "energy_lower": "4",
+            "multiplicity": 43046721
+          }
+        ],
+        "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+      },
+      "trial_artifact": "ff_4x4_eps1d100_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          4,
+          0,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          4,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          4,
+          1,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "31/100"
+        ],
+        [
+          1,
+          0,
+          5,
+          0,
+          "31/100"
+        ],
+        [
+          1,
+          0,
+          5,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          5,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          5,
+          1,
+          "31/100"
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          "31/100"
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          2,
+          1,
+          "31/100"
+        ],
+        [
+          2,
+          0,
+          6,
+          0,
+          "31/100"
+        ],
+        [
+          2,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          6,
+          1,
+          "31/100"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "31/100"
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "31/100"
+        ],
+        [
+          3,
+          0,
+          7,
+          0,
+          "31/100"
+        ],
+        [
+          3,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          7,
+          1,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          3,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          3,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          3,
+          1,
+          "31/100"
+        ],
+        [
+          4,
+          0,
+          8,
+          0,
+          "31/100"
+        ],
+        [
+          4,
+          0,
+          8,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          8,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          8,
+          1,
+          "31/100"
+        ],
+        [
+          4,
+          0,
+          5,
+          0,
+          "31/100"
+        ],
+        [
+          4,
+          0,
+          5,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          5,
+          1,
+          "31/100"
+        ],
+        [
+          5,
+          0,
+          9,
+          0,
+          "31/100"
+        ],
+        [
+          5,
+          0,
+          9,
+          1,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          9,
+          0,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          9,
+          1,
+          "31/100"
+        ],
+        [
+          5,
+          0,
+          6,
+          0,
+          "31/100"
+        ],
+        [
+          5,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          6,
+          1,
+          "31/100"
+        ],
+        [
+          6,
+          0,
+          10,
+          0,
+          "31/100"
+        ],
+        [
+          6,
+          0,
+          10,
+          1,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          10,
+          0,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          10,
+          1,
+          "31/100"
+        ],
+        [
+          6,
+          0,
+          7,
+          0,
+          "31/100"
+        ],
+        [
+          6,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          7,
+          1,
+          "31/100"
+        ],
+        [
+          7,
+          0,
+          11,
+          0,
+          "31/100"
+        ],
+        [
+          7,
+          0,
+          11,
+          1,
+          "3/10"
+        ],
+        [
+          7,
+          1,
+          11,
+          0,
+          "3/10"
+        ],
+        [
+          7,
+          1,
+          11,
+          1,
+          "31/100"
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          "31/100"
+        ],
+        [
+          4,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          7,
+          1,
+          "31/100"
+        ],
+        [
+          8,
+          0,
+          12,
+          0,
+          "31/100"
+        ],
+        [
+          8,
+          0,
+          12,
+          1,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          12,
+          0,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          12,
+          1,
+          "31/100"
+        ],
+        [
+          8,
+          0,
+          9,
+          0,
+          "31/100"
+        ],
+        [
+          8,
+          0,
+          9,
+          1,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          9,
+          0,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          9,
+          1,
+          "31/100"
+        ],
+        [
+          9,
+          0,
+          13,
+          0,
+          "31/100"
+        ],
+        [
+          9,
+          0,
+          13,
+          1,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          13,
+          0,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          13,
+          1,
+          "31/100"
+        ],
+        [
+          9,
+          0,
+          10,
+          0,
+          "31/100"
+        ],
+        [
+          9,
+          0,
+          10,
+          1,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          10,
+          0,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          10,
+          1,
+          "31/100"
+        ],
+        [
+          10,
+          0,
+          14,
+          0,
+          "31/100"
+        ],
+        [
+          10,
+          0,
+          14,
+          1,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          14,
+          0,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          14,
+          1,
+          "31/100"
+        ],
+        [
+          10,
+          0,
+          11,
+          0,
+          "31/100"
+        ],
+        [
+          10,
+          0,
+          11,
+          1,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          11,
+          0,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          11,
+          1,
+          "31/100"
+        ],
+        [
+          11,
+          0,
+          15,
+          0,
+          "31/100"
+        ],
+        [
+          11,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          11,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          11,
+          1,
+          15,
+          1,
+          "31/100"
+        ],
+        [
+          8,
+          0,
+          11,
+          0,
+          "31/100"
+        ],
+        [
+          8,
+          0,
+          11,
+          1,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          11,
+          0,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          11,
+          1,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          12,
+          0,
+          "31/100"
+        ],
+        [
+          0,
+          0,
+          12,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          12,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          12,
+          1,
+          "31/100"
+        ],
+        [
+          12,
+          0,
+          13,
+          0,
+          "31/100"
+        ],
+        [
+          12,
+          0,
+          13,
+          1,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          13,
+          0,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          13,
+          1,
+          "31/100"
+        ],
+        [
+          1,
+          0,
+          13,
+          0,
+          "31/100"
+        ],
+        [
+          1,
+          0,
+          13,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          13,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          13,
+          1,
+          "31/100"
+        ],
+        [
+          13,
+          0,
+          14,
+          0,
+          "31/100"
+        ],
+        [
+          13,
+          0,
+          14,
+          1,
+          "3/10"
+        ],
+        [
+          13,
+          1,
+          14,
+          0,
+          "3/10"
+        ],
+        [
+          13,
+          1,
+          14,
+          1,
+          "31/100"
+        ],
+        [
+          2,
+          0,
+          14,
+          0,
+          "31/100"
+        ],
+        [
+          2,
+          0,
+          14,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          14,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          14,
+          1,
+          "31/100"
+        ],
+        [
+          14,
+          0,
+          15,
+          0,
+          "31/100"
+        ],
+        [
+          14,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          14,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          14,
+          1,
+          15,
+          1,
+          "31/100"
+        ],
+        [
+          3,
+          0,
+          15,
+          0,
+          "31/100"
+        ],
+        [
+          3,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          15,
+          1,
+          "31/100"
+        ],
+        [
+          12,
+          0,
+          15,
+          0,
+          "31/100"
+        ],
+        [
+          12,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          15,
+          1,
+          "31/100"
+        ]
+      ],
+      "nx": 4,
+      "ny": 4
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "16",
+      "A_lower": "11614044140855741336864063762574434959/42535295865117307932921825928971026432",
+      "B_lower": "24690188495554495735829860061755137919/85070591730234615865843651857942052864",
+      "C_lower": "340176626556875272830742403610366501831/340282366920938463463374607431768211456",
+      "J1_lower": "1762372496257592013768687236958380825/340282366920938463463374607431768211456",
+      "J2_lower": "2414455761350124024909039221006718917/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.27304486555553226,
+        0.29023177097261743,
+        0.9996892569984746
+      ],
+      "tail_displays": [
+        0.896788400046094,
+        0.8235651022366314,
+        6.42415460066454e-05
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    },
+    {
+      "beta": "24",
+      "A_lower": "276701959231021643236548607018061706453/340282366920938463463374607431768211456",
+      "B_lower": "316743093032885090690571033600360551985/340282366920938463463374607431768211456",
+      "C_lower": "85047317296452900233633042217894140927/85070591730234615865843651857942052864",
+      "J1_lower": "33454451760170128894318255052086103847/85070591730234615865843651857942052864",
+      "J2_lower": "127726285618387825707310422697023762085/170141183460469231731687303715884105728",
+      "purity_displays": [
+        0.8131539748438121,
+        0.9308242913053367,
+        0.9997264103457101
+      ],
+      "tail_displays": [
+        0.09419559844601695,
+        0.009165097846310147,
+        7.052421830799811e-08
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    },
+    {
+      "beta": "32",
+      "A_lower": "160960807559029516656087582490608825629/170141183460469231731687303715884105728",
+      "B_lower": "316814070732920879119814072606475560451/340282366920938463463374607431768211456",
+      "C_lower": "85039576544137450871511932789832001627/85070591730234615865843651857942052864",
+      "J1_lower": "118330481004004712150590636663502583547/170141183460469231731687303715884105728",
+      "J2_lower": "127840810807957236026240218766159055175/170141183460469231731687303715884105728",
+      "purity_displays": [
+        0.9460425999471628,
+        0.9310328760189027,
+        0.9996354182395308
+      ],
+      "tail_displays": [
+        0.009905069254098323,
+        0.00010221239833584641,
+        7.987879941261462e-11
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "reason": "Nonpositive purity lower bound"
+      }
+    },
+    {
+      "beta": "48",
+      "A_lower": "322440623619509934080708207376299903573/340282366920938463463374607431768211456",
+      "B_lower": "76446937255155167310279223663309424385/85070591730234615865843651857942052864",
+      "C_lower": "42512036606028436689048647311660936797/42535295865117307932921825928971026432",
+      "J1_lower": "110972991169700945233590182203128877559/170141183460469231731687303715884105728",
+      "J2_lower": "110951198367490395173206133308437869271/170141183460469231731687303715884105728",
+      "purity_displays": [
+        0.9475678288508734,
+        0.8986294288110077,
+        0.9994531774467345
+      ],
+      "tail_displays": [
+        0.00010953246677946182,
+        1.2721132768261443e-08,
+        1.0300908324899951e-16
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "reason": "Nonpositive purity lower bound"
+      }
+    },
+    {
+      "beta": "64",
+      "A_lower": "158397729331189673710165500704879514973/170141183460469231731687303715884105728",
+      "B_lower": "295084892691994325155964734004757839085/340282366920938463463374607431768211456",
+      "C_lower": "340034290771072054452615918177090468387/340282366920938463463374607431768211456",
+      "J1_lower": "192702021904229336155059383568987845967/340282366920938463463374607431768211456",
+      "J2_lower": "96214288417690373954828307544819959817/170141183460469231731687303715884105728",
+      "purity_displays": [
+        0.9309781800594561,
+        0.8671765609311006,
+        0.9992709697181458
+      ],
+      "tail_displays": [
+        1.2112361307262229e-06,
+        1.5833741324471716e-12,
+        1.3286772163604062e-22
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "second spatial update"
+      }
+    },
+    {
+      "beta": "96",
+      "A_lower": "305668211446322722182886798871781748605/340282366920938463463374607431768211456",
+      "B_lower": "137394942107938793791581256149723604615/170141183460469231731687303715884105728",
+      "C_lower": "42488790065627024990043528101440079015/42535295865117307932921825928971026432",
+      "J1_lower": "145016024238373136121744791047075576521/340282366920938463463374607431768211456",
+      "J2_lower": "144705363783600613870031515396185286201/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.8982781394527621,
+        0.8075348913971865,
+        0.998906653908374
+      ],
+      "tail_displays": [
+        1.4811557072426972e-10,
+        2.4530250409593792e-20,
+        1.2621995520555182e-29
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "second spatial update"
+      }
+    },
+    {
+      "beta": "120",
+      "A_lower": "297579482129056569055897740323198021365/340282366920938463463374607431768211456",
+      "B_lower": "260490005619792193214565535608955623127/340282366920938463463374607431768211456",
+      "C_lower": "169908686251042246345332130710162389323/170141183460469231731687303715884105728",
+      "J1_lower": "58584150477159088061494091986004354197/170141183460469231731687303715884105728",
+      "J2_lower": "116854630227580276760503216336955057371/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.8745075004083196,
+        0.7655113251293291,
+        0.9986335042186831
+      ],
+      "tail_displays": [
+        1.7223826445953772e-13,
+        3.4063624608897594e-26,
+        1.2621774480597453e-29
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    }
+  ],
+  "float_scan": {
+    "beta_min": 12,
+    "beta_max": 120,
+    "beta_step": 0.5,
+    "successful_beta_count": 0,
+    "best": null
+  },
+  "seconds": 3.5046783370016783
+}

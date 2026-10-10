@@ -1,0 +1,19 @@
+GROUND PASS 4 323/2000 1107 1107
+GROUND PASS 8 323/2000 245870 939326
+OBSTRUCTION PASS 323/2000 33 intervals and high-beta tail
+{
+  "status": "PASS",
+  "candidates": [],
+  "obstructions": [
+    {
+      "g": "323/2000",
+      "status": "PASS",
+      "interval_count": 33,
+      "tail_beta_from": "256"
+    }
+  ],
+  "seconds": 91.31464361100006,
+  "peak_rss_kib": 290464,
+  "BLAS_threads": 1,
+  "address_space_limit_bytes": 1073741824
+}

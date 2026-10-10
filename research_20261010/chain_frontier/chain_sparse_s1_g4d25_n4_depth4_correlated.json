@@ -1,0 +1,2229 @@
+{
+  "status": "exact_arithmetic_producer_candidate_requires_independent_audit",
+  "source": "research_20261010/chain_frontier/chain_sparse_s1_g4d25_n4_depth4.json",
+  "g": "4/25",
+  "n": 4,
+  "depth": 4,
+  "ground_certificates": [
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 4,
+      "physical_sites": 8,
+      "full_dimension": 6561,
+      "retained_states": 1,
+      "trial_subspace_dimension": 1099,
+      "reached_support_dimension": 1107,
+      "trial_max_excited_dimers": 4,
+      "support_depth": 4,
+      "E00": "-8",
+      "Vmin": "-32/25",
+      "Vmax": "16/25",
+      "second_eigenvalue_lower": "-483330052443/62500000000",
+      "ground_lower": "-53579025574502960504722116817879241589363/6637479845560007315118672063564874146400",
+      "ground_upper": "-2529450855170753723083542165559/313353572444107960795417055200",
+      "ground_lower_display": -8.072194088897074,
+      "ground_upper_display": -8.072194088745949,
+      "ground_width_display": 1.511260430678741e-10,
+      "exact_rayleigh": "-2529450855170753723083542165559/313353572444107960795417055200",
+      "exact_residual_squared": "5029179767569304515011903207332821552515979981199/98190461363484815934991671795146040900847075703039847040000",
+      "exact_residual_squared_display": 5.121861836408034e-11,
+      "integer_matrix_denominator": 225,
+      "sparse_nnz": 32201,
+      "build_seconds": 0.5121506670002418,
+      "total_seconds": 0.6276189599993813,
+      "peak_process_rss_kib": 83564,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "17/25",
+        "B": "25830052443/62500000000",
+        "second_shift_lower": "16669947557/62500000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "4/25",
+          "a": "4/25",
+          "b": "25830052443/250000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "single",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "chain_s1_M4_g4d25_depth4_trial.npz",
+      "weak_bonds": [
+        [
+          3,
+          1,
+          0,
+          0,
+          "4/25"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "4/25"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "4/25"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "4/25"
+        ]
+      ],
+      "M": 4,
+      "W": 1
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 8,
+      "physical_sites": 16,
+      "full_dimension": 43046721,
+      "retained_states": 1,
+      "trial_subspace_dimension": 43294,
+      "reached_support_dimension": 245870,
+      "trial_max_excited_dimers": 8,
+      "support_depth": 4,
+      "E00": "-16",
+      "Vmin": "-64/25",
+      "Vmax": "32/25",
+      "second_eigenvalue_lower": "-251023097989/15625000000",
+      "ground_lower": "-61223314946939389433737652449000056184089/3792794646426508957358623963899460275500",
+      "ground_upper": "-51213760826878629670593672535099/3172704920996759564239908570500",
+      "ground_lower_display": -16.142006265649712,
+      "ground_upper_display": -16.141986759609825,
+      "ground_width_display": 1.9506039886125113e-05,
+      "exact_rayleigh": "-51213760826878629670593672535099/3172704920996759564239908570500",
+      "exact_residual_squared": "15022357512786362821259382629075920867909721239301531299/10066056515717054348035557592854766140320442646199353470250000",
+      "exact_residual_squared_display": 1.4923776246766131e-06,
+      "integer_matrix_denominator": 225,
+      "sparse_nnz": 2495174,
+      "build_seconds": 10.46862014099861,
+      "total_seconds": 12.358378226999776,
+      "peak_process_rss_kib": 326260,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "49/100",
+        "B": "8679347989/15625000000",
+        "second_shift_lower": "-1023097989/15625000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "4/25",
+          "a": "51/200",
+          "b": "8679347989/125000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "single",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "chain_s1_M8_g4d25_depth4_trial.npz",
+      "weak_bonds": [
+        [
+          7,
+          1,
+          0,
+          0,
+          "4/25"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "4/25"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "4/25"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "4/25"
+        ],
+        [
+          3,
+          1,
+          4,
+          0,
+          "4/25"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "4/25"
+        ],
+        [
+          5,
+          1,
+          6,
+          0,
+          "4/25"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "4/25"
+        ]
+      ],
+      "M": 8,
+      "W": 1
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "32",
+      "S_lower": "115699981001/125000000000",
+      "T_lower": "105739515511/1000000000000",
+      "J_direct_lower": "107091884829/125000000000",
+      "first_S_lower": "493009203797/500000000000",
+      "first_T_lower": "-2011332166267987/500000000000",
+      "tail_upper": [
+        "79615890728883987600120354784409757/340282366920938463463374607431768211456",
+        "352980358899497518924139315615180877625/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "34",
+      "S_lower": "460688593241/500000000000",
+      "T_lower": "8081619297/62500000000",
+      "J_direct_lower": "84893591977/100000000000",
+      "first_S_lower": "984167751179/1000000000000",
+      "first_T_lower": "-1785267363676899/1000000000000",
+      "tail_upper": [
+        "20211263017362228297817337974538415/170141183460469231731687303715884105728",
+        "605794974118471001707501209288248513957/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "36",
+      "S_lower": "458534907221/500000000000",
+      "T_lower": "156428322083/1000000000000",
+      "J_direct_lower": "10512713057/12500000000",
+      "first_S_lower": "49106629627/50000000000",
+      "first_T_lower": "-823591446084111/1000000000000",
+      "tail_upper": [
+        "10261648758241686888252601765731055/170141183460469231731687303715884105728",
+        "259920824526646576081769379347803935991/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "38",
+      "S_lower": "228182508381/250000000000",
+      "T_lower": "18713302789/100000000000",
+      "J_direct_lower": "416538057049/500000000000",
+      "first_S_lower": "244981457337/250000000000",
+      "first_T_lower": "-394960686999559/1000000000000",
+      "tail_upper": [
+        "1302509338121221810759731613677661/42535295865117307932921825928971026432",
+        "446083932749217513010374963720934518441/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "40",
+      "S_lower": "454192118341/500000000000",
+      "T_lower": "110653391437/500000000000",
+      "J_direct_lower": "825161921453/1000000000000",
+      "first_S_lower": "977552721369/1000000000000",
+      "first_T_lower": "-196740927449967/1000000000000",
+      "tail_upper": [
+        "5290473267088426879138586121369403/340282366920938463463374607431768211456",
+        "382791361981849540961873188995559978251/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "42",
+      "S_lower": "452022857123/500000000000",
+      "T_lower": "258686822457/1000000000000",
+      "J_direct_lower": "408649326723/500000000000",
+      "first_S_lower": "121876784531/125000000000",
+      "first_T_lower": "-101622998336189/1000000000000",
+      "tail_upper": [
+        "1343037750815997671704977285608413/170141183460469231731687303715884105728",
+        "328479061830071190072941852335183527043/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "44",
+      "S_lower": "899721133239/1000000000000",
+      "T_lower": "149431988269/500000000000",
+      "J_direct_lower": "809498117597/1000000000000",
+      "first_S_lower": "486154556709/500000000000",
+      "first_T_lower": "-54278308019123/1000000000000",
+      "tail_upper": [
+        "1363772433248850946745969727393865/340282366920938463463374607431768211456",
+        "140936429262112026449613070953249287965/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "46",
+      "S_lower": "179082762699/200000000000",
+      "T_lower": "341299724517/1000000000000",
+      "J_direct_lower": "400882948699/500000000000",
+      "first_S_lower": "121179311811/125000000000",
+      "first_T_lower": "-29853890460179/1000000000000",
+      "tail_upper": [
+        "692413615537352660582650576793801/340282366920938463463374607431768211456",
+        "7558730332922733509455399179887505629/10633823966279326983230456482242756608"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "48",
+      "S_lower": "178225076719/200000000000",
+      "T_lower": "77071155509/200000000000",
+      "J_direct_lower": "99263056161/125000000000",
+      "first_S_lower": "966386892117/1000000000000",
+      "first_T_lower": "-262658552321/15625000000",
+      "tail_upper": [
+        "175775885805042400020281979476611/170141183460469231731687303715884105728",
+        "207560353124773128558680814250395820975/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "50",
+      "S_lower": "44342830887/50000000000",
+      "T_lower": "10758318249/25000000000",
+      "J_direct_lower": "78651466043/100000000000",
+      "first_S_lower": "7524705491/7812500000",
+      "first_T_lower": "-1921983509643/200000000000",
+      "tail_upper": [
+        "178489627224163326724931076359825/340282366920938463463374607431768211456",
+        "178110684270326211978322593046957761215/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "52",
+      "S_lower": "882607858643/1000000000000",
+      "T_lower": "5943911977/12500000000",
+      "J_direct_lower": "778996632139/1000000000000",
+      "first_S_lower": "959756418129/1000000000000",
+      "first_T_lower": "-34430628723/6250000000",
+      "tail_upper": [
+        "22655658141552801701087354955629/85070591730234615865843651857942052864",
+        "152839477200657331161685800180728311641/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "54",
+      "S_lower": "43918961561/50000000000",
+      "T_lower": "26010128169/50000000000",
+      "J_direct_lower": "771550073839/1000000000000",
+      "first_S_lower": "119520589633/125000000000",
+      "first_T_lower": "-310341933547/100000000000",
+      "tail_upper": [
+        "46010861588705158629494828919697/340282366920938463463374607431768211456",
+        "131153871475265250052174971451906883071/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "56",
+      "S_lower": "874170750569/1000000000000",
+      "T_lower": "70470970797/125000000000",
+      "J_direct_lower": "764174501151/1000000000000",
+      "first_S_lower": "7440488407/7812500000",
+      "first_T_lower": "-206662224893/125000000000",
+      "tail_upper": [
+        "2920075432850966289442694293901/42535295865117307932921825928971026432",
+        "7034070286767718102130752574898353979/21267647932558653966460912964485513216"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "58",
+      "S_lower": "869982376529/1000000000000",
+      "T_lower": "151415628683/250000000000",
+      "J_direct_lower": "756869335471/1000000000000",
+      "first_S_lower": "948404995079/1000000000000",
+      "first_T_lower": "-378328781249/500000000000",
+      "tail_upper": [
+        "2965157439480054235319531865105/85070591730234615865843651857942052864",
+        "12072084611650642589644412103519109747/42535295865117307932921825928971026432"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "60",
+      "S_lower": "865814041243/1000000000000",
+      "T_lower": "322722877463/500000000000",
+      "J_direct_lower": "149926790803/200000000000",
+      "first_S_lower": "944227210441/1000000000000",
+      "first_T_lower": "-47284687733/250000000000",
+      "tail_upper": [
+        "6021870902369009459252424457683/340282366920938463463374607431768211456",
+        "20718477486033629556949214408799015957/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "62",
+      "S_lower": "215416415773/250000000000",
+      "T_lower": "682788443979/1000000000000",
+      "J_direct_lower": "92808464369/125000000000",
+      "first_S_lower": "187968820259/200000000000",
+      "first_T_lower": "35571849793/200000000000",
+      "tail_upper": [
+        "3057420213339272103579283101199/340282366920938463463374607431768211456",
+        "35557678988251262318089363331139408659/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "187968820259/200000000000",
+          "T_lower": "35571849793/200000000000",
+          "n": 8,
+          "beta": "124"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "14392673861077/1000000000000"
+      }
+    },
+    {
+      "beta": "64",
+      "S_lower": "34301486149/40000000000",
+      "T_lower": "358735815487/500000000000",
+      "J_direct_lower": "36768498501/50000000000",
+      "first_S_lower": "233812622927/250000000000",
+      "first_T_lower": "209950550327/500000000000",
+      "tail_upper": [
+        "776155659303333785401858678759/170141183460469231731687303715884105728",
+        "61025166346547845002889187176979370613/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "233812622927/250000000000",
+          "T_lower": "209950550327/500000000000",
+          "n": 8,
+          "beta": "128"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "1483818541591/1000000000000"
+      }
+    },
+    {
+      "beta": "66",
+      "S_lower": "42671421081/50000000000",
+      "T_lower": "93672211009/125000000000",
+      "J_direct_lower": "72834007083/100000000000",
+      "first_S_lower": "465220545433/500000000000",
+      "first_T_lower": "186378311/320000000",
+      "tail_upper": [
+        "788138450632718967488413553055/340282366920938463463374607431768211456",
+        "52366620004293524213283481279871971967/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "465220545433/500000000000",
+          "T_lower": "186378311/320000000",
+          "n": 8,
+          "beta": "132"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "241693748747/500000000000",
+            "q_upper": "2214798594617/200000000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    },
+    {
+      "beta": "68",
+      "S_lower": "424669686937/500000000000",
+      "T_lower": "778477023079/1000000000000",
+      "J_direct_lower": "360688686007/500000000000",
+      "first_S_lower": "925410492083/1000000000000",
+      "first_T_lower": "693382714561/1000000000000",
+      "tail_upper": [
+        "400153120008999942239317050669/340282366920938463463374607431768211456",
+        "44936590178249840100542265786423153991/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "925410492083/1000000000000",
+          "T_lower": "693382714561/1000000000000",
+          "n": 8,
+          "beta": "136"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "23397060771/100000000000",
+            "q_upper": "294205515697/200000000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    },
+    {
+      "beta": "70",
+      "S_lower": "845269917111/1000000000000",
+      "T_lower": "160962493637/200000000000",
+      "J_direct_lower": "357240616387/500000000000",
+      "first_S_lower": "23003829279/25000000000",
+      "first_T_lower": "77026663157/100000000000",
+      "tail_upper": [
+        "203165470894600388030472421437/340282366920938463463374607431768211456",
+        "4820096123929931372965747838616208109/42535295865117307932921825928971026432"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "23003829279/25000000000",
+          "T_lower": "77026663157/100000000000",
+          "n": 8,
+          "beta": "140"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "71113073507/500000000000",
+            "q_upper": "232767988551/500000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "47613205669/40000000000"
+      }
+    },
+    {
+      "beta": "72",
+      "S_lower": "420609978969/500000000000",
+      "T_lower": "51780197451/62500000000",
+      "J_direct_lower": "353825508817/500000000000",
+      "first_S_lower": "914663484387/1000000000000",
+      "first_T_lower": "103034030813/125000000000",
+      "tail_upper": [
+        "51575517595484903759708886359/170141183460469231731687303715884105728",
+        "16544790106603177094935087263321954433/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "914663484387/1000000000000",
+          "T_lower": "103034030813/125000000000",
+          "n": 8,
+          "beta": "144"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "101308061823/1000000000000",
+            "q_upper": "50840747983/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "9599405649/62500000000",
+            "q_upper": "18561105877/50000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "744129535303/1000000000000",
+            "q_upper": "19736681415133/500000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "74",
+      "S_lower": "104648675397/125000000000",
+      "T_lower": "849629236079/1000000000000",
+      "J_direct_lower": "700886096791/1000000000000",
+      "first_S_lower": "908935666313/1000000000000",
+      "first_T_lower": "43133485983/50000000000",
+      "tail_upper": [
+        "52371773678454724091663853133/340282366920938463463374607431768211456",
+        "28394670213379228379596135549204567721/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "908935666313/1000000000000",
+          "T_lower": "43133485983/50000000000",
+          "n": 8,
+          "beta": "148"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "81245495861/1000000000000",
+            "q_upper": "26744330787/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "26666170417/500000000000",
+            "q_upper": "52675386923/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "15823083577/1000000000000",
+            "q_upper": "8740499231/1000000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "861823173/1000000000000",
+            "q_upper": "172807677/1000000000000"
+          }
+        ],
+        "rounds": 4,
+        "final_n": 128,
+        "final_beta": "2368",
+        "final_p": "861823173/1000000000000",
+        "final_q": "172807677/1000000000000",
+        "final_common_u": "861823173/1000000000000",
+        "conditional_gap_lower_rational": "2300262893/1000000000000",
+        "conditional_scope": "every even periodic L >= 128, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "76",
+      "S_lower": "833178159973/1000000000000",
+      "T_lower": "868418214461/1000000000000",
+      "J_direct_lower": "43386615391/62500000000",
+      "first_S_lower": "902963827379/1000000000000",
+      "first_T_lower": "445128641671/500000000000",
+      "tail_upper": [
+        "26590161438024983454954488161/340282366920938463463374607431768211456",
+        "761434274902026508957178257304939181/10633823966279326983230456482242756608"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "902963827379/1000000000000",
+          "T_lower": "445128641671/500000000000",
+          "n": 8,
+          "beta": "152"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "2228612071/31250000000",
+            "q_upper": "64307258709/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "28600827349/1000000000000",
+            "q_upper": "15453911901/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "2917495711/1000000000000",
+            "q_upper": "600587017/1000000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1216",
+        "final_p": "2917495711/1000000000000",
+        "final_q": "600587017/1000000000000",
+        "final_common_u": "2917495711/1000000000000",
+        "conditional_gap_lower_rational": "3476637953/1000000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "78",
+      "S_lower": "829186135861/1000000000000",
+      "T_lower": "442516733141/500000000000",
+      "J_direct_lower": "137509929581/200000000000",
+      "first_S_lower": "179348390291/200000000000",
+      "first_T_lower": "910246598209/1000000000000",
+      "tail_upper": [
+        "13500338744324397594201807259/340282366920938463463374607431768211456",
+        "20908745276982517327928687227754201961/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "179348390291/200000000000",
+          "T_lower": "910246598209/1000000000000",
+          "n": 8,
+          "beta": "156"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "67041635401/1000000000000",
+            "q_upper": "43117623809/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "20130484929/1000000000000",
+            "q_upper": "6565286883/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "585474309/500000000000",
+            "q_upper": "52192617/500000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1248",
+        "final_p": "585474309/500000000000",
+        "final_q": "52192617/500000000000",
+        "final_common_u": "585474309/500000000000",
+        "conditional_gap_lower_rational": "4118992917/1000000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "80",
+      "S_lower": "206303309697/250000000000",
+      "T_lower": "899664930587/1000000000000",
+      "J_direct_lower": "5320131949/7812500000",
+      "first_S_lower": "890263893299/1000000000000",
+      "first_T_lower": "924814535093/1000000000000",
+      "tail_upper": [
+        "6854382837663747912496987815/340282366920938463463374607431768211456",
+        "8971055584418097142779036548814715673/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "890263893299/1000000000000",
+          "T_lower": "924814535093/1000000000000",
+          "n": 8,
+          "beta": "160"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "33177451883/500000000000",
+            "q_upper": "31828012567/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "17095087939/1000000000000",
+            "q_upper": "145809007/40000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "37780187/50000000000",
+            "q_upper": "32742063/1000000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1280",
+        "final_p": "37780187/50000000000",
+        "final_q": "32742063/1000000000000",
+        "final_common_u": "37780187/50000000000",
+        "conditional_gap_lower_rational": "4358246531/1000000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "82",
+      "S_lower": "6570075017/8000000000",
+      "T_lower": "912501960147/1000000000000",
+      "J_direct_lower": "168616741129/250000000000",
+      "first_S_lower": "441761687971/500000000000",
+      "first_T_lower": "233863212407/250000000000",
+      "tail_upper": [
+        "1740051304453797149710645135/170141183460469231731687303715884105728",
+        "7698198742448281950107486990998917295/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "441761687971/500000000000",
+          "T_lower": "233863212407/250000000000",
+          "n": 8,
+          "beta": "164"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "34120895857/500000000000",
+            "q_upper": "25641796847/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "8295229021/500000000000",
+            "q_upper": "31591273/12500000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "167858959/250000000000",
+            "q_upper": "16526227/1000000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1312",
+        "final_p": "167858959/250000000000",
+        "final_q": "16526227/1000000000000",
+        "final_common_u": "167858959/250000000000",
+        "conditional_gap_lower_rational": "4341962033/1000000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "84",
+      "S_lower": "32692978387/40000000000",
+      "T_lower": "923728079249/1000000000000",
+      "J_direct_lower": "10437801131/15625000000",
+      "first_S_lower": "219128497009/250000000000",
+      "first_T_lower": "471596621379/500000000000",
+      "tail_upper": [
+        "883457669009757535682978605/170141183460469231731687303715884105728",
+        "6605940997753424118393722546078556449/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "219128497009/250000000000",
+          "T_lower": "471596621379/500000000000",
+          "n": 8,
+          "beta": "168"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "577624443/8000000000",
+            "q_upper": "11189636817/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "17727222153/1000000000000",
+            "q_upper": "1062434837/500000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "373010169/500000000000",
+            "q_upper": "6282751/500000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1344",
+        "final_p": "373010169/500000000000",
+        "final_q": "6282751/500000000000",
+        "final_common_u": "373010169/500000000000",
+        "conditional_gap_lower_rational": "4160208171/1000000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "86",
+      "S_lower": "406704197837/500000000000",
+      "T_lower": "466758682903/500000000000",
+      "J_direct_lower": "330816609077/500000000000",
+      "first_S_lower": "434614590557/500000000000",
+      "first_T_lower": "474377152657/500000000000",
+      "tail_upper": [
+        "897097057925206952164699389/340282366920938463463374607431768211456",
+        "5668658075190331074911840030744306855/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "434614590557/500000000000",
+          "T_lower": "474377152657/500000000000",
+          "n": 8,
+          "beta": "172"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "9752107659/125000000000",
+            "q_upper": "10501260933/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "5082070197/250000000000",
+            "q_upper": "33024439/15625000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "243516047/250000000000",
+            "q_upper": "6811359/500000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1376",
+        "final_p": "243516047/250000000000",
+        "final_q": "6811359/500000000000",
+        "final_common_u": "243516047/250000000000",
+        "conditional_gap_lower_rational": "193480939/50000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "88",
+      "S_lower": "101188886849/125000000000",
+      "T_lower": "235508039031/250000000000",
+      "J_direct_lower": "40956763287/62500000000",
+      "first_S_lower": "861662266821/1000000000000",
+      "first_T_lower": "238159680417/250000000000",
+      "tail_upper": [
+        "455473510259099304768627359/340282366920938463463374607431768211456",
+        "4864361395953840090564984705689500601/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "861662266821/1000000000000",
+          "T_lower": "238159680417/250000000000",
+          "n": 8,
+          "beta": "176"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "85628209561/1000000000000",
+            "q_upper": "21031658553/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "3073578941/125000000000",
+            "q_upper": "1215629751/500000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "1437231733/1000000000000",
+            "q_upper": "20013151/1000000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1408",
+        "final_p": "1437231733/1000000000000",
+        "final_q": "20013151/1000000000000",
+        "final_common_u": "1437231733/1000000000000",
+        "conditional_gap_lower_rational": "3505396669/1000000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "90",
+      "S_lower": "805632467129/1000000000000",
+      "T_lower": "927169713/976562500",
+      "J_direct_lower": "649043672093/1000000000000",
+      "first_S_lower": "426903207037/500000000000",
+      "first_T_lower": "238799581599/250000000000",
+      "tail_upper": [
+        "231252701940466544127199795/340282366920938463463374607431768211456",
+        "8348364454722034125124638829106891305/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "426903207037/500000000000",
+          "T_lower": "238799581599/250000000000",
+          "n": 8,
+          "beta": "180"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "95095843097/1000000000000",
+            "q_upper": "22299450449/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "31019505957/1000000000000",
+            "q_upper": "3170132503/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "468361269/200000000000",
+            "q_upper": "3813089/100000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1440",
+        "final_p": "468361269/200000000000",
+        "final_q": "3813089/100000000000",
+        "final_common_u": "468361269/200000000000",
+        "conditional_gap_lower_rational": "1544234303/500000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "92",
+      "S_lower": "50110776451/62500000000",
+      "T_lower": "477911057437/500000000000",
+      "J_direct_lower": "642839018631/1000000000000",
+      "first_S_lower": "105706830771/125000000000",
+      "first_T_lower": "239169522057/250000000000",
+      "tail_upper": [
+        "58705732551502525674783977/170141183460469231731687303715884105728",
+        "1790964511981946815466701841398099893/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "105706830771/125000000000",
+          "T_lower": "239169522057/250000000000",
+          "n": 8,
+          "beta": "184"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "53283834669/500000000000",
+            "q_upper": "6213020833/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "40530792913/1000000000000",
+            "q_upper": "1153054747/250000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "1042044831/250000000000",
+            "q_upper": "91302679/1000000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1472",
+        "final_p": "1042044831/250000000000",
+        "final_q": "91302679/1000000000000",
+        "final_common_u": "1042044831/250000000000",
+        "conditional_gap_lower_rational": "1314822703/500000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "94",
+      "S_lower": "398965437007/500000000000",
+      "T_lower": "961355615927/1000000000000",
+      "J_direct_lower": "79586709963/125000000000",
+      "first_S_lower": "6540623733/7812500000",
+      "first_T_lower": "957246090567/1000000000000",
+      "tail_upper": [
+        "14903017372575399756763577/85070591730234615865843651857942052864",
+        "3073707575250348743567231098044301041/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "6540623733/7812500000",
+          "T_lower": "957246090567/1000000000000",
+          "n": 8,
+          "beta": "188"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "120271806747/1000000000000",
+            "q_upper": "578505801/20000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "54651032831/1000000000000",
+            "q_upper": "1482713847/200000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "4052619739/500000000000",
+            "q_upper": "27115751/100000000000"
+          }
+        ],
+        "rounds": 3,
+        "final_n": 64,
+        "final_beta": "1504",
+        "final_p": "4052619739/500000000000",
+        "final_q": "27115751/100000000000",
+        "final_common_u": "4052619739/500000000000",
+        "conditional_gap_lower_rational": "532880097/250000000000",
+        "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "96",
+      "S_lower": "794107730907/1000000000000",
+      "T_lower": "966131861383/1000000000000",
+      "J_direct_lower": "315303544143/500000000000",
+      "first_S_lower": "207108678047/250000000000",
+      "first_T_lower": "478507040087/500000000000",
+      "tail_upper": [
+        "30266199523332472424242559/340282366920938463463374607431768211456",
+        "5275190097260069144272630693658429185/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "207108678047/250000000000",
+          "T_lower": "478507040087/500000000000",
+          "n": 8,
+          "beta": "192"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "4266168889/31250000000",
+            "q_upper": "6994627027/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "75973407683/1000000000000",
+            "q_upper": "13135265109/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "17445023423/1000000000000",
+            "q_upper": "1013755357/1000000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "679915297/1000000000000",
+            "q_upper": "1839221/500000000000"
+          }
+        ],
+        "rounds": 4,
+        "final_n": 128,
+        "final_beta": "3072",
+        "final_p": "679915297/1000000000000",
+        "final_q": "1839221/500000000000",
+        "final_common_u": "679915297/1000000000000",
+        "conditional_gap_lower_rational": "1850294407/1000000000000",
+        "conditional_scope": "every even periodic L >= 128, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "98",
+      "S_lower": "790302905707/1000000000000",
+      "T_lower": "970248261677/1000000000000",
+      "J_direct_lower": "624578682769/1000000000000",
+      "first_S_lower": "3277407351/4000000000",
+      "first_T_lower": "956051575217/1000000000000",
+      "tail_upper": [
+        "7683367158440005534308709/170141183460469231731687303715884105728",
+        "2263360280781116611135035786562638201/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "3277407351/4000000000",
+          "T_lower": "956051575217/1000000000000",
+          "n": 8,
+          "beta": "196"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "155702741423/1000000000000",
+            "q_upper": "43752352591/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "54529150329/500000000000",
+            "q_upper": "25870701309/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "8599964099/200000000000",
+            "q_upper": "1023557321/200000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "2376533677/500000000000",
+            "q_upper": "114605493/1000000000000"
+          }
+        ],
+        "rounds": 4,
+        "final_n": 128,
+        "final_beta": "3136",
+        "final_p": "2376533677/500000000000",
+        "final_q": "114605493/1000000000000",
+        "final_common_u": "2376533677/500000000000",
+        "conditional_gap_lower_rational": "596225637/500000000000",
+        "conditional_scope": "every even periodic L >= 128, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "100",
+      "S_lower": "393258155323/500000000000",
+      "T_lower": "486895478017/500000000000",
+      "J_direct_lower": "19331497091/31250000000",
+      "first_S_lower": "809943625219/1000000000000",
+      "first_T_lower": "477197754783/500000000000",
+      "tail_upper": [
+        "487624246440105061609417/21267647932558653966460912964485513216",
+        "3884447510832532428841019474200278747/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "809943625219/1000000000000",
+          "T_lower": "477197754783/500000000000",
+          "n": 8,
+          "beta": "200"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "178329911617/1000000000000",
+            "q_upper": "11297723981/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "81181993031/500000000000",
+            "q_upper": "58163241001/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "131718142793/1000000000000",
+            "q_upper": "22251494071/500000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "18836528249/250000000000",
+            "q_upper": "4258437349/250000000000"
+          },
+          {
+            "round": 5,
+            "p_upper": "1126694889/62500000000",
+            "q_upper": "291146237/200000000000"
+          },
+          {
+            "round": 6,
+            "p_upper": "185907521/250000000000",
+            "q_upper": "3356567/500000000000"
+          }
+        ],
+        "rounds": 6,
+        "final_n": 512,
+        "final_beta": "12800",
+        "final_p": "185907521/250000000000",
+        "final_q": "3356567/500000000000",
+        "final_common_u": "185907521/250000000000",
+        "conditional_gap_lower_rational": "109268143/250000000000",
+        "conditional_scope": "every even periodic L >= 512, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "102",
+      "S_lower": "391373929189/500000000000",
+      "T_lower": "976835776023/1000000000000",
+      "J_direct_lower": "153173552449/250000000000",
+      "first_S_lower": "400101162167/500000000000",
+      "first_T_lower": "952056729749/1000000000000",
+      "tail_upper": [
+        "495152506742146103259975/42535295865117307932921825928971026432",
+        "3333303273132826245239842395065579989/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "400101162167/500000000000",
+          "T_lower": "952056729749/1000000000000",
+          "n": 8,
+          "beta": "204"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "102513279521/500000000000",
+            "q_upper": "75188029069/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "25273615443/100000000000",
+            "q_upper": "159418756981/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "127792849311/200000000000",
+            "q_upper": "2131657076189/500000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "104",
+      "S_lower": "97374682747/125000000000",
+      "T_lower": "195889845319/200000000000",
+      "J_direct_lower": "303418522883/500000000000",
+      "first_S_lower": "6172812661/7812500000",
+      "first_T_lower": "949024224567/1000000000000",
+      "tail_upper": [
+        "1005594013491298810591597/170141183460469231731687303715884105728",
+        "2860358050840715987931341833425087225/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "6172812661/7812500000",
+          "T_lower": "949024224567/1000000000000",
+          "n": 8,
+          "beta": "208"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "236576085031/1000000000000",
+            "q_upper": "51616626993/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "417082233449/1000000000000",
+            "q_upper": "642083043189/1000000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "26082151825233/1000000000000"
+      }
+    },
+    {
+      "beta": "106",
+      "S_lower": "48454064683/62500000000",
+      "T_lower": "981689446263/1000000000000",
+      "J_direct_lower": "300517937191/500000000000",
+      "first_S_lower": "389844315999/500000000000",
+      "first_T_lower": "94526767403/100000000000",
+      "tail_upper": [
+        "1021119120707699098428153/340282366920938463463374607431768211456",
+        "613629147170257780308437067304922365/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "389844315999/500000000000",
+          "T_lower": "94526767403/100000000000",
+          "n": 8,
+          "beta": "212"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "87666807/320000000",
+            "q_upper": "73291701439/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "747719821831/1000000000000",
+            "q_upper": "4933847562857/500000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "108",
+      "S_lower": "1506934553/1953125000",
+      "T_lower": "491803560637/500000000000",
+      "J_direct_lower": "148822540093/250000000000",
+      "first_S_lower": "375439407/488281250",
+      "first_T_lower": "940738702981/1000000000000",
+      "tail_upper": [
+        "518442048145021798489421/340282366920938463463374607431768211456",
+        "2106257879967021412079479364489391925/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "375439407/488281250",
+          "T_lower": "940738702981/1000000000000",
+          "n": 8,
+          "beta": "216"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "6368151389/20000000000",
+            "q_upper": "216363182369/1000000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "61030010547/40000000000"
+      }
+    },
+    {
+      "beta": "110",
+      "S_lower": "767853744917/1000000000000",
+      "T_lower": "30788948079/31250000000",
+      "J_direct_lower": "589599373583/1000000000000",
+      "first_S_lower": "757745413869/1000000000000",
+      "first_T_lower": "58460692677/62500000000",
+      "tail_upper": [
+        "65805834603459946208515/85070591730234615865843651857942052864",
+        "903705902290742549809990155873682729/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "757745413869/1000000000000",
+          "T_lower": "58460692677/62500000000",
+          "n": 8,
+          "beta": "220"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "371484122803/1000000000000",
+            "q_upper": "16748995387/50000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1969195341459/500000000000"
+      }
+    },
+    {
+      "beta": "112",
+      "S_lower": "191043677749/250000000000",
+      "T_lower": "61665335573/62500000000",
+      "J_direct_lower": "291981494463/500000000000",
+      "first_S_lower": "746216551733/1000000000000",
+      "first_T_lower": "929080020557/1000000000000",
+      "tail_upper": [
+        "66822207475470035591711/170141183460469231731687303715884105728",
+        "1550967458643599366171169262261506473/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "746216551733/1000000000000",
+          "T_lower": "929080020557/1000000000000",
+          "n": 8,
+          "beta": "224"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "435183331687/1000000000000",
+            "q_upper": "138100680123/250000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "4504826040131/250000000000"
+      }
+    },
+    {
+      "beta": "114",
+      "S_lower": "190128326127/250000000000",
+      "T_lower": "987837379879/1000000000000",
+      "J_direct_lower": "289190243167/500000000000",
+      "first_S_lower": "734304532369/1000000000000",
+      "first_T_lower": "460880296533/500000000000",
+      "tail_upper": [
+        "67855454089911385419461/340282366920938463463374607431768211456",
+        "1330908679291491430522102526624092949/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "734304532369/1000000000000",
+          "T_lower": "460880296533/500000000000",
+          "n": 8,
+          "beta": "228"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "6400986071/12500000000",
+            "q_upper": "249290173869/250000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1092849329210911299/1000000000000"
+      }
+    },
+    {
+      "beta": "116",
+      "S_lower": "151373888199/200000000000",
+      "T_lower": "988851072419/1000000000000",
+      "J_direct_lower": "71606418839/125000000000",
+      "first_S_lower": "361000191933/500000000000",
+      "first_T_lower": "913285316689/1000000000000",
+      "tail_upper": [
+        "34455174953383180989937/340282366920938463463374607431768211456",
+        "1142072906005741434944205712683890641/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "361000191933/500000000000",
+          "T_lower": "913285316689/1000000000000",
+          "n": 8,
+          "beta": "232"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "37845546123/62500000000",
+            "q_upper": "415869053509/200000000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    },
+    {
+      "beta": "118",
+      "S_lower": "376621518201/500000000000",
+      "T_lower": "49485562711/50000000000",
+      "J_direct_lower": "567375071889/1000000000000",
+      "first_S_lower": "709294945419/1000000000000",
+      "first_T_lower": "22587519451/25000000000",
+      "tail_upper": [
+        "17500279288673036891255/340282366920938463463374607431768211456",
+        "980030067372340316418186269528122283/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "709294945419/1000000000000",
+          "T_lower": "22587519451/25000000000",
+          "n": 8,
+          "beta": "236"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "89996245107/125000000000",
+            "q_upper": "1423490377327/250000000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    },
+    {
+      "beta": "120",
+      "S_lower": "749634007079/1000000000000",
+      "T_lower": "198087868857/200000000000",
+      "J_direct_lower": "561951144569/1000000000000",
+      "first_S_lower": "4351117897/6250000000",
+      "first_T_lower": "892223186901/1000000000000",
+      "tail_upper": [
+        "8892778831058802502559/340282366920938463463374607431768211456",
+        "840978651978518662869403855094531747/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "4351117897/6250000000",
+          "T_lower": "892223186901/1000000000000",
+          "n": 8,
+          "beta": "240"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "861349691391/1000000000000",
+            "q_upper": "16241232165397/500000000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    },
+    {
+      "beta": "122",
+      "S_lower": "373021134887/500000000000",
+      "T_lower": "991053819423/1000000000000",
+      "J_direct_lower": "55657906829/100000000000",
+      "first_S_lower": "682642588089/1000000000000",
+      "first_T_lower": "54952039843/62500000000",
+      "tail_upper": [
+        "4543080929103225967603/340282366920938463463374607431768211456",
+        "721656525273768980672618434654484431/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "682642588089/1000000000000",
+          "T_lower": "54952039843/62500000000",
+          "n": 8,
+          "beta": "244"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "1037768083329/1000000000000"
+      }
+    },
+    {
+      "beta": "124",
+      "S_lower": "185616935409/250000000000",
+      "T_lower": "247892651539/250000000000",
+      "J_direct_lower": "551258347371/1000000000000",
+      "first_S_lower": "668676368499/1000000000000",
+      "first_T_lower": "864265773707/1000000000000",
+      "tail_upper": [
+        "1172420258516052112373/170141183460469231731687303715884105728",
+        "619264400166608643909704959748191053/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "668676368499/1000000000000",
+          "T_lower": "864265773707/1000000000000",
+          "n": 8,
+          "beta": "248"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "1260460062369/1000000000000"
+      }
+    },
+    {
+      "beta": "126",
+      "S_lower": "738910340211/1000000000000",
+      "T_lower": "992003423707/1000000000000",
+      "J_direct_lower": "545988490871/1000000000000",
+      "first_S_lower": "163567562387/250000000000",
+      "first_T_lower": "847006437773/1000000000000",
+      "tail_upper": [
+        "628322616400285073837/170141183460469231731687303715884105728",
+        "531400165984788058351509307844958029/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "163567562387/250000000000",
+          "T_lower": "847006437773/1000000000000",
+          "n": 8,
+          "beta": "252"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "38633356567/25000000000"
+      }
+    },
+    {
+      "beta": "128",
+      "S_lower": "367684991719/500000000000",
+      "T_lower": "49618204163/50000000000",
+      "J_direct_lower": "270384506271/500000000000",
+      "first_S_lower": "639414067337/1000000000000",
+      "first_T_lower": "827073726673/1000000000000",
+      "tail_upper": [
+        "210201498179779718993/85070591730234615865843651857942052864",
+        "456002535159458536568978483444596719/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "639414067337/1000000000000",
+          "T_lower": "827073726673/1000000000000",
+          "n": 8,
+          "beta": "256"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "119716161143/62500000000"
+      }
+    },
+    {
+      "beta": "130",
+      "S_lower": "182961647413/250000000000",
+      "T_lower": "49633137421/50000000000",
+      "J_direct_lower": "267799715393/500000000000",
+      "first_S_lower": "624097445081/1000000000000",
+      "first_T_lower": "402003335037/500000000000",
+      "tail_upper": [
+        "795471884913027838385/340282366920938463463374607431768211456",
+        "97825671398507322561364730410138831/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "624097445081/1000000000000",
+          "T_lower": "402003335037/500000000000",
+          "n": 8,
+          "beta": "260"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "601303750539/250000000000"
+      }
+    },
+    {
+      "beta": "132",
+      "S_lower": "364170038789/500000000000",
+      "T_lower": "992908161429/1000000000000",
+      "J_direct_lower": "265239634303/500000000000",
+      "first_S_lower": "608309788811/1000000000000",
+      "first_T_lower": "155448890003/200000000000",
+      "tail_upper": [
+        "1144422330759689116311/340282366920938463463374607431768211456",
+        "83945691058908555803334662633463405/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "608309788811/1000000000000",
+          "T_lower": "155448890003/200000000000",
+          "n": 8,
+          "beta": "264"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "1533763956503/500000000000"
+      }
+    },
+    {
+      "beta": "134",
+      "S_lower": "90606295791/125000000000",
+      "T_lower": "993107839277/1000000000000",
+      "J_direct_lower": "525408053567/1000000000000",
+      "first_S_lower": "29602014151/50000000000",
+      "first_T_lower": "4663129181/6250000000",
+      "tail_upper": [
+        "565966230854397900197/85070591730234615865843651857942052864",
+        "288140278405132643031498612039463113/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "29602014151/50000000000",
+          "T_lower": "4663129181/6250000000",
+          "n": 8,
+          "beta": "268"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "3987044715349/1000000000000"
+      }
+    },
+    {
+      "beta": "136",
+      "S_lower": "721377375407/1000000000000",
+      "T_lower": "49663412173/50000000000",
+      "J_direct_lower": "520385317749/1000000000000",
+      "first_S_lower": "575277886207/1000000000000",
+      "first_T_lower": "709729579643/1000000000000",
+      "tail_upper": [
+        "4478315612802146435793/340282366920938463463374607431768211456",
+        "247257539418769052370692715882475239/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "575277886207/1000000000000",
+          "T_lower": "709729579643/1000000000000",
+          "n": 8,
+          "beta": "272"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "5305559800023/1000000000000"
+      }
+    },
+    {
+      "beta": "138",
+      "S_lower": "7179210247/10000000000",
+      "T_lower": "124174365843/125000000000",
+      "J_direct_lower": "515410597707/1000000000000",
+      "first_S_lower": "69751415793/125000000000",
+      "first_T_lower": "333540664029/500000000000",
+      "tail_upper": [
+        "1107360167584083699185/42535295865117307932921825928971026432",
+        "212175441612500484823854838420533639/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "69751415793/125000000000",
+          "T_lower": "333540664029/500000000000",
+          "n": 8,
+          "beta": "276"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "3637264194671/500000000000"
+      }
+    },
+    {
+      "beta": "140",
+      "S_lower": "8931015431/12500000000",
+      "T_lower": "496746329949/500000000000",
+      "J_direct_lower": "63810429303/125000000000",
+      "first_S_lower": "54022909623/100000000000",
+      "first_T_lower": "616841988249/1000000000000",
+      "tail_upper": [
+        "17524396535109875949431/340282366920938463463374607431768211456",
+        "2844858785478542549398191229721153/5316911983139663491615228241121378304"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "54022909623/100000000000",
+          "T_lower": "616841988249/1000000000000",
+          "n": 8,
+          "beta": "280"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "2074640140601/200000000000"
+      }
+    },
+    {
+      "beta": "142",
+      "S_lower": "711057925399/1000000000000",
+      "T_lower": "248391385261/250000000000",
+      "J_direct_lower": "252801686637/500000000000",
+      "first_S_lower": "65239931099/125000000000",
+      "first_T_lower": "69669032443/125000000000",
+      "tail_upper": [
+        "8666570363399067499733/85070591730234615865843651857942052864",
+        "156237852993591384366923068125627973/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "65239931099/125000000000",
+          "T_lower": "69669032443/125000000000",
+          "n": 8,
+          "beta": "284"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "7802608883653/500000000000"
+      }
+    },
+    {
+      "beta": "144",
+      "S_lower": "176912754623/250000000000",
+      "T_lower": "496808544957/500000000000",
+      "J_direct_lower": "500769963973/1000000000000",
+      "first_S_lower": "100614078449/200000000000",
+      "first_T_lower": "486495785277/1000000000000",
+      "tail_upper": [
+        "34287944449677960837079/170141183460469231731687303715884105728",
+        "134070071222545740013514630996707721/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "100614078449/200000000000",
+          "T_lower": "486495785277/1000000000000",
+          "n": 8,
+          "beta": "288"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "25361497484379/1000000000000"
+      }
+    },
+    {
+      "beta": "146",
+      "S_lower": "70426043517/100000000000",
+      "T_lower": "99365032903/100000000000",
+      "J_direct_lower": "495982760547/1000000000000",
+      "first_S_lower": "483669685217/1000000000000",
+      "first_T_lower": "80308705757/200000000000",
+      "tail_upper": [
+        "135654945992165390155813/340282366920938463463374607431768211456",
+        "3595236477017942009360790726954765/10633823966279326983230456482242756608"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "483669685217/1000000000000",
+          "T_lower": "80308705757/200000000000",
+          "n": 8,
+          "beta": "292"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "4651867876513/100000000000"
+      }
+    },
+    {
+      "beta": "148",
+      "S_lower": "350443048611/500000000000",
+      "T_lower": "993667853671/1000000000000",
+      "J_direct_lower": "1535129129/3125000000",
+      "first_S_lower": "463704831703/1000000000000",
+      "first_T_lower": "298933468573/1000000000000",
+      "tail_upper": [
+        "268348900283961854117639/340282366920938463463374607431768211456",
+        "49362037825317997857618344534953531/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "463704831703/1000000000000",
+          "T_lower": "298933468573/1000000000000",
+          "n": 8,
+          "beta": "296"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "105961658166643/1000000000000"
+      }
+    },
+    {
+      "beta": "150",
+      "S_lower": "697527926811/1000000000000",
+      "T_lower": "993671892057/1000000000000",
+      "J_direct_lower": "486545208681/1000000000000",
+      "first_S_lower": "44316307599/100000000000",
+      "first_T_lower": "86976622141/500000000000",
+      "tail_upper": [
+        "132710111962616221652387/85070591730234615865843651857942052864",
+        "21179160478911691559029786262368457/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "44316307599/100000000000",
+          "T_lower": "86976622141/500000000000",
+          "n": 8,
+          "beta": "300"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "399630000726457/1000000000000"
+      }
+    },
+    {
+      "beta": "152",
+      "S_lower": "694185846473/1000000000000",
+      "T_lower": "99366435667/100000000000",
+      "J_direct_lower": "481893989443/1000000000000",
+      "first_S_lower": "422031397453/1000000000000",
+      "first_T_lower": "20274057619/1000000000000",
+      "tail_upper": [
+        "525047020457127791465939/170141183460469231731687303715884105728",
+        "72696714511348080277755975873477007/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "422031397453/1000000000000",
+          "T_lower": "20274057619/1000000000000",
+          "n": 8,
+          "beta": "304"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "38068646205218049/1000000000000"
+      }
+    },
+    {
+      "beta": "154",
+      "S_lower": "138171955823/200000000000",
+      "T_lower": "993646889641/1000000000000",
+      "J_direct_lower": "477287234399/1000000000000",
+      "first_S_lower": "200148252613/500000000000",
+      "first_T_lower": "-170748845379/1000000000000",
+      "tail_upper": [
+        "2077267282907301511573331/340282366920938463463374607431768211456",
+        "62382282748327812705775305268441297/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "156",
+      "S_lower": "343774824007/500000000000",
+      "T_lower": "248405225041/250000000000",
+      "J_direct_lower": "94544903697/200000000000",
+      "first_S_lower": "377944832803/1000000000000",
+      "first_T_lower": "-205575937103/500000000000",
+      "tail_upper": [
+        "2054596634450106072017099/170141183460469231731687303715884105728",
+        "53531406841365386875536408675224861/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "158",
+      "S_lower": "136851075363/200000000000",
+      "T_lower": "99358759457/100000000000",
+      "J_direct_lower": "4682054207/10000000000",
+      "first_S_lower": "70992506503/200000000000",
+      "first_T_lower": "-359031735719/500000000000",
+      "tail_upper": [
+        "8128693625570537039483435/340282366920938463463374607431768211456",
+        "45937022100505587311140966864098019/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    },
+    {
+      "beta": "160",
+      "S_lower": "680976889527/1000000000000",
+      "T_lower": "993548010949/1000000000000",
+      "J_direct_lower": "46372952407/100000000000",
+      "first_S_lower": "165667734959/500000000000",
+      "first_T_lower": "-223295536329/200000000000",
+      "tail_upper": [
+        "8039979593862669065424891/170141183460469231731687303715884105728",
+        "19710486496829170643051414663203367/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "rejected_first_correlated_step"
+      }
+    }
+  ],
+  "best": {
+    "beta": "80",
+    "S_lower": "206303309697/250000000000",
+    "T_lower": "899664930587/1000000000000",
+    "J_direct_lower": "5320131949/7812500000",
+    "first_S_lower": "890263893299/1000000000000",
+    "first_T_lower": "924814535093/1000000000000",
+    "tail_upper": [
+      "6854382837663747912496987815/340282366920938463463374607431768211456",
+      "8971055584418097142779036548814715673/170141183460469231731687303715884105728"
+    ],
+    "bootstrap": {
+      "status": "accepted_conditional_scalar_seed",
+      "physical_inputs_verified": false,
+      "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+      "input": {
+        "S_lower": "890263893299/1000000000000",
+        "T_lower": "924814535093/1000000000000",
+        "n": 8,
+        "beta": "160"
+      },
+      "rounding_decimal_digits": 12,
+      "updates": [
+        {
+          "round": 1,
+          "p_upper": "33177451883/500000000000",
+          "q_upper": "31828012567/1000000000000"
+        },
+        {
+          "round": 2,
+          "p_upper": "17095087939/1000000000000",
+          "q_upper": "145809007/40000000000"
+        },
+        {
+          "round": 3,
+          "p_upper": "37780187/50000000000",
+          "q_upper": "32742063/1000000000000"
+        }
+      ],
+      "rounds": 3,
+      "final_n": 64,
+      "final_beta": "1280",
+      "final_p": "37780187/50000000000",
+      "final_q": "32742063/1000000000000",
+      "final_common_u": "37780187/50000000000",
+      "conditional_gap_lower_rational": "4358246531/1000000000000",
+      "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+    }
+  }
+}

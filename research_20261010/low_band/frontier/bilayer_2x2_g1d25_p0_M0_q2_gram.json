@@ -1,0 +1,45 @@
+{
+  "parity": 0,
+  "M": 0,
+  "multiplicity": 1,
+  "k": 1,
+  "qmax": 2,
+  "trial_dimension": 19,
+  "reached_dimension": 34,
+  "sparse_nnz": 142,
+  "matrix_denominator": 200,
+  "residual_denominator": 4000000000000000000000000,
+  "G": [
+    [
+      "4722366482637922263216"
+    ]
+  ],
+  "A": [
+    [
+      "-9426993529061408723456"
+    ]
+  ],
+  "E": [
+    [
+      "1248075141575791798279108130933894512640000"
+    ]
+  ],
+  "B": [
+    [
+      "31299326239142598221824"
+    ]
+  ],
+  "diagonal_proposal": [
+    "-6238261/625000000"
+  ],
+  "residual_squared_bound": "8259069/125000000000",
+  "ritz_lower": [
+    "-998121769/100000000000"
+  ],
+  "ritz_upper": [
+    "-6238261/625000000"
+  ],
+  "trial_file": "bilayer_2x2_g1d25_p0_M0_q2_trial.npz",
+  "seconds": 0.1250343209994753,
+  "peak_rss_kib": 91072
+}

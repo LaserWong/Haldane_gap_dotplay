@@ -1,0 +1,2443 @@
+{
+  "J": "3/10",
+  "epsilon": "1/50",
+  "perturbation": "straight J+epsilon, crossed J; unit rungs",
+  "ground_certificates": [
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1/2",
+      "N_dimers": 4,
+      "physical_sites": 8,
+      "full_dimension": 256,
+      "retained_states": 1,
+      "trial_subspace_dimension": 23,
+      "reached_support_dimension": 58,
+      "trial_max_excited_dimers": 2,
+      "support_depth": null,
+      "E00": "-3",
+      "Vmin": "-186/25",
+      "Vmax": "62/25",
+      "second_eigenvalue_lower": "-177500000001/62500000000",
+      "ground_lower": "-48347472546045424835980684767198794312/16081336100800015851130738672923448815",
+      "ground_upper": "-4651988517100818484801205688/1547425049106781489576551185",
+      "ground_lower_display": -3.00643380891966,
+      "ground_upper_display": -3.0062771180976298,
+      "ground_width_display": 0.00015669082203008524,
+      "exact_rayleigh": "-4651988517100818484801205688/1547425049106781489576551185",
+      "exact_residual_squared": "1559679277034890652643076272726164817616389724907728/59863107065078127612299442497886330984261004973122605625",
+      "exact_residual_squared_display": 2.605409831700414e-05,
+      "integer_matrix_denominator": 200,
+      "sparse_nnz": 179,
+      "build_seconds": 0.02558815599877562,
+      "total_seconds": 0.02681197399942903,
+      "peak_process_rss_kib": 114176,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "reference_certificate": {
+        "status": "exact_occupancy_star_plus_local_PSD_reference",
+        "J": "3/10",
+        "a": "0",
+        "b": "15000000001/500000000000",
+        "B": "15000000001/62500000000",
+        "second_shift_lower": "9999999999/62500000000",
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "1/50",
+          "a": "0",
+          "b": "15000000001/500000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "bins": [
+          {
+            "q": 0,
+            "energy_lower": "0",
+            "multiplicity": 1
+          },
+          {
+            "q": 1,
+            "energy_lower": "1",
+            "multiplicity": 12
+          },
+          {
+            "q": 2,
+            "energy_lower": "4/5",
+            "multiplicity": 36
+          },
+          {
+            "q": 2,
+            "energy_lower": "2",
+            "multiplicity": 18
+          },
+          {
+            "q": 3,
+            "energy_lower": "9/10",
+            "multiplicity": 108
+          },
+          {
+            "q": 4,
+            "energy_lower": "2/5",
+            "multiplicity": 81
+          }
+        ],
+        "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+      },
+      "trial_artifact": "ff_2x2_eps1d50_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          2,
+          0,
+          "16/25"
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          "16/25"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "16/25"
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "16/25"
+        ],
+        [
+          1,
+          0,
+          3,
+          0,
+          "16/25"
+        ],
+        [
+          1,
+          0,
+          3,
+          1,
+          "3/5"
+        ],
+        [
+          1,
+          1,
+          3,
+          0,
+          "3/5"
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          "16/25"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "16/25"
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "16/25"
+        ]
+      ],
+      "nx": 2,
+      "ny": 2
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1/2",
+      "N_dimers": 8,
+      "physical_sites": 16,
+      "full_dimension": 65536,
+      "retained_states": 1,
+      "trial_subspace_dimension": 93,
+      "reached_support_dimension": 1301,
+      "trial_max_excited_dimers": 2,
+      "support_depth": null,
+      "E00": "-6",
+      "Vmin": "-372/25",
+      "Vmax": "124/25",
+      "second_eigenvalue_lower": "-177500000001/31250000000",
+      "ground_lower": "-476470128687768436003099583719415900926/79302524981228288048136857832273480025",
+      "ground_upper": "-46484552194279687578084099074/7737125245533942667726519975",
+      "ground_lower_display": -6.008259242698183,
+      "ground_upper_display": -6.007987555986857,
+      "ground_width_display": 0.0002716867113257098,
+      "exact_rayleigh": "-46484552194279687578084099074/7737125245533942667726519975",
+      "exact_residual_squared": "5334393115662827726604345579350116679929289542053778/59863107065078672612984103681557450665688377924074000625",
+      "exact_residual_squared_display": 8.910986043313249e-05,
+      "integer_matrix_denominator": 400,
+      "sparse_nnz": 2505,
+      "build_seconds": 0.05894556000021112,
+      "total_seconds": 0.0657258749997709,
+      "peak_process_rss_kib": 114176,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "reference_certificate": {
+        "status": "exact_occupancy_star_plus_local_PSD_reference",
+        "J": "3/10",
+        "a": "0",
+        "b": "15000000001/500000000000",
+        "B": "15000000001/31250000000",
+        "second_shift_lower": "9999999999/31250000000",
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "1/50",
+          "a": "0",
+          "b": "15000000001/500000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "bins": [
+          {
+            "q": 0,
+            "energy_lower": "0",
+            "multiplicity": 1
+          },
+          {
+            "q": 1,
+            "energy_lower": "1",
+            "multiplicity": 24
+          },
+          {
+            "q": 2,
+            "energy_lower": "4/5",
+            "multiplicity": 36
+          },
+          {
+            "q": 2,
+            "energy_lower": "7/5",
+            "multiplicity": 72
+          },
+          {
+            "q": 2,
+            "energy_lower": "2",
+            "multiplicity": 144
+          },
+          {
+            "q": 3,
+            "energy_lower": "27/20",
+            "multiplicity": 432
+          },
+          {
+            "q": 3,
+            "energy_lower": "9/5",
+            "multiplicity": 216
+          },
+          {
+            "q": 3,
+            "energy_lower": "39/20",
+            "multiplicity": 216
+          },
+          {
+            "q": 3,
+            "energy_lower": "12/5",
+            "multiplicity": 432
+          },
+          {
+            "q": 3,
+            "energy_lower": "3",
+            "multiplicity": 216
+          },
+          {
+            "q": 4,
+            "energy_lower": "1",
+            "multiplicity": 324
+          },
+          {
+            "q": 4,
+            "energy_lower": "8/5",
+            "multiplicity": 162
+          },
+          {
+            "q": 4,
+            "energy_lower": "19/10",
+            "multiplicity": 2592
+          },
+          {
+            "q": 4,
+            "energy_lower": "11/5",
+            "multiplicity": 162
+          },
+          {
+            "q": 4,
+            "energy_lower": "47/20",
+            "multiplicity": 1296
+          },
+          {
+            "q": 4,
+            "energy_lower": "14/5",
+            "multiplicity": 324
+          },
+          {
+            "q": 4,
+            "energy_lower": "59/20",
+            "multiplicity": 648
+          },
+          {
+            "q": 4,
+            "energy_lower": "4",
+            "multiplicity": 162
+          },
+          {
+            "q": 5,
+            "energy_lower": "31/20",
+            "multiplicity": 3888
+          },
+          {
+            "q": 5,
+            "energy_lower": "37/20",
+            "multiplicity": 1944
+          },
+          {
+            "q": 5,
+            "energy_lower": "43/20",
+            "multiplicity": 1944
+          },
+          {
+            "q": 5,
+            "energy_lower": "49/20",
+            "multiplicity": 3888
+          },
+          {
+            "q": 5,
+            "energy_lower": "29/10",
+            "multiplicity": 1944
+          },
+          {
+            "q": 6,
+            "energy_lower": "6/5",
+            "multiplicity": 2916
+          },
+          {
+            "q": 6,
+            "energy_lower": "9/5",
+            "multiplicity": 5832
+          },
+          {
+            "q": 6,
+            "energy_lower": "21/10",
+            "multiplicity": 11664
+          },
+          {
+            "q": 7,
+            "energy_lower": "29/20",
+            "multiplicity": 17496
+          },
+          {
+            "q": 8,
+            "energy_lower": "4/5",
+            "multiplicity": 6561
+          }
+        ],
+        "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+      },
+      "trial_artifact": "ff_4x2_eps1d50_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          2,
+          0,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "16/25"
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "16/25"
+        ],
+        [
+          1,
+          0,
+          3,
+          0,
+          "8/25"
+        ],
+        [
+          1,
+          0,
+          3,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          3,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          "8/25"
+        ],
+        [
+          2,
+          0,
+          4,
+          0,
+          "8/25"
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          4,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          4,
+          1,
+          "8/25"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "16/25"
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "16/25"
+        ],
+        [
+          3,
+          0,
+          5,
+          0,
+          "8/25"
+        ],
+        [
+          3,
+          0,
+          5,
+          1,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          5,
+          0,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          5,
+          1,
+          "8/25"
+        ],
+        [
+          4,
+          0,
+          6,
+          0,
+          "8/25"
+        ],
+        [
+          4,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          6,
+          1,
+          "8/25"
+        ],
+        [
+          4,
+          0,
+          5,
+          0,
+          "16/25"
+        ],
+        [
+          4,
+          0,
+          5,
+          1,
+          "3/5"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "3/5"
+        ],
+        [
+          4,
+          1,
+          5,
+          1,
+          "16/25"
+        ],
+        [
+          5,
+          0,
+          7,
+          0,
+          "8/25"
+        ],
+        [
+          5,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          7,
+          1,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          6,
+          1,
+          "8/25"
+        ],
+        [
+          6,
+          0,
+          7,
+          0,
+          "16/25"
+        ],
+        [
+          6,
+          0,
+          7,
+          1,
+          "3/5"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "3/5"
+        ],
+        [
+          6,
+          1,
+          7,
+          1,
+          "16/25"
+        ],
+        [
+          1,
+          0,
+          7,
+          0,
+          "8/25"
+        ],
+        [
+          1,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          7,
+          1,
+          "8/25"
+        ]
+      ],
+      "nx": 4,
+      "ny": 2
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1/2",
+      "N_dimers": 16,
+      "physical_sites": 32,
+      "full_dimension": 4294967296,
+      "retained_states": 1,
+      "trial_subspace_dimension": 377,
+      "reached_support_dimension": 21345,
+      "trial_max_excited_dimers": 2,
+      "support_depth": null,
+      "E00": "-12",
+      "Vmin": "-744/25",
+      "Vmax": "248/25",
+      "second_eigenvalue_lower": "-176692627459/15625000000",
+      "ground_lower": "-40562423006129556022778837345717226608/3378220343244583604566066315305294537",
+      "ground_upper": "-3715964152816126473850023088/309485009821342307856141757",
+      "ground_lower_display": -12.007038879877124,
+      "ground_upper_display": -12.006927750592045,
+      "ground_width_display": 0.00011112928507852025,
+      "exact_rayleigh": "-3715964152816126473850023088/309485009821342307856141757",
+      "exact_residual_squared": "929492947069804897270729937695519982372875036010746/11972621413014543094060098926911845919975688259880881125",
+      "exact_residual_squared_display": 7.763487335024413e-05,
+      "integer_matrix_denominator": 400,
+      "sparse_nnz": 31001,
+      "build_seconds": 0.20147820099919045,
+      "total_seconds": 0.24879286000032153,
+      "peak_process_rss_kib": 116864,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "reference_certificate": {
+        "status": "exact_occupancy_star_plus_local_PSD_reference",
+        "J": "3/10",
+        "a": "5163051/125000000",
+        "b": "2236101959/500000000000",
+        "B": "2236101959/15625000000",
+        "second_shift_lower": "10807372541/15625000000",
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "1/50",
+          "a": "5163051/125000000",
+          "b": "2236101959/500000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "bins": [
+          {
+            "q": 0,
+            "energy_lower": "0",
+            "multiplicity": 1
+          },
+          {
+            "q": 1,
+            "energy_lower": "1",
+            "multiplicity": 48
+          },
+          {
+            "q": 2,
+            "energy_lower": "7/5",
+            "multiplicity": 288
+          },
+          {
+            "q": 2,
+            "energy_lower": "2",
+            "multiplicity": 792
+          },
+          {
+            "q": 3,
+            "energy_lower": "39/20",
+            "multiplicity": 2592
+          },
+          {
+            "q": 3,
+            "energy_lower": "12/5",
+            "multiplicity": 6912
+          },
+          {
+            "q": 3,
+            "energy_lower": "3",
+            "multiplicity": 5616
+          },
+          {
+            "q": 4,
+            "energy_lower": "11/5",
+            "multiplicity": 1944
+          },
+          {
+            "q": 4,
+            "energy_lower": "5/2",
+            "multiplicity": 20736
+          },
+          {
+            "q": 4,
+            "energy_lower": "14/5",
+            "multiplicity": 12960
+          },
+          {
+            "q": 4,
+            "energy_lower": "59/20",
+            "multiplicity": 46656
+          },
+          {
+            "q": 4,
+            "energy_lower": "17/5",
+            "multiplicity": 46656
+          },
+          {
+            "q": 4,
+            "energy_lower": "4",
+            "multiplicity": 18468
+          },
+          {
+            "q": 5,
+            "energy_lower": "11/4",
+            "multiplicity": 46656
+          },
+          {
+            "q": 5,
+            "energy_lower": "61/20",
+            "multiplicity": 143856
+          },
+          {
+            "q": 5,
+            "energy_lower": "16/5",
+            "multiplicity": 23328
+          },
+          {
+            "q": 5,
+            "energy_lower": "67/20",
+            "multiplicity": 139968
+          },
+          {
+            "q": 5,
+            "energy_lower": "7/2",
+            "multiplicity": 264384
+          },
+          {
+            "q": 5,
+            "energy_lower": "19/5",
+            "multiplicity": 93312
+          },
+          {
+            "q": 5,
+            "energy_lower": "79/20",
+            "multiplicity": 209952
+          },
+          {
+            "q": 5,
+            "energy_lower": "22/5",
+            "multiplicity": 108864
+          },
+          {
+            "q": 5,
+            "energy_lower": "5",
+            "multiplicity": 31104
+          },
+          {
+            "q": 6,
+            "energy_lower": "3",
+            "multiplicity": 69984
+          },
+          {
+            "q": 6,
+            "energy_lower": "33/10",
+            "multiplicity": 513216
+          },
+          {
+            "q": 6,
+            "energy_lower": "18/5",
+            "multiplicity": 909792
+          },
+          {
+            "q": 6,
+            "energy_lower": "15/4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 6,
+            "energy_lower": "39/10",
+            "multiplicity": 921456
+          },
+          {
+            "q": 6,
+            "energy_lower": "81/20",
+            "multiplicity": 1178064
+          },
+          {
+            "q": 6,
+            "energy_lower": "21/5",
+            "multiplicity": 58320
+          },
+          {
+            "q": 6,
+            "energy_lower": "87/20",
+            "multiplicity": 419904
+          },
+          {
+            "q": 6,
+            "energy_lower": "9/2",
+            "multiplicity": 699840
+          },
+          {
+            "q": 6,
+            "energy_lower": "24/5",
+            "multiplicity": 209952
+          },
+          {
+            "q": 6,
+            "energy_lower": "99/20",
+            "multiplicity": 349920
+          },
+          {
+            "q": 6,
+            "energy_lower": "27/5",
+            "multiplicity": 46656
+          },
+          {
+            "q": 6,
+            "energy_lower": "6",
+            "multiplicity": 40824
+          },
+          {
+            "q": 7,
+            "energy_lower": "13/4",
+            "multiplicity": 139968
+          },
+          {
+            "q": 7,
+            "energy_lower": "71/20",
+            "multiplicity": 1364688
+          },
+          {
+            "q": 7,
+            "energy_lower": "77/20",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 7,
+            "energy_lower": "4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 7,
+            "energy_lower": "83/20",
+            "multiplicity": 5178816
+          },
+          {
+            "q": 7,
+            "energy_lower": "43/10",
+            "multiplicity": 2869344
+          },
+          {
+            "q": 7,
+            "energy_lower": "89/20",
+            "multiplicity": 3079296
+          },
+          {
+            "q": 7,
+            "energy_lower": "23/5",
+            "multiplicity": 3359232
+          },
+          {
+            "q": 7,
+            "energy_lower": "19/4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 7,
+            "energy_lower": "49/10",
+            "multiplicity": 1154736
+          },
+          {
+            "q": 7,
+            "energy_lower": "101/20",
+            "multiplicity": 1889568
+          },
+          {
+            "q": 7,
+            "energy_lower": "26/5",
+            "multiplicity": 139968
+          },
+          {
+            "q": 7,
+            "energy_lower": "107/20",
+            "multiplicity": 419904
+          },
+          {
+            "q": 7,
+            "energy_lower": "11/2",
+            "multiplicity": 559872
+          },
+          {
+            "q": 7,
+            "energy_lower": "119/20",
+            "multiplicity": 209952
+          },
+          {
+            "q": 7,
+            "energy_lower": "7",
+            "multiplicity": 34992
+          },
+          {
+            "q": 8,
+            "energy_lower": "16/5",
+            "multiplicity": 52488
+          },
+          {
+            "q": 8,
+            "energy_lower": "19/5",
+            "multiplicity": 5038848
+          },
+          {
+            "q": 8,
+            "energy_lower": "41/10",
+            "multiplicity": 10077696
+          },
+          {
+            "q": 8,
+            "energy_lower": "17/4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 8,
+            "energy_lower": "22/5",
+            "multiplicity": 23225940
+          },
+          {
+            "q": 8,
+            "energy_lower": "91/20",
+            "multiplicity": 5353776
+          },
+          {
+            "q": 8,
+            "energy_lower": "47/10",
+            "multiplicity": 13856832
+          },
+          {
+            "q": 8,
+            "energy_lower": "97/20",
+            "multiplicity": 7558272
+          },
+          {
+            "q": 8,
+            "energy_lower": "5",
+            "multiplicity": 4618944
+          },
+          {
+            "q": 8,
+            "energy_lower": "103/20",
+            "multiplicity": 7138368
+          },
+          {
+            "q": 8,
+            "energy_lower": "53/10",
+            "multiplicity": 2099520
+          },
+          {
+            "q": 8,
+            "energy_lower": "109/20",
+            "multiplicity": 1259712
+          },
+          {
+            "q": 8,
+            "energy_lower": "28/5",
+            "multiplicity": 2571912
+          },
+          {
+            "q": 8,
+            "energy_lower": "59/10",
+            "multiplicity": 314928
+          },
+          {
+            "q": 8,
+            "energy_lower": "121/20",
+            "multiplicity": 419904
+          },
+          {
+            "q": 8,
+            "energy_lower": "13/2",
+            "multiplicity": 419904
+          },
+          {
+            "q": 8,
+            "energy_lower": "8",
+            "multiplicity": 13122
+          },
+          {
+            "q": 9,
+            "energy_lower": "15/4",
+            "multiplicity": 1259712
+          },
+          {
+            "q": 9,
+            "energy_lower": "81/20",
+            "multiplicity": 12282192
+          },
+          {
+            "q": 9,
+            "energy_lower": "87/20",
+            "multiplicity": 37791360
+          },
+          {
+            "q": 9,
+            "energy_lower": "93/20",
+            "multiplicity": 62355744
+          },
+          {
+            "q": 9,
+            "energy_lower": "24/5",
+            "multiplicity": 10077696
+          },
+          {
+            "q": 9,
+            "energy_lower": "99/20",
+            "multiplicity": 50388480
+          },
+          {
+            "q": 9,
+            "energy_lower": "51/10",
+            "multiplicity": 11337408
+          },
+          {
+            "q": 9,
+            "energy_lower": "21/4",
+            "multiplicity": 13226976
+          },
+          {
+            "q": 9,
+            "energy_lower": "27/5",
+            "multiplicity": 14171760
+          },
+          {
+            "q": 9,
+            "energy_lower": "111/20",
+            "multiplicity": 2519424
+          },
+          {
+            "q": 9,
+            "energy_lower": "57/10",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 9,
+            "energy_lower": "117/20",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 9,
+            "energy_lower": "123/20",
+            "multiplicity": 1889568
+          },
+          {
+            "q": 9,
+            "energy_lower": "141/20",
+            "multiplicity": 314928
+          },
+          {
+            "q": 10,
+            "energy_lower": "4",
+            "multiplicity": 5668704
+          },
+          {
+            "q": 10,
+            "energy_lower": "43/10",
+            "multiplicity": 41570496
+          },
+          {
+            "q": 10,
+            "energy_lower": "23/5",
+            "multiplicity": 107705376
+          },
+          {
+            "q": 10,
+            "energy_lower": "49/10",
+            "multiplicity": 158723712
+          },
+          {
+            "q": 10,
+            "energy_lower": "101/20",
+            "multiplicity": 14171760
+          },
+          {
+            "q": 10,
+            "energy_lower": "26/5",
+            "multiplicity": 81251424
+          },
+          {
+            "q": 10,
+            "energy_lower": "107/20",
+            "multiplicity": 11337408
+          },
+          {
+            "q": 10,
+            "energy_lower": "11/2",
+            "multiplicity": 28343520
+          },
+          {
+            "q": 10,
+            "energy_lower": "113/20",
+            "multiplicity": 17006112
+          },
+          {
+            "q": 10,
+            "energy_lower": "119/20",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 10,
+            "energy_lower": "61/10",
+            "multiplicity": 472392
+          },
+          {
+            "q": 10,
+            "energy_lower": "32/5",
+            "multiplicity": 2834352
+          },
+          {
+            "q": 11,
+            "energy_lower": "17/4",
+            "multiplicity": 34012224
+          },
+          {
+            "q": 11,
+            "energy_lower": "91/20",
+            "multiplicity": 121877136
+          },
+          {
+            "q": 11,
+            "energy_lower": "97/20",
+            "multiplicity": 294772608
+          },
+          {
+            "q": 11,
+            "energy_lower": "103/20",
+            "multiplicity": 204073344
+          },
+          {
+            "q": 11,
+            "energy_lower": "53/10",
+            "multiplicity": 17006112
+          },
+          {
+            "q": 11,
+            "energy_lower": "109/20",
+            "multiplicity": 79361856
+          },
+          {
+            "q": 11,
+            "energy_lower": "23/4",
+            "multiplicity": 8503056
+          },
+          {
+            "q": 11,
+            "energy_lower": "59/10",
+            "multiplicity": 14171760
+          },
+          {
+            "q": 12,
+            "energy_lower": "21/5",
+            "multiplicity": 12754584
+          },
+          {
+            "q": 12,
+            "energy_lower": "9/2",
+            "multiplicity": 136048896
+          },
+          {
+            "q": 12,
+            "energy_lower": "24/5",
+            "multiplicity": 391140576
+          },
+          {
+            "q": 12,
+            "energy_lower": "51/10",
+            "multiplicity": 306110016
+          },
+          {
+            "q": 12,
+            "energy_lower": "27/5",
+            "multiplicity": 112665492
+          },
+          {
+            "q": 12,
+            "energy_lower": "111/20",
+            "multiplicity": 8503056
+          },
+          {
+            "q": 13,
+            "energy_lower": "89/20",
+            "multiplicity": 153055008
+          },
+          {
+            "q": 13,
+            "energy_lower": "19/4",
+            "multiplicity": 408146688
+          },
+          {
+            "q": 13,
+            "energy_lower": "101/20",
+            "multiplicity": 331619184
+          },
+          {
+            "q": 14,
+            "energy_lower": "22/5",
+            "multiplicity": 153055008
+          },
+          {
+            "q": 14,
+            "energy_lower": "47/10",
+            "multiplicity": 420901272
+          },
+          {
+            "q": 15,
+            "energy_lower": "87/20",
+            "multiplicity": 229582512
+          },
+          {
+            "q": 16,
+            "energy_lower": "4",
+            "multiplicity": 43046721
+          }
+        ],
+        "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+      },
+      "trial_artifact": "ff_4x4_eps1d50_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          4,
+          0,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          4,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          4,
+          1,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "8/25"
+        ],
+        [
+          1,
+          0,
+          5,
+          0,
+          "8/25"
+        ],
+        [
+          1,
+          0,
+          5,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          5,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          5,
+          1,
+          "8/25"
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          "8/25"
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          2,
+          1,
+          "8/25"
+        ],
+        [
+          2,
+          0,
+          6,
+          0,
+          "8/25"
+        ],
+        [
+          2,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          6,
+          1,
+          "8/25"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "8/25"
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "8/25"
+        ],
+        [
+          3,
+          0,
+          7,
+          0,
+          "8/25"
+        ],
+        [
+          3,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          7,
+          1,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          3,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          3,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          3,
+          1,
+          "8/25"
+        ],
+        [
+          4,
+          0,
+          8,
+          0,
+          "8/25"
+        ],
+        [
+          4,
+          0,
+          8,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          8,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          8,
+          1,
+          "8/25"
+        ],
+        [
+          4,
+          0,
+          5,
+          0,
+          "8/25"
+        ],
+        [
+          4,
+          0,
+          5,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          5,
+          1,
+          "8/25"
+        ],
+        [
+          5,
+          0,
+          9,
+          0,
+          "8/25"
+        ],
+        [
+          5,
+          0,
+          9,
+          1,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          9,
+          0,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          9,
+          1,
+          "8/25"
+        ],
+        [
+          5,
+          0,
+          6,
+          0,
+          "8/25"
+        ],
+        [
+          5,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          6,
+          1,
+          "8/25"
+        ],
+        [
+          6,
+          0,
+          10,
+          0,
+          "8/25"
+        ],
+        [
+          6,
+          0,
+          10,
+          1,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          10,
+          0,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          10,
+          1,
+          "8/25"
+        ],
+        [
+          6,
+          0,
+          7,
+          0,
+          "8/25"
+        ],
+        [
+          6,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          7,
+          1,
+          "8/25"
+        ],
+        [
+          7,
+          0,
+          11,
+          0,
+          "8/25"
+        ],
+        [
+          7,
+          0,
+          11,
+          1,
+          "3/10"
+        ],
+        [
+          7,
+          1,
+          11,
+          0,
+          "3/10"
+        ],
+        [
+          7,
+          1,
+          11,
+          1,
+          "8/25"
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          "8/25"
+        ],
+        [
+          4,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          7,
+          1,
+          "8/25"
+        ],
+        [
+          8,
+          0,
+          12,
+          0,
+          "8/25"
+        ],
+        [
+          8,
+          0,
+          12,
+          1,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          12,
+          0,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          12,
+          1,
+          "8/25"
+        ],
+        [
+          8,
+          0,
+          9,
+          0,
+          "8/25"
+        ],
+        [
+          8,
+          0,
+          9,
+          1,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          9,
+          0,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          9,
+          1,
+          "8/25"
+        ],
+        [
+          9,
+          0,
+          13,
+          0,
+          "8/25"
+        ],
+        [
+          9,
+          0,
+          13,
+          1,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          13,
+          0,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          13,
+          1,
+          "8/25"
+        ],
+        [
+          9,
+          0,
+          10,
+          0,
+          "8/25"
+        ],
+        [
+          9,
+          0,
+          10,
+          1,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          10,
+          0,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          10,
+          1,
+          "8/25"
+        ],
+        [
+          10,
+          0,
+          14,
+          0,
+          "8/25"
+        ],
+        [
+          10,
+          0,
+          14,
+          1,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          14,
+          0,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          14,
+          1,
+          "8/25"
+        ],
+        [
+          10,
+          0,
+          11,
+          0,
+          "8/25"
+        ],
+        [
+          10,
+          0,
+          11,
+          1,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          11,
+          0,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          11,
+          1,
+          "8/25"
+        ],
+        [
+          11,
+          0,
+          15,
+          0,
+          "8/25"
+        ],
+        [
+          11,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          11,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          11,
+          1,
+          15,
+          1,
+          "8/25"
+        ],
+        [
+          8,
+          0,
+          11,
+          0,
+          "8/25"
+        ],
+        [
+          8,
+          0,
+          11,
+          1,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          11,
+          0,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          11,
+          1,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          12,
+          0,
+          "8/25"
+        ],
+        [
+          0,
+          0,
+          12,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          12,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          12,
+          1,
+          "8/25"
+        ],
+        [
+          12,
+          0,
+          13,
+          0,
+          "8/25"
+        ],
+        [
+          12,
+          0,
+          13,
+          1,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          13,
+          0,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          13,
+          1,
+          "8/25"
+        ],
+        [
+          1,
+          0,
+          13,
+          0,
+          "8/25"
+        ],
+        [
+          1,
+          0,
+          13,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          13,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          13,
+          1,
+          "8/25"
+        ],
+        [
+          13,
+          0,
+          14,
+          0,
+          "8/25"
+        ],
+        [
+          13,
+          0,
+          14,
+          1,
+          "3/10"
+        ],
+        [
+          13,
+          1,
+          14,
+          0,
+          "3/10"
+        ],
+        [
+          13,
+          1,
+          14,
+          1,
+          "8/25"
+        ],
+        [
+          2,
+          0,
+          14,
+          0,
+          "8/25"
+        ],
+        [
+          2,
+          0,
+          14,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          14,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          14,
+          1,
+          "8/25"
+        ],
+        [
+          14,
+          0,
+          15,
+          0,
+          "8/25"
+        ],
+        [
+          14,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          14,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          14,
+          1,
+          15,
+          1,
+          "8/25"
+        ],
+        [
+          3,
+          0,
+          15,
+          0,
+          "8/25"
+        ],
+        [
+          3,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          15,
+          1,
+          "8/25"
+        ],
+        [
+          12,
+          0,
+          15,
+          0,
+          "8/25"
+        ],
+        [
+          12,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          15,
+          1,
+          "8/25"
+        ]
+      ],
+      "nx": 4,
+      "ny": 4
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "16",
+      "A_lower": "3552080094386710118790471726212030253/170141183460469231731687303715884105728",
+      "B_lower": "229700258415253050203396867709032117/340282366920938463463374607431768211456",
+      "C_lower": "64846385811942079092453240660605218017/85070591730234615865843651857942052864",
+      "J1_lower": "48394681446366744548780302270413/340282366920938463463374607431768211456",
+      "J2_lower": "70652510806647110014984841/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.02087725042309938,
+        0.0006750283903738739,
+        0.7622656019318045
+      ],
+      "tail_displays": [
+        5.67012032170533,
+        34.797473679991896,
+        0.14359307986763759
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    },
+    {
+      "beta": "24",
+      "A_lower": "12185397051030550895859914614175361377/85070591730234615865843651857942052864",
+      "B_lower": "5514149539698401211608091386561441829/85070591730234615865843651857942052864",
+      "C_lower": "42308098737142359509463365350357486163/42535295865117307932921825928971026432",
+      "J1_lower": "92785017052888768453480980117125123/340282366920938463463374607431768211456",
+      "J2_lower": "6006697884814184439195436292295333/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.14323865396012975,
+        0.06481851633504787,
+        0.994658621190848
+      ],
+      "tail_displays": [
+        1.4975593702976184,
+        2.5171655251803635,
+        1.077339852107705e-05
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    },
+    {
+      "beta": "32",
+      "A_lower": "18724500827106738203922016805855654175/42535295865117307932921825928971026432",
+      "B_lower": "44881785878845864488291415678852304657/85070591730234615865843651857942052864",
+      "C_lower": "168935382438513511616477530420731143909/170141183460469231731687303715884105728",
+      "J1_lower": "3580820807133189296857244037542156069/170141183460469231731687303715884105728",
+      "J2_lower": "26363444267385525358442092827378885875/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.4402108988846244,
+        0.5275828575539883,
+        0.9929129385523765
+      ],
+      "tail_displays": [
+        0.39596983447230394,
+        0.1824749014485039,
+        9.889843335564024e-09
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    },
+    {
+      "beta": "48",
+      "A_lower": "255014014138045080182056203259576505609/340282366920938463463374607431768211456",
+      "B_lower": "214332194339870473106768136065791723205/340282366920938463463374607431768211456",
+      "C_lower": "84167847647109027484751243100860766175/85070591730234615865843651857942052864",
+      "J1_lower": "45033201098062639732849515843860308397/340282366920938463463374607431768211456",
+      "J2_lower": "26779428875695122162375302426933259415/170141183460469231731687303715884105728",
+      "purity_displays": [
+        0.7494188324994674,
+        0.629865709114656,
+        0.9893882943004763
+      ],
+      "tail_displays": [
+        0.027685332707885826,
+        0.0009595666018812416,
+        1.3127382214609026e-13
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    },
+    {
+      "beta": "64",
+      "A_lower": "248048105942142181676162930462776250449/340282366920938463463374607431768211456",
+      "B_lower": "23023542420137860362439942241790690061/42535295865117307932921825928971026432",
+      "C_lower": "167738133614554035959491733270675360059/170141183460469231731687303715884105728",
+      "J1_lower": "15088820156818209573071458815683525011/170141183460469231731687303715884105728",
+      "J2_lower": "29209908347744556859142564872588673561/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.728947868167891,
+        0.5412808810157871,
+        0.9858761424069116
+      ],
+      "tail_displays": [
+        0.0019356997256422318,
+        5.046411525623595e-06,
+        1.835580003902226e-18
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    },
+    {
+      "beta": "96",
+      "A_lower": "212995530796874858533097007468308547317/340282366920938463463374607431768211456",
+      "B_lower": "8469542560330450615740610574213361035/21267647932558653966460912964485513216",
+      "C_lower": "333098732874236195056145750499224998509/340282366920938463463374607431768211456",
+      "J1_lower": "2298759650772573111854291301105740389/85070591730234615865843651857942052864",
+      "J2_lower": "8558574089426700733640042834724109929/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.6259376080053024,
+        0.3982359773486951,
+        0.9788891968993171
+      ],
+      "tail_displays": [
+        9.462686962269037e-06,
+        1.395727574009815e-10,
+        3.7157527386183167e-28
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    },
+    {
+      "beta": "120",
+      "A_lower": "47364530036177753489264731021581136723/85070591730234615865843651857942052864",
+      "B_lower": "107650254437347405640250245949706564015/340282366920938463463374607431768211456",
+      "C_lower": "331326646259203063779459619583454387287/340282366920938463463374607431768211456",
+      "J1_lower": "1864197730197209375053469608454955959/170141183460469231731687303715884105728",
+      "J2_lower": "1704166060923644215591399079864674969/170141183460469231731687303715884105728",
+      "purity_displays": [
+        0.556767374868795,
+        0.3163556648892094,
+        0.973681502386469
+      ],
+      "tail_displays": [
+        1.7494310763229352e-07,
+        5.323094816079161e-14,
+        1.2621793241487292e-29
+      ],
+      "bootstrap": {
+        "accepted": false,
+        "failure": "first spatial update"
+      }
+    }
+  ],
+  "float_scan": {
+    "beta_min": 12,
+    "beta_max": 120,
+    "beta_step": 0.5,
+    "successful_beta_count": 0,
+    "best": null
+  },
+  "seconds": 3.5413512100003572
+}

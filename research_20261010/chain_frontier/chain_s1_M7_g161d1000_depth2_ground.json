@@ -1,0 +1,104 @@
+{
+  "status": "exact_rational_sparse_support_ground_certificate",
+  "s": "1",
+  "N_dimers": 7,
+  "physical_sites": 14,
+  "full_dimension": 4782969,
+  "retained_states": 1,
+  "trial_subspace_dimension": 365,
+  "reached_support_dimension": 3683,
+  "trial_max_excited_dimers": 4,
+  "support_depth": 2,
+  "E00": "-14",
+  "Vmin": "-1127/500",
+  "Vmax": "1127/1000",
+  "second_eigenvalue_lower": "-1399993699521/100000000000",
+  "ground_lower": "-333835723939501983215802499951939758844123/23618367472394587856025805603150287390075",
+  "ground_upper": "-8852588434458307928114113413879/626707144888265320475524397975",
+  "ground_lower_display": -14.134580822730145,
+  "ground_upper_display": -14.125558495167025,
+  "ground_width_display": 0.009022327563119532,
+  "exact_rayleigh": "-8852588434458307928114113413879/626707144888265320475524397975",
+  "exact_residual_squared": "534186739703140778600418537705055947971877693837519945587393/471314214544801417209523817128739196115517888483383420920750000",
+  "exact_residual_squared_display": 0.0011333983215826879,
+  "integer_matrix_denominator": 36000,
+  "sparse_nnz": 15534,
+  "build_seconds": 0.3376017980008328,
+  "total_seconds": 0.3551108999999997,
+  "peak_process_rss_kib": 81688,
+  "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+  "relative_form_bound": {
+    "alpha": "53/100",
+    "B": "52993699521/100000000000",
+    "second_shift_lower": "6300479/100000000000",
+    "local_certificate": {
+      "spin": "1",
+      "coupling": "161/1000",
+      "a": "47/200",
+      "b": "7570528503/100000000000",
+      "local_dimension": 81,
+      "exact_inertia": [
+        0,
+        0,
+        81
+      ],
+      "kind": "single",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+    "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+  },
+  "trial_artifact": "chain_s1_M7_g161d1000_depth2_trial.npz",
+  "weak_bonds": [
+    [
+      6,
+      1,
+      0,
+      0,
+      "161/1000"
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      "161/1000"
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      "161/1000"
+    ],
+    [
+      2,
+      1,
+      3,
+      0,
+      "161/1000"
+    ],
+    [
+      3,
+      1,
+      4,
+      0,
+      "161/1000"
+    ],
+    [
+      4,
+      1,
+      5,
+      0,
+      "161/1000"
+    ],
+    [
+      5,
+      1,
+      6,
+      0,
+      "161/1000"
+    ]
+  ]
+}

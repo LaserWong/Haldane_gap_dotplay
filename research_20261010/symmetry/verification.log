@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "Exact four-triplet three-pairing Gram is 2^N times diag9/off3, including signs.",
+    "Independent full physical-spin T action and G/K/J exactly match on2x2 g=1/100.",
+    "Independent full physical-spin T action and G/K/J exactly match on2x2 g=1/50.",
+    "Independent full physical-spin T action and G/K/J exactly match on2x2 g=3/100.",
+    "Analytic/explicit integer G/K/J identical, old Sz0 Ritz minimum agreement<1e-20 on2x2 g=1/100.",
+    "Analytic/explicit integer G/K/J identical, old Sz0 Ritz minimum agreement<1e-20 on4x2 g=1/100.",
+    "Analytic/explicit integer G/K/J identical, old Sz0 Ritz minimum agreement<1e-20 on4x4 g=1/100.",
+    "Analytic/explicit integer G/K/J identical, old Sz0 Ritz minimum agreement<1e-20 on2x2 g=1/50.",
+    "Analytic/explicit integer G/K/J identical, old Sz0 Ritz minimum agreement<1e-20 on4x2 g=1/50.",
+    "Analytic/explicit integer G/K/J identical, old Sz0 Ritz minimum agreement<1e-20 on4x4 g=1/50.",
+    "Analytic/explicit integer G/K/J identical, old Sz0 Ritz minimum agreement<1e-20 on2x2 g=3/100.",
+    "Analytic/explicit integer G/K/J identical, old Sz0 Ritz minimum agreement<1e-20 on4x2 g=3/100.",
+    "Analytic/explicit integer G/K/J identical, old Sz0 Ritz minimum agreement<1e-20 on4x4 g=3/100."
+  ],
+  "total_seconds": 1.8683291070010455,
+  "independence": "Physical-spin action is independent of dimer kernels; analytic vs explicit and baseline comparisons share portions of construction and are cross-checks, not a separate worker audit."
+}

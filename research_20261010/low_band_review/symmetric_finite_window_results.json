@@ -1,0 +1,22 @@
+{
+  "status": "passed_independent_exact_all_integer_bridge",
+  "files": [
+    {
+      "source_file": "finite_window_symmetric_correlated_beta909d100_FINAL.json",
+      "source_sha256": "41c6691bec42848d75a9d5b832cccd51ffa2d56b69c5b50ce448099e2b57018d",
+      "records": [
+        {
+          "beta_initial": "909/100",
+          "all_square_sides": "every integer L >= 2",
+          "exact_sqrt_endpoint_inequalities_passed": true,
+          "independent_exponential_gap_checks_passed": true,
+          "finite_window_count": 6,
+          "minimum_required_finite_window_gap": "13513267909/1000000000000",
+          "small_L2_L3_lower": "19/100",
+          "all_integer_gap_lower": "9195338283/1000000000000",
+          "gap_display": 0.009195338283
+        }
+      ]
+    }
+  ]
+}

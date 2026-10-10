@@ -1,0 +1,55 @@
+{
+  "status": "counterfactual_diagnostic_not_a_physical_certificate",
+  "source": "chain_sparse_s1_g4d25_n4_depth3.json",
+  "operation": "Set every ground interval width to zero while holding each existing Rayleigh pivot and local comparison fixed. This is deliberately optimistic and is not asserted to enclose the true ground energy.",
+  "zero_width_counterfactual_accepted_count": 14,
+  "best": {
+    "beta": "80",
+    "S_lower": "824349100799/1000000000000",
+    "T_lower": "180448030899/200000000000",
+    "J_direct_lower": "169887859997/250000000000",
+    "first_S_lower": "444408040383/500000000000",
+    "first_T_lower": "231748633499/250000000000",
+    "tail_upper": [
+      "3427215702606490528751650911/170141183460469231731687303715884105728",
+      "17961174256239934765299485395559581515/340282366920938463463374607431768211456"
+    ],
+    "bootstrap": {
+      "status": "accepted_conditional_scalar_seed",
+      "physical_inputs_verified": false,
+      "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+      "input": {
+        "S_lower": "444408040383/500000000000",
+        "T_lower": "231748633499/250000000000",
+        "n": 8,
+        "beta": "160"
+      },
+      "rounding_decimal_digits": 12,
+      "updates": [
+        {
+          "round": 1,
+          "p_upper": "33401766067/500000000000",
+          "q_upper": "7627208997/250000000000"
+        },
+        {
+          "round": 2,
+          "p_upper": "8503750369/500000000000",
+          "q_upper": "847401169/250000000000"
+        },
+        {
+          "round": 3,
+          "p_upper": "738152487/1000000000000",
+          "q_upper": "7139599/250000000000"
+        }
+      ],
+      "rounds": 3,
+      "final_n": 64,
+      "final_beta": "1280",
+      "final_p": "738152487/1000000000000",
+      "final_q": "7139599/250000000000",
+      "final_common_u": "738152487/1000000000000",
+      "conditional_gap_lower_rational": "2188250867/500000000000",
+      "conditional_scope": "every even periodic L >= 64, only if all analytic/physical premises hold"
+    }
+  }
+}

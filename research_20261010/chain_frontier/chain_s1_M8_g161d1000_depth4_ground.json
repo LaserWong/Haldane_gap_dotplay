@@ -1,0 +1,111 @@
+{
+  "status": "exact_rational_sparse_support_ground_certificate",
+  "s": "1",
+  "N_dimers": 8,
+  "physical_sites": 16,
+  "full_dimension": 43046721,
+  "retained_states": 1,
+  "trial_subspace_dimension": 43294,
+  "reached_support_dimension": 245870,
+  "trial_max_excited_dimers": 8,
+  "support_depth": 4,
+  "E00": "-16",
+  "Vmin": "-322/125",
+  "Vmax": "161/125",
+  "second_eigenvalue_lower": "-2009020934279/125000000000",
+  "ground_lower": "-36690873077086944654097002306419529609208757/2272749800214433296388859799855423490173500",
+  "ground_upper": "-4097561585327729741582630639561517/253816393679717132586533262153500",
+  "ground_lower_display": -16.143824134810252,
+  "ground_upper_display": -16.14380192675148,
+  "ground_width_display": 2.2208058770605425e-05,
+  "exact_rayleigh": "-4097561585327729741582630639561517/253816393679717132586533262153500",
+  "exact_residual_squared": "819901855995968853851739491197939093919378347527011891514841/515382093604617209350789170242467220337468761091410843660498000000",
+  "exact_residual_squared_display": 1.5908621315527668e-06,
+  "integer_matrix_denominator": 36000,
+  "sparse_nnz": 2495174,
+  "build_seconds": 7.506898434001414,
+  "total_seconds": 9.389841166001133,
+  "peak_process_rss_kib": 377660,
+  "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+  "relative_form_bound": {
+    "alpha": "12/25",
+    "B": "69020934279/125000000000",
+    "second_shift_lower": "-9020934279/125000000000",
+    "local_certificate": {
+      "spin": "1",
+      "coupling": "161/1000",
+      "a": "13/50",
+      "b": "69020934279/1000000000000",
+      "local_dimension": 81,
+      "exact_inertia": [
+        0,
+        0,
+        81
+      ],
+      "kind": "single",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+    "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+  },
+  "trial_artifact": "chain_s1_M8_g161d1000_depth4_trial.npz",
+  "weak_bonds": [
+    [
+      7,
+      1,
+      0,
+      0,
+      "161/1000"
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      "161/1000"
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      "161/1000"
+    ],
+    [
+      2,
+      1,
+      3,
+      0,
+      "161/1000"
+    ],
+    [
+      3,
+      1,
+      4,
+      0,
+      "161/1000"
+    ],
+    [
+      4,
+      1,
+      5,
+      0,
+      "161/1000"
+    ],
+    [
+      5,
+      1,
+      6,
+      0,
+      "161/1000"
+    ],
+    [
+      6,
+      1,
+      7,
+      0,
+      "161/1000"
+    ]
+  ]
+}

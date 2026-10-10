@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/chain_frontier/correlated_frontier.py", line 38, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/chain_frontier/correlated_frontier.py", line 35, in main
+    out=dict(status='exact_arithmetic_producer_candidate_requires_independent_audit',source=str(path.relative_to(ROOT)),g=rec['g'],n=rec['n'],depth=rec['depth'],ground_certificates=rec['ground_certificates'],seeds=rows,best=best)
+                                                                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 682, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: 'research_20261010/chain_frontier/chain_sparse_s1_g4d25_n4_depth4.json' is not in the subpath of '/workspace/shared/haldane_active'
+CORRELATED 4/25 4 4 accepted 14 best {'beta': '80', 'gap': 0.004358246531, 'L0': 64}
+CORRELATED 13/80 4 4 accepted 0 best None
+CORRELATED 161/1000 4 4 accepted 7 best {'beta': '86', 'gap': 0.001952374069, 'L0': 128}
+CORRELATED 4/25 4 3 accepted 0 best None
+CORRELATED 323/2000 4 4 accepted 0 best None
+CORRELATED 129/800 4 4 accepted 4 best {'beta': '88', 'gap': 0.001075806295, 'L0': 256}
+CORRELATED 323/2000 4 5 accepted 0 best None

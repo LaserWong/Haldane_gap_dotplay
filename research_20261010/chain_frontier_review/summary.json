@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "candidates": [
+    {
+      "g": "4/25",
+      "gap": "4358246531/1000000000000",
+      "status": "PASS",
+      "audited_seeds": 65,
+      "accepted_seeds": 14
+    },
+    {
+      "g": "161/1000",
+      "gap": "1952374069/1000000000000",
+      "status": "PASS",
+      "audited_seeds": 65,
+      "accepted_seeds": 7
+    },
+    {
+      "g": "129/800",
+      "gap": "215161259/200000000000",
+      "status": "PASS",
+      "audited_seeds": 65,
+      "accepted_seeds": 4
+    }
+  ],
+  "obstructions": [
+    {
+      "g": "13/80",
+      "status": "PASS",
+      "interval_count": 7,
+      "tail_beta_from": "256"
+    },
+    {
+      "g": "7/40",
+      "status": "PASS",
+      "beta_split": "128"
+    },
+    {
+      "g": "323/2000",
+      "status": "PASS",
+      "interval_count": 33,
+      "tail_beta_from": "256"
+    }
+  ],
+  "seconds": 187.25203872699967,
+  "peak_rss_kib": 310576,
+  "BLAS_threads": 1,
+  "address_space_limit_bytes": 1073741824,
+  "CPU_affinity": [
+    0
+  ],
+  "pinned_producer_hashes_verified": [
+    "chain_sparse_s1_g4d25_n4_depth4_correlated.json",
+    "chain_sparse_s1_g4d25_n4_depth4_correlated_bridges.json",
+    "chain_sparse_s1_g161d1000_n4_depth4_correlated.json",
+    "chain_sparse_s1_g161d1000_n4_depth4_correlated_bridges.json",
+    "chain_sparse_s1_g129d800_n4_depth4_correlated.json",
+    "chain_sparse_s1_g129d800_n4_depth4_correlated_bridges.json",
+    "chain_sparse_s1_g13d80_n4_depth4_obstruction.json",
+    "local_ceiling_g7d40_N8.json",
+    "chain_sparse_s1_g323d2000_n4_depth5_obstruction.json"
+  ],
+  "verifier_sha256": "bf285678414a6a6087c8b72e2696b3b5d3812c9d1cfb672cf201c88347669a05",
+  "independent_core_sha256": "30c997e6e56135af60cd989ab22e31a8957346dc3ff2235ae8ac6b2c62916a19"
+}

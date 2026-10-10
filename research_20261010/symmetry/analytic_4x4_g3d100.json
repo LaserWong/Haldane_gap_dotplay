@@ -1,0 +1,223 @@
+{
+  "status": "exact_rational_analytic_q2_symmetry_certificate",
+  "s": "1/2",
+  "nx": 4,
+  "ny": 4,
+  "N_dimers": 16,
+  "physical_sites": 32,
+  "coupling": "3/100",
+  "full_dimension": 4294967296,
+  "Sz0_full_dimension": 601080390,
+  "q2_Sz0_dimension": 377,
+  "q2_even_parity_Sz0_dimension": 361,
+  "q2_singlet_dimension": 121,
+  "trial_subspace_dimension": 6,
+  "retained_states": 1,
+  "pair_orbit_sizes": [
+    32,
+    16,
+    32,
+    32,
+    8
+  ],
+  "spatial_group_order": 128,
+  "gram_common_factor_removed": "65536",
+  "gram": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "96",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "48",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "96",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "96",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "24"
+    ]
+  ],
+  "shifted_hamiltonian_numerator": [
+    [
+      "0",
+      "576",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "576",
+      "75648",
+      "1152",
+      "2304",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1152",
+      "38400",
+      "0",
+      "1152",
+      "0"
+    ],
+    [
+      "0",
+      "2304",
+      "0",
+      "76800",
+      "2304",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1152",
+      "2304",
+      "76800",
+      "1152"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1152",
+      "19200"
+    ]
+  ],
+  "shifted_H2_numerator": [
+    [
+      "3456",
+      "453888",
+      "6912",
+      "13824",
+      "0",
+      "0"
+    ],
+    [
+      "453888",
+      "60564480",
+      "1829376",
+      "3658752",
+      "124416",
+      "0"
+    ],
+    [
+      "6912",
+      "1829376",
+      "30872064",
+      "82944",
+      "1843200",
+      "20736"
+    ],
+    [
+      "13824",
+      "3658752",
+      "82944",
+      "61827072",
+      "3686400",
+      "41472"
+    ],
+    [
+      "0",
+      "124416",
+      "1843200",
+      "3686400",
+      "61868544",
+      "1843200"
+    ],
+    [
+      "0",
+      "0",
+      "20736",
+      "41472",
+      "1843200",
+      "15436032"
+    ]
+  ],
+  "integer_matrix_denominator": 400,
+  "coefficients": [
+    "281474976710656",
+    "-2134294204595",
+    "63766391733",
+    "63766391733",
+    "-2856449897",
+    "170456400"
+  ],
+  "bits": 48,
+  "E00": "-12",
+  "second_eigenvalue_lower": "-358203519571/31250000000",
+  "ground_lower": "-51246551738456426847813240778065546728121/4266538803348054418345059627769162756450",
+  "ground_upper": "-2990195161378294910508786869949/248956403601298945024358715050",
+  "exact_rayleigh": "-2990195161378294910508786869949/248956403601298945024358715050",
+  "exact_residual_squared": "2390605887446153212112561189582384971422644116825890939/12395858178818570864695721489701338924566918299777419300500",
+  "ground_lower_display": -12.011270517038785,
+  "ground_upper_display": -12.010918852149956,
+  "ground_width_display": 0.0003516648888286615,
+  "exact_residual_squared_display": 0.00019285521445631753,
+  "relative_form_bound": {
+    "alpha": "3/4",
+    "B": "6641019571/31250000000",
+    "second_shift_lower": "16796480429/31250000000",
+    "local_certificate": {
+      "spin": "1/2",
+      "coupling": "3/100",
+      "a": "1/16",
+      "b": "6641019571/1000000000000",
+      "local_dimension": 16,
+      "exact_inertia": [
+        0,
+        0,
+        16
+      ],
+      "kind": "bilayer",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+    "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+  },
+  "total_seconds": 0.09434286699979566,
+  "peak_process_rss_kib": 78104,
+  "proof": "SU2-singlet/translation/reflection q2 basis. Exact Q4 leakage contracted using three-pairing Gram diag9/off3; full-space relative-form comparison and Temple.",
+  "four_rung_subsets": 1820,
+  "nonzero_four_rung_subsets": 1592,
+  "analytic_build_seconds": 0.004392143000586657
+}

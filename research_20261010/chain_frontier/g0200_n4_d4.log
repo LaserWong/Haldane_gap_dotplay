@@ -1,0 +1,12 @@
+SPARSE chain_s1_M4_g1d5_depth4 {'physical_sites': 8, 'full_dimension': 6561, 'trial_subspace_dimension': 1099, 'reached_support_dimension': 1107, 'ground_lower_display': -8.115048171791178, 'ground_upper_display': -8.115048169199484, 'ground_width_display': 2.59169392401779e-09, 'total_seconds': 0.4680410779983504, 'peak_process_rss_kib': 82608}
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/chain_frontier/run_frontier.py", line 44, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/chain_frontier/run_frontier.py", line 30, in main
+    r=json.loads(path.read_text()) if path.exists() else ds.certify_sparse(s,M,ds.columnar_bonds(M,1,g,F(0)),tag=tag,relative_bound=bound,support_depth=args.depth)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/shared/haldane_active/low_energy/dimer_subspace.py", line 152, in certify_sparse
+    assert r2>=0 and rho<a, (float(rho),float(a),float(r2))
+           ^^^^^^^^^^^^^^^
+AssertionError: (-16.224014380031786, -16.331839619888, 1.4720254203857728e-05)

@@ -1,0 +1,535 @@
+{
+  "status": "exact_rational_sparse_support_ground_certificate",
+  "s": "1/2",
+  "N_dimers": 8,
+  "physical_sites": 16,
+  "full_dimension": 65536,
+  "retained_states": 1,
+  "trial_subspace_dimension": 93,
+  "reached_support_dimension": 1301,
+  "trial_max_excited_dimers": 2,
+  "support_depth": null,
+  "E00": "-6",
+  "Vmin": "-1818/125",
+  "Vmax": "606/125",
+  "second_eigenvalue_lower": "-167000000001/31250000000",
+  "ground_lower": "-6351983450939822727448667732464831365341/1058539754444053679591751261946034113500",
+  "ground_upper": "-928563762674243220582130903977/154742504910677826943147659500",
+  "ground_lower_display": -6.000703728199507,
+  "ground_upper_display": -6.000702671901551,
+  "ground_width_display": 1.0562979557955514e-06,
+  "exact_rayleigh": "-928563762674243220582130903977/154742504910677826943147659500",
+  "exact_residual_squared": "16610184945757439440962127116486492768867021184153701/23945242826031151386256773431432373190424001620327940250000",
+  "exact_residual_squared_display": 6.936736898612828e-07,
+  "integer_matrix_denominator": 4000,
+  "sparse_nnz": 2505,
+  "build_seconds": 0.07871647700085305,
+  "total_seconds": 0.08376973099984752,
+  "peak_process_rss_kib": 93312,
+  "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+  "reference_certificate": {
+    "status": "exact_occupancy_star_plus_local_PSD_reference",
+    "J": "3/10",
+    "a": "0",
+    "b": "4500000001/500000000000",
+    "B": "4500000001/31250000000",
+    "second_shift_lower": "20499999999/31250000000",
+    "local_certificate": {
+      "spin": "1/2",
+      "coupling": "3/500",
+      "a": "0",
+      "b": "4500000001/500000000000",
+      "local_dimension": 16,
+      "exact_inertia": [
+        0,
+        0,
+        16
+      ],
+      "kind": "bilayer",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 24
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "7/5",
+        "multiplicity": 72
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 144
+      },
+      {
+        "q": 3,
+        "energy_lower": "27/20",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/5",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "39/20",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "12/5",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "3",
+        "multiplicity": 216
+      },
+      {
+        "q": 4,
+        "energy_lower": "1",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "8/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "19/10",
+        "multiplicity": 2592
+      },
+      {
+        "q": 4,
+        "energy_lower": "11/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "47/20",
+        "multiplicity": 1296
+      },
+      {
+        "q": 4,
+        "energy_lower": "14/5",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "59/20",
+        "multiplicity": 648
+      },
+      {
+        "q": 4,
+        "energy_lower": "4",
+        "multiplicity": 162
+      },
+      {
+        "q": 5,
+        "energy_lower": "31/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "37/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "43/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "49/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "29/10",
+        "multiplicity": 1944
+      },
+      {
+        "q": 6,
+        "energy_lower": "6/5",
+        "multiplicity": 2916
+      },
+      {
+        "q": 6,
+        "energy_lower": "9/5",
+        "multiplicity": 5832
+      },
+      {
+        "q": 6,
+        "energy_lower": "21/10",
+        "multiplicity": 11664
+      },
+      {
+        "q": 7,
+        "energy_lower": "29/20",
+        "multiplicity": 17496
+      },
+      {
+        "q": 8,
+        "energy_lower": "4/5",
+        "multiplicity": 6561
+      }
+    ],
+    "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+  },
+  "trial_artifact": "ff_4x2_eps3d500_q2_trial.npz",
+  "weak_bonds": [
+    [
+      0,
+      0,
+      2,
+      0,
+      "153/500"
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      "3/10"
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      "3/10"
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      "153/500"
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      "153/250"
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      "3/5"
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      "3/5"
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      "153/250"
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      "153/500"
+    ],
+    [
+      1,
+      0,
+      3,
+      1,
+      "3/10"
+    ],
+    [
+      1,
+      1,
+      3,
+      0,
+      "3/10"
+    ],
+    [
+      1,
+      1,
+      3,
+      1,
+      "153/500"
+    ],
+    [
+      2,
+      0,
+      4,
+      0,
+      "153/500"
+    ],
+    [
+      2,
+      0,
+      4,
+      1,
+      "3/10"
+    ],
+    [
+      2,
+      1,
+      4,
+      0,
+      "3/10"
+    ],
+    [
+      2,
+      1,
+      4,
+      1,
+      "153/500"
+    ],
+    [
+      2,
+      0,
+      3,
+      0,
+      "153/250"
+    ],
+    [
+      2,
+      0,
+      3,
+      1,
+      "3/5"
+    ],
+    [
+      2,
+      1,
+      3,
+      0,
+      "3/5"
+    ],
+    [
+      2,
+      1,
+      3,
+      1,
+      "153/250"
+    ],
+    [
+      3,
+      0,
+      5,
+      0,
+      "153/500"
+    ],
+    [
+      3,
+      0,
+      5,
+      1,
+      "3/10"
+    ],
+    [
+      3,
+      1,
+      5,
+      0,
+      "3/10"
+    ],
+    [
+      3,
+      1,
+      5,
+      1,
+      "153/500"
+    ],
+    [
+      4,
+      0,
+      6,
+      0,
+      "153/500"
+    ],
+    [
+      4,
+      0,
+      6,
+      1,
+      "3/10"
+    ],
+    [
+      4,
+      1,
+      6,
+      0,
+      "3/10"
+    ],
+    [
+      4,
+      1,
+      6,
+      1,
+      "153/500"
+    ],
+    [
+      4,
+      0,
+      5,
+      0,
+      "153/250"
+    ],
+    [
+      4,
+      0,
+      5,
+      1,
+      "3/5"
+    ],
+    [
+      4,
+      1,
+      5,
+      0,
+      "3/5"
+    ],
+    [
+      4,
+      1,
+      5,
+      1,
+      "153/250"
+    ],
+    [
+      5,
+      0,
+      7,
+      0,
+      "153/500"
+    ],
+    [
+      5,
+      0,
+      7,
+      1,
+      "3/10"
+    ],
+    [
+      5,
+      1,
+      7,
+      0,
+      "3/10"
+    ],
+    [
+      5,
+      1,
+      7,
+      1,
+      "153/500"
+    ],
+    [
+      0,
+      0,
+      6,
+      0,
+      "153/500"
+    ],
+    [
+      0,
+      0,
+      6,
+      1,
+      "3/10"
+    ],
+    [
+      0,
+      1,
+      6,
+      0,
+      "3/10"
+    ],
+    [
+      0,
+      1,
+      6,
+      1,
+      "153/500"
+    ],
+    [
+      6,
+      0,
+      7,
+      0,
+      "153/250"
+    ],
+    [
+      6,
+      0,
+      7,
+      1,
+      "3/5"
+    ],
+    [
+      6,
+      1,
+      7,
+      0,
+      "3/5"
+    ],
+    [
+      6,
+      1,
+      7,
+      1,
+      "153/250"
+    ],
+    [
+      1,
+      0,
+      7,
+      0,
+      "153/500"
+    ],
+    [
+      1,
+      0,
+      7,
+      1,
+      "3/10"
+    ],
+    [
+      1,
+      1,
+      7,
+      0,
+      "3/10"
+    ],
+    [
+      1,
+      1,
+      7,
+      1,
+      "153/500"
+    ]
+  ]
+}

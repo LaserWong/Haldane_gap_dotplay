@@ -1,0 +1,2608 @@
+{
+  "J": "3/10",
+  "epsilon": "3/500",
+  "perturbation": "straight J+epsilon, crossed J; unit rungs",
+  "ground_certificates": [
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1/2",
+      "N_dimers": 4,
+      "physical_sites": 8,
+      "full_dimension": 256,
+      "retained_states": 1,
+      "trial_subspace_dimension": 23,
+      "reached_support_dimension": 58,
+      "trial_max_excited_dimers": 2,
+      "support_depth": null,
+      "E00": "-3",
+      "Vmin": "-909/125",
+      "Vmax": "303/125",
+      "second_eigenvalue_lower": "-167000000001/62500000000",
+      "ground_lower": "-794525433895835947828384016362464055597/264793393716865770142668567614334827875",
+      "ground_upper": "-38692692059787711991660944403/12895208742556712698165172125",
+      "ground_lower_display": -3.0005485512429133,
+      "ground_upper_display": -3.0005479424380512,
+      "ground_width_display": 6.088048623128805e-07,
+      "exact_rayleigh": "-38692692059787711991660944403/12895208742556712698165172125",
+      "exact_residual_squared": "133043483879653626502303162963921011443795985319221/665145634056444301874535195683071118170854273323508062500",
+      "exact_residual_squared_display": 2.0002158484943697e-07,
+      "integer_matrix_denominator": 2000,
+      "sparse_nnz": 179,
+      "build_seconds": 0.0536290439995355,
+      "total_seconds": 0.057928094000089914,
+      "peak_process_rss_kib": 93056,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "reference_certificate": {
+        "status": "exact_occupancy_star_plus_local_PSD_reference",
+        "J": "3/10",
+        "a": "0",
+        "b": "4500000001/500000000000",
+        "B": "4500000001/62500000000",
+        "second_shift_lower": "20499999999/62500000000",
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "3/500",
+          "a": "0",
+          "b": "4500000001/500000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "bins": [
+          {
+            "q": 0,
+            "energy_lower": "0",
+            "multiplicity": 1
+          },
+          {
+            "q": 1,
+            "energy_lower": "1",
+            "multiplicity": 12
+          },
+          {
+            "q": 2,
+            "energy_lower": "4/5",
+            "multiplicity": 36
+          },
+          {
+            "q": 2,
+            "energy_lower": "2",
+            "multiplicity": 18
+          },
+          {
+            "q": 3,
+            "energy_lower": "9/10",
+            "multiplicity": 108
+          },
+          {
+            "q": 4,
+            "energy_lower": "2/5",
+            "multiplicity": 81
+          }
+        ],
+        "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+      },
+      "trial_artifact": "ff_2x2_eps3d500_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          2,
+          0,
+          "153/250"
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          "153/250"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "153/250"
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "153/250"
+        ],
+        [
+          1,
+          0,
+          3,
+          0,
+          "153/250"
+        ],
+        [
+          1,
+          0,
+          3,
+          1,
+          "3/5"
+        ],
+        [
+          1,
+          1,
+          3,
+          0,
+          "3/5"
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          "153/250"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "153/250"
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "153/250"
+        ]
+      ],
+      "nx": 2,
+      "ny": 2
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1/2",
+      "N_dimers": 8,
+      "physical_sites": 16,
+      "full_dimension": 65536,
+      "retained_states": 1,
+      "trial_subspace_dimension": 93,
+      "reached_support_dimension": 1301,
+      "trial_max_excited_dimers": 2,
+      "support_depth": null,
+      "E00": "-6",
+      "Vmin": "-1818/125",
+      "Vmax": "606/125",
+      "second_eigenvalue_lower": "-167000000001/31250000000",
+      "ground_lower": "-6351983450939822727448667732464831365341/1058539754444053679591751261946034113500",
+      "ground_upper": "-928563762674243220582130903977/154742504910677826943147659500",
+      "ground_lower_display": -6.000703728199507,
+      "ground_upper_display": -6.000702671901551,
+      "ground_width_display": 1.0562979557955514e-06,
+      "exact_rayleigh": "-928563762674243220582130903977/154742504910677826943147659500",
+      "exact_residual_squared": "16610184945757439440962127116486492768867021184153701/23945242826031151386256773431432373190424001620327940250000",
+      "exact_residual_squared_display": 6.936736898612828e-07,
+      "integer_matrix_denominator": 4000,
+      "sparse_nnz": 2505,
+      "build_seconds": 0.07871647700085305,
+      "total_seconds": 0.08376973099984752,
+      "peak_process_rss_kib": 93312,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "reference_certificate": {
+        "status": "exact_occupancy_star_plus_local_PSD_reference",
+        "J": "3/10",
+        "a": "0",
+        "b": "4500000001/500000000000",
+        "B": "4500000001/31250000000",
+        "second_shift_lower": "20499999999/31250000000",
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "3/500",
+          "a": "0",
+          "b": "4500000001/500000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "bins": [
+          {
+            "q": 0,
+            "energy_lower": "0",
+            "multiplicity": 1
+          },
+          {
+            "q": 1,
+            "energy_lower": "1",
+            "multiplicity": 24
+          },
+          {
+            "q": 2,
+            "energy_lower": "4/5",
+            "multiplicity": 36
+          },
+          {
+            "q": 2,
+            "energy_lower": "7/5",
+            "multiplicity": 72
+          },
+          {
+            "q": 2,
+            "energy_lower": "2",
+            "multiplicity": 144
+          },
+          {
+            "q": 3,
+            "energy_lower": "27/20",
+            "multiplicity": 432
+          },
+          {
+            "q": 3,
+            "energy_lower": "9/5",
+            "multiplicity": 216
+          },
+          {
+            "q": 3,
+            "energy_lower": "39/20",
+            "multiplicity": 216
+          },
+          {
+            "q": 3,
+            "energy_lower": "12/5",
+            "multiplicity": 432
+          },
+          {
+            "q": 3,
+            "energy_lower": "3",
+            "multiplicity": 216
+          },
+          {
+            "q": 4,
+            "energy_lower": "1",
+            "multiplicity": 324
+          },
+          {
+            "q": 4,
+            "energy_lower": "8/5",
+            "multiplicity": 162
+          },
+          {
+            "q": 4,
+            "energy_lower": "19/10",
+            "multiplicity": 2592
+          },
+          {
+            "q": 4,
+            "energy_lower": "11/5",
+            "multiplicity": 162
+          },
+          {
+            "q": 4,
+            "energy_lower": "47/20",
+            "multiplicity": 1296
+          },
+          {
+            "q": 4,
+            "energy_lower": "14/5",
+            "multiplicity": 324
+          },
+          {
+            "q": 4,
+            "energy_lower": "59/20",
+            "multiplicity": 648
+          },
+          {
+            "q": 4,
+            "energy_lower": "4",
+            "multiplicity": 162
+          },
+          {
+            "q": 5,
+            "energy_lower": "31/20",
+            "multiplicity": 3888
+          },
+          {
+            "q": 5,
+            "energy_lower": "37/20",
+            "multiplicity": 1944
+          },
+          {
+            "q": 5,
+            "energy_lower": "43/20",
+            "multiplicity": 1944
+          },
+          {
+            "q": 5,
+            "energy_lower": "49/20",
+            "multiplicity": 3888
+          },
+          {
+            "q": 5,
+            "energy_lower": "29/10",
+            "multiplicity": 1944
+          },
+          {
+            "q": 6,
+            "energy_lower": "6/5",
+            "multiplicity": 2916
+          },
+          {
+            "q": 6,
+            "energy_lower": "9/5",
+            "multiplicity": 5832
+          },
+          {
+            "q": 6,
+            "energy_lower": "21/10",
+            "multiplicity": 11664
+          },
+          {
+            "q": 7,
+            "energy_lower": "29/20",
+            "multiplicity": 17496
+          },
+          {
+            "q": 8,
+            "energy_lower": "4/5",
+            "multiplicity": 6561
+          }
+        ],
+        "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+      },
+      "trial_artifact": "ff_4x2_eps3d500_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          2,
+          0,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "153/250"
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "3/5"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "153/250"
+        ],
+        [
+          1,
+          0,
+          3,
+          0,
+          "153/500"
+        ],
+        [
+          1,
+          0,
+          3,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          3,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          "153/500"
+        ],
+        [
+          2,
+          0,
+          4,
+          0,
+          "153/500"
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          4,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          4,
+          1,
+          "153/500"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "153/250"
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "3/5"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "153/250"
+        ],
+        [
+          3,
+          0,
+          5,
+          0,
+          "153/500"
+        ],
+        [
+          3,
+          0,
+          5,
+          1,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          5,
+          0,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          5,
+          1,
+          "153/500"
+        ],
+        [
+          4,
+          0,
+          6,
+          0,
+          "153/500"
+        ],
+        [
+          4,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          6,
+          1,
+          "153/500"
+        ],
+        [
+          4,
+          0,
+          5,
+          0,
+          "153/250"
+        ],
+        [
+          4,
+          0,
+          5,
+          1,
+          "3/5"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "3/5"
+        ],
+        [
+          4,
+          1,
+          5,
+          1,
+          "153/250"
+        ],
+        [
+          5,
+          0,
+          7,
+          0,
+          "153/500"
+        ],
+        [
+          5,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          7,
+          1,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          6,
+          1,
+          "153/500"
+        ],
+        [
+          6,
+          0,
+          7,
+          0,
+          "153/250"
+        ],
+        [
+          6,
+          0,
+          7,
+          1,
+          "3/5"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "3/5"
+        ],
+        [
+          6,
+          1,
+          7,
+          1,
+          "153/250"
+        ],
+        [
+          1,
+          0,
+          7,
+          0,
+          "153/500"
+        ],
+        [
+          1,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          7,
+          1,
+          "153/500"
+        ]
+      ],
+      "nx": 4,
+      "ny": 2
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1/2",
+      "N_dimers": 16,
+      "physical_sites": 32,
+      "full_dimension": 4294967296,
+      "retained_states": 1,
+      "trial_subspace_dimension": 377,
+      "reached_support_dimension": 21345,
+      "trial_max_excited_dimers": 2,
+      "support_depth": null,
+      "E00": "-12",
+      "Vmin": "-3636/125",
+      "Vmax": "1212/125",
+      "second_eigenvalue_lower": "-346640576479/31250000000",
+      "ground_lower": "-3293723461805529079842861575315368542772/274462768664527055169089508400216664375",
+      "ground_upper": "-116062870813341512398840078132/9671406556916728255527564375",
+      "ground_lower_display": -12.000620258376147,
+      "ground_upper_display": -12.000619571755722,
+      "ground_width_display": 6.866204237558307e-07,
+      "exact_rayleigh": "-116062870813341512398840078132/9671406556916728255527564375",
+      "exact_residual_squared": "58322989386394234250404287119474963432810211728351/93536104789171884457999849364656696363066155419769140625",
+      "exact_residual_squared_display": 6.235345112761841e-07,
+      "integer_matrix_denominator": 4000,
+      "sparse_nnz": 31001,
+      "build_seconds": 0.37021371200171416,
+      "total_seconds": 0.4385539480008447,
+      "peak_process_rss_kib": 102016,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "reference_certificate": {
+        "status": "exact_occupancy_star_plus_local_PSD_reference",
+        "J": "3/10",
+        "a": "6195479/500000000",
+        "b": "1341706729/1000000000000",
+        "B": "1341706729/31250000000",
+        "second_shift_lower": "28359423521/31250000000",
+        "local_certificate": {
+          "spin": "1/2",
+          "coupling": "3/500",
+          "a": "6195479/500000000",
+          "b": "1341706729/1000000000000",
+          "local_dimension": 16,
+          "exact_inertia": [
+            0,
+            0,
+            16
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "bins": [
+          {
+            "q": 0,
+            "energy_lower": "0",
+            "multiplicity": 1
+          },
+          {
+            "q": 1,
+            "energy_lower": "1",
+            "multiplicity": 48
+          },
+          {
+            "q": 2,
+            "energy_lower": "7/5",
+            "multiplicity": 288
+          },
+          {
+            "q": 2,
+            "energy_lower": "2",
+            "multiplicity": 792
+          },
+          {
+            "q": 3,
+            "energy_lower": "39/20",
+            "multiplicity": 2592
+          },
+          {
+            "q": 3,
+            "energy_lower": "12/5",
+            "multiplicity": 6912
+          },
+          {
+            "q": 3,
+            "energy_lower": "3",
+            "multiplicity": 5616
+          },
+          {
+            "q": 4,
+            "energy_lower": "11/5",
+            "multiplicity": 1944
+          },
+          {
+            "q": 4,
+            "energy_lower": "5/2",
+            "multiplicity": 20736
+          },
+          {
+            "q": 4,
+            "energy_lower": "14/5",
+            "multiplicity": 12960
+          },
+          {
+            "q": 4,
+            "energy_lower": "59/20",
+            "multiplicity": 46656
+          },
+          {
+            "q": 4,
+            "energy_lower": "17/5",
+            "multiplicity": 46656
+          },
+          {
+            "q": 4,
+            "energy_lower": "4",
+            "multiplicity": 18468
+          },
+          {
+            "q": 5,
+            "energy_lower": "11/4",
+            "multiplicity": 46656
+          },
+          {
+            "q": 5,
+            "energy_lower": "61/20",
+            "multiplicity": 143856
+          },
+          {
+            "q": 5,
+            "energy_lower": "16/5",
+            "multiplicity": 23328
+          },
+          {
+            "q": 5,
+            "energy_lower": "67/20",
+            "multiplicity": 139968
+          },
+          {
+            "q": 5,
+            "energy_lower": "7/2",
+            "multiplicity": 264384
+          },
+          {
+            "q": 5,
+            "energy_lower": "19/5",
+            "multiplicity": 93312
+          },
+          {
+            "q": 5,
+            "energy_lower": "79/20",
+            "multiplicity": 209952
+          },
+          {
+            "q": 5,
+            "energy_lower": "22/5",
+            "multiplicity": 108864
+          },
+          {
+            "q": 5,
+            "energy_lower": "5",
+            "multiplicity": 31104
+          },
+          {
+            "q": 6,
+            "energy_lower": "3",
+            "multiplicity": 69984
+          },
+          {
+            "q": 6,
+            "energy_lower": "33/10",
+            "multiplicity": 513216
+          },
+          {
+            "q": 6,
+            "energy_lower": "18/5",
+            "multiplicity": 909792
+          },
+          {
+            "q": 6,
+            "energy_lower": "15/4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 6,
+            "energy_lower": "39/10",
+            "multiplicity": 921456
+          },
+          {
+            "q": 6,
+            "energy_lower": "81/20",
+            "multiplicity": 1178064
+          },
+          {
+            "q": 6,
+            "energy_lower": "21/5",
+            "multiplicity": 58320
+          },
+          {
+            "q": 6,
+            "energy_lower": "87/20",
+            "multiplicity": 419904
+          },
+          {
+            "q": 6,
+            "energy_lower": "9/2",
+            "multiplicity": 699840
+          },
+          {
+            "q": 6,
+            "energy_lower": "24/5",
+            "multiplicity": 209952
+          },
+          {
+            "q": 6,
+            "energy_lower": "99/20",
+            "multiplicity": 349920
+          },
+          {
+            "q": 6,
+            "energy_lower": "27/5",
+            "multiplicity": 46656
+          },
+          {
+            "q": 6,
+            "energy_lower": "6",
+            "multiplicity": 40824
+          },
+          {
+            "q": 7,
+            "energy_lower": "13/4",
+            "multiplicity": 139968
+          },
+          {
+            "q": 7,
+            "energy_lower": "71/20",
+            "multiplicity": 1364688
+          },
+          {
+            "q": 7,
+            "energy_lower": "77/20",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 7,
+            "energy_lower": "4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 7,
+            "energy_lower": "83/20",
+            "multiplicity": 5178816
+          },
+          {
+            "q": 7,
+            "energy_lower": "43/10",
+            "multiplicity": 2869344
+          },
+          {
+            "q": 7,
+            "energy_lower": "89/20",
+            "multiplicity": 3079296
+          },
+          {
+            "q": 7,
+            "energy_lower": "23/5",
+            "multiplicity": 3359232
+          },
+          {
+            "q": 7,
+            "energy_lower": "19/4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 7,
+            "energy_lower": "49/10",
+            "multiplicity": 1154736
+          },
+          {
+            "q": 7,
+            "energy_lower": "101/20",
+            "multiplicity": 1889568
+          },
+          {
+            "q": 7,
+            "energy_lower": "26/5",
+            "multiplicity": 139968
+          },
+          {
+            "q": 7,
+            "energy_lower": "107/20",
+            "multiplicity": 419904
+          },
+          {
+            "q": 7,
+            "energy_lower": "11/2",
+            "multiplicity": 559872
+          },
+          {
+            "q": 7,
+            "energy_lower": "119/20",
+            "multiplicity": 209952
+          },
+          {
+            "q": 7,
+            "energy_lower": "7",
+            "multiplicity": 34992
+          },
+          {
+            "q": 8,
+            "energy_lower": "16/5",
+            "multiplicity": 52488
+          },
+          {
+            "q": 8,
+            "energy_lower": "19/5",
+            "multiplicity": 5038848
+          },
+          {
+            "q": 8,
+            "energy_lower": "41/10",
+            "multiplicity": 10077696
+          },
+          {
+            "q": 8,
+            "energy_lower": "17/4",
+            "multiplicity": 419904
+          },
+          {
+            "q": 8,
+            "energy_lower": "22/5",
+            "multiplicity": 23225940
+          },
+          {
+            "q": 8,
+            "energy_lower": "91/20",
+            "multiplicity": 5353776
+          },
+          {
+            "q": 8,
+            "energy_lower": "47/10",
+            "multiplicity": 13856832
+          },
+          {
+            "q": 8,
+            "energy_lower": "97/20",
+            "multiplicity": 7558272
+          },
+          {
+            "q": 8,
+            "energy_lower": "5",
+            "multiplicity": 4618944
+          },
+          {
+            "q": 8,
+            "energy_lower": "103/20",
+            "multiplicity": 7138368
+          },
+          {
+            "q": 8,
+            "energy_lower": "53/10",
+            "multiplicity": 2099520
+          },
+          {
+            "q": 8,
+            "energy_lower": "109/20",
+            "multiplicity": 1259712
+          },
+          {
+            "q": 8,
+            "energy_lower": "28/5",
+            "multiplicity": 2571912
+          },
+          {
+            "q": 8,
+            "energy_lower": "59/10",
+            "multiplicity": 314928
+          },
+          {
+            "q": 8,
+            "energy_lower": "121/20",
+            "multiplicity": 419904
+          },
+          {
+            "q": 8,
+            "energy_lower": "13/2",
+            "multiplicity": 419904
+          },
+          {
+            "q": 8,
+            "energy_lower": "8",
+            "multiplicity": 13122
+          },
+          {
+            "q": 9,
+            "energy_lower": "15/4",
+            "multiplicity": 1259712
+          },
+          {
+            "q": 9,
+            "energy_lower": "81/20",
+            "multiplicity": 12282192
+          },
+          {
+            "q": 9,
+            "energy_lower": "87/20",
+            "multiplicity": 37791360
+          },
+          {
+            "q": 9,
+            "energy_lower": "93/20",
+            "multiplicity": 62355744
+          },
+          {
+            "q": 9,
+            "energy_lower": "24/5",
+            "multiplicity": 10077696
+          },
+          {
+            "q": 9,
+            "energy_lower": "99/20",
+            "multiplicity": 50388480
+          },
+          {
+            "q": 9,
+            "energy_lower": "51/10",
+            "multiplicity": 11337408
+          },
+          {
+            "q": 9,
+            "energy_lower": "21/4",
+            "multiplicity": 13226976
+          },
+          {
+            "q": 9,
+            "energy_lower": "27/5",
+            "multiplicity": 14171760
+          },
+          {
+            "q": 9,
+            "energy_lower": "111/20",
+            "multiplicity": 2519424
+          },
+          {
+            "q": 9,
+            "energy_lower": "57/10",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 9,
+            "energy_lower": "117/20",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 9,
+            "energy_lower": "123/20",
+            "multiplicity": 1889568
+          },
+          {
+            "q": 9,
+            "energy_lower": "141/20",
+            "multiplicity": 314928
+          },
+          {
+            "q": 10,
+            "energy_lower": "4",
+            "multiplicity": 5668704
+          },
+          {
+            "q": 10,
+            "energy_lower": "43/10",
+            "multiplicity": 41570496
+          },
+          {
+            "q": 10,
+            "energy_lower": "23/5",
+            "multiplicity": 107705376
+          },
+          {
+            "q": 10,
+            "energy_lower": "49/10",
+            "multiplicity": 158723712
+          },
+          {
+            "q": 10,
+            "energy_lower": "101/20",
+            "multiplicity": 14171760
+          },
+          {
+            "q": 10,
+            "energy_lower": "26/5",
+            "multiplicity": 81251424
+          },
+          {
+            "q": 10,
+            "energy_lower": "107/20",
+            "multiplicity": 11337408
+          },
+          {
+            "q": 10,
+            "energy_lower": "11/2",
+            "multiplicity": 28343520
+          },
+          {
+            "q": 10,
+            "energy_lower": "113/20",
+            "multiplicity": 17006112
+          },
+          {
+            "q": 10,
+            "energy_lower": "119/20",
+            "multiplicity": 3779136
+          },
+          {
+            "q": 10,
+            "energy_lower": "61/10",
+            "multiplicity": 472392
+          },
+          {
+            "q": 10,
+            "energy_lower": "32/5",
+            "multiplicity": 2834352
+          },
+          {
+            "q": 11,
+            "energy_lower": "17/4",
+            "multiplicity": 34012224
+          },
+          {
+            "q": 11,
+            "energy_lower": "91/20",
+            "multiplicity": 121877136
+          },
+          {
+            "q": 11,
+            "energy_lower": "97/20",
+            "multiplicity": 294772608
+          },
+          {
+            "q": 11,
+            "energy_lower": "103/20",
+            "multiplicity": 204073344
+          },
+          {
+            "q": 11,
+            "energy_lower": "53/10",
+            "multiplicity": 17006112
+          },
+          {
+            "q": 11,
+            "energy_lower": "109/20",
+            "multiplicity": 79361856
+          },
+          {
+            "q": 11,
+            "energy_lower": "23/4",
+            "multiplicity": 8503056
+          },
+          {
+            "q": 11,
+            "energy_lower": "59/10",
+            "multiplicity": 14171760
+          },
+          {
+            "q": 12,
+            "energy_lower": "21/5",
+            "multiplicity": 12754584
+          },
+          {
+            "q": 12,
+            "energy_lower": "9/2",
+            "multiplicity": 136048896
+          },
+          {
+            "q": 12,
+            "energy_lower": "24/5",
+            "multiplicity": 391140576
+          },
+          {
+            "q": 12,
+            "energy_lower": "51/10",
+            "multiplicity": 306110016
+          },
+          {
+            "q": 12,
+            "energy_lower": "27/5",
+            "multiplicity": 112665492
+          },
+          {
+            "q": 12,
+            "energy_lower": "111/20",
+            "multiplicity": 8503056
+          },
+          {
+            "q": 13,
+            "energy_lower": "89/20",
+            "multiplicity": 153055008
+          },
+          {
+            "q": 13,
+            "energy_lower": "19/4",
+            "multiplicity": 408146688
+          },
+          {
+            "q": 13,
+            "energy_lower": "101/20",
+            "multiplicity": 331619184
+          },
+          {
+            "q": 14,
+            "energy_lower": "22/5",
+            "multiplicity": 153055008
+          },
+          {
+            "q": 14,
+            "energy_lower": "47/10",
+            "multiplicity": 420901272
+          },
+          {
+            "q": 15,
+            "energy_lower": "87/20",
+            "multiplicity": 229582512
+          },
+          {
+            "q": 16,
+            "energy_lower": "4",
+            "multiplicity": 43046721
+          }
+        ],
+        "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+      },
+      "trial_artifact": "ff_4x4_eps3d500_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          4,
+          0,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          4,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          4,
+          1,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "153/500"
+        ],
+        [
+          1,
+          0,
+          5,
+          0,
+          "153/500"
+        ],
+        [
+          1,
+          0,
+          5,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          5,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          5,
+          1,
+          "153/500"
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          "153/500"
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          2,
+          1,
+          "153/500"
+        ],
+        [
+          2,
+          0,
+          6,
+          0,
+          "153/500"
+        ],
+        [
+          2,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          6,
+          1,
+          "153/500"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "153/500"
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "153/500"
+        ],
+        [
+          3,
+          0,
+          7,
+          0,
+          "153/500"
+        ],
+        [
+          3,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          7,
+          1,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          3,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          3,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          3,
+          1,
+          "153/500"
+        ],
+        [
+          4,
+          0,
+          8,
+          0,
+          "153/500"
+        ],
+        [
+          4,
+          0,
+          8,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          8,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          8,
+          1,
+          "153/500"
+        ],
+        [
+          4,
+          0,
+          5,
+          0,
+          "153/500"
+        ],
+        [
+          4,
+          0,
+          5,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          5,
+          1,
+          "153/500"
+        ],
+        [
+          5,
+          0,
+          9,
+          0,
+          "153/500"
+        ],
+        [
+          5,
+          0,
+          9,
+          1,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          9,
+          0,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          9,
+          1,
+          "153/500"
+        ],
+        [
+          5,
+          0,
+          6,
+          0,
+          "153/500"
+        ],
+        [
+          5,
+          0,
+          6,
+          1,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          6,
+          0,
+          "3/10"
+        ],
+        [
+          5,
+          1,
+          6,
+          1,
+          "153/500"
+        ],
+        [
+          6,
+          0,
+          10,
+          0,
+          "153/500"
+        ],
+        [
+          6,
+          0,
+          10,
+          1,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          10,
+          0,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          10,
+          1,
+          "153/500"
+        ],
+        [
+          6,
+          0,
+          7,
+          0,
+          "153/500"
+        ],
+        [
+          6,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          6,
+          1,
+          7,
+          1,
+          "153/500"
+        ],
+        [
+          7,
+          0,
+          11,
+          0,
+          "153/500"
+        ],
+        [
+          7,
+          0,
+          11,
+          1,
+          "3/10"
+        ],
+        [
+          7,
+          1,
+          11,
+          0,
+          "3/10"
+        ],
+        [
+          7,
+          1,
+          11,
+          1,
+          "153/500"
+        ],
+        [
+          4,
+          0,
+          7,
+          0,
+          "153/500"
+        ],
+        [
+          4,
+          0,
+          7,
+          1,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          7,
+          0,
+          "3/10"
+        ],
+        [
+          4,
+          1,
+          7,
+          1,
+          "153/500"
+        ],
+        [
+          8,
+          0,
+          12,
+          0,
+          "153/500"
+        ],
+        [
+          8,
+          0,
+          12,
+          1,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          12,
+          0,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          12,
+          1,
+          "153/500"
+        ],
+        [
+          8,
+          0,
+          9,
+          0,
+          "153/500"
+        ],
+        [
+          8,
+          0,
+          9,
+          1,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          9,
+          0,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          9,
+          1,
+          "153/500"
+        ],
+        [
+          9,
+          0,
+          13,
+          0,
+          "153/500"
+        ],
+        [
+          9,
+          0,
+          13,
+          1,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          13,
+          0,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          13,
+          1,
+          "153/500"
+        ],
+        [
+          9,
+          0,
+          10,
+          0,
+          "153/500"
+        ],
+        [
+          9,
+          0,
+          10,
+          1,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          10,
+          0,
+          "3/10"
+        ],
+        [
+          9,
+          1,
+          10,
+          1,
+          "153/500"
+        ],
+        [
+          10,
+          0,
+          14,
+          0,
+          "153/500"
+        ],
+        [
+          10,
+          0,
+          14,
+          1,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          14,
+          0,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          14,
+          1,
+          "153/500"
+        ],
+        [
+          10,
+          0,
+          11,
+          0,
+          "153/500"
+        ],
+        [
+          10,
+          0,
+          11,
+          1,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          11,
+          0,
+          "3/10"
+        ],
+        [
+          10,
+          1,
+          11,
+          1,
+          "153/500"
+        ],
+        [
+          11,
+          0,
+          15,
+          0,
+          "153/500"
+        ],
+        [
+          11,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          11,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          11,
+          1,
+          15,
+          1,
+          "153/500"
+        ],
+        [
+          8,
+          0,
+          11,
+          0,
+          "153/500"
+        ],
+        [
+          8,
+          0,
+          11,
+          1,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          11,
+          0,
+          "3/10"
+        ],
+        [
+          8,
+          1,
+          11,
+          1,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          12,
+          0,
+          "153/500"
+        ],
+        [
+          0,
+          0,
+          12,
+          1,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          12,
+          0,
+          "3/10"
+        ],
+        [
+          0,
+          1,
+          12,
+          1,
+          "153/500"
+        ],
+        [
+          12,
+          0,
+          13,
+          0,
+          "153/500"
+        ],
+        [
+          12,
+          0,
+          13,
+          1,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          13,
+          0,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          13,
+          1,
+          "153/500"
+        ],
+        [
+          1,
+          0,
+          13,
+          0,
+          "153/500"
+        ],
+        [
+          1,
+          0,
+          13,
+          1,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          13,
+          0,
+          "3/10"
+        ],
+        [
+          1,
+          1,
+          13,
+          1,
+          "153/500"
+        ],
+        [
+          13,
+          0,
+          14,
+          0,
+          "153/500"
+        ],
+        [
+          13,
+          0,
+          14,
+          1,
+          "3/10"
+        ],
+        [
+          13,
+          1,
+          14,
+          0,
+          "3/10"
+        ],
+        [
+          13,
+          1,
+          14,
+          1,
+          "153/500"
+        ],
+        [
+          2,
+          0,
+          14,
+          0,
+          "153/500"
+        ],
+        [
+          2,
+          0,
+          14,
+          1,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          14,
+          0,
+          "3/10"
+        ],
+        [
+          2,
+          1,
+          14,
+          1,
+          "153/500"
+        ],
+        [
+          14,
+          0,
+          15,
+          0,
+          "153/500"
+        ],
+        [
+          14,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          14,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          14,
+          1,
+          15,
+          1,
+          "153/500"
+        ],
+        [
+          3,
+          0,
+          15,
+          0,
+          "153/500"
+        ],
+        [
+          3,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          3,
+          1,
+          15,
+          1,
+          "153/500"
+        ],
+        [
+          12,
+          0,
+          15,
+          0,
+          "153/500"
+        ],
+        [
+          12,
+          0,
+          15,
+          1,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          15,
+          0,
+          "3/10"
+        ],
+        [
+          12,
+          1,
+          15,
+          1,
+          "153/500"
+        ]
+      ],
+      "nx": 4,
+      "ny": 4
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "49/2",
+      "A_lower": "320231659821464946067082992576327391547/340282366920938463463374607431768211456",
+      "B_lower": "41665477882947755646625074785241233891/42535295865117307932921825928971026432",
+      "C_lower": "340270911405535758177215596867755536457/340282366920938463463374607431768211456",
+      "J1_lower": "128406547216174513138793185830020660669/170141183460469231731687303715884105728",
+      "J2_lower": "313290396490493547103559577719227903987/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.9410762676864414,
+        0.979550677514321,
+        0.999966335265896
+      ],
+      "tail_displays": [
+        0.025862936750071383,
+        0.0006793137116137052,
+        1.0450180817038098e-08
+      ],
+      "bootstrap": {
+        "accepted": true,
+        "rounds": 4,
+        "n": 64,
+        "m": 64,
+        "beta": "784",
+        "u": "42211173155227097076142996259860777/340282366920938463463374607431768211456",
+        "purities": [
+          "340240155747783236366298464435508350679/340282366920938463463374607431768211456",
+          "170141095388910975122932933285807565983/170141183460469231731687303715884105728",
+          "10633818975998059029394803249891948527/10633823966279326983230456482242756608"
+        ],
+        "updates": [
+          [
+            "163475836960547945357521531084217855379/170141183460469231731687303715884105728",
+            "338423043042815269577962081584809094051/340282366920938463463374607431768211456",
+            "337625352486593418539823248914983136749/340282366920938463463374607431768211456"
+          ],
+          [
+            "333772682711221920616830233021612822119/340282366920938463463374607431768211456",
+            "339698904304302689218882665391598545905/340282366920938463463374607431768211456",
+            "339342190128486234492532743004815929129/340282366920938463463374607431768211456"
+          ],
+          [
+            "338993288840786484850515075234185669441/340282366920938463463374607431768211456",
+            "170118510988970547472833342031710334307/170141183460469231731687303715884105728",
+            "170110573562080571374689545883661559465/170141183460469231731687303715884105728"
+          ],
+          [
+            "340240155747783236366298464435508350679/340282366920938463463374607431768211456",
+            "170141095388910975122932933285807565983/170141183460469231731687303715884105728",
+            "10633818975998059029394803249891948527/10633823966279326983230456482242756608"
+          ]
+        ],
+        "gap_lower": "1199909886174616525850295539483602231/170141183460469231731687303715884105728",
+        "scope": "Every integer square side L>=n if n=m; conditional on audited transfer/interpolation theorem"
+      }
+    },
+    {
+      "beta": "25",
+      "A_lower": "322628226589479138062356911492933031685/340282366920938463463374607431768211456",
+      "B_lower": "333319201088768966073922264892851609215/340282366920938463463374607431768211456",
+      "C_lower": "340270680364913940180511910508543156543/340282366920938463463374607431768211456",
+      "J1_lower": "66094952410413601181813151034462640725/85070591730234615865843651857942052864",
+      "J2_lower": "39159127514035476063164362395030227455/42535295865117307932921825928971026432",
+      "purity_displays": [
+        0.9481191444293642,
+        0.979537094751115,
+        0.9999656562985315
+      ],
+      "tail_displays": [
+        0.02194481876976774,
+        0.0004891600725390819,
+        6.635133473988324e-09
+      ],
+      "bootstrap": {
+        "accepted": true,
+        "rounds": 3,
+        "n": 32,
+        "m": 32,
+        "beta": "400",
+        "u": "78452748394965953875581652092065391/340282366920938463463374607431768211456",
+        "purities": [
+          "340203914172543497509499025779676146065/340282366920938463463374607431768211456",
+          "340282023776674948805815568773172449515/340282366920938463463374607431768211456",
+          "340282091245538681756572364337749093273/340282366920938463463374607431768211456"
+        ],
+        "updates": [
+          [
+            "83189497620655085103525423424434824821/85070591730234615865843651857942052864",
+            "339455114811325619050225151738950923927/340282366920938463463374607431768211456",
+            "339483548297554825979201029685225399671/340282366920938463463374607431768211456"
+          ],
+          [
+            "169265019191277972676974641795098704141/170141183460469231731687303715884105728",
+            "170107856083629527279141174592677743463/170141183460469231731687303715884105728",
+            "21263342067765599524000625601948159577/21267647932558653966460912964485513216"
+          ],
+          [
+            "340203914172543497509499025779676146065/340282366920938463463374607431768211456",
+            "340282023776674948805815568773172449515/340282366920938463463374607431768211456",
+            "340282091245538681756572364337749093273/340282366920938463463374607431768211456"
+          ]
+        ],
+        "gap_lower": "4176369392464459954451297893305420685/340282366920938463463374607431768211456",
+        "scope": "Every integer square side L>=n if n=m; conditional on audited transfer/interpolation theorem"
+      }
+    },
+    {
+      "beta": "28",
+      "A_lower": "331099661470303498437240893963252895967/340282366920938463463374607431768211456",
+      "B_lower": "166406140059299547594906442189348641577/170141183460469231731687303715884105728",
+      "C_lower": "85067320691605598598888561171931451197/85070591730234615865843651857942052864",
+      "J1_lower": "72970321305151894007620230140430742839/85070591730234615865843651857942052864",
+      "J2_lower": "311371626394718622832742338811744172187/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.973014454043784,
+        0.9780473879092448,
+        0.9999615491257027
+      ],
+      "tail_displays": [
+        0.00818963425556687,
+        6.819744926223559e-05,
+        4.34918763191707e-10
+      ],
+      "bootstrap": {
+        "accepted": true,
+        "rounds": 2,
+        "n": 16,
+        "m": 16,
+        "beta": "224",
+        "u": "19324105497135702902825752558623759/340282366920938463463374607431768211456",
+        "purities": [
+          "340263042815441327760471781679209587697/340282366920938463463374607431768211456",
+          "340281919179941462156757662712358475151/340282366920938463463374607431768211456",
+          "170141178864433977728402822377759086773/170141183460469231731687303715884105728"
+        ],
+        "updates": [
+          [
+            "169724050006865773547861622308007594461/170141183460469231731687303715884105728",
+            "170077164765474579574049332530686662661/170141183460469231731687303715884105728",
+            "170136185112783529663098112713933413875/170141183460469231731687303715884105728"
+          ],
+          [
+            "340263042815441327760471781679209587697/340282366920938463463374607431768211456",
+            "340281919179941462156757662712358475151/340282366920938463463374607431768211456",
+            "170141178864433977728402822377759086773/170141183460469231731687303715884105728"
+          ]
+        ],
+        "gap_lower": "9586303944613104486987939003027745443/340282366920938463463374607431768211456",
+        "scope": "Every integer square side L>=n if n=m; conditional on audited transfer/interpolation theorem"
+      }
+    },
+    {
+      "beta": "31",
+      "A_lower": "334101607154393762388084210953281771005/340282366920938463463374607431768211456",
+      "B_lower": "332065528109245935256014879550166076271/340282366920938463463374607431768211456",
+      "C_lower": "340267881230839260254381244189836172977/340282366920938463463374607431768211456",
+      "J1_lower": "301188248753517488992821407878108336393/340282366920938463463374607431768211456",
+      "J2_lower": "308586440865783880748092864236927415325/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.9818363795265925,
+        0.9758528809880953,
+        0.9999574303828016
+      ],
+      "tail_displays": [
+        0.0030563466506528035,
+        9.508697311171681e-06,
+        2.851933068984581e-11
+      ],
+      "bootstrap": {
+        "accepted": true,
+        "rounds": 1,
+        "n": 8,
+        "m": 8,
+        "beta": "124",
+        "u": "389219800130368130161614366513683459/340282366920938463463374607431768211456",
+        "purities": [
+          "339893147120808095333212993065254527997/340282366920938463463374607431768211456",
+          "170077903467665045461772441811445250495/170141183460469231731687303715884105728",
+          "340279925022628692967715832629422190575/340282366920938463463374607431768211456"
+        ],
+        "updates": [
+          [
+            "339893147120808095333212993065254527997/340282366920938463463374607431768211456",
+            "170077903467665045461772441811445250495/170141183460469231731687303715884105728",
+            "340279925022628692967715832629422190575/340282366920938463463374607431768211456"
+          ]
+        ],
+        "gap_lower": "1134612180473041385333049286639205685/42535295865117307932921825928971026432",
+        "scope": "Every integer square side L>=n if n=m; conditional on audited transfer/interpolation theorem"
+      }
+    },
+    {
+      "beta": "72",
+      "A_lower": "330754614058630756208323187852660412425/340282366920938463463374607431768211456",
+      "B_lower": "321516244484913866370958336154055957763/340282366920938463463374607431768211456",
+      "C_lower": "340248723729665280745197895136760115527/340282366920938463463374607431768211456",
+      "J1_lower": "271246647754366745653949015384847908183/340282366920938463463374607431768211456",
+      "J2_lower": "135601143187883356269456443966021010353/170141183460469231731687303715884105728",
+      "purity_displays": [
+        0.972000450835816,
+        0.9448513227240343,
+        0.9999011315467868
+      ],
+      "tail_displays": [
+        4.315715541104158e-09,
+        1.9265378172446757e-17,
+        1.940225354246455e-27
+      ],
+      "bootstrap": {
+        "accepted": true,
+        "rounds": 5,
+        "n": 128,
+        "m": 128,
+        "beta": "4608",
+        "u": "3446445904513691434083306781383089/42535295865117307932921825928971026432",
+        "purities": [
+          "42531849419212794241487742622189643343/42535295865117307932921825928971026432",
+          "340281304760566860677356558754293489607/340282366920938463463374607431768211456",
+          "170141150910656803578081491417686272567/170141183460469231731687303715884105728"
+        ],
+        "updates": [
+          [
+            "164524739850784967014018472353249204773/170141183460469231731687303715884105728",
+            "329174735781659908845247748150435787393/340282366920938463463374607431768211456",
+            "42137931220234496332768131201381089769/42535295865117307932921825928971026432"
+          ],
+          [
+            "41373592484333833194547629789170731843/42535295865117307932921825928971026432",
+            "333727962550943813052398719176044085161/340282366920938463463374607431768211456",
+            "337875688151413189276073639238334162057/340282366920938463463374607431768211456"
+          ],
+          [
+            "335381597730026100165514255623046119661/340282366920938463463374607431768211456",
+            "169066831936039759506309670271488022517/170141183460469231731687303715884105728",
+            "10610793764675964290108919295343157883/10633823966279326983230456482242756608"
+          ],
+          [
+            "169655174074410096620984079865106987903/170141183460469231731687303715884105728",
+            "340096298559010027099760653683395659161/340282366920938463463374607431768211456",
+            "170121907832533651408265020999742987375/170141183460469231731687303715884105728"
+          ],
+          [
+            "42531849419212794241487742622189643343/42535295865117307932921825928971026432",
+            "340281304760566860677356558754293489607/340282366920938463463374607431768211456",
+            "170141150910656803578081491417686272567/170141183460469231731687303715884105728"
+          ]
+        ],
+        "gap_lower": "13742302259513439271424544592029015/10633823966279326983230456482242756608",
+        "scope": "Every integer square side L>=n if n=m; conditional on audited transfer/interpolation theorem"
+      }
+    },
+    {
+      "beta": "147/2",
+      "A_lower": "330558983443308138617479074357109561621/340282366920938463463374607431768211456",
+      "B_lower": "80284123090591649389303482830033323973/85070591730234615865843651857942052864",
+      "C_lower": "85062005716304628457050416333515032947/85070591730234615865843651857942052864",
+      "J1_lower": "134984165571296147571917514528016625179/170141183460469231731687303715884105728",
+      "J2_lower": "269923255244684100067912380727788021473/340282366920938463463374607431768211456",
+      "purity_displays": [
+        0.9714255441279169,
+        0.9437353315371165,
+        0.9998990718912922
+      ],
+      "tail_displays": [
+        2.6364708499883462e-09,
+        7.194059330692737e-18,
+        5.062838152616576e-28
+      ],
+      "bootstrap": {
+        "accepted": true,
+        "rounds": 6,
+        "n": 256,
+        "m": 256,
+        "beta": "9408",
+        "u": "65631188287850655646276771188458643/170141183460469231731687303715884105728",
+        "purities": [
+          "170075552272181381076041026944695647085/170141183460469231731687303715884105728",
+          "170136850135373759390653173330218596921/170141183460469231731687303715884105728",
+          "340280636242069215505876796573091947377/340282366920938463463374607431768211456"
+        ],
+        "updates": [
+          [
+            "163824935954367873764162268175257023783/170141183460469231731687303715884105728",
+            "327322970697300955374457224800436076511/340282366920938463463374607431768211456",
+            "336113194541039809255589768718587099113/340282366920938463463374607431768211456"
+          ],
+          [
+            "163805153767476134561132247660317686515/170141183460469231731687303715884105728",
+            "330195331449798742207375510999561033177/340282366920938463463374607431768211456",
+            "167739768044781127492036497066791843923/170141183460469231731687303715884105728"
+          ],
+          [
+            "82330098006892932812884083198960773603/85070591730234615865843651857942052864",
+            "333540393862342113531550036997510529489/340282366920938463463374607431768211456",
+            "84074987075862162697650351058207374853/85070591730234615865843651857942052864"
+          ],
+          [
+            "166719836145865894774086401932807677803/170141183460469231731687303715884105728",
+            "42165239399753497310955119552515106095/42535295865117307932921825928971026432",
+            "169268906910362121069788532086213980587/170141183460469231731687303715884105728"
+          ],
+          [
+            "169121954463327707956563244743978951611/170141183460469231731687303715884105728",
+            "169906026844109644175542707114569239731/170141183460469231731687303715884105728",
+            "340079349070404239996226730737778474493/340282366920938463463374607431768211456"
+          ],
+          [
+            "170075552272181381076041026944695647085/170141183460469231731687303715884105728",
+            "170136850135373759390653173330218596921/170141183460469231731687303715884105728",
+            "340280636242069215505876796573091947377/340282366920938463463374607431768211456"
+          ]
+        ],
+        "gap_lower": "79475119590690319492448509292637797/170141183460469231731687303715884105728",
+        "scope": "Every integer square side L>=n if n=m; conditional on audited transfer/interpolation theorem"
+      }
+    }
+  ],
+  "float_scan": {
+    "beta_min": 12,
+    "beta_max": 120,
+    "beta_step": 0.5,
+    "successful_beta_count": 99,
+    "best": {
+      "beta": 28.0,
+      "n": 16,
+      "gap": 0.028171615330387617
+    }
+  },
+  "seconds": 4.059910134999882
+}

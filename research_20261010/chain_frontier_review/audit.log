@@ -1,0 +1,60 @@
+GROUND PASS 4 4/25 1099 1107
+GROUND PASS 8 4/25 43294 245870
+ALL-SIZE PASS 4/25 4358246531/1000000000000
+GROUND PASS 4 161/1000 1099 1107
+GROUND PASS 8 161/1000 43294 245870
+GROUND PASS 7 161/1000 365 3683
+ALL-SIZE PASS 161/1000 1952374069/1000000000000
+GROUND PASS 4 129/800 1099 1107
+GROUND PASS 8 129/800 43294 245870
+GROUND PASS 7 129/800 365 3683
+ALL-SIZE PASS 129/800 215161259/200000000000
+GROUND PASS 4 13/80 1099 1107
+GROUND PASS 8 13/80 43294 245870
+OBSTRUCTION PASS 13/80 7 intervals and high-beta tail
+GROUND PASS 4 7/40 1099 1107
+GROUND PASS 8 7/40 43294 245870
+OBSTRUCTION PASS 7/40 split 128
+{
+  "status": "PASS",
+  "candidates": [
+    {
+      "g": "4/25",
+      "gap": "4358246531/1000000000000",
+      "status": "PASS",
+      "audited_seeds": 65,
+      "accepted_seeds": 14
+    },
+    {
+      "g": "161/1000",
+      "gap": "1952374069/1000000000000",
+      "status": "PASS",
+      "audited_seeds": 65,
+      "accepted_seeds": 7
+    },
+    {
+      "g": "129/800",
+      "gap": "215161259/200000000000",
+      "status": "PASS",
+      "audited_seeds": 65,
+      "accepted_seeds": 4
+    }
+  ],
+  "obstructions": [
+    {
+      "g": "13/80",
+      "status": "PASS",
+      "interval_count": 7,
+      "tail_beta_from": "256"
+    },
+    {
+      "g": "7/40",
+      "status": "PASS",
+      "beta_split": "128"
+    }
+  ],
+  "seconds": 212.2810375170011,
+  "peak_rss_kib": 96624,
+  "BLAS_threads": 1,
+  "address_space_limit_bytes": 1073741824
+}

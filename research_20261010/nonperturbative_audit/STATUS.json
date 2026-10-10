@@ -1,0 +1,33 @@
+{
+  "updated_utc": "2026-10-10T17:29:30Z",
+  "updated_america_new_york": "2026-10-10T13:29:30-04:00",
+  "scope": "Independent fully-frustrated J=3/10 perturbation audit and sufficient epsilon evidence",
+  "baseline": "GitHub main, commit prefix 6be889a, imported checkpoint; baseline inputs preserved",
+  "status": "Completed baseline audit, completed sampled epsilon audit, completed uniform one-product-trial interval certificate",
+  "baseline_result": "epsilon=1/200: gap >=0.038983227177 for every integer square L>=2",
+  "uniform_interval_result": "0<=epsilon<=19/4000: gap >=0.008090283176 for every integer square L>=2",
+  "additional_all_size_points": [
+    "epsilon=.006",
+    "epsilon=.0075"
+  ],
+  "open_size_bridges": [
+    "epsilon=.008: audited certificate L>=32",
+    "epsilon=.0085: audited certificate L>=128"
+  ],
+  "remaining_limits": [
+    "No claim of a maximal epsilon threshold",
+    "No claim that discrete point successes certify the intervening continuum",
+    "No all-beta exclusion from failed finite grids"
+  ],
+  "resource_limits": "BLAS1; at most two simultaneous single-CPU Python runs; memory well below 2GiB",
+  "baseline_reproduce": "python research_20261010/nonperturbative_audit/audit_ff.py --physical",
+  "interval_reproduce": "PYTHONDONTWRITEBYTECODE=1 python research_20261010/nonperturbative_audit/certify_vacuum_interval.py",
+  "remote_mutations": "None by this audit worker; publication is handled by parent",
+  "next_useful_research": [
+    "Improve trial or low-band thermal inputs near epsilon=.008",
+    "Bridge the finite sizes below the audited .008/.0085 large-L results",
+    "Certify a continuum interval above .00475 using epsilon-dependent optimized trial vectors and interval arithmetic"
+  ],
+  "archive_integrity_check": "PASS: all 1149 original file hashes match after audit",
+  "independent_interval_review": "PASS; INTERVAL_INDEPENDENT_REVIEW.md"
+}

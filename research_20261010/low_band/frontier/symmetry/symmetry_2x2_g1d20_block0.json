@@ -1,0 +1,236 @@
+{
+  "status": "exact_rational_symmetry_compressed_ground_certificate",
+  "s": "1/2",
+  "nx": 2,
+  "ny": 2,
+  "N_dimers": 4,
+  "physical_sites": 8,
+  "coupling": "1/20",
+  "full_dimension": 256,
+  "Sz0_full_dimension": 70,
+  "q2_Sz0_dimension": 23,
+  "q2_singlet_dimension": 7,
+  "trial_subspace_dimension": 3,
+  "q2_space_invariant_dimension": 3,
+  "retained_states": 1,
+  "pair_orbit_sizes": [
+    4,
+    2
+  ],
+  "spatial_group_order": 8,
+  "block_krylov_depth": 0,
+  "trial_expanded_support_dimension": 19,
+  "reached_support_dimension": 34,
+  "actual_trial_support_dimension": 19,
+  "actual_H_applied_support_dimension": 34,
+  "trial_max_excited_dimers": 2,
+  "E00": "-3",
+  "second_eigenvalue_lower": "-150000000001/62500000000",
+  "ground_lower": "-1159017867774571538882804537121489031851/384288809562320704354643116766859768010",
+  "ground_upper": "-30114353348175128528510968149/9985721831257594045640231990",
+  "exact_rayleigh": "-30114353348175128528510968149/9985721831257594045640231990",
+  "exact_residual_squared": "16336418317754439180927199027318308923761282191787719/99714640491254517531236904601244449301494896101019360100",
+  "ground_lower_display": -3.0160073333767263,
+  "ground_upper_display": -3.0157412610784244,
+  "ground_width_display": 0.0002660722983022492,
+  "exact_residual_squared_display": 0.00016383169249040443,
+  "shifted_ritz_energy_display": -0.015741261078424246,
+  "integer_matrix_denominator": 80,
+  "relative_form_bound": {
+    "alpha": "4/5",
+    "B": "12500000001/62500000000",
+    "second_shift_lower": "37499999999/62500000000",
+    "local_certificate": {
+      "spin": "1/2",
+      "coupling": "1/20",
+      "a": "1/20",
+      "b": "12500000001/500000000000",
+      "local_dimension": 16,
+      "exact_inertia": [
+        0,
+        0,
+        16
+      ],
+      "kind": "bilayer",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+    "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+  },
+  "weak_bonds": [
+    [
+      0,
+      0,
+      2,
+      0,
+      "1/20"
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      "1/20"
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      "1/20"
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      "1/20"
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      "1/20"
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      "1/20"
+    ],
+    [
+      1,
+      1,
+      3,
+      1,
+      "1/20"
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      "1/20"
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      "1/20"
+    ],
+    [
+      2,
+      0,
+      3,
+      0,
+      "1/20"
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      "1/20"
+    ],
+    [
+      2,
+      1,
+      3,
+      1,
+      "1/20"
+    ],
+    [
+      3,
+      0,
+      1,
+      0,
+      "1/20"
+    ],
+    [
+      3,
+      0,
+      2,
+      0,
+      "1/20"
+    ],
+    [
+      3,
+      1,
+      1,
+      1,
+      "1/20"
+    ],
+    [
+      3,
+      1,
+      2,
+      1,
+      "1/20"
+    ]
+  ],
+  "bits": 48,
+  "coefficients": [
+    "281474976710656",
+    "-7384618492410",
+    "732695076992"
+  ],
+  "gram": [
+    [
+      "16",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "192",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "96"
+    ]
+  ],
+  "shifted_hamiltonian_numerator": [
+    [
+      "0",
+      "768",
+      "0"
+    ],
+    [
+      "768",
+      "29184",
+      "1536"
+    ],
+    [
+      "0",
+      "1536",
+      "15360"
+    ]
+  ],
+  "shifted_H2_numerator": [
+    [
+      "3072",
+      "116736",
+      "6144"
+    ],
+    [
+      "116736",
+      "4521984",
+      "479232"
+    ],
+    [
+      "6144",
+      "479232",
+      "2469888"
+    ]
+  ],
+  "build_seconds": 0.00012680899999395479,
+  "total_seconds": 0.0013998890008224407,
+  "peak_process_rss_kib": 229036,
+  "proof": "Exact rational Rayleigh and full leaked residual, plus independently certified all-sector relative-form bound and Temple. Symmetry compression makes no independent spectral-completeness claim."
+}

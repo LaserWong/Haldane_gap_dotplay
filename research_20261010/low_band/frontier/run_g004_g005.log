@@ -1,0 +1,39 @@
+BLOCK bilayer_2x2_g1d25_p0_M0_q2 dim 19 reached 34 eta2 6.6072552e-05 seconds 0.1250343209994753
+BLOCK bilayer_2x2_g1d25_p1_M0_q3 dim 32 reached 32 eta2 5e-12 seconds 0.12339323000014701
+BLOCK bilayer_2x2_g1d25_p1_M1_q3 dim 28 reached 28 eta2 5e-12 seconds 0.09085201099878759
+NUMBER 2 2 a0,1,2 [-0.010405361, 0.909623732026, 1.829623732026] seconds 0.09688133200143056
+BLOCK bilayer_4x2_g1d25_p0_M0_q2 dim 85 reached 1101 eta2 0.000291390831 seconds 0.17298995700002706
+BLOCK bilayer_4x2_g1d25_p1_M0_q3 dim 400 reached 3048 eta2 0.000208461732 seconds 0.41571529700013343
+BLOCK bilayer_4x2_g1d25_p1_M1_q3 dim 344 reached 2544 eta2 0.000208461732 seconds 0.33805311499963864
+NUMBER 4 2 a0,1,2 [-0.02085448087, 0.896616701291, 1.801276294404] seconds 0.0703679939997528
+BLOCK bilayer_4x4_g1d25_p0_M0_q2 dim 361 reached 20081 eta2 0.000609528705 seconds 1.0846074689998204
+BLOCK bilayer_4x4_g1d25_p1_M0_q3 dim 3936 reached 168368 eta2 0.000608120672 seconds 15.501243646998773
+BLOCK bilayer_4x4_g1d25_p1_M1_q3 dim 3376 reached 141136 eta2 0.000608120665 seconds 12.92751649999991
+NUMBER 4 4 a0,1,2 [-0.021003001575, 0.883491574818, 1.775456374051] seconds 0.40756865199909953
+FRONTIER {"g": "1/25", "variant": "q2_ground_waiting_for_symmetry_source", "status": "float_parameter_and_ablation_scan_of_exact_patch_inputs_not_an_all_beta_exclusion", "ablations": {"certified_inputs_float_replay": [{"order": "xyt", "grid_beta_start": "4", "grid_beta_end": "20", "step": "1/20", "accepted_float": 0, "best_float": null, "smallest_first_cycle_defect": 0.28420848063710236}, {"order": "xty", "grid_beta_start": "4", "grid_beta_end": "20", "step": "1/20", "accepted_float": 0, "best_float": null, "smallest_first_cycle_defect": null}, {"order": "txy", "grid_beta_start": "4", "grid_beta_end": "20", "step": "1/20", "accepted_float": 0, "best_float": null, "smallest_first_cycle_defect": null}], "remove_only_omitted_tail": [{"order": "xyt", "grid_beta_start": "4", "grid_beta_end": "20", "step": "1/20", "accepted_float": 0, "best_float": null, "smallest_first_cycle_defect": 0.2814246489155767}, {"order": "xty", "grid_beta_start": "4", "grid_beta_end": "20", "step": "1/20", "accepted_float": 0, "best_float": null, "smallest_first_cycle_defect": null}, {"order": "txy", "grid_beta_start": "4", "grid_beta_end": "20", "step": "1/20", "accepted_float": 0, "best_float": null, "smallest_first_cycle_defect": null}], "zero_all_low_band_widths_and_tail": [{"order": "xyt", "grid_beta_start": "4", "grid_beta_end": "20", "step": "1/20", "accepted_float": 0, "best_float": null, "smallest_first_cycle_defect": 0.22659403556666446}, {"order": "xty", "grid_beta_start": "4", "grid_beta_end": "20", "step": "1/20", "accepted_float": 0, "best_float": null, "smallest_first_cycle_defect": null}, {"order": "txy", "grid_beta_start": "4", "grid_beta_end": "20", "step": "1/20", "accepted_float": 0, "best_float": null, "smallest_first_cycle_defect": null}]}, "seconds": 38.79704740899979, "patch_cutoffs": ["914811866013/500000000000", "450319073601/250000000000", "1775456374051/1000000000000"], "residual_bounds": ["8259069/125000000000", "291390831/1000000000000", "121905741/200000000000"], "ground_widths": [3.592024e-05, 0.00016052183, 0.00033993021]}
+BLOCK bilayer_2x2_g1d20_p0_M0_q2 dim 19 reached 34 eta2 0.000163831697 seconds 0.05496825400041416
+BLOCK bilayer_2x2_g1d20_p1_M0_q3 dim 32 reached 32 eta2 5e-12 seconds 0.05198078600005829
+BLOCK bilayer_2x2_g1d20_p1_M1_q3 dim 28 reached 28 eta2 5e-12 seconds 0.048723744999733754
+NUMBER 2 2 a0,1,2 [-0.016590212463, 0.883484861004, 1.783484861004] seconds 0.035938873999839416
+BLOCK bilayer_4x2_g1d20_p0_M0_q2 dim 85 reached 1101 eta2 0.000717070086 seconds 0.06394650599941087
+BLOCK bilayer_4x2_g1d20_p1_M0_q3 dim 400 reached 3048 eta2 0.000514690467 seconds 0.1990304169994488
+BLOCK bilayer_4x2_g1d20_p1_M1_q3 dim 344 reached 2544 eta2 0.000514690467 seconds 0.17045971299921803
+NUMBER 4 2 a0,1,2 [-0.033293526444, 0.86274644475, 1.738545950734] seconds 0.039242185001057805
+BLOCK bilayer_4x4_g1d20_p0_M0_q2 dim 361 reached 20081 eta2 0.001483819575 seconds 0.7852533099994616
+BLOCK bilayer_4x4_g1d20_p1_M0_q3 dim 3936 reached 168368 eta2 0.001483877278 seconds 40.601919854998414
+BLOCK bilayer_4x4_g1d20_p1_M1_q3 dim 3376 reached 141136 eta2 0.069802185589 seconds 13.181615922001583
+NUMBER 4 4 a0,1,2 [-0.033681756296, 0.841701995085, 1.697559811076] seconds 0.449463929000558
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/low_band/frontier/run_frontier.py", line 77, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/low_band/frontier/run_frontier.py", line 61, in main
+    start=time.monotonic();recs=[create_patch(nx,ny,g) for nx,ny in SHAPES]
+                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/low_band/frontier/run_frontier.py", line 33, in create_patch
+    rec=N.update_certificate(rec,number);target.write_text(json.dumps(rec,indent=2));return rec
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/low_band/number_sector_tail.py", line 97, in update_certificate
+    r=F(rec['ritz_max_upper']);eps=F(rec['residual_squared_bound']);assert a>r
+                                                                           ^^^
+AssertionError

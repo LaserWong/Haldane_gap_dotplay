@@ -1,0 +1,402 @@
+{
+  "status": "producer_candidate_requires_independent_audit",
+  "g": "161/1000",
+  "n": 4,
+  "depth": 4,
+  "ground_certificates": [
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 4,
+      "physical_sites": 8,
+      "full_dimension": 6561,
+      "retained_states": 1,
+      "trial_subspace_dimension": 1099,
+      "reached_support_dimension": 1107,
+      "trial_max_excited_dimers": 4,
+      "support_depth": 4,
+      "E00": "-8",
+      "Vmin": "-161/125",
+      "Vmax": "161/250",
+      "second_eigenvalue_lower": "-30226015837/3906250000",
+      "ground_lower": "-132524325530059794714778304476825833157109/16415476094638487202302445337075615524500",
+      "ground_upper": "-101189805523371308086764474217493/12534142897763832896373972811500",
+      "ground_lower_display": -8.073133229035252,
+      "ground_upper_display": -8.07313322887233,
+      "ground_width_display": 1.629223530678515e-10,
+      "exact_rayleigh": "-101189805523371308086764474217493/12534142897763832896373972811500",
+      "exact_residual_squared": "17163219612268773056213082067856236246541678066275591/314209476363127067909489954870901484236812939743482429064500000",
+      "exact_residual_squared_display": 5.462349452641429e-11,
+      "integer_matrix_denominator": 36000,
+      "sparse_nnz": 32201,
+      "build_seconds": 0.3470023879999644,
+      "total_seconds": 0.36711290099992766,
+      "peak_process_rss_kib": 82472,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "17/25",
+        "B": "1632265837/3906250000",
+        "second_shift_lower": "1023984163/3906250000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "161/1000",
+          "a": "4/25",
+          "b": "1632265837/15625000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "single",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "chain_s1_M4_g161d1000_depth4_trial.npz",
+      "weak_bonds": [
+        [
+          3,
+          1,
+          0,
+          0,
+          "161/1000"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "161/1000"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "161/1000"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "161/1000"
+        ]
+      ],
+      "M": 4,
+      "W": 1
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 8,
+      "physical_sites": 16,
+      "full_dimension": 43046721,
+      "retained_states": 1,
+      "trial_subspace_dimension": 43294,
+      "reached_support_dimension": 245870,
+      "trial_max_excited_dimers": 8,
+      "support_depth": 4,
+      "E00": "-16",
+      "Vmin": "-322/125",
+      "Vmax": "161/125",
+      "second_eigenvalue_lower": "-2009020934279/125000000000",
+      "ground_lower": "-36690873077086944654097002306419529609208757/2272749800214433296388859799855423490173500",
+      "ground_upper": "-4097561585327729741582630639561517/253816393679717132586533262153500",
+      "ground_lower_display": -16.143824134810252,
+      "ground_upper_display": -16.14380192675148,
+      "ground_width_display": 2.2208058770605425e-05,
+      "exact_rayleigh": "-4097561585327729741582630639561517/253816393679717132586533262153500",
+      "exact_residual_squared": "819901855995968853851739491197939093919378347527011891514841/515382093604617209350789170242467220337468761091410843660498000000",
+      "exact_residual_squared_display": 1.5908621315527668e-06,
+      "integer_matrix_denominator": 36000,
+      "sparse_nnz": 2495174,
+      "build_seconds": 7.506898434001414,
+      "total_seconds": 9.389841166001133,
+      "peak_process_rss_kib": 377660,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "12/25",
+        "B": "69020934279/125000000000",
+        "second_shift_lower": "-9020934279/125000000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "161/1000",
+          "a": "13/50",
+          "b": "69020934279/1000000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "single",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "chain_s1_M8_g161d1000_depth4_trial.npz",
+      "weak_bonds": [
+        [
+          7,
+          1,
+          0,
+          0,
+          "161/1000"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "161/1000"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "161/1000"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "161/1000"
+        ],
+        [
+          3,
+          1,
+          4,
+          0,
+          "161/1000"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "161/1000"
+        ],
+        [
+          5,
+          1,
+          6,
+          0,
+          "161/1000"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "161/1000"
+        ]
+      ],
+      "M": 8,
+      "W": 1
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "64",
+      "S_lower": "34163213557/40000000000",
+      "T_lower": "160923251649/250000000000",
+      "S_display": 0.854080338925,
+      "T_display": 0.643693006596,
+      "tails_display": [
+        5.758570761956741e-09,
+        0.24498675505510553
+      ],
+      "ground_error_factors_display": [
+        1.0000000104270306,
+        1.001422326309278
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "34163213557/40000000000",
+          "T_lower": "160923251649/250000000000",
+          "n": 4,
+          "beta": "64"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "638140569811/1000000000000",
+            "q_upper": "3214484043649/200000000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    },
+    {
+      "beta": "80",
+      "S_lower": "410528598049/500000000000",
+      "T_lower": "107237011703/125000000000",
+      "S_display": 0.821057196098,
+      "T_display": 0.857896093624,
+      "tails_display": [
+        2.6952439094401064e-11,
+        0.07787094520602715
+      ],
+      "ground_error_factors_display": [
+        1.0000000130337883,
+        1.0017782238699149
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "410528598049/500000000000",
+          "T_lower": "107237011703/125000000000",
+          "n": 4,
+          "beta": "80"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "265788688869/1000000000000",
+            "q_upper": "36174927273/100000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "908661400673/500000000000"
+      }
+    },
+    {
+      "beta": "96",
+      "S_lower": "394655444487/500000000000",
+      "T_lower": "237080279137/250000000000",
+      "S_display": 0.789310888974,
+      "T_display": 0.948321116548,
+      "tails_display": [
+        1.261483106079883e-13,
+        0.024751885488335953
+      ],
+      "ground_error_factors_display": [
+        1.000000015640546,
+        1.0021342479137252
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "394655444487/500000000000",
+          "T_lower": "237080279137/250000000000",
+          "n": 4,
+          "beta": "96"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "119915664981/500000000000",
+            "q_upper": "21416588129/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "109996379601/250000000000",
+            "q_upper": "192088873667/250000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "5092120862329/62500000000"
+      }
+    },
+    {
+      "beta": "112",
+      "S_lower": "379396028913/500000000000",
+      "T_lower": "195920303857/200000000000",
+      "S_display": 0.758792057826,
+      "T_display": 0.979601519285,
+      "tails_display": [
+        5.904250896741752e-16,
+        0.007867579282706292
+      ],
+      "ground_error_factors_display": [
+        1.0000000182473037,
+        1.0024903984856597
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "379396028913/500000000000",
+          "T_lower": "195920303857/200000000000",
+          "n": 4,
+          "beta": "112"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "149376350883/500000000000",
+            "q_upper": "59058220973/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "426364098461/500000000000",
+            "q_upper": "29883234997691/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "128",
+      "S_lower": "364726621071/500000000000",
+      "T_lower": "989390284207/1000000000000",
+      "S_display": 0.729453242142,
+      "T_display": 0.989390284207,
+      "tails_display": [
+        2.7634281017052535e-18,
+        0.0025007712563488694
+      ],
+      "ground_error_factors_display": [
+        1.0000000208540614,
+        1.002846675630686
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "364726621071/500000000000",
+          "T_lower": "989390284207/1000000000000",
+          "n": 4,
+          "beta": "128"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "202271409661/500000000000",
+            "q_upper": "6400910767/25000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "3894681474879/1000000000000"
+      }
+    }
+  ],
+  "resource_usage": {
+    "total_seconds": 14.945092043999466,
+    "peak_rss_kib": 378940,
+    "blas_threads": 1,
+    "address_space_limit_bytes": 2147483648
+  }
+}

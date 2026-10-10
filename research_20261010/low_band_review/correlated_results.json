@@ -1,0 +1,86 @@
+{
+  "status": "passed_independent_exact_xyt_trace_and_successful_bootstrap",
+  "source_sha256": "4a38394ba6dde30ef8904c2f827c3cd628d2ec116c763363e004f9195ba71eae",
+  "records": [
+    {
+      "beta_initial": "44/5",
+      "order": "xyt",
+      "exact_cancellation_ratios": [
+        "1007909749138267/1250000000000000",
+        "7926746129793869/10000000000000000",
+        "196675121274159/200000000000000"
+      ],
+      "first_purities": [
+        "9711542846699261/10000000000000000",
+        "477646320502919/500000000000000",
+        "4912683098331823/5000000000000000"
+      ],
+      "all_exact_inputs_and_updates_equal": true,
+      "final_n": 1024,
+      "final_beta": "22528/5",
+      "gap_lower": "1296223899/1000000000000",
+      "gap_display": 0.001296223899,
+      "scope": "Every integer square side L >= final_n, conditional on previously audited transfer/interpolation theorem; shorter sizes require a separate bridge."
+    },
+    {
+      "beta_initial": "177/20",
+      "order": "xyt",
+      "exact_cancellation_ratios": [
+        "8059995715609361/10000000000000000",
+        "991144992288083/1250000000000000",
+        "30752548626017/31250000000000"
+      ],
+      "first_purities": [
+        "9710328505143707/10000000000000000",
+        "1910724601538847/2000000000000000",
+        "1966256273907443/2000000000000000"
+      ],
+      "all_exact_inputs_and_updates_equal": true,
+      "final_n": 512,
+      "final_beta": "11328/5",
+      "gap_lower": "251401557/100000000000",
+      "gap_display": 0.00251401557,
+      "scope": "Every integer square side L >= final_n, conditional on previously audited transfer/interpolation theorem; shorter sizes require a separate bridge."
+    },
+    {
+      "beta_initial": "19/2",
+      "order": "xyt",
+      "exact_cancellation_ratios": [
+        "1999033936210331/2500000000000000",
+        "7918325040060023/10000000000000000",
+        "990641654392171/1000000000000000"
+      ],
+      "first_purities": [
+        "1937197594255723/2000000000000000",
+        "9538420420020473/10000000000000000",
+        "4935761797441769/5000000000000000"
+      ],
+      "all_exact_inputs_and_updates_equal": true,
+      "final_n": 1024,
+      "final_beta": "4864",
+      "gap_lower": "485691497/500000000000",
+      "gap_display": 0.000971382994,
+      "scope": "Every integer square side L >= final_n, conditional on previously audited transfer/interpolation theorem; shorter sizes require a separate bridge."
+    },
+    {
+      "beta_initial": "189/20",
+      "order": "xyt",
+      "exact_cancellation_ratios": [
+        "1000270192257167/1250000000000000",
+        "7921395561367349/10000000000000000",
+        "1980552322219489/2000000000000000"
+      ],
+      "first_purities": [
+        "9688343552693677/10000000000000000",
+        "4770457713615977/5000000000000000",
+        "9870165156977349/10000000000000000"
+      ],
+      "all_exact_inputs_and_updates_equal": true,
+      "final_n": 512,
+      "final_beta": "12096/5",
+      "gap_lower": "7767199/4000000000",
+      "gap_display": 0.00194179975,
+      "scope": "Every integer square side L >= final_n, conditional on previously audited transfer/interpolation theorem; shorter sizes require a separate bridge."
+    }
+  ]
+}

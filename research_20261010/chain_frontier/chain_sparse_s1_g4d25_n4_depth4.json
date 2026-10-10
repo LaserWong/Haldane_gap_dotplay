@@ -1,0 +1,632 @@
+{
+  "status": "producer_candidate_requires_independent_audit",
+  "g": "4/25",
+  "n": 4,
+  "depth": 4,
+  "ground_certificates": [
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 4,
+      "physical_sites": 8,
+      "full_dimension": 6561,
+      "retained_states": 1,
+      "trial_subspace_dimension": 1099,
+      "reached_support_dimension": 1107,
+      "trial_max_excited_dimers": 4,
+      "support_depth": 4,
+      "E00": "-8",
+      "Vmin": "-32/25",
+      "Vmax": "16/25",
+      "second_eigenvalue_lower": "-483330052443/62500000000",
+      "ground_lower": "-53579025574502960504722116817879241589363/6637479845560007315118672063564874146400",
+      "ground_upper": "-2529450855170753723083542165559/313353572444107960795417055200",
+      "ground_lower_display": -8.072194088897074,
+      "ground_upper_display": -8.072194088745949,
+      "ground_width_display": 1.511260430678741e-10,
+      "exact_rayleigh": "-2529450855170753723083542165559/313353572444107960795417055200",
+      "exact_residual_squared": "5029179767569304515011903207332821552515979981199/98190461363484815934991671795146040900847075703039847040000",
+      "exact_residual_squared_display": 5.121861836408034e-11,
+      "integer_matrix_denominator": 225,
+      "sparse_nnz": 32201,
+      "build_seconds": 0.5121506670002418,
+      "total_seconds": 0.6276189599993813,
+      "peak_process_rss_kib": 83564,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "17/25",
+        "B": "25830052443/62500000000",
+        "second_shift_lower": "16669947557/62500000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "4/25",
+          "a": "4/25",
+          "b": "25830052443/250000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "single",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "chain_s1_M4_g4d25_depth4_trial.npz",
+      "weak_bonds": [
+        [
+          3,
+          1,
+          0,
+          0,
+          "4/25"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "4/25"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "4/25"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "4/25"
+        ]
+      ],
+      "M": 4,
+      "W": 1
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 8,
+      "physical_sites": 16,
+      "full_dimension": 43046721,
+      "retained_states": 1,
+      "trial_subspace_dimension": 43294,
+      "reached_support_dimension": 245870,
+      "trial_max_excited_dimers": 8,
+      "support_depth": 4,
+      "E00": "-16",
+      "Vmin": "-64/25",
+      "Vmax": "32/25",
+      "second_eigenvalue_lower": "-251023097989/15625000000",
+      "ground_lower": "-61223314946939389433737652449000056184089/3792794646426508957358623963899460275500",
+      "ground_upper": "-51213760826878629670593672535099/3172704920996759564239908570500",
+      "ground_lower_display": -16.142006265649712,
+      "ground_upper_display": -16.141986759609825,
+      "ground_width_display": 1.9506039886125113e-05,
+      "exact_rayleigh": "-51213760826878629670593672535099/3172704920996759564239908570500",
+      "exact_residual_squared": "15022357512786362821259382629075920867909721239301531299/10066056515717054348035557592854766140320442646199353470250000",
+      "exact_residual_squared_display": 1.4923776246766131e-06,
+      "integer_matrix_denominator": 225,
+      "sparse_nnz": 2495174,
+      "build_seconds": 10.46862014099861,
+      "total_seconds": 12.358378226999776,
+      "peak_process_rss_kib": 326260,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "49/100",
+        "B": "8679347989/15625000000",
+        "second_shift_lower": "-1023097989/15625000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "4/25",
+          "a": "51/200",
+          "b": "8679347989/125000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "single",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "chain_s1_M8_g4d25_depth4_trial.npz",
+      "weak_bonds": [
+        [
+          7,
+          1,
+          0,
+          0,
+          "4/25"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "4/25"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "4/25"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "4/25"
+        ],
+        [
+          3,
+          1,
+          4,
+          0,
+          "4/25"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "4/25"
+        ],
+        [
+          5,
+          1,
+          6,
+          0,
+          "4/25"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "4/25"
+        ]
+      ],
+      "M": 8,
+      "W": 1
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "16",
+      "S_lower": "27121480341/31250000000",
+      "T_lower": "15295044457/1000000000000",
+      "S_display": 0.867887370912,
+      "T_display": 0.015295044457,
+      "tails_display": [
+        0.05299166698289228,
+        7.085518261906783
+      ],
+      "ground_error_factors_display": [
+        1.0000000024180167,
+        1.0003121453454007
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "27121480341/31250000000",
+          "T_lower": "15295044457/1000000000000",
+          "n": 4,
+          "beta": "16"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "3680867906642477/1000000000000"
+      }
+    },
+    {
+      "beta": "24",
+      "S_lower": "234345671753/250000000000",
+      "T_lower": "42920403833/1000000000000",
+      "S_display": 0.937382687012,
+      "T_display": 0.042920403833,
+      "tails_display": [
+        0.003520997410426374,
+        3.826429508063202
+      ],
+      "ground_error_factors_display": [
+        1.0000000036270251,
+        1.0004682545542192
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "234345671753/250000000000",
+          "T_lower": "42920403833/1000000000000",
+          "n": 4,
+          "beta": "24"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "65104860225149/200000000000"
+      }
+    },
+    {
+      "beta": "32",
+      "S_lower": "115699981001/125000000000",
+      "T_lower": "105739515511/1000000000000",
+      "S_display": 0.925599848008,
+      "T_display": 0.105739515511,
+      "tails_display": [
+        0.00023397007446871915,
+        2.0746320891879146
+      ],
+      "ground_error_factors_display": [
+        1.0000000048360334,
+        1.0006243881255181
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "115699981001/125000000000",
+          "T_lower": "105739515511/1000000000000",
+          "n": 4,
+          "beta": "32"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "50387290564493/1000000000000"
+      }
+    },
+    {
+      "beta": "40",
+      "S_lower": "454192118341/500000000000",
+      "T_lower": "110653391437/500000000000",
+      "S_display": 0.908384236682,
+      "T_display": 0.221306782874,
+      "tails_display": [
+        1.554730359659694e-05,
+        1.1249227088830838
+      ],
+      "ground_error_factors_display": [
+        1.0000000060450418,
+        1.0007805460630996
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "454192118341/500000000000",
+          "T_lower": "110653391437/500000000000",
+          "n": 4,
+          "beta": "40"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "1252179745559/125000000000"
+      }
+    },
+    {
+      "beta": "48",
+      "S_lower": "178225076719/200000000000",
+      "T_lower": "77071155509/200000000000",
+      "S_display": 0.891125383595,
+      "T_display": 0.385355777545,
+      "tails_display": [
+        1.0331178038730542e-06,
+        0.6099650563821248
+      ],
+      "ground_error_factors_display": [
+        1.00000000725405,
+        1.000936728370766
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "178225076719/200000000000",
+          "T_lower": "77071155509/200000000000",
+          "n": 4,
+          "beta": "48"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "1285772105471/500000000000"
+      }
+    },
+    {
+      "beta": "56",
+      "S_lower": "874170750569/1000000000000",
+      "T_lower": "70470970797/125000000000",
+      "S_display": 0.874170750569,
+      "T_display": 0.563767766376,
+      "tails_display": [
+        6.865064350582514e-08,
+        0.33074039541529443
+      ],
+      "ground_error_factors_display": [
+        1.0000000084630585,
+        1.0010929350523208
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "874170750569/1000000000000",
+          "T_lower": "70470970797/125000000000",
+          "n": 4,
+          "beta": "56"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "43637348733/50000000000",
+            "q_upper": "281431195488337/1000000000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    },
+    {
+      "beta": "64",
+      "S_lower": "34301486149/40000000000",
+      "T_lower": "358735815487/500000000000",
+      "S_display": 0.857537153725,
+      "T_display": 0.717471630974,
+      "tails_display": [
+        4.561832964349084e-09,
+        0.17933684574589343
+      ],
+      "ground_error_factors_display": [
+        1.0000000096720667,
+        1.0012491661115677
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "34301486149/40000000000",
+          "T_lower": "358735815487/500000000000",
+          "n": 4,
+          "beta": "64"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "200412819617/500000000000",
+            "q_upper": "2513688741601/1000000000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    },
+    {
+      "beta": "80",
+      "S_lower": "206303309697/250000000000",
+      "T_lower": "899664930587/1000000000000",
+      "S_display": 0.825213238788,
+      "T_display": 0.899664930587,
+      "tails_display": [
+        2.014322076011738e-11,
+        0.052727125801981044
+      ],
+      "ground_error_factors_display": [
+        1.0000000120900836,
+        1.0015617013783558
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "206303309697/250000000000",
+          "T_lower": "899664930587/1000000000000",
+          "n": 4,
+          "beta": "80"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "199870405673/1000000000000",
+            "q_upper": "148027549967/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "69453131111/200000000000",
+            "q_upper": "616751259369/1000000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "6564246935771/500000000000"
+      }
+    },
+    {
+      "beta": "96",
+      "S_lower": "794107730907/1000000000000",
+      "T_lower": "966131861383/1000000000000",
+      "S_display": 0.794107730907,
+      "T_display": 0.966131861383,
+      "tails_display": [
+        8.894436638995155e-14,
+        0.015502390397107211
+      ],
+      "ground_error_factors_display": [
+        1.0000000145081003,
+        1.0018743342015728
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "794107730907/1000000000000",
+          "T_lower": "966131861383/1000000000000",
+          "n": 4,
+          "beta": "96"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "102836755391/500000000000",
+            "q_upper": "30404846739/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "236340214881/1000000000000",
+            "q_upper": "1467388949/12500000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "17778072601/40000000000",
+            "q_upper": "858954088347/1000000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "241381165774937/1000000000000"
+      }
+    },
+    {
+      "beta": "112",
+      "S_lower": "191043677749/250000000000",
+      "T_lower": "61665335573/62500000000",
+      "S_display": 0.764174710996,
+      "T_display": 0.986645369168,
+      "tails_display": [
+        3.927425711469908e-16,
+        0.0045578837148618585
+      ],
+      "ground_error_factors_display": [
+        1.000000016926117,
+        1.0021870646116702
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "191043677749/250000000000",
+          "T_lower": "61665335573/62500000000",
+          "n": 4,
+          "beta": "112"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "270565303597/1000000000000",
+            "q_upper": "3333978663/40000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "551594590191/1000000000000",
+            "q_upper": "1368066705909/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "128",
+      "S_lower": "367684991719/500000000000",
+      "T_lower": "49618204163/50000000000",
+      "S_display": 0.735369983438,
+      "T_display": 0.99236408326,
+      "tails_display": [
+        1.734193332885163e-18,
+        0.0013400710100862562
+      ],
+      "ground_error_factors_display": [
+        1.0000000193441336,
+        1.0024998926391095
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "367684991719/500000000000",
+          "T_lower": "49618204163/50000000000",
+          "n": 4,
+          "beta": "128"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "93192701399/250000000000",
+            "q_upper": "19154545501/100000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1149256384097/500000000000"
+      }
+    },
+    {
+      "beta": "160",
+      "S_lower": "680976889527/1000000000000",
+      "T_lower": "198709605459/200000000000",
+      "S_display": 0.680976889527,
+      "T_display": 0.993548027295,
+      "tails_display": [
+        3.381244521590198e-23,
+        0.00011583957480574726
+      ],
+      "ground_error_factors_display": [
+        1.0000000241801672,
+        1.0031258416679067
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "680976889527/1000000000000",
+          "T_lower": "198709605459/200000000000",
+          "n": 4,
+          "beta": "160"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "684956726127/1000000000000",
+            "q_upper": "490855649837/200000000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    }
+  ],
+  "resource_usage": {
+    "total_seconds": 23.3334072079997,
+    "peak_rss_kib": 327540,
+    "blas_threads": 1,
+    "address_space_limit_bytes": 2147483648
+  }
+}

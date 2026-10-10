@@ -1,0 +1,213 @@
+{
+  "status": "PASS independent graph, weighted-star counts, physical local PSD, full residual, minmax/Temple, thermal inputs and recursion",
+  "source": "research_20261010/nonperturbative_audit/epsilon_scan/ff_eps1d100_selected_seeds.json",
+  "source_sha256": "7872d8ab2f9d2eadfd4c4ff7243d60d37135fbf091c84cfe7f302919fad0708c",
+  "J": "3/10",
+  "epsilon": "1/100",
+  "ground_checks": [
+    {
+      "geometry": [
+        2,
+        2
+      ],
+      "full_dimension": 256,
+      "trial_dimension": 23,
+      "reached_dimension": 58,
+      "matrix_nnz": 179,
+      "occupied_subsets": 16,
+      "reference_bins": 6,
+      "reference_total_rank": 256,
+      "lowest_nonvacuum_reference_before_B": "2/5",
+      "second_shift_lower": "17499999999/62500000000",
+      "ground_width": "783324855967524122792251582456951462450840711872200000000/140446942221391569938867078598492600836899451842172960928066237",
+      "local_PSD": {
+        "exact_positive_LDL_pivots": [
+          "10000000001/500000000000",
+          "7500000001/500000000000",
+          "7500000001/500000000000",
+          "5000000001/500000000000",
+          "50000000015000000001/3750000000500000000000",
+          "10000000001/500000000000",
+          "18750000010000000001/2500000000500000000000",
+          "7500000001/500000000000",
+          "50000000015000000001/3750000000500000000000",
+          "62500000062500000015000000001/9375000005000000000500000000000",
+          "10000000001/500000000000",
+          "7500000001/500000000000",
+          "50000000015000000001/6250000005000000000500000000000",
+          "50000000015000000001/3750000000500000000000",
+          "50000000015000000001/3750000000500000000000",
+          "10000000001/500000000000"
+        ],
+        "inertia": [
+          0,
+          0,
+          16
+        ]
+      },
+      "exact_sparse_Rayleigh_residual_Temple_match": true,
+      "physical_basis_check": null,
+      "artifact_sha256": "9678761b6aa41bbdc39268f3f29097d8db3b493a99992d7ffa9439e7a869eb82",
+      "seconds": 0.010296529000697774
+    },
+    {
+      "geometry": [
+        4,
+        2
+      ],
+      "full_dimension": 65536,
+      "trial_dimension": 93,
+      "reached_dimension": 1301,
+      "matrix_nnz": 2505,
+      "occupied_subsets": 256,
+      "reference_bins": 28,
+      "reference_total_rank": 65536,
+      "lowest_nonvacuum_reference_before_B": "4/5",
+      "second_shift_lower": "17499999999/31250000000",
+      "ground_width": "32490075969062233733198250434076870242733353177736621484375/3364103965836798435335278478566510555165616570857844698856802072",
+      "local_PSD": {
+        "exact_positive_LDL_pivots": [
+          "10000000001/500000000000",
+          "7500000001/500000000000",
+          "7500000001/500000000000",
+          "5000000001/500000000000",
+          "50000000015000000001/3750000000500000000000",
+          "10000000001/500000000000",
+          "18750000010000000001/2500000000500000000000",
+          "7500000001/500000000000",
+          "50000000015000000001/3750000000500000000000",
+          "62500000062500000015000000001/9375000005000000000500000000000",
+          "10000000001/500000000000",
+          "7500000001/500000000000",
+          "50000000015000000001/6250000005000000000500000000000",
+          "50000000015000000001/3750000000500000000000",
+          "50000000015000000001/3750000000500000000000",
+          "10000000001/500000000000"
+        ],
+        "inertia": [
+          0,
+          0,
+          16
+        ]
+      },
+      "exact_sparse_Rayleigh_residual_Temple_match": true,
+      "physical_basis_check": null,
+      "artifact_sha256": "c7bb9a84e9b58173342b5c81e73662e3db7ef22b2085b354061166ffdd6b6d89",
+      "seconds": 0.04562699699999939
+    },
+    {
+      "geometry": [
+        4,
+        4
+      ],
+      "full_dimension": 4294967296,
+      "trial_dimension": 377,
+      "reached_dimension": 21345,
+      "matrix_nnz": 31001,
+      "occupied_subsets": 65536,
+      "reference_bins": 115,
+      "reference_total_rank": 4294967296,
+      "lowest_nonvacuum_reference_before_B": "229344821/250000000",
+      "second_shift_lower": "26432372493/31250000000",
+      "ground_width": "4818066657914564718217606998977465659754175464119700000000/845627018763926415852463046334595938333445295287281030939345831",
+      "local_PSD": {
+        "exact_positive_LDL_pivots": [
+          "12136522033/250000000000",
+          "4152312329/125000000000",
+          "1448851085005342473/48282701500000000000",
+          "9636522033/250000000000",
+          "5865198780965210581505249617/181106385625667809125000000000",
+          "6972727283/250000000000",
+          "28175179604719071052013795789/2099776252897803948093750000000",
+          "4152312329/125000000000",
+          "3647452672456079153783565366280830342921/126101773790752027502362866765500000000000",
+          "672106104168061478098744110131276818421/56350359209438142104027591578000000000000",
+          "151934143260576333607571577200717474671/37566906142624159972662931421750000000000",
+          "1448851085005342473/48282701500000000000",
+          "346768152687821281686164780421/5447443198839945709933611109250000000000",
+          "5865198780965210581505249617/181106385625667809125000000000",
+          "3647452672456079153783565366280830342921/126101773790752027502362866765500000000000",
+          "12136522033/250000000000"
+        ],
+        "inertia": [
+          0,
+          0,
+          16
+        ]
+      },
+      "exact_sparse_Rayleigh_residual_Temple_match": true,
+      "physical_basis_check": null,
+      "artifact_sha256": "5bf73b9e83c1771596acb542b75b7e02c249415c80ddd9a9938c21f1b8865929",
+      "seconds": 1.3802343489987834
+    }
+  ],
+  "seed_checks": [
+    {
+      "beta": "16",
+      "accepted": false,
+      "independent_192bit_heat_inputs_valid": true,
+      "exact_128bit_recursion_matches": true,
+      "n": null,
+      "gap_lower": null,
+      "gap_display": null
+    },
+    {
+      "beta": "24",
+      "accepted": false,
+      "independent_192bit_heat_inputs_valid": true,
+      "exact_128bit_recursion_matches": true,
+      "n": null,
+      "gap_lower": null,
+      "gap_display": null
+    },
+    {
+      "beta": "32",
+      "accepted": false,
+      "independent_192bit_heat_inputs_valid": true,
+      "exact_128bit_recursion_matches": true,
+      "n": null,
+      "gap_lower": null,
+      "gap_display": null
+    },
+    {
+      "beta": "48",
+      "accepted": false,
+      "independent_192bit_heat_inputs_valid": true,
+      "exact_128bit_recursion_matches": true,
+      "n": null,
+      "gap_lower": null,
+      "gap_display": null
+    },
+    {
+      "beta": "64",
+      "accepted": false,
+      "independent_192bit_heat_inputs_valid": true,
+      "exact_128bit_recursion_matches": true,
+      "n": null,
+      "gap_lower": null,
+      "gap_display": null
+    },
+    {
+      "beta": "96",
+      "accepted": false,
+      "independent_192bit_heat_inputs_valid": true,
+      "exact_128bit_recursion_matches": true,
+      "n": null,
+      "gap_lower": null,
+      "gap_display": null
+    },
+    {
+      "beta": "120",
+      "accepted": false,
+      "independent_192bit_heat_inputs_valid": true,
+      "exact_128bit_recursion_matches": true,
+      "n": null,
+      "gap_lower": null,
+      "gap_display": null
+    }
+  ],
+  "bridge_checks": [],
+  "best_all_sizes": null,
+  "seconds": 14.087591848001466,
+  "peak_rss_kib": 108312
+}

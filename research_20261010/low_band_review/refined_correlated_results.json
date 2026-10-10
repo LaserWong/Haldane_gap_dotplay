@@ -1,0 +1,66 @@
+{
+  "status": "passed_independent_exact_xyt_trace_and_successful_bootstrap",
+  "source_sha256": "c2dfa99b075f9491f0efdd5316cf9ffb3ecb65321c4f65dc22da9a77301ef9d5",
+  "records": [
+    {
+      "beta_initial": "911/100",
+      "order": "xyt",
+      "exact_cancellation_ratios": [
+        "4019339387974377/5000000000000000",
+        "7933282365611473/10000000000000000",
+        "9872304620020151/10000000000000000"
+      ],
+      "first_purities": [
+        "242558883232633/250000000000000",
+        "9552451395364073/10000000000000000",
+        "4927128456261841/5000000000000000"
+      ],
+      "all_exact_inputs_and_updates_equal": true,
+      "final_n": 256,
+      "final_beta": "29152/25",
+      "gap_lower": "2166526973/500000000000",
+      "gap_display": 0.004333053946,
+      "scope": "Every integer square side L >= final_n, conditional on previously audited transfer/interpolation theorem; shorter sizes require a separate bridge."
+    },
+    {
+      "beta_initial": "91/10",
+      "order": "xyt",
+      "exact_cancellation_ratios": [
+        "4019808747695807/5000000000000000",
+        "3966680231148471/5000000000000000",
+        "4935620068888251/5000000000000000"
+      ],
+      "first_purities": [
+        "9702709612468373/10000000000000000",
+        "9552631565128123/10000000000000000",
+        "1970715510646419/2000000000000000"
+      ],
+      "all_exact_inputs_and_updates_equal": true,
+      "final_n": 256,
+      "final_beta": "5824/5",
+      "gap_lower": "2164681943/500000000000",
+      "gap_display": 0.004329363886,
+      "scope": "Every integer square side L >= final_n, conditional on previously audited transfer/interpolation theorem; shorter sizes require a separate bridge."
+    },
+    {
+      "beta_initial": "228/25",
+      "order": "xyt",
+      "exact_cancellation_ratios": [
+        "803773141234259/1000000000000000",
+        "7933186993777763/10000000000000000",
+        "4936679194318761/5000000000000000"
+      ],
+      "first_purities": [
+        "9701997485865739/10000000000000000",
+        "38209045129927/40000000000000",
+        "2463730543213731/2500000000000000"
+      ],
+      "all_exact_inputs_and_updates_equal": true,
+      "final_n": 256,
+      "final_beta": "29184/25",
+      "gap_lower": "2165776737/500000000000",
+      "gap_display": 0.004331553474,
+      "scope": "Every integer square side L >= final_n, conditional on previously audited transfer/interpolation theorem; shorter sizes require a separate bridge."
+    }
+  ]
+}

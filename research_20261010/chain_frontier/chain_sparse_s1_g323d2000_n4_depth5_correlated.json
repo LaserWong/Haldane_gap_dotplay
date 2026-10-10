@@ -1,0 +1,4041 @@
+{
+  "status": "exact_arithmetic_producer_candidate_requires_independent_audit",
+  "source": "research_20261010/chain_frontier/chain_sparse_s1_g323d2000_n4_depth5.json",
+  "g": "323/2000",
+  "n": 4,
+  "depth": 5,
+  "ground_certificates": [
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 4,
+      "physical_sites": 8,
+      "full_dimension": 6561,
+      "retained_states": 1,
+      "trial_subspace_dimension": 1107,
+      "reached_support_dimension": 1107,
+      "trial_max_excited_dimers": 4,
+      "support_depth": 5,
+      "E00": "-8",
+      "Vmin": "-323/250",
+      "Vmax": "323/500",
+      "second_eigenvalue_lower": "-193503886891/25000000000",
+      "ground_lower": "-3374369356052624127915667428397162464049691/417950746904420225601783937444787691142000",
+      "ground_upper": "-404782889006516635910586137849199/50136571591057403284039077038000",
+      "ground_lower_display": -8.073605277763262,
+      "ground_upper_display": -8.073605277763262,
+      "ground_width_display": 2.573233549016903e-23,
+      "exact_rayleigh": "-404782889006516635910586137849199/50136571591057403284039077038000",
+      "exact_residual_squared": "21568449948116456029425622714554918637057/2513675810905224279000570682251520925872621912598898853444000000",
+      "exact_residual_squared_display": 8.580442177366234e-24,
+      "integer_matrix_denominator": 72000,
+      "sparse_nnz": 32321,
+      "build_seconds": 0.44412736400045105,
+      "total_seconds": 0.46491303900074854,
+      "peak_process_rss_kib": 82704,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "17/25",
+        "B": "10503886891/25000000000",
+        "second_shift_lower": "6496113109/25000000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "323/2000",
+          "a": "4/25",
+          "b": "10503886891/100000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "single",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "chain_s1_M4_g323d2000_depth5_trial.npz",
+      "weak_bonds": [
+        [
+          3,
+          1,
+          0,
+          0,
+          "323/2000"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "323/2000"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "323/2000"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "323/2000"
+        ]
+      ],
+      "M": 4,
+      "W": 1
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 8,
+      "physical_sites": 16,
+      "full_dimension": 43046721,
+      "retained_states": 1,
+      "trial_subspace_dimension": 245870,
+      "reached_support_dimension": 939326,
+      "trial_max_excited_dimers": 8,
+      "support_depth": 5,
+      "E00": "-16",
+      "Vmin": "-323/125",
+      "Vmax": "323/250",
+      "second_eigenvalue_lower": "-1004717293241/62500000000",
+      "ground_lower": "-283721314186080037408834546234535334407161863/17573634634845725544339280059600605289248000",
+      "ground_upper": "-65564690483907266273863099082547457/4061062298875592661410563161472000",
+      "ground_lower_display": -16.144714515886527,
+      "ground_upper_display": -16.144714278837952,
+      "ground_width_display": 2.3704857479273317e-07,
+      "exact_rayleigh": "-65564690483907266273863099082547457/4061062298875592661410563161472000",
+      "exact_residual_squared": "270681500946159686424868756584447422379335049764430359912191/16492226995348713496086497616719283868604244423541883545206784000000",
+      "exact_residual_squared_display": 1.6412671316160014e-08,
+      "integer_matrix_denominator": 72000,
+      "sparse_nnz": 14824254,
+      "build_seconds": 89.14578617199913,
+      "total_seconds": 101.27685484100039,
+      "peak_process_rss_kib": 1706108,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "12/25",
+        "B": "34717293241/62500000000",
+        "second_shift_lower": "-4717293241/62500000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "323/2000",
+          "a": "13/50",
+          "b": "34717293241/500000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "single",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "chain_s1_M8_g323d2000_depth5_trial.npz",
+      "weak_bonds": [
+        [
+          7,
+          1,
+          0,
+          0,
+          "323/2000"
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          "323/2000"
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          "323/2000"
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          "323/2000"
+        ],
+        [
+          3,
+          1,
+          4,
+          0,
+          "323/2000"
+        ],
+        [
+          4,
+          1,
+          5,
+          0,
+          "323/2000"
+        ],
+        [
+          5,
+          1,
+          6,
+          0,
+          "323/2000"
+        ],
+        [
+          6,
+          1,
+          7,
+          0,
+          "323/2000"
+        ]
+      ],
+      "M": 8,
+      "W": 1
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "80",
+      "S_lower": "204743665129/250000000000",
+      "T_lower": "417501583073/500000000000",
+      "J_direct_lower": "83839936821/125000000000",
+      "first_S_lower": "879490805097/1000000000000",
+      "first_T_lower": "801065222449/1000000000000",
+      "tail_upper": [
+        "2652943344424675078384994875/85070591730234615865843651857942052864",
+        "16049464027915033178348088970075241417/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "879490805097/1000000000000",
+          "T_lower": "801065222449/1000000000000",
+          "n": 8,
+          "beta": "160"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "188420394447/1000000000000",
+            "q_upper": "423329724811/1000000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1332941849799/1000000000000"
+      }
+    },
+    {
+      "beta": "321/4",
+      "S_lower": "818463723129/1000000000000",
+      "T_lower": "837478822913/1000000000000",
+      "J_direct_lower": "334941433039/500000000000",
+      "first_S_lower": "439287460233/500000000000",
+      "first_T_lower": "806040225771/1000000000000",
+      "tail_upper": [
+        "2440754637396517938853064041/85070591730234615865843651857942052864",
+        "7887024003314767098161042216790833889/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "439287460233/500000000000",
+          "T_lower": "806040225771/1000000000000",
+          "n": 8,
+          "beta": "321/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "4609533211/25000000000",
+            "q_upper": "393490528293/1000000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1092974126861/1000000000000"
+      }
+    },
+    {
+      "beta": "161/2",
+      "S_lower": "817953104501/1000000000000",
+      "T_lower": "33596909537/40000000000",
+      "J_direct_lower": "167261820291/250000000000",
+      "first_S_lower": "109706802277/125000000000",
+      "first_T_lower": "6334607357/7812500000",
+      "tail_upper": [
+        "2245537286912746089040368665/85070591730234615865843651857942052864",
+        "15503358248143141860376602417410435271/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "109706802277/125000000000",
+          "T_lower": "6334607357/7812500000",
+          "n": 8,
+          "beta": "161"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "36134241841/200000000000",
+            "q_upper": "366750321969/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "914473977607/1000000000000",
+            "q_upper": "396425212086109/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "323/4",
+      "S_lower": "204360701109/250000000000",
+      "T_lower": "842335152451/1000000000000",
+      "J_direct_lower": "167053184631/250000000000",
+      "first_S_lower": "876729283899/1000000000000",
+      "first_T_lower": "815441167681/1000000000000",
+      "tail_upper": [
+        "8263735534341250222028392079/340282366920938463463374607431768211456",
+        "15237313647660492557296962597288652249/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "876729283899/1000000000000",
+          "T_lower": "815441167681/1000000000000",
+          "n": 8,
+          "beta": "323/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "177265352071/1000000000000",
+            "q_upper": "171358982213/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "77831512201/100000000000",
+            "q_upper": "8914079311571/200000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "81",
+      "S_lower": "816932822733/1000000000000",
+      "T_lower": "844716308367/1000000000000",
+      "J_direct_lower": "667379236859/1000000000000",
+      "first_S_lower": "875799503027/1000000000000",
+      "first_T_lower": "819881568459/1000000000000",
+      "tail_upper": [
+        "7602782347406633887026706957/340282366920938463463374607431768211456",
+        "29951668984361979226525230173667080695/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "875799503027/1000000000000",
+          "T_lower": "819881568459/1000000000000",
+          "n": 8,
+          "beta": "162"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "43535381043/250000000000",
+            "q_upper": "32106103287/100000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "67224777463/100000000000",
+            "q_upper": "3946655809621/250000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "325/4",
+      "S_lower": "163284631839/200000000000",
+      "T_lower": "52941653309/62500000000",
+      "J_direct_lower": "66654677487/100000000000",
+      "first_S_lower": "87486506107/100000000000",
+      "first_T_lower": "41207884607/50000000000",
+      "tail_upper": [
+        "3497346882764537600138046139/170141183460469231731687303715884105728",
+        "29437684873229958211241003407943801055/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "87486506107/100000000000",
+          "T_lower": "41207884607/50000000000",
+          "n": 8,
+          "beta": "325/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "171279666821/1000000000000",
+            "q_upper": "150747846883/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "588137918639/1000000000000",
+            "q_upper": "7905638497583/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "163/2",
+      "S_lower": "815913813623/1000000000000",
+      "T_lower": "849385836137/1000000000000",
+      "J_direct_lower": "665715351261/1000000000000",
+      "first_S_lower": "873925943461/1000000000000",
+      "first_T_lower": "414137992731/500000000000",
+      "tail_upper": [
+        "6435241552090518374063418371/340282366920938463463374607431768211456",
+        "14466260480309782839949642092111616259/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "873925943461/1000000000000",
+          "T_lower": "414137992731/500000000000",
+          "n": 8,
+          "beta": "163"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "168661653719/1000000000000",
+            "q_upper": "28377854163/100000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "520416730087/1000000000000",
+            "q_upper": "4696560805843/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "327/4",
+      "S_lower": "407702392909/500000000000",
+      "T_lower": "425837355439/500000000000",
+      "J_direct_lower": "132976992947/200000000000",
+      "first_S_lower": "218245533897/250000000000",
+      "first_T_lower": "832242608241/1000000000000",
+      "tail_upper": [
+        "2960267827437893815252653811/170141183460469231731687303715884105728",
+        "28436025887957110318308726878472603329/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "218245533897/250000000000",
+          "T_lower": "832242608241/1000000000000",
+          "n": 8,
+          "beta": "327/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "83135539937/500000000000",
+            "q_upper": "267699982647/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "232585109481/500000000000",
+            "q_upper": "3091673688021/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "82",
+      "S_lower": "407448037791/500000000000",
+      "T_lower": "6831466663/8000000000",
+      "J_direct_lower": "664055613999/1000000000000",
+      "first_S_lower": "872033622803/1000000000000",
+      "first_T_lower": "836063447079/1000000000000",
+      "tail_upper": [
+        "2723498578640646802769678837/170141183460469231731687303715884105728",
+        "27948050894050101892809080225013229335/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "872033622803/1000000000000",
+          "T_lower": "836063447079/1000000000000",
+          "n": 8,
+          "beta": "164"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "164093076833/1000000000000",
+            "q_upper": "253078839151/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "419584124101/1000000000000",
+            "q_upper": "2180375319039/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "329/4",
+      "S_lower": "814387682717/1000000000000",
+      "T_lower": "42808098021/50000000000",
+      "J_direct_lower": "331613648881/500000000000",
+      "first_S_lower": "871080390419/1000000000000",
+      "first_T_lower": "20993603209/25000000000",
+      "tail_upper": [
+        "2505666696475024955328733097/170141183460469231731687303715884105728",
+        "27468449770515021615674194158295795483/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "871080390419/1000000000000",
+          "T_lower": "20993603209/25000000000",
+          "n": 8,
+          "beta": "329/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "20264268827/125000000000",
+            "q_upper": "11987896271/50000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "381594167451/1000000000000",
+            "q_upper": "808055691683/500000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "165/2",
+      "S_lower": "406939803513/500000000000",
+      "T_lower": "858360854193/1000000000000",
+      "J_direct_lower": "662400014733/1000000000000",
+      "first_S_lower": "870122423703/1000000000000",
+      "first_T_lower": "5270562691/6250000000",
+      "tail_upper": [
+        "4610515050797449582361512471/340282366920938463463374607431768211456",
+        "26997078817969972018210400615263881731/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "870122423703/1000000000000",
+          "T_lower": "5270562691/6250000000",
+          "n": 8,
+          "beta": "165"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "160322039251/1000000000000",
+            "q_upper": "227600401021/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "174829652359/500000000000",
+            "q_upper": "155503925233/125000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "331/4",
+      "S_lower": "81337184831/100000000000",
+      "T_lower": "860530277077/1000000000000",
+      "J_direct_lower": "82696720453/125000000000",
+      "first_S_lower": "54322481743/62500000000",
+      "first_T_lower": "52919143497/62500000000",
+      "tail_upper": [
+        "2120877555615643770348090257/170141183460469231731687303715884105728",
+        "6633449200744770163831225761588678409/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "54322481743/62500000000",
+          "T_lower": "52919143497/62500000000",
+          "n": 8,
+          "beta": "331/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "39676396797/250000000000",
+            "q_upper": "54121687483/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "161305483039/500000000000",
+            "q_upper": "493327585259/500000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "13172137987166827/1000000000000"
+      }
+    },
+    {
+      "beta": "83",
+      "S_lower": "203216101593/250000000000",
+      "T_lower": "431335246989/500000000000",
+      "J_direct_lower": "330374271573/500000000000",
+      "first_S_lower": "2713100713/3125000000",
+      "first_T_lower": "10624973021/12500000000",
+      "tail_upper": [
+        "975622366775736149654607763/85070591730234615865843651857942052864",
+        "26078464915735757207651078289816002939/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "2713100713/3125000000",
+          "T_lower": "10624973021/12500000000",
+          "n": 8,
+          "beta": "166"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "157254634501/1000000000000",
+            "q_upper": "20631226667/100000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "149775276733/500000000000",
+            "q_upper": "80180058857/100000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "5386545787337/125000000000"
+      }
+    },
+    {
+      "beta": "333/4",
+      "S_lower": "812357281013/1000000000000",
+      "T_lower": "432390885823/500000000000",
+      "J_direct_lower": "131984870403/200000000000",
+      "first_S_lower": "86721996967/100000000000",
+      "first_T_lower": "426584685151/500000000000",
+      "tail_upper": [
+        "224397443415065774303149941/21267647932558653966460912964485513216",
+        "25630946728472124924626870763206772463/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "86721996967/100000000000",
+          "T_lower": "426584685151/500000000000",
+          "n": 8,
+          "beta": "333/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "6238396751/40000000000",
+            "q_upper": "24623119329/125000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "279778338397/1000000000000",
+            "q_upper": "332473520447/500000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "2824817701453/250000000000"
+      }
+    },
+    {
+      "beta": "167/2",
+      "S_lower": "811850472037/1000000000000",
+      "T_lower": "866864378503/1000000000000",
+      "J_direct_lower": "659101188947/1000000000000",
+      "first_S_lower": "34649716701/40000000000",
+      "first_T_lower": "171245075953/200000000000",
+      "tail_upper": [
+        "3303193650396035452236634973/340282366920938463463374607431768211456",
+        "12595554077291082465045370274598610581/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "34649716701/40000000000",
+          "T_lower": "171245075953/200000000000",
+          "n": 8,
+          "beta": "167"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "154812988223/1000000000000",
+            "q_upper": "37684752401/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "65685811639/250000000000",
+            "q_upper": "22442927571/40000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "101857277627/20000000000"
+      }
+    },
+    {
+      "beta": "335/4",
+      "S_lower": "405671989623/500000000000",
+      "T_lower": "217229646119/250000000000",
+      "J_direct_lower": "658279052659/1000000000000",
+      "first_S_lower": "108157632099/125000000000",
+      "first_T_lower": "26849067903/31250000000",
+      "tail_upper": [
+        "759749095034980171780558335/85070591730234615865843651857942052864",
+        "12379408704223162878506458416620787799/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "108157632099/125000000000",
+          "T_lower": "26849067903/31250000000",
+          "n": 8,
+          "beta": "335/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "76903062241/500000000000",
+            "q_upper": "45139273699/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "62001702717/250000000000",
+            "q_upper": "120143299393/250000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "289070629899/100000000000"
+      }
+    },
+    {
+      "beta": "84",
+      "S_lower": "810837802443/1000000000000",
+      "T_lower": "174188932167/200000000000",
+      "J_direct_lower": "65745794187/100000000000",
+      "first_S_lower": "172854874499/200000000000",
+      "first_T_lower": "215501966603/250000000000",
+      "tail_upper": [
+        "2795930234788490027336824705/340282366920938463463374607431768211456",
+        "24333944965945560652034274110228522975/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "172854874499/200000000000",
+          "T_lower": "215501966603/250000000000",
+          "n": 8,
+          "beta": "168"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "152932273953/1000000000000",
+            "q_upper": "173321558791/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "58804227573/250000000000",
+            "q_upper": "3336642287/8000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "934139485929/500000000000"
+      }
+    },
+    {
+      "beta": "337/4",
+      "S_lower": "81033194143/100000000000",
+      "T_lower": "872942880033/1000000000000",
+      "J_direct_lower": "328318927651/500000000000",
+      "first_S_lower": "431641424811/500000000000",
+      "first_T_lower": "54046399967/62500000000",
+      "tail_upper": [
+        "643076274201118040410991277/85070591730234615865843651857942052864",
+        "23916363525652961759665938138625282983/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "431641424811/500000000000",
+          "T_lower": "54046399967/62500000000",
+          "n": 8,
+          "beta": "337/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "15218498659/100000000000",
+            "q_upper": "41665222819/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "224088377771/1000000000000",
+            "q_upper": "183122263363/500000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "164211350213/125000000000"
+      }
+    },
+    {
+      "beta": "169/2",
+      "S_lower": "809826396011/1000000000000",
+      "T_lower": "874913515553/1000000000000",
+      "J_direct_lower": "655818791677/1000000000000",
+      "first_S_lower": "431143236557/500000000000",
+      "first_T_lower": "867377541797/1000000000000",
+      "tail_upper": [
+        "147910376766495211508543083/21267647932558653966460912964485513216",
+        "23505947970691363318676525988508229329/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "431143236557/500000000000",
+          "T_lower": "867377541797/1000000000000",
+          "n": 8,
+          "beta": "169"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "151558361321/1000000000000",
+            "q_upper": "4013126271/25000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "107194251473/500000000000",
+            "q_upper": "162507800101/500000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "196122829753/200000000000",
+            "q_upper": "6296795929239177/1000000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "339/4",
+      "S_lower": "809321165989/1000000000000",
+      "T_lower": "438428420879/500000000000",
+      "J_direct_lower": "655000749719/1000000000000",
+      "first_S_lower": "430642613937/500000000000",
+      "first_T_lower": "434958450699/500000000000",
+      "tail_upper": [
+        "136080153679341059086119827/21267647932558653966460912964485513216",
+        "23102575331245485542769791148932185923/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "430642613937/500000000000",
+          "T_lower": "434958450699/500000000000",
+          "n": 8,
+          "beta": "339/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "151046997183/1000000000000",
+            "q_upper": "77434719571/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "102963034999/500000000000",
+            "q_upper": "145602869101/500000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "765670526337/1000000000000",
+            "q_upper": "2808301407231/100000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "85",
+      "S_lower": "808816251167/1000000000000",
+      "T_lower": "219693283437/250000000000",
+      "J_direct_lower": "654183728153/1000000000000",
+      "first_S_lower": "860279098763/1000000000000",
+      "first_T_lower": "218090982979/250000000000",
+      "tail_upper": [
+        "1001569119366211368604422511/170141183460469231731687303715884105728",
+        "11353062373858693486777102430403737279/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "860279098763/1000000000000",
+          "T_lower": "218090982979/250000000000",
+          "n": 8,
+          "beta": "170"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "150645949611/1000000000000",
+            "q_upper": "37413558389/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "7941719279/40000000000",
+            "q_upper": "16450912219/62500000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "61937917443/100000000000",
+            "q_upper": "7371946858539/1000000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "341/4",
+      "S_lower": "808311651349/1000000000000",
+      "T_lower": "44033133361/50000000000",
+      "J_direct_lower": "653367725707/1000000000000",
+      "first_S_lower": "4296340353/5000000000",
+      "first_T_lower": "874721939591/1000000000000",
+      "tail_upper": [
+        "460730621689246507950661473/85070591730234615865843651857942052864",
+        "2789559679314273230281346324524027755/42535295865117307932921825928971026432"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "4296340353/5000000000",
+          "T_lower": "874721939591/1000000000000",
+          "n": 8,
+          "beta": "341/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "3758767281/25000000000",
+            "q_upper": "28968762629/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "96053899621/500000000000",
+            "q_upper": "239851061143/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "51567513883/100000000000",
+            "q_upper": "1655429803271/500000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "171/2",
+      "S_lower": "807807366337/1000000000000",
+      "T_lower": "882525718329/1000000000000",
+      "J_direct_lower": "652552741109/1000000000000",
+      "first_S_lower": "858252128161/1000000000000",
+      "first_T_lower": "876994089893/1000000000000",
+      "tail_upper": [
+        "423880292748009224010023329/85070591730234615865843651857942052864",
+        "10966758322228600210260597819533613093/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "858252128161/1000000000000",
+          "T_lower": "876994089893/1000000000000",
+          "n": 8,
+          "beta": "171"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "150157076701/1000000000000",
+            "q_upper": "5616250539/40000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "7460428401/40000000000",
+            "q_upper": "22021492761/100000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "109946631787/250000000000",
+            "q_upper": "1873270246027/1000000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "343/4",
+      "S_lower": "25228231123/31250000000",
+      "T_lower": "884362563561/1000000000000",
+      "J_direct_lower": "65173877309/100000000000",
+      "first_S_lower": "857231256183/1000000000000",
+      "first_T_lower": "109897926729/125000000000",
+      "tail_upper": [
+        "779954681203428946192509029/170141183460469231731687303715884105728",
+        "21557127633801844530053774888908343509/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "857231256183/1000000000000",
+          "T_lower": "109897926729/125000000000",
+          "n": 8,
+          "beta": "343/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "150061310957/1000000000000",
+            "q_upper": "136312948283/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "90829791651/500000000000",
+            "q_upper": "203616544803/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "382844600319/1000000000000",
+            "q_upper": "120873903291/100000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "86",
+      "S_lower": "806799739949/1000000000000",
+      "T_lower": "2215433699/2500000000",
+      "J_direct_lower": "325462910191/500000000000",
+      "first_S_lower": "856205439361/1000000000000",
+      "first_T_lower": "17625856279/20000000000",
+      "tail_upper": [
+        "717572054113822431374566605/170141183460469231731687303715884105728",
+        "21187197627857797378680760537925860471/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "856205439361/1000000000000",
+          "T_lower": "17625856279/20000000000",
+          "n": 8,
+          "beta": "172"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "75029960407/500000000000",
+            "q_upper": "26507627611/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "44369211909/250000000000",
+            "q_upper": "189521172843/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "339270818737/1000000000000",
+            "q_upper": "850281951911/1000000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "102238671069547/1000000000000"
+      }
+    },
+    {
+      "beta": "345/4",
+      "S_lower": "40314819909/50000000000",
+      "T_lower": "221989685803/250000000000",
+      "J_direct_lower": "650113881719/1000000000000",
+      "first_S_lower": "427587331173/500000000000",
+      "first_T_lower": "883325070029/1000000000000",
+      "tail_upper": [
+        "1320357875282362336744996127/340282366920938463463374607431768211456",
+        "20823615787199146744839764046198606723/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "427587331173/500000000000",
+          "T_lower": "883325070029/1000000000000",
+          "n": 8,
+          "beta": "345/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "30029945847/200000000000",
+            "q_upper": "64529343561/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "173897005699/1000000000000",
+            "q_upper": "177509749113/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "76354820989/250000000000",
+            "q_upper": "318217992363/500000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "11051096744441/1000000000000"
+      }
+    },
+    {
+      "beta": "173/2",
+      "S_lower": "805793370433/1000000000000",
+      "T_lower": "11121482889/12500000000",
+      "J_direct_lower": "129860591167/200000000000",
+      "first_S_lower": "854138909747/1000000000000",
+      "first_T_lower": "27665088891/31250000000",
+      "tail_upper": [
+        "1214752517761506733775370359/340282366920938463463374607431768211456",
+        "2558284146806797662844615332634101093/42535295865117307932921825928971026432"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "854138909747/1000000000000",
+          "T_lower": "27665088891/31250000000",
+          "n": 8,
+          "beta": "173"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "150327832157/1000000000000",
+            "q_upper": "24580811/195312500"
+          },
+          {
+            "round": 2,
+            "p_upper": "170864642329/1000000000000",
+            "q_upper": "167250781433/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "278830224871/1000000000000",
+            "q_upper": "499558141863/1000000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "2019416722957/500000000000"
+      }
+    },
+    {
+      "beta": "347/4",
+      "S_lower": "805290656513/1000000000000",
+      "T_lower": "891453419893/1000000000000",
+      "J_direct_lower": "648493041467/1000000000000",
+      "first_S_lower": "853098166131/1000000000000",
+      "first_T_lower": "35486747507/40000000000",
+      "tail_upper": [
+        "279398431863093057606344201/85070591730234615865843651857942052864",
+        "20115062721666281616114688006917758103/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "853098166131/1000000000000",
+          "T_lower": "35486747507/40000000000",
+          "n": 8,
+          "beta": "347/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "75295788773/500000000000",
+            "q_upper": "15363068411/125000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "16833281873/100000000000",
+            "q_upper": "9904994947/62500000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "6444989387/25000000000",
+            "q_upper": "407352638907/1000000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "1064095933031/500000000000"
+      }
+    },
+    {
+      "beta": "87",
+      "S_lower": "402394128111/500000000000",
+      "T_lower": "893163385833/1000000000000",
+      "J_direct_lower": "323842068677/500000000000",
+      "first_S_lower": "426026208013/500000000000",
+      "first_T_lower": "888985042537/1000000000000",
+      "tail_upper": [
+        "514102963928207268670348337/170141183460469231731687303715884105728",
+        "4942469799552982520709198709534542043/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "426026208013/500000000000",
+          "T_lower": "888985042537/1000000000000",
+          "n": 8,
+          "beta": "174"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "150938546449/1000000000000",
+            "q_upper": "120194127487/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "166261771159/1000000000000",
+            "q_upper": "37746227619/250000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "120560326467/500000000000",
+            "q_upper": "342862603817/1000000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "337184193949/250000000000"
+      }
+    },
+    {
+      "beta": "349/4",
+      "S_lower": "804286169367/1000000000000",
+      "T_lower": "89484880487/100000000000",
+      "J_direct_lower": "129375248447/200000000000",
+      "first_S_lower": "106375205489/125000000000",
+      "first_T_lower": "44536712477/50000000000",
+      "tail_upper": [
+        "472983788343739471401238363/170141183460469231731687303715884105728",
+        "19430619179273227938200823665127902851/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "106375205489/125000000000",
+          "T_lower": "44536712477/50000000000",
+          "n": 8,
+          "beta": "349/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "37841633967/250000000000",
+            "q_upper": "117707201747/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "82308925763/500000000000",
+            "q_upper": "144594395989/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "113961862849/500000000000",
+            "q_upper": "37065015911/125000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "958652628179/1000000000000",
+            "q_upper": "1145802918647349/1000000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "175/2",
+      "S_lower": "3215137583/4000000000",
+      "T_lower": "896509952459/1000000000000",
+      "J_direct_lower": "161517338713/250000000000",
+      "first_S_lower": "849945834231/1000000000000",
+      "first_T_lower": "223104637751/250000000000",
+      "tail_upper": [
+        "435153422043296407401086967/170141183460469231731687303715884105728",
+        "2387147626856059045775911376977622695/42535295865117307932921825928971026432"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "849945834231/1000000000000",
+          "T_lower": "223104637751/250000000000",
+          "n": 8,
+          "beta": "175"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "37968385801/250000000000",
+            "q_upper": "28857491681/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "163372661311/1000000000000",
+            "q_upper": "69584736401/500000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "217573412021/1000000000000",
+            "q_upper": "10504667191/40000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "73839610619/100000000000",
+            "q_upper": "18181802121017/1000000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "351/4",
+      "S_lower": "803282935177/1000000000000",
+      "T_lower": "898147103479/1000000000000",
+      "J_direct_lower": "161315868487/250000000000",
+      "first_S_lower": "848884971381/1000000000000",
+      "first_T_lower": "111755011921/125000000000",
+      "tail_upper": [
+        "800697636505055955527202107/340282366920938463463374607431768211456",
+        "9384732399647854443328309709244840771/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "848884971381/1000000000000",
+          "T_lower": "111755011921/125000000000",
+          "n": 8,
+          "beta": "351/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "7622887609/50000000000",
+            "q_upper": "22669992263/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "81251170699/500000000000",
+            "q_upper": "134597286983/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "209601404783/1000000000000",
+            "q_upper": "23759554233/100000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "120896801841/200000000000",
+            "q_upper": "701304932393/125000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "88",
+      "S_lower": "802781787453/1000000000000",
+      "T_lower": "899760532139/1000000000000",
+      "J_direct_lower": "644458598267/1000000000000",
+      "first_S_lower": "169563807943/200000000000",
+      "first_T_lower": "895600941227/1000000000000",
+      "tail_upper": [
+        "184163984651174165854829697/85070591730234615865843651857942052864",
+        "4611843085349683378205631293606028265/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "169563807943/200000000000",
+          "T_lower": "895600941227/1000000000000",
+          "n": 8,
+          "beta": "176"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "38279380017/250000000000",
+            "q_upper": "111455938411/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "161986988287/1000000000000",
+            "q_upper": "6539306471/50000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "25457679009/125000000000",
+            "q_upper": "219167439253/1000000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "32481441047/62500000000",
+            "q_upper": "2915801820687/1000000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "353/4",
+      "S_lower": "401140476191/500000000000",
+      "T_lower": "901350511887/1000000000000",
+      "J_direct_lower": "128730945311/200000000000",
+      "first_S_lower": "169349604709/200000000000",
+      "first_T_lower": "179420612237/200000000000",
+      "tail_upper": [
+        "677736447743601000851842445/340282366920938463463374607431768211456",
+        "18130807134946775776013663318088504673/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "169349604709/200000000000",
+          "T_lower": "179420612237/200000000000",
+          "n": 8,
+          "beta": "353/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "153851366059/1000000000000",
+            "q_upper": "438951007/4000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "161810173427/1000000000000",
+            "q_upper": "12766165993/100000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "199498606031/1000000000000",
+            "q_upper": "102913419671/500000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "465604005099/1000000000000",
+            "q_upper": "48359865871/25000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "177/2",
+      "S_lower": "801780429769/1000000000000",
+      "T_lower": "902917315321/1000000000000",
+      "J_direct_lower": "642851857561/1000000000000",
+      "first_S_lower": "845671907143/1000000000000",
+      "first_T_lower": "898548345523/1000000000000",
+      "tail_upper": [
+        "311764738821025450755735081/170141183460469231731687303715884105728",
+        "17819674329819047621043227757569189203/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "845671907143/1000000000000",
+          "T_lower": "898548345523/1000000000000",
+          "n": 8,
+          "beta": "177"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "38664490179/250000000000",
+            "q_upper": "108186256039/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "161958547529/1000000000000",
+            "q_upper": "25032797809/200000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "196928333039/1000000000000",
+            "q_upper": "39315173759/200000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "432405413229/1000000000000",
+            "q_upper": "373866153583/250000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "355/4",
+      "S_lower": "801280219419/1000000000000",
+      "T_lower": "113057651763/125000000000",
+      "J_direct_lower": "642049990033/1000000000000",
+      "first_S_lower": "211147668683/250000000000",
+      "first_T_lower": "899938605679/1000000000000",
+      "tail_upper": [
+        "573658109701697600723354939/340282366920938463463374607431768211456",
+        "17513880703565494449419117281419606217/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "211147668683/250000000000",
+          "T_lower": "899938605679/1000000000000",
+          "n": 8,
+          "beta": "355/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "155536116413/1000000000000",
+            "q_upper": "53396609367/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "81210757679/500000000000",
+            "q_upper": "12324542017/100000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "19582175043/100000000000",
+            "q_upper": "190761932627/1000000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "82958723903/200000000000",
+            "q_upper": "647530877469/500000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "89",
+      "S_lower": "400390160569/500000000000",
+      "T_lower": "181196495777/200000000000",
+      "J_direct_lower": "320624561361/500000000000",
+      "first_S_lower": "26359509703/31250000000",
+      "first_T_lower": "901275577593/1000000000000",
+      "tail_upper": [
+        "527775572168756434036875801/340282366920938463463374607431768211456",
+        "17213334633475233255263693395149559151/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "26359509703/31250000000",
+          "T_lower": "901275577593/1000000000000",
+          "n": 8,
+          "beta": "178"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "156484778583/1000000000000",
+            "q_upper": "52775620981/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "32638193823/200000000000",
+            "q_upper": "121868706959/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "196095749627/1000000000000",
+            "q_upper": "11748815627/62500000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "410029620673/1000000000000",
+            "q_upper": "308354925337/250000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "357/4",
+      "S_lower": "800280734731/1000000000000",
+      "T_lower": "453740689609/500000000000",
+      "J_direct_lower": "640449254381/1000000000000",
+      "first_S_lower": "421206399287/500000000000",
+      "first_T_lower": "902560924869/1000000000000",
+      "tail_upper": [
+        "242781414458456554952486705/170141183460469231731687303715884105728",
+        "8458973034562154462857512410090906339/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "421206399287/500000000000",
+          "T_lower": "902560924869/1000000000000",
+          "n": 8,
+          "beta": "357/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "787515089/5000000000",
+            "q_upper": "104453693537/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "164261071541/1000000000000",
+            "q_upper": "121005719987/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "98853169181/500000000000",
+            "q_upper": "188021533107/1000000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "417081355593/1000000000000",
+            "q_upper": "1283161084741/1000000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "179/2",
+      "S_lower": "799781460003/1000000000000",
+      "T_lower": "908958183493/1000000000000",
+      "J_direct_lower": "159912595941/250000000000",
+      "first_S_lower": "841316123063/1000000000000",
+      "first_T_lower": "903796241809/1000000000000",
+      "tail_upper": [
+        "446726361087904083743197765/340282366920938463463374607431768211456",
+        "16627626505394543392408799648174079061/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "841316123063/1000000000000",
+          "T_lower": "903796241809/1000000000000",
+          "n": 8,
+          "beta": "179"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "31718004511/200000000000",
+            "q_upper": "20698929183/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "165628081113/1000000000000",
+            "q_upper": "120636443961/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "200644540507/1000000000000",
+            "q_upper": "4770862551/25000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "17451493099/40000000000",
+            "q_upper": "1460964058547/1000000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "359/4",
+      "S_lower": "799282496759/1000000000000",
+      "T_lower": "455206579429/500000000000",
+      "J_direct_lower": "319426254813/500000000000",
+      "first_S_lower": "168042853603/200000000000",
+      "first_T_lower": "180996611257/200000000000",
+      "tail_upper": [
+        "410996126157021907880261217/340282366920938463463374607431768211456",
+        "8171144477977696731789875615449595441/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "168042853603/200000000000",
+          "T_lower": "180996611257/200000000000",
+          "n": 8,
+          "beta": "359/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "159745092699/1000000000000",
+            "q_upper": "20533764457/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "167290213577/1000000000000",
+            "q_upper": "3018706213/25000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "51233584389/250000000000",
+            "q_upper": "196524489751/1000000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "469373511397/1000000000000",
+            "q_upper": "368337857707/200000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "90",
+      "S_lower": "399391922403/500000000000",
+      "T_lower": "455923285579/500000000000",
+      "J_direct_lower": "638055630723/1000000000000",
+      "first_S_lower": "839107217437/1000000000000",
+      "first_T_lower": "453061416249/500000000000",
+      "tail_upper": [
+        "378123680243181092279416533/340282366920938463463374607431768211456",
+        "8030923963600435952921844513283471327/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "839107217437/1000000000000",
+          "T_lower": "453061416249/500000000000",
+          "n": 8,
+          "beta": "180"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "20120954183/125000000000",
+            "q_upper": "50985774461/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "42311883749/250000000000",
+            "q_upper": "121335391341/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "210632371993/1000000000000",
+            "q_upper": "205357771979/1000000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "519812818679/1000000000000",
+            "q_upper": "165020223663/62500000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "361/4",
+      "S_lower": "798285503949/1000000000000",
+      "T_lower": "14269666951/15625000000",
+      "J_direct_lower": "79657468227/125000000000",
+      "first_S_lower": "837994955297/1000000000000",
+      "first_T_lower": "907216973601/1000000000000",
+      "tail_upper": [
+        "347880450595746606865184755/340282366920938463463374607431768211456",
+        "15786219392633722680493137272889872325/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "837994955297/1000000000000",
+          "T_lower": "907216973601/1000000000000",
+          "n": 8,
+          "beta": "361/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "32451430003/200000000000",
+            "q_upper": "50699356597/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "171501882633/1000000000000",
+            "q_upper": "24479745093/200000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "108914651201/500000000000",
+            "q_upper": "108894802543/500000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "7420842709/12500000000",
+            "q_upper": "4567056992233/1000000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "181/2",
+      "S_lower": "398893736997/500000000000",
+      "T_lower": "182929952603/200000000000",
+      "J_direct_lower": "636464853663/1000000000000",
+      "first_S_lower": "418438732757/500000000000",
+      "first_T_lower": "908266824191/1000000000000",
+      "tail_upper": [
+        "320056146255522942522636191/340282366920938463463374607431768211456",
+        "484853773990286726729990715135855561/10633823966279326983230456482242756608"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "418438732757/500000000000",
+          "T_lower": "908266824191/1000000000000",
+          "n": 8,
+          "beta": "181"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "20451655317/125000000000",
+            "q_upper": "6309170417/62500000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "174056810949/1000000000000",
+            "q_upper": "24789118667/200000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "113326423313/500000000000",
+            "q_upper": "117257682911/500000000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "701296672841/1000000000000",
+            "q_upper": "2776898930373/250000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "363/4",
+      "S_lower": "199322438687/250000000000",
+      "T_lower": "916020067159/1000000000000",
+      "J_direct_lower": "317835476513/500000000000",
+      "first_S_lower": "167150946393/200000000000",
+      "first_T_lower": "454636836353/500000000000",
+      "tail_upper": [
+        "294457295834606185166614969/340282366920938463463374607431768211456",
+        "15249070884990734615249494953633006109/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "167150946393/200000000000",
+          "T_lower": "454636836353/500000000000",
+          "n": 8,
+          "beta": "363/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "165035601723/1000000000000",
+            "q_upper": "100612492729/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "44229390043/250000000000",
+            "q_upper": "157487373/1250000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "59318172667/250000000000",
+            "q_upper": "102622343/400000000"
+          },
+          {
+            "round": 4,
+            "p_upper": "860848256049/1000000000000",
+            "q_upper": "1440512354489/20000000000"
+          }
+        ],
+        "failure_round": 4
+      }
+    },
+    {
+      "beta": "91",
+      "S_lower": "24899760813/31250000000",
+      "T_lower": "57335616081/62500000000",
+      "J_direct_lower": "634878042669/1000000000000",
+      "first_S_lower": "208656684621/250000000000",
+      "first_T_lower": "455119376849/500000000000",
+      "tail_upper": [
+        "270905902243990684967018739/340282366920938463463374607431768211456",
+        "14987389970030593044986805341543213447/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "208656684621/250000000000",
+          "T_lower": "455119376849/500000000000",
+          "n": 8,
+          "beta": "182"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "41631001177/250000000000",
+            "q_upper": "50196689151/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "22511380757/125000000000",
+            "q_upper": "16069044279/125000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "124953801683/500000000000",
+            "q_upper": "28539562507/100000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "552915808421/500000000000"
+      }
+    },
+    {
+      "beta": "365/4",
+      "S_lower": "199073811901/250000000000",
+      "T_lower": "918699391823/1000000000000",
+      "J_direct_lower": "634086121357/1000000000000",
+      "first_S_lower": "833493468861/1000000000000",
+      "first_T_lower": "455581624999/500000000000",
+      "tail_upper": [
+        "249238205026467402273504979/340282366920938463463374607431768211456",
+        "14730199617267376986329175729479497417/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "833493468861/1000000000000",
+          "T_lower": "455581624999/500000000000",
+          "n": 8,
+          "beta": "365/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "168078311379/1000000000000",
+            "q_upper": "25071797353/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "91792934833/500000000000",
+            "q_upper": "16457614839/125000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "33104411609/125000000000",
+            "q_upper": "161604202929/500000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "300625900849/200000000000"
+      }
+    },
+    {
+      "beta": "183/2",
+      "S_lower": "795798459319/1000000000000",
+      "T_lower": "920008927487/1000000000000",
+      "J_direct_lower": "126659037571/200000000000",
+      "first_S_lower": "832354906837/1000000000000",
+      "first_T_lower": "456024147399/500000000000",
+      "tail_upper": [
+        "229303541673329080563187107/340282366920938463463374607431768211456",
+        "14477422766634067306984668744702278315/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "832354906837/1000000000000",
+          "T_lower": "456024147399/500000000000",
+          "n": 8,
+          "beta": "183"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "169698461039/1000000000000",
+            "q_upper": "313412969/3125000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "93706173201/500000000000",
+            "q_upper": "135351429143/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "70601450553/250000000000",
+            "q_upper": "373232861119/1000000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "110080911633/50000000000"
+      }
+    },
+    {
+      "beta": "367/4",
+      "S_lower": "99412747621/125000000000",
+      "T_lower": "921298719337/1000000000000",
+      "J_direct_lower": "158126310233/250000000000",
+      "first_S_lower": "166242207223/200000000000",
+      "first_T_lower": "912894973629/1000000000000",
+      "tail_upper": [
+        "210963300021873662579276195/340282366920938463463374607431768211456",
+        "14228983680449054222928807025817541937/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "166242207223/200000000000",
+          "T_lower": "912894973629/1000000000000",
+          "n": 8,
+          "beta": "367/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "42846117339/250000000000",
+            "q_upper": "100406884373/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "191582553933/1000000000000",
+            "q_upper": "6983423179/50000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "151529802897/500000000000",
+            "q_upper": "22020995747/50000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "89722481519/25000000000"
+      }
+    },
+    {
+      "beta": "92",
+      "S_lower": "794805812357/1000000000000",
+      "T_lower": "36902760827/40000000000",
+      "J_direct_lower": "631716279357/1000000000000",
+      "first_S_lower": "830061840349/1000000000000",
+      "first_T_lower": "5710652039/6250000000",
+      "tail_upper": [
+        "194089954439833670449730285/340282366920938463463374607431768211456",
+        "13984807920723408909200632487070976187/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "830061840349/1000000000000",
+          "T_lower": "5710652039/6250000000",
+          "n": 8,
+          "beta": "184"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "86568212837/500000000000",
+            "q_upper": "10063040143/100000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "19611039947/100000000000",
+            "q_upper": "28933293029/200000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "163676048047/500000000000",
+            "q_upper": "532596524037/1000000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "1390244967169/200000000000"
+      }
+    },
+    {
+      "beta": "369/4",
+      "S_lower": "794309953293/1000000000000",
+      "T_lower": "923820083017/1000000000000",
+      "J_direct_lower": "630928301901/1000000000000",
+      "first_S_lower": "828907303151/1000000000000",
+      "first_T_lower": "914477348411/1000000000000",
+      "tail_upper": [
+        "178566179095879403747851563/340282366920938463463374607431768211456",
+        "13744822326857572528153370030610021047/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "828907303151/1000000000000",
+          "T_lower": "914477348411/1000000000000",
+          "n": 8,
+          "beta": "369/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "87477245271/500000000000",
+            "q_upper": "20192416623/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "100505853191/500000000000",
+            "q_upper": "150411178189/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "177993461119/500000000000",
+            "q_upper": "165667580621/250000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "1181004471797/62500000000"
+      }
+    },
+    {
+      "beta": "185/2",
+      "S_lower": "793814403583/1000000000000",
+      "T_lower": "925052156051/1000000000000",
+      "J_direct_lower": "78767663417/125000000000",
+      "first_S_lower": "165549481617/200000000000",
+      "first_T_lower": "183042998733/200000000000",
+      "tail_upper": [
+        "164284032158903475751648617/340282366920938463463374607431768211456",
+        "13508954993720780108823303189429768513/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "165549481617/200000000000",
+          "T_lower": "183042998733/200000000000",
+          "n": 8,
+          "beta": "185"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "5526215423/31250000000",
+            "q_upper": "25350418569/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "1650434571/8000000000",
+            "q_upper": "39245365821/250000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "389861821429/1000000000000",
+            "q_upper": "853083260589/1000000000000"
+          }
+        ],
+        "failure_round": 4,
+        "attempted_p_upper": "18671141384297/125000000000"
+      }
+    },
+    {
+      "beta": "371/4",
+      "S_lower": "396659581517/500000000000",
+      "T_lower": "926265487601/1000000000000",
+      "J_direct_lower": "629355294437/1000000000000",
+      "first_S_lower": "413291069337/500000000000",
+      "first_T_lower": "915918174919/1000000000000",
+      "tail_upper": [
+        "75572102620775422620682675/170141183460469231731687303715884105728",
+        "13277135250106651375876042412374209657/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "413291069337/500000000000",
+          "T_lower": "915918174919/1000000000000",
+          "n": 8,
+          "beta": "371/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "178789931281/1000000000000",
+            "q_upper": "20389855071/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "212008243123/1000000000000",
+            "q_upper": "205589473/1250000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "430132393437/1000000000000",
+            "q_upper": "286389341123/250000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "93",
+      "S_lower": "198206057863/250000000000",
+      "T_lower": "231865080897/250000000000",
+      "J_direct_lower": "314285130989/500000000000",
+      "first_S_lower": "103176434799/125000000000",
+      "first_T_lower": "183317553209/200000000000",
+      "tail_upper": [
+        "17381916609397496392942941/42535295865117307932921825928971026432",
+        "13049293637558493321541551385526127959/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "103176434799/125000000000",
+          "T_lower": "183317553209/200000000000",
+          "n": 8,
+          "beta": "186"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "9040398287/50000000000",
+            "q_upper": "102605337349/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "43629154857/200000000000",
+            "q_upper": "172994042929/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "239151066621/500000000000",
+            "q_upper": "203089124191/125000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "373/4",
+      "S_lower": "396164804323/500000000000",
+      "T_lower": "232159227/250000000",
+      "J_direct_lower": "313893104369/500000000000",
+      "first_S_lower": "51514713167/62500000000",
+      "first_T_lower": "229306150843/250000000000",
+      "tail_upper": [
+        "7995834826351720528854617/21267647932558653966460912964485513216",
+        "3206340472389492529866610205937701549/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "51514713167/62500000000",
+          "T_lower": "229306150843/250000000000",
+          "n": 8,
+          "beta": "373/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "91446711331/500000000000",
+            "q_upper": "6460666183/62500000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "112370849273/500000000000",
+            "q_upper": "182683237601/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "536351647489/1000000000000",
+            "q_upper": "2483597797653/1000000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "187/2",
+      "S_lower": "395917647211/500000000000",
+      "T_lower": "929795482859/1000000000000",
+      "J_direct_lower": "627003133493/1000000000000",
+      "first_S_lower": "51440869931/62500000000",
+      "first_T_lower": "114728685889/125000000000",
+      "tail_upper": [
+        "117700943585195860968067627/340282366920938463463374607431768211456",
+        "12605272911070904809192185965367478137/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "51440869931/62500000000",
+          "T_lower": "114728685889/125000000000",
+          "n": 8,
+          "beta": "187"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "185046790267/1000000000000",
+            "q_upper": "6515399109/62500000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "231823485531/1000000000000",
+            "q_upper": "96849972531/500000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "606927618453/1000000000000",
+            "q_upper": "4243420834693/1000000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "375/4",
+      "S_lower": "791341288589/1000000000000",
+      "T_lower": "186187257639/200000000000",
+      "J_direct_lower": "313110517513/500000000000",
+      "first_S_lower": "102733373301/125000000000",
+      "first_T_lower": "918403182739/1000000000000",
+      "tail_upper": [
+        "108286942685065982068779225/340282366920938463463374607431768211456",
+        "12388960758444084241145311061221201369/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "102733373301/125000000000",
+          "T_lower": "918403182739/1000000000000",
+          "n": 8,
+          "beta": "375/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "93634309023/500000000000",
+            "q_upper": "4209360471/40000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "23942152613/100000000000",
+            "q_upper": "206237103361/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "346812519867/500000000000",
+            "q_upper": "2184491061183/250000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "94",
+      "S_lower": "790847590953/1000000000000",
+      "T_lower": "932059562013/1000000000000",
+      "J_direct_lower": "156359978029/250000000000",
+      "first_S_lower": "1641349193/2000000000",
+      "first_T_lower": "918946422271/1000000000000",
+      "tail_upper": [
+        "12453236990785193044667431/42535295865117307932921825928971026432",
+        "6088180309823521936036252695534769717/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "1641349193/2000000000",
+          "T_lower": "918946422271/1000000000000",
+          "n": 8,
+          "beta": "188"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "189559515829/1000000000000",
+            "q_upper": "53167691441/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "247569402531/1000000000000",
+            "q_upper": "110263570827/500000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "200354741359/250000000000",
+            "q_upper": "13279465773063/500000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "377/4",
+      "S_lower": "395177100661/500000000000",
+      "T_lower": "37326621611/40000000000",
+      "J_direct_lower": "156164940887/250000000000",
+      "first_S_lower": "409738366211/500000000000",
+      "first_T_lower": "919459905539/1000000000000",
+      "tail_upper": [
+        "11457197531022268120167277/42535295865117307932921825928971026432",
+        "11967408794852912436113331769328787491/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "409738366211/500000000000",
+          "T_lower": "919459905539/1000000000000",
+          "n": 8,
+          "beta": "377/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "191920152907/1000000000000",
+            "q_upper": "10755270231/100000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "4004753067/15625000000",
+            "q_upper": "236851396649/1000000000000"
+          },
+          {
+            "round": 3,
+            "p_upper": "937343118139/1000000000000",
+            "q_upper": "174292000418581/500000000000"
+          }
+        ],
+        "failure_round": 3
+      }
+    },
+    {
+      "beta": "189/2",
+      "S_lower": "157972223901/200000000000",
+      "T_lower": "934254456871/1000000000000",
+      "J_direct_lower": "124776117621/200000000000",
+      "first_S_lower": "25571043043/31250000000",
+      "first_T_lower": "459972150679/500000000000",
+      "tail_upper": [
+        "84326589376605660559424863/340282366920938463463374607431768211456",
+        "5881021338676249022728682381190026569/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "25571043043/31250000000",
+          "T_lower": "459972150679/500000000000",
+          "n": 8,
+          "beta": "189"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "48587814347/250000000000",
+            "q_upper": "1701383413/15625000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "6641671009/25000000000",
+            "q_upper": "51110459749/200000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "1111590100983/1000000000000"
+      }
+    },
+    {
+      "beta": "379/4",
+      "S_lower": "197342086327/250000000000",
+      "T_lower": "467663271801/500000000000",
+      "J_direct_lower": "24924095383/40000000000",
+      "first_S_lower": "408532257261/500000000000",
+      "first_T_lower": "920400248681/1000000000000",
+      "tail_upper": [
+        "4848871784974171380910127/21267647932558653966460912964485513216",
+        "5780100367397948579622009792533625363/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "408532257261/500000000000",
+          "T_lower": "920400248681/1000000000000",
+          "n": 8,
+          "beta": "379/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "196853615627/1000000000000",
+            "q_upper": "110345834533/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "55140504059/200000000000",
+            "q_upper": "27704928019/100000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "669680020497/500000000000"
+      }
+    },
+    {
+      "beta": "95",
+      "S_lower": "788875878541/1000000000000",
+      "T_lower": "936382030159/1000000000000",
+      "J_direct_lower": "303869703/488281250",
+      "first_S_lower": "101981265871/125000000000",
+      "first_T_lower": "92082835767/100000000000",
+      "tail_upper": [
+        "71376760128811819549041297/340282366920938463463374607431768211456",
+        "1420227811344500748309133849519622157/42535295865117307932921825928971026432"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "101981265871/125000000000",
+          "T_lower": "92082835767/100000000000",
+          "n": 8,
+          "beta": "190"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "3116063623/15625000000",
+            "q_upper": "55963960467/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "286461132331/1000000000000",
+            "q_upper": "301859747623/1000000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "328819797581/200000000000"
+      }
+    },
+    {
+      "beta": "381/4",
+      "S_lower": "788383719011/1000000000000",
+      "T_lower": "187484228821/200000000000",
+      "J_direct_lower": "621548888403/1000000000000",
+      "first_S_lower": "407315098891/500000000000",
+      "first_T_lower": "460614605371/500000000000",
+      "tail_upper": [
+        "65667877398420101537624379/340282366920938463463374607431768211456",
+        "11166848506608410308929800655156626031/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "407315098891/500000000000",
+          "T_lower": "460614605371/500000000000",
+          "n": 8,
+          "beta": "381/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "202075527951/1000000000000",
+            "q_upper": "56819264657/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "148998902931/500000000000",
+            "q_upper": "330627025393/1000000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "2063458040373/1000000000000"
+      }
+    },
+    {
+      "beta": "191/2",
+      "S_lower": "24621620829/31250000000",
+      "T_lower": "938444110861/1000000000000",
+      "J_direct_lower": "620773593341/1000000000000",
+      "first_S_lower": "406702354991/500000000000",
+      "first_T_lower": "921603363557/1000000000000",
+      "tail_upper": [
+        "60415604662677513966653559/340282366920938463463374607431768211456",
+        "10975220363722224572383769109163550709/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "406702354991/500000000000",
+          "T_lower": "921603363557/1000000000000",
+          "n": 8,
+          "beta": "191"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "204796943157/1000000000000",
+            "q_upper": "115481809523/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "310373500809/1000000000000",
+            "q_upper": "182079013457/500000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "2660926523017/1000000000000"
+      }
+    },
+    {
+      "beta": "383/4",
+      "S_lower": "393700160449/500000000000",
+      "T_lower": "117431394211/125000000000",
+      "J_direct_lower": "12399985307/20000000000",
+      "first_S_lower": "406086823269/500000000000",
+      "first_T_lower": "23048783649/25000000000",
+      "tail_upper": [
+        "55583421171132111333742113/340282366920938463463374607431768211456",
+        "1348360080744568019429282397812409593/42535295865117307932921825928971026432"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "406086823269/500000000000",
+          "T_lower": "23048783649/25000000000",
+          "n": 8,
+          "beta": "383/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "207593334221/1000000000000",
+            "q_upper": "2936558723/25000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "16182784549/50000000000",
+            "q_upper": "201737346633/500000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "443780751853/125000000000"
+      }
+    },
+    {
+      "beta": "96",
+      "S_lower": "786909081931/1000000000000",
+      "T_lower": "470221246839/500000000000",
+      "J_direct_lower": "309612951613/500000000000",
+      "first_S_lower": "810936990381/1000000000000",
+      "first_T_lower": "57642103931/62500000000",
+      "tail_upper": [
+        "25568863593090674656045241/170141183460469231731687303715884105728",
+        "5300886461228633209512764751237024995/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "810936990381/1000000000000",
+          "T_lower": "57642103931/62500000000",
+          "n": 8,
+          "beta": "192"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "105232887683/500000000000",
+            "q_upper": "119585194357/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "33791914703/100000000000",
+            "q_upper": "224942611603/500000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "4951521940491/1000000000000"
+      }
+    },
+    {
+      "beta": "385/4",
+      "S_lower": "196604537359/250000000000",
+      "T_lower": "941418349741/1000000000000",
+      "J_direct_lower": "309226752881/500000000000",
+      "first_S_lower": "202423681097/250000000000",
+      "first_T_lower": "46128539763/50000000000",
+      "tail_upper": [
+        "23523805180617192248240765/170141183460469231731687303715884105728",
+        "5209920865374563012516271355536900259/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "202423681097/250000000000",
+          "T_lower": "46128539763/50000000000",
+          "n": 8,
+          "beta": "385/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "106707699281/500000000000",
+            "q_upper": "121855877179/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "8831170901/25000000000",
+            "q_upper": "25254212411/50000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "7336344383297/1000000000000"
+      }
+    },
+    {
+      "beta": "193/2",
+      "S_lower": "39296376161/50000000000",
+      "T_lower": "235594734649/250000000000",
+      "J_direct_lower": "154420517939/250000000000",
+      "first_S_lower": "25263963481/31250000000",
+      "first_T_lower": "922843200729/1000000000000",
+      "tail_upper": [
+        "43284630791327386547967695/340282366920938463463374607431768211456",
+        "5120516280058939269163759373718418259/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "25263963481/31250000000",
+          "T_lower": "922843200729/1000000000000",
+          "n": 8,
+          "beta": "193"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "216443393803/1000000000000",
+            "q_upper": "24856088241/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "369730956081/1000000000000",
+            "q_upper": "28564806687/50000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "2373698989693/200000000000"
+      }
+    },
+    {
+      "beta": "387/4",
+      "S_lower": "392718601547/500000000000",
+      "T_lower": "943324474761/1000000000000",
+      "J_direct_lower": "123382320001/200000000000",
+      "first_S_lower": "403596647089/500000000000",
+      "first_T_lower": "184618262909/200000000000",
+      "tail_upper": [
+        "39822623260786134609830913/340282366920938463463374607431768211456",
+        "10065291835277653246702890263286337501/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "403596647089/500000000000",
+          "T_lower": "184618262909/200000000000",
+          "n": 8,
+          "beta": "387/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "21955100953/100000000000",
+            "q_upper": "126865474131/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "387474129687/1000000000000",
+            "q_upper": "651483893519/1000000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "22095656912387/1000000000000"
+      }
+    },
+    {
+      "beta": "97",
+      "S_lower": "784947188867/1000000000000",
+      "T_lower": "18885103411/20000000000",
+      "J_direct_lower": "61614208931/100000000000",
+      "first_S_lower": "402967047743/500000000000",
+      "first_T_lower": "36932622011/40000000000",
+      "tail_upper": [
+        "36637515309702341011450105/340282366920938463463374607431768211456",
+        "9892566900318581529254314611876092417/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "402967047743/500000000000",
+          "T_lower": "36932622011/40000000000",
+          "n": 8,
+          "beta": "194"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "222739553137/1000000000000",
+            "q_upper": "129618142517/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "406590783567/1000000000000",
+            "q_upper": "749660254399/1000000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "53497925459507/1000000000000"
+      }
+    },
+    {
+      "beta": "389/4",
+      "S_lower": "392228740173/500000000000",
+      "T_lower": "945171236061/1000000000000",
+      "J_direct_lower": "615373538471/1000000000000",
+      "first_S_lower": "100583652251/125000000000",
+      "first_T_lower": "184703260103/200000000000",
+      "tail_upper": [
+        "33707159854774341651616183/340282366920938463463374607431768211456",
+        "9722806002929891157200183754544118897/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "100583652251/125000000000",
+          "T_lower": "184703260103/200000000000",
+          "n": 8,
+          "beta": "389/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "226010391611/1000000000000",
+            "q_upper": "132546230803/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "106802187097/250000000000",
+            "q_upper": "435680963423/500000000000"
+          }
+        ],
+        "failure_round": 3,
+        "attempted_p_upper": "257507997278389/1000000000000"
+      }
+    },
+    {
+      "beta": "195/2",
+      "S_lower": "391984038671/500000000000",
+      "T_lower": "473036439589/500000000000",
+      "J_direct_lower": "153651486573/250000000000",
+      "first_S_lower": "80339864439/100000000000",
+      "first_T_lower": "923693937587/1000000000000",
+      "tail_upper": [
+        "31011181190219653738760911/340282366920938463463374607431768211456",
+        "9555958278893739383145778479916205805/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "80339864439/100000000000",
+          "T_lower": "923693937587/1000000000000",
+          "n": 8,
+          "beta": "195"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "229364952233/1000000000000",
+            "q_upper": "27131636917/200000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "11236777959/25000000000",
+            "q_upper": "512196167019/500000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "391/4",
+      "S_lower": "156695795933/200000000000",
+      "T_lower": "473480152783/500000000000",
+      "J_direct_lower": "613839311577/1000000000000",
+      "first_S_lower": "802122357229/1000000000000",
+      "first_T_lower": "923848814189/1000000000000",
+      "tail_upper": [
+        "14265416646830611178760801/170141183460469231731687303715884105728",
+        "586998358552821177755186514578780853/21267647932558653966460912964485513216"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "802122357229/1000000000000",
+          "T_lower": "923848814189/1000000000000",
+          "n": 8,
+          "beta": "391/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "232804723403/1000000000000",
+            "q_upper": "34740789667/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "236769209949/500000000000",
+            "q_upper": "305005203983/250000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "98",
+      "S_lower": "391495093561/500000000000",
+      "T_lower": "118479214833/125000000000",
+      "J_direct_lower": "61307363313/100000000000",
+      "first_S_lower": "800840339071/1000000000000",
+      "first_T_lower": "92398126401/100000000000",
+      "tail_upper": [
+        "13124434758932789445863139/170141183460469231731687303715884105728",
+        "2307700810823352492171956965741986061/85070591730234615865843651857942052864"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "800840339071/1000000000000",
+          "T_lower": "92398126401/100000000000",
+          "n": 8,
+          "beta": "196"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "29541406947/125000000000",
+            "q_upper": "17808883799/125000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "15612223399/31250000000",
+            "q_upper": "1474988067009/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "393/4",
+      "S_lower": "31300067981/40000000000",
+      "T_lower": "474346659847/500000000000",
+      "J_direct_lower": "612308909761/1000000000000",
+      "first_S_lower": "399776286213/500000000000",
+      "first_T_lower": "18481832047/20000000000",
+      "tail_upper": [
+        "24149422614314162609454167/340282366920938463463374607431768211456",
+        "9072398507900672006701737228905897207/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "399776286213/500000000000",
+          "T_lower": "18481832047/20000000000",
+          "n": 8,
+          "beta": "393/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "1199730811/5000000000",
+            "q_upper": "146192658539/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "527832747141/1000000000000",
+            "q_upper": "907499853939/500000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "197/2",
+      "S_lower": "782013516683/1000000000000",
+      "T_lower": "18990786153/20000000000",
+      "J_direct_lower": "152886285069/250000000000",
+      "first_S_lower": "798259039741/1000000000000",
+      "first_T_lower": "231045031663/250000000000",
+      "tail_upper": [
+        "11108947234814995178427923/170141183460469231731687303715884105728",
+        "8916712069012961807107796210191885137/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "798259039741/1000000000000",
+          "T_lower": "231045031663/250000000000",
+          "n": 8,
+          "beta": "197"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "121825560473/500000000000",
+            "q_upper": "37534887237/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "558493112223/1000000000000",
+            "q_upper": "1140556320539/500000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "395/4",
+      "S_lower": "390762819203/500000000000",
+      "T_lower": "950371879309/1000000000000",
+      "J_direct_lower": "610782323487/1000000000000",
+      "first_S_lower": "199239930857/250000000000",
+      "first_T_lower": "924247117079/1000000000000",
+      "tail_upper": [
+        "5110213630749359146972441/85070591730234615865843651857942052864",
+        "4381848639719822508447780767260653769/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "199239930857/250000000000",
+          "T_lower": "924247117079/1000000000000",
+          "n": 8,
+          "beta": "395/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "247447874789/1000000000000",
+            "q_upper": "77162163399/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "295916371057/500000000000",
+            "q_upper": "2942102718201/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "99",
+      "S_lower": "97629758063/125000000000",
+      "T_lower": "237797807307/250000000000",
+      "J_direct_lower": "152505114551/250000000000",
+      "first_S_lower": "795654605843/1000000000000",
+      "first_T_lower": "462146418503/500000000000",
+      "tail_upper": [
+        "18805946453600722421905173/340282366920938463463374607431768211456",
+        "8613308292476859114826162537042662319/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "795654605843/1000000000000",
+          "T_lower": "462146418503/500000000000",
+          "n": 8,
+          "beta": "198"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "251338233407/1000000000000",
+            "q_upper": "158760617109/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "314073829501/500000000000",
+            "q_upper": "3920163934007/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "397/4",
+      "S_lower": "390275397393/500000000000",
+      "T_lower": "237999387437/250000000000",
+      "J_direct_lower": "304629771621/500000000000",
+      "first_S_lower": "794343669299/1000000000000",
+      "first_T_lower": "231079383381/250000000000",
+      "tail_upper": [
+        "8650901104851798949295665/170141183460469231731687303715884105728",
+        "8465500048170800298562733843478461475/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "794343669299/1000000000000",
+          "T_lower": "231079383381/250000000000",
+          "n": 8,
+          "beta": "397/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "7978877329/31250000000",
+            "q_upper": "81731586881/500000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "667775275343/1000000000000",
+            "q_upper": "5449231569599/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "199/2",
+      "S_lower": "97507978633/125000000000",
+      "T_lower": "952791030999/1000000000000",
+      "J_direct_lower": "304249788707/500000000000",
+      "first_S_lower": "396513448029/500000000000",
+      "first_T_lower": "924321437907/1000000000000",
+      "tail_upper": [
+        "15917962995033264306975269/340282366920938463463374607431768211456",
+        "4160114129908369326581891884521073701/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "396513448029/500000000000",
+          "T_lower": "924321437907/1000000000000",
+          "n": 8,
+          "beta": "199"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "32425918183/125000000000",
+            "q_upper": "168447978429/1000000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "142220283383/200000000000",
+            "q_upper": "1002915069973/125000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "399/4",
+      "S_lower": "779577167147/1000000000000",
+      "T_lower": "953571860903/1000000000000",
+      "J_direct_lower": "607740559537/1000000000000",
+      "first_S_lower": "791704268333/1000000000000",
+      "first_T_lower": "231076191513/250000000000",
+      "tail_upper": [
+        "3661201632277277944634573/85070591730234615865843651857942052864",
+        "4088724700344858134377522285772825493/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "791704268333/1000000000000",
+          "T_lower": "231076191513/250000000000",
+          "n": 8,
+          "beta": "399/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "263590064711/1000000000000",
+            "q_upper": "21716543801/125000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "758568768013/1000000000000",
+            "q_upper": "3209152849001/250000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "100",
+      "S_lower": "389545404423/500000000000",
+      "T_lower": "190868045037/200000000000",
+      "J_direct_lower": "606982488429/1000000000000",
+      "first_S_lower": "790375768293/1000000000000",
+      "first_T_lower": "231066929729/250000000000",
+      "tail_upper": [
+        "6736740068958161516704799/170141183460469231731687303715884105728",
+        "1004640086375369066108103180985678093/42535295865117307932921825928971026432"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "790375768293/1000000000000",
+          "T_lower": "231066929729/250000000000",
+          "n": 8,
+          "beta": "200"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "267874323633/1000000000000",
+            "q_upper": "175131903/976562500"
+          },
+          {
+            "round": 2,
+            "p_upper": "405343538013/500000000000",
+            "q_upper": "23414037636621/1000000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "401/4",
+      "S_lower": "194651188493/250000000000",
+      "T_lower": "238774076843/250000000000",
+      "J_direct_lower": "151556340727/250000000000",
+      "first_S_lower": "789041378053/1000000000000",
+      "first_T_lower": "924210482909/1000000000000",
+      "tail_upper": [
+        "6197919610160331658419545/170141183460469231731687303715884105728",
+        "7899200085090049029425469278463569477/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "789041378053/1000000000000",
+          "T_lower": "924210482909/1000000000000",
+          "n": 8,
+          "beta": "401/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "54452457663/200000000000",
+            "q_upper": "11579781739/62500000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "434022773169/500000000000",
+            "q_upper": "27128947066631/500000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "201/2",
+      "S_lower": "155623800467/200000000000",
+      "T_lower": "955840288807/1000000000000",
+      "J_direct_lower": "302734590897/500000000000",
+      "first_S_lower": "787701079681/1000000000000",
+      "first_T_lower": "184826646057/200000000000",
+      "tail_upper": [
+        "5702195289268321370413189/170141183460469231731687303715884105728",
+        "3881823129403576808997999745796989181/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "787701079681/1000000000000",
+          "T_lower": "184826646057/200000000000",
+          "n": 8,
+          "beta": "201"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "276756201457/1000000000000",
+            "q_upper": "47894697361/250000000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "931327977019/1000000000000",
+            "q_upper": "56612871771833/250000000000"
+          }
+        ],
+        "failure_round": 2
+      }
+    },
+    {
+      "beta": "403/4",
+      "S_lower": "155526710749/200000000000",
+      "T_lower": "191314469731/200000000000",
+      "J_direct_lower": "604713943911/1000000000000",
+      "first_S_lower": "786354855199/1000000000000",
+      "first_T_lower": "924036119509/1000000000000",
+      "tail_upper": [
+        "5246120170068524448700347/170141183460469231731687303715884105728",
+        "7630418597151309051951901084596425503/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "786354855199/1000000000000",
+          "T_lower": "924036119509/1000000000000",
+          "n": 8,
+          "beta": "403/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "56271676879/200000000000",
+            "q_upper": "99132975487/500000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1001331346237/1000000000000"
+      }
+    },
+    {
+      "beta": "101",
+      "S_lower": "155429681603/200000000000",
+      "T_lower": "957292663909/1000000000000",
+      "J_direct_lower": "603959648081/1000000000000",
+      "first_S_lower": "785002686577/1000000000000",
+      "first_T_lower": "923919295597/1000000000000",
+      "tail_upper": [
+        "9653046065560418416899857/340282366920938463463374607431768211456",
+        "58589665485088095339095829669694455/2658455991569831745807614120560689152"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "785002686577/1000000000000",
+          "T_lower": "923919295597/1000000000000",
+          "n": 8,
+          "beta": "202"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "28607123927/100000000000",
+            "q_upper": "102682067219/500000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "215797755821/200000000000"
+      }
+    },
+    {
+      "beta": "405/4",
+      "S_lower": "155332712991/200000000000",
+      "T_lower": "479000704703/500000000000",
+      "J_direct_lower": "603206293129/1000000000000",
+      "first_S_lower": "97955569467/125000000000",
+      "first_T_lower": "461891445227/500000000000",
+      "tail_upper": [
+        "8880972534169891765075029/340282366920938463463374607431768211456",
+        "3685391390303592961541458880931520867/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "97955569467/125000000000",
+          "T_lower": "461891445227/500000000000",
+          "n": 8,
+          "beta": "405/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "290897251271/1000000000000",
+            "q_upper": "53225449369/250000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1165398107503/1000000000000"
+      }
+    },
+    {
+      "beta": "203/2",
+      "S_lower": "97022378047/125000000000",
+      "T_lower": "958698757831/1000000000000",
+      "J_direct_lower": "301226938941/500000000000",
+      "first_S_lower": "15645608891/20000000000",
+      "first_T_lower": "923627023183/1000000000000",
+      "tail_upper": [
+        "1021331409685890761750147/42535295865117307932921825928971026432",
+        "3622148416467717952439417135101671279/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "15645608891/20000000000",
+          "T_lower": "923627023183/1000000000000",
+          "n": 8,
+          "beta": "203"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "295838991003/1000000000000",
+            "q_upper": "110454974911/500000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1261857630133/1000000000000"
+      }
+    },
+    {
+      "beta": "407/4",
+      "S_lower": "77569478609/100000000000",
+      "T_lower": "59961554983/62500000000",
+      "J_direct_lower": "37606400073/62500000000",
+      "first_S_lower": "780910334843/1000000000000",
+      "first_T_lower": "115431475047/125000000000",
+      "tail_upper": [
+        "3758571589998812471739183/170141183460469231731687303715884105728",
+        "7119981441015310277307272455388647857/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "780910334843/1000000000000",
+          "T_lower": "115431475047/125000000000",
+          "n": 8,
+          "beta": "407/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "75224779251/250000000000",
+            "q_upper": "28677802343/125000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "17123890209/12500000000"
+      }
+    },
+    {
+      "beta": "102",
+      "S_lower": "193802712477/250000000000",
+      "T_lower": "480029971759/500000000000",
+      "J_direct_lower": "120190372363/200000000000",
+      "first_S_lower": "155906841677/200000000000",
+      "first_T_lower": "230814329101/250000000000",
+      "tail_upper": [
+        "3457952117269692263371241/170141183460469231731687303715884105728",
+        "3498899678566930175783847911609641101/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "155906841677/200000000000",
+          "T_lower": "230814329101/250000000000",
+          "n": 8,
+          "beta": "204"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "306080378377/1000000000000",
+            "q_upper": "238476147357/1000000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1491405642407/1000000000000"
+      }
+    },
+    {
+      "beta": "409/4",
+      "S_lower": "774727215641/1000000000000",
+      "T_lower": "960724115503/1000000000000",
+      "J_direct_lower": "300101129327/500000000000",
+      "first_S_lower": "389076023451/500000000000",
+      "first_T_lower": "36921746147/40000000000",
+      "tail_upper": [
+        "6362753800804500218957169/340282366920938463463374607431768211456",
+        "6877713972765644690883812898606690343/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "389076023451/500000000000",
+          "T_lower": "36921746147/40000000000",
+          "n": 8,
+          "beta": "409/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "155692808757/500000000000",
+            "q_upper": "124055765277/500000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "1628564080291/1000000000000"
+      }
+    },
+    {
+      "beta": "205/2",
+      "S_lower": "774243883101/1000000000000",
+      "T_lower": "961377559881/1000000000000",
+      "J_direct_lower": "599453590519/1000000000000",
+      "first_S_lower": "776763832071/1000000000000",
+      "first_T_lower": "922810882887/1000000000000",
+      "tail_upper": [
+        "5853845680455224868787575/340282366920938463463374607431768211456",
+        "6759689307603983753868437179181748421/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "776763832071/1000000000000",
+          "T_lower": "922810882887/1000000000000",
+          "n": 8,
+          "beta": "205"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "158408886503/500000000000",
+            "q_upper": "258372794053/1000000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "89204057831/50000000000"
+      }
+    },
+    {
+      "beta": "411/4",
+      "S_lower": "7737608521/10000000000",
+      "T_lower": "240505109691/250000000000",
+      "J_direct_lower": "299352928121/500000000000",
+      "first_S_lower": "775369545513/1000000000000",
+      "first_T_lower": "461279531633/500000000000",
+      "tail_upper": [
+        "5385641206685431331987081/340282366920938463463374607431768211456",
+        "6643689998780443517277001529813178719/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "775369545513/1000000000000",
+          "T_lower": "461279531633/500000000000",
+          "n": 8,
+          "beta": "411/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "3223798827/10000000000",
+            "q_upper": "134654211439/500000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "392249417437/200000000000"
+      }
+    },
+    {
+      "beta": "103",
+      "S_lower": "773278122449/1000000000000",
+      "T_lower": "962652912181/1000000000000",
+      "J_direct_lower": "597959054659/1000000000000",
+      "first_S_lower": "386984584403/500000000000",
+      "first_T_lower": "922288242783/1000000000000",
+      "tail_upper": [
+        "1238721214598042878873945/85070591730234615865843651857942052864",
+        "6529681290269317453709286496081541043/340282366920938463463374607431768211456"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "386984584403/500000000000",
+          "T_lower": "922288242783/1000000000000",
+          "n": 8,
+          "beta": "206"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "82018771709/250000000000",
+            "q_upper": "280971646581/1000000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "2164111488289/1000000000000"
+      }
+    },
+    {
+      "beta": "413/4",
+      "S_lower": "772795693961/1000000000000",
+      "T_lower": "963275138101/1000000000000",
+      "J_direct_lower": "298606592303/500000000000",
+      "first_S_lower": "48285167717/62500000000",
+      "first_T_lower": "460999229183/500000000000",
+      "tail_upper": [
+        "2279290704196338475378853/170141183460469231731687303715884105728",
+        "3208814511236966163464675291902448133/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "48285167717/62500000000",
+          "T_lower": "460999229183/500000000000",
+          "n": 8,
+          "beta": "413/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "333906631419/1000000000000",
+            "q_upper": "293420990117/1000000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "2397702001083/1000000000000"
+      }
+    },
+    {
+      "beta": "207/2",
+      "S_lower": "772313566449/1000000000000",
+      "T_lower": "192777454489/200000000000",
+      "J_direct_lower": "596468244921/1000000000000",
+      "first_S_lower": "154230014197/200000000000",
+      "first_T_lower": "921689736097/1000000000000",
+      "tail_upper": [
+        "4193975269422711698178539/340282366920938463463374607431768211456",
+        "788437452748957224584983567519960129/42535295865117307932921825928971026432"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "154230014197/200000000000",
+          "T_lower": "921689736097/1000000000000",
+          "n": 8,
+          "beta": "207"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "339877871683/1000000000000",
+            "q_upper": "76680225083/250000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "667079915897/250000000000"
+      }
+    },
+    {
+      "beta": "415/4",
+      "S_lower": "771831739723/1000000000000",
+      "T_lower": "192897893819/200000000000",
+      "J_direct_lower": "148931058611/250000000000",
+      "first_S_lower": "769731312771/1000000000000",
+      "first_T_lower": "921362091393/1000000000000",
+      "tail_upper": [
+        "1929265584041242244582219/170141183460469231731687303715884105728",
+        "3099630045777276472632656884327554419/170141183460469231731687303715884105728"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "769731312771/1000000000000",
+          "T_lower": "921362091393/1000000000000",
+          "n": 8,
+          "beta": "415/2"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "345992275741/1000000000000",
+            "q_upper": "80235615071/250000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "2983943346667/1000000000000"
+      }
+    },
+    {
+      "beta": "104",
+      "S_lower": "192837553399/250000000000",
+      "T_lower": "965081879917/1000000000000",
+      "J_direct_lower": "118996230403/200000000000",
+      "first_S_lower": "768306390201/1000000000000",
+      "first_T_lower": "921015529181/1000000000000",
+      "tail_upper": [
+        "3549916738514495603956505/340282366920938463463374607431768211456",
+        "380804875008914748410071069789952913/21267647932558653966460912964485513216"
+      ],
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "768306390201/1000000000000",
+          "T_lower": "921015529181/1000000000000",
+          "n": 8,
+          "beta": "208"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "176126714217/500000000000",
+            "q_upper": "168082102789/500000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "134191667453/40000000000"
+      }
+    }
+  ],
+  "best": null
+}

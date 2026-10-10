@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T17:24:00Z",
+  "updated_at_utc": "2026-10-10T17:46:00Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -11,37 +11,37 @@
   "next_report_local": "2026-10-10T18:15:00-04:00",
   "tasks": [
     {
-      "id": "chain_audit",
-      "status": "baseline_audit_complete"
-    },
-    {
-      "id": "bilayer_audit",
-      "status": "baseline_audit_complete"
-    },
-    {
-      "id": "nonperturbative_audit",
-      "status": "baseline_audit_complete"
-    },
-    {
-      "id": "low_band",
-      "status": "running"
-    },
-    {
-      "id": "symmetry",
-      "status": "running_candidate_validation"
-    },
-    {
-      "id": "chain_frontier",
-      "status": "running"
+      "id": "chain_frontier_review",
+      "status": "completed_all_size_successes_and_recipe_obstructions"
     },
     {
       "id": "low_band_review",
+      "status": "completed_g003_all_sizes"
+    },
+    {
+      "id": "epsilon_interval",
+      "status": "completed_through_0.00475_one_trial"
+    },
+    {
+      "id": "large_seed_moments",
       "status": "running"
     },
     {
-      "id": "epsilon_frontier",
+      "id": "translated_low_band",
+      "status": "running"
+    },
+    {
+      "id": "spin2_heat",
+      "status": "running_bounded_benchmarks"
+    },
+    {
+      "id": "scalar_refinement",
+      "status": "candidate_pending_review"
+    },
+    {
+      "id": "overview",
       "status": "running"
     }
   ],
-  "verification": "Three candidate groups independently audited with all-integer size bridges; baseline 1149 hashes remain intact."
+  "verification": "Independent all-size certificates now include ordinary bilayer g=.03 gap .009195338283; chain g=.16125; uniform FF epsilon interval through .00475. Newer scalar refinements and large-seed extensions remain separately pending."
 }

@@ -1,0 +1,31 @@
+{
+  "status": "completed_independent_analytic_and_exact_arithmetic_review",
+  "updated_at_utc": "2026-10-10T17:43:00Z",
+  "updated_at_local": "2026-10-10T13:43:00-04:00",
+  "model": "ordinary spin-1/2 square bilayer, unit rung exchange, equal straight in-layer exchanges, no crossed exchange",
+  "coupling": "3/100",
+  "boundary": "periodic positive-direction multiset, parallel edges retained for side length 2",
+  "strongest_result": {
+    "scope": "every integer square side L >= 2",
+    "unique_ground_state": true,
+    "gap_lower": "9195338283/1000000000000",
+    "gap_display": 0.009195338283,
+    "source": "research_20261010/low_band/symmetric_correlated_beta909d100_FINAL.json",
+    "beta_initial": "909/100",
+    "asymptotic_start_L": 128,
+    "all_short_sizes_bridged": true
+  },
+  "arithmetic": "independent exact integer reconstruction, Fraction inertia, directed dyadic and unbounded rational Taylor enclosures",
+  "proof_assistant_formalized": false,
+  "ED_role": "diagnostic only",
+  "source_files_hash_verified": 34,
+  "active_computations": [],
+  "redundant_unbounded_fraction_replay": "completed successfully before stop request; identical result to directed-dyadic replay",
+  "outside_review_scope": [
+    "larger 8x8 analytic-q2 contraction and g=.01 seed",
+    "higher Krylov depth",
+    "g=.04/.05 frontier",
+    "future K=26 scalar-bootstrap variant",
+    "later eight-round scalar refinement announced after this completed checkpoint"
+  ]
+}

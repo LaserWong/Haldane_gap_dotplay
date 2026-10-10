@@ -1,0 +1,20 @@
+--- research_20261010/chain_audit/verify_chain.py	2026-10-10 13:19:41.914222738 -0400
++++ research_20261010/chain_frontier_review/independent_core.py	2026-10-10 13:36:06.079525602 -0400
+@@ -20,9 +20,9 @@
+ 
+ HERE = Path(__file__).resolve().parent
+ BASE = HERE.parents[1]
+-DATA = BASE / 'low_energy'
++DATA = BASE / 'research_20261010' / 'chain_frontier'
+ START = time.monotonic()
+-resource.setrlimit(resource.RLIMIT_AS, (2 * 1024**3, 2 * 1024**3))
++resource.setrlimit(resource.RLIMIT_AS, (1024**3, 1024**3))
+ 
+ # Physical order |m_left,m_right>, m=-1,0,+1. Columns, with their
+ # unnormalised Clebsch-Gordan coefficients explicitly specified.
+@@ -355,4 +355,4 @@
+                                         all_integer_cells_at_least=2,elapsed_seconds=r['elapsed_seconds']))
+     (HERE/'summary.json').write_text(json.dumps(dict(results=summaries,total_seconds=time.monotonic()-START,
+         peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,BLAS_threads=1,
+-        address_space_limit_bytes=2*1024**3),indent=2)+'\n')
++        address_space_limit_bytes=1024**3),indent=2)+'\n')

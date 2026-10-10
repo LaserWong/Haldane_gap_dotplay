@@ -18,3 +18,9 @@ Reproduce from the repository root with:
 The largest seed has 32 physical spins, full Hilbert dimension 4,294,967,296, a 377-dimensional linear trial space and 21,345 reached configurations. Exactly one Ritz vector is retained. Full residuals include leakage outside the trial space.
 
 The fixed baseline result is separate from exploratory follow-on epsilon scans (`scan_epsilon.py`, `epsilon_scan/` and `epsilon_scan_summary.json`). A failed finite parameter/temperature grid is not a no-go theorem, a physical transition or a maximal threshold. A collection of certified points is not a continuum interval unless an interval argument is supplied explicitly.
+
+## Separately completed extensions
+
+`EPSILON_FRONTIER.md` supplies a new uniform one-product-trial theorem: every 0 <= epsilon <= 0.00475 and every integer square L >= 2 has gap >= 0.008090283176. Its exact residual, affine endpoint-PSD argument and stronger triangle-free finite-size bridge are recorded explicitly.
+
+Individually audited q<=2 Ritz certificates additionally give all-L gaps >= 0.028171615330 at epsilon=.006 and >=0.012626894873 at epsilon=.0075. Points .008 and .0085 have positive large-L certificates with smaller-size bridges still open. No maximal coupling claim is made.

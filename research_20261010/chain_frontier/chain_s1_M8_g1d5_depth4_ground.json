@@ -1,0 +1,103 @@
+{
+  "status": "rejected_whole_space_isolation_exact_residual_only",
+  "s": "1",
+  "N_dimers": 8,
+  "physical_sites": 16,
+  "full_dimension": 43046721,
+  "retained_states": 1,
+  "trial_subspace_dimension": 43294,
+  "reached_support_dimension": 245870,
+  "support_depth": 4,
+  "E00": "-16",
+  "exact_rayleigh": "-164716832837902766617806436210208/10152655747188759092307066862055",
+  "exact_residual_squared": "1517311085995294706121822054447624323129753082477088362444/103076418720924940175655321726440491748393872165892304398823025",
+  "second_eigenvalue_lower": "-1020739976243/62500000000",
+  "ground_lower": "-1043239976243/62500000000",
+  "ground_upper": "-164716832837902766617806436210208/10152655747188759092307066862055",
+  "relative_form_bound": {
+    "alpha": "9/25",
+    "B": "43239976243/62500000000",
+    "second_shift_lower": "-20739976243/62500000000",
+    "local_certificate": {
+      "spin": "1",
+      "coupling": "1/5",
+      "a": "8/25",
+      "b": "43239976243/500000000000",
+      "local_dimension": 81,
+      "exact_inertia": [
+        0,
+        0,
+        81
+      ],
+      "kind": "single",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+    "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+  },
+  "trial_artifact": "chain_s1_M8_g1d5_depth4_trial.npz",
+  "weak_bonds": [
+    [
+      7,
+      1,
+      0,
+      0,
+      "1/5"
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      "1/5"
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      "1/5"
+    ],
+    [
+      2,
+      1,
+      3,
+      0,
+      "1/5"
+    ],
+    [
+      3,
+      1,
+      4,
+      0,
+      "1/5"
+    ],
+    [
+      4,
+      1,
+      5,
+      0,
+      "1/5"
+    ],
+    [
+      5,
+      1,
+      6,
+      0,
+      "1/5"
+    ],
+    [
+      6,
+      1,
+      7,
+      0,
+      "1/5"
+    ]
+  ],
+  "integer_matrix_denominator": 180,
+  "sparse_nnz": 2495174,
+  "total_seconds": 11.377443188999678,
+  "peak_process_rss_kib": 333980,
+  "proof": "Exact metric Rayleigh and full residual only. Ground interval uses coarse full-spectrum comparison and variational upper bound. Temple uniqueness condition fails; no gap certificate."
+}
