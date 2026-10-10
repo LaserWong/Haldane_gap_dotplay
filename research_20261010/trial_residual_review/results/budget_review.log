@@ -1,0 +1,20 @@
+PASS 18 entropy-rank tests, 3 startup budget inequalities and 13-step target replay
+seconds 0.052626517001044704 peak RSS KiB 11520
+3d100 4 1/10000 13 PASS exact specified-majorant minimum
+3d100 4 1/1000 8 PASS exact specified-majorant minimum
+3d100 8 1/10000 25 PASS exact specified-majorant minimum
+3d100 8 1/1000 21 PASS exact specified-majorant minimum
+3d100 16 1/10000 49 PASS exact specified-majorant minimum
+3d100 16 1/1000 45 PASS exact specified-majorant minimum
+1d25 4 1/10000 13 PASS exact specified-majorant minimum
+1d25 4 1/1000 9 PASS exact specified-majorant minimum
+1d25 8 1/10000 25 PASS exact specified-majorant minimum
+1d25 8 1/1000 22 PASS exact specified-majorant minimum
+1d25 16 1/10000 49 PASS exact specified-majorant minimum
+1d25 16 1/1000 46 PASS exact specified-majorant minimum
+1d20 4 1/10000 13 PASS exact specified-majorant minimum
+1d20 4 1/1000 10 PASS exact specified-majorant minimum
+1d20 8 1/10000 25 PASS exact specified-majorant minimum
+1d20 8 1/1000 22 PASS exact specified-majorant minimum
+1d20 16 1/10000 None FAIL for this tail majorant even with all q1 kept
+1d20 16 1/1000 47 PASS exact specified-majorant minimum

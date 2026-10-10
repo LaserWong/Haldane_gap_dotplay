@@ -1,0 +1,34 @@
+{
+  "status": "PASS independent physical reconstruction and exact all-beta scalar obstruction",
+  "updated_utc": "2026-10-10T18:16:00Z",
+  "updated_America_New_York": "2026-10-10T14:16:00-04:00",
+  "model": "ordinary spin-1/2 square bilayer, rung 1, equal straight in-layer g, no crossed exchange, periodic positive-direction multiedges",
+  "couplings": [
+    "1/25",
+    "1/20"
+  ],
+  "staircase": [
+    "2x2",
+    "4x2",
+    "4x4"
+  ],
+  "order": "x,y,temperature",
+  "beta_domain": "every finite real beta>=0; uniform unbounded cold ray beta>=20",
+  "obstruction": "a propagated upper enclosure is nonpositive, even for exact physical starting traces",
+  "maximum_global_failed_update": {
+    "1/25": 4,
+    "1/20": 3
+  },
+  "physical_result_sha256": "6e78a354da036930520761566f0b255761b8baf6363e8caa6b2c3bb41ba77fa3",
+  "scalar_result_sha256": "0db815c1baa5dfcede232fd6bdc82bea7838ba61244bc1188a2394e82ddde2a8",
+  "source_files_verified": 43,
+  "producer_inputs_modified": false,
+  "remote_writes": false,
+  "does_not_imply": [
+    "physical gaplessness",
+    "physical phase boundary",
+    "exclusion of other seed sizes",
+    "exclusion of other update orders",
+    "exclusion of new trace injections or improved inequalities"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T18:10:00Z",
+  "updated_at_utc": "2026-10-10T18:24:00Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -43,18 +43,30 @@
       "status": "independently_verified_stronger_all_size_Temple_variant"
     },
     {
-      "id": "trial_size_criteria",
-      "status": "derivation_and_scoped_exclusion_review_running"
-    },
-    {
-      "id": "next_band_layer",
-      "status": "bounded_g006_and_second_order_planning"
-    },
-    {
       "id": "overview",
       "status": "updating_to_new_reviewed_results"
+    },
+    {
+      "id": "trial_size_criteria",
+      "status": "independently_verified_residual_entropy_and_canonical_seed_obstructions"
+    },
+    {
+      "id": "alternative_orders_g006",
+      "status": "independently_verified_all_L_ge2_gap_0.099555868340"
+    },
+    {
+      "id": "bosonic_tail_bound",
+      "status": "candidate_under_independent_review"
+    },
+    {
+      "id": "all_order_small_seed_exclusion",
+      "status": "running_beyond_canonical_case"
+    },
+    {
+      "id": "spin2_scalar_improvement",
+      "status": "finite_moment_witness_and_twisted_MPS_diagnostics_running"
     }
   ],
-  "verification": "Independently audited all-size larger-seed ordinary bilayer gaps: g=.03 .282017228092, g=.04 .180632156388, g=.05 .104475599844. FF uniform closed interval through epsilon=.00855 has gap>.000768515509. Spin2 large traces remain uncomputed.",
-  "last_verified_remote_commit": "d39313f2926a7ee4184bc822728939fbf35241a8"
+  "verification": "Independently audited all-size larger-seed ordinary bilayer gaps: g=.03 .282017228092, g=.04 .180632156388, g=.05 .104475599844. FF uniform closed interval through epsilon=.00855 has gap>.000768515509. Spin2 large traces remain uncomputed. Alternative-order g=.06 all-size gap .099555868340 independently accepted. Fixed six-vector residual floors and canonical small-seed all-beta obstructions at .04/.05 also independently accepted.",
+  "last_verified_remote_commit": "31b0146941190a6ce38828585cde93707da2d35e"
 }

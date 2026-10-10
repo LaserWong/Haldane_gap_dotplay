@@ -1,0 +1,44 @@
+{
+  "updated_utc": "2026-10-10T18:21:00Z",
+  "updated_new_york": "2026-10-10T14:21:00-04:00",
+  "status": "PASS",
+  "work_running": false,
+  "reviewed": [
+    "Four fixed-6D ordinary-bilayer residual obstructions uniform in the stated Rayleigh intervals",
+    "Independent wider audited-Temple intervals",
+    "All four 11D full moment and residual comparisons",
+    "Analytic residual-to-width, entropy and startup formulas",
+    "All 18 scoped entropy-rank tests",
+    "Three startup eighth-power inequalities and 13-step target replay"
+  ],
+  "resource_limits": {
+    "cpu_affinity_count": 1,
+    "address_space_bytes": 1073741824,
+    "blas_threads": 1
+  },
+  "scope": {
+    "model": "ordinary spin-1/2 bilayer",
+    "rung_coupling": "1",
+    "geometry": "periodic 4x4 rungs",
+    "g": [
+      "1/50",
+      "3/100",
+      "1/25",
+      "1/20"
+    ],
+    "coupling_interval_claim": false,
+    "arbitrary_minimum_dimension_claim": false,
+    "full_hilbert_dimension": 4294967296,
+    "tested_search_dimensions": [
+      6,
+      11
+    ]
+  },
+  "refinement": "At g=1/20, N=16, beta=909/100, tolerance=1/10000, a lower exponential enclosure proves the fixed q>=2 bin-majorant tail already exceeds tolerance.",
+  "physical_dependencies": [
+    "large_seed_review exact matching geometry and original Temple thresholds",
+    "low_band_review and small_seed_exclusion_review complete spectral bins for budget examples"
+  ],
+  "next_step": "Optional separately authorized analysis of intermediate 7-10 dimensional enlargements or a coupling-uniform obstruction. Neither is needed to establish this checkpoint.",
+  "source_git_metadata_available": false
+}

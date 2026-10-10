@@ -1,0 +1,88 @@
+{
+  "g": "1/20",
+  "status": "bounded_transported_order_scan_not_an_all_beta_exclusion",
+  "beta_grid": "1 through 60 in steps of 1/40",
+  "canonical_base_after_first_cycle": [
+    4,
+    4
+  ],
+  "source_sha256": {
+    "frontier/bilayer_2x2_g1d20_symmetric_number_low_band.json": "0310cc51b8c932b7cba1c2e3cecdf4d10df35940f1effacea772e69491beec16",
+    "frontier/bilayer_4x2_g1d20_symmetric_number_low_band.json": "bda285c909817332aeb7429c464ca0e7c3af6c192f4b446b62ea30a49c9d34b8",
+    "frontier/bilayer_4x4_g1d20_symmetric_number_low_band.json": "425bfe8fcff32de2afe6ff0625e524800a69c74da6de28ee4274e01ca57cfaa5"
+  },
+  "orders": [
+    {
+      "order": "xyt",
+      "positive_first_cycles": 0,
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0,
+      "best_prefix_beta": "77/10",
+      "best_prefix_display": [
+        0.7365164055032001,
+        -0.060574390349674934
+      ],
+      "exact_selected": {
+        "beta": "77/10",
+        "order": "xyt",
+        "J1": "5793994331906507/10000000000000000",
+        "J2": "1381833103113071/2500000000000000",
+        "C0": "2380365559981599/2500000000000000",
+        "permuted_prefix": [
+          "3682582027516213/5000000000000000",
+          "-151435975873527/2500000000000000"
+        ],
+        "positive_steps": 1,
+        "accepted": false
+      }
+    },
+    {
+      "order": "xty",
+      "positive_first_cycles": 0,
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0,
+      "best_prefix_beta": "77/10",
+      "best_prefix_display": [
+        0.7365164055032001,
+        -0.060574390349674934
+      ],
+      "exact_selected": {
+        "beta": "77/10",
+        "order": "xty",
+        "J1": "5793994331906507/10000000000000000",
+        "J2": "1381833103113071/2500000000000000",
+        "C0": "1559325945318469/2000000000000000",
+        "permuted_prefix": [
+          "3682582027516213/5000000000000000",
+          "-151435975873527/2500000000000000"
+        ],
+        "positive_steps": 1,
+        "accepted": false
+      }
+    },
+    {
+      "order": "txy",
+      "positive_first_cycles": 0,
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0,
+      "best_prefix_beta": "53/8",
+      "best_prefix_display": [
+        0.7115760290722772,
+        -1.6717854188351504
+      ],
+      "exact_selected": {
+        "beta": "53/8",
+        "order": "txy",
+        "J1": "5683416436842477/10000000000000000",
+        "J2": "4243641157619363/10000000000000000",
+        "C0": "8072251194120989/10000000000000000",
+        "permuted_prefix": [
+          "3557880145361521/5000000000000000",
+          "-4179463547086477/2500000000000000"
+        ],
+        "positive_steps": 1,
+        "accepted": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "status": "permuted_then_canonical_candidate_pending_independent_review",
+  "g": "3/50",
+  "order": "txy",
+  "beta_initial": "203/20",
+  "J1": "9653979294384403/10000000000000000",
+  "J2": "9662956831773533/10000000000000000",
+  "third_original_staircase_ratio": "4895447020330183/5000000000000000",
+  "permuted_first_purities": [
+    "2498394162994223/2500000000000000",
+    "2498420683454791/2500000000000000",
+    "9959236051554503/10000000000000000"
+  ],
+  "canonical_first_purities": [
+    "499520977455059221/500000000000000000",
+    "498024228182534247/500000000000000000",
+    "198422505485447151/200000000000000000"
+  ],
+  "canonical_base": {
+    "n": 8,
+    "m": 8,
+    "beta": "203/10"
+  },
+  "bootstrap": {
+    "input": {
+      "A_lower": "499520977455059221/500000000000000000",
+      "B_lower": "498024228182534247/500000000000000000",
+      "C_lower": "198422505485447151/200000000000000000",
+      "n": 8,
+      "m": 8,
+      "beta": "203/10"
+    },
+    "updates": [
+      {
+        "round": 1,
+        "defects": [
+          "19733419646427/100000000000000000",
+          "1048832830241/2000000000000000",
+          "10976793858359/20000000000000000"
+        ]
+      }
+    ],
+    "status": "accepted_analytic_scalar_certificate",
+    "formal_proof_assistant_verified": false,
+    "rounds": 1,
+    "n": 16,
+    "m": 16,
+    "beta": "203/5",
+    "defects": [
+      "19733419646427/100000000000000000",
+      "1048832830241/2000000000000000",
+      "10976793858359/20000000000000000"
+    ],
+    "u": "10976793858359/20000000000000000",
+    "uniform_square_gap_lower": "4977793417/50000000000",
+    "uniform_square_gap_lower_display": 0.09955586834,
+    "scope": "Every integer square side L >= n, when n=m and the two transfer hypotheses hold. For n != m, each dyadic rectangle [2^j n,2^(j+1)n] x [2^j m,2^(j+1)m]."
+  },
+  "accepted": true,
+  "float_proposal_score": -0.09955586833998864,
+  "source_sha256": {
+    "temple_4x4_g3d50.json": "92dc43441970153d60d8b01556af412c7448b8da6005a1707b43ac1babdcde99",
+    "temple_8x4_g3d50.json": "de2c87607448da50301d3bc0548b292264bc88d6fe7ce8405b0684fa579f7e3c",
+    "temple_8x8_g3d50.json": "990628c9007e7871911b2fba57d3a924f09432d2ec9cb9af5a078d59ab7cf7c2"
+  }
+}

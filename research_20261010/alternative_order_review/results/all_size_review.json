@@ -1,0 +1,48 @@
+[
+  {
+    "order": "xty",
+    "g": "3/50",
+    "all_integer_square_L_ge": 2,
+    "gap": "82067113439/1000000000000",
+    "gap_display": 0.082067113439,
+    "small_size_min": "36490836267/62500000000",
+    "finite_windows": [
+      {
+        "n": 8,
+        "through": 16,
+        "gap": "18769976517/125000000000",
+        "gap_display": 0.150159812136
+      },
+      {
+        "n": 16,
+        "through": 32,
+        "gap": "12035145639/100000000000",
+        "gap_display": 0.12035145639
+      }
+    ],
+    "asymptotic_onset": 16
+  },
+  {
+    "order": "txy",
+    "g": "3/50",
+    "all_integer_square_L_ge": 2,
+    "gap": "4977793417/50000000000",
+    "gap_display": 0.09955586834,
+    "small_size_min": "36490836267/62500000000",
+    "finite_windows": [
+      {
+        "n": 8,
+        "through": 16,
+        "gap": "85687408551/500000000000",
+        "gap_display": 0.171374817102
+      },
+      {
+        "n": 16,
+        "through": 32,
+        "gap": "139639613939/1000000000000",
+        "gap_display": 0.139639613939
+      }
+    ],
+    "asymptotic_onset": 16
+  }
+]

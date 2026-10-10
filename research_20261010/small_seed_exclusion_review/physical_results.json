@@ -1,0 +1,4624 @@
+{
+  "status": "PASS independently reconstructed all six physical complete bands and shell tails",
+  "physical_model": "ordinary spin-1/2 bilayer; rung 1; straight in-layer g; periodic positive-direction multiedges",
+  "records": [
+    {
+      "g": "1/25",
+      "shape": "2x2",
+      "number_tail": {
+        "local": {
+          "preserving_inertia": [
+            0,
+            5,
+            11
+          ],
+          "pair_creation_exact_absolute_square": "1/4",
+          "pair_creation_count": 3
+        },
+        "bins": 5,
+        "positive_LDL_pivots": 15,
+        "whole_Hilbert_multiplicity_sum": 256,
+        "occupied_max": [
+          0,
+          0,
+          2,
+          4,
+          8
+        ],
+        "empty_max": [
+          8,
+          4,
+          2,
+          0,
+          0
+        ]
+      },
+      "ground": {
+        "linear_dimension": 4,
+        "expanded_support": 34,
+        "reached_support": 38,
+        "all_integer_G_A_B_reconstructed": true,
+        "shifted_Rayleigh": "-20012683451307033076055130414/2001550653821830925019225170275",
+        "exact_full_residual_squared": "146384533738219759336134524803097248492094394441518988/4006205019814598858931054423553880183091141115922102743575625",
+        "tiny_computational_spin_check": true
+      },
+      "excited_blocks": [
+        {
+          "parity": 1,
+          "M": 0,
+          "k": 4,
+          "trial_dimension": 32,
+          "reached_dimension": 32,
+          "independent_matrix_denominator": 100,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                3
+              ],
+              "schur_lower": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                0
+              ],
+              "schur_lower": [
+                3,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 1,
+          "k": 4,
+          "trial_dimension": 28,
+          "reached_dimension": 28,
+          "independent_matrix_denominator": 100,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                3
+              ],
+              "schur_lower": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                0
+              ],
+              "schur_lower": [
+                3,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "completeness_and_endpoints": {
+        "retained_rank": 13,
+        "cutoff": "914811866013/500000000000",
+        "max_Ritz": "107320074533/100000000000",
+        "complement_lower": "8178642469072721682146804893456397/4470122928141382757784500000000000",
+        "exact_residual_squared_bound": "571/15625000000",
+        "endpoint_inertias": [
+          {
+            "parity": 0,
+            "M": 0,
+            "rank": 1,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  1,
+                  0
+                ],
+                "ritz_upper": [
+                  0,
+                  1,
+                  0
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 0,
+            "rank": 4,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  4
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  3
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  4
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  3,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  4,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  3,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 1,
+            "rank": 4,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  4
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  3
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  4
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  3,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  4,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  3,
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "seconds": 0.4639566890000424,
+      "peak_rss_kib": 49440
+    },
+    {
+      "g": "1/25",
+      "shape": "4x2",
+      "number_tail": {
+        "local": {
+          "preserving_inertia": [
+            0,
+            5,
+            11
+          ],
+          "pair_creation_exact_absolute_square": "1/4",
+          "pair_creation_count": 3
+        },
+        "bins": 9,
+        "positive_LDL_pivots": 45,
+        "whole_Hilbert_multiplicity_sum": 65536,
+        "occupied_max": [
+          0,
+          0,
+          2,
+          3,
+          6,
+          7,
+          10,
+          12,
+          16
+        ],
+        "empty_max": [
+          16,
+          12,
+          10,
+          7,
+          6,
+          3,
+          2,
+          0,
+          0
+        ]
+      },
+      "ground": {
+        "linear_dimension": 11,
+        "expanded_support": 1101,
+        "reached_support": 4067,
+        "all_integer_G_A_B_reconstructed": true,
+        "shifted_Rayleigh": "-3745541479695284255809326114/251438199339852481214428386875",
+        "exact_full_residual_squared": "44301922879001989112194362936448795924147039840767429/63221168087267392719974121808253875848572706847814672265625",
+        "tiny_computational_spin_check": false
+      },
+      "excited_blocks": [
+        {
+          "parity": 1,
+          "M": 0,
+          "k": 8,
+          "trial_dimension": 400,
+          "reached_dimension": 3048,
+          "independent_matrix_denominator": 100,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                8
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                7
+              ],
+              "schur_lower": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                4
+              ],
+              "schur_lower": [
+                3,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                4,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                3
+              ],
+              "schur_lower": [
+                4,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                7,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                8,
+                0,
+                0
+              ],
+              "schur_lower": [
+                7,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 1,
+          "k": 8,
+          "trial_dimension": 344,
+          "reached_dimension": 2544,
+          "independent_matrix_denominator": 100,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                8
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                7
+              ],
+              "schur_lower": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                4
+              ],
+              "schur_lower": [
+                3,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                4,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                3
+              ],
+              "schur_lower": [
+                4,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                7,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                8,
+                0,
+                0
+              ],
+              "schur_lower": [
+                7,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "completeness_and_endpoints": {
+        "retained_rank": 25,
+        "cutoff": "450319073601/250000000000",
+        "max_Ritz": "21335158601/20000000000",
+        "complement_lower": "60714984244560321331902555032073729/33719826723329718614832250000000000",
+        "exact_residual_squared_bound": "52115433/250000000000",
+        "endpoint_inertias": [
+          {
+            "parity": 0,
+            "M": 0,
+            "rank": 1,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  1,
+                  0
+                ],
+                "ritz_upper": [
+                  0,
+                  1,
+                  0
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 0,
+            "rank": 8,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  8
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  7
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  8
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  7
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  7
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  7
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  7
+                ]
+              },
+              {
+                "ritz_lower": [
+                  3,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  4,
+                  0,
+                  4
+                ],
+                "Schur_lower": [
+                  3,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  4,
+                  0,
+                  4
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  3
+                ],
+                "Schur_lower": [
+                  4,
+                  0,
+                  4
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  7,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  7,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  7,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  8,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  7,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 1,
+            "rank": 8,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  8
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  7
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  8
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  7
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  7
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  7
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  7
+                ]
+              },
+              {
+                "ritz_lower": [
+                  3,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  4,
+                  0,
+                  4
+                ],
+                "Schur_lower": [
+                  3,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  4,
+                  0,
+                  4
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  3
+                ],
+                "Schur_lower": [
+                  4,
+                  0,
+                  4
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  7,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  7,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  7,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  8,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  7,
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "seconds": 1.3985088619992894,
+      "peak_rss_kib": 51484
+    },
+    {
+      "g": "1/25",
+      "shape": "4x4",
+      "number_tail": {
+        "local": {
+          "preserving_inertia": [
+            0,
+            5,
+            11
+          ],
+          "pair_creation_exact_absolute_square": "1/4",
+          "pair_creation_count": 3
+        },
+        "bins": 17,
+        "positive_LDL_pivots": 153,
+        "whole_Hilbert_multiplicity_sum": 4294967296,
+        "occupied_max": [
+          0,
+          0,
+          1,
+          2,
+          4,
+          5,
+          7,
+          9,
+          12,
+          13,
+          15,
+          17,
+          20,
+          22,
+          25,
+          28,
+          32
+        ],
+        "empty_max": [
+          32,
+          28,
+          25,
+          22,
+          20,
+          17,
+          15,
+          13,
+          12,
+          9,
+          7,
+          5,
+          4,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      "ground": {
+        "linear_dimension": 11,
+        "expanded_support": 20081,
+        "reached_support": 452093,
+        "all_integer_G_A_B_reconstructed": true,
+        "shifted_Rayleigh": "-4951594703626716672256220106/252596196474488220097693079825",
+        "exact_full_residual_squared": "38756435377397440268868717618226896240652314605402118/12760967694675651022423022338023104502901652169138764406125",
+        "tiny_computational_spin_check": false
+      },
+      "excited_blocks": [
+        {
+          "parity": 1,
+          "M": 0,
+          "k": 16,
+          "trial_dimension": 3936,
+          "reached_dimension": 168368,
+          "independent_matrix_denominator": 100,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                16
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                15
+              ],
+              "schur_lower": [
+                0,
+                0,
+                16
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                15,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                16,
+                0,
+                0
+              ],
+              "schur_lower": [
+                15,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 1,
+          "k": 16,
+          "trial_dimension": 3376,
+          "reached_dimension": 141136,
+          "independent_matrix_denominator": 100,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                16
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                15
+              ],
+              "schur_lower": [
+                0,
+                0,
+                16
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                15,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                16,
+                0,
+                0
+              ],
+              "schur_lower": [
+                15,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "completeness_and_endpoints": {
+        "retained_rank": 49,
+        "cutoff": "1775456374051/1000000000000",
+        "max_Ritz": "13256871053/12500000000",
+        "complement_lower": "906328330717176075503462568387655771/511091575136521371215721000000000000",
+        "exact_residual_squared_bound": "19003771/31250000000",
+        "endpoint_inertias": [
+          {
+            "parity": 0,
+            "M": 0,
+            "rank": 1,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  1,
+                  0
+                ],
+                "ritz_upper": [
+                  0,
+                  1,
+                  0
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 0,
+            "rank": 16,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  16
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  15
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  16
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  15,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  16,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  15,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 1,
+            "rank": 16,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  16
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  15
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  16
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  15,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  16,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  15,
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "seconds": 156.40402722599902,
+      "peak_rss_kib": 298800
+    },
+    {
+      "g": "1/20",
+      "shape": "2x2",
+      "number_tail": {
+        "local": {
+          "preserving_inertia": [
+            0,
+            5,
+            11
+          ],
+          "pair_creation_exact_absolute_square": "1/4",
+          "pair_creation_count": 3
+        },
+        "bins": 5,
+        "positive_LDL_pivots": 15,
+        "whole_Hilbert_multiplicity_sum": 256,
+        "occupied_max": [
+          0,
+          0,
+          2,
+          4,
+          8
+        ],
+        "empty_max": [
+          8,
+          4,
+          2,
+          0,
+          0
+        ]
+      },
+      "ground": {
+        "linear_dimension": 4,
+        "expanded_support": 34,
+        "reached_support": 38,
+        "all_integer_G_A_B_reconstructed": true,
+        "shifted_Rayleigh": "-3179247044026657385342301048/201410833671849286566459453115",
+        "exact_full_residual_squared": "11780711804520150468031338268023669566041904335816689/81132647840778676733988160970187488314805527606689766406450",
+        "tiny_computational_spin_check": true
+      },
+      "excited_blocks": [
+        {
+          "parity": 1,
+          "M": 0,
+          "k": 4,
+          "trial_dimension": 32,
+          "reached_dimension": 32,
+          "independent_matrix_denominator": 80,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                3
+              ],
+              "schur_lower": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                0
+              ],
+              "schur_lower": [
+                3,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 1,
+          "k": 4,
+          "trial_dimension": 28,
+          "reached_dimension": 28,
+          "independent_matrix_denominator": 80,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                3
+              ],
+              "schur_lower": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                1
+              ],
+              "schur_lower": [
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                0
+              ],
+              "schur_lower": [
+                3,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "completeness_and_endpoints": {
+        "retained_rank": 13,
+        "cutoff": "445871215251/250000000000",
+        "max_Ritz": "108921291787/100000000000",
+        "complement_lower": "30338211956289115239110340310809/17010641269870840264750000000000",
+        "exact_residual_squared_bound": "18151/125000000000",
+        "endpoint_inertias": [
+          {
+            "parity": 0,
+            "M": 0,
+            "rank": 1,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  1,
+                  0
+                ],
+                "ritz_upper": [
+                  0,
+                  1,
+                  0
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 0,
+            "rank": 4,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  4
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  3
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  4
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  3,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  4,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  3,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 1,
+            "rank": 4,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  4
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  3
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  4
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  3,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  4,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  3,
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "seconds": 0.44027155399999174,
+      "peak_rss_kib": 298800
+    },
+    {
+      "g": "1/20",
+      "shape": "4x2",
+      "number_tail": {
+        "local": {
+          "preserving_inertia": [
+            0,
+            5,
+            11
+          ],
+          "pair_creation_exact_absolute_square": "1/4",
+          "pair_creation_count": 3
+        },
+        "bins": 9,
+        "positive_LDL_pivots": 45,
+        "whole_Hilbert_multiplicity_sum": 65536,
+        "occupied_max": [
+          0,
+          0,
+          2,
+          3,
+          6,
+          7,
+          10,
+          12,
+          16
+        ],
+        "empty_max": [
+          16,
+          12,
+          10,
+          7,
+          6,
+          3,
+          2,
+          0,
+          0
+        ]
+      },
+      "ground": {
+        "linear_dimension": 11,
+        "expanded_support": 1101,
+        "reached_support": 4067,
+        "all_integer_G_A_B_reconstructed": true,
+        "shifted_Rayleigh": "-476563586908178788381886781/20299170493837110778041251167",
+        "exact_full_residual_squared": "454728073161852740706302528758882376779899526214580057/164822529095146868743870092202659703815601303004311544755600",
+        "tiny_computational_spin_check": false
+      },
+      "excited_blocks": [
+        {
+          "parity": 1,
+          "M": 0,
+          "k": 8,
+          "trial_dimension": 400,
+          "reached_dimension": 3048,
+          "independent_matrix_denominator": 80,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                8
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                7
+              ],
+              "schur_lower": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                4
+              ],
+              "schur_lower": [
+                3,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                4,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                3
+              ],
+              "schur_lower": [
+                4,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                7,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                8,
+                0,
+                0
+              ],
+              "schur_lower": [
+                7,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 1,
+          "k": 8,
+          "trial_dimension": 344,
+          "reached_dimension": 2544,
+          "independent_matrix_denominator": 80,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                8
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                7
+              ],
+              "schur_lower": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                7
+              ],
+              "ritz_upper": [
+                3,
+                0,
+                5
+              ],
+              "schur_lower": [
+                1,
+                0,
+                7
+              ]
+            },
+            {
+              "ritz_lower": [
+                3,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                4,
+                0,
+                4
+              ],
+              "schur_lower": [
+                3,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                4,
+                0,
+                4
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                3
+              ],
+              "schur_lower": [
+                4,
+                0,
+                4
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                3
+              ],
+              "ritz_upper": [
+                7,
+                0,
+                1
+              ],
+              "schur_lower": [
+                5,
+                0,
+                3
+              ]
+            },
+            {
+              "ritz_lower": [
+                7,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                8,
+                0,
+                0
+              ],
+              "schur_lower": [
+                7,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "completeness_and_endpoints": {
+        "retained_rank": 25,
+        "cutoff": "869272975367/500000000000",
+        "max_Ritz": "107915871209/100000000000",
+        "complement_lower": "23593534557902768409922527957091007/13587235327704981467460500000000000",
+        "exact_residual_squared_bound": "514690467/1000000000000",
+        "endpoint_inertias": [
+          {
+            "parity": 0,
+            "M": 0,
+            "rank": 1,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  1,
+                  0
+                ],
+                "ritz_upper": [
+                  0,
+                  1,
+                  0
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 0,
+            "rank": 8,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  8
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  7
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  8
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  7
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  7
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  7
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  7
+                ]
+              },
+              {
+                "ritz_lower": [
+                  3,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  4,
+                  0,
+                  4
+                ],
+                "Schur_lower": [
+                  3,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  4,
+                  0,
+                  4
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  3
+                ],
+                "Schur_lower": [
+                  4,
+                  0,
+                  4
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  7,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  7,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  7,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  8,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  7,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 1,
+            "rank": 8,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  8
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  7
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  8
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  7
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  7
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  7
+                ],
+                "ritz_upper": [
+                  3,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  7
+                ]
+              },
+              {
+                "ritz_lower": [
+                  3,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  4,
+                  0,
+                  4
+                ],
+                "Schur_lower": [
+                  3,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  4,
+                  0,
+                  4
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  3
+                ],
+                "Schur_lower": [
+                  4,
+                  0,
+                  4
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  7,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  3
+                ],
+                "ritz_upper": [
+                  7,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  3
+                ]
+              },
+              {
+                "ritz_lower": [
+                  7,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  8,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  7,
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "seconds": 0.812174953000067,
+      "peak_rss_kib": 298800
+    },
+    {
+      "g": "1/20",
+      "shape": "4x4",
+      "number_tail": {
+        "local": {
+          "preserving_inertia": [
+            0,
+            5,
+            11
+          ],
+          "pair_creation_exact_absolute_square": "1/4",
+          "pair_creation_count": 3
+        },
+        "bins": 17,
+        "positive_LDL_pivots": 153,
+        "whole_Hilbert_multiplicity_sum": 4294967296,
+        "occupied_max": [
+          0,
+          0,
+          1,
+          2,
+          4,
+          5,
+          7,
+          9,
+          12,
+          13,
+          15,
+          17,
+          20,
+          22,
+          25,
+          28,
+          32
+        ],
+        "empty_max": [
+          32,
+          28,
+          25,
+          22,
+          20,
+          17,
+          15,
+          13,
+          12,
+          9,
+          7,
+          5,
+          4,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      "ground": {
+        "linear_dimension": 11,
+        "expanded_support": 20081,
+        "reached_support": 452093,
+        "all_integer_G_A_B_reconstructed": true,
+        "shifted_Rayleigh": "-786962715229016830334336769/25554632081217334394094160175",
+        "exact_full_residual_squared": "7684932459821295608450500702614351717522994203660354/653039220806382191520293879324471424075153984038556030625",
+        "tiny_computational_spin_check": false
+      },
+      "excited_blocks": [
+        {
+          "parity": 1,
+          "M": 0,
+          "k": 16,
+          "trial_dimension": 3936,
+          "reached_dimension": 168368,
+          "independent_matrix_denominator": 80,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                16
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                15
+              ],
+              "schur_lower": [
+                0,
+                0,
+                16
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                15,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                16,
+                0,
+                0
+              ],
+              "schur_lower": [
+                15,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "parity": 1,
+          "M": 1,
+          "k": 16,
+          "trial_dimension": 3376,
+          "reached_dimension": 141136,
+          "independent_matrix_denominator": 80,
+          "exact_Gram_A_B_E_equal": true,
+          "exact_inertia_passed": true,
+          "schur_and_ritz_endpoint_counts": [
+            {
+              "ritz_lower": [
+                0,
+                0,
+                16
+              ],
+              "ritz_upper": [
+                1,
+                0,
+                15
+              ],
+              "schur_lower": [
+                0,
+                0,
+                16
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                1,
+                0,
+                15
+              ],
+              "ritz_upper": [
+                5,
+                0,
+                11
+              ],
+              "schur_lower": [
+                1,
+                0,
+                15
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                5,
+                0,
+                11
+              ],
+              "ritz_upper": [
+                11,
+                0,
+                5
+              ],
+              "schur_lower": [
+                5,
+                0,
+                11
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                11,
+                0,
+                5
+              ],
+              "ritz_upper": [
+                15,
+                0,
+                1
+              ],
+              "schur_lower": [
+                11,
+                0,
+                5
+              ]
+            },
+            {
+              "ritz_lower": [
+                15,
+                0,
+                1
+              ],
+              "ritz_upper": [
+                16,
+                0,
+                0
+              ],
+              "schur_lower": [
+                15,
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "completeness_and_endpoints": {
+        "retained_rank": 49,
+        "cutoff": "424389952769/250000000000",
+        "max_Ritz": "106957921323/100000000000",
+        "complement_lower": "41680006945526132474902824457593401/24647476954438723739982250000000000",
+        "exact_residual_squared_bound": "9274233/6250000000",
+        "endpoint_inertias": [
+          {
+            "parity": 0,
+            "M": 0,
+            "rank": 1,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  1,
+                  0
+                ],
+                "ritz_upper": [
+                  0,
+                  1,
+                  0
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 0,
+            "rank": 16,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  16
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  15
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  16
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  15,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  16,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  15,
+                  0,
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "parity": 1,
+            "M": 1,
+            "rank": 16,
+            "counts": [
+              {
+                "ritz_lower": [
+                  0,
+                  0,
+                  16
+                ],
+                "ritz_upper": [
+                  1,
+                  0,
+                  15
+                ],
+                "Schur_lower": [
+                  0,
+                  0,
+                  16
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  1,
+                  0,
+                  15
+                ],
+                "ritz_upper": [
+                  5,
+                  0,
+                  11
+                ],
+                "Schur_lower": [
+                  1,
+                  0,
+                  15
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  5,
+                  0,
+                  11
+                ],
+                "ritz_upper": [
+                  11,
+                  0,
+                  5
+                ],
+                "Schur_lower": [
+                  5,
+                  0,
+                  11
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  11,
+                  0,
+                  5
+                ],
+                "ritz_upper": [
+                  15,
+                  0,
+                  1
+                ],
+                "Schur_lower": [
+                  11,
+                  0,
+                  5
+                ]
+              },
+              {
+                "ritz_lower": [
+                  15,
+                  0,
+                  1
+                ],
+                "ritz_upper": [
+                  16,
+                  0,
+                  0
+                ],
+                "Schur_lower": [
+                  15,
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "seconds": 98.69105716400009,
+      "peak_rss_kib": 300592
+    }
+  ],
+  "input_sha256": {
+    "research_20261010/low_band_review/independent_review.py": "cc3870505f34768c539a77cd92322c61c4c7cf18d868d0658b8f06419d2a01d5",
+    "research_20261010/low_band_review/number_tail_audit.py": "74ba615c36cebde86f865e42aea70bd3b17017fb902f3fc7abb01b2333532777",
+    "research_20261010/low_band/frontier/bilayer_2x2_g1d25_symmetric_number_low_band.json": "6b0c8a5a7d1dc4a4c5548590702306ba2b20403b1c3c1edc2021b8ea944340db",
+    "research_20261010/low_band/frontier/number_bins_2x2_g1d25.json": "a2d5ddce2d1b5b8ac00c9c07b9c36463971c72132392397e9ade59acc5f7d032",
+    "research_20261010/low_band/frontier/symmetry/symmetry_2x2_g1d25_block1.json": "b5b9fc603d15d00d16299b6d686e35b603431b7df4e4c45381fe5a95e257de6f",
+    "research_20261010/low_band/frontier/symmetry/symmetry_2x2_g1d25_block1_basis.json.gz": "99c56b88abd9413143abce113d7611ff9e425f1a738c2185ae36d3af7ee8f18a",
+    "research_20261010/low_band/frontier/bilayer_2x2_g1d25_p1_M0_q3_trial.npz": "49249fe1722121d3cc9e05c6dca4e51768f026aafb701b7104602794073fcc3e",
+    "research_20261010/low_band/frontier/bilayer_2x2_g1d25_p1_M1_q3_trial.npz": "bbe694118ad2f55fabb4999907e1c800510df482d919f423933e6d5718f678cd",
+    "research_20261010/low_band/frontier/bilayer_4x2_g1d25_symmetric_number_low_band.json": "d992f431ce487d6f1c8cc829ef41066c59b6c3b0de7cff6d788146a1a3967917",
+    "research_20261010/low_band/frontier/number_bins_4x2_g1d25.json": "63236d60ad22c83eaad54ac117b7cc84f9bc94da940b20a4d9800dd0d876fc3e",
+    "research_20261010/low_band/frontier/symmetry/symmetry_4x2_g1d25_block1.json": "5817eb8902fd182d8f4c76df603d28833476aa3682e37fcdd6339996474d3c63",
+    "research_20261010/low_band/frontier/symmetry/symmetry_4x2_g1d25_block1_basis.json.gz": "1ce768ca8e1b006af52280fd2c348370e43866f78dc35d2105827a129baaf0c2",
+    "research_20261010/low_band/frontier/bilayer_4x2_g1d25_p1_M0_q3_trial.npz": "00350cd22adb4a9b1d9e07b330738b8a69700c703bfa68899e06d9530d444dcd",
+    "research_20261010/low_band/frontier/bilayer_4x2_g1d25_p1_M1_q3_trial.npz": "9b7e24b200d6757c1abd892383a9e061b2380d64356ddd7d2d727017094c15f9",
+    "research_20261010/low_band/frontier/bilayer_4x4_g1d25_symmetric_number_low_band.json": "44672706ed007368455093d229e4d48b468ee69fc643582a655662f62ac66274",
+    "research_20261010/low_band/frontier/number_bins_4x4_g1d25.json": "95ba0d9e61719e6e38357f6e0f5b1df641584245f066d44babc03de98298f1a8",
+    "research_20261010/low_band/frontier/symmetry/symmetry_4x4_g1d25_block1.json": "03eea001b426addf70602ee2593b6851edb84a0d0888c4823e6bcb99450ac967",
+    "research_20261010/low_band/frontier/symmetry/symmetry_4x4_g1d25_block1_basis.json.gz": "e6eea19bc84a8a7719c1814be41d875bd6dd66b70aaf9896806bc497f940887a",
+    "research_20261010/low_band/frontier/bilayer_4x4_g1d25_p1_M0_q3_trial.npz": "77703f825ed208ef37ecf8b09ee52b023a083d7692cb8223db5cf6942133ccfd",
+    "research_20261010/low_band/frontier/bilayer_4x4_g1d25_p1_M1_q3_trial.npz": "fadd57a9db53870ae8be4d8b2c3576ece0c0ef43e2100671a2e1da04dea8df53",
+    "research_20261010/low_band/frontier/bilayer_2x2_g1d20_symmetric_number_low_band.json": "0310cc51b8c932b7cba1c2e3cecdf4d10df35940f1effacea772e69491beec16",
+    "research_20261010/low_band/frontier/number_bins_2x2_g1d20.json": "cc1c3929e504bfb1cd0a1f7c0c822ac393ef64a4f9b17fadf9b8cd64f95576c6",
+    "research_20261010/low_band/frontier/symmetry/symmetry_2x2_g1d20_block1.json": "8c62fb2c36750b38e0fef8a728ba13d5644be7c9527965f24f1400e982f4a52d",
+    "research_20261010/low_band/frontier/symmetry/symmetry_2x2_g1d20_block1_basis.json.gz": "2a05be2e48212731617e30b00ee2f9e1a5ec09e0f74d6504a6769a37ab43cad0",
+    "research_20261010/low_band/frontier/bilayer_2x2_g1d20_p1_M0_q3_trial.npz": "49f8c838f536901486f2cbf87f4530e18823cb43e1a2a22b45403efc932674e3",
+    "research_20261010/low_band/frontier/bilayer_2x2_g1d20_p1_M1_q3_trial.npz": "d633dd11236016e0c4d2167b79482ff073d85bcf4723728de92d67ad0aac32b6",
+    "research_20261010/low_band/frontier/bilayer_4x2_g1d20_symmetric_number_low_band.json": "bda285c909817332aeb7429c464ca0e7c3af6c192f4b446b62ea30a49c9d34b8",
+    "research_20261010/low_band/frontier/number_bins_4x2_g1d20.json": "92be5cad2e65595092e90177554b492d0783dcd62d4906164836ef841dee9efa",
+    "research_20261010/low_band/frontier/symmetry/symmetry_4x2_g1d20_block1.json": "6954b3d1d2a831ae6fb21af4e9dc60eb408ea43e49404bb7b02cc36b806b9d21",
+    "research_20261010/low_band/frontier/symmetry/symmetry_4x2_g1d20_block1_basis.json.gz": "e74412eecf86ed3b8a448b0859e3f5dc47e95892b5a152d61fe9be6eccc6d2da",
+    "research_20261010/low_band/frontier/bilayer_4x2_g1d20_p1_M0_q3_trial.npz": "e5a3eb4b156dbc265789d315398eb05d5c667d43c59d212ae754cda4ce729473",
+    "research_20261010/low_band/frontier/bilayer_4x2_g1d20_p1_M1_q3_trial.npz": "46f7b15132f08bf20f0911da4c31f241f379b722dbfbcd85d6f9a127b5cc3f03",
+    "research_20261010/low_band/frontier/bilayer_4x4_g1d20_symmetric_number_low_band.json": "425bfe8fcff32de2afe6ff0625e524800a69c74da6de28ee4274e01ca57cfaa5",
+    "research_20261010/low_band/frontier/number_bins_4x4_g1d20.json": "cf56d7e6bdd8c8f6e1b5db223a915d9650fa2329e3618f4a635e55f8ed53dd84",
+    "research_20261010/low_band/frontier/symmetry/symmetry_4x4_g1d20_block1.json": "369e630377728862152cdaebf4118a6b999221a21f56a538ac07bc25591a0e4b",
+    "research_20261010/low_band/frontier/symmetry/symmetry_4x4_g1d20_block1_basis.json.gz": "3603c4b0670aad0cde79e9eda3c79fa921dd14eeaad7fe5cc7968c54ce2a549e",
+    "research_20261010/low_band/frontier/bilayer_4x4_g1d20_p1_M0_q3_trial.npz": "07bf61f14b80fe8392656e7e02547a3f8c2466b86d4bc9f790f21aa22f211ab0",
+    "research_20261010/low_band/frontier/bilayer_4x4_g1d20_p1_M1_q3_trial.npz": "c85ba651b6491b8b3b26e35b3812c72968807db66e60d78d6ad33ee75b61c30f",
+    "research_20261010/low_band/frontier/bilayer_4x4_g1d20_p1_M1_q3_rejected_arpack_missing_modes_trial.npz": "f49613cb65a418d075a4cd8c68007e5c819eec66c10bd1db5a9fc277ddec17ed",
+    "research_20261010/low_band/frontier/bilayer_4x4_g1d20_p1_M1_q3_rejected_arpack_missing_modes_gram.json": "2f2882f6ace85da305486bc02bea1aced9bbf0d7f0402f24a404fa44d480eec9"
+  },
+  "rejected_proposal_cannot_meet_cutoff": true,
+  "seconds": 258.54081935900103,
+  "peak_rss_kib": 300592,
+  "limits": {
+    "cpu_count": 1,
+    "BLAS_threads": 1,
+    "address_space_bytes": 1073741824
+  }
+}

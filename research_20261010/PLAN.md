@@ -36,3 +36,9 @@ Spin2 kernels passed independent L3/L4 and exact-error audits, but full L10 trac
 The simplified inverse-moment/sector-Temple variant has also passed independent all-size review, yielding .282017228092/.180632156388/.104475599844.
 
 Next: derive practical trial-size/seed-size acceptance and exclusion criteria, independently audit small-seed all-temperature obstructions, and test g=.06 with reused moments before planning a second dressed triplet layer. Keep new work in separate directories from frozen inputs.
+
+## Milestone update — 14:24 EDT / 18:24 UTC
+
+The g=.06 temperature-first bootstrap, rigorously transported to the canonical staircase, passes independent physical, exact arithmetic and all-size review with gap .099555868340. No larger search space was needed. Practical trial-size budgets and fixed-six-vector residual floors are independently accepted. At .04/.05 the fixed canonical small-seed ladder is independently excluded at every beta, even with exact physical traces.
+
+Next: independently verify the new bosonic pair-creation tail estimate, test all-order extensions of the small-seed obstruction, and verify the spin2 finite-moment counterexample before considering any expensive heat inputs. Second dressed-triplet support expansion remains deferred while cheaper exact improvements are assessed.
