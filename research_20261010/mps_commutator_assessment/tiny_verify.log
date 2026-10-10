@@ -1,0 +1,117 @@
+{
+  "status": "PASS exact local tensors and tiny fixtures only; no n24 run",
+  "rows": [
+    {
+      "n": 2,
+      "Gram": [
+        [
+          "3228035587200",
+          "6456071174400"
+        ],
+        [
+          "6456071174400",
+          "12912142348800"
+        ]
+      ],
+      "H_form": [
+        [
+          "-6456071174400",
+          "-12912142348800"
+        ],
+        [
+          "-12912142348800",
+          "-25824284697600"
+        ]
+      ],
+      "Gram_determinant": "0",
+      "psi_Rayleigh": "-4",
+      "initial_Rayleigh": "-2",
+      "initial_energy_difference_display": 2.0,
+      "phi_support": 2,
+      "commutator_support": 2,
+      "commutator_H_action_support": 2,
+      "commutator_equals_current_direct": true,
+      "retained_span_dimension": 1,
+      "verdict": "Current vector is exactly dependent; no two-vector improvement."
+    },
+    {
+      "n": 4,
+      "Gram": [
+        [
+          "183801646485463487203840",
+          "183801646485463487203840"
+        ],
+        [
+          "183801646485463487203840",
+          "183801646485463487203840"
+        ]
+      ],
+      "H_form": [
+        [
+          "-919008232427317436019200",
+          "-919008232427317436019200"
+        ],
+        [
+          "-919008232427317436019200",
+          "-919008232427317436019200"
+        ]
+      ],
+      "Gram_determinant": "0",
+      "psi_Rayleigh": "-2871900726335366987560/478650124177622880287",
+      "initial_Rayleigh": "-5",
+      "initial_energy_difference_display": 0.9999999608683475,
+      "phi_support": 16,
+      "commutator_support": 16,
+      "commutator_H_action_support": 16,
+      "commutator_equals_current_direct": true,
+      "retained_span_dimension": 1,
+      "verdict": "Current vector is exactly dependent; no two-vector improvement."
+    },
+    {
+      "n": 6,
+      "Gram": [
+        [
+          "11856965999297513682386191270770816",
+          "9138684261619096213228049471300352"
+        ],
+        [
+          "9138684261619096213228049471300352",
+          "9436977918644294929706115797531904"
+        ]
+      ],
+      "H_form": [
+        [
+          "-93056129233461445685898898582008576",
+          "-69338530535332008370117653168183552"
+        ],
+        [
+          "-69338530535332008370117653168183552",
+          "-60619423852337808980670359607615744"
+        ]
+      ],
+      "Gram_determinant": "28378376283922257446899517665723615493580514919768464155350636789760",
+      "psi_Rayleigh": "-47597313862599459443896090996356/5523457612699500636186179480303",
+      "initial_Rayleigh": "-242333669878805848140361715057314/30877515623170608547880706434299",
+      "initial_energy_difference_display": 0.769079740737225,
+      "phi_support": 126,
+      "commutator_support": 126,
+      "commutator_H_action_support": 126,
+      "commutator_equals_current_direct": true,
+      "retained_span_dimension": 2,
+      "generalized_minimum_interval": [
+        "-32751639666652428663456035678621368532525589179777076001485067524251648071691457816947172593023756345503489667524185/4147504340374484356561120194344220164851959191830763747303694094508008193257775171621036135021080819188821787672576",
+        "-218344264444349524423040237857475790216837261198513840009900450161677653811276385446314483953491708970023264450161233/27650028935829895710407467962294801099013061278871758315357960630053387955051834477473574233473872127925478584483840"
+      ],
+      "fixed_rational_mixing_t": "-203357817/1000000000",
+      "mixed_Rayleigh": "-87710865668085521240477928388245374169842231826587/11107266682186553669501082916900992146174346474767",
+      "mixed_energy_difference_display": 0.7205939266054274,
+      "improvement_display": 0.04848581413179744,
+      "verdict": "Exact rational two-vector combination improves this small-size trial Rayleigh."
+    }
+  ],
+  "MPS_bond_dimension_safe_explicit_bound": 156,
+  "bound_explanation": "Open-chain nearest-neighbor sum has a four-channel D104 MPS; two explicit wrapping product terms add2D, giving a simple periodic direct-sum bound6D=156. Better compression may exist but is not asserted.",
+  "cpu_seconds": 0.7838166779999999,
+  "peak_kb": 22848,
+  "source_tensor_sha256": "3537af75de7e020cc29f984006d03a70f03d3a62a26ba2a2e9099d3d109b6a1c"
+}

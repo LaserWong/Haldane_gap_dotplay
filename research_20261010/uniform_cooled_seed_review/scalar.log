@@ -1,0 +1,30 @@
+{
+  "status": "PASS independent physical contractions and scalar inequalities; see analytic proof",
+  "rows": [
+    {
+      "seed_n": 60,
+      "gap": "51/5000",
+      "beta": "105/4",
+      "asymptotic_from": 960,
+      "accepted_scope": "all integer periodic L >= 60"
+    },
+    {
+      "seed_n": 56,
+      "gap": "17/2500",
+      "beta": "609/25",
+      "asymptotic_from": 1792,
+      "accepted_scope": "all integer periodic L >= 56"
+    },
+    {
+      "seed_n": 54,
+      "gap": "1/400",
+      "beta": "2373/100",
+      "asymptotic_from": 3456,
+      "accepted_scope": "all integer periodic L >= 54"
+    }
+  ],
+  "resources": {
+    "cpu_seconds": 0.17826299300000004,
+    "maxrss_kib": 12448
+  }
+}

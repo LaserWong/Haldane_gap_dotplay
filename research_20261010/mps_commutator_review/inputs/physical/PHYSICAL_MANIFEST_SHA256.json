@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN completed n24 physical current correlators; immutable",
+  "input_manifest_sha256": "6087283694d29f242b854bf0350f2e06f1d6fb0e894de2c38f283ab3052e5d0b",
+  "files": {
+    "INPUT_MANIFEST_SHA256.json": "6087283694d29f242b854bf0350f2e06f1d6fb0e894de2c38f283ab3052e5d0b",
+    "n24_checkpoint.json": "7716ec67e48126ec01a2beaf2a642c9fc383a042ad18b024c33675505b865487",
+    "n24_exact.out": "26b651c9f2fcfb09e93e671c077d141120b1586c6d301e85e22553ff020ee5fa",
+    "n24_progress.log": "eaa38496e5cfff8f9320bfb39191619ea67af30578f719d48f502acac37fee95",
+    "n24_run_1.log": "4447fa5ae52fe187cfd079741e7250769122f40ce654e5954a19aff3478e0547",
+    "n24_driver.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "contract_current_cached": "ad61357025f86f63a761512f4e6089790c08983ebab8e4f6518cbc9e06226bfc"
+  },
+  "measured_CPU_seconds": 795.063106,
+  "peak_KiB": 273096,
+  "queries": 37,
+  "exact_integers": 74,
+  "target": "only pi two-vector operator span; no all-momenta optimization"
+}

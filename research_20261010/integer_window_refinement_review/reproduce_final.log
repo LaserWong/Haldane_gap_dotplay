@@ -1,0 +1,58 @@
+Frozen input hashes PASS
+{
+  "status": "PASS_INDEPENDENT_LEMMA_AND_COMPLETE_PATHS",
+  "paths": [
+    {
+      "g": "21/100",
+      "gap": "26856243/250000000",
+      "onset": 128,
+      "windows": 5,
+      "status": "PASS"
+    },
+    {
+      "g": "11/50",
+      "gap": "71581253/1000000000",
+      "onset": 128,
+      "windows": 5,
+      "status": "PASS"
+    },
+    {
+      "g": "9/40",
+      "gap": "20723/400000",
+      "onset": 256,
+      "windows": 6,
+      "status": "PASS"
+    }
+  ],
+  "g025": {
+    "status": "FINITE_M2_THROUGH_M16_ONLY",
+    "gap": "1/100",
+    "beta": "1884/125",
+    "next_argument": 0.3870258342574809,
+    "next_b": -0.25422206217257126
+  },
+  "toy_tests": {
+    "checks": 9282,
+    "signed_checks": 7655,
+    "negative_dominant_counterexample": "[-10,1] has negative odd traces"
+  },
+  "adversarial_rejections": [
+    "oversized_gap",
+    "wrong_temperature",
+    "wrong_base",
+    "missing_window",
+    "optimistic_endpoint",
+    "wrong_onset",
+    "bad_terminal_u",
+    "odd_base",
+    "b_half",
+    "b_above_one",
+    "a_above_one",
+    "outside_window"
+  ],
+  "seconds": 10.069991350999771,
+  "peak_rss_kib": 11896,
+  "cpu_affinity": [
+    8
+  ]
+}

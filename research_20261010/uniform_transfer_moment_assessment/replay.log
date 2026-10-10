@@ -1,0 +1,58 @@
+{
+  "status": "PASS exact bounds; no new gap or seed certificate",
+  "caps": {
+    "trivial": 1.0024055573469253,
+    "complex": 0.7013948147085206,
+    "vector": 0.886398506316431
+  },
+  "Z24": 1.2384923205361136,
+  "Z48": 1.131484383791693,
+  "scan": [
+    [
+      10,
+      0.042577204234307275,
+      "no startup: first lower-bound G is nonpositive"
+    ],
+    [
+      12,
+      0.07295491819763986,
+      "no startup: first lower-bound G is nonpositive"
+    ],
+    [
+      14,
+      0.11642810753949848,
+      "no startup: first lower-bound G is nonpositive"
+    ],
+    [
+      16,
+      0.1715722953891358,
+      "no startup: first lower-bound G is nonpositive"
+    ],
+    [
+      20,
+      0.3011039641586685,
+      "no startup: first lower-bound G is nonpositive"
+    ],
+    [
+      24,
+      0.42557739924834254,
+      "no startup: second lower-bound G is nonpositive"
+    ],
+    [
+      36,
+      0.6129214405822564,
+      "no startup: second lower-bound G is nonpositive"
+    ],
+    [
+      60,
+      0.5577372213442588,
+      "no startup: second lower-bound G is nonpositive"
+    ]
+  ],
+  "resources": {
+    "cpu": 0,
+    "cpu_seconds": 1.23112007,
+    "maxrss_kib": 10752,
+    "memory_limit_bytes": 1073741824
+  }
+}

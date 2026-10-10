@@ -1,0 +1,218 @@
+{
+  "status": "PASS source/observable charge checks",
+  "cells": [
+    {
+      "id": 0,
+      "name": "normal",
+      "length": 1,
+      "bra": null,
+      "ket": null,
+      "nonzero_counts": [
+        25804,
+        0,
+        16200,
+        17640,
+        17640,
+        16200,
+        17640,
+        17640
+      ],
+      "max_abs_entry": "409600"
+    },
+    {
+      "id": 1,
+      "name": "plus_bra",
+      "length": 1,
+      "bra": [
+        "R",
+        0
+      ],
+      "ket": null,
+      "nonzero_counts": [
+        17640,
+        0,
+        8820,
+        17704,
+        8100,
+        8820,
+        17704,
+        8100
+      ],
+      "max_abs_entry": "409600"
+    },
+    {
+      "id": 2,
+      "name": "current_bra",
+      "length": 2,
+      "bra": [
+        "J",
+        0
+      ],
+      "ket": null,
+      "nonzero_counts": [
+        62608,
+        62608,
+        63992,
+        67403,
+        44336,
+        63992,
+        67403,
+        44336
+      ],
+      "max_abs_entry": "144886809600"
+    },
+    {
+      "id": 3,
+      "name": "current_ket",
+      "length": 2,
+      "bra": null,
+      "ket": [
+        "J",
+        0
+      ],
+      "nonzero_counts": [
+        62608,
+        62608,
+        63992,
+        44336,
+        67403,
+        63992,
+        44336,
+        67403
+      ],
+      "max_abs_entry": "144886809600"
+    },
+    {
+      "id": 4,
+      "name": "current_both",
+      "length": 2,
+      "bra": [
+        "J",
+        0
+      ],
+      "ket": [
+        "J",
+        0
+      ],
+      "nonzero_counts": [
+        64706,
+        64706,
+        64179,
+        52096,
+        52096,
+        64179,
+        52096,
+        52096
+      ],
+      "max_abs_entry": "289773619200"
+    },
+    {
+      "id": 5,
+      "name": "plus_first_current",
+      "length": 2,
+      "bra": [
+        "R",
+        0
+      ],
+      "ket": [
+        "J",
+        0
+      ],
+      "nonzero_counts": [
+        67403,
+        67350,
+        60898,
+        53392,
+        52096,
+        67137,
+        54808,
+        41144
+      ],
+      "max_abs_entry": "144886809600"
+    },
+    {
+      "id": 6,
+      "name": "plus_second_current",
+      "length": 2,
+      "bra": [
+        "R",
+        1
+      ],
+      "ket": [
+        "J",
+        0
+      ],
+      "nonzero_counts": [
+        67403,
+        67350,
+        67137,
+        54808,
+        41144,
+        60898,
+        53392,
+        52096
+      ],
+      "max_abs_entry": "144886809600"
+    },
+    {
+      "id": 7,
+      "name": "current_overlap_right",
+      "length": 3,
+      "bra": [
+        "J",
+        0
+      ],
+      "ket": [
+        "J",
+        1
+      ],
+      "nonzero_counts": [
+        77059,
+        77059,
+        77059,
+        68384,
+        67924,
+        77059,
+        67924,
+        68384
+      ],
+      "max_abs_entry": "35225434520294400"
+    },
+    {
+      "id": 8,
+      "name": "current_overlap_left",
+      "length": 3,
+      "bra": [
+        "J",
+        1
+      ],
+      "ket": [
+        "J",
+        0
+      ],
+      "nonzero_counts": [
+        77059,
+        77059,
+        77059,
+        67924,
+        68384,
+        77059,
+        68384,
+        67924
+      ],
+      "max_abs_entry": "35225434520294400"
+    }
+  ],
+  "observable_order": [
+    "identity",
+    "open internal H",
+    "first M",
+    "first R",
+    "first L",
+    "last M",
+    "last R",
+    "last L"
+  ],
+  "cpu_seconds": 25.609265247,
+  "peak_kb": 52772
+}

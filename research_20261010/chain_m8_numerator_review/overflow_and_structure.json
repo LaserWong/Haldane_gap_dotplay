@@ -1,0 +1,12 @@
+{
+  "integer_denominator": 144,
+  "local_metric_Hermiticity": true,
+  "maximum_image_bits": 107,
+  "maximum_local_integer_coefficient": 81,
+  "maximum_local_metric_product": 1679616,
+  "maximum_moment_bits": 237,
+  "maximum_valid_packed_state": "0x88888888",
+  "packed_state_bits": 32,
+  "status": "PASS",
+  "unbounded_integer_implementation": "All reconstructed action coefficients and contractions use Python int; all certificate matrices use Fraction. NumPy loads files only. Fixed-width state keys and local coefficients are separately range checked."
+}

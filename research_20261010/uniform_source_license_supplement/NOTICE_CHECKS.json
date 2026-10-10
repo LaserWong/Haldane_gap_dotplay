@@ -1,0 +1,106 @@
+{
+  "checked_utc": "2026-10-10T22:40:00Z",
+  "repository": "openai/math",
+  "checks": [
+    {
+      "scope": "repository root",
+      "url": "https://api.github.com/repos/openai/math/contents",
+      "entries": [
+        {
+          "name": "CONTENTS.md",
+          "sha": "2c68c086fff36a5806c936ad1659cf1a8d0b6dd9",
+          "type": "file"
+        },
+        {
+          "name": "LICENSE",
+          "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "type": "file"
+        },
+        {
+          "name": "README.md",
+          "sha": "50feb63d396138f30dc1ff1e0af121d0263bf5a3",
+          "type": "file"
+        },
+        {
+          "name": "history.md",
+          "sha": "693874f398905b1bc59e01b898b223ae9956bfc2",
+          "type": "file"
+        },
+        {
+          "name": "lean",
+          "sha": "b67b84636537041bf8da1e7263a827a5ab7ffba4",
+          "type": "dir"
+        },
+        {
+          "name": "overview.pdf",
+          "sha": "32338b9306cb07ba6575fdabb97dfa8cc342af9d",
+          "type": "file"
+        },
+        {
+          "name": "overview.tex",
+          "sha": "8f3b8cb6d5c4f5f7f0ac216b2c6db52b4b34b2fd",
+          "type": "file"
+        },
+        {
+          "name": "preprints",
+          "sha": "df0564b2deaab87e07854b6344d8c2f037682e77",
+          "type": "dir"
+        },
+        {
+          "name": "reasoning_traces",
+          "sha": "c513793951e2e481ac02aaeb0f6807162b017494",
+          "type": "dir"
+        }
+      ],
+      "notice_found": []
+    },
+    {
+      "scope": "preprint directory",
+      "url": "https://api.github.com/repos/openai/math/contents/preprints/The-periodic-spin-one-Haldane-gap-September-24-2026",
+      "entries": [
+        {
+          "name": ".gitignore",
+          "sha": "8f1ecb0ff7e24704a869aea80f94d3da2f3a5630",
+          "type": "file"
+        },
+        {
+          "name": "README.md",
+          "sha": "423cf5df5c78f42566e893edee0a52f466be0a50",
+          "type": "file"
+        },
+        {
+          "name": "build",
+          "sha": "5957415b7547ead9300e670c7dd49c950caac855",
+          "type": "dir"
+        },
+        {
+          "name": "paper.pdf",
+          "sha": "295e30d16bdddec53efe94e9d15afc37b372f8dc",
+          "type": "file"
+        },
+        {
+          "name": "verification",
+          "sha": "5412242c66633be277be6eb58b74eed3fb142f57",
+          "type": "dir"
+        }
+      ],
+      "notice_found": []
+    },
+    {
+      "scope": "preprints parent",
+      "url": "https://api.github.com/repos/openai/math/git/trees/df0564b2deaab87e07854b6344d8c2f037682e77",
+      "sha": "df0564b2deaab87e07854b6344d8c2f037682e77",
+      "truncated": false,
+      "entry_count": 749,
+      "notice_found": []
+    },
+    {
+      "scope": "build subtree",
+      "url": "https://api.github.com/repos/openai/math/git/trees/5957415b7547ead9300e670c7dd49c950caac855?recursive=1",
+      "sha": "5957415b7547ead9300e670c7dd49c950caac855",
+      "truncated": false,
+      "entry_count": 11,
+      "notice_found": []
+    }
+  ]
+}

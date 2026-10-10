@@ -1,0 +1,138 @@
+[
+  {
+    "file": "packed_input.txt",
+    "lowering_counterexample": {
+      "labels": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "nonzero_coefficient": "-3598421059058319090",
+      "packed_state": 5
+    },
+    "lowering_support": 66463,
+    "lowering_zero": false,
+    "magnetization_zero": true,
+    "raising_counterexample": {
+      "labels": [
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "nonzero_coefficient": "-3598421059058319090",
+      "packed_state": 7
+    },
+    "raising_support": 66463,
+    "raising_zero": false,
+    "reflection_counterexample": {
+      "labels": [
+        2,
+        0,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "original_coefficient": "6595507365766946947559",
+      "packed_state": 66306,
+      "transformed_coefficient": "6595507362780293883655"
+    },
+    "reflection_even": false,
+    "translation_counterexample": {
+      "labels": [
+        4,
+        8,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "original_coefficient": "2262993038127285065811",
+      "packed_state": 8324,
+      "transformed_coefficient": "2262993041113938129715"
+    },
+    "translation_even": false
+  },
+  {
+    "file": "packed_old_direction.txt",
+    "lowering_counterexample": {
+      "labels": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "nonzero_coefficient": "428310",
+      "packed_state": 5
+    },
+    "lowering_support": 66448,
+    "lowering_zero": false,
+    "magnetization_zero": true,
+    "raising_counterexample": {
+      "labels": [
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "nonzero_coefficient": "428310",
+      "packed_state": 7
+    },
+    "raising_support": 66448,
+    "raising_zero": false,
+    "reflection_counterexample": {
+      "labels": [
+        2,
+        2,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "original_coefficient": "-140294244568",
+      "packed_state": 77858,
+      "transformed_coefficient": "-140294244569"
+    },
+    "reflection_even": false,
+    "translation_counterexample": {
+      "labels": [
+        3,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "original_coefficient": "-140294244568",
+      "packed_state": 139283,
+      "transformed_coefficient": "-140294244569"
+    },
+    "translation_even": false
+  }
+]

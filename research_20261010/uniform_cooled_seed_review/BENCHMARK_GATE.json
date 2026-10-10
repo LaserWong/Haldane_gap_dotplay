@@ -1,0 +1,11 @@
+{
+  "benchmark_length": 48,
+  "cpu_seconds": 9.21195,
+  "rss_kib": 10848,
+  "exact_match": true,
+  "approved_next": "sequential through120 with outputs104/108/112/120",
+  "estimated_cpu_seconds_upper": 100,
+  "CPU_limit_seconds": 600,
+  "memory_limit_MiB": 700,
+  "note": "Initial benchmark comparison used a wrong relative path; corrected comparison passed immediately. Benchmark computation completed before longer run; future reproduction uses set -e."
+}

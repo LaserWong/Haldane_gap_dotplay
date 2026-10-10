@@ -1,0 +1,56 @@
+{
+  "fixed_64bit_wrap_detected": true,
+  "rejected_count": 12,
+  "seconds": 0.007187275001342641,
+  "status": "PASS",
+  "tests": [
+    {
+      "status": "REJECTED",
+      "test": "missing leaked action state"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong large-image coefficient"
+    },
+    {
+      "status": "REJECTED",
+      "test": "duplicate image state"
+    },
+    {
+      "status": "REJECTED",
+      "test": "out-of-range packed state"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong integer Hamiltonian denominator"
+    },
+    {
+      "status": "REJECTED",
+      "test": "missing local physical coupling"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong trial Gram entry"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong contracted H entry"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong exact Rayleigh quotient"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong whole-span exclusion pivot"
+    },
+    {
+      "status": "REJECTED",
+      "test": "dependent trial Gram masquerading as rank four"
+    },
+    {
+      "status": "REJECTED",
+      "test": "unsafe raised Rayleigh lower threshold"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "COST_PROBE_ONLY",
+  "input_support": 43294,
+  "benchmark_columns": 1000,
+  "benchmark_weak_transitions": 58542,
+  "benchmark_unique_outputs": 47208,
+  "benchmark_cpu_seconds": 0.8798449289999999,
+  "estimated_full_first_action_cpu_seconds": 38.09200635612599,
+  "known_same_graph_union_upper": 245870,
+  "conservative_next_contraction_transition_estimate": 14393721.54,
+  "estimated_next_contraction_cpu_seconds": 865.3098907729199,
+  "packed_state_bits": 32,
+  "integer_coefficient_max_bits": 84,
+  "H_integer_denominator": 144,
+  "peak_rss_kib": 41272,
+  "AS_limit_bytes": 734003200,
+  "cpu_affinity": [
+    3
+  ],
+  "next_design": "Compute full phi=den*H*psi on packed states; contract <phi,H phi> only within phi support, without materializing H^2 psi or a new residual; exact Gram and first moments certify a 2D Rayleigh-only span."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS authorization gate for one n24 pi-only run",
+  "benchmark_n": 12,
+  "benchmark_queries": [
+    "mix:0",
+    "mix:5",
+    "mix:6",
+    "mix:7",
+    "jj:1",
+    "jj:6"
+  ],
+  "benchmark_CPU_seconds": 59.992,
+  "benchmark_peak_KiB": 221440,
+  "projection": "4x maximum observed n12 query cost for length doubling and integer-limb growth, applied to all37 n24 queries; prefix caching can reduce actual cost.",
+  "projected_n24_CPU_seconds": 1885.1944,
+  "projected_n24_peak_MiB": 432.5,
+  "authorized_CPU_seconds": 2400,
+  "authorized_memory_MiB": 700,
+  "n24_queries": 37,
+  "target": "pi-only2x2 Gram/H; no other momentum minimization",
+  "checkpoint": "n24_checkpoint.json saves each completed exact C/K record atomically; source hashes checked before resumption"
+}

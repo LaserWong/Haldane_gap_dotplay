@@ -1,0 +1,12 @@
+{
+  "status": "Authorized by parent after measured benchmark",
+  "n12_max_per_case_CPU_seconds": 16.0746,
+  "projected_n24_total_CPU_seconds": 2379.0408,
+  "projection": "Four times maximum measured n12 case for length/limb growth, applied to37 cases",
+  "projected_peak_MiB": 354.3828125,
+  "hard_campaign_CPU_seconds": 2400,
+  "hard_address_space_MiB": 700,
+  "CPU_affinity": 1,
+  "checkpoint": "independent_n24_checkpoint.json",
+  "scope": "One q=pi two-vector Gram/H independent replay only; no all-momentum minimization"
+}

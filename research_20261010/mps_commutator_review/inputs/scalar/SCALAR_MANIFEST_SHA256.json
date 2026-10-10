@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN pi-only two-vector assembly and exact scalar exclusion; independent review pending",
+  "physical_manifest_sha256": "26776479ce1ed73f62366f34d86115f909f8ee9fb2bcb8e095724b12d8cd0d7e",
+  "files": {
+    "assemble_pi.py": "dc69b02a3b1e034223fbee497bad0bae0702acfd43e9825f3d1db45b26c1fd64",
+    "verify_pi_scalar.py": "306cf85b6209a783520ee4c72bec68b8434cca15a50ac9da9d5d078b6cc0f7db",
+    "pi_two_vector_results.json": "65495cd4360d76f0e00212fe43f353392b5b22380910aa47f4b2d6e19ecc1cb5",
+    "pi_trace_cases.json": "b238ac5e71438ba23f160242d3ee7ca20e627654ac63ffebc0119853c3fcfd4a",
+    "pi_scalar_results.json": "989c91d647f54ea3fbb1f50fbda2bb6c5b54cca5cbf17acdf147f9f8df07d8b8",
+    "pi_assemble.log": "c7a9a3c790d56a20e82c98f34b1a555a5dd2ed79e9ef0a21db5e4f75f5aa8772",
+    "pi_scalar.log": "94005c7eae996ba41224d9d4be0b3c94d66f78b12f227af854b943002c40b4b2"
+  },
+  "external_dependencies": {
+    "research_20261010/mps_excited_seed_witnesses/verify_scalar.py": "8756c640ca81052ec6eed351e19991ec8d54590617d80ccada355e7c68c849db",
+    "research_20261010/mps_excited_seed_witnesses/contractions_n24.out": "e9dd06b186f68e70b2cdbe0bb909391379778e6a0f75612289436a228d3f0876",
+    "research_20261010/mps_excited_seed_witnesses/singlet_completion/fourier_witness_data.json": "b6d37f8f7407355c585f3b5bb4573df32471c1858273d6a0bce2c7ebf1408ad4"
+  }
+}

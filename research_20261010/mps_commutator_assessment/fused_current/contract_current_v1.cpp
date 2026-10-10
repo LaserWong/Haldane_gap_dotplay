@@ -1,0 +1,24 @@
+// Fused current-source cells. Exact Hamiltonian MPO via internal and edge terms.
+#include <gmpxx.h>
+#include <array>
+#include <vector>
+#include <fstream>
+#include <iostream>
+#include <cassert>
+#include <ctime>
+#include <sys/resource.h>
+#include <sched.h>
+using Z=mpz_class;constexpr int NG=11;int dim[NG];
+struct Elt{int j;Z v;bool small;long sl;};
+struct Sparse{int shift=0;std::array<std::vector<std::vector<Elt>>,NG>a;};
+struct Block{int nr=0,nc=0;std::vector<Z>x;Block()=default;Block(int r,int c):nr(r),nc(c),x(r*c){}};
+struct Dense{int shift;std::array<Block,NG>a;explicit Dense(int s):shift(s){for(int g=0;g<NG;g++)if(g+s>=0&&g+s<NG)a[g]=Block(dim[g],dim[g+s]);}};
+void addval(Z&z,const Z&a,const Elt&v){if(v.small){if(v.sl>0)mpz_addmul_ui(z.get_mpz_t(),a.get_mpz_t(),v.sl);else mpz_submul_ui(z.get_mpz_t(),a.get_mpz_t(),-v.sl);}else mpz_addmul(z.get_mpz_t(),a.get_mpz_t(),v.v.get_mpz_t());}
+void addprod(Dense&C,const Dense&A,const Sparse&B){assert(C.shift==A.shift+B.shift);for(int g=0;g<NG;g++){int h=g+A.shift;if(h<0||h>=NG)continue;const auto&a=A.a[g];auto&c=C.a[g];if(!a.nr||!c.nc)continue;for(int i=0;i<a.nr;i++)for(int k=0;k<a.nc;k++)if(a.x[i*a.nc+k]!=0)for(auto&e:B.a[h][k])addval(c.x[i*c.nc+e.j],a.x[i*a.nc+k],e);}}
+Dense mul(const Dense&A,const Sparse&B){Dense C(A.shift+B.shift);addprod(C,A,B);return C;}
+Dense identity(){Dense p(0);for(int g=0;g<NG;g++)for(int i=0;i<dim[g];i++)p.a[g].x[i*dim[g]+i]=1;return p;}
+Z trace(const Dense&A){assert(A.shift==0);Z z;for(int g=0;g<NG;g++)for(int i=0;i<dim[g];i++)z+=A.a[g].x[i*dim[g]+i];return z;}
+Z trprod(const Dense&A,const Sparse&B){assert(A.shift+B.shift==0);Z z;for(int g=0;g<NG;g++){int h=g+A.shift;if(h<0||h>=NG)continue;const auto&a=A.a[g];for(int k=0;k<a.nc;k++)for(auto&e:B.a[h][k])addval(z,a.x[e.j*a.nc+k],e);}return z;}
+struct Cell{int len;std::array<Sparse,8>e;};
+std::vector<int> cells(int n,const std::string&type,int r){assert(n>=4&&r>=0&&r<n);std::vector<int>seq;auto normal=[&](int count){for(int i=0;i<count;i++)seq.push_back(0);};if(type=="mix"){if(r==0){seq.push_back(5);normal(n-2);}else if(r==n-1){seq.push_back(6);normal(n-2);}else{seq.push_back(1);normal(r-1);seq.push_back(3);normal(n-r-2);}}else{assert(type=="jj");if(r==0){seq.push_back(4);normal(n-2);}else if(r==1){seq.push_back(7);normal(n-3);}else if(r==n-1){seq.push_back(8);normal(n-3);}else{seq.push_back(2);normal(r-2);seq.push_back(3);normal(n-r-2);}}return seq;}
+int main(int argc,char**argv){if(argc<4)return 2;rlimit mem{700ul*1024*1024,700ul*1024*1024},cpu{2400,2400};setrlimit(RLIMIT_AS,&mem);setrlimit(RLIMIT_CPU,&cpu);cpu_set_t cp;CPU_ZERO(&cp);sched_getaffinity(0,sizeof(cp),&cp);int selected=-1;for(int i=0;i<CPU_SETSIZE;i++)if(CPU_ISSET(i,&cp))selected=i;CPU_ZERO(&cp);CPU_SET(selected,&cp);sched_setaffinity(0,sizeof(cp),&cp);clock_t t0=clock();std::ifstream f(argv[1]);std::array<int,676>group,loc;for(int i=0;i<676;i++){int q;f>>q;group[i]=(q+10)/2;loc[i]=dim[group[i]]++;}int count;f>>count;std::vector<Cell>data(count);for(int c=0;c<count;c++){int id;f>>id>>data[c].len;assert(id==c);for(auto&s:data[c].e){int nz;f>>s.shift>>nz;for(int g=0;g<NG;g++)s.a[g].resize(dim[g]);for(int k=0;k<nz;k++){int i,j;Z v;f>>i>>j>>v;assert(group[j]-group[i]==s.shift);bool small=mpz_fits_slong_p(v.get_mpz_t());long sl=small?v.get_si():0;s.a[group[i]][loc[i]].push_back({loc[j],v,small,sl});}}}assert(f.good());int n=std::stoi(argv[2]);const int tailidx[3]={5,6,7},headidx[3]={2,4,3};for(int arg=3;arg<argc;arg++){std::string token=argv[arg];auto pos=token.find(':');assert(pos!=std::string::npos);std::string type=token.substr(0,pos);int r=std::stoi(token.substr(pos+1));auto seq=cells(n,type,r);int length=0;for(int id:seq)length+=data[id].len;assert(length==n&&seq.size()>=2);clock_t t=clock();const Cell&first=data[seq[0]];Dense one=identity(),p=mul(one,first.e[0]),q=mul(one,first.e[1]);std::vector<Dense>tail,head;for(int a=0;a<3;a++){tail.push_back(mul(one,first.e[tailidx[a]]));head.push_back(mul(one,first.e[headidx[a]]));}Z seam;for(int j=1;j<(int)seq.size();j++){const Cell&cell=data[seq[j]];bool last=j+1==(int)seq.size();Dense pn=mul(p,cell.e[0]),qn=mul(q,cell.e[0]);addprod(qn,p,cell.e[1]);for(int a=0;a<3;a++)addprod(qn,tail[a],cell.e[headidx[a]]);if(last){for(int a=0;a<3;a++)seam+=trprod(head[a],cell.e[tailidx[a]]);}else{std::vector<Dense>tn,hn;for(int a=0;a<3;a++){tn.push_back(mul(p,cell.e[tailidx[a]]));hn.push_back(mul(head[a],cell.e[0]));}tail=std::move(tn);head=std::move(hn);}p=std::move(pn);q=std::move(qn);}std::cout<<"C_"<<type<<"_"<<n<<"_"<<r<<"="<<trace(p)<<"\nK_"<<type<<"_"<<n<<"_"<<r<<"="<<trace(q)+seam<<"\n";std::cout.flush();rusage u;getrusage(RUSAGE_SELF,&u);std::cerr<<"n="<<n<<" type="<<type<<" r="<<r<<" CPU_seconds="<<double(clock()-t)/CLOCKS_PER_SEC<<" peak_KiB="<<u.ru_maxrss<<"\n";}rusage u;getrusage(RUSAGE_SELF,&u);std::cerr<<"FINAL CPU_seconds="<<double(clock()-t0)/CLOCKS_PER_SEC<<" peak_KiB="<<u.ru_maxrss<<"\n";}

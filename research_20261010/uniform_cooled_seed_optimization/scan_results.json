@@ -1,0 +1,131 @@
+{
+  "status": "FLOATING proposal scan only; absence of candidate is not exclusion",
+  "anchor_assumption": "Uses only hypothetical/proved shifted ground Boltzmann weight >1; exact selected anchors separately verified",
+  "base_even_lengths": [
+    16,
+    40
+  ],
+  "cooling_ratios": {
+    "start": "3/2",
+    "end": "16/5",
+    "step": "1/50"
+  },
+  "rows": [
+    {
+      "n": 40,
+      "positive_candidates": 0,
+      "best_gap_candidate": null
+    },
+    {
+      "n": 42,
+      "positive_candidates": 0,
+      "best_gap_candidate": null
+    },
+    {
+      "n": 44,
+      "positive_candidates": 0,
+      "best_gap_candidate": null
+    },
+    {
+      "n": 46,
+      "positive_candidates": 0,
+      "best_gap_candidate": null
+    },
+    {
+      "n": 48,
+      "positive_candidates": 0,
+      "best_gap_candidate": null
+    },
+    {
+      "n": 50,
+      "positive_candidates": 0,
+      "best_gap_candidate": null
+    },
+    {
+      "n": 52,
+      "positive_candidates": 0,
+      "best_gap_candidate": null
+    },
+    {
+      "n": 54,
+      "positive_candidates": 9,
+      "best_gap_candidate": {
+        "l": 28,
+        "n": 54,
+        "r": 2.26,
+        "S": 0.8633732025756993,
+        "T": 0.883355350322222,
+        "t": 0.9994985678021483,
+        "D": 1.4460143087889492,
+        "E": 1.1644978424497976,
+        "final": [
+          3456,
+          1518.7199999999998,
+          0.0026392892731039474,
+          6
+        ]
+      }
+    },
+    {
+      "n": 56,
+      "positive_candidates": 58,
+      "best_gap_candidate": {
+        "l": 28,
+        "n": 56,
+        "r": 2.32,
+        "S": 0.8721425353086381,
+        "T": 0.8808886182715397,
+        "t": 0.9995827765460085,
+        "D": 1.4602424186393297,
+        "E": 1.1692155499193548,
+        "final": [
+          1792,
+          779.52,
+          0.007330488435804333,
+          5
+        ]
+      }
+    },
+    {
+      "n": 58,
+      "positive_candidates": 82,
+      "best_gap_candidate": {
+        "l": 28,
+        "n": 58,
+        "r": 2.4,
+        "S": 0.8777503575393564,
+        "T": 0.88064407319374,
+        "t": 0.9996351717072216,
+        "D": 1.479431244138353,
+        "E": 1.1755355708742032,
+        "final": [
+          928,
+          403.2,
+          0.009108218098360304,
+          4
+        ]
+      }
+    },
+    {
+      "n": 60,
+      "positive_candidates": 99,
+      "best_gap_candidate": {
+        "l": 28,
+        "n": 60,
+        "r": 2.48,
+        "S": 0.8827601827000451,
+        "T": 0.8800191912390689,
+        "t": 0.999678344934486,
+        "D": 1.4988722271006385,
+        "E": 1.1818897537634123,
+        "final": [
+          960,
+          416.64,
+          0.010759690854286517,
+          4
+        ]
+      }
+    }
+  ],
+  "cpu_seconds": 0.7337735790000001
+}

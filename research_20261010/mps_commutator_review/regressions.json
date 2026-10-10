@@ -1,0 +1,16 @@
+{
+  "status": "PASS all physical, arithmetic, scalar and immutability regressions",
+  "checks": {
+    "frozen_tiny": "6b705b20d0fac3cd71bbdeee0167fbe02e8d61f5f969b9333688077dc4474180",
+    "frozen_fused": "6087283694d29f242b854bf0350f2e06f1d6fb0e894de2c38f283ab3052e5d0b",
+    "frozen_physical": "26776479ce1ed73f62366f34d86115f909f8ee9fb2bcb8e095724b12d8cd0d7e",
+    "frozen_scalar": "421a8317bd2b6336424e84aff5ca6266b9c9fc6d40e37a4c0df03c52c5310d92",
+    "prior_mps_excited_seed_review": "1755b6ac3ecb360aa968b4fc54a4bda22d13332a41ce4742dc7179cb783d41cb",
+    "prior_mps_excited_seed_review/longitudinal_extension": "eff776cb9ef97ee18b99325e66eeae5d28a9e8a51052f746dc1deebffbfcb570",
+    "prior_mps_excited_seed_review/momentum_extension": "639a16eb3b6961e82384a9860b6d557edfbafaaaf1cba618b475168c21addfe9"
+  },
+  "exact_n24_pairs": 37,
+  "exact_n24_integers": 74,
+  "recorded_replay_CPU_seconds": 916.159699877,
+  "peak_child_KiB": 195716
+}

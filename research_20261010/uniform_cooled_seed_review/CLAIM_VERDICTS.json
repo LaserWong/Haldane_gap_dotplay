@@ -1,0 +1,35 @@
+{
+  "status": "ACCEPTED independent physical, scalar, and analytic review",
+  "model": "uniform periodic spin-1 Heisenberg, bilinear coefficient1",
+  "rows": [
+    {
+      "gap": "51/5000",
+      "beta": "105/4",
+      "all_integer_L_at_least": 60,
+      "unique_ground_state": true,
+      "asymptotic_from": 960
+    },
+    {
+      "gap": "17/2500",
+      "beta": "609/25",
+      "all_integer_L_at_least": 56,
+      "unique_ground_state": true,
+      "asymptotic_from": 1792
+    },
+    {
+      "gap": "1/400",
+      "beta": "2373/100",
+      "all_integer_L_at_least": 54,
+      "unique_ground_state": true,
+      "asymptotic_from": 3456
+    }
+  ],
+  "generalized_sector_power_lemma": "PASS for every real q>=1 under stated sector mass constraints",
+  "staggering": "S(n,beta), T(2n,beta) advances to S(2n,2beta), T(4n,2beta)",
+  "signed_odd_integer_bridge": "PASS under inherited exact all-integer thermal transfer identity",
+  "below_L54": "NOT CLAIMED",
+  "minimal_seed": "NOT CLAIMED",
+  "n52_float_scan_failure": "NOT AN EXCLUSION",
+  "inherited": "nine audited beta21/2 physical heat certificates, real self-adjoint Hilbert-Schmidt transfer, A4 identification",
+  "producer_manifest_sha256": "13c41cfac38c43a6199bfceebc98be4379773c733d1c59dfdb93af03881a037c"
+}

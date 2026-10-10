@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "raw_paths": 18,
+  "unique_contents": 9,
+  "checks": [
+    "clean restoration of all 18 original paths",
+    "all 18 original producer/review seal entries and modes replayed",
+    "idempotence and verify-only",
+    "reject wrong transport part hash",
+    "reject wrong combined gzip hash",
+    "reject wrong raw hash",
+    "reject raw byte overflow",
+    "reject path traversal",
+    "refuse differing existing file",
+    "refuse symlink destination"
+  ]
+}

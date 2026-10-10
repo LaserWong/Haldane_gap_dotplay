@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T22:04:00Z",
+  "updated_at_utc": "2026-10-10T22:34:23Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -8,7 +8,7 @@
   "source_commit": "6be889a30f642bde77fb89af75b3a7379615bed1",
   "historical_pause_file": "PAUSED.json",
   "report_interval_hours": 5,
-  "next_report_local": "2026-10-10T18:15:00-04:00",
+  "next_report_local": "2026-10-10T23:15:00-04:00",
   "tasks": [
     {
       "id": "chain_frontier_review",
@@ -44,7 +44,9 @@
     },
     {
       "id": "overview",
-      "status": "stage10_frozen_verified"
+      "status": "stage11_locally_frozen_post_freeze_replay_passed_stage10_last_remotely_verified",
+      "path": "research_20261010/overview_stage11/README.md",
+      "manifest_sha256": "46691981a4e687d26cb5cff86b63c1355dd695f2c8957394d7b842b01576be7a"
     },
     {
       "id": "trial_size_criteria",
@@ -135,20 +137,20 @@
     },
     {
       "id": "mps_excited_seed_core",
-      "status": "independently_verified_n14_n16_n20_fixed_recipe_exclusions_n24_unresolved_window",
+      "status": "historical_n24_unresolved_window_superseded_by_current_and_direct_window_scoped_all_beta_exclusions",
       "review_manifest_sha256": "1755b6ac3ecb360aa968b4fc54a4bda22d13332a41ce4742dc7179cb783d41cb"
     },
     {
       "id": "mps_momentum_70_state",
-      "status": "independently_verified_n24_70_orthogonal_states_recipe_screen_unresolved",
-      "unresolved_beta": [
+      "status": "historical_window_superseded_by_current_and_direct_window_scoped_all_beta_exclusions",
+      "historical_unresolved_beta": [
         "539/64",
         "339/32"
       ]
     },
     {
       "id": "bilayer_g010_diagnostics",
-      "status": "independently_verified_scoped_moment_bounds_and_conditional_bottleneck_no_gap_certificate"
+      "status": "historical_diagnostic_superseded_by_complete_residual_g010_and_continuous_010_certificates"
     },
     {
       "id": "bilayer_complete_residual_g010",
@@ -165,8 +167,71 @@
       "status": "independently_verified_entire_0_to_0.10_all_L_ge2",
       "uniform_gap_lower_bound": "0.001945771244",
       "review_manifest_sha256": "d6eb3e4ce912086fe66dc1eb2917c3ae7381bc6a527a939b99229b97b863f3e5"
+    },
+    {
+      "id": "integer_window_refinement",
+      "status": "independently_verified_chain_g021_g022_g0225_all_M_ge2_g025_only_M2_through16",
+      "review_manifest_sha256": "2bb3672253a96a570aef1afa41d086ec35db3b673d04e3fbc4d27f0a83bf5110"
+    },
+    {
+      "id": "chain_m8_numerator",
+      "status": "independently_verified_rank4_arbitrary_vector_Rayleigh_and_scoped_old_recipe_obstruction",
+      "review_manifest_sha256": "d7a17b286228f71c655a1314fa66c6d27edb1fc52a6c32c24db82ffbbe4a50ec"
+    },
+    {
+      "id": "chain_numerator_pair_block",
+      "status": "independently_verified_ranks9_13_17_with_explicit_symmetry_scope_erratum",
+      "review_manifest_sha256": "e87cb666a153b3531ebf9654aacb0f20db726a8aa93f6a25375f74d7850629f1"
+    },
+    {
+      "id": "uniform_transfer_moments",
+      "status": "independently_verified_improved_trace_caps_no_new_gap",
+      "review_manifest_sha256": "aa19d8fd83ab4f094c07b9d047c2cfa3e1201785e82a0170e3c3b0a937a9e028"
+    },
+    {
+      "id": "mps_current",
+      "status": "independently_verified_full_physical_PASS_74_integers_70_73_state_scoped_old_recipe_all_beta_exclusions",
+      "review_manifest_sha256": "9e5b78e1a5ad8c77383773b83d086a5660f20cbe4c8d4df110c2d161490800e0"
+    },
+    {
+      "id": "mps_direct_window",
+      "status": "independently_verified_each_even_n6_through24_scoped_delayed_and_canonical_continuation_exclusion",
+      "review_manifest_sha256": "67f8d45934ca4f7e44ca3e8e841615aabd1a27f645ce35311142bcf4bdee04b8"
+    },
+    {
+      "id": "mps_even_completion",
+      "status": "independently_verified_n18_n22_specified_old_recipe_all_beta_exclusions",
+      "review_manifest_sha256": "838ace735be490199875f759ee35527c68bf888b20c14bafc264a81ad3935b04"
+    },
+    {
+      "id": "uniform_cooled_seed_optimization",
+      "status": "independently_verified_all_three_nested_integer_ranges_and_unique_ground_states",
+      "limitations": "Inherits nine certified heat traces and self-adjoint transfer identification; fresh independent D26 anchors. No claim below L54 and no minimum-seed theorem.",
+      "accepted_bounds": [
+        {
+          "n": 60,
+          "gap": "0.0102",
+          "scope": "all_integer_L_ge60"
+        },
+        {
+          "n": 56,
+          "gap": "0.0068",
+          "scope": "all_integer_L_ge56"
+        },
+        {
+          "n": 54,
+          "gap": "0.0025",
+          "scope": "all_integer_L_ge54"
+        }
+      ],
+      "review_manifest_sha256": "a5b5f3b35d67f69f555455143e8e5c70beaff46aba2469705c3e22eb7c00a5d7"
     }
   ],
-  "verification": "Ordinary bilayer entire 0<=g<=0.10: gap>=0.001945771244 for every integer L>=2. Discrete g=0.10: gap>=0.038976038275. Latest denominator ground searches11/43, total trial dimensions59/139 and retained49/97; largest43D search retains one numerator. Spin-1 alternating chain g=0.225: gap>=0.045509923956 for every integer M>=2. Its g=0.25 old-numerator/early-window obstruction is scoped and independently accepted. Uniform spin-1 fixed D26 screens exclude specified recipes through listed n<=20; the accepted70-state n24 screen leaves [539/64,339/32] unresolved. Current-operator and new chain-numerator constructions remain under investigation.",
-  "last_verified_remote_commit": "46f6c7348d7fb1bc67ba05991f10988bee7dd155"
+  "verification": "Ordinary bilayer entire 0<=g<=0.10 unchanged: gap>=0.001945771244 for every integer L>=2; discrete g=.10 gap>=.038976038275. Alternating spin-1 chain g=.21/.22/.225: gaps>=.107424972/.071581253/.051807500 for every integer M>=2. At g=.25 only M=2..16 has gap>=.01; no all-size certificate. Exact direct-window lemma and producer prose erratum accepted. M8 rank4/9/13/17 arbitrary-vector Rayleigh inputs remain valid; inherited rounded psi/u are not exact singlets or spatial-symmetry eigenvectors. Only added pair directions and their pair-derived H descendants have exact claimed symmetry. Uniform transfer moments improve trace caps, not the gap. MPS current review fully PASS: trial-energy difference .4238202243082572 is not a physical gap. Each even n6..24 specified delayed/canonical continuation excluded, with n24 70/73 alternatives; no exact physical-purity upper-bound or universal minimum-seed claim. Uniform periodic unit-coupling spin-1 Heisenberg chain: cooled n60/n56/n54 independently accepted gaps .0102 for every integer L>=60, .0068 for L>=56, .0025 for L>=54, each with unique ground state. No claim below L54 or minimum seed.",
+  "last_verified_remote_commit": "f89164be50de9b5e868d08b80bd178eaca4b9a1a",
+  "last_report_utc": "2026-10-10T22:15:12Z",
+  "last_report_local": "2026-10-10T18:15:12-04:00",
+  "next_report_utc": "2026-10-11T03:15:00Z",
+  "updated_at_local": "2026-10-10T18:34:23-04:00",
+  "prepared_stage": 11
 }

@@ -1,0 +1,28 @@
+{
+  "status": "PASS independent relaxed paths with independently sealed physical dependencies",
+  "scope": "Existing G startup, any whole time-first delays, then inherited same-base P>=0.99 sufficient closure or accepted canonical continuation; all finite bridges granted. No universal necessity of 0.99, no exclusion of other recursions/closures or arbitrary adaptive switching.",
+  "n24_joint_upper_max": "67405815361500103955538366684667631716002517746327/100000000000000000000000000000000000000000000000000",
+  "n24_joint_upper_max_display": 0.674058153615001,
+  "n24_max_positive_physical_base": 96,
+  "CPU_seconds": 0.338829002,
+  "peak_KiB": 78908,
+  "separately_checked_n": [
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24
+  ],
+  "n24_retained_states": [
+    70,
+    73
+  ],
+  "all_finite_windows_granted": true,
+  "universal_necessary_threshold_claim": false,
+  "all_permitted_continuation_paths_fail": true
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/mps_commutator_review/run_independent_n24.py", line 29, in <module>
+    child=subprocess.Popen(['./independent_contract','inputs/fused/cells.txt','24',*pending],stdout=subprocess.PIPE,stderr=err,text=True,bufsize=1,preexec_fn=lambda:resource.setrlimit(resource.RLIMIT_CPU,(remaining,remaining)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1958, in _execute_child
+    raise child_exception_type(err_msg)
+subprocess.SubprocessError: Exception occurred in preexec_fn.

@@ -1,0 +1,74 @@
+{
+  "one_core": 1,
+  "affinity_CPU": 1,
+  "large_replay_cap_CPU_seconds": 2400,
+  "large_replay_cap_KiB": 716800,
+  "large_replay": [
+    {
+      "started_UTC": "2026-10-10T22:05:32Z",
+      "pending_queries": [
+        "mix:0",
+        "mix:1",
+        "mix:2",
+        "mix:3",
+        "mix:4",
+        "mix:5",
+        "mix:6",
+        "mix:7",
+        "mix:8",
+        "mix:9",
+        "mix:10",
+        "mix:11",
+        "mix:12",
+        "mix:13",
+        "mix:14",
+        "mix:15",
+        "mix:16",
+        "mix:17",
+        "mix:18",
+        "mix:19",
+        "mix:20",
+        "mix:21",
+        "mix:22",
+        "mix:23",
+        "jj:0",
+        "jj:1",
+        "jj:2",
+        "jj:3",
+        "jj:4",
+        "jj:5",
+        "jj:6",
+        "jj:7",
+        "jj:8",
+        "jj:9",
+        "jj:10",
+        "jj:11",
+        "jj:12"
+      ],
+      "child_hard_CPU_cap_seconds": 2388,
+      "exit_code": 0,
+      "child_CPU_seconds": 914.565805,
+      "driver_CPU_seconds": 0.593894877,
+      "peak_child_KiB": 195716
+    }
+  ],
+  "recorded_large_replay_total_CPU_seconds": 916.159699877,
+  "startup_allowance_CPU_seconds": 1,
+  "tiny": {
+    "CPU_seconds": 5.146583631,
+    "peak_KiB": 22616
+  },
+  "cells": {
+    "CPU_seconds": 67.80120417699999,
+    "peak_KiB": 37508
+  },
+  "fsum": {},
+  "assembly": {
+    "CPU_seconds": 0.0027185419999999974,
+    "peak_KiB": 9600
+  },
+  "scalar": {
+    "CPU_seconds": 22.916113162000002,
+    "peak_KiB": 10976
+  }
+}

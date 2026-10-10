@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "all_beta_recipe_exclusions": [
+    {
+      "n": 18,
+      "retained_denominator_states": 3,
+      "numerator_length": 36
+    },
+    {
+      "n": 18,
+      "retained_denominator_states": 4,
+      "numerator_length": 36
+    },
+    {
+      "n": 22,
+      "retained_denominator_states": 3,
+      "numerator_length": 44
+    },
+    {
+      "n": 22,
+      "retained_denominator_states": 4,
+      "numerator_length": 44
+    }
+  ],
+  "scope": "Fixed archived D26 one-Rayleigh numerator at36/44 and specified old whole-cycle time-first delays plus joint-aware canonical recipes only. No seed-size monotonicity, new direct finite-window interpolation, spectral-gap claim, or all-method minimum.",
+  "CPU_seconds": 2.34610875,
+  "peak_KiB": 10532
+}

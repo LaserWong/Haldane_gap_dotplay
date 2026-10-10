@@ -1,0 +1,55 @@
+{
+  "rejected_count": 12,
+  "seconds": 7.697486717999709,
+  "status": "PASS",
+  "tests": [
+    {
+      "status": "REJECTED",
+      "test": "wrong pair singlet coefficient"
+    },
+    {
+      "status": "REJECTED",
+      "test": "incomplete translation orbit"
+    },
+    {
+      "status": "REJECTED",
+      "test": "duplicate sparse state"
+    },
+    {
+      "status": "REJECTED",
+      "test": "invalid dimer label"
+    },
+    {
+      "status": "REJECTED",
+      "test": "false positive rank for duplicate vector"
+    },
+    {
+      "status": "REJECTED",
+      "test": "altered Gram overlap"
+    },
+    {
+      "status": "REJECTED",
+      "test": "altered cross energy"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong rational Rayleigh"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong target pivot"
+    },
+    {
+      "status": "REJECTED",
+      "test": "misstated delta"
+    },
+    {
+      "status": "REJECTED",
+      "test": "discarded full-action tail"
+    },
+    {
+      "status": "REJECTED",
+      "test": "unsafe raised whole-span threshold"
+    }
+  ]
+}

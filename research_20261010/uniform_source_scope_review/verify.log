@@ -1,0 +1,17 @@
+{
+  "status": "PASS source confirms untwisted all-integer transfer identity for n>=4; all-new-scopes>=52 unaffected",
+  "comparisons": [
+    {
+      "original_even_L_at_least": 60,
+      "original_gap_display": 0.0004791917031184807,
+      "our_gap": "51/5000",
+      "ratio_display": 21.285844336662144
+    },
+    {
+      "original_even_L_at_least": 2304,
+      "original_gap_display": 0.0038210870836147843,
+      "our_gap": "51/5000",
+      "ratio_display": 2.6693974193204473
+    }
+  ]
+}
