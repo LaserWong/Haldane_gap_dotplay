@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T18:45:00Z",
+  "updated_at_utc": "2026-10-10T19:18:38Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -44,7 +44,7 @@
     },
     {
       "id": "overview",
-      "status": "verified_frozen_stage5"
+      "status": "verified_frozen_stage6"
     },
     {
       "id": "trial_size_criteria",
@@ -68,21 +68,41 @@
     },
     {
       "id": "reduced_largest_input",
-      "status": "independently_verified_ground_only_and_193_trial_variants_pending_next_publication"
+      "status": "independently_verified_GK_only_largest_ground_numerator"
     },
     {
       "id": "chain_temperature_first",
-      "status": "running_saved_input_tests"
+      "status": "independently_verified_g0175_all_M_ge2"
     },
     {
       "id": "stronger_bilayer_frontier",
-      "status": "g007_g008_g010_prepared_bounded_tests"
+      "status": "independently_verified_g007_all_L_ge2"
     },
     {
       "id": "ordinary_continuous_g_interval",
-      "status": "started_exact_interval_theory_and_ground_only_tests"
+      "status": "independently_verified_entire_0_to_0.078_all_L_ge2"
+    },
+    {
+      "id": "full_ground_moment_pencil",
+      "status": "independently_verified_21_endpoints_and_all_size_scalar_records"
+    },
+    {
+      "id": "filtered_Rayleigh_numerator",
+      "status": "independently_verified_21_points_two_variants"
+    },
+    {
+      "id": "combined_filtered_pencil_gap",
+      "status": "independently_verified_g003_through_g008_discrete_all_L_ge2"
+    },
+    {
+      "id": "continuous_interval_extension",
+      "status": "independently_verified_entire_0_to_0.078_all_L_ge2"
+    },
+    {
+      "id": "chain_filter_extension",
+      "status": "running_saved_moment_feasibility"
     }
   ],
-  "verification": "Independent all-size ordinary bilayer bounds using reviewed whole-spectrum tails and transported orders: g=.03 .318085460990, g=.04 .235117964607, g=.05 .171822115684, g=.06 .103487228301. FF uniform interval through epsilon=.00855 remains certified. Six fixed small-seed orders are independently excluded for all beta at .04/.05.",
-  "last_verified_remote_commit": "7e04b3b9508ee141e327c113ec2e239d823b32da"
+  "verification": "Ordinary bilayer entire interval 0<=g<=.078: gap>=.001945771244 for every integer L>=2. Combined discrete g=.08: gap>=.023243965748, or .023241913957 with largest ground-only numerator. Original searches11/29/29; implicit filtered extension <=12/30/30. Spin1 alternating chain g=.175: gap>=.006791087005 for every integer M>=2. All claims independently audited. Further joint-ratio and chain refinements remain candidates.",
+  "last_verified_remote_commit": "1fd451cd0ed79ab551adc1caca486fb0721e53a4"
 }

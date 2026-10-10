@@ -1,0 +1,51 @@
+{
+  "g": "1/10",
+  "status": "new_coupling_candidate_pending_independent_review",
+  "grid_scope": "beta5..30 step.05; three properly transported orders; failures are not all-beta exclusions",
+  "results": [
+    {
+      "beta_initial": "217/20",
+      "order_before_transport": "xyt",
+      "accepted": false,
+      "J1": "7266845926214881/10000000000000000",
+      "J2": "3998028186549059/10000000000000000",
+      "C0": "368923565653223/1000000000000000",
+      "permuted_prefix": [
+        "9292695650361493/10000000000000000",
+        "-4307753585122767/10000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "217/20",
+      "order_before_transport": "xty",
+      "accepted": false,
+      "J1": "7266845926214881/10000000000000000",
+      "J2": "3998028186549059/10000000000000000",
+      "C0": "207921410796461/312500000000000",
+      "permuted_prefix": [
+        "9292695650361493/10000000000000000",
+        "-4307753585122767/10000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "87/10",
+      "order_before_transport": "txy",
+      "accepted": false,
+      "J1": "868177431429051/1250000000000000",
+      "J2": "6150217836093571/10000000000000000",
+      "C0": "1803006741034211/2500000000000000",
+      "permuted_prefix": [
+        "1129111156446747/1250000000000000",
+        "6799658105969231/10000000000000000",
+        "-75156709323436657/5000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    }
+  ],
+  "short_size_certificate": "../short_sizes/uniform_short_sizes.json"
+}

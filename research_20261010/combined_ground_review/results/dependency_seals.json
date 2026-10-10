@@ -1,0 +1,50 @@
+[
+  {
+    "review": "large_seed_review",
+    "manifest_sha256": "058ded69771bffe4822090fc8f88175592e5170e932173962fd32d02bd1d056d",
+    "sealed_files": 163,
+    "status": "PASS independent physical, exact arithmetic, analytic, and all-integer-size review"
+  },
+  {
+    "review": "alternative_order_review",
+    "manifest_sha256": "025cdba0e315df7f148fe35a6831e04d7d87b61b03f3635fc7c876ad30d53469",
+    "sealed_files": 61,
+    "status": "PASS independent physical, exact arithmetic, order-transport, and all-integer-size review"
+  },
+  {
+    "review": "bosonic_tail_review",
+    "manifest_sha256": "5ba82f60b9127d6bbf82b8ad7ad3af489edfb3661e40c6cc7eebc3eef7834f40",
+    "sealed_files": 31,
+    "status": "passed_independent_exact_review"
+  },
+  {
+    "review": "quadratic_boson_review",
+    "manifest_sha256": "0d9034b05db6968aa6647a010c8e832edf510f74fc8bbf601e22b44008b205bb",
+    "sealed_files": 36,
+    "status": "passed_independent_exact_review"
+  },
+  {
+    "review": "tail_comparison_review",
+    "manifest_sha256": "28a3fd81c41fa5dc0b8da7b3ac427c7283659177ed9d30c098ae4f6b45609327",
+    "sealed_files": 147,
+    "status": "passed_independent_exact_recombination_review"
+  },
+  {
+    "review": "bilayer_frontier_review",
+    "manifest_sha256": "86deb5c51305376cd81e27fd0af06ce50c28cd27a28b3817a4b7e5b1dc87fc32",
+    "sealed_files": 99,
+    "status": "PASS independent physical, exact arithmetic and all-integer-size review"
+  },
+  {
+    "review": "variational_filter_review",
+    "manifest_sha256": "7930d8e7bc07ff6a48372de60de5ce426b42ebcc0844cbcbe38049070a2025b5",
+    "sealed_files": 106,
+    "status": "independent_review_pass"
+  },
+  {
+    "review": "ground_moment_review",
+    "manifest_sha256": "e981ee1b4157ce0822c464f06883638ea16e3677ca58e4f1991152595ee5d14c",
+    "sealed_files": 207,
+    "status": "PASS independent exact certificate review"
+  }
+]

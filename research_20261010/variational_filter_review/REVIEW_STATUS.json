@@ -1,0 +1,21 @@
+{
+  "status": "independent_review_pass",
+  "updated_utc": "2026-10-10T19:03:00Z",
+  "updated_America_New_York": "2026-10-10T15:03:00-04:00",
+  "producer_manifest_sha256": "6b520dfee4a083c1f9d98561b859ce8a56790a83ad9f1091107d333e3ff11f3e",
+  "global_upper_filter_points": 21,
+  "q_resolved_filter_points": 21,
+  "finite_physical_probes": 6,
+  "claims": [
+    "improved_trial_Rayleigh_upper",
+    "improved_available_heat_trace_lower_contribution"
+  ],
+  "not_claimed": [
+    "filtered_trial_residual",
+    "new_eigenvalue_lower",
+    "complete_thermal_ratio",
+    "new_gap",
+    "all_size_bridge"
+  ],
+  "next_step": "Independent combined thermal/scalar/finite-size replay."
+}

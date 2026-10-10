@@ -48,3 +48,15 @@ Next: independently verify the new bosonic pair-creation tail estimate, test all
 Bosonic pair-creation and stable quadratic-reference proofs passed independent audit. The global recombination review verifies 36 patch records and 35 successful certificates, yielding .318085460990/.235117964607/.171822115684/.103487228301 at g=.03/.04/.05/.06 for every integer L>=2. The same-order baseline comparison isolates the effect of tail tightening from order transport. All six fixed small-seed orders are now independently excluded at every beta for .04/.05.
 
 Next priorities: prove and independently verify the reduced-input txy implementation in which the largest trace is numerator-only and needs only a Rayleigh lower trace certificate; compare its one-state numerator with the existing full band; test temperature-first chain candidates with saved physical inputs; perform bounded .07/.08/.10 bilayer tests. Spin2 full traces remain deferred while ratio startup is unresolved.
+
+## Milestone update — 15:10 EDT / 19:10 UTC
+
+The ordinary-bilayer entire interval 0<=g<=.07 passed independent exact physical-moment, polynomial, tail, scalar and all-integer-size review, with uniform gap .001945771244. The chain temperature-first method now covers g=.175 with gap .006791087005 for all M>=2. The reduced-largest-input proof passed strict minimal-data and poisoned-extra-file tests: the earlier one-ground-numerator version only needs largest G/K, with no largest residual or completeness calculation.
+
+Next: finish independent full-ground-pencil and combined filtered-numerator scalar reviews; the combined .08 point is a candidate until its all-size seal. Extend the continuous interval with fixed polynomial moment witnesses. Inspect analogous chain filters using saved inputs before any large support expansion. Preserve the cheaper G/K-only path separately because the optional filter consumes existing higher moments. Spin2 full traces and second dressed-triplet large supports remain deferred.
+
+## Stage 6 independent acceptance
+
+Full-ground moment pencils, implicit Rayleigh filters and all-size recombination have passed independent reviews. The discrete ordinary-bilayer certificate reaches g=.08 with gap .023243965748; dropping largest odd numerator terms gives .023241913957. The continuous interval reaches .078 with uniform .001945771244. All producer snapshots remain immutable; the separate review reports determine the accepted status.
+
+Next: exploit rigorously preserved joint trace ratios when transporting direction orders, compare repeated time-first cycles, and test .09 using analytically justified coupling-polynomial moments. The analogous chain joint-ratio extension is under exact verification. Retain the previously certified results while these proposals are reviewed. No expensive full spin2 heat-trace campaign or second dressed-triplet support expansion has begun.

@@ -1,0 +1,53 @@
+{
+  "status": "PASS independent physical, exact arithmetic, analytic, and all-integer-size review",
+  "updated_at_utc": "2026-10-10T18:09:00Z",
+  "updated_at_local": "2026-10-10T14:09:00-04:00",
+  "model": "ordinary spin-1/2 square bilayer; vertical exchange 1; both straight intralayer couplings g; no crossed exchange",
+  "boundary": "Periodic positive-direction edge multiplicities retained, including parallel edges at side length 2",
+  "accepted": [
+    {
+      "g": "3/100",
+      "all_integer_L_ge": 2,
+      "gap": "35229653273/125000000000",
+      "gap_display": 0.281837226184,
+      "local_L2_L3_PSD_independent": true,
+      "all_window_witnesses_and_gap_exponentials_independent": true,
+      "asymptotic_onset": 8
+    },
+    {
+      "g": "1/25",
+      "all_integer_L_ge": 2,
+      "gap": "89690095267/500000000000",
+      "gap_display": 0.179380190534,
+      "local_L2_L3_PSD_independent": true,
+      "all_window_witnesses_and_gap_exponentials_independent": true,
+      "asymptotic_onset": 8
+    },
+    {
+      "g": "1/20",
+      "all_integer_L_ge": 2,
+      "gap": "93620600631/1000000000000",
+      "gap_display": 0.093620600631,
+      "local_L2_L3_PSD_independent": true,
+      "all_window_witnesses_and_gap_exponentials_independent": true,
+      "asymptotic_onset": 16
+    }
+  ],
+  "check_counts": {
+    "geometry": 5,
+    "ground": 15,
+    "translation": 9,
+    "patch": 9,
+    "trace": 3
+  },
+  "ground_linear_dimensions": {
+    "4x4": 11,
+    "8x4": 29,
+    "8x8": 29
+  },
+  "max_full_hilbert_dimension": "340282366920938463463374607431768211456",
+  "max_physical_spins": 128,
+  "inherited": "Previously independently reviewed transfer, purification, and signed-transfer interpolation theorems; not formal proof-assistant verification",
+  "new_lemmas": "Direct Schur/inertia complement and generalized inverse-moment lemmas accepted analytically; not used in this frozen angle-based package",
+  "next": "Optional direct-sector Temple variant requires separate endpoint and trace replay; current angle-based review is complete"
+}

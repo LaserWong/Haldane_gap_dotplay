@@ -1,0 +1,97 @@
+[
+  {
+    "order": "txy",
+    "path": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "swaps": [
+      [
+        "t",
+        "x"
+      ],
+      [
+        "t",
+        "y"
+      ]
+    ],
+    "correlated_identities_exact": true
+  },
+  {
+    "order": "xty",
+    "path": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "swaps": [
+      [
+        "t",
+        "y"
+      ]
+    ],
+    "correlated_identities_exact": true
+  },
+  {
+    "order": "xyt",
+    "path": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "swaps": [],
+    "correlated_identities_exact": true
+  }
+]

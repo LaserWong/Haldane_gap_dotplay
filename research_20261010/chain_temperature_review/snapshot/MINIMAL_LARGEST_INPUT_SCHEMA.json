@@ -1,0 +1,22 @@
+{
+  "required": [
+    "exact_rayleigh"
+  ],
+  "type": "object",
+  "properties": {
+    "exact_rayleigh": {
+      "type": "string",
+      "meaning": "exact rational Rayleigh quotient of any verified nonzero n=8 trial in strong-coupling-one units"
+    }
+  },
+  "unused": [
+    "ground_lower",
+    "ground_upper",
+    "exact_residual_squared",
+    "second_eigenvalue_lower",
+    "relative_form_bound",
+    "status"
+  ],
+  "proof": "Variationality gives Z_8(t)>=exp(-t rho_8), regardless of ground isolation.",
+  "test": "certify.py asserts minimal/full/poisoned-input cycle outputs are identical for all four couplings."
+}

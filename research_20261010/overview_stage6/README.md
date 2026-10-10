@@ -1,0 +1,176 @@
+# Certified results and dimension accounting: stage6
+
+Snapshot generated **2026-10-10T19:18:08.857188+00:00**. This new folder preserves the [earlier sealed overview](../overview/README.md) unchanged and adds only independently sealed reviews. It is an exact-data extraction and static visualization, not a new spectral audit or eigensolver run.
+
+![Certified parameter points and intervals](certified_bounds.png)
+
+[Vector PDF](certified_bounds.pdf) · [All exact certificate rows](certified_bounds.csv) · [Latest isolated points](latest_point_bounds.csv) · [Complete data and source hashes](overview_data.json)
+
+## Model, normalization, and scope
+
+The alternating spin-1 chain has unit strong-bond exchange and weak exchange g. Both spin-1/2 bilayers have unit rung exchange. The ordinary square bilayer has straight intralayer exchange g in both directions and layers, without crossed bonds. The near-fully-frustrated model instead has fixed J=0.3, straight exchanges J+ε and crossed exchanges J.
+
+All boundary conditions are periodic. Positive-direction bond multiplicities are retained at side or cell count two. Chain certificates cover **every integer two-spin cell count M≥2**. Both square-bilayer certificate families cover **every integer square side L≥2**. Each positive bound includes a unique finite-volume ground state. Arbitrary rectangles and infinite-volume uniqueness are not inferred, except for the explicitly identified analytic FF reference theorem.
+
+Every displayed decimal is rounded down to 12 decimal places. Exact fractions, initial temperatures, recurrence onset sizes, primary JSON pointers, source hashes, and evidence links are in the CSV/JSON. A dot certifies its individual parameter. A horizontal bar certifies the entire interval. The bounds are sufficient lower bounds, not estimates of the physical gap, an optimal parameter threshold, or a phase boundary. Changes of certificate construction can produce nonmonotone displayed bounds. No monotonicity of the physical gap is claimed.
+
+## Alternating spin-1 chain
+
+| Parameter | Certified gap lower bound |
+|---:|---:|
+| 0.05 | 0.116303868802 |
+| 0.1 | 0.118954972866 |
+| 0.125 | 0.068202652189 |
+| 0.15 | 0.017013326349 |
+| 0.16 | 0.004358246531 |
+| 0.161 | 0.001952374069 |
+| 0.16125 | 0.001075806295 |
+| 0.1615 | 0.039815121561 |
+| 0.1625 | 0.037716426713 |
+| 0.175 | 0.006791087005 |
+
+The new [temperature-first independent review](../chain_temperature_review/REVIEW.md) certifies g=0.1615, 0.1625, and 0.175 with bounds **0.039815121561, 0.037716426713, and 0.006791087005**. Its largest M=8 patch uses only an exact Rayleigh quotient of one numerator trial. The original coordinate search still has **43,294 dimensions** in a full space of **9^8=43,046,721** states. One numerator trial does not mean a one-dimensional search, an identified eigenstate, or a largest-patch residual certificate.
+
+The earlier [ground-only/dimer-tail recipe obstructions](../chain_frontier_review/FRONTIER_PROOF.md) at those same couplings remain valid for that specific different update recipe. They are retained as scoped method statements in [unplotted_status.csv](unplotted_status.csv). They do not exclude the new temperature-first route and do not establish physical gaplessness. The g=0.2 failed finite proposal grid remains unplotted and is not an all-temperature theorem.
+
+## Ordinary square bilayer
+
+| Parameter | Certified gap lower bound |
+|---:|---:|
+| 0.01 | 0.168921021674 |
+| 0.02 | 0.057308457817 |
+| 0.03 | 0.341601445704 |
+| 0.04 | 0.272402896810 |
+| 0.05 | 0.203655275044 |
+| 0.06 | 0.164746706191 |
+| 0.07 | 0.093479385120 |
+| 0.08 | 0.023243965748 |
+
+The strongest plotted isolated points are selected from all accepted routes in this snapshot. Older accepted routes remain in the full data, including the separately [reviewed g=0.07 frontier bound](../bilayer_frontier_review/REVIEW.md) **0.024790852531**, the [ground inverse-moment certificates](../ground_moment_review/REVIEW.md), and the [largest-seed first-moment reduction](../reduced_input_review/REVIEW.md). The g=0.01 and 0.02 points preserve their existing certificates. Their relative heights are not a physical-gap trend.
+
+### Independently accepted filtered-numerator combination
+
+The [combined independent review](../combined_ground_review/REVIEW.md) certifies all thermal ratios, spatial/temperature-order transport, asymptotic recurrences, finite interpolation windows, and the short sizes L=2 through 7. The data retain all **30 accepted full-band alternatives and 11 accepted largest-ground-only alternatives**, rather than only the largest value at each coupling.
+
+| g | 193-direction numerator | One filtered numerator trial |
+|---:|---:|---:|
+| 0.03 | 0.341601445704 | 0.341601363665 |
+| 0.04 | 0.272402896810 | 0.272402625840 |
+| 0.05 | 0.203655275044 | 0.203654642229 |
+| 0.06 | 0.164746706191 | 0.164744743967 |
+| 0.07 | 0.093479385120 | 0.093477650352 |
+| 0.08 | 0.023243965748 | 0.023241913957 |
+
+The table compares accepted combined routes. Full-band and rank-one comparisons at each selected parameter preserve the temperatures recorded in the audit. A 193-direction numerator uses orthogonal trial contributions and the independently certified smaller-patch upper traces. A rank-one largest numerator uses just the filtered ground trial. Neither choice changes the largest physical Hilbert space, **2^128**.
+
+The [route comparison CSV](combined_route_comparison.csv) also preserves the original, ground-pencil-only, filter-only and combined alternatives. Their temperatures were selected individually. Their differences cannot all be attributed to one isolated ingredient at a common temperature. [Selected recipe failures](combined_selected_failures.csv) remain failures of those proposals and are never plotted as zero physical gaps.
+
+The largest filtered numerator uses the existing **G/K/J full second-moment information**. Its small rank does not make this the earlier G/K-only largest-input route. No new H³ or H⁴ moments, complete diagonalization, or filtered-state residual certificate are claimed.
+
+### Genuine continuous coupling coverage
+
+For **every 0≤g≤0.078** and **every integer L≥2**, the certified uniform gap is
+
+**Δ ≥ 0.001945771244**.
+
+The original [continuous interval review](../ordinary_interval_review/REVIEW.md) establishes 16 adjacent closed pieces on [0,0.07]. On those pieces, the two denominator patches retain one certified ground level each, and the largest 8×8 numerator has rank one and uses **G/K only**. The three original searches have dimensions **11/29/29**.
+
+The separately [reviewed continuous extension](../interval_extension_review/REVIEW.md) adds **15 closed pieces on [0.07,0.078]**, with extension-wide bound **0.002006633957**. Their exact union with the original interval has **31 pieces** and preserves the smaller bound **0.001945771244** over [0,0.078]. This statement is derived from interval certificates, not interpolation between the g=0.07 and 0.08 dots.
+
+Only the largest numerator is filtered in this extension. Its working dimensions are **11/29/≤30**, with largest filtered support at triplet number **q≤6**. It consumes the existing largest-seed full second moment G/K/J and computes no new H³/H⁴ moment. This is a different input contract from the first-moment-only baseline interval. The isolated g=0.08 result does not extend the proved continuum from 0.078 to 0.08.
+
+![All certified ordinary-bilayer closed pieces](ordinary_interval_pieces.png)
+
+[Vector PDF](ordinary_interval_pieces.pdf) · [Every exact closed piece](ordinary_interval_pieces.csv)
+
+| Closed g interval | Uniform gap lower bound |
+|---|---:|
+| [0, 0.005] | 0.173065243148 |
+| [0.005, 0.01] | 0.170102310820 |
+| [0.01, 0.015] | 0.168728413732 |
+| [0.015, 0.02] | 0.165113711369 |
+| [0.02, 0.025] | 0.163928156108 |
+| [0.025, 0.03] | 0.160949525899 |
+| [0.03, 0.035] | 0.156127174029 |
+| [0.035, 0.04] | 0.147738528477 |
+| [0.04, 0.045] | 0.132008626786 |
+| [0.045, 0.05] | 0.111592464492 |
+| [0.05, 0.055] | 0.086440072154 |
+| [0.055, 0.06] | 0.064114202108 |
+| [0.06, 0.065] | 0.033895128326 |
+| [0.065, 0.0675] | 0.026300058878 |
+| [0.0675, 0.06875] | 0.018319827456 |
+| [0.06875, 0.07] | 0.001945771244 |
+| [0.07, 0.071] | 0.036330139773 |
+| [0.071, 0.072] | 0.025211875165 |
+| [0.072, 0.073] | 0.010631558239 |
+| [0.073, 0.0735] | 0.021439741914 |
+| [0.0735, 0.074] | 0.016427745488 |
+| [0.074, 0.0745] | 0.008048474119 |
+| [0.0745, 0.07475] | 0.017608953516 |
+| [0.07475, 0.075] | 0.013334647098 |
+| [0.075, 0.076] | 0.005416263621 |
+| [0.076, 0.0765] | 0.011122007305 |
+| [0.0765, 0.077] | 0.007808533832 |
+| [0.077, 0.0775] | 0.002006633957 |
+| [0.0775, 0.07775] | 0.005217701410 |
+| [0.07775, 0.077875] | 0.006991576150 |
+| [0.077875, 0.078] | 0.005425370637 |
+
+The horizontal green pieces show their own uniform lower bounds. The purple segment shows the uniform minimum on their entire union. The piecewise bounds need not vary monotonically, since distinct verified constructions are used. The common endpoints are checked as exact rational numbers.
+
+## Near fully frustrated bilayer
+
+The new ordinary-bilayer certificates do not change this separate model. All FF entries are inherited from the earlier sealed overview with their original evidence status.
+
+| Parameter | Certified gap lower bound |
+|---:|---:|
+| 0.005 | 0.038983227177 |
+| 0.006 | 0.028171615330 |
+| 0.0075 | 0.012626894873 |
+| 0.008 | 0.008498663753 |
+| 0.0085 | 0.001984903734 |
+
+The independently reviewed ε intervals [0,0.004], [0,0.0045], [0,0.00475], [0,0.0085], and [0,0.00855] have uniform bounds 0.024046763298, 0.014475263367, 0.008090283176, 0.001703099464, and 0.000768515509. The first three use one product vector. The two widest intervals use the [fixed-vector piecewise extension](../epsilon_interval_review/INDEPENDENT_REVIEW.md), not one product state throughout. The ε=0.008 and 0.0085 point markers preserve the more limited evidence label of a supplemental scalar size bridge on independently audited physical inputs.
+
+At ε=0, the [analytic reference theorem](../../two_d_theory/NONPERTURBATIVE_MODELS.md) gives gap at least 2/5 for all periodic rectangles nx,ny≥2 at J=0.3. The stronger actual square gap 1 for L≥3 is not plotted, because it has a different size range.
+
+## Dimensions count different objects
+
+![Physical, search, filtered and numerator dimensions](trial_space_counts.png)
+
+[Vector PDF](trial_space_counts.pdf) · [80 exact seed and route records](trial_dimensions.csv)
+
+| Physical geometry | Spins | Full Hilbert dimension | Original ground search | Ground search plus one residual direction |
+|---|---:|---:|---:|---:|
+| 4×4 rungs | 32 | 2^32 = 4,294,967,296 | 11 | ≤12 |
+| 8×4 rungs | 64 | 2^64 = 18,446,744,073,709,551,616 | 29 | ≤30 |
+| 8×8 rungs | 128 | 2^128 = 340,282,366,920,938,463,463,374,607,431,768,211,456 | 29 | ≤30 |
+
+The original trial lies at q≤4. The residual-direction filtered trial lies at q≤6 and adds at most one implicit direction to its original search. The **≤12/≤30/≤30** entries are upper bounds, not proven exact enlarged dimensions or a newly optimized coordinate basis. These general point-filter dimensions account for filtering each patch. In the strongest time–x–y ratio, the smaller-patch filtered upper expectations cancel from the denominator normalization, so only the largest filtered numerator is needed. The local plane spanned by one chosen trial and its residual has dimension at most two. It does not replace the original search with a two-dimensional global search. One final numerator vector likewise does not make the search one-dimensional.
+
+The [independent filter review](../variational_filter_review/REVIEW.md) verifies these energy-upper-bound and dimension statements. It does not itself prove a complete gap certificate, filtered-state residual, eigenvalue isolation, or low-band completeness. The combined and interval extension reviews separately supply the remaining gap-proof obligations.
+
+A complete-band route can retain **49/97/193 states** on the three patches, including one ground level and 3N triplet levels. In the earlier reduced route, the optional 193 largest vectors are orthogonal numerator trial directions and need not be identified as a complete eigenband. At the largest patch, the old translated triplet generator has 373 configurations and its full H-action has 67,755 configurations. These are per-column support counts, not search dimensions, band dimensions, or the full physical Hilbert dimension.
+
+The first-moment-only reduced route moves the largest required full upper-trace certification to **8×4 rungs**, even though its largest physical numerator patch remains 8×8. Filtering can improve the rank-one numerator using already available second moments, but then that largest numerator no longer has the G/K-only input contract.
+
+The chain and FF dimension records remain available alongside these bilayer records. Unrecorded support or retained-state counts are null, never zero. No dimension in this overview is an MPS bond dimension.
+
+## Provenance, replay, and frozen deliverables
+
+This snapshot contains **164 exact certificate rows**, **80 dimension records**, **125 direct source hashes**, and **9 verified review manifests**. All original 62 certificate rows remain in the data. [Provenance](PROVENANCE.md) lists accepted manifest hashes. The main figure chooses the strongest accepted isolated certificate per parameter, not an inferred optimal certificate among all possible constructions.
+
+From the repository root:
+
+```sh
+bash research_20261010/overview_stage6/REPRODUCE.sh
+```
+
+Replay first verifies the stage6 manifest, every selected source SHA-256, all selected independent review manifests, every exact primary-gap JSON pointer, decimal downward rounding, full Hilbert counts, all 31 exact adjacent closed pieces, and the uniform interval minimum. It renders the three figures to a temporary directory, compares all six PNG/PDF files byte for byte with the frozen outputs, and verifies the frozen manifest again. It writes no replacement into this overview, the earlier overview, or the review folders.
+
+The plotter pins itself to one allowed CPU, sets single-thread numerical-library variables, and caps address space at **1 GiB**. Python 3.12 and Matplotlib 3.10.8 were used. This is an integrity and extraction replay of existing independently reviewed results. It does not rerun each mathematical proof, full physical audit, or eigensolver. Those reviews retain their own reproduction scripts.
+
+To deliberately re-extract a later snapshot, review `build_snapshot.py` and the selected seal status first. Its accepted-review selection is explicit and pinned in `ACCEPTED_REVIEW_SEALS.json`, not an automatic promotion rule. This stage was built with `python research_20261010/overview_stage6/build_snapshot.py --include-combined --include-interval-extension`. Re-extraction changes the frozen snapshot and requires renewed visual QA and a new manifest. Do not silently refresh the previous snapshot.
+
+[Validation record](validation.json), [visual inspection](VISUAL_QA.md), [render reproducibility](render_reproducibility.json), and [SHA-256 manifest](MANIFEST_SHA256.json) describe the checks actually performed. The materialized tree has no `.git` metadata. The reported project commit is not asserted to be a locally verified checkout identity. No root README or status file, previous overview file, or remote repository was modified by this task.

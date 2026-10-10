@@ -1,0 +1,64 @@
+{
+  "status": "PASS independent physical, exact arithmetic, order-transport, and all-integer-size review",
+  "model": "ordinary spin-1/2 square bilayer; rung exchange 1; equal straight intralayer couplings g=3/50; no crossed exchange",
+  "boundary": "Periodic positive-direction edge multiplicity, including parallel edges at side 2",
+  "accepted": [
+    {
+      "order": "xty",
+      "g": "3/50",
+      "all_integer_square_L_ge": 2,
+      "gap": "82067113439/1000000000000",
+      "gap_display": 0.082067113439,
+      "small_size_min": "36490836267/62500000000",
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "18769976517/125000000000",
+          "gap_display": 0.150159812136
+        },
+        {
+          "n": 16,
+          "through": 32,
+          "gap": "12035145639/100000000000",
+          "gap_display": 0.12035145639
+        }
+      ],
+      "asymptotic_onset": 16
+    },
+    {
+      "order": "txy",
+      "g": "3/50",
+      "all_integer_square_L_ge": 2,
+      "gap": "4977793417/50000000000",
+      "gap_display": 0.09955586834,
+      "small_size_min": "36490836267/62500000000",
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "85687408551/500000000000",
+          "gap_display": 0.171374817102
+        },
+        {
+          "n": 16,
+          "through": 32,
+          "gap": "139639613939/1000000000000",
+          "gap_display": 0.139639613939
+        }
+      ],
+      "asymptotic_onset": 16
+    }
+  ],
+  "prior_geometry_manifest_sha256": "058ded69771bffe4822090fc8f88175592e5170e932173962fd32d02bd1d056d",
+  "producer_freeze_sha256": "2777dd7f93ae82ba2ab9fdc519f0fca2e279a3d54a25eb4c453e025ed6041081",
+  "new_physical_scope": "Three g=3/50 ground and translated-band records, number bins and complete-band Temple endpoints rebuilt; sealed coupling-independent geometry inherited by exact hash",
+  "qualification": "Unique finite-volume ground states; no arbitrary aspect-ratio or infinite-volume ground-state uniqueness conclusion; not proof-assistant verified",
+  "updated_at_utc": "2026-10-10T18:24:00Z",
+  "updated_at_local": "2026-10-10T14:24:00-04:00",
+  "symbolic_paths": {
+    "six_orders": true,
+    "adjacent_swaps": 12,
+    "sequential_rotations": 18
+  }
+}

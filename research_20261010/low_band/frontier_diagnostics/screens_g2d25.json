@@ -1,0 +1,398 @@
+{
+  "status": "unrigorous_optimistic_sensitivity_screen_not_a_certificate",
+  "g": "2/25",
+  "grid_scope": "beta5..30 step.05; txy followed by canonical transport",
+  "denominator_index_key": {
+    "0": "4x4, at beta and2beta",
+    "1": "8x4, at2beta"
+  },
+  "source_sha256": {
+    "frontier_g007_g010/g2d25/temple_4x4_g2d25.json": "31768b674f9b24e8416d86122d616b7b84b632a7a5107c821c91c3d9c2ef9ca1",
+    "frontier_g007_g010/g2d25/temple_8x4_g2d25.json": "906b438dec4c9b574a6ddafc7b18034f0dc715e18ec32d1119175029834884e1",
+    "frontier_g007_g010/g2d25/temple_8x8_g2d25.json": "45cda2717362ccd11d87c0b04ec46c3643fffd8da1a721f0f0d89ddd6f9c3c7e"
+  },
+  "screens": [
+    {
+      "variant": "baseline",
+      "best_beta": 9.15,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.8770653070351918,
+          0.8607584387706727,
+          0.9096554953287712
+        ],
+        "prefix": [
+          0.9901767530717362,
+          0.9849849996965522,
+          0.8687758011474228
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9827148850207168,
+          0.9001376481009847,
+          0.8102477855287722
+        ]
+      }
+    },
+    {
+      "variant": "ground_0",
+      "best_beta": 9.15,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.8850923821687001,
+          0.8766988679032933,
+          0.9096554953287712
+        ],
+        "prefix": [
+          0.9915726614478314,
+          0.9886994246690709,
+          0.8738088251324907
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9859540722472048,
+          0.9087022083350308,
+          0.8257397034329618
+        ]
+      }
+    },
+    {
+      "variant": "ground_1",
+      "best_beta": 9.75,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.8946277743593865,
+          0.8523412766594164,
+          0.9498089696756754
+        ],
+        "prefix": [
+          0.993063545263556,
+          0.9835408643030503,
+          0.9644085756011473
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9848571538108911,
+          0.9525263960724815,
+          0.90730653521483
+        ]
+      }
+    },
+    {
+      "variant": "ground_both",
+      "best_beta": 9.8,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.904391014892733,
+          0.8685465017334248,
+          0.9495584487198615
+        ],
+        "prefix": [
+          0.9944120187179821,
+          0.9875466288273319,
+          0.9663112990865195
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9882007292776863,
+          0.9599505659775057,
+          0.9215050891205336
+        ]
+      }
+    },
+    {
+      "variant": "triplet_0",
+      "best_beta": 9.1,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.8801567515937994,
+          0.8614657430692053,
+          0.9101255590160977
+        ],
+        "prefix": [
+          0.9907300562391335,
+          0.9852640853002749,
+          0.8714435222396882
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.983403307678195,
+          0.9027821268733893,
+          0.8150155686020405
+        ]
+      }
+    },
+    {
+      "variant": "triplet_1",
+      "best_beta": 9.15,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.8770653070351918,
+          0.8607584387706727,
+          0.9096619091425171
+        ],
+        "prefix": [
+          0.9901767530717362,
+          0.9849849996965522,
+          0.8687976502074652
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9827148850207168,
+          0.9001489669233103,
+          0.8102681626531026
+        ]
+      }
+    },
+    {
+      "variant": "triplet_both",
+      "best_beta": 9.1,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.8801567515937994,
+          0.8614657430692053,
+          0.9101325361815047
+        ],
+        "prefix": [
+          0.9907300562391335,
+          0.9852640853002749,
+          0.8714669538962296
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.983403307678195,
+          0.9027942639413656,
+          0.8150374830054321
+        ]
+      }
+    },
+    {
+      "variant": "tail_0",
+      "best_beta": 9.1,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.877759860372081,
+          0.8614633791291322,
+          0.9101255590160977
+        ],
+        "prefix": [
+          0.9903028024015326,
+          0.9851766219994904,
+          0.8707150608884229
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9829355823089623,
+          0.9015465212948856,
+          0.8127861300589094
+        ]
+      }
+    },
+    {
+      "variant": "tail_1",
+      "best_beta": 9.15,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.8770653070351918,
+          0.8607584387706727,
+          0.9096554963446708
+        ],
+        "prefix": [
+          0.9901767530717362,
+          0.9849849996965522,
+          0.8687758046083538
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9827148850207168,
+          0.9001376498939181,
+          0.8102477887565459
+        ]
+      }
+    },
+    {
+      "variant": "tail_both",
+      "best_beta": 9.1,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.877759860372081,
+          0.8614633791291322,
+          0.9101255602119633
+        ],
+        "prefix": [
+          0.9903028024015326,
+          0.9851766219994904,
+          0.8707150649199972
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9829355823089623,
+          0.9015465233820503,
+          0.8127861338222618
+        ]
+      }
+    },
+    {
+      "variant": "all_intervals_both",
+      "best_beta": 9.7,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.9055495678574806,
+          0.8697969095843057,
+          0.9500622724234757
+        ],
+        "prefix": [
+          0.9945605693056283,
+          0.9878348779951837,
+          0.9671910860011056
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9884925830548146,
+          0.9609548270841359,
+          0.9234341796963015
+        ]
+      }
+    },
+    {
+      "variant": "all_intervals_and_tail_both",
+      "best_beta": 9.6,
+      "accepted_float_proposals": 0,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.9047384079699503,
+          0.8710483257992567,
+          0.9505640259299646
+        ],
+        "prefix": [
+          0.9944568118480136,
+          0.9880739557670637,
+          0.9678770265992286
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.9885090573997685,
+          0.9613275679994785,
+          0.9241506929957919
+        ]
+      }
+    },
+    {
+      "variant": "largest_ground_half_width",
+      "best_beta": 10.25,
+      "accepted_float_proposals": 439,
+      "optimistic_score_gap": 0.29181466039388393,
+      "perfect_purity_screen": false,
+      "first_cycle": {
+        "raw_ratios": [
+          0.9994594279076731,
+          1.0386815746990143,
+          0.9968964636523772
+        ],
+        "prefix": [
+          0.9999998537328133,
+          0.9999999999999893,
+          0.9999217329093496
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          0.999999853732808,
+          0.9999605731660132,
+          0.9999211478865014
+        ]
+      }
+    },
+    {
+      "variant": "largest_ground_full_width",
+      "best_beta": 8.55,
+      "accepted_float_proposals": 446,
+      "optimistic_score_gap": null,
+      "perfect_purity_screen": true,
+      "first_cycle": {
+        "raw_ratios": [
+          1.0003007694119064,
+          1.2255577978555892,
+          1.0868282439880983
+        ],
+        "prefix": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "positive_steps": 3,
+        "canonical": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "baseline_loss_decomposition": {
+    "beta": 9.15,
+    "largest_minus_four_small_rayleigh": "675888649952768490579876480024189033169253207686347798/187997767587823167854140318510408336385557732839795756175",
+    "largest_minus_twice_middle_rayleigh": "129333272372248859062461318163886048945221385099863152/48979282067388264631158772544666312352882843024390783025",
+    "small_beta": {
+      "beta": 9.15,
+      "ground_upper_term": 1.0011475134987324,
+      "triplet_upper_sum": 0.006688605412141557,
+      "omitted_upper_tail": 0.0003703975529695595,
+      "total_upper": 1.0082065164638436
+    },
+    "small_2beta": {
+      "beta": 18.3,
+      "ground_upper_term": 1.0022963437846948,
+      "triplet_upper_sum": 1.5603226166671647e-06,
+      "omitted_upper_tail": 1.146201027950342e-10,
+      "total_upper": 1.0022979042219315
+    },
+    "middle_2beta": {
+      "beta": 18.3,
+      "ground_upper_term": 1.0234498144610054,
+      "triplet_upper_sum": 5.705601510586078e-06,
+      "omitted_upper_tail": 5.714956273392181e-10,
+      "total_upper": 1.0234555206340115
+    },
+    "C0_negative_log_contributions": {
+      "variational_energy_curvature": 0.04832244950335916,
+      "middle_ground_width_only": 0.04635818331918591,
+      "full_middle_upper_trace": 0.04636933414850535,
+      "largest_extra_trial_terms": -2.455940579334238e-06
+    }
+  }
+}

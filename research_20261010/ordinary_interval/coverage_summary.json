@@ -1,0 +1,192 @@
+{
+  "status": "continuous_g_ground_only_candidate_pending_independent_review",
+  "coupling_interval": [
+    "0",
+    "7/100"
+  ],
+  "closed_intervals": 16,
+  "all_integer_L_ge2_uniform_gap": "486442811/250000000000",
+  "uniform_gap_display": 0.001945771244,
+  "intervals": [
+    {
+      "file": "coverage/interval_001.json",
+      "coupling_interval": [
+        "0",
+        "1/200"
+      ],
+      "gap_lower": "43266310787/250000000000",
+      "gap_display": 0.173065243148,
+      "beta_initial": "99/10"
+    },
+    {
+      "file": "coverage/interval_002.json",
+      "coupling_interval": [
+        "1/200",
+        "1/100"
+      ],
+      "gap_lower": "8505115541/50000000000",
+      "gap_display": 0.17010231082,
+      "beta_initial": "10"
+    },
+    {
+      "file": "coverage/interval_003.json",
+      "coupling_interval": [
+        "1/100",
+        "3/200"
+      ],
+      "gap_lower": "42182103433/250000000000",
+      "gap_display": 0.168728413732,
+      "beta_initial": "203/20"
+    },
+    {
+      "file": "coverage/interval_004.json",
+      "coupling_interval": [
+        "3/200",
+        "1/50"
+      ],
+      "gap_lower": "165113711369/1000000000000",
+      "gap_display": 0.165113711369,
+      "beta_initial": "41/4"
+    },
+    {
+      "file": "coverage/interval_005.json",
+      "coupling_interval": [
+        "1/50",
+        "1/40"
+      ],
+      "gap_lower": "40982039027/250000000000",
+      "gap_display": 0.163928156108,
+      "beta_initial": "209/20"
+    },
+    {
+      "file": "coverage/interval_006.json",
+      "coupling_interval": [
+        "1/40",
+        "3/100"
+      ],
+      "gap_lower": "160949525899/1000000000000",
+      "gap_display": 0.160949525899,
+      "beta_initial": "213/20"
+    },
+    {
+      "file": "coverage/interval_007.json",
+      "coupling_interval": [
+        "3/100",
+        "7/200"
+      ],
+      "gap_lower": "156127174029/1000000000000",
+      "gap_display": 0.156127174029,
+      "beta_initial": "109/10"
+    },
+    {
+      "file": "coverage/interval_008.json",
+      "coupling_interval": [
+        "7/200",
+        "1/25"
+      ],
+      "gap_lower": "147738528477/1000000000000",
+      "gap_display": 0.147738528477,
+      "beta_initial": "57/5"
+    },
+    {
+      "file": "coverage/interval_009.json",
+      "coupling_interval": [
+        "1/25",
+        "9/200"
+      ],
+      "gap_lower": "66004313393/500000000000",
+      "gap_display": 0.132008626786,
+      "beta_initial": "57/5"
+    },
+    {
+      "file": "coverage/interval_010.json",
+      "coupling_interval": [
+        "9/200",
+        "1/20"
+      ],
+      "gap_lower": "27898116123/250000000000",
+      "gap_display": 0.111592464492,
+      "beta_initial": "57/5"
+    },
+    {
+      "file": "coverage/interval_011.json",
+      "coupling_interval": [
+        "1/20",
+        "11/200"
+      ],
+      "gap_lower": "43220036077/500000000000",
+      "gap_display": 0.086440072154,
+      "beta_initial": "227/20"
+    },
+    {
+      "file": "coverage/interval_012.json",
+      "coupling_interval": [
+        "11/200",
+        "3/50"
+      ],
+      "gap_lower": "16028550527/250000000000",
+      "gap_display": 0.064114202108,
+      "beta_initial": "45/4"
+    },
+    {
+      "file": "coverage/interval_013.json",
+      "coupling_interval": [
+        "3/50",
+        "13/200"
+      ],
+      "gap_lower": "16947564163/500000000000",
+      "gap_display": 0.033895128326,
+      "beta_initial": "45/4"
+    },
+    {
+      "file": "coverage/interval_014.json",
+      "coupling_interval": [
+        "13/200",
+        "27/400"
+      ],
+      "gap_lower": "13150029439/500000000000",
+      "gap_display": 0.026300058878,
+      "beta_initial": "113/10"
+    },
+    {
+      "file": "coverage/interval_015.json",
+      "coupling_interval": [
+        "27/400",
+        "11/160"
+      ],
+      "gap_lower": "35780913/1953125000",
+      "gap_display": 0.018319827456,
+      "beta_initial": "221/20"
+    },
+    {
+      "file": "coverage/interval_016.json",
+      "coupling_interval": [
+        "11/160",
+        "7/100"
+      ],
+      "gap_lower": "486442811/250000000000",
+      "gap_display": 0.001945771244,
+      "beta_initial": "227/20"
+    }
+  ],
+  "zero_coupling_exact_gap": "1",
+  "largest_trace_rank": 1,
+  "denominator_retained_states": [
+    1,
+    1
+  ],
+  "trial_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "largest_physical_spins": 128,
+  "largest_full_dimension": 340282366920938463463374607431768211456,
+  "largest_residual_required": false,
+  "maximum_full_residual_geometry": [
+    8,
+    4
+  ],
+  "runtime_seconds": 10.168221422998613,
+  "peak_rss_kib": 50260
+}

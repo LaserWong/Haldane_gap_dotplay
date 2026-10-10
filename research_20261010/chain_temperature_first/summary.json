@@ -1,0 +1,47 @@
+{
+  "status": "CANDIDATES_PENDING_INDEPENDENT_AUDIT",
+  "results": [
+    {
+      "g": "323/2000",
+      "best": {
+        "beta": "39/2",
+        "all_M_ge2_gap": "39815121561/1000000000000",
+        "display": 0.039815121561,
+        "asymptotic_from": 32
+      },
+      "short_gap": "7168615429/100000000000"
+    },
+    {
+      "g": "13/80",
+      "best": {
+        "beta": "81/4",
+        "all_M_ge2_gap": "37716426713/1000000000000",
+        "display": 0.037716426713,
+        "asymptotic_from": 32
+      },
+      "short_gap": "33191811881/500000000000"
+    },
+    {
+      "g": "7/40",
+      "best": {
+        "beta": "23",
+        "all_M_ge2_gap": "1358217401/200000000000",
+        "display": 0.006791087005,
+        "asymptotic_from": 128
+      },
+      "short_gap": "76315942877440344543149958912213890459/1253414289776462415089116260500000000000"
+    },
+    {
+      "g": "1/5",
+      "best": null,
+      "short_gap": null
+    }
+  ],
+  "seconds": 3.521143690999452,
+  "peak_rss_kib": 82032,
+  "affinity": [
+    0
+  ],
+  "BLAS_threads": 1,
+  "address_space_limit_bytes": 1572864000
+}

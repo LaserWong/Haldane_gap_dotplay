@@ -1,0 +1,47 @@
+{
+  "BLAS_threads": 1,
+  "CPU_affinity": [
+    0
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "large_ED_used": false,
+  "peak_rss_kib": 38632,
+  "producer_manifest_sha256": "2aed748169de52b5a2acce733abecbeb491f309229545404295b38262f0cc915",
+  "results": [
+    {
+      "asymptotic_from": 32,
+      "beta": "39/2",
+      "g": "323/2000",
+      "gap": "39815121561/1000000000000",
+      "smallest_short_gap": "7168615429/100000000000",
+      "status": "PASS independent exact all-integer M>=2 certificate"
+    },
+    {
+      "asymptotic_from": 32,
+      "beta": "81/4",
+      "g": "13/80",
+      "gap": "37716426713/1000000000000",
+      "smallest_short_gap": "33191811881/500000000000",
+      "status": "PASS independent exact all-integer M>=2 certificate"
+    },
+    {
+      "asymptotic_from": 128,
+      "beta": "23",
+      "g": "7/40",
+      "gap": "1358217401/200000000000",
+      "smallest_short_gap": "76315942877440344543149958912213890459/1253414289776462415089116260500000000000",
+      "status": "PASS independent exact all-integer M>=2 certificate"
+    },
+    {
+      "asymptotic_from": null,
+      "beta": null,
+      "g": "1/5",
+      "gap": null,
+      "smallest_short_gap": null,
+      "status": "PASS replay of bounded failed scan only; no obstruction conclusion"
+    }
+  ],
+  "seconds": 17.611422993002634,
+  "status": "PASS",
+  "verifier_sha256": "5d19e5dcab55857d9907abe1d5a130920b44a6312b512311d8740f0b3ab5d830"
+}

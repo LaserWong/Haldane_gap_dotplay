@@ -1,0 +1,5 @@
+PASS interval extension manifests
+PASS source matrices 21
+{"status": "PASS exact producer filter tests", "scalar_cases": 192, "actual_two_by_two_Rayleigh_fixtures": 21, "production_parameter_checks": 255, "quadratic_vertex_minimum_test": true, "zero_variance_test": true, "large_variance_normalization_direction_test": true}
+{"status": "PASS exact producer replay; independent interval review required", "closed_extension_intervals": 15, "extension_interval": ["7/100", "39/500"], "extension_uniform_gap": "2006633957/1000000000000", "union_interval": ["0", "39/500"], "union_closed_intervals": 31, "union_all_integer_L_ge2_gap": "486442811/250000000000", "union_gap_display": 0.001945771244, "asymptotic_max_start_L": 1024, "finite_window_count": 81, "short_size_count": 90, "largest_filter_rank": 1, "largest_augmented_dimension_upper": 30, "maximum_q": 6, "eigensolver_calls": 0, "inherited_ordinary_manifest_sha256": "bf38883ef54e3bf0e5d80e1abcac8b9a21355106382d546d27cb413b3734c8c3"}
+PASS interval extension manifests

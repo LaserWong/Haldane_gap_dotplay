@@ -1,0 +1,57 @@
+{
+  "status": "PASS independent exact fixed-vector, whole-space trace, parity-Temple, interval and all-integer-size review",
+  "coupling_interval": [
+    "0",
+    "7/100"
+  ],
+  "closed_intervals": 16,
+  "all_integer_L_ge2_uniform_gap": "486442811/250000000000",
+  "uniform_gap_display": 0.001945771244,
+  "unique_finite_volume_ground": true,
+  "zero_coupling_exact_gap": "1",
+  "trial_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "denominator_retained_states": [
+    1,
+    1
+  ],
+  "largest_trace_rank": 1,
+  "largest_full_dimension": "340282366920938463463374607431768211456",
+  "largest_physical_spins": 128,
+  "largest_second_moment_formed": false,
+  "full_residual_geometry_max": [
+    8,
+    4
+  ],
+  "producer_modules_imported": 0,
+  "eigensolver_calls": 0,
+  "runtime_seconds": 9.037894267999945,
+  "peak_rss_kib": 25332,
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_cap_bytes": 1073741824,
+  "blas_threads": 1,
+  "updated_at_utc": "2026-10-10T18:58:00Z",
+  "updated_at_local": "2026-10-10T14:58:00-04:00",
+  "producer_freeze_sha256": "bf38883ef54e3bf0e5d80e1abcac8b9a21355106382d546d27cb413b3734c8c3",
+  "check_counts": {
+    "fixed_vectors": 48,
+    "full_residual_polynomials": 32,
+    "finite_windows": 46,
+    "short_size_rows": 96,
+    "canonical_rounds": 30,
+    "corruption_rejections": 11
+  },
+  "weakest_interval": [
+    "11/160",
+    "7/100"
+  ],
+  "largest_asymptotic_onset": 1024,
+  "scope": "All integer periodic square side lengths L>=2; ordinary bilayer, vertical exchange 1, straight exchange g, no crossed bonds; positive-direction periodic multiplicities",
+  "inherited": "Previously independently reviewed geometry and general exact thermal-transfer, quadratic-comparison and signed-transfer interpolation theorems; not proof-assistant formalization",
+  "next": "No open audit obligation; parent may integrate the accepted continuous interval claim and publish under existing authorization"
+}

@@ -1,0 +1,83 @@
+{
+  "g": "1/10",
+  "status": "candidate_pending_independent_review",
+  "variant": "combined",
+  "grid_scope": "beta5..30 step.05; three proved transported orders; failures are bounded searches only",
+  "results": [
+    {
+      "beta_initial": "177/20",
+      "order_before_transport": "txy",
+      "J1": "7968758780145309/10000000000000000",
+      "J2": "7833565511641859/10000000000000000",
+      "C0": "8477492961895017/10000000000000000",
+      "permuted_first_purities": [
+        "9675128476403451/10000000000000000",
+        "4744923681984213/5000000000000000",
+        "1521929653210977/5000000000000000"
+      ],
+      "canonical_first_purities": [
+        "188502168236944427/200000000000000000",
+        "98020066238631117/200000000000000000",
+        "240198334635640793/1000000000000000000"
+      ],
+      "canonical_base": {
+        "n": 8,
+        "m": 8,
+        "beta": "177/10"
+      },
+      "bootstrap": {
+        "input": {
+          "A_lower": "188502168236944427/200000000000000000",
+          "B_lower": "98020066238631117/200000000000000000",
+          "C_lower": "240198334635640793/1000000000000000000",
+          "n": 8,
+          "m": 8,
+          "beta": "177/10"
+        },
+        "updates": [],
+        "status": "bound_left_purity_domain",
+        "formal_proof_assistant_verified": false
+      },
+      "accepted": false,
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "217/20",
+      "order_before_transport": "xty",
+      "accepted": false,
+      "J1": "4235893357103539/5000000000000000",
+      "J2": "601624726281013/1000000000000000",
+      "C0": "408396409124707/500000000000000",
+      "permuted_prefix": [
+        "9837299862701781/10000000000000000",
+        "7621869836565811/10000000000000000",
+        "-10931887530462013/10000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "51/4",
+      "order_before_transport": "xyt",
+      "accepted": false,
+      "J1": "2090553431120757/2500000000000000",
+      "J2": "1215810822424577/2000000000000000",
+      "C0": "615961674381807/1000000000000000",
+      "permuted_prefix": [
+        "30650634205309/31250000000000",
+        "7707270329753253/10000000000000000",
+        "-340223407507575481/10000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    }
+  ],
+  "source_sha256": {
+    "low_band/ground_moment_pencil/ENDPOINT_MANIFEST_SHA256.json": "916b0e4a978fd7129d02f267d529e2494e26d04cdb329d50cfbf459eee1771bd",
+    "variational_numerator_filter/FROZEN_MANIFEST.json": "6b520dfee4a083c1f9d98561b859ce8a56790a83ad9f1091107d333e3ff11f3e",
+    "low_band/frontier_g007_g010/short_sizes/uniform_short_sizes.json": "5c0444656f8347731c7642d482e991c5301720539af3d09cfcaa4681ca0d96b6"
+  },
+  "new_physical_input": "None: existing exact ground G/K/J plus geometry and certified filter compression",
+  "normalization_note": "Denominator Rayleigh shifts cancel from the physical trace upper; their lower endpoints control its ground term."
+}

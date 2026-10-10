@@ -1,0 +1,2024 @@
+{
+  "status": "exact_candidate_pending_independent_review",
+  "method": "indefinite inverse-moment pencil, one external low state, trial m=11 or29",
+  "no_new_physical_inputs": true,
+  "patches": [
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 4,
+      "ny": 4,
+      "g": "3/100",
+      "N": 16,
+      "physical_spin_count": 32,
+      "full_hilbert_dimension": 4294967296,
+      "energy_shift": "-12",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 11,
+      "source_sha256": {
+        "large_seed_moments/block1_4x4_g3d100.json": "ade3b2053dad33186ba784f845c1a525fb0043e7284a046aefa37f0b8247fd85",
+        "low_band/quadratic_boson/quadratic_bins_4x4_g3d100.json": "e7be0a7165cf2d17e506edd0f21ca59f61c23dff017851c7b39169e97c4ff24c",
+        "low_band/tail_comparison/quadratic/temple_4x4_g3d100.json": "b4b75202c6dbd3bac072cdecee2243a3bf9f03d7e3743b4e8718a54fcb98a42d"
+      },
+      "ground_upper": "-2730726104340237145893484656/248971894210539951258844394225",
+      "ground_lower": "-109682873249/10000000000000",
+      "old_ground_lower": "-7515227420707570159002147888027025109602113003162006722596585797418301654726070923509089019060157586411504/685177491730844156329957079195474495121713024260047106739152215837051249201424775037816081909144204640308025",
+      "old_ground_width": "77349729233701786430195976529721504936703227091963384304953676048751226450187113180841336770375000000000000000000000000000000000/272943900778647749652753103347241739133078257894032035054490473041095911050365885007125975540878240771447504341262699754714783597649849",
+      "ground_width": "27666874228757393584844879794503481/99588757684215980503537757690000000000000",
+      "improvement": "1529139751054700418221650510686126960462558114336109050071152409357727348926576390787871484405299568690304299071/274070996692337662531982831678189798048685209704018842695660886334820499680569910015126432763657681856123210000000000000",
+      "pencil": {
+        "external_cutoff": "2735934629448132431653653845853686969922591115944847325776737738974083171601609/1467252462472410867900879705241322856341875000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 11,
+        "gram_inertia": [
+          0,
+          0,
+          11
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          10
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          11
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-109682873249/10000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                1125899906842624,
+                -8522366634458,
+                208724358427,
+                208724358427,
+                32936868726,
+                -44834216052,
+                32046724953,
+                -1444162155,
+                -1444162155,
+                -254391085,
+                303019786
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-373248598518928471985937407185480571998438546521708106954115613544124063660908360890268007016747215261897381/183406557809051358487609963155165357042734375000000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              10
+            ],
+            "floating_proposal": -0.010968287324051085,
+            "optimal_pencil_endpoint_upper": "-6855179577/625000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              11
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "1196644653495845573911756868698953390193188994726625450776737738974083171601609/1467252462472410867900879705241322856341875000000000000000000000000000000000000",
+      "certificate_wall_seconds": 0.2769654790026834
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 4,
+      "g": "3/100",
+      "N": 32,
+      "physical_spin_count": 64,
+      "full_hilbert_dimension": 18446744073709551616,
+      "energy_shift": "-24",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "large_seed_moments/block1_8x4_g3d100.json": "a592ad7f275fcb512f785db608e682b33cd03f379a2000e78cfc78f542aaa57e",
+        "low_band/quadratic_boson/quadratic_bins_8x4_g3d100.json": "b3dfa638ce0ed3254ea3c09a3b20597d1426330088db28eb9b465e5aa35eb442",
+        "low_band/tail_comparison/quadratic/temple_8x4_g3d100.json": "e0177dcca602e21aa2bdbd72de79be733123a73c70b11d3571a983d0f9449f85"
+      },
+      "ground_upper": "-5490949975700667077912112549/250362006076180711059240412850",
+      "ground_lower": "-109674910803/5000000000000",
+      "old_ground_lower": "-15109051542271352897196377716752079846902644512658821312437798889148608215646389147110911433114440997491341/688805833342550632915030114774853720058230493940591353932620628201580701477831519236399804899915712884275650",
+      "old_ground_width": "213632070684745143592099569486918387618250817097724524460101129960016286370096906322679299626187500000000000000000000000000000000/68980324093046551911585889118044242962486467023125390320684092367227063009059619978240237209811994259388480651392135799381481511680841",
+      "ground_width": "73616127238562375414903665132900371/25036200607618071105924041285000000000000",
+      "improvement": "10787578528809530295297355389301195081223486902356771116475513937026800892071628808597846546936693112304499703061/68880583334255063291503011477485372005823049394059135393262062820158070147783151923639980489991571288427565000000000000",
+      "pencil": {
+        "external_cutoff": "2719059629448132431653653845853686969922591115944847325776737738974083171601609/1467252462472410867900879705241322856341875000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-109674910803/5000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                1125899906842624,
+                -8414361078992,
+                122787439034,
+                -8422679327290,
+                130135755290,
+                103504210231,
+                26353205703,
+                90185507500,
+                -93078957355,
+                77612699807,
+                -78230743492,
+                77249468588,
+                -72933598574,
+                72280189281,
+                -71678859446,
+                30920343080,
+                -809349632,
+                30985279818,
+                -863077599,
+                -800161955,
+                -142187112,
+                -687497221,
+                693341930,
+                -584975094,
+                584720787,
+                -577702978,
+                545599214,
+                -540828526,
+                536984136
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-41089920744516114438758563879743904461046911265985338936182023364833416546108292149397097334894684284986259/20841654296483108919046586722177881482128906250000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.02193498215977896,
+            "optimal_pencil_endpoint_upper": "-219349821589/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "1195596359340626589331682784472051480650540215814674825776737738974083171601609/1467252462472410867900879705241322856341875000000000000000000000000000000000000",
+      "certificate_wall_seconds": 5.969509926999308
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 8,
+      "g": "3/100",
+      "N": 64,
+      "physical_spin_count": 128,
+      "full_hilbert_dimension": 340282366920938463463374607431768211456,
+      "energy_shift": "-48",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "large_seed_moments/block1_8x8_g3d100.json": "1f86b2a3aa2c4ff85aa8aebe4ececacd6be6df4e740306919dd4a4219af73f70",
+        "low_band/quadratic_boson/quadratic_bins_8x8_g3d100.json": "77f8686c3bcaf3cfb50dde3f67458d51e6e85d0c7fd85d37f17fa54988bdb084",
+        "low_band/tail_comparison/quadratic/temple_8x8_g3d100.json": "18e1efb89a62d129d9ce4234e9e2db49bbaa680eeb8054193768f349ebbea6a1"
+      },
+      "ground_upper": "-1387663786913720328070423083/31645213677101726887210255000",
+      "ground_lower": "-438757191231/10000000000000",
+      "old_ground_lower": "-3818046055338364180531170628950111243937626600523989850073783986735897840554457328947780654850355353540547/87013250121497957564944264221829771763804311335403800270083856462549863992185215170040407345006279300295000",
+      "old_ground_width": "3109882997172309426402766526802086118434910115789654177311184355927644856588183197278990453862500000000000000000000000000000/110142115713356026621705887031983387551253527320883984206246482617394340410906636128115295803087770243342943750788433751437941009",
+      "ground_width": "1585439946555157797562678227854781/63290427354203453774420510000000000000",
+      "improvement": "554266038945690762706530093431172975138722517974465006505561802806508010464749509101072206699291110027962057371/174026500242995915129888528443659543527608622670807600540167712925099727984370430340080814690012558600590000000000000",
+      "pencil": {
+        "external_cutoff": "2685309629448132431653653845853686969922591115944847325776737738974083171601609/1467252462472410867900879705241322856341875000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-438757191231/10000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                1125899906842624,
+                -8190747908777,
+                -67049706140,
+                118569280959,
+                -100040921428,
+                -1897627580,
+                154535970224,
+                -108528191670,
+                92808108875,
+                -117015461913,
+                88447469039,
+                -78884554763,
+                -72920361041,
+                67339383944,
+                -63032860929,
+                28738618029,
+                564235421,
+                -872994669,
+                731804905,
+                161748595,
+                -1147851925,
+                793782715,
+                -678741429,
+                855760524,
+                -646839311,
+                577112803,
+                533462519,
+                -492605157,
+                461090560
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-178244920843809060974186642349089654062751242210935975136573921734590655306007195210114790219660120536784721/91703278904525679243804981577582678521367187500000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.043875719122297374,
+            "optimal_pencil_endpoint_upper": "-219378595607/5000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "1192997827738017394355138888180048086602011811920917950776737738974083171601609/1467252462472410867900879705241322856341875000000000000000000000000000000000000",
+      "certificate_wall_seconds": 9.71595137499753
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 4,
+      "ny": 4,
+      "g": "1/25",
+      "N": 16,
+      "physical_spin_count": 32,
+      "full_hilbert_dimension": 4294967296,
+      "energy_shift": "-12",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 11,
+      "source_sha256": {
+        "large_seed_moments/block1_4x4_g1d25.json": "278261a81689857ec0cb9ddbdaa70fb714a3141847df2329b9ccf4692894d559",
+        "low_band/quadratic_boson/quadratic_bins_4x4_g1d25.json": "26bbb231c553bad325fc41aa1ecdc90877188a205d268eb05425a7494c3ff013",
+        "low_band/tail_comparison/quadratic/temple_4x4_g1d25.json": "662ec1bdf4ce344df7768822b76ff53a899e54294455529bfc522af9c5607b47"
+      },
+      "ground_upper": "-2451151697689519068533217774/125040847015380597976467244675",
+      "ground_lower": "-98022048403/5000000000000",
+      "old_ground_lower": "-178957119684205350523856172450027174216022036728968887473552626751154883766442000458185956588656269594094/9128385363278414779202252875690239432305542833683781498542086424900820396803134527808403193259913584748675",
+      "old_ground_width": "3028071010933475060305751720187466133605045887166401468923593729624570318668846033872886384000000000000000000000000000000000000/1826273660331417130008993415062911496913262829341190225897903382270922067788550364725347668040204126856404933861678505099385247371289",
+      "ground_width": "40058801846388706010689699075760161/25008169403076119595293448935000000000000",
+      "improvement": "102660020529614688282925703251176479880884652121140863794571261479096894539325758957424936733408265525462395359/1825677072655682955840450575138047886461108566736756299708417284980164079360626905561680638651982716949735000000000000",
+      "pencil": {
+        "external_cutoff": "216665876024983666824505297349733536715219871900002192365585529186753994007043/119564787694737500085781864501666777200312500000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 11,
+        "gram_inertia": [
+          0,
+          0,
+          11
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          10
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          11
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-98022048403/5000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                11372453995149,
+                -351230958276,
+                -351230958276,
+                -70565506652,
+                97131149915,
+                -56776541686,
+                3184361308,
+                3184361308,
+                754713032,
+                -898986620
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-151558443238512427309096133463320806435289304194793980207636222399805500708125699028994647167559501704467231/74727992309210937553613665313541735750195312500000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              10
+            ],
+            "floating_proposal": -0.01960440967973165,
+            "optimal_pencil_endpoint_upper": "-196044096789/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              11
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "89855196917431051131738874034957201103988193289458129865585529186753994007043/119564787694737500085781864501666777200312500000000000000000000000000000000000",
+      "certificate_wall_seconds": 0.06167933599863318
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 4,
+      "g": "1/25",
+      "N": 32,
+      "physical_spin_count": 64,
+      "full_hilbert_dimension": 18446744073709551616,
+      "energy_shift": "-24",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "large_seed_moments/block1_8x4_g1d25.json": "13e71ea8f36bf469d72546818cb06ce98c003385d16e7ebd4a124ca7b12f5765",
+        "low_band/quadratic_boson/quadratic_bins_8x4_g1d25.json": "6f5a3126b726d7156f31b65910990e1dd6478f58e8c3b59e605ef174aba062e3",
+        "low_band/tail_comparison/quadratic/temple_8x4_g1d25.json": "607f107f4f0f9aae2e8777357b24f04a0a191d125042fe902bb8477d1c5dbd09"
+      },
+      "ground_upper": "-2474848593708339688535970837/63148677258278783896452110975",
+      "ground_lower": "-49009068409/1250000000000",
+      "old_ground_lower": "-541872806620055602149325247439035559794470368021913722094091832592799097330938904561514175903631820604991/13820196531521596818494605896900737014625683448869848979069856023316334160033672006017452404295196367596925",
+      "old_ground_width": "25051247165607552872011789146818068723871425213072921463679291658238670568608385790835486366750000000000000000000000000000000000/1396363408664065903018731221272075588251233225415762778767876472563771417120025756156814049500409277897355014574715782922704806670003",
+      "ground_width": "51884062136914836183421316649387551/3157433862913939194822605548750000000000",
+      "improvement": "1042041436121573925506500003657132431176254134026810595256308180318070699193824620605413981398861863709669478307/691009826576079840924730294845036850731284172443492448953492801165816708001683600300872620214759818379846250000000000",
+      "pencil": {
+        "external_cutoff": "214165876024983666824505297349733536715219871900002192365585529186753994007043/119564787694737500085781864501666777200312500000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-49009068409/1250000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                11129019361061,
+                -171242238903,
+                11151436885614,
+                -190228686631,
+                -208154077021,
+                -27654383453,
+                -170683467588,
+                175233498864,
+                -136357764687,
+                136901479016,
+                -134136805915,
+                123390436335,
+                -121555933619,
+                119880374823,
+                -53431891415,
+                1355742911,
+                -53666455081,
+                1541074892,
+                2150455115,
+                104413155,
+                1732789619,
+                -1726208911,
+                1362670376,
+                -1352040499,
+                1324186780,
+                -1219358262,
+                1200848694,
+                -1186296198
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-19215256920842234688853054985599288204899739791850363776985441194889398451798016021974823977328644079026211/9340999038651367194201708164192716968774414062500000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.039207254726324026,
+            "optimal_pencil_endpoint_upper": "-78414509451/2000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "89630796998726087886534655360594761433684331575554379865585529186753994007043/119564787694737500085781864501666777200312500000000000000000000000000000000000",
+      "certificate_wall_seconds": 14.846600070999557
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 8,
+      "g": "1/25",
+      "N": 64,
+      "physical_spin_count": 128,
+      "full_hilbert_dimension": 340282366920938463463374607431768211456,
+      "energy_shift": "-48",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "large_seed_moments/block1_8x8_g1d25.json": "9f3fbf84bf78fcc3e40cb77ffe05fef47494cf259fd7c01efb7831281e5bc8ed",
+        "low_band/quadratic_boson/quadratic_bins_8x8_g1d25.json": "9414e1b8547369f6c7f1d2f561ab0d2265a5219b38c3d76c109a5e91a5a5abe9",
+        "low_band/tail_comparison/quadratic/temple_8x8_g1d25.json": "77fdd26b5c0ee8ee76bf7f93b6bbb3b6b62a3deb00db635c0008c60ae63df3e6"
+      },
+      "ground_upper": "-5045433365087366456804264718/64419422012554210590186162125",
+      "ground_lower": "-784538027607/10000000000000",
+      "old_ground_lower": "-368280553404602043431644031969489881089723912897258962754325631599280922967455151442067018758352042802958/4692533669134544600627520018850316972031761831551792023533477479904526849275903749138890470187319463282125",
+      "old_ground_width": "3107484655410903001816960682985095307650994672719130137388238160248377731322608275015550647840000000000000000000000000000000000/19346579631366250194527981114065407363515136463715513503148756403893972522383219416548984192346641320249318623454200983810701431329",
+      "ground_width": "681221075508593604359326755941022279/5153553761004336847214892970000000000000",
+      "improvement": "10675398270128629055633836977309391141472946318087466672212537398070053384478487350948267250815843870558351363001/375402693530763568050201601508025357762540946524143361882678198392362147942072299931111237614985557062570000000000000",
+      "pencil": {
+        "external_cutoff": "209165876024983666824505297349733536715219871900002192365585529186753994007043/119564787694737500085781864501666777200312500000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-784538027607/10000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                10660020619422,
+                125329140792,
+                -174088726965,
+                133231178577,
+                49038855136,
+                -255208375695,
+                152180253669,
+                -118655224641,
+                171129328762,
+                -111326364806,
+                92086235022,
+                81449861727,
+                -71072206275,
+                63448521809,
+                -47503465606,
+                -1435097215,
+                1674363509,
+                -1267352085,
+                -952486758,
+                2484486677,
+                -1447593871,
+                1128013101,
+                -1627835658,
+                1058309265,
+                -875904984,
+                -774683472,
+                675881362,
+                -603347122
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-15606899162083685332736730794314153906497655807736273133987261331556578538249905806663327828600467772517257/7472799230921093755361366531354173575019531250000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.07845380275982872,
+            "optimal_pencil_endpoint_upper": "-78453802759/1000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "89055769729968064730964518527684863915668571175156567365585529186753994007043/119564787694737500085781864501666777200312500000000000000000000000000000000000",
+      "certificate_wall_seconds": 9.137180985999294
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 4,
+      "ny": 4,
+      "g": "1/20",
+      "N": 16,
+      "physical_spin_count": 32,
+      "full_hilbert_dimension": 4294967296,
+      "energy_shift": "-12",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 11,
+      "source_sha256": {
+        "large_seed_moments/block1_4x4_g1d20.json": "bef645bfe19a462803e5ec734afddf7884f0be6ff53e319841460429b658416c",
+        "low_band/quadratic_boson/quadratic_bins_4x4_g1d20.json": "7a2fcf40fcf8fcc78d8771e8f0cf7855b147724cde1de800b16056be7ea47010",
+        "low_band/tail_comparison/quadratic/temple_4x4_g1d20.json": "df112df86d957696b054dbeb9d7fb2413d3be3a394053ffdc6ec294be613d7ea"
+      },
+      "ground_upper": "-81539912565417456940527912/2647803288796829297347643935",
+      "ground_lower": "-19250974743/625000000000",
+      "old_ground_lower": "-62084873914565285457437502756959817551445104629797519912866440545884588718327322133700444039159108311330808/2015618696749310472172159863986346144095449397797962019238384673770052100338285727763885106604283888767537165",
+      "old_ground_width": "1406441494519229709964914670784969892736740400465909728505916017129277148020219640771795886387500000000000000000000000000000000000/213478472568528128392072170155914492636661846779623183943614266523337507742854462722229189955075993144101941230882763782262877011973771",
+      "ground_width": "2069776734837014778397056648426741/330975411099603662168455491875000000000",
+      "improvement": "84314792750261689357066748084210563251091076064659262020378062460075109627206492570293936302211263215127654235281/251952337093663809021519982998293268011931174724745252404798084221256512542285715970485638325535486095942145625000000000",
+      "pencil": {
+        "external_cutoff": "39374611797498107267682563018581486118962382718902704103454427576112118352916161/22430339887498948482045868343656381177202500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 11,
+        "gram_inertia": [
+          0,
+          0,
+          11
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          10
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          11
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-19250974743/625000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                14215888872359,
+                -524199459593,
+                -524199459593,
+                -122067378311,
+                171021206407,
+                -88156056904,
+                5815334919,
+                5815334919,
+                1679981474,
+                -2008308906
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-3597703349977683137295890108450771589241689990416328505836615600079541267295828575298849294495756581819584683/1752370303710855350159833464348154779468945312500000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              10
+            ],
+            "floating_proposal": -0.030801559587900318,
+            "optimal_pencil_endpoint_upper": "-308015595871/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              11
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "15380777774973451529625000397979045309830232103973359103454427576112118352916161/22430339887498948482045868343656381177202500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 0.17679389099794207
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 4,
+      "g": "1/20",
+      "N": 32,
+      "physical_spin_count": 64,
+      "full_hilbert_dimension": 18446744073709551616,
+      "energy_shift": "-24",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "large_seed_moments/block1_8x4_g1d20.json": "76635e8c099a06cfcb2804881ca5f1f7bd68b4fbf2c4e9c783627240c6c2bfc8",
+        "low_band/quadratic_boson/quadratic_bins_8x4_g1d20.json": "11afb8408e1b83fc03cfac3eb4d711dd601eed1d128e53c7667d561b1e9ad820",
+        "low_band/tail_comparison/quadratic/temple_8x4_g1d20.json": "cf95f30420e638e2e2efbd8cce89b9e81b8d3ebbaa74d0c78b6f3e021e4172b6"
+      },
+      "ground_upper": "-1572787456208255773074311673/25554034569241427014942329620",
+      "ground_lower": "-616094210741/10000000000000",
+      "old_ground_lower": "-62991532106940455743117874822896170386574421613786419511925584754727591196341328175168684263626657352647353/1022292822310342930719349253944769064959740510428393193236355699940879152519799578041044009507471765886988820",
+      "old_ground_width": "4596153821987464838103351361016134598863529942456304442260190732761952015940765793610756846935937500000000000000000000000000000000/65309265303014717005835945885862506602701199055366811436762402409552473169034974853625700955172780431942852796515934021432496544237121",
+      "ground_width": "790909855123458055416672543288322421/12777017284620713507471164810000000000000",
+      "improvement": "4331578096223668429621312136601299193016371265940546774329156253167506503319967149249934755732788999381257050454219/511146411155171465359674626972384532479870255214196596618177849970439576259899789020522004753735882943494410000000000000",
+      "pencil": {
+        "external_cutoff": "38624611797498107267682563018581486118962382718902704103454427576112118352916161/22430339887498948482045868343656381177202500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-616094210741/10000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                13775372160755,
+                -222164100167,
+                13819444502015,
+                -258718698040,
+                -335931618345,
+                -34975343212,
+                -260433397605,
+                266112378012,
+                -192549875348,
+                192398564097,
+                -186578500202,
+                166777150177,
+                -162929587300,
+                159434724018,
+                -80672398965,
+                1902213046,
+                -81247520336,
+                2345195465,
+                4337312677,
+                22751467,
+                3293841670,
+                -3237685190,
+                2385711278,
+                -2344733115,
+                2270096210,
+                -2033074808,
+                1984069903,
+                -1946036332
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-1698872120097138524269257589599850238604354012116251825563902757775559134487175970435253302432122800278849841/876185151855427675079916732174077389734472656250000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.06160942107326628,
+            "optimal_pencil_endpoint_upper": "-154023552681/2500000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "15290525205792361902922225303915101555040080524248164103454427576112118352916161/22430339887498948482045868343656381177202500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 10.019511359998432
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 8,
+      "g": "1/20",
+      "N": 64,
+      "physical_spin_count": 128,
+      "full_hilbert_dimension": 340282366920938463463374607431768211456,
+      "energy_shift": "-48",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "large_seed_moments/block1_8x8_g1d20.json": "b48cd88a56a0aef6d145aaa679409407d9c3589f4e8680974f0494f9fcb3de1a",
+        "low_band/quadratic_boson/quadratic_bins_8x8_g1d20.json": "5dc7013768eeaee341facbb46180a813314c2397386198477b4678188f1d9283",
+        "low_band/tail_comparison/quadratic/temple_8x8_g1d20.json": "dc3ccfed9a1f91de5e1049666f34969b5c1785412f4e4ce2ebc952086e3f64e6"
+      },
+      "ground_upper": "-810067565614879355366849712/6591549215264450430078077675",
+      "ground_lower": "-246730147231/2000000000000",
+      "old_ground_lower": "-32468256943787418255030807121001929260664187658857834103737417827476297787406112892364305142233363022995632/262878796589376607548204876420935829322539100237488316758760514451749576026669002600601905270719753320805675",
+      "old_ground_width": "1706442838241827371953692151010899054235802287405814169254035028796109331235422961567501961762750000000000000000000000000000000000/2772445640589389545024321712598643289361153945949733588048314846299826453057834927423355620797624797299256553204934652185683657969289",
+      "ground_width": "247951085312866259190638063128166717/527323937221156034406246214000000000000",
+      "improvement": "3055588046793819167428766116568040871008645174636349917739568608124777448414191623127212312117055832355145268386563/21030303727150128603856390113674866345803128018999065340700841156139966082133520208048152421657580265664454000000000000",
+      "pencil": {
+        "external_cutoff": "37124611797498107267682563018581486118962382718902704103454427576112118352916161/22430339887498948482045868343656381177202500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-246730147231/2000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                13002393154378,
+                164615493616,
+                -208196501359,
+                143094642109,
+                80686899012,
+                -340486014777,
+                173615641968,
+                -121685865534,
+                204136641827,
+                -113174489600,
+                85317712432,
+                71989480792,
+                -58323776267,
+                48901405860,
+                -68781515739,
+                -2472322112,
+                2443050015,
+                -1648912229,
+                -2079146226,
+                4060328152,
+                -2001276518,
+                1400186871,
+                -2353640807,
+                1302203083,
+                -982500478,
+                -828905516,
+                671312088,
+                -562778328
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-294173224911682687453555544344711405080034794233533702220103518969787355519313858361391816643309326088770679/140189624296868428012786677147852382357515625000000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.12336507361461457,
+            "optimal_pencil_endpoint_upper": "-616825368069/5000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "15054003776118155298657005830522497137903112074685126603454427576112118352916161/22430339887498948482045868343656381177202500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 10.274516112000128
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 4,
+      "ny": 4,
+      "g": "3/50",
+      "N": 16,
+      "physical_spin_count": 32,
+      "full_hilbert_dimension": 4294967296,
+      "energy_shift": "-12",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 11,
+      "source_sha256": {
+        "low_band/frontier_g006/block1_4x4_g3d50.json": "8edf787ed7afaa3a8efb980b06bc72677a1f7b4d7de96d66d7a7faeb05665c53",
+        "low_band/quadratic_boson/quadratic_bins_4x4_g3d50.json": "d8c03a5e6ab737a3958f3d466baee77012bb5f1f7746a7a6156d80554d8cf8e1",
+        "low_band/tail_comparison/quadratic/temple_4x4_g3d50.json": "7b70911fa6baac0984b954a581315dfbcb61ae50d9a6a6c3a936f2d55cb2ec3d"
+      },
+      "ground_upper": "-5648664191249276126739815328/126684823484892207135825228475",
+      "ground_lower": "-1742476621/39062500000",
+      "old_ground_lower": "-215174691851668637107458707037149394795324700721384201173978089275757152871275724258414541979564662557539232/4823590144196248393896281173493220980674114248289221443461239693372664035252823654094439425551950782255097275",
+      "old_ground_width": "20043095776694641708060004015312020010123706812895492917697104225646730513438229791182758380320000000000000000000000000000000000000/977721065569547962212347230502412371652925745482610448895237352382836529052697981682425255093692974151452402074958956249903180976359849",
+      "ground_width": "3775927490462757539631836386839319/197945036695144073649726919492187500000",
+      "improvement": "10733796312978989481467999370630935241368976084509873417425078207522484745717493958656838072014885268303609267689/7536859600306638115462939333583157782303303512951908505408187020894787555082536959522561602424923097273589492187500000",
+      "pencil": {
+        "external_cutoff": "37099155351578963629842720728982308900202765780616885226027215738775538971584769/21897247358851683880592454959649039147842500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 11,
+        "gram_inertia": [
+          0,
+          0,
+          11
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          10
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          11
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-1742476621/39062500000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                17049831919879,
+                -728573369076,
+                -728573369076,
+                -183018247710,
+                263018752878,
+                -125863853738,
+                9469110644,
+                9469110644,
+                3104629987,
+                -3738939277
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-12673622240855776294283285649301033423344273305300306368244344699501873939198959601879208083964953904270563/6682509569962061731137834155166332747754669189453125000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              10
+            ],
+            "floating_proposal": -0.04460740149676434,
+            "optimal_pencil_endpoint_upper": "-446074014959/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              11
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "13527977462430942941823259398847374816193102710948957726027215738775538971584769/21897247358851683880592454959649039147842500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 0.13712305299850414
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 4,
+      "g": "3/50",
+      "N": 32,
+      "physical_spin_count": 64,
+      "full_hilbert_dimension": 18446744073709551616,
+      "energy_shift": "-24",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "low_band/frontier_g006/block1_8x4_g3d50.json": "f92d450de4f38e4e33b53bb5072ff4577aa76ae1380ff189e71beaf662d55dac",
+        "low_band/quadratic_boson/quadratic_bins_8x4_g3d50.json": "9d376e4943e1be8dafa15e39dad3de140927a7ef8989d08b8031e2cdd5c77417",
+        "low_band/tail_comparison/quadratic/temple_8x4_g3d50.json": "3914ee5aad1d9ef3d313569beb4b70707da221aa0ac6075c30e7abdc957c71ac"
+      },
+      "ground_upper": "-5772644511401948116401556509/64810434303110152686323877050",
+      "ground_lower": "-892514760471/10000000000000",
+      "old_ground_lower": "-219715094297053415073919769303518288442474333891074120060731110071082724734128942466618595797868234037211421/2460822126347912873916520144008363203040104758218622273423220393337219937071232732891936939156316442808651450",
+      "old_ground_width": "13751737256832794235015890086372690557484822957731119704464212382911098120016149957068558053568000000000000000000000000000000000000/63794780300524495521566803553616918312836036724220461166894588078596606573717440227460428760355335585244770773972801979847461778441689",
+      "ground_width": "2356482680847171422940544656176081811/12962086860622030537264775410000000000000",
+      "improvement": "16617446227795881296349861114243488852678032450003471827201642840319817542248976088882752006913391841437812334463341/492164425269582574783304028801672640608020951643724454684644078667443987414246546578387387831263288561730290000000000000",
+      "pencil": {
+        "external_cutoff": "36019155351578963629842720728982308900202765780616885226027215738775538971584769/21897247358851683880592454959649039147842500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-892514760471/10000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                16358065895889,
+                -289898827137,
+                16428663545255,
+                -347900616288,
+                -468909355562,
+                -58844939216,
+                -346056112888,
+                352464593609,
+                -237071914691,
+                235668991624,
+                -225586181428,
+                195696652709,
+                -189056246792,
+                183044737311,
+                -111909753195,
+                2551460247,
+                -113010542571,
+                3385351672,
+                7259011843,
+                37182677,
+                5230435366,
+                -5069493156,
+                3491086470,
+                -3391496505,
+                3235350943,
+                -2815621802,
+                2714036489,
+                -2636149635
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-25724926839564666242046903959741602865278500345476193372115104307782526409799766205951480901428264539182870387/13685779599282302425370284349780649467401562500000000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.08925147604627881,
+            "optimal_pencil_endpoint_upper": "-446257380227/5000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "13362221282204421118981418508475599816842752914701490226027215738775538971584769/21897247358851683880592454959649039147842500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 8.129742844001157
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 8,
+      "g": "3/50",
+      "N": 64,
+      "physical_spin_count": 128,
+      "full_hilbert_dimension": 340282366920938463463374607431768211456,
+      "energy_shift": "-48",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "low_band/frontier_g006/block1_8x8_g3d50.json": "63fa3b94b635ba1d924a4297f14cddba250ddc9637195b691c4cd77db63e3545",
+        "low_band/quadratic_boson/quadratic_bins_8x8_g3d50.json": "b7e6b0e0c714a2551c743f85011b97bb0ca3f7f4fba417a9ad9645da380887e4",
+        "low_band/tail_comparison/quadratic/temple_8x8_g3d50.json": "795955a90aa2c2fe9488db9e1a4fd649296f0f650a913d61b05818fa7db9b4d4"
+      },
+      "ground_upper": "-6020515466138570468230610991/33900241402832946576913035475",
+      "ground_lower": "-894532041719/5000000000000",
+      "old_ground_lower": "-229607265046356909752148882799170181532169361105429839576969071789571623839878323691271918310798176419596079/1279666256504378443086638147962597524376092969527993696121009862970965682057175124510322632775602855066680275",
+      "old_ground_width": "127185958616782529664754474351588690491081959587697743748408902234869411478694305227387765681930000000000000000000000000000000000000/69409592016892760829677426652928677874203083545867695973384048267439055097527301819343605617465844581491344753815814812696241570492409",
+      "ground_width": "8890993046011204438952589470305079261/6780048280566589315382607095000000000000",
+      "improvement": "133354243280533448136142043644628965361819594524453806718286229292150896468214009384105870632615687363889788674624291/255933251300875688617327629592519504875218593905598739224201972594193136411435024902064526555120571013336055000000000000",
+      "pencil": {
+        "external_cutoff": "33859155351578963629842720728982308900202765780616885226027215738775538971584769/21897247358851683880592454959649039147842500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-894532041719/5000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                1125899906842624,
+                -15261306471365,
+                -165692779259,
+                221079719906,
+                -136360512572,
+                -61751259866,
+                397085537471,
+                -176313374524,
+                110281181776,
+                -216266236476,
+                102436752852,
+                -69467389841,
+                -56016090548,
+                41457421963,
+                -32156400929,
+                92179538172,
+                3306497704,
+                -3034746535,
+                1818741874,
+                3010665861,
+                -5565738417,
+                2354042759,
+                -1466202447,
+                2889343643,
+                -1361882021,
+                924581753,
+                745356958,
+                -551156710,
+                427340282
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-6895534222829922590728444011472274190662451022124629691537688366217779651431916047091078608635535613818501021/3421444899820575606342571087445162366850390625000000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.17890640834293836,
+            "optimal_pencil_endpoint_upper": "-1789064083421/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "12921645962383508718513565829266522161631309116273410226027215738775538971584769/21897247358851683880592454959649039147842500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 8.6294686930014
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 4,
+      "ny": 4,
+      "g": "7/100",
+      "N": 16,
+      "physical_spin_count": 32,
+      "full_hilbert_dimension": 4294967296,
+      "energy_shift": "-12",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 11,
+      "source_sha256": {
+        "low_band/frontier_g007_g010/g7d100/block1_4x4_g7d100.json": "d3138f31bed8a6219a95f02a46992cf89ad32e981f54b58142da966c0a1e3a65",
+        "low_band/frontier_g007_g010/g7d100/quadratic_bins_4x4_g7d100.json": "ef2d0113f671a185f2339c9e68e54eb08d67157e205759b0f515794e1f17a823",
+        "low_band/frontier_g007_g010/g7d100/temple_4x4_g7d100.json": "c0fee8428456e3636c815a7f03270f9b49d27dc7ef055fc037c0b0788691ec9d"
+      },
+      "ground_upper": "-7798676379341490049043431959/127794045559058500033473461050",
+      "ground_lower": "-19085764803/312500000000",
+      "old_ground_lower": "-7220477273328551285310671548907279176182182983594791291548666474498444338216606663583978150963858100542361/118214895709505479871086988953156129346737781564301121669437315707406200587454053253757639704155686190142950",
+      "old_ground_width": "325714707942933806973906407001160162703359386317346009456352469128613959641920870203449237886500000000000000000000000000000000000/6042863907223956999744766356306466597862901577882769584438870061112255224493720028325078684122061693915604206176708518958709172302839",
+      "ground_width": "39214564396830748615392351103628463/798712784744115625209209131562500000000",
+      "improvement": "3549043847537528007356558402553466144976962462632987139819046751030921934021787994759696365514561986886637028223/738843098184409249194293680957225808417111134776882010433983223171288753671587832835985248150973038688393437500000000",
+      "pencil": {
+        "external_cutoff": "11591118318204308709847261514101701737849522469294332043065193409766096950244227/7118867239266070955337555143857578529757500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 11,
+        "gram_inertia": [
+          0,
+          0,
+          11
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          10
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          11
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-19085764803/312500000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                1125899906842624,
+                -19873811527235,
+                967544826201,
+                967544826201,
+                246792918100,
+                -367299478752,
+                169577359714,
+                -14304579201,
+                -14304579201,
+                -5024473805,
+                6123141877
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-254332783622091691973798273935424964337267532576354283176019516029803249332471037002901081469756130420699867/139040375766915448346436623903468330659326171875000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              10
+            ],
+            "floating_proposal": -0.0610744473687701,
+            "optimal_pencil_endpoint_upper": "-610744473679/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              11
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "3896476211430851069102411968760627893634633586597994543065193409766096950244227/7118867239266070955337555143857578529757500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 0.1505312529989169
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 4,
+      "g": "7/100",
+      "N": 32,
+      "physical_spin_count": 64,
+      "full_hilbert_dimension": 18446744073709551616,
+      "energy_shift": "-24",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "low_band/frontier_g007_g010/g7d100/block1_8x4_g7d100.json": "472ae50bddc18718c71ec1da965785136ec4ca88997bc19e54b76a5270ed83f6",
+        "low_band/frontier_g007_g010/g7d100/quadratic_bins_8x4_g7d100.json": "230b6a55cd4ab90f5a78e4ecd382c81dca74c5a09283f850e83d5848a225c6ef",
+        "low_band/frontier_g007_g010/g7d100/temple_8x4_g7d100.json": "b23481bac36c40fc9bf49d0c35a37f862a29617fb4173ef701ea28045bb5bc16"
+      },
+      "ground_upper": "-8031979545539212572272563917/65936265261446525667209456600",
+      "ground_lower": "-1222646812723/10000000000000",
+      "old_ground_lower": "-10729797978529481668082484792725168321146590558284194277523230141427199806506933652823077123042462735306351/87682764242335191554552268112620727592012767582914117438590184929513898875193085550060525526282548217449800",
+      "old_ground_width": "80415920581982143150252832298827491512148271627298211991107413068712045602136528808726805428781250000000000000000000000000000000/144536850048487287030557087677155561002062291558824345460525354923274081175426329300789506722404958314865284252390064654324492394467",
+      "ground_width": "1484845546868675883950069678173981609/3296813263072326283360472830000000000000",
+      "improvement": "464637768307303720169248690227019052731362926349102283497495638053405957927878546207012179884438041299734493730973/4384138212116759577727613405631036379600638379145705871929509246475694943759654277503026276314127410872490000000000000",
+      "pencil": {
+        "external_cutoff": "11101118318204308709847261514101701737849522469294332043065193409766096950244227/7118867239266070955337555143857578529757500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-1222646812723/10000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                18889161903722,
+                -391582676905,
+                18987039036266,
+                -471893283027,
+                -589427287112,
+                -107675995819,
+                -417485331586,
+                425148820509,
+                -266457571505,
+                263687198477,
+                -248534308767,
+                209321188361,
+                -199376242240,
+                190379766652,
+                -146649205761,
+                3589110042,
+                -148422753154,
+                4917238436,
+                10647976842,
+                346383751,
+                7335912587,
+                -7013585006,
+                4533016285,
+                -4346070912,
+                4071494948,
+                -3446507314,
+                3269352139,
+                -3135426773
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-4087049180807417555538131041499583244580323172860067188745850875592961988133893455613955122541686420553384837/2224646012270647173542985982455493290549218750000000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.12226468127148249,
+            "optimal_pencil_endpoint_upper": "-611323406353/5000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "3803970115850640498074523759876061243367252457506257043065193409766096950244227/7118867239266070955337555143857578529757500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 17.132230182000058
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 8,
+      "g": "7/100",
+      "N": 64,
+      "physical_spin_count": 128,
+      "full_hilbert_dimension": 340282366920938463463374607431768211456,
+      "energy_shift": "-48",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "low_band/frontier_g007_g010/g7d100/block1_8x8_g7d100.json": "45b91269964e87010dea08b6131f040a95d2dc218bf6fe5bba15b8e40da2acee",
+        "low_band/frontier_g007_g010/g7d100/quadratic_bins_8x8_g7d100.json": "34e3989d0575164f991576d023993b43d4b06072d3f6f934a3ef294c2320564f",
+        "low_band/frontier_g007_g010/g7d100/temple_8x8_g7d100.json": "6b969b4942d460ef4a10157629934f2f3bafc5eaa266af61c219dab924246dbb"
+      },
+      "ground_upper": "-8493755064712738174978566369/35046473654475610640728402300",
+      "ground_lower": "-2454653655259/10000000000000",
+      "old_ground_lower": "-2770824069845763118709922651849271048429576250418813259470942343775202549733730777586948806430377429151399/11220957328684096854634183329916663625288248427611045026802526926951617786638353296527611633523139473203300",
+      "old_ground_width": "179954962360036163132296239913283712870571726338481928130170953027457211382500694748286547257375000000000000000000000000000000000/39325498539772222560940267866900024478100202700369843630336386491994509098037005647664093184222850370308157258288269625861407208759",
+      "ground_width": "10894040127694196943443840339540626957/3504647365447561064072840230000000000000",
+      "improvement": "1646767760979485543682436344224477886279971938550216585477670913324644151219946866273538558550280434582419733788453/1122095732868409685463418332991666362528824842761104502680252692695161778663835329652761163352313947320330000000000000",
+      "pencil": {
+        "external_cutoff": "10121118318204308709847261514101701737849522469294332043065193409766096950244227/7118867239266070955337555143857578529757500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-2454653655259/10000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                17474541514840,
+                120713890063,
+                -218268783053,
+                121858311104,
+                -28787712188,
+                -422599057946,
+                167522353535,
+                -93503273328,
+                213186395965,
+                -87234775038,
+                52800571249,
+                40885816669,
+                -27256444156,
+                19274125817,
+                -117711031138,
+                -3602344954,
+                3412435468,
+                -1823860294,
+                -3146048432,
+                6784128081,
+                -2512867839,
+                1390333942,
+                -3201875384,
+                1297181459,
+                -786118706,
+                -608429338,
+                404792367,
+                -285947685
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-892752627385922743729314203518488274744655048887606128037313717534588259315267630688495467356957850950209627/444929202454129434708597196491098658109843750000000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.24546536552502807,
+            "optimal_pencil_endpoint_upper": "-1227326827621/5000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "3556218192446554150112830694534987247754178385716167043065193409766096950244227/7118867239266070955337555143857578529757500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 10.205005003001133
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 4,
+      "ny": 4,
+      "g": "2/25",
+      "N": 16,
+      "physical_spin_count": 32,
+      "full_hilbert_dimension": 4294967296,
+      "energy_shift": "-12",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 11,
+      "source_sha256": {
+        "low_band/frontier_g007_g010/g2d25/block1_4x4_g2d25.json": "2825609d811baac89b1cb66937e6b608fbff185697911baff03709c225bdebb4",
+        "low_band/frontier_g007_g010/g2d25/quadratic_bins_4x4_g2d25.json": "bf6fc8f958cf6fd37eff579bf50faf696221c6c0cf696ba9ddab46c46b660afb",
+        "low_band/frontier_g007_g010/g2d25/temple_4x4_g2d25.json": "31768b674f9b24e8416d86122d616b7b84b632a7a5107c821c91c3d9c2ef9ca1"
+      },
+      "ground_upper": "-5174091320780011218462063438/64555145708733704803621668725",
+      "ground_lower": "-200654057841/2500000000000",
+      "old_ground_lower": "-58843311889597261553390303296111210652912339428605711014954297953318836815158018567726263614582633064043914/733019047786717911894398407304589200196075901809470731174737066090239418782369586681191755653294208481076175",
+      "old_ground_width": "9489727836365135631923382422146744353809472722262136058350011990125434736573383118117781801504000000000000000000000000000000000000/75712242299438094889509907137523554067516547814039596785586045811641242937804566794846692449880051732809759458439121242948293339744203",
+      "ground_width": "720945560976307855078530705083628909/6455514570873370480362166872500000000000",
+      "improvement": "1001332433692598346655933483388334055740241144420035306139669842382079039969503293941810831525912374304537104918473/73301904778671791189439840730458920019607590180947073117473706609023941878236958668119175565329420848107617500000000000",
+      "pencil": {
+        "external_cutoff": "10799014542531391436416640465030374501871919048494173204441494432763076423457203/6935921354681383791517841546645064187622500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 11,
+        "gram_inertia": [
+          0,
+          0,
+          11
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          10
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          11
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-200654057841/2500000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                22689222800888,
+                -1245758677732,
+                -1245758677732,
+                -305481312283,
+                476714880724,
+                -219006065533,
+                20524506015,
+                20524506015,
+                7347785440,
+                -9110863652
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-200140789598077689408014431097409534682807574560671102225951980364439382795989326094472252694729807781404393/108373771166896621742466274166329127931601562500000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              10
+            ],
+            "floating_proposal": -0.08026162313554552,
+            "optimal_pencil_endpoint_upper": "-802616231347/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              11
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "3286845299643287875563410561641438451037072190079545704441494432763076423457203/6935921354681383791517841546645064187622500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 0.15143614199769218
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 4,
+      "g": "2/25",
+      "N": 32,
+      "physical_spin_count": 64,
+      "full_hilbert_dimension": 18446744073709551616,
+      "energy_shift": "-24",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "low_band/frontier_g007_g010/g2d25/block1_8x4_g2d25.json": "e0209b90375474a50973df5b0a99849dfb8654627a8636fb84e78cdabd115902",
+        "low_band/frontier_g007_g010/g2d25/quadratic_bins_8x4_g2d25.json": "c3128d19882cb6a8bfd7d3c5cb0ddd7dbc76b4770e39924ea9d834dabca79b80",
+        "low_band/frontier_g007_g010/g2d25/temple_8x4_g2d25.json": "906b438dec4c9b574a6ddafc7b18034f0dc715e18ec32d1119175029834884e1"
+      },
+      "ground_upper": "-2687996601738065715989041941/16818628918518151882931177675",
+      "ground_lower": "-804048993293/5000000000000",
+      "old_ground_lower": "-30527115547078580621362691422887970511468364859190896276382738318116075422053003233766273403082594985551023/189504428799970954279495376633204327038769250937412067056464971720557931332989168879546298010748239751543025",
+      "old_ground_width": "6459148336649172689066250141618061523631308901879826618526152098029747634016580532010716530004000000000000000000000000000000000000/5099527466243928969298686465292685200677246850683832810346988839900218085590299103030764827496690352961182382205042962735851938691147",
+      "ground_width": "3320745672509150674899043783466653351/3363725783703630376586235535000000000000",
+      "improvement": "10589301368450450029786775218561507401914731920184492578112851653922332387538134830376052851435370474205652214962747/37900885759994190855899075326640865407753850187482413411292994344111586266597833775909259602149647950308605000000000000",
+      "pencil": {
+        "external_cutoff": "10159014542531391436416640465030374501871919048494173204441494432763076423457203/6935921354681383791517841546645064187622500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-804048993293/5000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                1125899906842624,
+                -21383591106300,
+                542804064001,
+                -21505432886041,
+                643419864554,
+                683201271099,
+                187175953626,
+                468482497931,
+                -479496161179,
+                281070195515,
+                -277541347203,
+                257142950987,
+                -210637619496,
+                197283983696,
+                -185171267969,
+                184633357708,
+                -5429093993,
+                187152376127,
+                -7301454886,
+                -14150926551,
+                -1169867208,
+                -9395908210,
+                8877914302,
+                -5417577179,
+                5124496995,
+                -4700417145,
+                3880776560,
+                -3609316819,
+                3407500245
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-1058890227608778059550749036954342808626958567865457416224821555030033592867343420712096038627147788533495411/541868855834483108712331370831645639658007812500000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.16080979865771372,
+            "optimal_pencil_endpoint_upper": "-1608097986569/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "3142294341750975567370844111397091956045850784715930704441494432763076423457203/6935921354681383791517841546645064187622500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 7.7912249349974445
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 8,
+      "g": "2/25",
+      "N": 64,
+      "physical_spin_count": 128,
+      "full_hilbert_dimension": 340282366920938463463374607431768211456,
+      "energy_shift": "-48",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "low_band/frontier_g007_g010/g2d25/block1_8x8_g2d25.json": "7dbc1a939d666b3766875a3a47677b8c06b0903329b22787f41c74ea51c3df60",
+        "low_band/frontier_g007_g010/g2d25/quadratic_bins_8x8_g2d25.json": "e06d8d7b5e1579914db4d02fc983d53ec065fea588e1712be102f19a66ed0e84",
+        "low_band/frontier_g007_g010/g2d25/temple_8x8_g2d25.json": "45cda2717362ccd11d87c0b04ec46c3643fffd8da1a721f0f0d89ddd6f9c3c7e"
+      },
+      "ground_upper": "-23079551969909934427770450042/72805105434991232577881750075",
+      "ground_lower": "-3235736145859/10000000000000",
+      "old_ground_lower": "-263770162016385025818029962512579158427263122955585543957300749581290359453316351230283524777329492836552526/806515547292395511539184290177752289046430129472592435012952509803311359184399470724613453672516251504540225",
+      "old_ground_width": "943675148691897132479762353352402152294878354206216801555586627855781291545828518904270474512928000000000000000000000000000000000000/93949519128932020686532844141548257079712539520653695517623157643581302627900968475628018888472657635232926121590493463407611249974827",
+      "ground_width": "191303662399092812052258984717375367577/29122042173996493031152700030000000000000",
+      "improvement": "1121204463703694509321147566772428899436818404538993181243064599909439320403198688837400368776325742707294492746692869/322606218916958204615673716071100915618572051789036974005181003921324543673759788289845381469006500601816090000000000000",
+      "pencil": {
+        "external_cutoff": "8879014542531391436416640465030374501871919048494173204441494432763076423457203/6935921354681383791517841546645064187622500000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-3235736145859/10000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                1125899906842624,
+                -19668094237807,
+                -29506271180,
+                205246058946,
+                -105537031166,
+                198524092512,
+                420275586945,
+                -153220857608,
+                76856196990,
+                -200904684050,
+                72244606892,
+                -38939176491,
+                -29132454454,
+                17293583668,
+                -10986612635,
+                145551161925,
+                3120773142,
+                -3595241347,
+                1735267152,
+                1980931860,
+                -7610232675,
+                2529256522,
+                -1248183998,
+                3323245893,
+                -1173499467,
+                633146497,
+                473276505,
+                -279712687,
+                177203853
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-3977538644042842120872978871243400791098002237485301516825033744536461811524094384355541432608819197693198507/2167475423337932434849325483326582558632031250000000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.32357361458508715,
+            "optimal_pencil_endpoint_upper": "-1617868072921/5000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "2754240051405979730805306026484661088255620849273835704441494432763076423457203/6935921354681383791517841546645064187622500000000000000000000000000000000000000",
+      "certificate_wall_seconds": 10.939844835000258
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 4,
+      "ny": 4,
+      "g": "1/10",
+      "N": 16,
+      "physical_spin_count": 32,
+      "full_hilbert_dimension": 4294967296,
+      "energy_shift": "-12",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 11,
+      "source_sha256": {
+        "low_band/frontier_g007_g010/g1d10/block1_4x4_g1d10.json": "ec4194484c90ec1fdfe94d12da36f5b878f20d33b0113e741325fb39dd60ef3f",
+        "low_band/frontier_g007_g010/g1d10/quadratic_bins_4x4_g1d10.json": "ea515d8f33343a7760ac5eb5782e9676c04acd64ba38fb2b3e1bded874788870",
+        "low_band/frontier_g007_g010/g1d10/temple_4x4_g1d10.json": "db6c74e30b03c3ad42a2f93b061acb8b78889a6a781892a08a6373b579385dc5"
+      },
+      "ground_upper": "-6707348886031445029598478876/52967228876597746233464112025",
+      "ground_lower": "-635390297391/5000000000000",
+      "old_ground_lower": "-32311360118946326716231107044144373575722933141413298792135746907253121003637020673976734445471542119184764/254110182887483628311330121410568107562172713156968090236936185639307856296368339248958438778500563368940225",
+      "old_ground_width": "11260087383668136044606858130918908166142420521713864625691524555936380297320326785952814045255200000000000000000000000000000000000/21535219547000731681880009468754766437782891173445772037111176029931201427715506661345424266468993078537167104707883730599555351885929",
+      "ground_width": "4724755108855186862748715027619569071/10593445775319549246692822405000000000000",
+      "improvement": "3906236790880475871031289715394464177026778886208025645381115608664109865317298448447688995486834394873983389901881/50822036577496725662266024282113621512434542631393618047387237127861571259273667849791687755700112673788045000000000000",
+      "pencil": {
+        "external_cutoff": "4398709341572746806514729855860735750932277357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 11,
+        "gram_inertia": [
+          0,
+          0,
+          11
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          10
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          11
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-635390297391/5000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                28306269723879,
+                -1941626558958,
+                -1941626558958,
+                -374142085932,
+                680664897298,
+                -334130119380,
+                38178642372,
+                38178642372,
+                12432460895,
+                -16334018194
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-213728799604694762935870176470285792777350810804399782486319179745863446430873394289767248225233384473486809/123015364784490888830926021871599993919257812500000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              10
+            ],
+            "floating_proposal": -0.1270780594773515,
+            "optimal_pencil_endpoint_upper": "-254156118953/2000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              11
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "994015411476060351765211168481910347557947030076995579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+      "certificate_wall_seconds": 0.18192387799717835
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 4,
+      "g": "1/10",
+      "N": 32,
+      "physical_spin_count": 64,
+      "full_hilbert_dimension": 18446744073709551616,
+      "energy_shift": "-24",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "low_band/frontier_g007_g010/g1d10/block1_8x4_g1d10.json": "61775ca94ac8d389e8b1254b51b41f40249ae42a80a00471916763724a004191",
+        "low_band/frontier_g007_g010/g1d10/quadratic_bins_8x4_g1d10.json": "2efa40c58f71d7f922832f244a3a020ba8c28fa42263275a70b70d422435d3a9",
+        "low_band/frontier_g007_g010/g1d10/temple_8x4_g1d10.json": "8b0aefde0340216a9609ceb399626d6c3a754db08d610b5cd70f467cd7ad46b9"
+      },
+      "ground_upper": "-7111025690516737930304486403/28253834844306983548081210610",
+      "ground_lower": "-255370784663/1000000000000",
+      "old_ground_lower": "-34171913441429797384789211705320556149780518981711372280341696437803505470008217259580661942560756354654267/133112561273995900643746765829592913937461069107686031615350631812991655689969560973092955946796654386772290",
+      "old_ground_width": "189207557382430899205670774324071623993617535054126477378147343957933451913542152565234799781590000000000000000000000000000000000000/37609403219381737750755232171252572885584024549029604339649686537241263799484686042524760073035751309740247886329963657009938736019969",
+      "ground_width": "10417828341274689681964413852266087443/2825383484430698354808121061000000000000",
+      "improvement": "17885422038779729995021329114889757170645685366672114248498019584701607898916181529629195238920264260100621479461173/13311256127399590064374676582959291393746106910768603161535063181299165568996956097309295594679665438677229000000000000",
+      "pencil": {
+        "external_cutoff": "3918709341572746806514729855860735750932277357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-255370784663/1000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                26319337858849,
+                -1037162631942,
+                26467841923249,
+                -1165006136637,
+                -754886039433,
+                -450285550343,
+                -498514982367,
+                530092262309,
+                -274122824645,
+                274259301608,
+                -245649533949,
+                191908934870,
+                -173154367723,
+                155776124221,
+                -270191134458,
+                13392015248,
+                -274077430091,
+                16278514528,
+                20069705256,
+                5213993084,
+                12658561503,
+                -11846442999,
+                6557501370,
+                -6080769835,
+                5318786701,
+                -4230565483,
+                3749638674,
+                -3406783552
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-362243288036162409105544931979045627172944999052427058515796248251154048585681893543809919164673049842646797/196824583655185422129481634994559990270812500000000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.2553707846621225,
+            "optimal_pencil_endpoint_upper": "-2553707846613/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "848245836551854221294816349945599902707602357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+      "certificate_wall_seconds": 6.931452543998603
+    },
+    {
+      "status": "exact_candidate_pending_independent_review",
+      "nx": 8,
+      "ny": 8,
+      "g": "1/10",
+      "N": 64,
+      "physical_spin_count": 128,
+      "full_hilbert_dimension": 340282366920938463463374607431768211456,
+      "energy_shift": "-48",
+      "retained_ground_states": 1,
+      "ground_trial_dimension": 29,
+      "source_sha256": {
+        "low_band/frontier_g007_g010/g1d10/block1_8x8_g1d10.json": "b4173dbb681ab2c78eed014bb2266dbce0a2779d1065c04dfff2e73c3648a42e",
+        "low_band/frontier_g007_g010/g1d10/quadratic_bins_8x8_g1d10.json": "ee0d32df26daab715ff60ae4a0beb0d84b781b97f418eeda4d5b4ddb2b5f17ae",
+        "low_band/frontier_g007_g010/g1d10/temple_8x8_g1d10.json": "c7129a5256dd3b07422acf4c6b4290e809eea10114c931bc5c8f76aa7ea2e43b"
+      },
+      "ground_upper": "-3932059914455191524909847707/7949130746188140838762956980",
+      "ground_lower": "-2589767114133/5000000000000",
+      "old_ground_lower": "-19085998801660304883718751567757476340496816821703359129997030162237864768206766605293281172155439807909523/35901984285248184955978892860916617765099356788165953730287567628413346108415556201789420607195765222475220",
+      "old_ground_width": "26370866596408331603304687766533377384834327040622712660088101447070095661864394780837856969535000000000000000000000000000000000000/713473917827574526777368919574073659441353154362484436522758452323754893746542109562191534751995225520712771416344279069907704940089",
+      "ground_width": "46304891007280238286123331237811449917/1987282686547035209690739245000000000000",
+      "improvement": "122610788712300789073603741515547818390984139660686492600735527897261079809018594831707372215485078277967989474785787/8975496071312046238994723215229154441274839197041488432571891907103336527103889050447355151798941305618805000000000000",
+      "pencil": {
+        "external_cutoff": "2958709341572746806514729855860735750932277357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+        "external_low_count_required": 1,
+        "trial_dimension": 29,
+        "gram_inertia": [
+          0,
+          0,
+          29
+        ],
+        "cutoff_ritz_inertia": [
+          1,
+          0,
+          28
+        ],
+        "shifted_squared_moment_inertia": [
+          0,
+          0,
+          29
+        ],
+        "negative_inverse_ritz_count": 1,
+        "endpoints": [
+          {
+            "sector_eigenvalue_index_one_based": 1,
+            "lower": "-2589767114133/5000000000000",
+            "negative_direction_witness": {
+              "coefficients": [
+                -1125899906842624,
+                24054934577744,
+                -277762482989,
+                -161644173417,
+                76658354639,
+                -768760961535,
+                -350300607844,
+                120474830416,
+                -51182559346,
+                164291306193,
+                -48897636016,
+                21307957273,
+                15158602452,
+                -7001337599,
+                3424907178,
+                -208995621740,
+                735613327,
+                3493313742,
+                -1467605906,
+                5609377384,
+                7988075418,
+                -2327345275,
+                946357749,
+                -3187084645,
+                904712043,
+                -393815266,
+                -279515339,
+                126970762,
+                -60992950
+              ],
+              "bits": 50,
+              "exact_endpoint_quadratic_form": "-434234251310690514314186350362000371477144944840307260550340970741160424778642320604680688210573457439661341/246030729568981777661852043743199987838515625000000000000000000000000000000000000000000000",
+              "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+            },
+            "endpoint_pencil_inertia": [
+              1,
+              0,
+              28
+            ],
+            "floating_proposal": -0.51795342282577,
+            "optimal_pencil_endpoint_upper": "-5179534228249/10000000000000",
+            "upper_pencil_inertia": [
+              0,
+              0,
+              29
+            ],
+            "pencil_root_bracket_width": "17/10000000000000"
+          }
+        ]
+      },
+      "external_count_basis": "Audited complete 1+3N band below a: one even ground trial, 3N odd triplet directions. Full-spectrum lambda_(2+3N)>=a leaves exactly one even level below a. rho<a1 identifies it as global ground.",
+      "whole_band_count_cutoff_margin": "459672047162971758013653975178886908554497011805870579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+      "certificate_wall_seconds": 6.299081228000432
+    }
+  ],
+  "peak_rss_kib": 82048
+}

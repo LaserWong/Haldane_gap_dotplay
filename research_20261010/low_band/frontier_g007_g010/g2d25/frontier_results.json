@@ -1,0 +1,99 @@
+{
+  "g": "2/25",
+  "status": "new_coupling_candidate_pending_independent_review",
+  "grid_scope": "beta5..30 step.05; three properly transported orders; failures are not all-beta exclusions",
+  "results": [
+    {
+      "beta_initial": "121/10",
+      "order_before_transport": "xyt",
+      "accepted": false,
+      "J1": "451253266291493/500000000000000",
+      "J2": "3851701304650781/5000000000000000",
+      "C0": "3815597768271113/5000000000000000",
+      "permuted_prefix": [
+        "2485413189600471/2500000000000000",
+        "4766297955403209/5000000000000000",
+        "-1267789549596963/1000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "41/4",
+      "order_before_transport": "xty",
+      "J1": "563549359098921/625000000000000",
+      "J2": "3820702533889807/5000000000000000",
+      "C0": "8993667536546943/10000000000000000",
+      "permuted_first_purities": [
+        "9940549033774853/10000000000000000",
+        "74212355580261/78125000000000",
+        "802592863875107/1000000000000000"
+      ],
+      "canonical_first_purities": [
+        "9940549033774853/10000000000000000",
+        "170201674724001399/200000000000000000",
+        "362107625985684709/500000000000000000"
+      ],
+      "canonical_base": {
+        "n": 8,
+        "m": 8,
+        "beta": "41/2"
+      },
+      "bootstrap": {
+        "input": {
+          "A_lower": "9940549033774853/10000000000000000",
+          "B_lower": "170201674724001399/200000000000000000",
+          "C_lower": "362107625985684709/500000000000000000",
+          "n": 8,
+          "m": 8,
+          "beta": "41/2"
+        },
+        "updates": [],
+        "status": "bound_left_purity_domain",
+        "formal_proof_assistant_verified": false
+      },
+      "accepted": false,
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "183/20",
+      "order_before_transport": "txy",
+      "J1": "4385326535176007/5000000000000000",
+      "J2": "1075948048463363/1250000000000000",
+      "C0": "9096554953287201/10000000000000000",
+      "permuted_first_purities": [
+        "9901767530717379/10000000000000000",
+        "9849849996965567/10000000000000000",
+        "2171939502868137/2500000000000000"
+      ],
+      "canonical_first_purities": [
+        "982714885020720661/1000000000000000000",
+        "900137648100904821/1000000000000000000",
+        "810247785528628361/1000000000000000000"
+      ],
+      "canonical_base": {
+        "n": 8,
+        "m": 8,
+        "beta": "183/10"
+      },
+      "bootstrap": {
+        "input": {
+          "A_lower": "982714885020720661/1000000000000000000",
+          "B_lower": "900137648100904821/1000000000000000000",
+          "C_lower": "810247785528628361/1000000000000000000",
+          "n": 8,
+          "m": 8,
+          "beta": "183/10"
+        },
+        "updates": [],
+        "status": "bound_left_purity_domain",
+        "formal_proof_assistant_verified": false
+      },
+      "accepted": false,
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    }
+  ],
+  "short_size_certificate": "../short_sizes/uniform_short_sizes.json"
+}

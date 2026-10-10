@@ -1,0 +1,42 @@
+PHYSICAL INPUT PASS 323/2000
+CANDIDATE REVIEW {'g': '323/2000', 'status': 'PASS independent exact all-integer M>=2 certificate', 'gap': '39815121561/1000000000000', 'beta': '39/2', 'asymptotic_from': 32, 'smallest_short_gap': '7168615429/100000000000'}
+PHYSICAL INPUT PASS 13/80
+CANDIDATE REVIEW {'g': '13/80', 'status': 'PASS independent exact all-integer M>=2 certificate', 'gap': '37716426713/1000000000000', 'beta': '81/4', 'asymptotic_from': 32, 'smallest_short_gap': '33191811881/500000000000'}
+PHYSICAL INPUT PASS 7/40
+CANDIDATE REVIEW {'g': '7/40', 'status': 'PASS independent exact all-integer M>=2 certificate', 'gap': '1358217401/200000000000', 'beta': '23', 'asymptotic_from': 128, 'smallest_short_gap': '76315942877440344543149958912213890459/1253414289776462415089116260500000000000'}
+PHYSICAL INPUT PASS 1/5
+CANDIDATE REVIEW {'g': '1/5', 'status': 'PASS replay of bounded failed scan only; no obstruction conclusion', 'gap': None, 'beta': None, 'asymptotic_from': None, 'smallest_short_gap': None}
+[
+  {
+    "g": "323/2000",
+    "status": "PASS independent exact all-integer M>=2 certificate",
+    "gap": "39815121561/1000000000000",
+    "beta": "39/2",
+    "asymptotic_from": 32,
+    "smallest_short_gap": "7168615429/100000000000"
+  },
+  {
+    "g": "13/80",
+    "status": "PASS independent exact all-integer M>=2 certificate",
+    "gap": "37716426713/1000000000000",
+    "beta": "81/4",
+    "asymptotic_from": 32,
+    "smallest_short_gap": "33191811881/500000000000"
+  },
+  {
+    "g": "7/40",
+    "status": "PASS independent exact all-integer M>=2 certificate",
+    "gap": "1358217401/200000000000",
+    "beta": "23",
+    "asymptotic_from": 128,
+    "smallest_short_gap": "76315942877440344543149958912213890459/1253414289776462415089116260500000000000"
+  },
+  {
+    "g": "1/5",
+    "status": "PASS replay of bounded failed scan only; no obstruction conclusion",
+    "gap": null,
+    "beta": null,
+    "asymptotic_from": null,
+    "smallest_short_gap": null
+  }
+]

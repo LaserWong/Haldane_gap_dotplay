@@ -1,0 +1,60 @@
+{
+  "g": "1/10",
+  "status": "candidate_pending_independent_review",
+  "variant": "filter_only",
+  "grid_scope": "beta5..30 step.05; three proved transported orders; failures are bounded searches only",
+  "results": [
+    {
+      "beta_initial": "173/20",
+      "order_before_transport": "txy",
+      "accepted": false,
+      "J1": "1554153732120567/2000000000000000",
+      "J2": "3896717668786453/5000000000000000",
+      "C0": "8122349853941761/10000000000000000",
+      "permuted_prefix": [
+        "9588516595753651/10000000000000000",
+        "294628695172973/312500000000000",
+        "-3622519609932683/10000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "109/10",
+      "order_before_transport": "xty",
+      "accepted": false,
+      "J1": "8415522962214583/10000000000000000",
+      "J2": "1342768048052231/2500000000000000",
+      "C0": "1539200281466047/2000000000000000",
+      "permuted_prefix": [
+        "491137633838157/500000000000000",
+        "1497775436946451/2500000000000000",
+        "-33638894752505889/5000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "59/5",
+      "order_before_transport": "xyt",
+      "accepted": false,
+      "J1": "4189209655448837/5000000000000000",
+      "J2": "5412418889145907/10000000000000000",
+      "C0": "2214112010900151/5000000000000000",
+      "permuted_prefix": [
+        "9812706394985273/10000000000000000",
+        "6102723539456449/10000000000000000",
+        "-9345769226200373083/10000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    }
+  ],
+  "source_sha256": {
+    "low_band/ground_moment_pencil/ENDPOINT_MANIFEST_SHA256.json": "916b0e4a978fd7129d02f267d529e2494e26d04cdb329d50cfbf459eee1771bd",
+    "variational_numerator_filter/FROZEN_MANIFEST.json": "6b520dfee4a083c1f9d98561b859ce8a56790a83ad9f1091107d333e3ff11f3e",
+    "low_band/frontier_g007_g010/short_sizes/uniform_short_sizes.json": "5c0444656f8347731c7642d482e991c5301720539af3d09cfcaa4681ca0d96b6"
+  },
+  "new_physical_input": "None: existing exact ground G/K/J plus geometry and certified filter compression",
+  "normalization_note": "Denominator Rayleigh shifts cancel from the physical trace upper; their lower endpoints control its ground term."
+}

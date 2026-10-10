@@ -1,0 +1,17 @@
+{
+  "status": "PASS independent combined scalar and all-size review",
+  "frozen_inputs": 302,
+  "patches": 42,
+  "selected_orders": 42,
+  "accepted_full_band": 30,
+  "selected_failures": 12,
+  "accepted_ground_only": 11,
+  "all_beta_exclusion": false,
+  "seconds": 90.03648498700204,
+  "peak_rss_kib": 22272,
+  "arithmetic": "512-bit outward exponentials and exact rational scalars; direct physical shifted traces",
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_limit_bytes": 1073741824
+}

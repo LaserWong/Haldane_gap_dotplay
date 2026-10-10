@@ -1,0 +1,119 @@
+{
+  "status": "PASS independent physical-dependency, exact recombination, transport and all-integer-size review",
+  "sealed_utc": "2026-10-10T19:15:55.730401+00:00",
+  "sealed_America_New_York": "2026-10-10T15:15:55.730401-04:00",
+  "model": "Ordinary spin-1/2 square bilayer; unit AF rung; equal straight intralayer g; no crossed bonds",
+  "boundary": "Periodic positive-direction multiedges, including length-two parallel bonds",
+  "scope": "Every integer square side L>=2, separately at six listed couplings",
+  "finite_volume_unique_ground": true,
+  "accepted": [
+    {
+      "g": "3/100",
+      "order": "txy",
+      "beta_initial": "267/20",
+      "all_integer_L_ge2_gap": "42700180713/125000000000",
+      "gap_display": 0.341601445704,
+      "asymptotic_onset": 8,
+      "largest_ground_only_gap": "68320272733/200000000000",
+      "largest_ground_only_display": 0.341601363665
+    },
+    {
+      "g": "1/25",
+      "order": "txy",
+      "beta_initial": "49/4",
+      "all_integer_L_ge2_gap": "27240289681/100000000000",
+      "gap_display": 0.27240289681,
+      "asymptotic_onset": 8,
+      "largest_ground_only_gap": "3405032823/12500000000",
+      "largest_ground_only_display": 0.27240262584
+    },
+    {
+      "g": "1/20",
+      "order": "txy",
+      "beta_initial": "57/5",
+      "all_integer_L_ge2_gap": "50913818761/250000000000",
+      "gap_display": 0.203655275044,
+      "asymptotic_onset": 8,
+      "largest_ground_only_gap": "203654642229/1000000000000",
+      "largest_ground_only_display": 0.203654642229
+    },
+    {
+      "g": "3/50",
+      "order": "txy",
+      "beta_initial": "52/5",
+      "all_integer_L_ge2_gap": "164746706191/1000000000000",
+      "gap_display": 0.164746706191,
+      "asymptotic_onset": 16,
+      "largest_ground_only_gap": "164744743967/1000000000000",
+      "largest_ground_only_display": 0.164744743967
+    },
+    {
+      "g": "7/100",
+      "order": "txy",
+      "beta_initial": "203/20",
+      "all_integer_L_ge2_gap": "584246157/6250000000",
+      "gap_display": 0.09347938512,
+      "asymptotic_onset": 16,
+      "largest_ground_only_gap": "5842353147/62500000000",
+      "largest_ground_only_display": 0.093477650352
+    },
+    {
+      "g": "2/25",
+      "order": "txy",
+      "beta_initial": "197/20",
+      "all_integer_L_ge2_gap": "5810991437/250000000000",
+      "gap_display": 0.023243965748,
+      "asymptotic_onset": 64,
+      "largest_ground_only_gap": "23241913957/1000000000000",
+      "largest_ground_only_display": 0.023241913957
+    }
+  ],
+  "producer_manifest_sha256": "452848690e6303fb768b1d48e90b3635a52e46c8f4c8c620f8906d956f0aa2bd",
+  "producer_frozen_files": 67,
+  "checked_prior_review_seals": 8,
+  "checked_prior_manifest_entries": 850,
+  "frozen_snapshot_files": 302,
+  "check_counts": {
+    "patches": 42,
+    "selected_orders": 42,
+    "successful_full_band": 30,
+    "selected_exact_failures": 12,
+    "successful_ground_only": 11,
+    "grid_samples": 21042
+  },
+  "full_hilbert_dimensions": [
+    "4294967296",
+    "18446744073709551616",
+    "340282366920938463463374607431768211456"
+  ],
+  "original_ground_trial_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "original_space_plus_residual_dimensions_upper": [
+    12,
+    30,
+    30
+  ],
+  "implicit_filter_plane_dimension_upper": 2,
+  "filtered_retained_ground_states": 1,
+  "filtered_support_triplet_number_max": 6,
+  "retained_low_band_dimensions": [
+    49,
+    97,
+    193
+  ],
+  "largest_ground_only_still_uses_original_second_moments": true,
+  "new_filtered_residual_claim": false,
+  "all_beta_exclusion": false,
+  "continuous_coupling_claim": false,
+  "physical_gap_optimality_claim": false,
+  "proof_assistant_verified": false,
+  "scalar_independence": "Fresh standard-library code, direct physical H-prime traces, exact rational operations and directed 512-bit exponentials; no producer or previous reviewer code imported",
+  "resource_limit": {
+    "cpu_count": 1,
+    "address_space_bytes": 1073741824
+  },
+  "next": "Parent may publish these sealed discrete-coupling certificates and their dimensional/input qualifications."
+}

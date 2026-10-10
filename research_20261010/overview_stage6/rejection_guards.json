@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "corruptions_rejected": 7,
+  "cases": [
+    {
+      "test": "changed exact gap",
+      "rejected": true
+    },
+    {
+      "test": "upward display rounding",
+      "rejected": true
+    },
+    {
+      "test": "missing interval piece",
+      "rejected": true
+    },
+    {
+      "test": "changed Hilbert count",
+      "rejected": true
+    },
+    {
+      "test": "conflated rank-one search",
+      "rejected": true
+    },
+    {
+      "test": "failure encoded as zero gap",
+      "rejected": true
+    },
+    {
+      "test": "changed source digest",
+      "rejected": true
+    }
+  ]
+}

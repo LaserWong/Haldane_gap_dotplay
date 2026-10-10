@@ -1,0 +1,30 @@
+[
+  {
+    "test": "interior minimum",
+    "passed": true,
+    "variance_min": "1/100",
+    "variance_max": "313/31250",
+    "gain": "1268017223019983750000000000/1029191563840199172710817184169"
+  },
+  {
+    "test": "left endpoint vertex",
+    "passed": true,
+    "variance_min": "1/100",
+    "variance_max": "629/62500",
+    "gain": "1268017223019983750000000000/1029191563840199172710817184169"
+  },
+  {
+    "test": "right endpoint vertex",
+    "passed": true,
+    "variance_min": "1/100",
+    "variance_max": "629/62500",
+    "gain": "1268017223019983750000000000/1029191563840199172710817184169"
+  },
+  {
+    "test": "zero variance",
+    "passed": true,
+    "variance_min": "0",
+    "variance_max": "0",
+    "gain": "0"
+  }
+]

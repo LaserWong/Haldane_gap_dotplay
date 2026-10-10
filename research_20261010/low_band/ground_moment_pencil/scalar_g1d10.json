@@ -1,0 +1,59 @@
+{
+  "g": "1/10",
+  "status": "ground_pencil_scalar_candidate_pending_independent_review",
+  "grid_scope": "beta5..30 step.05; three properly transported orders; failures are not all-beta exclusions",
+  "results": [
+    {
+      "beta_initial": "111/10",
+      "order_before_transport": "xyt",
+      "accepted": false,
+      "J1": "1822344880723589/2500000000000000",
+      "J2": "4499723240075989/10000000000000000",
+      "C0": "4928529369609847/10000000000000000",
+      "permuted_prefix": [
+        "9308604881197733/10000000000000000",
+        "37526976013471/1000000000000000",
+        "-270622815315780394341/2000000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "11",
+      "order_before_transport": "xty",
+      "accepted": false,
+      "J1": "3650214853698049/5000000000000000",
+      "J2": "2248168190220617/5000000000000000",
+      "C0": "877381917174267/1250000000000000",
+      "permuted_prefix": [
+        "1863260989376927/2000000000000000",
+        "94429269120353/2500000000000000",
+        "-2428216854915749501/312500000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    },
+    {
+      "beta_initial": "35/4",
+      "order_before_transport": "txy",
+      "accepted": false,
+      "J1": "3506599116583509/5000000000000000",
+      "J2": "3099718726248959/5000000000000000",
+      "C0": "3772580628959137/5000000000000000",
+      "permuted_prefix": [
+        "2273279608581549/2500000000000000",
+        "350260631486951/500000000000000",
+        "-20903154593340159/2500000000000000"
+      ],
+      "accepted_float_proposals": 0,
+      "best_float_score": 1.0
+    }
+  ],
+  "source_sha256": {
+    "low_band/ground_moment_pencil/temple_4x4_g1d10.json": "d98548f84406145c704fb6f3bc075bedb7c09d905712d54c187301d2aefe7a2a",
+    "low_band/ground_moment_pencil/temple_8x4_g1d10.json": "054f53458502200006db989c992bc8402ab9ec30413291f016f3441f3e3ac356",
+    "low_band/ground_moment_pencil/temple_8x8_g1d10.json": "65d5acc41c22f701b05f85c81ef1a3d6bb6f9e62305dd4b0b11240d05dc1e60f",
+    "low_band/frontier_g007_g010/short_sizes/uniform_short_sizes.json": "5c0444656f8347731c7642d482e991c5301720539af3d09cfcaa4681ca0d96b6",
+    "low_band/frontier_g007_g010/g1d10/frontier_results.json": "d90a9f165bb30bc597968bab713e4a82b8bc95b39284cf46c49bd1c026489d5a"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "status": "PASS byte-identical independent re-render",
+  "checked_utc": "2026-10-10T19:20:21.489660+00:00",
+  "files": [
+    {
+      "file": "certified_bounds.png",
+      "sha256": "2eaec9f921496be1262a87042551f4e092f448b0a1f38ab64e557dbd62c57fa9",
+      "byte_identical": true
+    },
+    {
+      "file": "certified_bounds.pdf",
+      "sha256": "502ae183f3926dd5b4d2d1c44b52f5b6cca2edc1af2d162215abbd0c14c52bbf",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.png",
+      "sha256": "ccaf55475034f291f91fabaa664e5c02a9d0a5b5dc402f5d41250b0cd2f5b60a",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.pdf",
+      "sha256": "d10ed77520965cc855542987ff3c62cae16be6607b9a5a0468c48b79519d1336",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.png",
+      "sha256": "e23c291e0d54b2daf06747e9de468a78666290cd81e24f0a533536bbff72ae77",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.pdf",
+      "sha256": "47215cd60e859029239f78073a27ca786cf3421ff7d802297565913fff3e2b29",
+      "byte_identical": true
+    }
+  ],
+  "replay_validation": {
+    "status": "PASS",
+    "claims": 164,
+    "dimension_rows": 80,
+    "direct_source_hashes": 125,
+    "review_seals": 9,
+    "sealed_file_hashes_checked": 1026,
+    "combined_review_included": true,
+    "interval_extension_included": true,
+    "cpu_affinity": [
+      0
+    ],
+    "address_space_limit_bytes": 1073741824,
+    "blas_threads": 1,
+    "checks": [
+      "source SHA-256",
+      "complete selected review manifests",
+      "all exact gap JSON pointers",
+      "all decimal floors",
+      "best point selection",
+      "all exact adjacent closed pieces and uniform minimum",
+      "Hilbert dimensions",
+      "numerator rank separated from search and filtered span",
+      "failure gaps remain null"
+    ],
+    "matplotlib": "3.10.8",
+    "peak_rss_kib": 135720
+  },
+  "writes": "temporary directory only for replay images; this recorder writes render_reproducibility.json before freeze"
+}

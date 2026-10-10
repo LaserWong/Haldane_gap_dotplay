@@ -1,0 +1,217 @@
+{
+  "status": "PASS independent first-moment physics, exact scalar acceptance, all-integer-size bridges and enforced minimal-read boundary",
+  "updated_at_utc": "2026-10-10T18:49:00Z",
+  "updated_at_local": "2026-10-10T14:49:00-04:00",
+  "model": "Ordinary spin-1/2 square bilayer, vertical coupling 1, equal straight couplings g, no crossed exchange",
+  "boundary": "Periodic positive-direction edge multiplicities, including side-two parallel edges",
+  "full_largest_dimension": "340282366920938463463374607431768211456",
+  "largest_physical_spins": 128,
+  "largest_patch_requiring_full_upper_trace": [
+    8,
+    4
+  ],
+  "ground_trial_search_dimension": 29,
+  "largest_numerator_trial_ranks": [
+    1,
+    193
+  ],
+  "no_largest_H2_residual_cutoff_number_bins_or_completeness_needed": true,
+  "producer_freeze_sha256": "8d8cce2d1ed1a30ad57f96d9b0e9accb3ec2d4c18dd77702d991aa4e8fbac1d6",
+  "accepted": [
+    {
+      "g": "3/100",
+      "mode": "ground_only",
+      "beta_initial": "259/20",
+      "numerator_trial_rank": 1,
+      "independent_GK_GA_and_ratios_equal": true,
+      "canonical_transport_and_recursion_equal": true,
+      "all_integer_square_L_ge": 2,
+      "asymptotic_onset": 8,
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "199801055011/500000000000"
+        }
+      ],
+      "gap": "318085338503/1000000000000",
+      "gap_display": 0.318085338503
+    },
+    {
+      "g": "3/100",
+      "mode": "trial193",
+      "beta_initial": "259/20",
+      "numerator_trial_rank": 193,
+      "independent_GK_GA_and_ratios_equal": true,
+      "canonical_transport_and_recursion_equal": true,
+      "all_integer_square_L_ge": 2,
+      "asymptotic_onset": 8,
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "399602229709/1000000000000"
+        }
+      ],
+      "gap": "31808546099/100000000000",
+      "gap_display": 0.31808546099
+    },
+    {
+      "g": "1/25",
+      "mode": "ground_only",
+      "beta_initial": "47/4",
+      "numerator_trial_rank": 1,
+      "independent_GK_GA_and_ratios_equal": true,
+      "canonical_transport_and_recursion_equal": true,
+      "all_integer_square_L_ge": 2,
+      "asymptotic_onset": 8,
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "1626900941/5000000000"
+        }
+      ],
+      "gap": "117558766727/500000000000",
+      "gap_display": 0.235117533454
+    },
+    {
+      "g": "1/25",
+      "mode": "trial193",
+      "beta_initial": "47/4",
+      "numerator_trial_rank": 193,
+      "independent_GK_GA_and_ratios_equal": true,
+      "canonical_transport_and_recursion_equal": true,
+      "all_integer_square_L_ge": 2,
+      "asymptotic_onset": 8,
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "81345152907/250000000000"
+        }
+      ],
+      "gap": "235117964607/1000000000000",
+      "gap_display": 0.235117964607
+    },
+    {
+      "g": "1/20",
+      "mode": "ground_only",
+      "beta_initial": "199/20",
+      "numerator_trial_rank": 1,
+      "independent_GK_GA_and_ratios_equal": true,
+      "canonical_transport_and_recursion_equal": true,
+      "all_integer_square_L_ge": 2,
+      "asymptotic_onset": 16,
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "60704294293/250000000000"
+        },
+        {
+          "n": 16,
+          "through": 32,
+          "gap": "210442238507/1000000000000"
+        }
+      ],
+      "gap": "34363605139/200000000000",
+      "gap_display": 0.171818025695
+    },
+    {
+      "g": "1/20",
+      "mode": "trial193",
+      "beta_initial": "199/20",
+      "numerator_trial_rank": 193,
+      "independent_GK_GA_and_ratios_equal": true,
+      "canonical_transport_and_recursion_equal": true,
+      "all_integer_square_L_ge": 2,
+      "asymptotic_onset": 16,
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "121410573413/500000000000"
+        },
+        {
+          "n": 16,
+          "through": 32,
+          "gap": "210446216123/1000000000000"
+        }
+      ],
+      "gap": "42955528921/250000000000",
+      "gap_display": 0.171822115684
+    },
+    {
+      "g": "3/50",
+      "mode": "ground_only",
+      "beta_initial": "203/20",
+      "numerator_trial_rank": 1,
+      "independent_GK_GA_and_ratios_equal": true,
+      "canonical_transport_and_recursion_equal": true,
+      "all_integer_square_L_ge": 2,
+      "asymptotic_onset": 16,
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "175100216773/1000000000000"
+        },
+        {
+          "n": 16,
+          "through": 32,
+          "gap": "28675211013/200000000000"
+        }
+      ],
+      "gap": "103485296797/1000000000000",
+      "gap_display": 0.103485296797
+    },
+    {
+      "g": "3/50",
+      "mode": "trial193",
+      "beta_initial": "203/20",
+      "numerator_trial_rank": 193,
+      "independent_GK_GA_and_ratios_equal": true,
+      "canonical_transport_and_recursion_equal": true,
+      "all_integer_square_L_ge": 2,
+      "asymptotic_onset": 16,
+      "finite_windows": [
+        {
+          "n": 8,
+          "through": 16,
+          "gap": "35020424193/200000000000"
+        },
+        {
+          "n": 16,
+          "through": 32,
+          "gap": "143377941577/1000000000000"
+        }
+      ],
+      "gap": "103487228301/1000000000000",
+      "gap_display": 0.103487228301
+    }
+  ],
+  "resource_check": {
+    "wall_seconds": 66.5762060249981,
+    "child_user_seconds": 37.929418,
+    "child_system_seconds": 1.068902,
+    "peak_child_rss_kib": 92772,
+    "returncode": 0,
+    "cpu_affinity": [
+      0
+    ]
+  },
+  "dataflow": {
+    "formal_orders": 6,
+    "adjacent_swaps": 12,
+    "sequential_rotations": 18,
+    "largest_partition_function_only_numerator": true
+  },
+  "file_boundary": {
+    "eight_isolated_cases_pass": true,
+    "legacy_largest_inputs_poisoned": true,
+    "ground_only_optional_triplet_file_absent": true,
+    "undeclared_JSON_reads_denied": true
+  },
+  "qualification": "Unique finite-volume square ground states for every integer L>=2; no arbitrary-aspect-ratio or infinite-volume uniqueness claim; exact arithmetic plus analytic proof, not proof-assistant verified"
+}

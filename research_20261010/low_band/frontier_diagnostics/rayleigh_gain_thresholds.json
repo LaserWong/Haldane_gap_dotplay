@@ -1,0 +1,100 @@
+[
+  {
+    "status": "floating_hypothetical_sensitivity_only_not_a_certificate",
+    "g": "2/25",
+    "grid": "beta=5..30 in steps of .05",
+    "interpretation": "Only largest Rayleigh changes; denominator bounds fixed. Raw ratios <=1 is necessary but not sufficient for physical consistency.",
+    "source_sha256": {
+      "frontier_g007_g010/g2d25/temple_4x4_g2d25.json": "31768b674f9b24e8416d86122d616b7b84b632a7a5107c821c91c3d9c2ef9ca1",
+      "frontier_g007_g010/g2d25/temple_8x4_g2d25.json": "906b438dec4c9b574a6ddafc7b18034f0dc715e18ec32d1119175029834884e1",
+      "frontier_g007_g010/g2d25/temple_8x8_g2d25.json": "45cda2717362ccd11d87c0b04ec46c3643fffd8da1a721f0f0d89ddd6f9c3c7e"
+    },
+    "targets": [
+      {
+        "target_scalar_gap": 0.0,
+        "successful_grid_betas": 436,
+        "minimum_gain_proposal": {
+          "beta": 9.75,
+          "hypothetical_rayleigh_gain": 0.002199009244696782,
+          "optimistic_scalar_gap": 4.301997435833621e-06,
+          "raw_ratios": [
+            0.9338243741866329,
+            0.9286652130372869,
+            0.9436388904619223
+          ],
+          "canonical": [
+            0.9959107308892576,
+            0.9733811119409645,
+            0.9474707890834285
+          ]
+        }
+      },
+      {
+        "target_scalar_gap": 0.01,
+        "successful_grid_betas": 395,
+        "minimum_gain_proposal": {
+          "beta": 9.55,
+          "hypothetical_rayleigh_gain": 0.002303876181008275,
+          "optimistic_scalar_gap": 0.010000000000027839,
+          "raw_ratios": [
+            0.9301755579852371,
+            0.9338082511584893,
+            0.9466554137521728
+          ],
+          "canonical": [
+            0.9958198260549986,
+            0.9753188230691359,
+            0.9512468066329643
+          ]
+        }
+      },
+      {
+        "target_scalar_gap": 0.05,
+        "successful_grid_betas": 155,
+        "minimum_gain_proposal": {
+          "beta": 9.85,
+          "hypothetical_rayleigh_gain": 0.0030591089151063263,
+          "optimistic_scalar_gap": 0.05000000000000044,
+          "raw_ratios": [
+            0.9521571844244382,
+            0.9599465678833373,
+            0.9591937145727971
+          ],
+          "canonical": [
+            0.998274969482503,
+            0.9879497366039736,
+            0.9760446820558606
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "status": "floating_hypothetical_sensitivity_only_not_a_certificate",
+    "g": "1/10",
+    "grid": "beta=5..30 in steps of .05",
+    "interpretation": "Only largest Rayleigh changes; denominator bounds fixed. Raw ratios <=1 is necessary but not sufficient for physical consistency.",
+    "source_sha256": {
+      "frontier_g007_g010/g1d10/temple_4x4_g1d10.json": "db6c74e30b03c3ad42a2f93b061acb8b78889a6a781892a08a6373b579385dc5",
+      "frontier_g007_g010/g1d10/temple_8x4_g1d10.json": "8b0aefde0340216a9609ceb399626d6c3a754db08d610b5cd70f467cd7ad46b9",
+      "frontier_g007_g010/g1d10/temple_8x8_g1d10.json": "c7129a5256dd3b07422acf4c6b4290e809eea10114c931bc5c8f76aa7ea2e43b"
+    },
+    "targets": [
+      {
+        "target_scalar_gap": 0.0,
+        "successful_grid_betas": 0,
+        "minimum_gain_proposal": null
+      },
+      {
+        "target_scalar_gap": 0.01,
+        "successful_grid_betas": 0,
+        "minimum_gain_proposal": null
+      },
+      {
+        "target_scalar_gap": 0.05,
+        "successful_grid_betas": 0,
+        "minimum_gain_proposal": null
+      }
+    ]
+  }
+]

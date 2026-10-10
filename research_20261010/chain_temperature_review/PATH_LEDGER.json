@@ -1,0 +1,58 @@
+{
+  "canonical_order": [
+    "space",
+    "time"
+  ],
+  "coordinates": "(log2 spatial length relative to n=4, log2 inverse temperature relative to beta)",
+  "first_cycle_order": [
+    "time",
+    "space"
+  ],
+  "identities": [
+    "J=P_x(v)^2 P_t(D_x v)=P_t(v)^2 P_x(D_t v)",
+    "C^2 P_t(w)=P_t(D_t v)^2 P_x(D_t^2 v)",
+    "P_x(w)^2 P_t(D_x w)=P_t(w)^2 P_x(D_t w)"
+  ],
+  "initial_base": [
+    0,
+    0
+  ],
+  "original_edges": [
+    {
+      "axis": "time",
+      "base": [
+        1,
+        1
+      ]
+    },
+    {
+      "axis": "space",
+      "base": [
+        1,
+        2
+      ]
+    }
+  ],
+  "post_cycle_base": [
+    1,
+    1
+  ],
+  "post_cycle_physical_base": "(8,2 beta)",
+  "swapped_edges": [
+    {
+      "axis": "space",
+      "base": [
+        1,
+        1
+      ]
+    },
+    {
+      "axis": "time",
+      "base": [
+        2,
+        1
+      ]
+    }
+  ],
+  "verified": true
+}

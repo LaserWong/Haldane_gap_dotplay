@@ -1,0 +1,26 @@
+{
+  "status": "PASS independent exact theorem regression cases",
+  "cases": [
+    {
+      "k": 1,
+      "m": 3,
+      "cutoff_eigenvalue_present": true,
+      "strict_endpoint_inertias_valid": true
+    },
+    {
+      "k": 2,
+      "m": 4,
+      "cutoff_eigenvalue_present": true,
+      "strict_endpoint_inertias_valid": true
+    },
+    {
+      "k": 3,
+      "m": 5,
+      "cutoff_eigenvalue_present": true,
+      "strict_endpoint_inertias_valid": true
+    }
+  ],
+  "cutoff_singular_S_direct_test_valid": true,
+  "missing_external_count_counterexample_verified": true,
+  "nonzero_leakage_full_second_moment_verified": true
+}

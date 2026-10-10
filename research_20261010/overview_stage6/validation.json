@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "claims": 164,
+  "dimension_rows": 80,
+  "direct_source_hashes": 125,
+  "review_seals": 9,
+  "sealed_file_hashes_checked": 1026,
+  "combined_review_included": true,
+  "interval_extension_included": true,
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "blas_threads": 1,
+  "checks": [
+    "source SHA-256",
+    "complete selected review manifests",
+    "all exact gap JSON pointers",
+    "all decimal floors",
+    "best point selection",
+    "all exact adjacent closed pieces and uniform minimum",
+    "Hilbert dimensions",
+    "numerator rank separated from search and filtered span",
+    "failure gaps remain null"
+  ],
+  "matplotlib": "3.10.8",
+  "peak_rss_kib": 135404
+}
