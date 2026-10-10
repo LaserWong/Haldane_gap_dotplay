@@ -1,0 +1,50 @@
+{
+  "status": "PASS exact endpoint inequalities with analytic monotonicity proof",
+  "one_dimensional_domain": "1/40",
+  "two_dimensional_domain": "1/200",
+  "two_dimensional_contraction_constant": 32,
+  "all_integer_interpolation_loss_constant": 20,
+  "checks": {
+    "one_dimensional_first_contraction": {
+      "lhs": "17529408800/3518743761",
+      "upper": "5",
+      "passed": true
+    },
+    "one_dimensional_thermal_contraction": {
+      "lhs": "231200/91809",
+      "upper": "5",
+      "passed": true
+    },
+    "one_dimensional_interpolation_loss": {
+      "lhs": "567/152",
+      "upper": "4",
+      "passed": true
+    },
+    "one_dimensional_gap_ratio": {
+      "lhs": "40/9",
+      "upper": "5",
+      "passed": true
+    },
+    "two_dimensional_contraction": {
+      "lhs": "980000/37249",
+      "upper": "32",
+      "passed": true
+    },
+    "two_dimensional_interpolation_argument": {
+      "lhs": "1/40",
+      "upper": "1/40",
+      "passed": true
+    },
+    "two_dimensional_gap_ratio": {
+      "lhs": "200/9",
+      "upper": "32",
+      "passed": true
+    },
+    "two_dimensional_invariant_basin": {
+      "lhs": "4/25",
+      "upper": "1",
+      "passed": true
+    }
+  },
+  "scope": "Conditional on exact real self-adjoint Hilbert-Schmidt transfer identities for every integer length >=2 in both directions. Same-dyadic-scale rectangles and all square sizes above seed. No arbitrary-aspect-ratio conclusion."
+}

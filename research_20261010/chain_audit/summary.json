@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "source": "chain_sparse_s1_g1d8_n4_depth3",
+      "g": "1/8",
+      "gap": "68202652189/1000000000000",
+      "all_integer_cells_at_least": 2,
+      "elapsed_seconds": 3.355131882000933
+    },
+    {
+      "source": "chain_sparse_s1_g1d10_n4_depth2",
+      "g": "1/10",
+      "gap": "59477486433/500000000000",
+      "all_integer_cells_at_least": 2,
+      "elapsed_seconds": 2.881384520998836
+    },
+    {
+      "source": "chain_sparse_s1_g3d20_n4_depth3",
+      "g": "3/20",
+      "gap": "7394794293/500000000000",
+      "all_integer_cells_at_least": 2,
+      "elapsed_seconds": 2.188641347000157
+    },
+    {
+      "source": "chain_sparse_s1_g3d20_n4_depth4",
+      "g": "3/20",
+      "gap": "17013326349/1000000000000",
+      "all_integer_cells_at_least": 2,
+      "elapsed_seconds": 8.99985472499975
+    }
+  ],
+  "total_seconds": 17.517009650000546,
+  "peak_rss_kib": 89736,
+  "BLAS_threads": 1,
+  "address_space_limit_bytes": 2147483648
+}

@@ -1,0 +1,12 @@
+GROUND PASS chain_sparse_s1_g1d8_n4_depth3 4 574 1099 0.215
+GROUND PASS chain_sparse_s1_g1d8_n4_depth3 8 5205 43294 0.794
+AUDIT PASS chain_sparse_s1_g1d8_n4_depth3 all M>=2 gap 68202652189/1000000000000 seconds 3.355 peak MiB 34.9921875
+GROUND PASS chain_sparse_s1_g1d10_n4_depth2 4 146 574 0.106
+GROUND PASS chain_sparse_s1_g1d10_n4_depth2 8 453 5205 0.209
+AUDIT PASS chain_sparse_s1_g1d10_n4_depth2 all M>=2 gap 59477486433/500000000000 seconds 2.881 peak MiB 34.9921875
+GROUND PASS chain_sparse_s1_g3d20_n4_depth3 4 574 1099 0.096
+GROUND PASS chain_sparse_s1_g3d20_n4_depth3 8 5205 43294 0.62
+AUDIT PASS chain_sparse_s1_g3d20_n4_depth3 all M>=2 gap 7394794293/500000000000 seconds 2.189 peak MiB 36.53515625
+GROUND PASS chain_sparse_s1_g3d20_n4_depth4 4 1099 1107 0.043
+GROUND PASS chain_sparse_s1_g3d20_n4_depth4 8 43294 245870 7.044
+AUDIT PASS chain_sparse_s1_g3d20_n4_depth4 all M>=2 gap 17013326349/1000000000000 seconds 9.0 peak MiB 87.6328125

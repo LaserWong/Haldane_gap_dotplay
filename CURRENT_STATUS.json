@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T17:17:00Z",
+  "updated_at_utc": "2026-10-10T17:24:00Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -12,20 +12,36 @@
   "tasks": [
     {
       "id": "chain_audit",
-      "status": "running"
+      "status": "baseline_audit_complete"
     },
     {
       "id": "bilayer_audit",
-      "status": "running"
+      "status": "baseline_audit_complete"
     },
     {
       "id": "nonperturbative_audit",
-      "status": "running"
+      "status": "baseline_audit_complete"
     },
     {
       "id": "low_band",
       "status": "running"
+    },
+    {
+      "id": "symmetry",
+      "status": "running_candidate_validation"
+    },
+    {
+      "id": "chain_frontier",
+      "status": "running"
+    },
+    {
+      "id": "low_band_review",
+      "status": "running"
+    },
+    {
+      "id": "epsilon_frontier",
+      "status": "running"
     }
   ],
-  "verification": "1149 baseline manifest hashes passed; no scientific candidate promoted on resumption"
+  "verification": "Three candidate groups independently audited with all-integer size bridges; baseline 1149 hashes remain intact."
 }
