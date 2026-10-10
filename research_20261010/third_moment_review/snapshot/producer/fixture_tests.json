@@ -1,0 +1,81 @@
+{
+  "status": "producer_checks_pass_independent_review_pending",
+  "tests": [
+    {
+      "geometry": "2x2",
+      "all_F_S_V_W_X_Y_Z_entries_exact": true,
+      "fixed_origin_equals_full": true,
+      "baseline_F_S_V_W_exact": true,
+      "physical_H1_H2_H3_exact": true,
+      "physical_support": {
+        "support_B": 18,
+        "support_L": 15,
+        "support_R": 19,
+        "support_M": 0
+      },
+      "third_moment": "8613565257/202625000",
+      "physical_seconds": 0.00031586,
+      "physical_peak_rss_kib": 6400
+    },
+    {
+      "geometry": "4x2",
+      "all_F_S_V_W_X_Y_Z_entries_exact": true,
+      "fixed_origin_equals_full": true,
+      "baseline_F_S_V_W_exact": true,
+      "physical_H1_H2_H3_exact": true,
+      "physical_support": {
+        "support_B": 84,
+        "support_L": 1016,
+        "support_R": 1306,
+        "support_M": 2676
+      },
+      "third_moment": "1123714762041/20328500000",
+      "physical_seconds": 0.0189513,
+      "physical_peak_rss_kib": 6400
+    },
+    {
+      "geometry": "4x4",
+      "all_F_S_V_W_X_Y_Z_entries_exact": true,
+      "fixed_origin_equals_full": true,
+      "baseline_F_S_V_W_exact": true,
+      "physical_H1_H2_H3_exact": true,
+      "physical_support": {
+        "support_B": 360,
+        "support_L": 19720,
+        "support_R": 32020,
+        "support_M": 419712
+      },
+      "third_moment": "3243377855943/56385125000",
+      "physical_seconds": 12.8706,
+      "physical_peak_rss_kib": 72456
+    }
+  ],
+  "translation_checks": [
+    {
+      "geometry": "2x2",
+      "both_generating_translations_preserve_all_edges_and_orbit_ids": true,
+      "weighted_degree": 4
+    },
+    {
+      "geometry": "4x2",
+      "both_generating_translations_preserve_all_edges_and_orbit_ids": true,
+      "weighted_degree": 4
+    },
+    {
+      "geometry": "4x4",
+      "both_generating_translations_preserve_all_edges_and_orbit_ids": true,
+      "weighted_degree": 4
+    },
+    {
+      "geometry": "8x4",
+      "both_generating_translations_preserve_all_edges_and_orbit_ids": true,
+      "weighted_degree": 4
+    },
+    {
+      "geometry": "8x8",
+      "both_generating_translations_preserve_all_edges_and_orbit_ids": true,
+      "weighted_degree": 4
+    }
+  ],
+  "total_python_seconds": 0.23327674699976342
+}

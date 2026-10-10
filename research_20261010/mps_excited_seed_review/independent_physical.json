@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "local_E_entries": [
+    25804,
+    17640,
+    17640,
+    17704
+  ],
+  "local_O_entries": [
+    73348,
+    62608,
+    62608,
+    64708
+  ],
+  "direct_fixtures": [
+    {
+      "n": 2,
+      "states": [
+        {
+          "name": "psi",
+          "norm": "1210513345200",
+          "energy_numerator": "-4842053380800",
+          "nonzero_support": 3,
+          "H_action_support": 3
+        },
+        {
+          "name": "phi_plus",
+          "norm": "3228035587200",
+          "energy_numerator": "-6456071174400",
+          "nonzero_support": 2,
+          "H_action_support": 2
+        },
+        {
+          "name": "phi_minus",
+          "norm": "3228035587200",
+          "energy_numerator": "-6456071174400",
+          "nonzero_support": 2,
+          "H_action_support": 2
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "states": [
+        {
+          "name": "psi",
+          "norm": "22975205960525898253776",
+          "energy_numerator": "-137851234864097615402880",
+          "nonzero_support": 19,
+          "H_action_support": 19
+        },
+        {
+          "name": "phi_plus",
+          "norm": "183801646485463487203840",
+          "energy_numerator": "-919008232427317436019200",
+          "nonzero_support": 16,
+          "H_action_support": 16
+        },
+        {
+          "name": "phi_minus",
+          "norm": "183801646485463487203840",
+          "energy_numerator": "-919008232427317436019200",
+          "nonzero_support": 16,
+          "H_action_support": 16
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "states": [
+        {
+          "name": "psi",
+          "norm": "795377896228728091610809845163632",
+          "energy_numerator": "-6854013196214322159921037103475264",
+          "nonzero_support": 141,
+          "H_action_support": 141
+        },
+        {
+          "name": "phi_plus",
+          "norm": "11856965999297513682386191270770816",
+          "energy_numerator": "-93056129233461445685898898582008576",
+          "nonzero_support": 126,
+          "H_action_support": 126
+        },
+        {
+          "name": "phi_minus",
+          "norm": "11856965999297513682386191270770816",
+          "energy_numerator": "-93056129233461445685898898582008576",
+          "nonzero_support": 126,
+          "H_action_support": 126
+        }
+      ]
+    }
+  ],
+  "cpu_seconds": 7.79172662,
+  "peak_KiB": 169096
+}

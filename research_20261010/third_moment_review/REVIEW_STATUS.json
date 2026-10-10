@@ -1,0 +1,78 @@
+{
+  "status": "PASS independently audited exact geometry, third moment, enlarged numerator and discrete g=.09 all-integer certificates",
+  "reviewed_utc": "2026-10-10T21:18:41.143707+00:00",
+  "model": "Ordinary spin-1/2 periodic square bilayer; unit rung exchange, straight intralayer exchange g, no crossed bonds, positive-direction periodic multiedges",
+  "coupling": "9/100",
+  "all_integer_square_sides": "L>=2",
+  "finite_volume_unique_ground": true,
+  "best_all_integer_gap": "27330086079/1000000000000",
+  "best_gap_display": 0.027330086079,
+  "two_vector_all_integer_gap": "555972487/500000000000",
+  "two_vector_gap_display": 0.001111944974,
+  "physical_spins": [
+    32,
+    64,
+    128
+  ],
+  "full_Hilbert_dimensions": [
+    "4294967296",
+    "18446744073709551616",
+    "340282366920938463463374607431768211456"
+  ],
+  "original_search_ranks": [
+    11,
+    29,
+    29
+  ],
+  "enlarged_exact_search_ranks": [
+    16,
+    43,
+    43
+  ],
+  "largest_retained_numerator_states": 1,
+  "scalar_uses_new_enlarged_space_only_at_largest_seed": true,
+  "reused_smaller_denominator_ground_search_ranks": [
+    11,
+    29
+  ],
+  "reused_smaller_denominator_retained_band_dimensions": [
+    49,
+    97
+  ],
+  "reused_smaller_denominator_full_Hilbert_dimensions": [
+    "4294967296",
+    "18446744073709551616"
+  ],
+  "largest_numerator_max_triplet_number": 6,
+  "new_filtered_residual_claim": false,
+  "new_denominator_lower_bound_claim": false,
+  "new_base_M6_claim": false,
+  "accepted_new_base_M5": true,
+  "q8_omission_reason": "Exact support orthogonality in expectations, not truncation of a norm",
+  "continuous_coupling_claim": false,
+  "all_beta_exclusion": false,
+  "g10_scientific_acceptance": false,
+  "producer_seals": {
+    "PHYSICAL_MANIFEST.json": "7a6d8ea0cdd15323289934c6ca851c7c1ac5340ef938f757f3df55394b51d2ce",
+    "scalar_candidates/SCALAR_MANIFEST.json": "07bbd4479ec582dcd60f6d22b4133c4c27bafe322d585e27519dced523d80fe8"
+  },
+  "independent_all_geometry_matrices": 7,
+  "independent_geometries": 5,
+  "full_support_fixture_geometries": [
+    "2x2",
+    "4x2",
+    "4x4"
+  ],
+  "largest_exhaustive_origin_q6_supports": 7028847,
+  "largest_nonzero_origin_q6_supports": 992424,
+  "largest_geometry_peak_rss_kib": 210304,
+  "resource_limits": {
+    "cpus": 1,
+    "address_space_bytes": 1073741824
+  },
+  "producer_modules_executed": 0,
+  "external_writes": false,
+  "git_commit_claim": false,
+  "formal_proof_assistant_verified": false,
+  "scalar_replay_count": 2
+}

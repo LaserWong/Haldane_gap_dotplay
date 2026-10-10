@@ -1,0 +1,44 @@
+{
+  "status": "exact_producer_candidate_pending_independent_review",
+  "coupling_interval": [
+    "899/10000",
+    "9/100"
+  ],
+  "closed_intervals": 1,
+  "uniform_gap": "22821404973/1000000000000",
+  "uniform_gap_display": 0.022821404973,
+  "intervals": [
+    {
+      "file": "feasibility/interval_001.json",
+      "coupling_interval": [
+        "899/10000",
+        "9/100"
+      ],
+      "gap": "22821404973/1000000000000"
+    }
+  ],
+  "attempts": [
+    {
+      "interval": [
+        "899/10000",
+        "9/100"
+      ],
+      "score": -0.022821404973943808,
+      "beta": "177/20",
+      "exact_accepted": true,
+      "gap": 0.022821404973
+    }
+  ],
+  "seconds": 1.7399354160006624,
+  "peak_rss_kib": 81696,
+  "largest_retained_states": 1,
+  "search_dimensions": [
+    11,
+    29,
+    43
+  ],
+  "denominator_retained_states": [
+    49,
+    97
+  ]
+}

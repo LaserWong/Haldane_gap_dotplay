@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN: physical artifacts will not be edited during independent review",
+  "files": {
+    "build_sources.py": "deab0ed7bd7157a4a9e8077dc383c11e88b7b81ebadddb855b25a49fbad31716",
+    "contract_sources.cpp": "69a0b767271d1dc80719993e11ad5e132d647d07c3e9bc77e6a9706223571920",
+    "contract_ground.cpp": "576a235545f5ecde86385469e5e3550b53cfb534e1f877d874a7ee9309308b4e",
+    "verify_witnesses.py": "1dd7f6fb854ef69c537952bc68f7f463d4ecb67fe3ab7019c2e6f0736baa88f7",
+    "sources.txt": "4cb7cb676e902fa1d002f857978316f1346cabddcf7104017cde7a516d477f4f",
+    "local_tensors.json": "3537af75de7e020cc29f984006d03a70f03d3a62a26ba2a2e9099d3d109b6a1c",
+    "source_checks.json": "2d28d07be1aaa2780e9b06b2b66d1b27a117c62bfa763017f520582400dfef1b",
+    "benchmark_n16.out": "923f8c5627f235e9b0fd57c8d0c3708c22d6c1736c27d9d05c2129cfc4249867",
+    "benchmark_n16.log": "2e03526154321bc619061a62a9f56af04492ca8e1c6546c49c375a6b62796abc",
+    "contractions_n24.out": "e9dd06b186f68e70b2cdbe0bb909391379778e6a0f75612289436a228d3f0876",
+    "contractions_n24.log": "7a0e18b6e35bb6b807e000bf265e39cdf4b9012d6f85b0c5cab02e6099f4dae4",
+    "ground_lengths.out": "c71a075c7f784ad10226c17c7b580092412e7d8ac09e9238b13189f8594b7de9",
+    "ground_lengths.log": "c7b636ffb62dafeea52155f8f86b5b94a143a909b14bb2b09ec4be9dfae1b071",
+    "extension_cost_gate.json": "70459d0753450da2747468f3a6239f58f0c18b02254f2853f0d6711b12e37637",
+    "exact_witness_data.json": "8fb17112559647199138342e67518a0252c211388d945af8f62d53cb0479b604"
+  },
+  "external_inputs": {
+    "../../audit/mps/build_mps.py": "693ded40630e851fda40986460b841bcfe3e48cf5ace665997f923ec7737ffdb",
+    "../../audit/mps/mps_blocks.txt": "26da12458538967b97cb037059440d652d64593bf2044d7f5c99760444d683aa",
+    "../uniform_seed_size_diagnostics/mps_lengths.out": "23de4e5b44fd8c154dacdd61e26b727637842d4fb6db9a5d2aaa94277a7e82b8"
+  }
+}

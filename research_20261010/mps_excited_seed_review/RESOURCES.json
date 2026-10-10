@@ -1,0 +1,21 @@
+{
+  "single_CPU_affinity": 1,
+  "address_space_limit_bytes": 1073741824,
+  "physical_rebuild": {
+    "CPU_seconds": 7.79172662,
+    "peak_KiB": 169096
+  },
+  "source_contraction": {
+    "CPU_seconds": 57.6069,
+    "peak_KiB": 111848
+  },
+  "ground_contraction": {
+    "CPU_seconds": 9.05969,
+    "peak_KiB": 10100
+  },
+  "scalar_replay": {
+    "CPU_seconds": 4.937139698,
+    "peak_KiB": 10948
+  },
+  "note": "Costs are from the final complete clean replay. Earlier developmental runs, including an inefficient exact-unrounded exponential prototype and a CPU0-contention replay, were stopped and are not certificate results."
+}

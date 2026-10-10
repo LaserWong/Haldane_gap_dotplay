@@ -1,0 +1,44 @@
+cached q4 1 seconds 0.000146513
+q4 contraction 1 seconds 9.4916e-05
+q6 unique 0 processing 0 preparation seconds 6.586e-06
+DONE seconds 0.000252214 peak RSS KiB 6400
+cached q4 70 seconds 6.8909e-05
+q4 contraction 35 seconds 0.000124685
+q6 unique 21 processing 21 preparation seconds 8.0839e-05
+DONE seconds 0.000574868 peak RSS KiB 6400
+cached q4 1820 seconds 0.00218342
+q4 contraction 455 seconds 0.00111684
+q6 unique 2604 processing 2604 preparation seconds 0.000856633
+DONE seconds 0.0290302 peak RSS KiB 6400
+cached q4 35960 seconds 0.0365504
+q4 contraction 4495 seconds 0.0149088
+q6 unique 73206 processing 73206 preparation seconds 0.0139082
+DONE seconds 0.852995 peak RSS KiB 8864
+cached q4 635376 seconds 1.25458
+q4 contraction 39711 seconds 0.276641
+q6 unique 992424 processing 992424 preparation seconds 0.302375
+DONE seconds 8.69672 peak RSS KiB 122576
+cached q4 1 seconds 8.473e-06
+q4 contraction 1 seconds 0.000139262
+q6 unique 0 processing 0 preparation seconds 6.681e-06
+DONE seconds 0.000158763 peak RSS KiB 6400
+physical support B,L,R,M 18,15,19,0
+cached q4 70 seconds 3.876e-05
+q4 contraction 70 seconds 0.000195443
+q6 unique 28 processing 28 preparation seconds 2.479e-05
+DONE seconds 0.000544598 peak RSS KiB 6400
+physical support B,L,R,M 84,1016,1306,2676
+cached q4 1820 seconds 0.00110186
+q4 contraction 1820 seconds 0.00356626
+q6 unique 6944 processing 6944 preparation seconds 0.00294419
+DONE seconds 0.0698002 peak RSS KiB 6400
+physical support B,L,R,M 360,19720,32020,419712
+PASS all replayed exact geometry and physical fixtures
+{"nx": 4, "ny": 4, "residual_Rayleigh_display": 5.576709347472788, "shifted_rayleigh_upper_display": -0.10207899922286895, "variational_improvement_display": 7.396368000284618e-05}
+{"nx": 4, "ny": 4, "exact_gram_rank": 16, "shifted_rayleigh_upper_display": -0.10208067281760187, "seconds": 0.07271639600003255, "peak_rss_kib": 77424}
+{"nx": 8, "ny": 4, "residual_Rayleigh_display": 5.631896214985993, "shifted_rayleigh_upper_display": -0.20381639214435032, "variational_improvement_display": 0.0007019041132114878}
+{"nx": 8, "ny": 4, "exact_gram_rank": 43, "shifted_rayleigh_upper_display": -0.20385142957013075, "seconds": 1.0630319519987097, "peak_rss_kib": 77928}
+{"nx": 8, "ny": 8, "residual_Rayleigh_display": 5.652811915401829, "shifted_rayleigh_upper_display": -0.4062623288761818, "variational_improvement_display": 0.0050208823923461885}
+{"nx": 8, "ny": 8, "exact_gram_rank": 43, "shifted_rayleigh_upper_display": -0.4067853483943845, "seconds": 1.052344872001413, "peak_rss_kib": 77924}
+PASS all rational trial outputs (excluding resource diagnostics)
+Replay retained in /workspace/shared/haldane_active/research_20261010/low_band/third_moment_exact/replay_20261010T211103Z

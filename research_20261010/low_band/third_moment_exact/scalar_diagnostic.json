@@ -1,0 +1,55 @@
+{
+  "status": "floating_scalar_diagnostic_only_pending_exact_replay_and_independent_review",
+  "g": "9/100",
+  "grid": "beta 7..14 step .05, txy joint sequence, at most 10 cycles",
+  "changed_input": "Only 8x8 ground eigen_upper for one retained numerator state",
+  "smaller_seed_inputs_unchanged": true,
+  "all_denominator_ground_lower_bounds_unchanged": true,
+  "two_vector": {
+    "successful_grid_points": 6,
+    "best": {
+      "beta": 8.9,
+      "asymptotic_score": 0.0011398698941143966,
+      "cycle": 8,
+      "u": 0.00017340250691699755,
+      "initial_ratios": {
+        "J1": 0.8779162626435487,
+        "J2": 0.9088726301157178,
+        "C0": 0.9326170361096957
+      },
+      "terminal_canonical": [
+        0.9999667166347491,
+        0.9999132949876619,
+        0.999826597493083
+      ]
+    },
+    "limitation": "Floating diagnostic; new independent exact scalar replay and all-size proof are required."
+  },
+  "enlarged_numerator": {
+    "successful_grid_points": 61,
+    "best": {
+      "beta": 8.75,
+      "asymptotic_score": 0.02734241564990504,
+      "cycle": 4,
+      "u": 1.4789216098543001e-05,
+      "initial_ratios": {
+        "J1": 0.8752010586314989,
+        "J2": 0.9271492674378441,
+        "C0": 0.9422904864872873
+      },
+      "terminal_canonical": [
+        0.9999978906500545,
+        0.9999926053646104,
+        0.9999852107839015
+      ]
+    },
+    "limitation": "Floating diagnostic; new independent exact scalar replay and all-size proof are required."
+  },
+  "source_sha256": {
+    "low_band/frontier_g009/combined_patch_4x4_g9d100.json": "69e09b67e3cda8555193de25c7a66b19a2199c8d1adf2e7dabb92b03d406506c",
+    "low_band/frontier_g009/combined_patch_8x4_g9d100.json": "636f025e6730f652440c1d23ec71fe89c5028852a3c735d85f6fb09fc78dc235",
+    "low_band/frontier_g009/combined_patch_8x8_g9d100.json": "db960a82e6470d6453870baf9359f3b62c3dd2619d15fc643654a57e28bf37de",
+    "low_band/third_moment_exact/filtered_8x8_g9d100.json": "18a65f08656c0973af7ab8f99a4c21e7d485b4b68d0e47e98fe5914d292619fa",
+    "low_band/third_moment_exact/enlarged_8x8_g9d100.json": "f57ab5f5dedb63ea8a6970ce8c58f5d6ca48c137e975ab0c5a344a51656ba7a8"
+  }
+}

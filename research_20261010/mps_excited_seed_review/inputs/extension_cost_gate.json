@@ -1,0 +1,12 @@
+{
+  "benchmark_max_n": 16,
+  "observed_CPU_seconds": 26.5749,
+  "observed_peak_KiB": 54500,
+  "projected_n20_CPU_seconds": 41.52328125,
+  "projected_n24_CPU_seconds": 59.793525,
+  "projected_n24_peak_MiB": 106.4453125,
+  "projection_method": "Conservative quadratic CPU growth and doubled peak RSS relative to complete n16 benchmark. Exact local tensor sizes are fixed; GMP integer length grows linearly.",
+  "gate_CPU_seconds_per_size": 600,
+  "gate_memory_MiB": 700,
+  "decision": "Proceed to n20 and n24; both projections far below gate. Hard CPU600sec and address-space1GiB remain active."
+}

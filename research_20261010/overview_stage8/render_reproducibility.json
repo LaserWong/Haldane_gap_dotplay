@@ -1,0 +1,90 @@
+{
+  "status": "PASS byte-identical independent re-render",
+  "checked_utc": "2026-10-10T21:28:57.629039+00:00",
+  "files": [
+    {
+      "file": "certified_bounds.png",
+      "sha256": "ab08b1657e1216c0ec5ada67cf6ffd2637b325f05a0082fc4f58443dce458f71",
+      "byte_identical": true
+    },
+    {
+      "file": "certified_bounds.pdf",
+      "sha256": "87073e06f85d02a4c4f95d6d0060e5e70a6d0477a700a43342618dc3864bd264",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.png",
+      "sha256": "52a62c99ecbfd0f7b2e7039bb8ec8b90d4811d19d37e0c9e2b623ac77b74785b",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.pdf",
+      "sha256": "e1092da4a28b7dfd87dab31ac4ca8ec5b6d6f57d8055fbc2873bb505516fee94",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.png",
+      "sha256": "ed7362ea68a206fd8e4790569e874b6b3433fedec448e510c6f360cb0180f796",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.pdf",
+      "sha256": "84ac81d8acdef4ff60c80c0078958fbf23079766b2ac9e5e1674f6d5ad79c576",
+      "byte_identical": true
+    },
+    {
+      "file": "aklt_reference_scope.png",
+      "sha256": "aadbd9a324d69c3a616e534d0a51fe66808fd1b62d96a5f0e47437b42a3cc2f2",
+      "byte_identical": true
+    },
+    {
+      "file": "aklt_reference_scope.pdf",
+      "sha256": "cb6c35fb3df2ffc9d0f5c7a9fd134efac4ff9704e925a0c897e0f533971aa0be",
+      "byte_identical": true
+    },
+    {
+      "file": "recipe_upper_caps.png",
+      "sha256": "e4118a11ee86c706148c071c97d2747fe9d957af648fe6e9af07a5d784a2a782",
+      "byte_identical": true
+    },
+    {
+      "file": "recipe_upper_caps.pdf",
+      "sha256": "587561803cb838dcea517d9c4b223b3a7647123f65914fcd4efcf2b2480891dc",
+      "byte_identical": true
+    }
+  ],
+  "replay_validation": {
+    "status": "PASS",
+    "claims": 209,
+    "dimension_rows": 108,
+    "direct_source_hashes": 194,
+    "review_seals": 23,
+    "sealed_file_hashes_checked": 1782,
+    "combined_review_included": true,
+    "interval_extension_included": true,
+    "cpu_affinity": [
+      0
+    ],
+    "address_space_limit_bytes": 1073741824,
+    "blas_threads": 1,
+    "checks": [
+      "source SHA-256",
+      "complete selected review manifests",
+      "all exact gap JSON pointers",
+      "all decimal floors",
+      "best point selection",
+      "all exact adjacent closed pieces and uniform minimum",
+      "Hilbert dimensions",
+      "numerator rank separated from search and filtered span",
+      "failure gaps remain null",
+      "all 207 chain candidate routes",
+      "all exact interval pieces",
+      "59/125 denominator trial dimensions",
+      "separate AKLT projector reference",
+      "all stage7 files and 198 prior certificate rows preserved"
+    ],
+    "matplotlib": "3.10.8",
+    "peak_rss_kib": 137764
+  },
+  "writes": "temporary directory only for replay images; this recorder writes render_reproducibility.json before freeze"
+}

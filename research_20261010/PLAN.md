@@ -72,3 +72,13 @@ The alternating spin-1 chain reaches g=.2 with gap .043446395688 for every integ
 The independently checked nonperturbative assessment separates the uniform-Heisenberg D26 recipe limitations from the AKLT parent reference. AKLT has a D=2 exact state and local 81-dimensional positivity certificate, yielding gap≥.1 at every periodic L≥5 under its projector normalization. Its current thermal-transfer sufficient condition fails, so this reference is not presented as a thermal-bootstrap extension.
 
 Next priorities are the exact higher numerator moment and 43-dimensional search at g=.09, refined smallest-seed joint-constraint obstructions, and few-state seed-size screens for uniform spin-1 at n=10,12. Each has a separate producer and independent review. No full spin-2 campaign or q≥8 physical expansion is scheduled. Ordinary authorized main synchronization continues without asking again for each batch.
+
+## Milestone update — 2026-10-10 17:28 EDT / 21:28 UTC
+
+Stage 7 is remotely verified at fb38f57548c86d9dda19450e68cbbedbafd6765a. All 805 new or changed entries match and 4,822 pre-existing paths outside the inventory are preserved.
+
+Exact third-moment contraction and a 43-dimensional largest search with one retained numerator state certify g=.09 with gap .027330086079 for all integer L≥2. Seven new closed pieces extend the whole continuous interval to [0,.09], preserving uniform gap .001945771244. The physical contractions, counted denominator spectra, directed scalar replay and all finite-size windows have separate independent seals.
+
+Uniform-chain fixed D26 screens now have independently accepted all-temperature obstructions at n=6,8,10,12,14,16,20 under their explicitly specified recipes. Compact exact excited-state contractions avoid full physical support expansion at n=24. The three-state n=24 screen leaves the closed temperature window [13/2,45/4]; this is not a successful seed certificate. A longitudinal fourth state and displacement-resolved momentum states are under separate investigation. The alternating-chain 67-dimensional small reference gives new candidates above g=.2, pending independent scalar review.
+
+Next: publish the stable stage 8 scope, finish independent review of the stronger chain comparison, tighten the n=24 necessary screen with more orthogonal low-energy witnesses, and identify the trace-upper information required for a successful nonperturbative seed. Do not substitute a bounded numerical scan for an all-temperature exclusion. No full spin-2 spectral campaign is scheduled.

@@ -1,0 +1,36 @@
+{
+  "status": "PASS exact producer replay; independent new interval review required",
+  "extension_interval": [
+    "17/200",
+    "9/100"
+  ],
+  "closed_extension_intervals": 7,
+  "extension_gap": "2894183477/500000000000",
+  "extension_gap_display": 0.005788366954,
+  "union_interval": [
+    "0",
+    "9/100"
+  ],
+  "union_closed_intervals": 56,
+  "union_gap": "486442811/250000000000",
+  "union_gap_display": 0.001945771244,
+  "finite_window_count": 41,
+  "short_size_count": 42,
+  "asymptotic_max_start_L": 512,
+  "exact_matrix_endpoint_and_center_checks": 21,
+  "independent_g010_matrix_check": true,
+  "corruptions_rejected": [
+    "numerator_coefficient",
+    "correlated_endpoint",
+    "trace_bound",
+    "short_multiedge",
+    "finite_window",
+    "denominator_state_count",
+    "numerator_retained_count"
+  ],
+  "preserved_producer_files": 52,
+  "preserved_review_files": 81,
+  "eigensolver_calls": 0,
+  "seconds": 9.643076843000017,
+  "peak_rss_kib": 84396
+}

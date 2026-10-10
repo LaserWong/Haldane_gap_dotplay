@@ -1,0 +1,41 @@
+{
+  "status": "bounded_float_proposal_only_not_an_all_temperature_exclusion",
+  "g": "1/10",
+  "variant": "filtered",
+  "numerator_retained_states": 1,
+  "largest_trial_max_triplet_number": 6,
+  "smaller_seed_denominators_byte_identical_to_source": true,
+  "all_denominator_ground_lower_bounds_unchanged": true,
+  "no_new_residual_claim": true,
+  "beta_grid": "5..20 step .05; txy joint, at most 10 cycles",
+  "successful_float_grid_points": 0,
+  "best_float_proposals": [],
+  "best_partial_float": {
+    "beta": "91/10",
+    "sequence_status": "all_comparison_paths_left_domain",
+    "initial": {
+      "J1": 0.8410067565082298,
+      "J2": 0.8340534137155773,
+      "C0": 0.8737138802155162,
+      "permuted_prefix": [
+        0.9821298428025786,
+        0.9756282059561701,
+        0.6609407173802097
+      ],
+      "positive_steps": 3,
+      "canonical": [
+        0.9700878860757907,
+        0.7650739528145487,
+        0.5853381532752782
+      ]
+    }
+  },
+  "source_sha256": {
+    "low_band/combined_ground_bounds/combined/patch_4x4_g1d10.json": "54dbff1257e2b7776f8755a7665544b04e92f0acf5604cf3556a2ff3889971b5",
+    "low_band/combined_ground_bounds/combined/patch_8x4_g1d10.json": "f76a56a9286d777a5abf4e602d63d6b53c4951881d3b078026afdc5ee2565d7c",
+    "low_band/combined_ground_bounds/combined/patch_8x8_g1d10.json": "f95b65d5f7180eed2358899a35d4de54ee1279307ebab8911fb7331f29a58102",
+    "low_band/third_moment_exact/filtered_8x8_g1d10.json": "27c7f1634ca267bac26e0c69774a3e64c46dd548387f7ceeb2f003eddbd16c2c",
+    "low_band/frontier_g007_g010/short_sizes/uniform_short_sizes.json": "5c0444656f8347731c7642d482e991c5301720539af3d09cfcaa4681ca0d96b6"
+  },
+  "seconds": 0.549653493999358
+}
