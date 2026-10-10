@@ -1,0 +1,31 @@
+{
+  "status": "active",
+  "updated_at_utc": "2026-10-10T17:17:00Z",
+  "resumed_at_utc": "2026-10-10T17:14:00Z",
+  "deadline_local": "2026-10-13T20:00:00-04:00",
+  "deadline_utc": "2026-10-14T00:00:00Z",
+  "timezone": "America/New_York",
+  "source_commit": "6be889a30f642bde77fb89af75b3a7379615bed1",
+  "historical_pause_file": "PAUSED.json",
+  "report_interval_hours": 5,
+  "next_report_local": "2026-10-10T18:15:00-04:00",
+  "tasks": [
+    {
+      "id": "chain_audit",
+      "status": "running"
+    },
+    {
+      "id": "bilayer_audit",
+      "status": "running"
+    },
+    {
+      "id": "nonperturbative_audit",
+      "status": "running"
+    },
+    {
+      "id": "low_band",
+      "status": "running"
+    }
+  ],
+  "verification": "1149 baseline manifest hashes passed; no scientific candidate promoted on resumption"
+}
