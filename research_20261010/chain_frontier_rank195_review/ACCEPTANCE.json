@@ -1,0 +1,39 @@
+{
+  "status": "ACCEPTED_EXACT_RESULTS_WITH_DECIMAL_PRESENTATION_CORRECTION",
+  "updated_utc": "2026-10-10T21:57:20Z",
+  "updated_America_New_York": "2026-10-10T17:57:20-04:00",
+  "g": "1/4",
+  "new_positive_gap_certificate": false,
+  "rank195_physics": {
+    "address_limit_bytes": 1073741824,
+    "cpu_affinity": [
+      4
+    ],
+    "peak_rss_kib": 45088,
+    "seconds": 446.22881652700016,
+    "status": "PASS_EXACT_RANK195_PHYSICS_AND_SPIN_ONE_TRIALS"
+  },
+  "exact_inertia_thresholds": 42,
+  "triplet_status": "Three exact orthogonal spin-one vectors, equal positive norms and equal full-action energies",
+  "denominator_independent_obstruction": {
+    "denominator": "Every valid M4 trace upper bound, including exact physical trace",
+    "numerator": "One-term Rayleigh input from every nonzero real or complex coefficient vector in the sealed two-dimensional M8 span",
+    "route": "Specified initial time-first purification, canonical transport and mandatory first [8,16] signed-transfer window",
+    "temperature_scope": "All beta>=0",
+    "physical_ratios_upper_bounded": false,
+    "maximum_optimistic_postcycle_product": "53029832957504452541634088071/79228162514264337593543950336"
+  },
+  "necessary_numerator_target": {
+    "delta_must_be_less_than": "19/1250",
+    "rayleigh_must_be_less_than": "-32029544931189305536663338135477/1958459827775615024219323755625",
+    "exact_required_improvement": "1694652107453887281156140045423893277930820738420107119711960710312530529124392123/3976713685217661493507844940059447569878468949123050395383925101541911786165126135000",
+    "safe_strict_decimal_improvement": ".000426143856861",
+    "rounded_up_approximation_only": ".000426143856862",
+    "necessary_not_sufficient": true
+  },
+  "excluded_from_claim": "No exclusion of sufficiently improved states outside the old span, multiple numerator terms, other inequalities/orders/geometries, or independent early bridges; no physical no-gap assertion",
+  "adversarial_corruptions_rejected": 16,
+  "clean_sibling_replay": "PASS",
+  "producer_manifest_sha256": "fc71128d5b7901c75e3c5322c23bf4cc428896b82d97518a78da3052ca8cb8e5",
+  "preserved_rank67_review_manifest_sha256": "20d6cda2475a81b2ceca9a05e1c3f838bb44df07a400342db5d4eb3f36917e52"
+}

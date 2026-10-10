@@ -1,0 +1,32 @@
+{
+  "status": "FROZEN verified static overview",
+  "frozen_utc": "2026-10-10T22:03:28.138181+00:00",
+  "claims": 225,
+  "preserved_stage9_claims": 212,
+  "preserved_stage9_interval_pieces": 56,
+  "historical_dimension_rows": 108,
+  "current_bilayer_dimension_rows": 3,
+  "direct_source_hashes": 234,
+  "review_seals": 30,
+  "sealed_source_files_checked": 2171,
+  "previous_overview_unchanged": true,
+  "previous_stage9_unchanged": true,
+  "continuous_interval_endpoint": "1/10",
+  "continuous_closed_pieces": 66,
+  "chain_candidate_routes": 207,
+  "complete_residual_review_included": true,
+  "rank195_review_included": true,
+  "rank195_positive_gap": false,
+  "interval_range_010_included": true,
+  "interval_range_010_final_manifest": "d6eb3e4ce912086fe66dc1eb2917c3ae7381bc6a527a939b99229b97b863f3e5",
+  "excluded_branches": [
+    "MPS pi-current",
+    "new chain numerator refinements"
+  ],
+  "root_README_or_status_modified_by_this_task": false,
+  "cpu_limit": 1,
+  "address_space_limit_bytes": 1073741824,
+  "corruptions_rejected": 56,
+  "byte_identical_rendered_files": 12,
+  "scope": "Source-integrity verification and visual extraction of immutable accepted reviews, not a new spectral proof audit"
+}

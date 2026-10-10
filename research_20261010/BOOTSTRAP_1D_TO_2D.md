@@ -83,3 +83,9 @@ The smaller denominator ground searches remain 11 and 29 dimensional. Their tota
 Exact moment construction still has a computational cost. In this implementation symmetry and local spin contractions avoid enumerating the full 2^128 physical basis. The independent reviewer also checked many intermediate support configurations, so small search dimension should not be equated with zero preparation cost or a general polynomial complexity guarantee.
 
 The resulting independently accepted bound is gap ≥0.027330086079 for all integer square side lengths L≥2, with a unique finite-volume ground state. See [the exact-third-moment review](third_moment_review/REVIEW.md). The continuous interval [0,.09] is separately covered by [the interval review](interval_range_009_review/REVIEW.md).
+
+## 5. Subsequent g=0.10 input improvement
+
+The separately accepted g=.10 certificate retains the same physical patches and the same 49/97 denominator low-band counts. It strengthens the 8×4 denominator ground bound using one fixed vector from its enlarged 43-dimensional search and its complete residual. The corresponding total denominator trial dimensions are now 59/139. The largest 8×8 numerator still uses one state from a 43-dimensional search.
+
+An exact hard-core pair-creation commutator replaces the missing q=8 norm by a q=4 norm and a signed expectation over q=6 states. Negative commutator contributions are retained. This supplies the full residual without enumerating q=8 configurations or full spectra. The resulting all-integer L≥2 gap lower bound is 0.038976038275. See [the independent complete-residual review](bilayer_complete_residual_8x4_review/REVIEW.md).

@@ -92,3 +92,13 @@ The alternating-chain 67-dimensional small reference has independent all-size ce
 At n=24 in the uniform spin-1 chain, exact displacement contractions and certified Fourier algebra give 70 orthogonal trial states with bond dimension at most 52. Total-spin singlet structure is proved at this finite size from an exact zero norm, and normalized lowering supplies all spin components. The strongest accepted fixed-recipe necessary screen still leaves beta in [539/64,339/32]. A compact two-vector current-operator extension is being benchmarked independently of these frozen results.
 
 The g=.1 bilayer diagnostic is independently accepted as a scoped input-sensitivity analysis. Available moments sharpen ground lower endpoints without reaching startup on the tested grid. The 8×4 denominator remains the tested bottleneck. An exact hard-core pair commutator may supply the complete new residual without enumerating q=8 supports; its local fixtures have passed and the separate physical producer/reviewer are active. This is not yet a g=.1 certificate.
+
+## Milestone update — 2026-10-10 18:00 EDT / 22:00 UTC
+
+Stage 9 is published at 46f6c7348d7fb1bc67ba05991f10988bee7dd155; all 391 entries verified and 6046 outside paths preserved. New independently accepted bilayer residual data give the g=.1 point bound .038976038275 for all integer L≥2. A complete q=8 norm is obtained exactly from q≤6 contractions using the signed hard-core commutator. No term is discarded. The new 8×4 ground search is 43-dimensional; total denominator trial dimensions are 59/139 and retained bands remain 49/97.
+
+Ten independently reviewed closed intervals extend the full range to [0,.1], preserving uniform gap .001945771244 over 66 pieces. Final interval review manifest is d6eb3e4ce912086fe66dc1eb2917c3ae7381bc6a527a939b99229b97b863f3e5.
+
+The chain rank 195 comparison and denominator-independent obstruction at g=.25 are independently accepted within the specified old M8 span and first-window recipe. Its exact necessary numerator target guides new finite-dimensional searches; it is not a general minimum-size or gaplessness theorem. Uniform-chain pi-current contractions are checkpointed and under independent algebra/fixture review, with a measured one-core computational cap.
+
+Next: publish the stable stage 10 scope and scheduled 22:15 UTC report, continue the two pending numerator/current refinements, and independently audit each new claim before inclusion. The research stopping time remains 2026-10-13 20:00 New York.

@@ -1,0 +1,206 @@
+{
+  "status": "exact_producer_candidate_pending_independent_review",
+  "coupling_interval": [
+    "9/100",
+    "1/10"
+  ],
+  "closed_intervals": 10,
+  "uniform_gap": "2190412273/250000000000",
+  "uniform_gap_display": 0.008761649092,
+  "intervals": [
+    {
+      "file": "coverage/interval_001.json",
+      "coupling_interval": [
+        "9/100",
+        "91/1000"
+      ],
+      "gap": "13329683313/1000000000000"
+    },
+    {
+      "file": "coverage/interval_002.json",
+      "coupling_interval": [
+        "91/1000",
+        "23/250"
+      ],
+      "gap": "21666827849/1000000000000"
+    },
+    {
+      "file": "coverage/interval_003.json",
+      "coupling_interval": [
+        "23/250",
+        "93/1000"
+      ],
+      "gap": "27626004383/1000000000000"
+    },
+    {
+      "file": "coverage/interval_004.json",
+      "coupling_interval": [
+        "93/1000",
+        "47/500"
+      ],
+      "gap": "13223896837/500000000000"
+    },
+    {
+      "file": "coverage/interval_005.json",
+      "coupling_interval": [
+        "47/500",
+        "19/200"
+      ],
+      "gap": "7608742087/250000000000"
+    },
+    {
+      "file": "coverage/interval_006.json",
+      "coupling_interval": [
+        "19/200",
+        "12/125"
+      ],
+      "gap": "8220111447/250000000000"
+    },
+    {
+      "file": "coverage/interval_007.json",
+      "coupling_interval": [
+        "12/125",
+        "97/1000"
+      ],
+      "gap": "674928651/20000000000"
+    },
+    {
+      "file": "coverage/interval_008.json",
+      "coupling_interval": [
+        "97/1000",
+        "49/500"
+      ],
+      "gap": "33052162011/1000000000000"
+    },
+    {
+      "file": "coverage/interval_009.json",
+      "coupling_interval": [
+        "49/500",
+        "99/1000"
+      ],
+      "gap": "6171364653/200000000000"
+    },
+    {
+      "file": "coverage/interval_010.json",
+      "coupling_interval": [
+        "99/1000",
+        "1/10"
+      ],
+      "gap": "2190412273/250000000000"
+    }
+  ],
+  "attempts": [
+    {
+      "interval": [
+        "9/100",
+        "91/1000"
+      ],
+      "score": -0.013329683313485238,
+      "beta": "43/5",
+      "exact_accepted": true,
+      "gap": 0.013329683313
+    },
+    {
+      "interval": [
+        "91/1000",
+        "23/250"
+      ],
+      "score": -0.021666827849427858,
+      "beta": "9",
+      "exact_accepted": true,
+      "gap": 0.021666827849
+    },
+    {
+      "interval": [
+        "23/250",
+        "93/1000"
+      ],
+      "score": -0.027626004383893437,
+      "beta": "44/5",
+      "exact_accepted": true,
+      "gap": 0.027626004383
+    },
+    {
+      "interval": [
+        "93/1000",
+        "47/500"
+      ],
+      "score": -0.027918716133881697,
+      "beta": "43/5",
+      "exact_accepted": true,
+      "gap": 0.026447793674
+    },
+    {
+      "interval": [
+        "47/500",
+        "19/200"
+      ],
+      "score": -0.03043496834858945,
+      "beta": "46/5",
+      "exact_accepted": true,
+      "gap": 0.030434968348
+    },
+    {
+      "interval": [
+        "19/200",
+        "12/125"
+      ],
+      "score": -0.03288044578855367,
+      "beta": "37/4",
+      "exact_accepted": true,
+      "gap": 0.032880445788
+    },
+    {
+      "interval": [
+        "12/125",
+        "97/1000"
+      ],
+      "score": -0.033746432550032734,
+      "beta": "93/10",
+      "exact_accepted": true,
+      "gap": 0.03374643255
+    },
+    {
+      "interval": [
+        "97/1000",
+        "49/500"
+      ],
+      "score": -0.03305216201114839,
+      "beta": "187/20",
+      "exact_accepted": true,
+      "gap": 0.033052162011
+    },
+    {
+      "interval": [
+        "49/500",
+        "99/1000"
+      ],
+      "score": -0.030856823265833517,
+      "beta": "47/5",
+      "exact_accepted": true,
+      "gap": 0.030856823265
+    },
+    {
+      "interval": [
+        "99/1000",
+        "1/10"
+      ],
+      "score": -0.02754727146774743,
+      "beta": "44/5",
+      "exact_accepted": true,
+      "gap": 0.008761649092
+    }
+  ],
+  "seconds": 10.441731599999912,
+  "peak_rss_kib": 85832,
+  "largest_retained_states": 1,
+  "search_dimensions": [
+    11,
+    43,
+    43
+  ],
+  "denominator_retained_states": [
+    49,
+    97
+  ]
+}

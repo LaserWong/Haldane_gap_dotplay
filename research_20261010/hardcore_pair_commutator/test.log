@@ -1,0 +1,148 @@
+{
+  "local": {
+    "exhaustive_pair_commutator_basis_tests": 336,
+    "weighted_graph_basis_tests": 256,
+    "physical_pair_block_exact": true
+  },
+  "matching": {
+    "exact_matching_recoupling_tests": 465
+  },
+  "fixtures": [
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "rungs": 4,
+      "spins": 8,
+      "physical_Hilbert_dimension": 256,
+      "pair_orbits": 2,
+      "edge_weights": [
+        2
+      ],
+      "q6_support_states": [
+        0,
+        0
+      ],
+      "q8_gram": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "coherent_q8_norm": 0,
+      "coherent_q4_norm": 0,
+      "coherent_commutator": 0,
+      "all_cross_entries_exact": true
+    },
+    {
+      "shape": [
+        3,
+        2
+      ],
+      "rungs": 6,
+      "spins": 12,
+      "physical_Hilbert_dimension": 4096,
+      "pair_orbits": 3,
+      "edge_weights": [
+        1,
+        2
+      ],
+      "q6_support_states": [
+        81,
+        73,
+        103
+      ],
+      "q8_gram": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "coherent_q8_norm": 0,
+      "coherent_q4_norm": 237096,
+      "coherent_commutator": -237096,
+      "all_cross_entries_exact": true
+    },
+    {
+      "shape": [
+        4,
+        2
+      ],
+      "rungs": 8,
+      "spins": 16,
+      "physical_Hilbert_dimension": 65536,
+      "pair_orbits": 5,
+      "edge_weights": [
+        1,
+        2
+      ],
+      "q6_support_states": [
+        672,
+        912,
+        1052,
+        676,
+        912
+      ],
+      "q8_gram": [
+        [
+          4230144,
+          1714176,
+          0,
+          0,
+          304128
+        ],
+        [
+          1714176,
+          1769472,
+          0,
+          0,
+          387072
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          304128,
+          387072,
+          0,
+          0,
+          165888
+        ]
+      ],
+      "coherent_q8_norm": 3898368,
+      "coherent_q4_norm": 18705408,
+      "coherent_commutator": -14807040,
+      "all_cross_entries_exact": true
+    }
+  ],
+  "status": "PASS",
+  "seconds": 0.4845741210010601,
+  "peak_rss_kib": 55240
+}

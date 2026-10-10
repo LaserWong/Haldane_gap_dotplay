@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "fixtures": [
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "q8_gram": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "coherent_Cdag_norm": 0,
+      "coherent_C_norm": 0,
+      "coherent_commutator": 0,
+      "full_image_sector_norms": {
+        "0": 2304,
+        "2": 28068528,
+        "4": 4816068096,
+        "6": 0,
+        "8": 0
+      },
+      "T_norm_on_M_zero_physical_states": 0,
+      "translation_check": true
+    },
+    {
+      "shape": [
+        3,
+        2
+      ],
+      "q8_gram": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "coherent_Cdag_norm": 0,
+      "coherent_C_norm": 237096,
+      "coherent_commutator": -237096,
+      "full_image_sector_norms": {
+        "0": 1296,
+        "2": 29854026,
+        "4": 13318427376,
+        "6": 4243678668,
+        "8": 0
+      },
+      "T_norm_on_M_zero_physical_states": 1728,
+      "translation_check": true
+    },
+    {
+      "shape": [
+        4,
+        2
+      ],
+      "q8_gram": [
+        [
+          4230144,
+          1714176,
+          0,
+          0,
+          304128
+        ],
+        [
+          1714176,
+          1769472,
+          0,
+          0,
+          387072
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          304128,
+          387072,
+          0,
+          0,
+          165888
+        ]
+      ],
+      "coherent_Cdag_norm": 3898368,
+      "coherent_C_norm": 18705408,
+      "coherent_commutator": -14807040,
+      "full_image_sector_norms": {
+        "0": 2304,
+        "2": 413857608,
+        "4": 121947335040,
+        "6": 191711843328,
+        "8": 97459200
+      },
+      "T_norm_on_M_zero_physical_states": 12375040,
+      "translation_check": true
+    }
+  ],
+  "seconds": 0.9206106662750244,
+  "peak_rss_kib": 53412
+}

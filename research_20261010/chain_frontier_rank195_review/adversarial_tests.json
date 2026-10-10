@@ -1,0 +1,72 @@
+{
+  "rejected_count": 16,
+  "seconds": 5.647116281001217,
+  "singular_inertia_cases": 2,
+  "status": "PASS",
+  "tests": [
+    {
+      "status": "REJECTED",
+      "test": "nonunit Gram weight"
+    },
+    {
+      "status": "REJECTED",
+      "test": "full residual offdiagonal"
+    },
+    {
+      "status": "REJECTED",
+      "test": "truncated second moment"
+    },
+    {
+      "status": "REJECTED",
+      "test": "omitted single quintet reference"
+    },
+    {
+      "status": "REJECTED",
+      "test": "false spin ladder"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong triplet metric norm"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong variational energy"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong nullspace dimension"
+    },
+    {
+      "status": "REJECTED",
+      "test": "incorrect E>=4 complement cutoff"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong omitted count"
+    },
+    {
+      "status": "REJECTED",
+      "test": "threshold equals complement cutoff"
+    },
+    {
+      "status": "REJECTED",
+      "test": "span lower bound shifted unsafely upward"
+    },
+    {
+      "status": "REJECTED",
+      "test": "nonpositive numerator norm Gram"
+    },
+    {
+      "status": "REJECTED",
+      "test": "missing beta interval"
+    },
+    {
+      "status": "REJECTED",
+      "test": "understated first interval output"
+    },
+    {
+      "status": "REJECTED",
+      "test": "unsafe triplet excitation upper"
+    }
+  ]
+}
