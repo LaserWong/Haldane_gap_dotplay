@@ -1,0 +1,27 @@
+{
+  "limits": {
+    "cpu_affinity_count": 1,
+    "address_space_bytes": 1073741824,
+    "cpu_seconds_limit_per_process": 300,
+    "schedule": "sequential"
+  },
+  "measured_stages": {
+    "independent_trials.json": {
+      "seconds": 21.101593255996704,
+      "cpu_seconds": 12.977585792,
+      "peak_kb": 62984
+    },
+    "independent_d26.json": {
+      "seconds": 1.2455182075500488,
+      "cpu_seconds": 1.295987069,
+      "peak_kb": 12032
+    },
+    "independent_scalar.json": {
+      "seconds": 1.3508667945861816,
+      "cpu_seconds": 1.518769264,
+      "peak_kb": 9856
+    },
+    "GMP_contraction": "seconds=6.34961 peak_kb=8412"
+  },
+  "notes": "Hard caps and single-CPU affinity also apply to compiler via REPRODUCE.sh. Recorded stage RSS excludes the compiler, whose RSS was not separately instrumented. No eigensolver imported or executed by independent reproduction."
+}

@@ -1,0 +1,60 @@
+PASS independent first moments M=8,6,7
+PASS 181/1000 9728769181/1000000000000 all rows 15
+PASS 7/40 830597153/31250000000 all rows 12
+PASS 91/500 5940278341/1000000000000 all rows 12
+PASS 9/50 13222512347/1000000000000 all rows 15
+{
+  "status": "PASS external independent physical, joint-scalar, and all-integer bridge audit",
+  "results": [
+    {
+      "g": "181/1000",
+      "accepted_gap_lower": "9728769181/1000000000000",
+      "accepted_gap_display": 0.009728769181,
+      "scope": "Every integer periodic cell count M>=2, unique finite-volume ground state",
+      "minimum_short_gap": "83093834707947775689160546844828262491/2506828579552924830178232521000000000000",
+      "audited_rows": 15,
+      "audited_window_count": 90
+    },
+    {
+      "g": "7/40",
+      "accepted_gap_lower": "830597153/31250000000",
+      "accepted_gap_display": 0.026579108896,
+      "scope": "Every integer periodic cell count M>=2, unique finite-volume ground state",
+      "minimum_short_gap": "76315942877440344543149958912213890459/1253414289776462415089116260500000000000",
+      "audited_rows": 12,
+      "audited_window_count": 54
+    },
+    {
+      "g": "91/500",
+      "accepted_gap_lower": "5940278341/1000000000000",
+      "accepted_gap_display": 0.005940278341,
+      "scope": "Every integer periodic cell count M>=2, unique finite-volume ground state",
+      "minimum_short_gap": "14300364298848703511816596974285948261/501365715910584966035646504200000000000",
+      "audited_rows": 12,
+      "audited_window_count": 66
+    },
+    {
+      "g": "9/50",
+      "accepted_gap_lower": "13222512347/1000000000000",
+      "accepted_gap_display": 0.013222512347,
+      "scope": "Every integer periodic cell count M>=2, unique finite-volume ground state",
+      "minimum_short_gap": "215300858354098448423306335268705151/5697337680802101886768710275000000000",
+      "audited_rows": 15,
+      "audited_window_count": 75
+    }
+  ],
+  "provenance": {
+    "producer_manifest_sha256": "bc1b7bcc23f7f217c558a77790c0c45a8763ae40c1d8b20b5ca3b50d18d16370",
+    "frozen_producer_files": 43,
+    "external_files_verified": 27,
+    "prior_independent_review_files_verified": 21,
+    "physical_core_sha256": "30c997e6e56135af60cd989ab22e31a8957346dc3ff2235ae8ac6b2c62916a19"
+  },
+  "exact_exponentials": "110 Taylor terms after <=1/16 range reduction, directed 384-bit rounding; no producer exponential calls",
+  "peak_rss_kib": 40328,
+  "seconds": 29.975628005002363,
+  "AS_limit_bytes": 1073741824,
+  "cpu_affinity": [
+    0
+  ]
+}

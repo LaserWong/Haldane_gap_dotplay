@@ -1,0 +1,81 @@
+PASS sealed independent review manifest
+PASS interval 1 ['2/25', '161/2000'] 0.012803905637 windows 5
+PASS interval 2 ['161/2000', '81/1000'] 0.007839659402 windows 6
+PASS interval 3 ['81/1000', '13/160'] 0.012042649244 windows 6
+PASS interval 4 ['13/160', '163/2000'] 0.009925833451 windows 6
+PASS interval 5 ['163/2000', '327/4000'] 0.005978179134 windows 7
+PASS interval 6 ['327/4000', '131/1600'] 0.009304607579 windows 6
+PASS interval 7 ['131/1600', '41/500'] 0.006992836884 windows 6
+PASS interval 8 ['41/500', '33/400'] 0.022177736183 windows 5
+PASS interval 9 ['33/400', '83/1000'] 0.015615550369 windows 5
+PASS interval 10 ['83/1000', '167/2000'] 0.012467078143 windows 6
+PASS interval 11 ['167/2000', '21/250'] 0.005705272078 windows 7
+PASS interval 12 ['21/250', '337/4000'] 0.010600821716 windows 6
+PASS interval 13 ['337/4000', '169/2000'] 0.006958866515 windows 7
+PASS interval 14 ['169/2000', '339/4000'] 0.003365750386 windows 8
+PASS interval 15 ['339/4000', '679/8000'] 0.006937745488 windows 7
+PASS interval 16 ['679/8000', '17/200'] 0.004135722317 windows 7
+PASS 49-piece union gap 0.001945771244 seconds 27.227627197997208 RSS KiB 33260
+REJECTED wrong fixed center
+REJECTED outside audited coupling
+REJECTED wrong normalization
+REJECTED changed affine slope
+REJECTED changed complete residual
+REJECTED wrong even Temple denominator
+REJECTED changed largest full second moment
+REJECTED inflated residual minimum
+REJECTED wrong residual maximum
+REJECTED invalid compression upper
+REJECTED wrong compression pivot
+REJECTED wrong uniform C
+REJECTED wrong fixed filter t
+REJECTED inflated filter gain
+REJECTED understated augmented dimension
+REJECTED wrong filtered support
+REJECTED omitted first bosonic shell
+REJECTED unproved excited retained state
+REJECTED wrong denominator temperature
+REJECTED uncorrelated energy exponent
+REJECTED wrong initial transport
+REJECTED inflated initial joint lower
+REJECTED transported product substituted
+REJECTED wrong canonical update argument
+REJECTED nonsequential canonical state
+REJECTED stale propagated joint constraint
+REJECTED permuted route erased
+REJECTED odd reflected base
+REJECTED wrong doubled temperature
+REJECTED missing coupled level
+REJECTED missing early finite window
+REJECTED moved finite window
+REJECTED inflated window thermal purity
+REJECTED wrong inner product constraint
+REJECTED lost spatial joint factor
+REJECTED inflated window gap
+REJECTED moved asymptotic base
+REJECTED inflated asymptotic gap
+REJECTED omitted short size
+REJECTED period two multiplicity deduplicated
+REJECTED inflated final gap
+REJECTED wrong odd center
+REJECTED wrong Q support
+REJECTED wrong spin multiplicity
+REJECTED duplicated momentum
+REJECTED missing odd mode
+REJECTED invalid odd Gram
+REJECTED raw unnormalized odd theta
+REJECTED dropped odd full leakage
+REJECTED wrong mixed QV coefficient
+REJECTED compressed odd residual
+REJECTED wrong odd theta enclosure
+REJECTED wrong odd residual enclosure
+REJECTED inflated odd Temple denominator
+REJECTED zero odd Temple width
+REJECTED inflated odd lower endpoint
+REJECTED omitted entire odd band trace
+REJECTED omitted bosonic trace tail
+REJECTED wrong trace spin count
+REJECTED understated retained-state count
+REJECTED wrong trace mode count
+PASS 61 certificate corruption tests, 4 filter edgecases, 8 scalar guards
+PASS 60 exact complex Hermitian fixtures; 12 physical normalization rejection tests

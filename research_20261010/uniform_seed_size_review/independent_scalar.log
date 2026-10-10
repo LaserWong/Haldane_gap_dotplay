@@ -1,0 +1,5 @@
+PASS all beta n 6 delta 0.365339682084205 J cap 29/50
+PASS all beta n 8 delta 0.22713595626665797 J cap 71/100
+PASS all beta n 10 delta 0.14800926169918177 J cap 3/25
+PASS all beta n 12 delta 0.09857253720308078 J cap 19/100
+{'status': 'PASS independent exact arithmetic', 'arithmetic': 'decimal scale 10^40 directed series; 96 Taylor terms on [0,1] with geometric tail; repeated squaring; decimal 10^26 upward recurrence rounding', 'regressions': ['exponential positive and reciprocal enclosures', 'exact extensive-shift cancellation', 'closed-box endpoint and gap coverage', 'orthogonal complement trace identity', 'negative G targets', 'no small-defect entry before failure', 'all completed-cycle delay enumeration'], 'seconds': 1.3508667945861816, 'cpu_seconds': 1.518769264, 'peak_kb': 9856}

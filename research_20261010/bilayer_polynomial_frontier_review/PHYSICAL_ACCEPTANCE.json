@@ -1,0 +1,52 @@
+{
+  "status": "PASS independently accepted reusable polynomial moments and finite-seed certificates",
+  "geometries": [
+    [
+      4,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      8
+    ]
+  ],
+  "literal_trial": "w_r(g)=e_r-(g/2)P_3 V e_r, e_r=|t+_r>; Hprime(g)=Q+gV",
+  "physical_metric": "fixed rational rung product metric, independent of g",
+  "normalized_polynomial_degrees": {
+    "G": 2,
+    "A": 3,
+    "B": 4
+  },
+  "stored_to_physical_divisors": {
+    "G": "4*d^2",
+    "A": "4*d^3",
+    "B": "4*d^4"
+  },
+  "d": "4*denominator(g) for reduced rational g",
+  "exact_moment_polynomial_identity_scope": "all real g for this explicitly affine trial family; no automatic spectral/gap claim",
+  "coefficients_file": "results/polynomial_coefficients.json",
+  "coefficients_sha256": "91fb48064fce3248cb6e9aa956d4948da2c7425b5e70d25c3d3e268418c0ae78",
+  "old_couplings": [
+    "3/100",
+    "1/25",
+    "1/20",
+    "3/50",
+    "7/100",
+    "2/25",
+    "1/10"
+  ],
+  "extra_checkpoint_equalities": 1008,
+  "new_finite_seed_certificate_g": [
+    "17/200",
+    "9/100"
+  ],
+  "physical_replay": "results/physical_review.json",
+  "physical_replay_sha256": "288172ee0e7401b27e46bc5772420a94c812b91928927ed8945c77283d716165",
+  "no_new_physical_support": true,
+  "new_higher_moments": false,
+  "new_all_size_gap_only_g": "17/200"
+}

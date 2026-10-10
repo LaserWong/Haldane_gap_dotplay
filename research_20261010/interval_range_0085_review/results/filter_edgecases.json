@@ -1,0 +1,30 @@
+[
+  {
+    "test": "interior",
+    "passed": true,
+    "variance_min": "1/100",
+    "variance_max": "640001/64000000",
+    "gain": "331724958936126820000000000000/275143620952937562426701357808281"
+  },
+  {
+    "test": "left boundary",
+    "passed": true,
+    "variance_min": "1/100",
+    "variance_max": "160001/16000000",
+    "gain": "331724958936126820000000000000/275143620952937562426701357808281"
+  },
+  {
+    "test": "right boundary",
+    "passed": true,
+    "variance_min": "1/100",
+    "variance_max": "160001/16000000",
+    "gain": "331724958936126820000000000000/275143620952937562426701357808281"
+  },
+  {
+    "test": "zero variance",
+    "passed": true,
+    "variance_min": "0",
+    "variance_max": "0",
+    "gain": "0"
+  }
+]

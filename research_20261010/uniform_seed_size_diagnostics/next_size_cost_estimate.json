@@ -1,0 +1,35 @@
+{
+  "status": "analytic estimate only; no n14 support or proposals constructed",
+  "basis_count_method": "integer coefficient recursion for (x^-1+1+x)^n",
+  "rows": [
+    {
+      "n": 14,
+      "Sz": 0,
+      "sector_dimension": 616227,
+      "full_hilbert_dimension": 4782969,
+      "directed_offdiagonal_entries": 8028440,
+      "stored_CSR_entry_upper": 8644667,
+      "CSR_bytes_float64_int32": 106200916,
+      "eigsh_20_vector_bytes": 98596320
+    },
+    {
+      "n": 14,
+      "Sz": 1,
+      "sector_dimension": 585690,
+      "full_hilbert_dimension": 4782969,
+      "directed_offdiagonal_entries": 7594132,
+      "stored_CSR_entry_upper": 8179822,
+      "CSR_bytes_float64_int32": 100500628,
+      "eigsh_20_vector_bytes": 93710400
+    }
+  ],
+  "estimated_peak_MiB_range": [
+    350,
+    650
+  ],
+  "estimated_new_proposal_CPU_seconds_range": [
+    15,
+    120
+  ],
+  "caveat": "Memory and convergence estimates are not verified resource guarantees; stage or avoid COO copies, maintain 1 CPU/1 GiB and 300 CPU second hard cap; obtain parent direction before expanding task."
+}

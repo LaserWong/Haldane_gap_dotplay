@@ -1,0 +1,83 @@
+{
+  "status": "new_g009_candidate_pending_independent_review",
+  "g": "9/100",
+  "nx": 8,
+  "ny": 4,
+  "ground_lower": "-205089814547/1000000000000",
+  "pencil": {
+    "external_cutoff": "34/25",
+    "external_low_count_required": 1,
+    "trial_dimension": 29,
+    "gram_inertia": [
+      0,
+      0,
+      29
+    ],
+    "cutoff_ritz_inertia": [
+      1,
+      0,
+      28
+    ],
+    "shifted_squared_moment_inertia": [
+      0,
+      0,
+      29
+    ],
+    "negative_inverse_ritz_count": 1,
+    "endpoints": [
+      {
+        "sector_eigenvalue_index_one_based": 1,
+        "lower": "-205089814547/1000000000000",
+        "negative_direction_witness": {
+          "coefficients": [
+            -1125899906842624,
+            23856018199073,
+            -755412846639,
+            23995387362676,
+            -872259812143,
+            -740332872398,
+            -300773340210,
+            -495880552776,
+            514235439891,
+            -282902402312,
+            280071008001,
+            -254965468813,
+            203675660334,
+            -187253277636,
+            172246547673,
+            -225793264206,
+            8540776526,
+            -229043604661,
+            10949214818,
+            17402341293,
+            2724496884,
+            11221350561,
+            -10519064853,
+            6098343618,
+            -5699951652,
+            5107899641,
+            -4129732267,
+            3753554678,
+            -3479288623
+          ],
+          "bits": 50,
+          "exact_endpoint_quadratic_form": "-5904171525102239186138237793499/3125000000000",
+          "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+        },
+        "endpoint_pencil_inertia": [
+          1,
+          0,
+          28
+        ],
+        "floating_proposal": -0.20508981454612307,
+        "optimal_pencil_endpoint_upper": "-2050898145453/10000000000000",
+        "upper_pencil_inertia": [
+          0,
+          0,
+          29
+        ],
+        "pencil_root_bracket_width": "17/10000000000000"
+      }
+    ]
+  }
+}

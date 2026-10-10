@@ -1,0 +1,208 @@
+{
+  "status": "continuous_0085_candidate_pending_independent_review",
+  "coupling_interval": [
+    "2/25",
+    "17/200"
+  ],
+  "closed_intervals": 16,
+  "all_integer_L_ge2_uniform_gap": "1682875193/500000000000",
+  "uniform_gap_display": 0.003365750386,
+  "intervals": [
+    {
+      "file": "ground_only/interval_001.json",
+      "coupling_interval": [
+        "2/25",
+        "161/2000"
+      ],
+      "gap_lower": "12803905637/1000000000000",
+      "gap_display": 0.012803905637,
+      "beta_initial": "52/5"
+    },
+    {
+      "file": "ground_only/interval_002.json",
+      "coupling_interval": [
+        "161/2000",
+        "81/1000"
+      ],
+      "gap_lower": "3919829701/500000000000",
+      "gap_display": 0.007839659402,
+      "beta_initial": "209/20"
+    },
+    {
+      "file": "ground_only/interval_003.json",
+      "coupling_interval": [
+        "81/1000",
+        "13/160"
+      ],
+      "gap_lower": "3010662311/250000000000",
+      "gap_display": 0.012042649244,
+      "beta_initial": "101/10"
+    },
+    {
+      "file": "ground_only/interval_004.json",
+      "coupling_interval": [
+        "13/160",
+        "163/2000"
+      ],
+      "gap_lower": "9925833451/1000000000000",
+      "gap_display": 0.009925833451,
+      "beta_initial": "209/20"
+    },
+    {
+      "file": "ground_only/interval_005.json",
+      "coupling_interval": [
+        "163/2000",
+        "327/4000"
+      ],
+      "gap_lower": "2989089567/500000000000",
+      "gap_display": 0.005978179134,
+      "beta_initial": "41/4"
+    },
+    {
+      "file": "ground_only/interval_006.json",
+      "coupling_interval": [
+        "327/4000",
+        "131/1600"
+      ],
+      "gap_lower": "9304607579/1000000000000",
+      "gap_display": 0.009304607579,
+      "beta_initial": "21/2"
+    },
+    {
+      "file": "ground_only/interval_007.json",
+      "coupling_interval": [
+        "131/1600",
+        "41/500"
+      ],
+      "gap_lower": "1748209221/250000000000",
+      "gap_display": 0.006992836884,
+      "beta_initial": "21/2"
+    },
+    {
+      "file": "lowband/interval_001.json",
+      "coupling_interval": [
+        "41/500",
+        "33/400"
+      ],
+      "gap_lower": "22177736183/1000000000000",
+      "gap_display": 0.022177736183,
+      "beta_initial": "44/5"
+    },
+    {
+      "file": "lowband/interval_002.json",
+      "coupling_interval": [
+        "33/400",
+        "83/1000"
+      ],
+      "gap_lower": "15615550369/1000000000000",
+      "gap_display": 0.015615550369,
+      "beta_initial": "44/5"
+    },
+    {
+      "file": "lowband/interval_003.json",
+      "coupling_interval": [
+        "83/1000",
+        "167/2000"
+      ],
+      "gap_lower": "12467078143/1000000000000",
+      "gap_display": 0.012467078143,
+      "beta_initial": "44/5"
+    },
+    {
+      "file": "lowband/interval_004.json",
+      "coupling_interval": [
+        "167/2000",
+        "21/250"
+      ],
+      "gap_lower": "2852636039/500000000000",
+      "gap_display": 0.005705272078,
+      "beta_initial": "177/20"
+    },
+    {
+      "file": "lowband/interval_005.json",
+      "coupling_interval": [
+        "21/250",
+        "337/4000"
+      ],
+      "gap_lower": "2650205429/250000000000",
+      "gap_display": 0.010600821716,
+      "beta_initial": "177/20"
+    },
+    {
+      "file": "lowband/interval_006.json",
+      "coupling_interval": [
+        "337/4000",
+        "169/2000"
+      ],
+      "gap_lower": "1391773303/200000000000",
+      "gap_display": 0.006958866515,
+      "beta_initial": "173/20"
+    },
+    {
+      "file": "lowband/interval_007.json",
+      "coupling_interval": [
+        "169/2000",
+        "339/4000"
+      ],
+      "gap_lower": "1682875193/500000000000",
+      "gap_display": 0.003365750386,
+      "beta_initial": "35/4"
+    },
+    {
+      "file": "lowband/interval_008.json",
+      "coupling_interval": [
+        "339/4000",
+        "679/8000"
+      ],
+      "gap_lower": "433609093/62500000000",
+      "gap_display": 0.006937745488,
+      "beta_initial": "177/20"
+    },
+    {
+      "file": "lowband/interval_009.json",
+      "coupling_interval": [
+        "679/8000",
+        "17/200"
+      ],
+      "gap_lower": "4135722317/1000000000000",
+      "gap_display": 0.004135722317,
+      "beta_initial": "177/20"
+    }
+  ],
+  "regimes": [
+    {
+      "coupling_interval": [
+        "2/25",
+        "41/500"
+      ],
+      "closed_intervals": 7,
+      "uniform_gap": "2989089567/500000000000",
+      "denominator_retained_states": [
+        1,
+        1
+      ],
+      "total_augmented_trial_dimensions": [
+        11,
+        29,
+        30
+      ]
+    },
+    {
+      "coupling_interval": [
+        "41/500",
+        "17/200"
+      ],
+      "closed_intervals": 9,
+      "uniform_gap": "1682875193/500000000000",
+      "denominator_retained_states": [
+        49,
+        97
+      ],
+      "total_augmented_trial_dimensions": [
+        59,
+        125,
+        30
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "negative_and_boundary_tests": {
+    "n10_duplicated_trial_rejected": true,
+    "n10_lowered_energy_not_assumed_equal": true,
+    "n12_duplicated_trial_rejected": true,
+    "n12_lowered_energy_not_assumed_equal": true,
+    "n6_per_site_total_energy_error_rejected": true,
+    "n8_per_site_total_energy_error_rejected": true,
+    "n10_per_site_total_energy_error_rejected": true,
+    "n10_missing_closed_box_rejected": true,
+    "n12_per_site_total_energy_error_rejected": true,
+    "n12_missing_closed_box_rejected": true,
+    "n14_Sz0_analytic_count_only": true,
+    "n14_Sz1_analytic_count_only": true
+  },
+  "resource_estimate_scope": "Only n14 integer sector/entry/storage counts verified. Peak memory and CPU ranges remain unvalidated forecasts. No next-size support or proposal constructed."
+}

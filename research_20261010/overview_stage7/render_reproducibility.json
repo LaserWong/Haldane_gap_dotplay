@@ -1,0 +1,80 @@
+{
+  "status": "PASS byte-identical independent re-render",
+  "checked_utc": "2026-10-10T21:15:03.853302+00:00",
+  "files": [
+    {
+      "file": "certified_bounds.png",
+      "sha256": "a2c6909aeed34ab07ac23c68604bb3e68ad8b16b9a21e8e481d168eb3ea13f65",
+      "byte_identical": true
+    },
+    {
+      "file": "certified_bounds.pdf",
+      "sha256": "0adee957c678f0e119ac839addacd360fe76e7a83444e9d395b2bd7cb137b1a6",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.png",
+      "sha256": "427c29ddcc4ba64e4e4252a381c2f082f6561b88c9836f964377096fc471c391",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.pdf",
+      "sha256": "9b8bc32146650e1b00d96199dec2cd028df8937770e7f383aecd4bd284e033e0",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.png",
+      "sha256": "94c707c85a592ad344af2bd043243a25cd1c34a41e18c95831694bdf7fcf237c",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.pdf",
+      "sha256": "71acf395b9ff3aeaba010b8d8a58d224f08faefb99946bb24353e96533d13b85",
+      "byte_identical": true
+    },
+    {
+      "file": "aklt_reference_scope.png",
+      "sha256": "7d4c52225a4b459056ccae4274af5dae3c639fd4d63fd4a70399c524d6a8b2fd",
+      "byte_identical": true
+    },
+    {
+      "file": "aklt_reference_scope.pdf",
+      "sha256": "d13ed281f9e9898f1b18ac6d63155245c4eff7d7b785839b90b1b51302f1623f",
+      "byte_identical": true
+    }
+  ],
+  "replay_validation": {
+    "status": "PASS",
+    "claims": 198,
+    "dimension_rows": 105,
+    "direct_source_hashes": 166,
+    "review_seals": 17,
+    "sealed_file_hashes_checked": 1486,
+    "combined_review_included": true,
+    "interval_extension_included": true,
+    "cpu_affinity": [
+      0
+    ],
+    "address_space_limit_bytes": 1073741824,
+    "blas_threads": 1,
+    "checks": [
+      "source SHA-256",
+      "complete selected review manifests",
+      "all exact gap JSON pointers",
+      "all decimal floors",
+      "best point selection",
+      "all exact adjacent closed pieces and uniform minimum",
+      "Hilbert dimensions",
+      "numerator rank separated from search and filtered span",
+      "failure gaps remain null",
+      "all 207 chain candidate routes",
+      "all 49 interval pieces",
+      "59/125 denominator trial dimensions",
+      "separate AKLT projector reference",
+      "all stage6 files preserved"
+    ],
+    "matplotlib": "3.10.8",
+    "peak_rss_kib": 137904
+  },
+  "writes": "temporary directory only for replay images; this recorder writes render_reproducibility.json before freeze"
+}

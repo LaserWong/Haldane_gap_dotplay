@@ -1,0 +1,77 @@
+{
+  "verdict": "PASS_WITH_EXPLICIT_SCOPE",
+  "accepted": [
+    {
+      "claim": "Uniform integer-spin untwisted space/time reduction",
+      "conditions": [
+        "Even starting n",
+        "Consistent extensive shift",
+        "Upper traces at n,beta and n,2beta",
+        "No replacement of upper seam or sector moments by MPS lower trace"
+      ]
+    },
+    {
+      "claim": "All-beta exclusion",
+      "conditions": [
+        "Fixed archived D26 one-Rayleigh numerator at L12/16",
+        "Smaller trace sizes n6/8",
+        "Specified G updates",
+        "Immediate canonical or fixed time-first continuation",
+        "Also independently checked one-off canonical conversion after any completed positive time-first cycle"
+      ]
+    },
+    {
+      "claim": "AKLT reference certificate",
+      "conditions": [
+        "H=sum P(total spin 2)",
+        "Periodic uniqueness L>=3",
+        "Gap>=1/10 and exactly 3^L-1 omitted states for L>=5",
+        "Local exact positivity, global counting and Pauli-word ground uniqueness"
+      ]
+    },
+    {
+      "claim": "Negative realignment obstruction",
+      "conditions": [
+        "Cartesian real structure and its real orthogonal changes",
+        "Current same-real-factor sufficient transfer construction only",
+        "Scalar and onsite additions do not remove witness"
+      ]
+    }
+  ],
+  "conditional_or_inherited": [
+    "Original uniform spin-1 gap and full original heat-trace validation",
+    "Spin-2 D124 numerical certificates",
+    "Identification with absent original Haldane manuscript",
+    "Any AKLT thermal-bootstrap extension or bilinear-Heisenberg spectral transfer"
+  ],
+  "rejected_overextensions": [
+    "Upper I/P/C moment replacement by MPS lower traces",
+    "All-MPS or all-adaptive-method no-go",
+    "Periodic AKLT L2 uniqueness",
+    "MPS norm transfer equals complete thermal transfer",
+    "Universal thermal-transfer impossibility"
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/2503.10767v2",
+      "authors": [
+        "Norbert Schuch",
+        "András Molnár",
+        "David Pérez-García"
+      ],
+      "title": "Simple Hamiltonians for Matrix Product State models",
+      "checked": "2026-10-10",
+      "location": "Parent Hamiltonians, Eq. (3), uniqueness paragraph and AKLT example"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1512.00088",
+      "authors": [
+        "David Gosset",
+        "Evgeny Mozgunov"
+      ],
+      "title": "Local gap threshold for frustration-free spin systems",
+      "checked": "2026-10-10",
+      "location": "Theorem 1 on PDF page 5 and its assumptions. Theorem 3 has a different size range."
+    }
+  ]
+}

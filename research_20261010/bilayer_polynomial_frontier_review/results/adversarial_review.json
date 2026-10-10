@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "unnormalized stored arrays fail degree-two model",
+      "rejected": true
+    },
+    {
+      "test": "one changed full second-moment checkpoint violates degree four",
+      "rejected": true
+    },
+    {
+      "test": "seven-point match alone cannot prove degree; literal affine proof is necessary",
+      "passed": true
+    },
+    {
+      "test": "physical-shell counts substituted for oscillator counts",
+      "rejected": true
+    },
+    {
+      "test": "incorrect first omitted ordered index",
+      "rejected": true
+    },
+    {
+      "test": "upward frequency endpoint used as lower bound",
+      "rejected": true
+    },
+    {
+      "test": "omitted q6 leakage changes full variance",
+      "rejected": true,
+      "missing_mass": "331773775425399230564073526407/14864001578624865779875504465000"
+    },
+    {
+      "test": "cycle beta missing common doubling",
+      "rejected": true
+    },
+    {
+      "test": "transport assigned to wrong spatial base",
+      "rejected": true
+    },
+    {
+      "test": "earlier finite window deleted",
+      "rejected": true
+    },
+    {
+      "test": "joint product replaced by different-base product",
+      "rejected": true
+    },
+    {
+      "test": "unapproved positive gap inflated",
+      "rejected": true
+    }
+  ],
+  "producer_data_mutated": false
+}

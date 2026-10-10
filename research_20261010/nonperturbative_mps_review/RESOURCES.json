@@ -1,0 +1,23 @@
+{
+  "d26_rebuild_results.json": {
+    "status": "PASS",
+    "seconds": 5.027418851852417,
+    "peak_kb": 43248
+  },
+  "aklt_independent_results.json": {
+    "status": "PASS",
+    "seconds": 8.774592638015747,
+    "peak_kb": 59404
+  },
+  "uniform_independent_results.json": {
+    "status": "PASS",
+    "seconds": 1.9609065055847168,
+    "peak_kb": 12032
+  },
+  "contraction_log": "peak_kb=8576 elapsed_seconds=8.60482",
+  "limits": {
+    "cpu_affinity_count": 1,
+    "address_space_bytes": 1073741824,
+    "execution": "all stages sequential"
+  }
+}

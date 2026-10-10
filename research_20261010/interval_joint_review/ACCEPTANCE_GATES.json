@@ -1,0 +1,26 @@
+{
+  "prior_review_manifest": "1af6c2142aa6a3649fd50275a8582add9cfe0a72ff8f21556195185c495eb956",
+  "producer_manifest_sha256": "bc90f03bf6e2b0abf0e3694e957e3a0a2b7482f3fdf56a396bddffd5a5c5380c",
+  "joint_review_manifest_file": "LEMMA_REVIEW_MANIFEST.json",
+  "joint_review_manifest_sha256": "18fd9df56ad4023b2f174a3a54d122550670dcf0863176270cd000d48c00fe91",
+  "joint_review_acceptance_file": "LEMMA_ACCEPTANCE.json",
+  "joint_review_acceptance_record": {
+    "status": "PASS independent analytic and exact-arithmetic scalar audit",
+    "accepted_UTC": "2026-10-10T19:20:05Z",
+    "producer_manifest_sha256": "905a55c3419a08082c05f8fe011116e2655035c23cb9040e4e92ad856ce4e9bc",
+    "theorem": "Order-independent full ladder product with same-base component and joint lower bounds; joint-aware canonical purification; one-dimensional and nested two-dimensional finite-window interpolation; repeated same-order cycles with explicit bases.",
+    "required_domain": "Existing reflected even-base self-adjoint transfer hypotheses; every spatial ladder base even; beta>0; component lower bounds in (0,1]; joint K in [0,1]; retain only positive recursive outputs; each interpolation inverse-purity input exceeds 1/2.",
+    "nonclaims": [
+      "No new physical coupling certified by this lemma alone",
+      "No partial-product equalities between different orders",
+      "No arbitrary-aspect-ratio extension",
+      "No joint K transferred to a different base without proof",
+      "No outer-window joint K unless separately established"
+    ],
+    "proof": "GENERAL_LEMMA.md",
+    "implementation_comparison": "results/frozen_implementation_review.json",
+    "independent_scalar_tests": "results/exact_scalar_tests.json",
+    "exact_basepoint_ledger": "results/basepoint_ledger.json",
+    "resource_limit": "one CPU, 1 GiB address space"
+  }
+}

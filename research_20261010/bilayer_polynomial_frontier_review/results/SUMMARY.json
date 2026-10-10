@@ -1,0 +1,49 @@
+{
+  "status": "PASS independent polynomial physical inputs and .085 all-integer gap certificate",
+  "accepted_g": "17/200",
+  "all_integer_L_ge2_gap": "27887084487/1000000000000",
+  "gap_display": 0.027887084487,
+  "finite_volume_unique_ground": true,
+  "continuous_coupling_claim": false,
+  "physical_inputs_accepted_g": [
+    "17/200",
+    "9/100"
+  ],
+  "physical_geometries": 6,
+  "extra_polynomial_checkpoints": 1008,
+  "required_finite_windows": 8,
+  "short_sizes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "asymptotic_onset": 2048,
+  "physical_spins_max": 128,
+  "full_Hilbert_dimension_max": "340282366920938463463374607431768211456",
+  "ground_search_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "retained_full_band_dimensions": [
+    49,
+    97,
+    193
+  ],
+  "g09_new_gap": false,
+  "all_beta_exclusion": false,
+  "producer_modules_executed": 0,
+  "physical_support_expansions": 0,
+  "eigensolver_calls": 0,
+  "resource": {
+    "cpus": [
+      0
+    ],
+    "address_space_bytes": 1073741824,
+    "peak_rss_kib": 30464
+  },
+  "seconds": 41.63739062100285
+}

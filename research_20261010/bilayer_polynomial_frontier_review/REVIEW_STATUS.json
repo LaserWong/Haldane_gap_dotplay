@@ -1,0 +1,68 @@
+{
+  "status": "PASS independent polynomial physical inputs and .085 all-integer gap certificate",
+  "accepted_g": "17/200",
+  "all_integer_L_ge2_gap": "27887084487/1000000000000",
+  "gap_display": 0.027887084487,
+  "finite_volume_unique_ground": true,
+  "continuous_coupling_claim": false,
+  "physical_inputs_accepted_g": [
+    "17/200",
+    "9/100"
+  ],
+  "physical_geometries": 6,
+  "extra_polynomial_checkpoints": 1008,
+  "required_finite_windows": 8,
+  "short_sizes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "asymptotic_onset": 2048,
+  "physical_spins_max": 128,
+  "full_Hilbert_dimension_max": "340282366920938463463374607431768211456",
+  "ground_search_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "retained_full_band_dimensions": [
+    49,
+    97,
+    193
+  ],
+  "g09_new_gap": false,
+  "all_beta_exclusion": false,
+  "producer_modules_executed": 0,
+  "physical_support_expansions": 0,
+  "eigensolver_calls": 0,
+  "resource": {
+    "cpus": [
+      0
+    ],
+    "address_space_bytes": 1073741824,
+    "peak_rss_kib": 30464
+  },
+  "seconds": 41.63739062100285,
+  "sealed_utc": "2026-10-10T19:38:00Z",
+  "sealed_local": "2026-10-10T15:38:00-04:00",
+  "proof": "PROOF.md",
+  "reproduction": "REPRODUCE.sh",
+  "adversarial_cases": 12,
+  "selected_additional_cycles": 8,
+  "total_cycles_including_seed": 9,
+  "beta_initial": "177/20",
+  "asymptotic_beta": "22656/5",
+  "joint_lemma_manifest_sha256": "18fd9df56ad4023b2f174a3a54d122550670dcf0863176270cd000d48c00fe91",
+  "producer_manifest_sha256": "052d5c3a2c773a522484ba63c48f7f66ee029f32b27e22f5dc5458f7c6e23b94",
+  "qualifications": [
+    "No continuous interval extension to .085",
+    "No .09 all-size gap certificate",
+    "No all-beta exclusion",
+    "No arbitrary-aspect-ratio or infinite-volume uniqueness claim",
+    "Nonselected .085 scan paths are not promoted",
+    "Analytic/exact arithmetic review, not proof-assistant formalization"
+  ]
+}

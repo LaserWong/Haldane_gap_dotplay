@@ -1,0 +1,76 @@
+{
+  "status": "PASS independent analytic and exact arithmetic review of the defined synchronous mixed-cube algorithm",
+  "updated_utc": "2026-10-10T21:14:05.544679+00:00",
+  "updated_America_New_York": "2026-10-10T17:14:05.544679-04:00",
+  "model": "ordinary spin-1/2 square bilayer; rung 1; equal straight in-layer g; no crossed exchange; periodic positive-direction multiedges",
+  "couplings": [
+    "1/25",
+    "1/20"
+  ],
+  "seed_family": [
+    "2x2",
+    "4x2",
+    "4x4"
+  ],
+  "mirror_family": [
+    "2x2",
+    "2x4",
+    "4x4"
+  ],
+  "beta_domain": "all finite beta>=0; includes the uniform unbounded cold ray beta>=20",
+  "accepted_scope": "Exact initial physical inputs, all six synchronous complete-cube purification routes, every positive partial output, arbitrary compatible same-base maxima, oriented-square root/product closure, and full-joint retention. No positive repeated-cycle or 499/500 small-defect onset.",
+  "old_fixed_order_exclusion_used_as_conclusion": false,
+  "prior_physical_upper_enclosures_and_seals_reused": true,
+  "physical_result_sha256": "6e78a354da036930520761566f0b255761b8baf6363e8caa6b2c3bb41ba77fa3",
+  "reviewed_producer_manifest_sha256": "fc87eca4e4d562cba01094aa0a0b8fabf6a739e525f84e655f6ba1c97ee6c4bd",
+  "audit_code_sha256": "0a7e849be5dfabbc777fad54c9992badbbc2d1bcaa6db433ee983e8364301143",
+  "proof_sha256": "88a6efd1da3f6a28652ebf1e9bf114e163663f860673a52221f192223b33f91b",
+  "independent_results_sha256": "198718b5f652d1f799dcfeea7cd13ea601499c504d3b6876714f6598adb51bea",
+  "input_manifest_sha256": "dcd64d28be54be604d3537d595679512f0780510f22e4f1d10f61535e7ed0c4a",
+  "records_checked": 644,
+  "middle_boxes": 640,
+  "hot_cold_rays": 4,
+  "sealed_quotient_upper_comparisons": 5778,
+  "sealed_files": 80,
+  "partial_support_patterns": 520,
+  "rational_closure_stress_updates": 60000,
+  "middle_failed_stage_histograms": {
+    "1d25": {
+      "1": 18,
+      "2": 139,
+      "3": 81,
+      "4": 82
+    },
+    "1d20": {
+      "1": 149,
+      "2": 171
+    }
+  },
+  "nonfatal_corrections": [
+    "The producer small-defect paragraph must read joint >= (499/500)^7 rather than joint > (499/500)^7. The comparison with sqrt(2)-1 remains strict.",
+    "This review explicitly checks initial-cube small-defect onset is impossible, in addition to the producer new-cube argument."
+  ],
+  "physical_reconstruction": "Inherited sealed accepted physical complete-band and omitted-tail reconstruction; not repeated",
+  "limits": {
+    "cpus": 1,
+    "address_space_bytes": 1073741824
+  },
+  "seconds": 1.175804557002266,
+  "peak_rss_kib": 36240,
+  "new_physical_vectors": false,
+  "new_physical_supports": false,
+  "full_ED": false,
+  "producer_files_modified": false,
+  "root_files_modified": false,
+  "remote_writes": false,
+  "not_accepted_or_not_addressed": [
+    "fresh trace injections, including additional temperatures on the same supports",
+    "other-base asynchronous/adaptive reorderings",
+    "stronger optimizers over the complete simultaneous constraints",
+    "new inequalities or geometries",
+    "other seeds or an all-method minimum seed",
+    "physical gaplessness or phase boundary",
+    "new all-integer-L gap certificate",
+    "independent replay of the floating grid or its selected-point initial trace construction"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS producer replay corruption guards",
+  "rejected_physical_mutations": [
+    "odd center",
+    "number sectors",
+    "spin multiplicity",
+    "odd dimension",
+    "Fourier Gram",
+    "fixed theta coefficient",
+    "mixed H2 coefficient",
+    "full variance",
+    "Temple denominator",
+    "Temple width",
+    "relative eigen endpoint",
+    "missing momentum",
+    "inflated filter",
+    "uncorrelated exponent"
+  ],
+  "rejected_trace_metadata_mutations": 5,
+  "warning": "Producer tests are not an independent mathematical audit."
+}

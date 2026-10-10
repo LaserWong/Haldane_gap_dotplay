@@ -1,0 +1,121 @@
+{
+  "status": "continuous_g_joint_filtered_auxiliary_candidate_pending_independent_review",
+  "coupling_interval": [
+    "2/25",
+    "41/500"
+  ],
+  "closed_intervals": 7,
+  "all_integer_L_ge2_uniform_gap": "2989089567/500000000000",
+  "uniform_gap_display": 0.005978179134,
+  "intervals": [
+    {
+      "file": "ground_only/interval_001.json",
+      "coupling_interval": [
+        "2/25",
+        "161/2000"
+      ],
+      "gap_lower": "12803905637/1000000000000",
+      "gap_display": 0.012803905637,
+      "beta_initial": "52/5"
+    },
+    {
+      "file": "ground_only/interval_002.json",
+      "coupling_interval": [
+        "161/2000",
+        "81/1000"
+      ],
+      "gap_lower": "3919829701/500000000000",
+      "gap_display": 0.007839659402,
+      "beta_initial": "209/20"
+    },
+    {
+      "file": "ground_only/interval_003.json",
+      "coupling_interval": [
+        "81/1000",
+        "13/160"
+      ],
+      "gap_lower": "3010662311/250000000000",
+      "gap_display": 0.012042649244,
+      "beta_initial": "101/10"
+    },
+    {
+      "file": "ground_only/interval_004.json",
+      "coupling_interval": [
+        "13/160",
+        "163/2000"
+      ],
+      "gap_lower": "9925833451/1000000000000",
+      "gap_display": 0.009925833451,
+      "beta_initial": "209/20"
+    },
+    {
+      "file": "ground_only/interval_005.json",
+      "coupling_interval": [
+        "163/2000",
+        "327/4000"
+      ],
+      "gap_lower": "2989089567/500000000000",
+      "gap_display": 0.005978179134,
+      "beta_initial": "41/4"
+    },
+    {
+      "file": "ground_only/interval_006.json",
+      "coupling_interval": [
+        "327/4000",
+        "131/1600"
+      ],
+      "gap_lower": "9304607579/1000000000000",
+      "gap_display": 0.009304607579,
+      "beta_initial": "21/2"
+    },
+    {
+      "file": "ground_only/interval_007.json",
+      "coupling_interval": [
+        "131/1600",
+        "41/500"
+      ],
+      "gap_lower": "1748209221/250000000000",
+      "gap_display": 0.006992836884,
+      "beta_initial": "21/2"
+    }
+  ],
+  "zero_coupling_exact_gap": "1",
+  "largest_trace_rank": 1,
+  "denominator_retained_states": [
+    1,
+    1
+  ],
+  "trial_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "largest_physical_spins": 128,
+  "largest_full_dimension": 340282366920938463463374607431768211456,
+  "largest_residual_required": true,
+  "maximum_full_residual_geometry": [
+    8,
+    8
+  ],
+  "filtered_augmented_trial_dimensions": [
+    11,
+    29,
+    30
+  ],
+  "largest_filtered_trial_max_q": 6,
+  "new_higher_moments": false,
+  "minimum_gap_requested": "1/500",
+  "runtime_seconds": 13.398587740000949,
+  "peak_rss_kib": 49988,
+  "odd_trial_inputs": false,
+  "ground_trial_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "total_augmented_trial_dimensions": [
+    11,
+    29,
+    30
+  ]
+}

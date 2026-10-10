@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "manifests": [
+    {
+      "directory": "uniform_seed_size_diagnostics",
+      "manifest": "MANIFEST_SHA256.json",
+      "manifest_sha256": "a67ebcf6d8ec1aca3a0fee0013573492b0ad8237d59ebe7695040e16deacdf6b",
+      "verified_entries": 28
+    },
+    {
+      "directory": "nonperturbative_mps_review",
+      "manifest": "MANIFEST_SHA256.json",
+      "manifest_sha256": "ada056e604879bd0f619baccbbb3dd9925e6d61d61429c2af3345b1dfb20bc3f",
+      "verified_entries": 22
+    },
+    {
+      "directory": "joint_ratio_review",
+      "manifest": "LEMMA_REVIEW_MANIFEST.json",
+      "manifest_sha256": "18fd9df56ad4023b2f174a3a54d122550670dcf0863176270cd000d48c00fe91",
+      "verified_entries": 13
+    }
+  ],
+  "producer_input_entries": 11,
+  "all_source_hashes_match": true,
+  "git_state": "shared extracted snapshot has no Git metadata; no commit or publication claimed"
+}

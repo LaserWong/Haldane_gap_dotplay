@@ -1,0 +1,66 @@
+{
+  "status": "PASS selected exact failures only",
+  "records": [
+    {
+      "order": "txy",
+      "beta": "187/20",
+      "exact_failure": "both recorded comparison paths left positivity",
+      "states": 2,
+      "trace": {
+        "independent_direct_trace_ratios": [
+          "4423284001184981/5000000000000000",
+          "8706601395008171/10000000000000000",
+          "4558991845182289/5000000000000000"
+        ],
+        "saved_ratios": [
+          "4423284001184981/5000000000000000",
+          "8706601395008171/10000000000000000",
+          "4558991845182289/5000000000000000"
+        ],
+        "conservative": true
+      }
+    },
+    {
+      "order": "xty",
+      "beta": "107/10",
+      "exact_failure": "both recorded comparison paths left positivity",
+      "states": 1,
+      "trace": {
+        "independent_direct_trace_ratios": [
+          "4550598278784621/5000000000000000",
+          "7636451052906447/10000000000000000",
+          "8997375244087683/10000000000000000"
+        ],
+        "saved_ratios": [
+          "4550598278784621/5000000000000000",
+          "7636451052906447/10000000000000000",
+          "8997375244087683/10000000000000000"
+        ],
+        "conservative": true
+      }
+    },
+    {
+      "order": "xyt",
+      "beta": "161/20",
+      "exact_failure": "initial nonpositive",
+      "trace": {
+        "independent_direct_trace_ratios": [
+          "388711674155107/500000000000000",
+          "4376424167134451/10000000000000000",
+          "1673720470700349/5000000000000000"
+        ],
+        "saved_ratios": [
+          "388711674155107/500000000000000",
+          "4376424167134451/10000000000000000",
+          "3347440941400697/10000000000000000"
+        ],
+        "conservative": true
+      }
+    }
+  ],
+  "producer_bounded_grid": "beta5..25 step.05; 10 coupled cycles or six deferred cycles",
+  "all_beta_exclusion": false,
+  "physical_gaplessness": false,
+  "new_g09_gap_certificate": false,
+  "independent_float_grid_replay": false
+}

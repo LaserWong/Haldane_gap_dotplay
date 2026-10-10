@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "uniform_g_interval": [
+    "0",
+    "1/10"
+  ],
+  "gap": "1938709341572746806514729855860735750932277357577171579514210371258535592214889/6298386676965933508143412319825919688666000000000000000000000000000000000000000",
+  "gap_display": 0.30781046655374045,
+  "cases": [
+    {
+      "L": 2,
+      "edge_square_sum": 16,
+      "physical_dimension": "256"
+    },
+    {
+      "L": 3,
+      "edge_square_sum": 18,
+      "physical_dimension": "262144"
+    },
+    {
+      "L": 4,
+      "edge_square_sum": 32,
+      "physical_dimension": "4294967296"
+    },
+    {
+      "L": 5,
+      "edge_square_sum": 50,
+      "physical_dimension": "1125899906842624"
+    },
+    {
+      "L": 6,
+      "edge_square_sum": 72,
+      "physical_dimension": "4722366482869645213696"
+    },
+    {
+      "L": 7,
+      "edge_square_sum": 98,
+      "physical_dimension": "316912650057057350374175801344"
+    }
+  ],
+  "ground_product_upper": 0,
+  "physical_gap_monotonicity_assumed": false
+}

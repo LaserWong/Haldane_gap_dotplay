@@ -1,0 +1,60 @@
+{
+  "status": "continuous_g_joint_filtered_auxiliary_candidate_pending_independent_review",
+  "coupling_interval": [
+    "39/500",
+    "2/25"
+  ],
+  "closed_intervals": 2,
+  "all_integer_L_ge2_uniform_gap": "4107651847/500000000000",
+  "uniform_gap_display": 0.008215303694,
+  "intervals": [
+    {
+      "file": "coverage/interval_001.json",
+      "coupling_interval": [
+        "39/500",
+        "79/1000"
+      ],
+      "gap_lower": "20733752457/1000000000000",
+      "gap_display": 0.020733752457,
+      "beta_initial": "103/10"
+    },
+    {
+      "file": "coverage/interval_002.json",
+      "coupling_interval": [
+        "79/1000",
+        "2/25"
+      ],
+      "gap_lower": "4107651847/500000000000",
+      "gap_display": 0.008215303694,
+      "beta_initial": "207/20"
+    }
+  ],
+  "zero_coupling_exact_gap": "1",
+  "largest_trace_rank": 1,
+  "denominator_retained_states": [
+    1,
+    1
+  ],
+  "trial_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "largest_physical_spins": 128,
+  "largest_full_dimension": 340282366920938463463374607431768211456,
+  "largest_residual_required": true,
+  "maximum_full_residual_geometry": [
+    8,
+    8
+  ],
+  "filtered_augmented_trial_dimensions": [
+    11,
+    29,
+    30
+  ],
+  "largest_filtered_trial_max_q": 6,
+  "new_higher_moments": false,
+  "minimum_gap_requested": "1/500",
+  "runtime_seconds": 1.4145109370001592,
+  "peak_rss_kib": 50512
+}

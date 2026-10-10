@@ -1,0 +1,76 @@
+{
+  "status": "PASS independent audit; final reproduction and frozen-source checks passed",
+  "model": "Periodic unit-coupling spin-one Heisenberg, microscopic lengths n=6,8,10,12 and numerator lengths 2n",
+  "numerator_recipe": "One normalized archived D26 MPS Rayleigh contribution exp(-2 beta R), with R the exact total energy at length 2n",
+  "claims": [
+    {
+      "claim": "n6 all beta, every legal completed time-first delay followed by specified joint-aware canonical conversion",
+      "verdict": "PASS",
+      "delays": [
+        0
+      ],
+      "J_cap": "29/50",
+      "failure": "canonical first spatial update"
+    },
+    {
+      "claim": "n8 all beta, every legal completed time-first delay followed by specified joint-aware canonical conversion",
+      "verdict": "PASS",
+      "delays": [
+        0,
+        1
+      ],
+      "J_cap": "71/100",
+      "failure": "delay0 first thermal update; delay1 first spatial update"
+    },
+    {
+      "claim": "n10 all beta first-G obstruction from four denominator trials",
+      "verdict": "PASS",
+      "J_cap": "3/25",
+      "two_trial_cap": "3/10"
+    },
+    {
+      "claim": "n12 all beta first-G obstruction from four denominator trials",
+      "verdict": "PASS",
+      "J_cap": "19/100",
+      "two_trial_cap": "3/10"
+    },
+    {
+      "claim": "Four trial orthogonality, physical integer Hamiltonian actions, lowering and spin-flip construction",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "D26 physical matrix source and exact contractions through length24",
+      "verdict": "PASS"
+    },
+    {
+      "claim": "Complement Jensen lower trace refinement",
+      "verdict": "PASS analytic statement and six exact samples"
+    },
+    {
+      "claim": "n14 estimated sector and CSR counts",
+      "verdict": "PASS analytic counts only; resource forecasts unverified"
+    }
+  ],
+  "inherited_premises": [
+    "Even-base reflected self-adjoint transfer interpretation",
+    "G purification theorem and common small-defect trigger",
+    "Accepted same-base joint-aware canonical lemma"
+  ],
+  "excluded_overclaims": [
+    "No upper bound on actual physical purity",
+    "No physical gap conclusion",
+    "No absolute minimum seed",
+    "No n14 certificate or proposal",
+    "No claim for untested n2 or n4",
+    "No exclusion of all MPS, richer numerator families or other inequalities",
+    "No arbitrary adaptive switching or new joint information at later bases",
+    "No full many-body spectrum is a premise",
+    "No original manuscript PDF inspection"
+  ],
+  "producer_manifest_sha256": "a67ebcf6d8ec1aca3a0fee0013573492b0ad8237d59ebe7695040e16deacdf6b",
+  "proof": "REVIEW.md",
+  "arithmetic": "independent_scalar.json",
+  "physical_trials": "independent_trials.json",
+  "source_contraction": "d26_contractions.out",
+  "regressions": "regression_results.json"
+}

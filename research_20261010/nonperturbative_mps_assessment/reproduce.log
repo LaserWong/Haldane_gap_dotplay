@@ -1,0 +1,48 @@
+{
+  "status": "PASS exact recipe-specific all-beta exclusion",
+  "scope": "n=6 and n=8 uniform periodic spin1, fixed archived D26 MPS at 2n; one Rayleigh numerator, any valid smaller trace upper bounds; canonical conversion followed by specified G recursion. Not a no-go for other seeds, trial collections or inequalities.",
+  "seconds": 5.585675477981567,
+  "peak_kb": 10880
+}
+6 29/50 spatial 1 0.0004627433503384071
+8 71/100 spatial 5 0.008284536832150347
+{
+  "status": "PASS exact local AKLT gap and full omitted-state count certificate",
+  "normalization": "H_L=sum nearest-neighbor P(total spin=2), periodic L>=5",
+  "local_open_gap": "2/5",
+  "Knabe_periodic_gap": "1/10",
+  "uniqueness": "Pauli MPS injectivity length 2; exact Int(2,3) nullity=4, parent intersection theorem yields unique periodic state for L>=3",
+  "thermal_transfer_status": "Existing same-real-factor sufficient condition fails: realignment quadratic on traceless Q is -1/3; no impossibility for every other transfer construction is asserted.",
+  "thermal_examples": [
+    {
+      "L": 8,
+      "beta": 160,
+      "hilbert_dimension": 6561,
+      "MPS_bond_dimension": 2,
+      "retained_states": 1,
+      "linear_trial_span": 1,
+      "count_omitted": 6560,
+      "omitted_energy_lower": "1/10",
+      "trace_lower": "1",
+      "trace_upper_less_than": "101/100",
+      "tail_upper_display": 0.0007616029046663399,
+      "MPS_norm_exact": "6564"
+    },
+    {
+      "L": 16,
+      "beta": 240,
+      "hilbert_dimension": 43046721,
+      "MPS_bond_dimension": 2,
+      "retained_states": 1,
+      "linear_trial_span": 1,
+      "count_omitted": 43046720,
+      "omitted_energy_lower": "1/10",
+      "trace_lower": "1",
+      "trace_upper_less_than": "101/100",
+      "tail_upper_display": 0.0017429706325520794,
+      "MPS_norm_exact": "43046724"
+    }
+  ],
+  "seconds": 1.3949322700500488,
+  "peak_kb": 46840
+}

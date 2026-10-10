@@ -1,0 +1,65 @@
+{
+  "status": "new_bracket_point_candidate_pending_independent_review",
+  "g": "17/200",
+  "nx": 4,
+  "ny": 4,
+  "ground_lower": "-908959433889/10000000000000",
+  "pencil": {
+    "external_cutoff": "1949367480601226109247141150259502107696560687237677568693042866118377027734969/1283128000362184403160928403770784402226875000000000000000000000000000000000000",
+    "external_low_count_required": 1,
+    "trial_dimension": 11,
+    "gram_inertia": [
+      0,
+      0,
+      11
+    ],
+    "cutoff_ritz_inertia": [
+      1,
+      0,
+      10
+    ],
+    "shifted_squared_moment_inertia": [
+      0,
+      0,
+      11
+    ],
+    "negative_inverse_ritz_count": 1,
+    "endpoints": [
+      {
+        "sector_eigenvalue_index_one_based": 1,
+        "lower": "-908959433889/10000000000000",
+        "negative_direction_witness": {
+          "coefficients": [
+            -1125899906842624,
+            24094534440357,
+            -1401250348920,
+            -1401250348920,
+            -330296930763,
+            530969755340,
+            -245787219321,
+            24230723856,
+            24230723856,
+            8608961593,
+            -10794418216
+          ],
+          "bits": 50,
+          "exact_endpoint_quadratic_form": "-375383814686011463394614595874234366294560801412586852187264633934930802222863307527740863035483503953216253/200488750056591312993895063089185062847949218750000000000000000000000000000000000000000000",
+          "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+        },
+        "endpoint_pencil_inertia": [
+          1,
+          0,
+          10
+        ],
+        "floating_proposal": -0.09089594338802098,
+        "optimal_pencil_endpoint_upper": "-56809964617/625000000000",
+        "upper_pencil_inertia": [
+          0,
+          0,
+          11
+        ],
+        "pencil_root_bracket_width": "17/10000000000000"
+      }
+    ]
+  }
+}

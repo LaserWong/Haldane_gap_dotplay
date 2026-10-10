@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "block_sizes": [
+    1,
+    8,
+    32,
+    80,
+    136,
+    162,
+    136,
+    80,
+    32,
+    8,
+    1
+  ],
+  "direct_amplitude_checks": [
+    {
+      "L": 2,
+      "norm": "1210513345200",
+      "total_H_numerator": "-4842053380800",
+      "parallel_bonds_at_L2": true
+    },
+    {
+      "L": 3,
+      "norm": "599575275189600",
+      "total_H_numerator": "-1798725825568800",
+      "parallel_bonds_at_L2": false
+    }
+  ],
+  "rebuilt_blocks_sha256": "26da12458538967b97cb037059440d652d64593bf2044d7f5c99760444d683aa",
+  "seconds": 5.027418851852417,
+  "peak_kb": 43248
+}

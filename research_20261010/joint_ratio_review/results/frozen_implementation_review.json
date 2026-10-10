@@ -1,0 +1,10 @@
+{
+  "status": "PASS sealed general lemma and exact scalar implementation",
+  "producer_manifest_sha256": "905a55c3419a08082c05f8fe011116e2655035c23cb9040e4e92ad856ce4e9bc",
+  "frozen_files_verified": 4,
+  "implementation_cases": 400,
+  "positive_2d_window_cases": 252,
+  "source_contract": "Every input is a valid lower bound at the same reflected even base; all purity bounds lie in (0,1], joint lies in [0,1].",
+  "independent_code_imports_producer_math": false,
+  "comparison_harness_imports_sealed_producer_only_to_compare_outputs": true
+}

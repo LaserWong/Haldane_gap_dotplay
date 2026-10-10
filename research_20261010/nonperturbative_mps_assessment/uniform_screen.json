@@ -1,0 +1,139 @@
+{
+  "status": "PASS exact recipe-specific all-beta exclusion",
+  "scope": "n=6 and n=8 uniform periodic spin1, fixed archived D26 MPS at 2n; one Rayleigh numerator, any valid smaller trace upper bounds; immediate canonical conversion or continued fixed time-first G recursion. Not a no-go for other seeds, trial collections, adaptive orderings or inequalities.",
+  "rows": [
+    {
+      "n": 6,
+      "hilbert_small": 729,
+      "hilbert_large": 531441,
+      "MPS_bond_dimension": 26,
+      "numerator_trial_rank": 1,
+      "small_trial_support": 141,
+      "small_exact_Rayleigh": "-2154355788353967840/249999999176135911",
+      "small_Rayleigh_display": -8.617423181814214,
+      "large_exact_Rayleigh": "-4175015695538909718090411894580932733086882679448933336160924344/247488902571555931897171293783598602163881178203387460592261279",
+      "large_energy_per_site_display": -1.4057922234620184,
+      "delta_display": 0.365339682084205,
+      "beta_split": "3/4",
+      "J_global_upper": "29/50",
+      "beta_below_split_bound_display": 0.3456132492909715,
+      "beta_above_split_bound_display": 0.5780993593310885,
+      "optimistic_scalar_replay": [
+        {
+          "stage": "initial",
+          "S_upper": "71413969000420661521/100000000000000000000",
+          "T_upper": "50999549683930432177/100000000000000000000"
+        },
+        {
+          "failure": "spatial",
+          "round": 1,
+          "argument_upper": "260095406796368864453469350512673224837028917046716832431057/1000000000000000000000000000000000000000000000000000000000000",
+          "output_upper": "-30462814269493268721/10000000000000000000"
+        }
+      ],
+      "early_beta_J_upper_display": 7.506259094830678e-05,
+      "late_beta_C_upper_display": 0.693960884757791,
+      "optimistic_continued_time_first": [
+        {
+          "stage": "initial time-first",
+          "a_upper": "1241/1682",
+          "b_upper": "73986959/197130368"
+        },
+        {
+          "failure": "first direction",
+          "round": 1,
+          "argument_upper": "73986959/362127872",
+          "output_upper": "-658349675802590331093/100000000000000000000"
+        }
+      ],
+      "archived_beta": "21/2",
+      "archived_cooling_J_lower_display": 0.0004627433503384071,
+      "archived_cooling_C_lower_display": 0.0004627433503384071
+    },
+    {
+      "n": 8,
+      "hilbert_small": 6561,
+      "hilbert_large": 43046721,
+      "MPS_bond_dimension": 26,
+      "numerator_trial_rank": 1,
+      "small_trial_support": 1107,
+      "small_exact_Rayleigh": "-566847804595744624/50000000061822271",
+      "small_Rayleigh_display": -11.336956077897366,
+      "large_exact_Rayleigh": "-186401559700790942073987583269411339687172713188147192332274574992513692444399529694112/8304157267122835445448975544440748785351183842565266186835541481127622918137036150627",
+      "large_energy_per_site_display": -1.4029235124705046,
+      "delta_display": 0.22713595626665797,
+      "beta_split": "31/40",
+      "J_global_upper": "71/100",
+      "beta_below_split_bound_display": 0.6955237444328738,
+      "beta_above_split_bound_display": 0.703237411514913,
+      "optimistic_scalar_replay": [
+        {
+          "stage": "initial",
+          "S_upper": "91468417271709332027/100000000000000000000",
+          "T_upper": "8366471358191534043/10000000000000000000"
+        },
+        {
+          "round": 1,
+          "S_upper": "5675902485979477821/6250000000000000000",
+          "T_upper": "83576967644281425421/100000000000000000000"
+        },
+        {
+          "round": 2,
+          "S_upper": "89839566326217136093/100000000000000000000",
+          "T_upper": "329545395348281289/400000000000000000"
+        },
+        {
+          "round": 3,
+          "S_upper": "87305898755521053409/100000000000000000000",
+          "T_upper": "19091655411035272949/25000000000000000000"
+        },
+        {
+          "round": 4,
+          "S_upper": "9278468930764775751/12500000000000000000",
+          "T_upper": "7092427718027264141/50000000000000000000"
+        },
+        {
+          "failure": "spatial",
+          "round": 5,
+          "argument_upper": "610587000817344519014821156881582954769345303259906838141/7812500000000000000000000000000000000000000000000000000000",
+          "output_upper": "-6856177215298886867237/100000000000000000000"
+        }
+      ],
+      "early_beta_J_upper_display": 3.0243419181983203e-06,
+      "late_beta_C_upper_display": 0.7968124432806079,
+      "optimistic_continued_time_first": [
+        {
+          "stage": "initial time-first",
+          "a_upper": "9241/10082",
+          "b_upper": "8216600959/10930698368"
+        },
+        {
+          "round": 1,
+          "a_upper": "16595571418913358291/20000000000000000000",
+          "b_upper": "17919359493937924877/50000000000000000000"
+        },
+        {
+          "failure": "first direction",
+          "round": 2,
+          "argument_upper": "4935224390016819974853301233063335963123383684528898721237/20000000000000000000000000000000000000000000000000000000000",
+          "output_upper": "-182944003958252394037/50000000000000000000"
+        }
+      ],
+      "archived_beta": "21/2",
+      "archived_cooling_J_lower_display": 0.008284536832150347,
+      "archived_cooling_C_lower_display": 0.008284536832150347
+    }
+  ],
+  "seconds": 10.776424884796143,
+  "peak_kb": 11244,
+  "sha256": {
+    "research_20261010/nonperturbative_mps_assessment/mps_small.cpp": "05ad36734b4c24b6e08bc4b44ce8c216aeb7790b3d52a293d261f0613d5fb819",
+    "research_20261010/nonperturbative_mps_assessment/mps_small.out": "324274940b1c35cbac02bd2e1a8ef3dc62960b887643752ca6819b1e35cea71b",
+    "research_20261010/nonperturbative_mps_assessment/trial_n6.json": "d2e00794670d11ac3e5cc866f181e87295e2e92683b3376eb961fa9f82e5dd81",
+    "research_20261010/nonperturbative_mps_assessment/trial_n8.json": "fcc1a40a13cb31966cb57245d391d072e5ea06c8c25359e063a7710f54bc95b9",
+    "audit/mps/mps_blocks.txt": "26da12458538967b97cb037059440d652d64593bf2044d7f5c99760444d683aa",
+    "audit/mps/build_mps.py": "693ded40630e851fda40986460b841bcfe3e48cf5ace665997f923ec7737ffdb",
+    "audit/APPENDIX_A_BRIDGE.md": "7462c64abf1d5236cceb7fd000ef2cd9e551b12be667fb8cc6acb62c79b46d62",
+    "research_20261010/chain_temperature_first/PROOF.md": "64a07808d48a104205ea5e645bac8352c39c3801e9270170fde2d79f88e67179"
+  }
+}

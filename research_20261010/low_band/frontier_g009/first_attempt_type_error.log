@@ -1,0 +1,14 @@
+{"nx": 4, "ny": 4, "coupling": "9/100", "trial_subspace_dimension": 11, "ground_upper_display": -12.102005035542867, "ground_width_display": null, "exact_residual_squared_display": 0.0004200240840788895, "geometry_seconds": 0.010185, "certificate_seconds": 0.39377475299988873, "peak_process_rss_kib": 92376}
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/low_band/frontier_g009/build_inputs.py", line 117, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/low_band/frontier_g009/build_inputs.py", line 88, in main
+    mm=polynomial_moments(nx,ny,g);four=T.fourier_certificate(mm);bins=Q.certify(nx,ny,g)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/low_band/frontier_g009/build_inputs.py", line 55, in polynomial_moments
+    ys=[F(r[key][i][j],4*r['matrix_denominator']**power) for r in records]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/fractions.py", line 277, in __new__
+    raise TypeError("both arguments should be "
+TypeError: both arguments should be Rational instances

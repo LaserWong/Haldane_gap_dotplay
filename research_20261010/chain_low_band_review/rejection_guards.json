@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test": "wrong P Gram normalization",
+      "status": "REJECTED"
+    },
+    {
+      "test": "missing residual off-diagonal",
+      "status": "REJECTED"
+    },
+    {
+      "test": "incorrect full second moment",
+      "status": "REJECTED"
+    },
+    {
+      "test": "missing magnetic degeneracy",
+      "status": "REJECTED"
+    },
+    {
+      "test": "single-quintet omission",
+      "status": "REJECTED"
+    },
+    {
+      "test": "tail double counts triplets",
+      "status": "REJECTED"
+    },
+    {
+      "test": "unjustified complement cutoff",
+      "status": "REJECTED"
+    },
+    {
+      "test": "square root rounded wrong way",
+      "status": "REJECTED"
+    },
+    {
+      "test": "wrong Hamiltonian ground shift",
+      "status": "REJECTED"
+    }
+  ]
+}

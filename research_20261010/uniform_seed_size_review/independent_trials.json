@@ -1,0 +1,227 @@
+{
+  "status": "PASS",
+  "implementation": "Python arbitrary-precision integer action in independent sparse product-basis dictionaries; no producer functions imported",
+  "rows": [
+    {
+      "n": 6,
+      "full_dimension": 729,
+      "trace_H": 0,
+      "states": [
+        {
+          "Sz": 0,
+          "momentum_sign": null,
+          "sector_dimension": 141,
+          "nonzero_support": 141,
+          "full_H_action_support": 141,
+          "norm_square": "999999996704543644",
+          "energy_form": "-8617423153415871360",
+          "Rayleigh": "-2154355788353967840/249999999176135911",
+          "coefficient_sha256": "6daf70803d415e24029c94ab3607641d416fc5f574d632e38b5498e20cdbd962",
+          "H_action_sha256": "5bb29446074d7e91daeae131b19c9f4b344c141cb76eb57e1ba26f4fd448a83d"
+        }
+      ],
+      "Gram_matrix": [
+        [
+          "999999996704543644"
+        ]
+      ],
+      "lowering_H_commutator_checked": false,
+      "spinflip_H_commutator_checked": false
+    },
+    {
+      "n": 8,
+      "full_dimension": 6561,
+      "trace_H": 0,
+      "states": [
+        {
+          "Sz": 0,
+          "momentum_sign": null,
+          "sector_dimension": 1107,
+          "nonzero_support": 1107,
+          "full_H_action_support": 1107,
+          "norm_square": "1000000001236445420",
+          "energy_form": "-11336956091914892480",
+          "Rayleigh": "-566847804595744624/50000000061822271",
+          "coefficient_sha256": "27cd9d96bc6f3ced290d0b49925667eb5581e8522f098cf98bead645a5e67ace",
+          "H_action_sha256": "e99193f72812d5a0306a787a9fbe72e0ad09881783a3537c38e9219bb5b919d9"
+        }
+      ],
+      "Gram_matrix": [
+        [
+          "1000000001236445420"
+        ]
+      ],
+      "lowering_H_commutator_checked": false,
+      "spinflip_H_commutator_checked": false
+    },
+    {
+      "n": 10,
+      "full_dimension": 59049,
+      "trace_H": 0,
+      "states": [
+        {
+          "Sz": 0,
+          "momentum_sign": 1,
+          "sector_dimension": 8953,
+          "nonzero_support": 8953,
+          "full_H_action_support": 8953,
+          "norm_square": "1000000038082231200",
+          "energy_form": "-14094130491667818000",
+          "Rayleigh": "-11745108743056515/833333365068526",
+          "coefficient_sha256": "b8eb134470f9406d5fbd9a3dfe6dae752aefae26b057a2de2620e5383e4a7125",
+          "H_action_sha256": "7dbe7449dd92970d9e25516ba3c65bb37f84c6f9d849e1651b3661a0df30c4b5"
+        },
+        {
+          "Sz": 1,
+          "momentum_sign": -1,
+          "sector_dimension": 8350,
+          "nonzero_support": 8350,
+          "full_H_action_support": 8350,
+          "norm_square": "999999993128100000",
+          "energy_form": "-13569321911271508000",
+          "Rayleigh": "-3392330477817877/249999998282025",
+          "coefficient_sha256": "e23c3db1a9c7c45fb63ab339139bb8e710f13a0b9e21df1358fc887e8026cf3c",
+          "H_action_sha256": "3ca8a24fb7b75378c298fdeeab1b0dc5dd3302c0dbb89dbe7be77a54bb3bcf0d"
+        },
+        {
+          "Sz": -1,
+          "momentum_sign": -1,
+          "sector_dimension": 8350,
+          "nonzero_support": 8350,
+          "full_H_action_support": 8350,
+          "norm_square": "999999993128100000",
+          "energy_form": "-13569321911271508000",
+          "Rayleigh": "-3392330477817877/249999998282025",
+          "coefficient_sha256": "2a8b0a5913e267f74a28ff7a429239134c3cc89e1791b30dc17537e6f0de4811",
+          "H_action_sha256": "f4f7ddd0a61851a337e4168012a234d3dd19d0b58b15bd8d0ba81c0485f3e1cc"
+        },
+        {
+          "Sz": 0,
+          "momentum_sign": -1,
+          "sector_dimension": 8953,
+          "nonzero_support": 8502,
+          "full_H_action_support": 8662,
+          "norm_square": "999999993128453000",
+          "energy_form": "-13569321911271426000",
+          "Rayleigh": "-13569321911271426/999999993128453",
+          "coefficient_sha256": "feb2a75a44ce61ad6998594687776a522790841d1c9c7bf3d31354635f28f1c7",
+          "H_action_sha256": "bf0c132c771167edc80a2fd1e44415f435e3567581ce86c00c8e03b7ecf5496a"
+        }
+      ],
+      "Gram_matrix": [
+        [
+          "1000000038082231200",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "999999993128100000",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "999999993128100000",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "999999993128453000"
+        ]
+      ],
+      "lowering_H_commutator_checked": true,
+      "spinflip_H_commutator_checked": true
+    },
+    {
+      "n": 12,
+      "full_dimension": 531441,
+      "trace_H": 0,
+      "states": [
+        {
+          "Sz": 0,
+          "momentum_sign": 1,
+          "sector_dimension": 73789,
+          "nonzero_support": 73693,
+          "full_H_action_support": 73765,
+          "norm_square": "1439999985867439824",
+          "energy_form": "-24292160602423790976",
+          "Rayleigh": "-168695559739054104/9999999901857221",
+          "coefficient_sha256": "3848982fa8b861bf8ae43f8cb42d2697b121a68e53bb1d6dd96fee2335111331",
+          "H_action_sha256": "78741cd8fb9d9ffe9e259e7c9c9a670fe996cfa01bd1ed1dc596d2ac6770ee31"
+        },
+        {
+          "Sz": 1,
+          "momentum_sign": -1,
+          "sector_dimension": 69576,
+          "nonzero_support": 69504,
+          "full_H_action_support": 69576,
+          "norm_square": "1439999975916811584",
+          "energy_form": "-23594917529549240064",
+          "Rayleigh": "-13654466162933588/833333319396303",
+          "coefficient_sha256": "798eb1dc6d321ae50c46ea2b632b5bfb78d28d233b16ba02aed27895ac821cf9",
+          "H_action_sha256": "80534dfcef2438160b3826107cc1ee4c7a3fdc287186e643f8446c7ffb3db563"
+        },
+        {
+          "Sz": -1,
+          "momentum_sign": -1,
+          "sector_dimension": 69576,
+          "nonzero_support": 69504,
+          "full_H_action_support": 69576,
+          "norm_square": "1439999975916811584",
+          "energy_form": "-23594917529549240064",
+          "Rayleigh": "-13654466162933588/833333319396303",
+          "coefficient_sha256": "0f49749507a664d9d27beb764e40475d6b1d1e89064efd4a84a0344a7795053e",
+          "H_action_sha256": "e4ef96a1c6c47999f9847be1a693505ce3e0dd1ae61946842e987773f07ef3ff"
+        },
+        {
+          "Sz": 0,
+          "momentum_sign": -1,
+          "sector_dimension": 73789,
+          "nonzero_support": 71512,
+          "full_H_action_support": 72628,
+          "norm_square": "1439999975923607808",
+          "energy_form": "-23594917529542110336",
+          "Rayleigh": "-6827233081464731/416666659700118",
+          "coefficient_sha256": "2dbafd345d43f6fab1e936df34c64f21d1c6a2c5160bd24029951cc08277b07b",
+          "H_action_sha256": "82505ec001f378f165e5494476fd4c5ef5e2dcf681a90db88ea9a261da3ce09a"
+        }
+      ],
+      "Gram_matrix": [
+        [
+          "1439999985867439824",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1439999975916811584",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1439999975916811584",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1439999975923607808"
+        ]
+      ],
+      "lowering_H_commutator_checked": true,
+      "spinflip_H_commutator_checked": true
+    }
+  ],
+  "seconds": 21.101593255996704,
+  "cpu_seconds": 12.977585792,
+  "peak_kb": 62984
+}

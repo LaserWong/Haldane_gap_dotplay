@@ -1,0 +1,13 @@
+{
+  "n": 10,
+  "Sz": 1,
+  "momentum_sign": -1,
+  "basis": "ascending base-3 code; digit 0,1,2 means spin z -1,0,1; site 0 least significant; retain sum Sz",
+  "coefficient_scale": "arbitrary common integer normalization",
+  "proposal_only_energy": -13.569322004519329,
+  "proposal_seconds": 0.11019754409790039,
+  "peak_kb": 50896,
+  "solver": "one smallest sparse Ritz pair; k=1, no full spectrum",
+  "cpu_limit_seconds": 300,
+  "address_space_limit_bytes": 1073741824
+}

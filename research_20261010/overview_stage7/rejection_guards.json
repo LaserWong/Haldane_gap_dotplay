@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "corruptions_rejected": 23,
+  "cases": [
+    {
+      "test": "changed exact gap",
+      "rejected": true
+    },
+    {
+      "test": "upward display rounding",
+      "rejected": true
+    },
+    {
+      "test": "missing inherited interval piece",
+      "rejected": true
+    },
+    {
+      "test": "missing newest interval piece",
+      "rejected": true
+    },
+    {
+      "test": "gap in exact interval cover",
+      "rejected": true
+    },
+    {
+      "test": "changed Hilbert count",
+      "rejected": true
+    },
+    {
+      "test": "conflated rank-one search",
+      "rejected": true
+    },
+    {
+      "test": "false maximum 30 trial dimensions",
+      "rejected": true
+    },
+    {
+      "test": "drop smaller complete odd band",
+      "rejected": true
+    },
+    {
+      "test": "conflate 125 trial space with 97 trace states",
+      "rejected": true
+    },
+    {
+      "test": "change largest numerator rank",
+      "rejected": true
+    },
+    {
+      "test": "failure encoded as zero physical gap",
+      "rejected": true
+    },
+    {
+      "test": "changed source digest",
+      "rejected": true
+    },
+    {
+      "test": "unaccepted review seal",
+      "rejected": true
+    },
+    {
+      "test": "remove prior accepted alternative",
+      "rejected": true
+    },
+    {
+      "test": "change chain candidate gap",
+      "rejected": true
+    },
+    {
+      "test": "drop chain candidate route",
+      "rejected": true
+    },
+    {
+      "test": "move accepted point to unsupported .084 parameter",
+      "rejected": true
+    },
+    {
+      "test": "promote unreviewed .09 point",
+      "rejected": true
+    },
+    {
+      "test": "AKLT assigned thermal-bootstrap success",
+      "rejected": true
+    },
+    {
+      "test": "AKLT gap applied from L2",
+      "rejected": true
+    },
+    {
+      "test": "AKLT MPS bond conflated with local matrix",
+      "rejected": true
+    },
+    {
+      "test": "AKLT omitted spectrum count changed",
+      "rejected": true
+    }
+  ]
+}

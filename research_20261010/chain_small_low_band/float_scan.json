@@ -1,0 +1,97 @@
+[
+  {
+    "g": "9/50",
+    "passes": 401,
+    "best": {
+      "beta": 11.2,
+      "time_steps": 3,
+      "canonical_steps": 0,
+      "from_M": 64,
+      "all_M_ge8_gap": 0.11294967780812555,
+      "asymptotic_gap": 0.11386653729701943,
+      "finite_window_min": 0.11294967780812555,
+      "time_pair_at_conversion": [
+        0.9999999998681661,
+        0.9999999999886874
+      ],
+      "M4_M8_window_gap": 0.11301501269791328,
+      "all_M_ge4_gap": 0.11294967780812555
+    }
+  },
+  {
+    "g": "37/200",
+    "passes": 332,
+    "best": {
+      "beta": 11.45,
+      "time_steps": 3,
+      "canonical_steps": 0,
+      "from_M": 64,
+      "all_M_ge8_gap": 0.09604841495454045,
+      "asymptotic_gap": 0.09681689261772776,
+      "finite_window_min": 0.09604841495454045,
+      "time_pair_at_conversion": [
+        0.9999999981147901,
+        0.9999999998075312
+      ],
+      "M4_M8_window_gap": 0.09625070698358422,
+      "all_M_ge4_gap": 0.09604841495454045
+    }
+  },
+  {
+    "g": "19/100",
+    "passes": 268,
+    "best": {
+      "beta": 11.75,
+      "time_steps": 3,
+      "canonical_steps": 0,
+      "from_M": 64,
+      "all_M_ge8_gap": 0.07895669783738028,
+      "asymptotic_gap": 0.0794866488828602,
+      "finite_window_min": 0.07895669783738028,
+      "time_pair_at_conversion": [
+        0.9999999695854508,
+        0.9999999960917719
+      ],
+      "M4_M8_window_gap": 0.07975034866472694,
+      "all_M_ge4_gap": 0.07895669783738028
+    }
+  },
+  {
+    "g": "39/200",
+    "passes": 210,
+    "best": {
+      "beta": 12.2,
+      "time_steps": 3,
+      "canonical_steps": 1,
+      "from_M": 128,
+      "all_M_ge8_gap": 0.06152609537681558,
+      "asymptotic_gap": 0.06359154660517585,
+      "finite_window_min": 0.06152609537681558,
+      "time_pair_at_conversion": [
+        0.9999994119607649,
+        0.9999998905874156
+      ],
+      "M4_M8_window_gap": 0.06445743701069848,
+      "all_M_ge4_gap": 0.06152609537681558
+    }
+  },
+  {
+    "g": "1/5",
+    "passes": 154,
+    "best": {
+      "beta": 12.75,
+      "time_steps": 3,
+      "canonical_steps": 1,
+      "from_M": 128,
+      "all_M_ge8_gap": 0.043446395690368914,
+      "asymptotic_gap": 0.04420727775752827,
+      "finite_window_min": 0.043446395690368914,
+      "time_pair_at_conversion": [
+        0.9999832844198578,
+        0.9999951147661651
+      ],
+      "M4_M8_window_gap": 0.0496233107915195,
+      "all_M_ge4_gap": 0.043446395690368914
+    }
+  }
+]

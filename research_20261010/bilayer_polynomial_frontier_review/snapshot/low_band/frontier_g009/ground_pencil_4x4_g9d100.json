@@ -1,0 +1,65 @@
+{
+  "status": "new_g009_candidate_pending_independent_review",
+  "g": "9/100",
+  "nx": 4,
+  "ny": 4,
+  "ground_lower": "-51118216379/500000000000",
+  "pencil": {
+    "external_cutoff": "37/25",
+    "external_low_count_required": 1,
+    "trial_dimension": 11,
+    "gram_inertia": [
+      0,
+      0,
+      11
+    ],
+    "cutoff_ritz_inertia": [
+      1,
+      0,
+      10
+    ],
+    "shifted_squared_moment_inertia": [
+      0,
+      0,
+      11
+    ],
+    "negative_inverse_ritz_count": 1,
+    "endpoints": [
+      {
+        "sector_eigenvalue_index_one_based": 1,
+        "lower": "-51118216379/500000000000",
+        "negative_direction_witness": {
+          "coefficients": [
+            -1125899906842624,
+            25498816422405,
+            -1568595261624,
+            -1568595261624,
+            -350692143748,
+            583656211245,
+            -273913531511,
+            28381841479,
+            28381841479,
+            9899379992,
+            -12576656397
+          ],
+          "bits": 50,
+          "exact_endpoint_quadratic_form": "-1387048022332017324825809654729/781250000000",
+          "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+        },
+        "endpoint_pencil_inertia": [
+          1,
+          0,
+          10
+        ],
+        "floating_proposal": -0.10223643275715633,
+        "optimal_pencil_endpoint_upper": "-1022364327563/10000000000000",
+        "upper_pencil_inertia": [
+          0,
+          0,
+          11
+        ],
+        "pencil_root_bracket_width": "17/10000000000000"
+      }
+    ]
+  }
+}

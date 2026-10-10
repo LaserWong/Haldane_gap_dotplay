@@ -1,0 +1,72 @@
+{
+  "AS_limit_bytes": 1073741824,
+  "cpu_affinity": [
+    0
+  ],
+  "moment_review": {
+    "P_dimension": 13,
+    "all_13_columns_rebuilt": true,
+    "all_169_entries_G_K_J_residual_Gram_verified": true,
+    "full_dimension": 6561,
+    "residual_union_support": 160,
+    "shifted_H_applied_union_support": 172,
+    "trial_plus_action_union_support": 173,
+    "unshifted_H_applied_union_support": 173
+  },
+  "peak_rss_kib": 28140,
+  "provenance": {
+    "external_files_verified": 71,
+    "independent_physical_core": "30c997e6e56135af60cd989ab22e31a8957346dc3ff2235ae8ac6b2c62916a19",
+    "prior_chain": {
+      "files": 57,
+      "manifest_sha256": "0af04a6c84baa0a87c777a5f9e99aad6d5c903821d5ec3e1b21d71ace84684f4"
+    },
+    "prior_lemma": {
+      "files": 13,
+      "manifest_sha256": "18fd9df56ad4023b2f174a3a54d122550670dcf0863176270cd000d48c00fe91"
+    },
+    "producer": {
+      "files": 29,
+      "manifest_sha256": "2fe7f6300a64381e25bf5d41f19cafec0506a739986ded95784029b40c42470e"
+    }
+  },
+  "results": [
+    {
+      "candidate_paths": 27,
+      "g": "19/100",
+      "gap_lower": "15791339567/200000000000",
+      "scope": "All integer M>=2; unique finite-volume ground state",
+      "window_checks": 135
+    },
+    {
+      "candidate_paths": 36,
+      "g": "1/5",
+      "gap_lower": "5430799461/125000000000",
+      "scope": "All integer M>=2; unique finite-volume ground state",
+      "window_checks": 198
+    },
+    {
+      "candidate_paths": 27,
+      "g": "37/200",
+      "gap_lower": "12006051869/125000000000",
+      "scope": "All integer M>=2; unique finite-volume ground state",
+      "window_checks": 135
+    },
+    {
+      "candidate_paths": 36,
+      "g": "39/200",
+      "gap_lower": "492208763/8000000000",
+      "scope": "All integer M>=2; unique finite-volume ground state",
+      "window_checks": 198
+    },
+    {
+      "candidate_paths": 27,
+      "g": "9/50",
+      "gap_lower": "28237419451/250000000000",
+      "scope": "All integer M>=2; unique finite-volume ground state",
+      "window_checks": 135
+    }
+  ],
+  "seconds": 55.347216340996965,
+  "status": "PASS_INDEPENDENT_COUNTED_BAND_AND_ALL_SIZE_REVIEW"
+}

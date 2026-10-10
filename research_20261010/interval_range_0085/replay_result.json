@@ -1,0 +1,57 @@
+{
+  "status": "PASS exact producer replay; independent new polynomial and interval audit required",
+  "closed_extension_intervals": 16,
+  "extension_interval": [
+    "2/25",
+    "17/200"
+  ],
+  "extension_uniform_gap": "1682875193/500000000000",
+  "union_interval": [
+    "0",
+    "17/200"
+  ],
+  "union_closed_intervals": 49,
+  "union_all_integer_L_ge2_gap": "486442811/250000000000",
+  "union_gap_display": 0.001945771244,
+  "asymptotic_max_start_L": 1024,
+  "finite_window_count": 100,
+  "short_size_count": 96,
+  "coupled_scalar_states": 100,
+  "largest_filter_rank": 1,
+  "ground_search_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "max_augmented_linear_trial_dimensions": [
+    59,
+    125,
+    30
+  ],
+  "largest_patch_full_Hilbert_dimension": 340282366920938463463374607431768211456,
+  "largest_patch_physical_spins": 128,
+  "largest_filtered_q": 6,
+  "odd_denominator_trial_q": [
+    1,
+    3
+  ],
+  "odd_denominator_full_H_image_q": [
+    1,
+    3,
+    5
+  ],
+  "denominator_odd_input_geometries": [
+    [
+      4,
+      4
+    ],
+    [
+      8,
+      4
+    ]
+  ],
+  "largest_odd_input_needed": false,
+  "eigensolver_calls": 0,
+  "new_sparse_physical_expansion": false,
+  "new_moments_above_H2": false
+}

@@ -1,0 +1,85 @@
+{
+  "status": "PASS independent physical, exact arithmetic and all-integer-size review",
+  "sealed_utc": "2026-10-10T18:52:13.052878+00:00",
+  "sealed_local": "2026-10-10T14:52:13.052878-04:00",
+  "model": "Ordinary spin-1/2 square bilayer; unit rung exchange; equal straight intralayer g in both directions and layers; no crossed bonds",
+  "boundary": "Periodic positive-direction multiplicity, including side-two parallel bonds",
+  "accepted_g": "7/100",
+  "scope": "Every integer square side L>=2",
+  "finite_volume_unique_ground": true,
+  "accepted": [
+    {
+      "g": "7/100",
+      "order": "xty",
+      "beta_initial": "43/4",
+      "accepted_beta": "344",
+      "asymptotic_onset": 128,
+      "all_integer_L_ge2_gap": "9272103501/1000000000000",
+      "gap_display": 0.009272103501
+    },
+    {
+      "g": "7/100",
+      "order": "txy",
+      "beta_initial": "49/5",
+      "accepted_beta": "784/5",
+      "asymptotic_onset": 64,
+      "all_integer_L_ge2_gap": "24790852531/1000000000000",
+      "gap_display": 0.024790852531
+    }
+  ],
+  "max_physical_spins": 128,
+  "max_full_hilbert_dimension": "340282366920938463463374607431768211456",
+  "max_ground_trial_dimension": 29,
+  "max_retained_full_band_dimension": 193,
+  "check_counts": {
+    "ground": 9,
+    "translation": 9,
+    "complete_band": 9,
+    "exact_all_size_certificates": 2,
+    "selected_exact_failures": 7,
+    "float_grid_samples": 4509
+  },
+  "uniform_short_size_g_interval": [
+    "0",
+    "1/10"
+  ],
+  "uniform_short_size_sides": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "new_ground_and_full_translated_moments_independently_replayed": true,
+  "geometry_reused_by_verified_prior_source_hash": true,
+  "new_endpoints_traces_transport_and_bridges_recomputed": true,
+  "floor_clipping_independently_verified": true,
+  "physical_and_bosonic_reference_multiplicities_kept_separate": true,
+  "producer_manifest_sha256": "55b0ddf8e317c6953d0487a26880b075231d7fcc37c5a91a475a83b5a71dcb47",
+  "producer_frozen_file_count": 70,
+  "proof_assistant_verified": false,
+  "bounded_diagnostics": {
+    "couplings": [
+      "2/25",
+      "1/10"
+    ],
+    "beta_min": "5",
+    "beta_max": "30",
+    "beta_step": "1/20",
+    "orders": [
+      "xyt",
+      "xty",
+      "txy"
+    ],
+    "successful_proposals": 0,
+    "all_beta_exclusion": false,
+    "physical_gaplessness_claim": false
+  },
+  "qualifications": [
+    "No continuous-coupling global gap claim",
+    "No arbitrary-aspect-ratio or infinite-volume uniqueness claim",
+    "No all-beta exclusion or optimality claim",
+    "Floating scan is diagnostic only; g=.07 acceptance is exact-arithmetic and analytic"
+  ]
+}

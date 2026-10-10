@@ -1,0 +1,104 @@
+{
+  "status": "exact_polynomial_moment_evaluation_pending_independent_review",
+  "nx": 4,
+  "ny": 4,
+  "N": 16,
+  "g": "17/200",
+  "matrix_denominator": 800,
+  "column_rule": "W_r=2*den*(I-C_create/2)|t+_r>, where C_create raises total rung triplet number by two",
+  "polynomial_definition": "w_r(g)=(I-C_create(g)/2)|t+_r>; Hprime(g)=Q+gV. w and Hprime are affine in g, giving G/A/B degrees <=2/3/4 before the explicit 4*d^(2/3/4) normalization.",
+  "source_sha256": {
+    "low_band/translation_band/translated_4x4_g3d100_moments.json": "31455d64cb63f8f96f12849d3e8498a65d0a61e0b9a6b1f54febceb1fc51ffe2",
+    "low_band/translation_band/translated_4x4_g1d25_moments.json": "62d3f6c0065f1a7c7c53080846d1ae2880adc6b4c72093afadb5382b57a98533",
+    "low_band/translation_band/translated_4x4_g1d20_moments.json": "e1e1784bf88269ec34c20eb728f2604ab8302ca373ee019ad4c4b5e160ad175e",
+    "low_band/frontier_g006/translated_4x4_g3d50_moments.json": "b3ada989f4775a3311a5c2b264c60b5a44b543d4ccf6049e7eafc0907ebb59fd",
+    "low_band/frontier_g007_g010/g7d100/translated_4x4_g7d100_moments.json": "e64a1db1ad8dc8cffc6e97bba9d3b1dff6e3d54c2b0d47bd2a0054b295961889",
+    "low_band/frontier_g007_g010/g2d25/translated_4x4_g2d25_moments.json": "4a3aea78b489a366de01f339abbbf83b0c063c71cae672dd6be5013eb003b00d",
+    "low_band/frontier_g007_g010/g1d10/translated_4x4_g1d10_moments.json": "599477a9fc65a508ac210b30637061a373c21e6af20ca2f2e022f4697a6c415c"
+  },
+  "extra_point_exact_checks": 144,
+  "polynomial_degrees": {
+    "G": 2,
+    "A": 3,
+    "B": 4
+  },
+  "no_physical_support_expansion": true,
+  "G": [
+    [
+      "87067983872",
+      "0",
+      "75759616",
+      "0"
+    ],
+    [
+      "0",
+      "75759616",
+      "0",
+      "75759616"
+    ],
+    [
+      "75759616",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "75759616",
+      "0",
+      "75759616"
+    ]
+  ],
+  "A": [
+    [
+      "64346971439104",
+      "2960311451648",
+      "-70911000576",
+      "2960311451648"
+    ],
+    [
+      "2960311451648",
+      "-70911000576",
+      "23182442496",
+      "-70911000576"
+    ],
+    [
+      "-70911000576",
+      "23182442496",
+      "0",
+      "23182442496"
+    ],
+    [
+      "2960311451648",
+      "-70911000576",
+      "23182442496",
+      "-70911000576"
+    ]
+  ],
+  "B": [
+    [
+      "48530696578269184",
+      "4351391587893248",
+      "86124137545728",
+      "4351391587893248"
+    ],
+    [
+      "4351391587893248",
+      "86124137545728",
+      "8160219758592",
+      "86124137545728"
+    ],
+    [
+      "86124137545728",
+      "8160219758592",
+      "14713123504128",
+      "8160219758592"
+    ],
+    [
+      "4351391587893248",
+      "86124137545728",
+      "8160219758592",
+      "86124137545728"
+    ]
+  ]
+}

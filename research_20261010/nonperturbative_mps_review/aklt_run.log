@@ -1,0 +1,39 @@
+exact local check 2 False
+exact local check 3 False
+exact local check 4 False
+exact local check 3 True
+exact local check 4 True
+exact local check 5 True
+{
+  "status": "PASS",
+  "method": "independent Cartesian generators, integer characteristic-polynomial positivity, direct periodic checks, bond-pair counting",
+  "mps_checks": [
+    {
+      "L": 3,
+      "norm": 24,
+      "nonzero_amplitudes": 6,
+      "one_site_reduced_density": "I/3"
+    },
+    {
+      "L": 4,
+      "norm": 84,
+      "nonzero_amplitudes": 21,
+      "one_site_reduced_density": "I/3"
+    },
+    {
+      "L": 5,
+      "norm": 240,
+      "nonzero_amplitudes": 60,
+      "one_site_reduced_density": "I/3"
+    },
+    {
+      "L": 6,
+      "norm": 732,
+      "nonzero_amplitudes": 183,
+      "one_site_reduced_density": "I/3"
+    }
+  ],
+  "realignment_witness": "-1/3",
+  "seconds": 8.774592638015747,
+  "peak_kb": 59404
+}

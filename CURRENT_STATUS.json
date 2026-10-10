@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T19:18:38Z",
+  "updated_at_utc": "2026-10-10T21:16:00Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -44,7 +44,7 @@
     },
     {
       "id": "overview",
-      "status": "verified_frozen_stage6"
+      "status": "stage7_frozen_verified"
     },
     {
       "id": "trial_size_criteria",
@@ -72,15 +72,15 @@
     },
     {
       "id": "chain_temperature_first",
-      "status": "independently_verified_g0175_all_M_ge2"
+      "status": "independently_verified_joint_ratio_g0182_all_M_ge2"
     },
     {
       "id": "stronger_bilayer_frontier",
-      "status": "independently_verified_g007_all_L_ge2"
+      "status": "independently_verified_discrete_g0085_all_L_ge2"
     },
     {
       "id": "ordinary_continuous_g_interval",
-      "status": "independently_verified_entire_0_to_0.078_all_L_ge2"
+      "status": "independently_verified_entire_0_to_0.085_all_L_ge2"
     },
     {
       "id": "full_ground_moment_pencil",
@@ -96,13 +96,33 @@
     },
     {
       "id": "continuous_interval_extension",
-      "status": "independently_verified_entire_0_to_0.078_all_L_ge2"
+      "status": "independently_verified_49_closed_pieces_through_0.085"
     },
     {
       "id": "chain_filter_extension",
-      "status": "running_saved_moment_feasibility"
+      "status": "independently_verified_counted_low_band_g020_all_M_ge2"
+    },
+    {
+      "id": "joint_trace_ratio",
+      "status": "independently_verified_general_lemma_and_all_size_uses"
+    },
+    {
+      "id": "nonperturbative_mps_assessment",
+      "status": "independently_verified_scoped_D26_obstructions_and_AKLT_reference"
+    },
+    {
+      "id": "mixed_joint_seed_obstruction",
+      "status": "independent_review_running"
+    },
+    {
+      "id": "uniform_seed_size_diagnostics",
+      "status": "n10_n12_few_state_all_beta_candidates_independent_review_running"
+    },
+    {
+      "id": "exact_third_moment",
+      "status": "new_q4_q6_contractions_and_43D_numerator_independent_review_running"
     }
   ],
-  "verification": "Ordinary bilayer entire interval 0<=g<=.078: gap>=.001945771244 for every integer L>=2. Combined discrete g=.08: gap>=.023243965748, or .023241913957 with largest ground-only numerator. Original searches11/29/29; implicit filtered extension <=12/30/30. Spin1 alternating chain g=.175: gap>=.006791087005 for every integer M>=2. All claims independently audited. Further joint-ratio and chain refinements remain candidates.",
-  "last_verified_remote_commit": "1fd451cd0ed79ab551adc1caca486fb0721e53a4"
+  "verification": "Ordinary bilayer entire0<=g<=.085: gap>=.001945771244 for every integerL>=2. Discreteg=.085: gap>=.027887084487. Ground-only interval through.082; beyond.082 denominator trial dimensions59/125, largest numerator<=30. Spin1 alternating chaing=.2: gap>=.043446395688 for every integerM>=2. AKLT separate projector criterion: gap>=.1 for periodicL>=5. All listed claims independently reviewed; newg=.09/43D and broader seed exclusions remain candidates.",
+  "last_verified_remote_commit": "00593ba445c26b1da625c9afe618e85a2550f70e"
 }

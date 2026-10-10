@@ -1,0 +1,83 @@
+{
+  "status": "new_bracket_point_candidate_pending_independent_review",
+  "g": "17/200",
+  "nx": 8,
+  "ny": 8,
+  "ground_lower": "-1835934301411/5000000000000",
+  "pencil": {
+    "external_cutoff": "1542961230601226109247141150259502107696560687237677568693042866118377027734969/1283128000362184403160928403770784402226875000000000000000000000000000000000000",
+    "external_low_count_required": 1,
+    "trial_dimension": 29,
+    "gram_inertia": [
+      0,
+      0,
+      29
+    ],
+    "cutoff_ritz_inertia": [
+      1,
+      0,
+      28
+    ],
+    "shifted_squared_moment_inertia": [
+      0,
+      0,
+      29
+    ],
+    "negative_inverse_ritz_count": 1,
+    "endpoints": [
+      {
+        "sector_eigenvalue_index_one_based": 1,
+        "lower": "-1835934301411/5000000000000",
+        "negative_direction_witness": {
+          "coefficients": [
+            1125899906842624,
+            -20762841334847,
+            32465657272,
+            196133221508,
+            -97662394176,
+            313049413008,
+            410157257634,
+            -145206658165,
+            69379291547,
+            -192750922154,
+            65491471191,
+            -33346351054,
+            -24580538294,
+            13723226675,
+            -8216273555,
+            160402916353,
+            2537986381,
+            -3623563013,
+            1673628024,
+            790969689,
+            -7864529320,
+            2500906316,
+            -1169551424,
+            3328184608,
+            -1104319504,
+            562678234,
+            414291593,
+            -229835513,
+            136979214
+          ],
+          "bits": 50,
+          "exact_endpoint_quadratic_form": "-3045739739387233745830059763341339032654993063781652458117988323995291328364692185859860071293357090654881/1603910000452730503951160504713480502783593750000000000000000000000000000000000000000000",
+          "explanation": "Exact negative direction supplies an independent scalar acceptance check for j=1."
+        },
+        "endpoint_pencil_inertia": [
+          1,
+          0,
+          28
+        ],
+        "floating_proposal": -0.36718686028134906,
+        "optimal_pencil_endpoint_upper": "-734373720561/2000000000000",
+        "upper_pencil_inertia": [
+          0,
+          0,
+          29
+        ],
+        "pencil_root_bracket_width": "17/10000000000000"
+      }
+    ]
+  }
+}

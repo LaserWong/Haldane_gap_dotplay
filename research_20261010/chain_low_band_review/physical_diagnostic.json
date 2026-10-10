@@ -1,0 +1,182 @@
+{
+  "status": "FLOATING_DIAGNOSTIC_ONLY",
+  "physical_basis": "8 spin-one Sz product states; independent bond assembly",
+  "g": "1/5",
+  "M": 4,
+  "full_dimension": 6561,
+  "blocks": [
+    {
+      "magnetization": -8,
+      "dimension": 1,
+      "min_shift": 12.8
+    },
+    {
+      "magnetization": -7,
+      "dimension": 8,
+      "min_shift": 10.4
+    },
+    {
+      "magnetization": -6,
+      "dimension": 36,
+      "min_shift": 8.10767974433268
+    },
+    {
+      "magnetization": -5,
+      "dimension": 112,
+      "min_shift": 5.997244756488994
+    },
+    {
+      "magnetization": -4,
+      "dimension": 266,
+      "min_shift": 4.056174610402138
+    },
+    {
+      "magnetization": -3,
+      "dimension": 504,
+      "min_shift": 2.717223240525575
+    },
+    {
+      "magnetization": -2,
+      "dimension": 784,
+      "min_shift": 1.549221953174193
+    },
+    {
+      "magnetization": -1,
+      "dimension": 1016,
+      "min_shift": 0.6021539004956704
+    },
+    {
+      "magnetization": 0,
+      "dimension": 1107,
+      "min_shift": -0.11504816924201045
+    },
+    {
+      "magnetization": 1,
+      "dimension": 1016,
+      "min_shift": 0.6021539004956455
+    },
+    {
+      "magnetization": 2,
+      "dimension": 784,
+      "min_shift": 1.5492219531741895
+    },
+    {
+      "magnetization": 3,
+      "dimension": 504,
+      "min_shift": 2.717223240525553
+    },
+    {
+      "magnetization": 4,
+      "dimension": 266,
+      "min_shift": 4.056174610402149
+    },
+    {
+      "magnetization": 5,
+      "dimension": 112,
+      "min_shift": 5.997244756488983
+    },
+    {
+      "magnetization": 6,
+      "dimension": 36,
+      "min_shift": 8.107679744332676
+    },
+    {
+      "magnetization": 7,
+      "dimension": 8,
+      "min_shift": 10.4
+    },
+    {
+      "magnetization": 8,
+      "dimension": 1,
+      "min_shift": 12.8
+    }
+  ],
+  "lowest_24_shift": [
+    -0.11504816924201045,
+    0.6021539004956455,
+    0.6021539004956546,
+    0.6021539004956704,
+    0.9237498779441239,
+    0.9237498779441252,
+    0.9237498779441282,
+    0.923749877944136,
+    0.9237498779441412,
+    0.9237498779441421,
+    1.174061594709861,
+    1.174061594709864,
+    1.1740615947098645,
+    1.43793676677084,
+    1.5492219531741729,
+    1.5492219531741758,
+    1.5492219531741762,
+    1.5492219531741895,
+    1.549221953174193,
+    1.6024957937272304,
+    1.6024957937272521,
+    1.6024957937272564,
+    1.6024957937272681,
+    1.6024957937272701
+  ],
+  "lower_first_24": [
+    -0.11504817179117918,
+    0.27563600457626125,
+    0.27563600457626125,
+    0.27563600457626125,
+    0.5098433363068332,
+    0.5098433363068332,
+    0.5098433363068332,
+    0.5098433363068332,
+    0.5098433363068332,
+    0.5098433363068332,
+    0.5423026712418417,
+    0.5423026712418417,
+    0.5423026712418417,
+    0.799999999996,
+    0.799999999996,
+    0.799999999996,
+    0.799999999996,
+    0.799999999996,
+    0.799999999996,
+    0.799999999996,
+    0.799999999996,
+    0.799999999996,
+    0.799999999996,
+    0.799999999996
+  ],
+  "minimum_ordered_margin": 2.5491687372092287e-09,
+  "all_6561_ordered_comparisons_pass": true,
+  "trace": [
+    {
+      "beta": 2,
+      "actual_normalized_trace": 4.148673841368552,
+      "counted_bound": 20.373071602244234
+    },
+    {
+      "beta": 5,
+      "actual_normalized_trace": 1.125209828952719,
+      "counted_bound": 2.382753744046479
+    },
+    {
+      "beta": 10,
+      "actual_normalized_trace": 1.0024964029613797,
+      "counted_bound": 1.081835339873517
+    },
+    {
+      "beta": 20,
+      "actual_normalized_trace": 1.0000017749727208,
+      "counted_bound": 1.0012414225832693
+    },
+    {
+      "beta": 40,
+      "actual_normalized_trace": 1.0000000017020503,
+      "counted_bound": 1.0000005938147194
+    },
+    {
+      "beta": 80,
+      "actual_normalized_trace": 1.0000000034020153,
+      "counted_bound": 1.0000002073356158
+    }
+  ],
+  "seconds": 1.2058278869990318,
+  "peak_rss_kib": 68428
+}
