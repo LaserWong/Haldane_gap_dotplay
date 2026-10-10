@@ -1,0 +1,182 @@
+{
+  "model": {
+    "spin": 0.5,
+    "nsites": 8,
+    "edges": [
+      {
+        "i": 0,
+        "j": 1,
+        "coupling": 1.0,
+        "kind": "rung"
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "coupling": 1.0,
+        "kind": "rung"
+      },
+      {
+        "i": 4,
+        "j": 5,
+        "coupling": 1.0,
+        "kind": "rung"
+      },
+      {
+        "i": 6,
+        "j": 7,
+        "coupling": 1.0,
+        "kind": "rung"
+      },
+      {
+        "i": 0,
+        "j": 4,
+        "coupling": 0.00025,
+        "kind": "inlayer_x"
+      },
+      {
+        "i": 1,
+        "j": 5,
+        "coupling": 0.00025,
+        "kind": "inlayer_x"
+      },
+      {
+        "i": 0,
+        "j": 2,
+        "coupling": 0.00025,
+        "kind": "inlayer_y"
+      },
+      {
+        "i": 1,
+        "j": 3,
+        "coupling": 0.00025,
+        "kind": "inlayer_y"
+      },
+      {
+        "i": 2,
+        "j": 6,
+        "coupling": 0.00025,
+        "kind": "inlayer_x"
+      },
+      {
+        "i": 3,
+        "j": 7,
+        "coupling": 0.00025,
+        "kind": "inlayer_x"
+      },
+      {
+        "i": 2,
+        "j": 0,
+        "coupling": 0.00025,
+        "kind": "inlayer_y"
+      },
+      {
+        "i": 3,
+        "j": 1,
+        "coupling": 0.00025,
+        "kind": "inlayer_y"
+      },
+      {
+        "i": 4,
+        "j": 0,
+        "coupling": 0.00025,
+        "kind": "inlayer_x"
+      },
+      {
+        "i": 5,
+        "j": 1,
+        "coupling": 0.00025,
+        "kind": "inlayer_x"
+      },
+      {
+        "i": 4,
+        "j": 6,
+        "coupling": 0.00025,
+        "kind": "inlayer_y"
+      },
+      {
+        "i": 5,
+        "j": 7,
+        "coupling": 0.00025,
+        "kind": "inlayer_y"
+      },
+      {
+        "i": 6,
+        "j": 2,
+        "coupling": 0.00025,
+        "kind": "inlayer_x"
+      },
+      {
+        "i": 7,
+        "j": 3,
+        "coupling": 0.00025,
+        "kind": "inlayer_x"
+      },
+      {
+        "i": 6,
+        "j": 4,
+        "coupling": 0.00025,
+        "kind": "inlayer_y"
+      },
+      {
+        "i": 7,
+        "j": 5,
+        "coupling": 0.00025,
+        "kind": "inlayer_y"
+      }
+    ],
+    "label": "bilayer_s0.5_2x2_gx0.00025_gy0.00025",
+    "geometry": {
+      "family": "bilayer",
+      "nx": 2,
+      "ny": 2,
+      "gx": 0.00025,
+      "gy": 0.00025,
+      "periodic_x": true,
+      "periodic_y": true
+    },
+    "single_ion": 0.0,
+    "dimension": 256,
+    "edge_counts": {
+      "rung": 4,
+      "inlayer_x": 8,
+      "inlayer_y": 8
+    },
+    "total_coupling": 4.004
+  },
+  "fingerprint": "86f44dfa81d63ad3ada3",
+  "method": "all nonnegative Sz dense blocks, negative Sz by spin reversal",
+  "certified": false,
+  "sectors": [
+    [
+      0,
+      70,
+      1
+    ],
+    [
+      2,
+      56,
+      2
+    ],
+    [
+      4,
+      28,
+      2
+    ],
+    [
+      6,
+      8,
+      2
+    ],
+    [
+      8,
+      1,
+      2
+    ]
+  ],
+  "seconds": 0.011816471000202,
+  "E0": -3.0000003750937694,
+  "gap": 0.9995001250312834,
+  "ground_degeneracy": 1,
+  "dimension": 256,
+  "max_rss_kib": 71536
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "case": "s_half_g003_depth2",
+    "order": "xyt",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_2x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x4_g3d100_depth2_ground.json"
+    ],
+    "accepted_beta_count": 0,
+    "best_grid_gap": null,
+    "model_id": "square_af_bilayer_unit_rung_s_half_g003_depth2"
+  },
+  {
+    "case": "s_half_g003_depth2",
+    "order": "xty",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_2x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x4_g3d100_depth2_ground.json"
+    ],
+    "accepted_beta_count": 0,
+    "best_grid_gap": null,
+    "model_id": "square_af_bilayer_unit_rung_s_half_g003_depth2"
+  },
+  {
+    "case": "s_half_g003_depth2",
+    "order": "txy",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_2x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x4_g3d100_depth2_ground.json"
+    ],
+    "accepted_beta_count": 0,
+    "best_grid_gap": null,
+    "model_id": "square_af_bilayer_unit_rung_s_half_g003_depth2"
+  },
+  {
+    "case": "s_one_g001",
+    "order": "xyt",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_2x2_g1d100_k1d100_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x2_g1d100_k1d100_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x4_g1d100_k1d100_q2_ground.json"
+    ],
+    "accepted_beta_count": 0,
+    "best_grid_gap": null,
+    "model_id": "square_af_bilayer_unit_rung_s_one_g001"
+  },
+  {
+    "case": "s_one_g001",
+    "order": "xty",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_2x2_g1d100_k1d100_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x2_g1d100_k1d100_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x4_g1d100_k1d100_q2_ground.json"
+    ],
+    "accepted_beta_count": 0,
+    "best_grid_gap": null,
+    "model_id": "square_af_bilayer_unit_rung_s_one_g001"
+  },
+  {
+    "case": "s_one_g001",
+    "order": "txy",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_2x2_g1d100_k1d100_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x2_g1d100_k1d100_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x4_g1d100_k1d100_q2_ground.json"
+    ],
+    "accepted_beta_count": 0,
+    "best_grid_gap": null,
+    "model_id": "square_af_bilayer_unit_rung_s_one_g001"
+  },
+  {
+    "case": "s_one_g0005",
+    "order": "xyt",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_2x2_g1d200_k1d200_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x2_g1d200_k1d200_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x4_g1d200_k1d200_q2_ground.json"
+    ],
+    "accepted_beta_count": 63,
+    "best_grid_gap": {
+      "accepted": true,
+      "rounds_after_input": 1,
+      "order": "xyt",
+      "n": 8,
+      "m": 8,
+      "beta": "44",
+      "ordered_purities": [
+        "170129756998563065449399357324417688549/170141183460469231731687303715884105728",
+        "170129174112748776826301412378389329239/170141183460469231731687303715884105728",
+        "85068556757112640089991619055559145591/85070591730234615865843651857942052864"
+      ],
+      "canonical_purities": [
+        "170129756998563065449399357324417688549/170141183460469231731687303715884105728",
+        "170129174112748776826301412378389329239/170141183460469231731687303715884105728",
+        "85068556757112640089991619055559145591/85070591730234615865843651857942052864"
+      ],
+      "u_canonical": "12009347720454905385891337494776489/170141183460469231731687303715884105728",
+      "gap_lower": "23560542584410428678827049692403896207/170141183460469231731687303715884105728",
+      "updates": [
+        [
+          "170129756998563065449399357324417688549/170141183460469231731687303715884105728",
+          "170129174112748776826301412378389329239/170141183460469231731687303715884105728",
+          "85068556757112640089991619055559145591/85070591730234615865843651857942052864"
+        ]
+      ],
+      "beta_initial": "11",
+      "initial_ordered_purities": [
+        "337897900594507453402190893064673400453/340282366920938463463374607431768211456",
+        "41887886407829871712279884850930152741/42535295865117307932921825928971026432",
+        "335948704780216189229662606509410510235/340282366920938463463374607431768211456"
+      ],
+      "correlated_J1": "80778389405101573903380473255184554207/85070591730234615865843651857942052864",
+      "correlated_J2": "160016735424115294705199210255731331677/170141183460469231731687303715884105728",
+      "correlated_first_step": [
+        "84950498244793060190454978964838700901/85070591730234615865843651857942052864",
+        "169784251758769259621263184490718762837/170141183460469231731687303715884105728",
+        "339713884234700015103691379661562487799/340282366920938463463374607431768211456"
+      ]
+    },
+    "model_id": "square_af_bilayer_unit_rung_s_one_g0005"
+  },
+  {
+    "case": "s_one_g0005",
+    "order": "xty",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_2x2_g1d200_k1d200_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x2_g1d200_k1d200_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x4_g1d200_k1d200_q2_ground.json"
+    ],
+    "accepted_beta_count": 46,
+    "best_grid_gap": {
+      "accepted": true,
+      "rounds_after_input": 1,
+      "order": "xty",
+      "n": 8,
+      "m": 8,
+      "beta": "40",
+      "ordered_purities": [
+        "340230006823576066520446418383963896249/340282366920938463463374607431768211456",
+        "340192999894315253192348587692202883819/340282366920938463463374607431768211456",
+        "170107766026215471472266364035632019319/170141183460469231731687303715884105728"
+      ],
+      "canonical_purities": [
+        "340230006823576066520446418383963896249/340282366920938463463374607431768211456",
+        "21257886411149234265774114911601482231/21267647932558653966460912964485513216",
+        "340036856569847329504059205044409816611/340282366920938463463374607431768211456"
+      ],
+      "u_canonical": "245510351091133959315402387358394845/340282366920938463463374607431768211456",
+      "gap_lower": "8014619610430072928071847344126923337/85070591730234615865843651857942052864",
+      "updates": [
+        [
+          "340230006823576066520446418383963896249/340282366920938463463374607431768211456",
+          "340192999894315253192348587692202883819/340282366920938463463374607431768211456",
+          "170107766026215471472266364035632019319/170141183460469231731687303715884105728"
+        ]
+      ],
+      "beta_initial": "10",
+      "initial_ordered_purities": [
+        "168768507588068891780097379404736833065/170141183460469231731687303715884105728",
+        "337495818977789626253410661693721565405/340282366920938463463374607431768211456",
+        "20811548983148574191020162732675598465/21267647932558653966460912964485513216"
+      ],
+      "correlated_J1": "322427685640133122281924470017801456813/340282366920938463463374607431768211456",
+      "correlated_J2": "315417169298217232307676356154934102453/340282366920938463463374607431768211456",
+      "correlated_first_step": [
+        "339760633086457403674545135041608334125/340282366920938463463374607431768211456",
+        "339180100388496898875652229105047117975/340282366920938463463374607431768211456",
+        "42333145916048041621161442112342721323/42535295865117307932921825928971026432"
+      ]
+    },
+    "model_id": "square_af_bilayer_unit_rung_s_one_g0005"
+  },
+  {
+    "case": "s_one_g0005",
+    "order": "txy",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_2x2_g1d200_k1d200_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x2_g1d200_k1d200_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1_4x4_g1d200_k1d200_q2_ground.json"
+    ],
+    "accepted_beta_count": 38,
+    "best_grid_gap": {
+      "accepted": true,
+      "rounds_after_input": 2,
+      "order": "txy",
+      "n": 16,
+      "m": 16,
+      "beta": "64",
+      "ordered_purities": [
+        "42535136699878830527262514190619276397/42535295865117307932921825928971026432",
+        "340282152623023287623596297693328292383/340282366920938463463374607431768211456",
+        "340282311594857897588913791746876192299/340282366920938463463374607431768211456"
+      ],
+      "canonical_purities": [
+        "340280879301917361913571563102491863027/340282366920938463463374607431768211456",
+        "85069887664986119965569716030421148601/85070591730234615865843651857942052864",
+        "340276789747432348762627516033437438375/340282366920938463463374607431768211456"
+      ],
+      "u_canonical": "5577173506114700747091398330773081/340282366920938463463374607431768211456",
+      "gap_lower": "10039809297640601168845809812320950965/85070591730234615865843651857942052864",
+      "updates": [
+        [
+          "170048780179712871154619371132961280867/170141183460469231731687303715884105728",
+          "340211175983864700815997612791510053807/340282366920938463463374607431768211456",
+          "340234563402889081494754906051173062809/340282366920938463463374607431768211456"
+        ],
+        [
+          "42535136699878830527262514190619276397/42535295865117307932921825928971026432",
+          "340282152623023287623596297693328292383/340282366920938463463374607431768211456",
+          "340282311594857897588913791746876192299/340282366920938463463374607431768211456"
+        ]
+      ],
+      "beta_initial": "8",
+      "initial_ordered_purities": [
+        "334678356712076339226953830468795464195/340282366920938463463374607431768211456",
+        "2635530980897154492952301203856923349/2658455991569831745807614120560689152",
+        "167208580519309820463988751883472922973/170141183460469231731687303715884105728"
+      ],
+      "correlated_J1": "76911190954738503596084497386221049231/85070591730234615865843651857942052864",
+      "correlated_J2": "317583629757148190175449717030803081797/340282366920938463463374607431768211456",
+      "correlated_first_step": [
+        "84591865839230158234153333959896052741/85070591730234615865843651857942052864",
+        "339259480799818947378525747082863803129/340282366920938463463374607431768211456",
+        "338980957684701282984910990147264851631/340282366920938463463374607431768211456"
+      ]
+    },
+    "model_id": "square_af_bilayer_unit_rung_s_one_g0005"
+  }
+]

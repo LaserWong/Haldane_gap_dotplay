@@ -1,0 +1,108 @@
+{
+  "model": {
+    "spin": 1.0,
+    "nsites": 4,
+    "edges": [
+      {
+        "i": 0,
+        "j": 2,
+        "coupling": 1.0,
+        "kind": "x"
+      },
+      {
+        "i": 0,
+        "j": 1,
+        "coupling": 1.0,
+        "kind": "y"
+      },
+      {
+        "i": 1,
+        "j": 3,
+        "coupling": 1.0,
+        "kind": "x"
+      },
+      {
+        "i": 1,
+        "j": 0,
+        "coupling": 1.0,
+        "kind": "y"
+      },
+      {
+        "i": 2,
+        "j": 0,
+        "coupling": 1.0,
+        "kind": "x"
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "coupling": 1.0,
+        "kind": "y"
+      },
+      {
+        "i": 3,
+        "j": 1,
+        "coupling": 1.0,
+        "kind": "x"
+      },
+      {
+        "i": 3,
+        "j": 2,
+        "coupling": 1.0,
+        "kind": "y"
+      }
+    ],
+    "label": "square_s1_2x2",
+    "geometry": {
+      "family": "square",
+      "nx": 2,
+      "ny": 2,
+      "periodic_x": true,
+      "periodic_y": true,
+      "periodic_convention": "multigraph"
+    },
+    "single_ion": 0.0,
+    "dimension": 81,
+    "edge_counts": {
+      "x": 4,
+      "y": 4
+    },
+    "total_coupling": 8.0
+  },
+  "fingerprint": "4e49c1b07a147452c654",
+  "method": "all nonnegative Sz dense blocks, negative Sz by spin reversal",
+  "certified": false,
+  "sectors": [
+    [
+      0,
+      19,
+      1
+    ],
+    [
+      2,
+      16,
+      2
+    ],
+    [
+      4,
+      10,
+      2
+    ],
+    [
+      6,
+      4,
+      2
+    ],
+    [
+      8,
+      1,
+      2
+    ]
+  ],
+  "seconds": 0.009482618999754777,
+  "E0": -12.0,
+  "gap": 2.0000000000000018,
+  "ground_degeneracy": 1,
+  "dimension": 81,
+  "max_rss_kib": 77656
+}

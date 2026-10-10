@@ -1,0 +1,278 @@
+{
+  "status": "exact_rational_sparse_support_ground_certificate",
+  "s": "1",
+  "N_dimers": 8,
+  "physical_sites": 16,
+  "full_dimension": 43046721,
+  "retained_states": 1,
+  "trial_subspace_dimension": 409,
+  "reached_support_dimension": 9765,
+  "trial_max_excited_dimers": 2,
+  "E00": "-16",
+  "Vmin": "-16/25",
+  "Vmax": "8/25",
+  "second_eigenvalue_lower": "-190829917819/12500000000",
+  "ground_lower": "-30932113331448318370015873249728102996511/1932468846355136645670490973314422327075",
+  "ground_upper": "-1114594484396974915732470468977/69634127209799380565365044525",
+  "ground_lower_display": -16.006526257740155,
+  "ground_upper_display": -16.00644007555137,
+  "ground_width_display": 8.61821887840527e-05,
+  "exact_rayleigh": "-1114594484396974915732470468977/69634127209799380565365044525",
+  "exact_residual_squared": "309257962214508309309987103230506370298326193997875487/4848911672270522465635702709239881299672422570755232475625",
+  "exact_residual_squared_display": 6.377884010200933e-05,
+  "integer_matrix_denominator": 3600,
+  "sparse_nnz": 15169,
+  "build_seconds": 0.5228364309987228,
+  "total_seconds": 0.5628450709991739,
+  "peak_process_rss_kib": 82924,
+  "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+  "relative_form_bound": {
+    "alpha": "87/100",
+    "B": "1704917819/12500000000",
+    "second_shift_lower": "9170082181/12500000000",
+    "local_certificate": {
+      "spin": "1",
+      "coupling": "1/100",
+      "a": "13/400",
+      "b": "1704917819/200000000000",
+      "local_dimension": 81,
+      "exact_inertia": [
+        0,
+        0,
+        81
+      ],
+      "kind": "bilayer",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+    "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+  },
+  "trial_artifact": "bilayer_s1_4x2_g1d100_k1d100_q2_trial.npz",
+  "weak_bonds": [
+    [
+      0,
+      0,
+      2,
+      0,
+      "1/100"
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      "1/100"
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      "1/100"
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      "1/100"
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      "1/100"
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      "1/100"
+    ],
+    [
+      1,
+      1,
+      3,
+      1,
+      "1/100"
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      "1/100"
+    ],
+    [
+      2,
+      0,
+      4,
+      0,
+      "1/100"
+    ],
+    [
+      2,
+      0,
+      3,
+      0,
+      "1/100"
+    ],
+    [
+      2,
+      1,
+      4,
+      1,
+      "1/100"
+    ],
+    [
+      2,
+      1,
+      3,
+      1,
+      "1/100"
+    ],
+    [
+      3,
+      0,
+      5,
+      0,
+      "1/100"
+    ],
+    [
+      3,
+      0,
+      2,
+      0,
+      "1/100"
+    ],
+    [
+      3,
+      1,
+      5,
+      1,
+      "1/100"
+    ],
+    [
+      3,
+      1,
+      2,
+      1,
+      "1/100"
+    ],
+    [
+      4,
+      0,
+      6,
+      0,
+      "1/100"
+    ],
+    [
+      4,
+      0,
+      5,
+      0,
+      "1/100"
+    ],
+    [
+      4,
+      1,
+      6,
+      1,
+      "1/100"
+    ],
+    [
+      4,
+      1,
+      5,
+      1,
+      "1/100"
+    ],
+    [
+      5,
+      0,
+      7,
+      0,
+      "1/100"
+    ],
+    [
+      5,
+      0,
+      4,
+      0,
+      "1/100"
+    ],
+    [
+      5,
+      1,
+      7,
+      1,
+      "1/100"
+    ],
+    [
+      5,
+      1,
+      4,
+      1,
+      "1/100"
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      "1/100"
+    ],
+    [
+      6,
+      0,
+      7,
+      0,
+      "1/100"
+    ],
+    [
+      6,
+      1,
+      0,
+      1,
+      "1/100"
+    ],
+    [
+      6,
+      1,
+      7,
+      1,
+      "1/100"
+    ],
+    [
+      7,
+      0,
+      1,
+      0,
+      "1/100"
+    ],
+    [
+      7,
+      0,
+      6,
+      0,
+      "1/100"
+    ],
+    [
+      7,
+      1,
+      1,
+      1,
+      "1/100"
+    ],
+    [
+      7,
+      1,
+      6,
+      1,
+      "1/100"
+    ]
+  ]
+}

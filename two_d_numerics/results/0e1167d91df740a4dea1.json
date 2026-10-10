@@ -1,0 +1,179 @@
+{
+  "model": {
+    "spin": 1.0,
+    "nsites": 8,
+    "edges": [
+      {
+        "i": 0,
+        "j": 2,
+        "coupling": 0.1,
+        "kind": "x"
+      },
+      {
+        "i": 0,
+        "j": 1,
+        "coupling": 0.1,
+        "kind": "y"
+      },
+      {
+        "i": 1,
+        "j": 3,
+        "coupling": 0.1,
+        "kind": "x"
+      },
+      {
+        "i": 1,
+        "j": 0,
+        "coupling": 0.1,
+        "kind": "y"
+      },
+      {
+        "i": 2,
+        "j": 4,
+        "coupling": 0.1,
+        "kind": "x"
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "coupling": 0.1,
+        "kind": "y"
+      },
+      {
+        "i": 3,
+        "j": 5,
+        "coupling": 0.1,
+        "kind": "x"
+      },
+      {
+        "i": 3,
+        "j": 2,
+        "coupling": 0.1,
+        "kind": "y"
+      },
+      {
+        "i": 4,
+        "j": 6,
+        "coupling": 0.1,
+        "kind": "x"
+      },
+      {
+        "i": 4,
+        "j": 5,
+        "coupling": 0.1,
+        "kind": "y"
+      },
+      {
+        "i": 5,
+        "j": 7,
+        "coupling": 0.1,
+        "kind": "x"
+      },
+      {
+        "i": 5,
+        "j": 4,
+        "coupling": 0.1,
+        "kind": "y"
+      },
+      {
+        "i": 6,
+        "j": 0,
+        "coupling": 0.1,
+        "kind": "x"
+      },
+      {
+        "i": 6,
+        "j": 7,
+        "coupling": 0.1,
+        "kind": "y"
+      },
+      {
+        "i": 7,
+        "j": 1,
+        "coupling": 0.1,
+        "kind": "x"
+      },
+      {
+        "i": 7,
+        "j": 6,
+        "coupling": 0.1,
+        "kind": "y"
+      }
+    ],
+    "label": "largeD_4x2_gx0.1_gy0.1_D1",
+    "geometry": {
+      "family": "large_d",
+      "nx": 4,
+      "ny": 2,
+      "periodic_x": true,
+      "periodic_y": true,
+      "periodic_convention": "multigraph",
+      "D": 1.0,
+      "gx": 0.1,
+      "gy": 0.1
+    },
+    "single_ion": 1.0,
+    "dimension": 6561,
+    "edge_counts": {
+      "x": 8,
+      "y": 8
+    },
+    "total_coupling": 1.6
+  },
+  "fingerprint": "0e1167d91df740a4dea1",
+  "method": "all nonnegative Sz dense blocks, negative Sz by spin reversal",
+  "certified": false,
+  "sectors": [
+    [
+      0,
+      1107,
+      1
+    ],
+    [
+      2,
+      1016,
+      2
+    ],
+    [
+      4,
+      784,
+      2
+    ],
+    [
+      6,
+      504,
+      2
+    ],
+    [
+      8,
+      266,
+      2
+    ],
+    [
+      10,
+      112,
+      2
+    ],
+    [
+      12,
+      36,
+      2
+    ],
+    [
+      14,
+      8,
+      2
+    ],
+    [
+      16,
+      1,
+      2
+    ]
+  ],
+  "seconds": 0.6308655929997258,
+  "E0": -0.2674306961646735,
+  "gap": 0.612675508175438,
+  "ground_degeneracy": 1,
+  "dimension": 6561,
+  "max_rss_kib": 71536
+}

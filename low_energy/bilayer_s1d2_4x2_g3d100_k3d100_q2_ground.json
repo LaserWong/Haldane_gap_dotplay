@@ -1,0 +1,278 @@
+{
+  "status": "exact_rational_sparse_support_ground_certificate",
+  "s": "1/2",
+  "N_dimers": 8,
+  "physical_sites": 16,
+  "full_dimension": 65536,
+  "retained_states": 1,
+  "trial_subspace_dimension": 93,
+  "reached_support_dimension": 1301,
+  "trial_max_excited_dimers": 2,
+  "E00": "-6",
+  "Vmin": "-18/25",
+  "Vmax": "6/25",
+  "second_eigenvalue_lower": "-333436269667/62500000000",
+  "ground_lower": "-72454828060050392415389950041256225843/12058882355829705331532093901805788900",
+  "ground_upper": "-1721735113140444290647783471/286560194279022517642933300",
+  "ground_lower_display": -6.0084198453949655,
+  "ground_upper_display": -6.008284289003509,
+  "ground_width_display": 0.00013555639145598322,
+  "exact_rayleigh": "-1721735113140444290647783471/286560194279022517642933300",
+  "exact_residual_squared": "2997939708464286846047113246966013439589823579137/32846697978092451860043337482368569868638171299556000",
+  "exact_residual_squared_display": 9.127065711335133e-05,
+  "integer_matrix_denominator": 800,
+  "sparse_nnz": 2505,
+  "build_seconds": 0.0570917120003287,
+  "total_seconds": 0.06198122299974784,
+  "peak_process_rss_kib": 77952,
+  "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+  "relative_form_bound": {
+    "alpha": "41/50",
+    "B": "9686269667/62500000000",
+    "second_shift_lower": "41563730333/62500000000",
+    "local_certificate": {
+      "spin": "1/2",
+      "coupling": "3/100",
+      "a": "9/200",
+      "b": "9686269667/1000000000000",
+      "local_dimension": 16,
+      "exact_inertia": [
+        0,
+        0,
+        16
+      ],
+      "kind": "bilayer",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+    "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+  },
+  "trial_artifact": "bilayer_s1d2_4x2_g3d100_k3d100_q2_trial.npz",
+  "weak_bonds": [
+    [
+      0,
+      0,
+      2,
+      0,
+      "3/100"
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      "3/100"
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      "3/100"
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      "3/100"
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      "3/100"
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      "3/100"
+    ],
+    [
+      1,
+      1,
+      3,
+      1,
+      "3/100"
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      "3/100"
+    ],
+    [
+      2,
+      0,
+      4,
+      0,
+      "3/100"
+    ],
+    [
+      2,
+      0,
+      3,
+      0,
+      "3/100"
+    ],
+    [
+      2,
+      1,
+      4,
+      1,
+      "3/100"
+    ],
+    [
+      2,
+      1,
+      3,
+      1,
+      "3/100"
+    ],
+    [
+      3,
+      0,
+      5,
+      0,
+      "3/100"
+    ],
+    [
+      3,
+      0,
+      2,
+      0,
+      "3/100"
+    ],
+    [
+      3,
+      1,
+      5,
+      1,
+      "3/100"
+    ],
+    [
+      3,
+      1,
+      2,
+      1,
+      "3/100"
+    ],
+    [
+      4,
+      0,
+      6,
+      0,
+      "3/100"
+    ],
+    [
+      4,
+      0,
+      5,
+      0,
+      "3/100"
+    ],
+    [
+      4,
+      1,
+      6,
+      1,
+      "3/100"
+    ],
+    [
+      4,
+      1,
+      5,
+      1,
+      "3/100"
+    ],
+    [
+      5,
+      0,
+      7,
+      0,
+      "3/100"
+    ],
+    [
+      5,
+      0,
+      4,
+      0,
+      "3/100"
+    ],
+    [
+      5,
+      1,
+      7,
+      1,
+      "3/100"
+    ],
+    [
+      5,
+      1,
+      4,
+      1,
+      "3/100"
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      "3/100"
+    ],
+    [
+      6,
+      0,
+      7,
+      0,
+      "3/100"
+    ],
+    [
+      6,
+      1,
+      0,
+      1,
+      "3/100"
+    ],
+    [
+      6,
+      1,
+      7,
+      1,
+      "3/100"
+    ],
+    [
+      7,
+      0,
+      1,
+      0,
+      "3/100"
+    ],
+    [
+      7,
+      0,
+      6,
+      0,
+      "3/100"
+    ],
+    [
+      7,
+      1,
+      1,
+      1,
+      "3/100"
+    ],
+    [
+      7,
+      1,
+      6,
+      1,
+      "3/100"
+    ]
+  ]
+}

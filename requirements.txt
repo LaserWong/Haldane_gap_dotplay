@@ -1,0 +1,6 @@
+# Minimal bootstrap dependencies from COMPUTE_ENVIRONMENT.json.
+# Use Python 3.12 (archived interpreter: 3.12.14).
+# C++ programs additionally require a C++ compiler and GMP.
+numpy==2.3.5
+scipy==1.17.0
+sympy==1.14.0

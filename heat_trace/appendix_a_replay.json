@@ -1,0 +1,151 @@
+{
+  "schema": "appendix-a-computational-replay-v1",
+  "status": "reconstructed_appendix_a_route_complete",
+  "physical_thermal_inputs": [
+    {
+      "L": 6,
+      "twist": "I",
+      "certificate": "results/A_L6_I_full/certificate.json",
+      "sha256": "a486dfc4fc3c0d3940a0d565c3bcf89014b3cfddec7bb5572edd0378309886ca",
+      "within_required_interval": true
+    },
+    {
+      "L": 6,
+      "twist": "P",
+      "certificate": "results/A_L6_P_full/certificate.json",
+      "sha256": "87529c20b684d78fc3264644c2a71f5cf287883ee5d6aac8b171d30b9588b4a6",
+      "within_required_interval": true
+    },
+    {
+      "L": 6,
+      "twist": "C",
+      "certificate": "results/A_L6_C_full/certificate.json",
+      "sha256": "f6c42d907eefc197a6d2337d43a08e0a60f50a5be0f2d62385bbb3402502cdf7",
+      "within_required_interval": true
+    },
+    {
+      "L": 8,
+      "twist": "I",
+      "certificate": "results/A_L8_I_full/certificate.json",
+      "sha256": "30db12e7efe352b07b8832e018cda513ab0c5f70071ffb3b2497c83656d8cfc3",
+      "within_required_interval": true
+    },
+    {
+      "L": 8,
+      "twist": "P",
+      "certificate": "results/A_L8_P_full/certificate.json",
+      "sha256": "50ceb571ff5b4c526b4f976f15432ec3aab0d9cfbd2a92eb3a1817a4c9513dad",
+      "within_required_interval": true
+    },
+    {
+      "L": 8,
+      "twist": "C",
+      "certificate": "results/A_L8_C_full/certificate.json",
+      "sha256": "44a9d81ced576df53e77ad924b04f27e43b5665802d3b48a6366e27f8a8b2bb5",
+      "within_required_interval": true
+    },
+    {
+      "L": 10,
+      "twist": "I",
+      "certificate": "results/A_L10_I_full/certificate.json",
+      "sha256": "a4aa87a735ca4fd01b7549cbf52434dc829600b449a38a2c6fd08c6d1a4bfb8e",
+      "within_required_interval": true
+    },
+    {
+      "L": 10,
+      "twist": "P",
+      "certificate": "results/A_L10_P_full/certificate.json",
+      "sha256": "0512d2da0c23eff52804b723fc6ddfa4a5577f2cef57ae330f0573226a2141d6",
+      "within_required_interval": true
+    },
+    {
+      "L": 10,
+      "twist": "C",
+      "certificate": "results/A_L10_C_full/certificate.json",
+      "sha256": "7a104522cfa55ff74d82814ee131fc70b364d0fed43a84252c8c74fac5676093",
+      "within_required_interval": true
+    }
+  ],
+  "scalar_source_sha256": "700d15e4857613eafbcf10cdd2aa3a12340f31727c587d43e3a7c1d4206a2b58",
+  "spatial_purity_lower": "62001498001/70810274404",
+  "thermal_purity_lower": "6250000/7134241",
+  "seed": {
+    "n": 60,
+    "beta": "105/4",
+    "S_lower": "62001498001/70810274404",
+    "T_lower": "6250000/7134241"
+  },
+  "bootstrap": {
+    "status": "accepted_conditional_scalar_seed",
+    "physical_inputs_verified": false,
+    "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+    "input": {
+      "S_lower": "62001498001/70810274404",
+      "T_lower": "6250000/7134241",
+      "n": 60,
+      "beta": "105/4"
+    },
+    "rounding_decimal_digits": 12,
+    "updates": [
+      {
+        "round": 1,
+        "p_upper": "119495546169/1000000000000",
+        "q_upper": "23021110479/200000000000"
+      },
+      {
+        "round": 2,
+        "p_upper": "104709717301/1000000000000",
+        "q_upper": "18185017813/200000000000"
+      },
+      {
+        "round": 3,
+        "p_upper": "34665660597/500000000000",
+        "q_upper": "22527941129/500000000000"
+      },
+      {
+        "round": 4,
+        "p_upper": "21843726243/1000000000000",
+        "q_upper": "1465988793/200000000000"
+      },
+      {
+        "round": 5,
+        "p_upper": "1398110379/1000000000000",
+        "q_upper": "32981341/250000000000"
+      }
+    ],
+    "rounds": 5,
+    "final_n": 1920,
+    "final_beta": "840",
+    "final_p": "1398110379/1000000000000",
+    "final_q": "32981341/250000000000",
+    "final_common_u": "1398110379/1000000000000",
+    "conditional_gap_lower_rational": "5908566393/1000000000000",
+    "conditional_scope": "every even periodic L >= 1920, only if all analytic/physical premises hold"
+  },
+  "fresh_mps_anchor": {
+    "path": "audit/mps/contraction.out",
+    "sha256": "ce22b3557dfad10c9a8addae37b75e68e4e09e5fd8f94cfcf6e035a6ab876522",
+    "byte_identical_to_archived_totals": true,
+    "V120_positive": true,
+    "energy_strictly_below_minus_a": true,
+    "U120": "-19542706761566343962784124355127533489581877944333863985674224118161116611276395415891174104133363097896404181491651150235341325237811546107080866406225445556440084562813055932945614900394715983172545721542884707078464000735128922518395336558335213672464264151938164170997243559304025547538808628791753764849809506716937096380963985960983156517766112323920465982480735688958825290480803336441090098027755824413243232733820551685226943314072721805028428276146604016137498138715071656893117615686306695968858925555127205624954335638917216690724318294699754117956008892741534465053172320408771901813645158781433000866908739478075015303720585851018986720",
+    "V120": "13944314158153609958620832464301013189594531861347318845648850285469997630628393561565521053551099428613417576794920986861669064009519172397658830641001696524401613462661486262948615315839219354923159807578753818754758503258399868898746046322797449279972805948382358631145139658306715735628519227413223820299878227730513908679679908248526936981080251673500297649577026049976488497616626030376236063495609992803404203045812478819414686366070405171802328407222304369817187587219150521928381187161414342112281731503402583310842717392389740708279466670541905658120971151748567645073412813658546207868841248839047332122318174615026456950084761376845173008",
+    "positive_integer_margin": "733284453185378141415697010461301277121114550437618291061190026695954026575220602263480230584242207244564975847863237821035811298668432586560906552954014331261967655421087931805160867581598062934048898823831203772035770078727221465032884199430334708062893679715951345470350506482469340122459107009364147784180360501308374414394510563911823899524019960915978113033192838118932029527068671013643900670239571351720384593622218004918189819112020278727667937221658683222302001072559943046370476700478327049962137773180653931191198029051701697393167671546200657000523324192350197791748482622658602893837993633874729009741129253182200947153537629981201072"
+  },
+  "independently_reconstructed_analytic_bridge": {
+    "path": "audit/APPENDIX_A_BRIDGE.md",
+    "sha256": "7462c64abf1d5236cceb7fd000ef2cd9e551b12be667fb8cc6acb62c79b46d62",
+    "original_manuscript_pdf_directly_reviewed": false,
+    "proof_assistant_formalization": false
+  },
+  "theorem": {
+    "model": "spin-1 isotropic Heisenberg, bilinear coefficient 1, hbar=1",
+    "boundary": "periodic",
+    "parity": "even",
+    "minimum_length": 1920,
+    "ground_state": "unique",
+    "gap_lower_rational": "5908566393/1000000000000",
+    "analytic_basis": "Independent transfer/A4/cooling/MPS/dominance/sequential-recursion/interpolation proof linked above"
+  },
+  "interpretation": "All nine Appendix A physical heat inputs, rebuilt N120 MPS anchor, and scalar comparisons are freshly checked. Together with the independently reconstructed analytic bridge they establish the stated even-length uniform bound. Appendix B larger inputs and the absent manuscript PDF are not claimed fully audited."
+}

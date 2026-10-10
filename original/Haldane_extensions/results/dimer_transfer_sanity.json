@@ -1,0 +1,46 @@
+{
+  "s": 0.5,
+  "g": 0.03,
+  "physical_lengths": [
+    4,
+    8
+  ],
+  "beta": 6,
+  "S": 0.9979438667977251,
+  "T": 0.9423887149767968,
+  "scalar": {
+    "status": "accepted_conditional_scalar_seed",
+    "physical_inputs_verified": false,
+    "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+    "input": {
+      "S_lower": "997943866797/1000000000000",
+      "T_lower": "29449647343/31250000000",
+      "n": 2,
+      "beta": "6"
+    },
+    "rounding_decimal_digits": 12,
+    "updates": [
+      {
+        "round": 1,
+        "p_upper": "536451697/250000000000",
+        "q_upper": "412325523/50000000000"
+      }
+    ],
+    "rounds": 1,
+    "final_n": 4,
+    "final_beta": "12",
+    "final_p": "536451697/250000000000",
+    "final_q": "412325523/50000000000",
+    "final_common_u": "412325523/50000000000",
+    "conditional_gap_lower_rational": "132855301259/500000000000",
+    "conditional_scope": "every even periodic L >= 4, only if all analytic/physical premises hold"
+  },
+  "odd_cell_check": {
+    "cells": 5,
+    "physical_sites": 10,
+    "beta": 12.0,
+    "T": 0.9998140288219696,
+    "bound": 0.96701395816
+  },
+  "status": "floating_physical_sanity_check_only"
+}

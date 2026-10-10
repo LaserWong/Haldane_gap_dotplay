@@ -1,0 +1,96 @@
+{
+  "status": "floating_diagnostics_only",
+  "analytic_proofs": "THEORY.md Section 7",
+  "strip_gap_counterexample": [
+    {
+      "L": 3,
+      "W": 1,
+      "matrix_dimension": 8,
+      "computed_gap": 1.9999999999999982,
+      "analytic_gap": 1.9999999999999998,
+      "ground_degeneracy_diagnostic": 1
+    },
+    {
+      "L": 3,
+      "W": 2,
+      "matrix_dimension": 64,
+      "computed_gap": 1.0000000000000004,
+      "analytic_gap": 0.9999999999999998,
+      "ground_degeneracy_diagnostic": 1
+    },
+    {
+      "L": 3,
+      "W": 3,
+      "matrix_dimension": 512,
+      "computed_gap": 0.5857864376269059,
+      "analytic_gap": 0.5857864376269049,
+      "ground_degeneracy_diagnostic": 1
+    }
+  ],
+  "width_purity_obstruction": [
+    {
+      "W": 1,
+      "S_x": 0.960755855074802,
+      "one_row_S": 0.960755855074802,
+      "beta": 1.25,
+      "n": 2,
+      "J": 0.4
+    },
+    {
+      "W": 2,
+      "S_x": 0.9230518130605139,
+      "one_row_S": 0.960755855074802,
+      "beta": 1.25,
+      "n": 2,
+      "J": 0.4
+    },
+    {
+      "W": 4,
+      "S_x": 0.8520246495943019,
+      "one_row_S": 0.960755855074802,
+      "beta": 1.25,
+      "n": 2,
+      "J": 0.4
+    },
+    {
+      "W": 8,
+      "S_x": 0.725946003516293,
+      "one_row_S": 0.960755855074802,
+      "beta": 1.25,
+      "n": 2,
+      "J": 0.4
+    },
+    {
+      "W": 16,
+      "S_x": 0.5269976000212777,
+      "one_row_S": 0.960755855074802,
+      "beta": 1.25,
+      "n": 2,
+      "J": 0.4
+    },
+    {
+      "W": 32,
+      "S_x": 0.2777264704281866,
+      "one_row_S": 0.960755855074802,
+      "beta": 1.25,
+      "n": 2,
+      "J": 0.4
+    },
+    {
+      "W": 64,
+      "S_x": 0.07713199237649841,
+      "one_row_S": 0.960755855074802,
+      "beta": 1.25,
+      "n": 2,
+      "J": 0.4
+    },
+    {
+      "W": 128,
+      "S_x": 0.005949344247968208,
+      "one_row_S": 0.960755855074802,
+      "beta": 1.25,
+      "n": 2,
+      "J": 0.4
+    }
+  ]
+}

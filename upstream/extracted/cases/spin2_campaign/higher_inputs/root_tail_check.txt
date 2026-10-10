@@ -1,0 +1,31 @@
+{
+  "n": 10,
+  "beta": "8",
+  "shift": "5951/1250",
+  "integer_rows_verified": 223438,
+  "tails": {
+    "5": {
+      "upper": "10899/100000000000",
+      "upper_display": 1.0899e-07,
+      "covers": "All states in |M| >= 5, arbitrary z twist"
+    },
+    "6": {
+      "upper": "7669/50000000000000000000",
+      "upper_display": 1.5338e-16,
+      "covers": "All states in |M| >= 6, arbitrary z twist"
+    },
+    "7": {
+      "upper": "15889/2500000000000000000000000000000",
+      "upper_display": 6.3556e-27,
+      "covers": "All states in |M| >= 7, arbitrary z twist"
+    },
+    "8": {
+      "upper": "86887/10000000000000000000000000000000000000000000",
+      "upper_display": 8.6887e-39,
+      "covers": "All states in |M| >= 8, arbitrary z twist"
+    }
+  },
+  "same_sector_ritz_completeness_verified": false,
+  "uniform_gap_proved": false,
+  "exp_bound": "Exact reciprocal positive Taylor sum; outward decimal rational endpoint"
+}

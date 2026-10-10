@@ -1,0 +1,87 @@
+{
+  "status": "PASS: independent graph, rung basis, full sparse-support residual, full-space Weyl/Temple, heat traces and 3-purity replay",
+  "source_sha256": "48937c174c042c1dff385e1849f23c5b9d3c10831d2990e3e26e92d3730a62e4",
+  "ground_checks": [
+    {
+      "nx": 2,
+      "ny": 2,
+      "full_dimension": 256,
+      "trial_dimension": 23,
+      "full_residual_support": 58,
+      "exact_matrix_nonzeros": 179,
+      "exact_rayleigh_matches": true,
+      "full_residual_matches": true,
+      "Temple_interval_matches": true,
+      "full_space_second_energy_bound": "-53/25",
+      "input_sha256": "cae8ca7b79ef5552348c08e4214ef3da5ae534a8391baa84de0373f867245b18",
+      "seconds": 0.03574409199973161
+    },
+    {
+      "nx": 4,
+      "ny": 2,
+      "full_dimension": 65536,
+      "trial_dimension": 93,
+      "full_residual_support": 1301,
+      "exact_matrix_nonzeros": 2505,
+      "exact_rayleigh_matches": true,
+      "full_residual_matches": true,
+      "Temple_interval_matches": true,
+      "full_space_second_energy_bound": "-131/25",
+      "input_sha256": "e1866704801189967a35963809df1a621bec98ed0b8eeefbc82d3e576f2d6196",
+      "seconds": 0.054805949999717996
+    },
+    {
+      "nx": 4,
+      "ny": 4,
+      "full_dimension": 4294967296,
+      "trial_dimension": 377,
+      "full_residual_support": 21345,
+      "exact_matrix_nonzeros": 31001,
+      "exact_rayleigh_matches": true,
+      "full_residual_matches": true,
+      "Temple_interval_matches": true,
+      "full_space_second_energy_bound": "-287/25",
+      "input_sha256": "4da822eea93a5da4b9b1b5b8a621da06d0fee5eabb7b7377a524e014f18097ab",
+      "seconds": 0.5897714550010278
+    }
+  ],
+  "seed_checks": [
+    {
+      "beta": "12",
+      "A": "99572822058279/100000000000000",
+      "B": "246885997895149/250000000000000",
+      "C": "209528647514517/250000000000000",
+      "independent_rounds_match": true,
+      "accepted": false,
+      "gap_lower": null
+    },
+    {
+      "beta": "16",
+      "A": "995109578038337/1000000000000000",
+      "B": "990010824392409/1000000000000000",
+      "C": "488655060070063/500000000000000",
+      "independent_rounds_match": true,
+      "accepted": true,
+      "gap_lower": "67495885317/1000000000000"
+    },
+    {
+      "beta": "20",
+      "A": "993912845069751/1000000000000000",
+      "B": "15434738712579/15625000000000",
+      "C": "62310863469853/62500000000000",
+      "independent_rounds_match": true,
+      "accepted": true,
+      "gap_lower": "36475266981/500000000000"
+    },
+    {
+      "beta": "24",
+      "A": "49635024684421/50000000000000",
+      "B": "6158869931191/6250000000000",
+      "C": "999428290372851/1000000000000000",
+      "independent_rounds_match": true,
+      "accepted": true,
+      "gap_lower": "31963962499/500000000000"
+    }
+  ],
+  "transfer_and_interpolation": "Hand-derived independently; see audit/BILAYER_PHYSICAL_PROOF.md"
+}

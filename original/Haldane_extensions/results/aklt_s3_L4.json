@@ -1,0 +1,31 @@
+{
+  "s": 3,
+  "L": 4,
+  "local_projectors": "sum_(J=4)^6 P_J",
+  "dimension": 2401,
+  "ground_space_dimension": 16,
+  "M0_zero_count": 4,
+  "gap": 0.029667296838022862,
+  "knabe_threshold": 0.3333333333333333,
+  "gosset_mozgunov_threshold": 0.3,
+  "passes_Knabe_float": false,
+  "passes_GM_float": false,
+  "max_residual": 2.4416854752420384e-15,
+  "blocks": [
+    {
+      "M": 0,
+      "block_dimension": 231,
+      "lowest_eigenvalues": [
+        -1.7483213313004868e-15,
+        -1.7483213313004868e-15,
+        1.3900992801235493e-16,
+        3.2845620268670913e-15,
+        0.029667296838022862,
+        0.029905655621217185,
+        0.042443335002816884
+      ],
+      "max_residual": 2.4416854752420384e-15
+    }
+  ],
+  "status": "floating_low_spectrum_diagnostic"
+}

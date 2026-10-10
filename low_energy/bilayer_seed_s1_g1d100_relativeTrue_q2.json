@@ -1,0 +1,1092 @@
+{
+  "status": "exact_rational_physical_heat_trace_inputs_and_three_purity_replay",
+  "spin": "1",
+  "g": "1/100",
+  "graph": "Square bilayer, unit AF rungs, positive equal x/y AF intralayer coupling, periodic with two parallel bonds in length-2 directions",
+  "ground_certificates": [
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 4,
+      "physical_sites": 8,
+      "full_dimension": 6561,
+      "retained_states": 1,
+      "trial_subspace_dimension": 93,
+      "reached_support_dimension": 480,
+      "trial_max_excited_dimers": 2,
+      "E00": "-8",
+      "Vmin": "-8/25",
+      "Vmax": "4/25",
+      "second_eigenvalue_lower": "-897915026223/125000000000",
+      "ground_lower": "-57199637138484220384613792579326116387176/7146085705117031161376299769097375450025",
+      "ground_upper": "-79624702702540990617241741784/9947732458543342522245698975",
+      "ground_lower_display": -8.004331251936401,
+      "ground_upper_display": -8.004306814077761,
+      "ground_width_display": 2.4437858639772158e-05,
+      "exact_rayleigh": "-79624702702540990617241741784/9947732458543342522245698975",
+      "exact_residual_squared": "13897780632827978234683973891797522370505261157634068/692701667467297416971038322098429852898632985204212354375",
+      "exact_residual_squared_display": 2.006315458087748e-05,
+      "integer_matrix_denominator": 3600,
+      "sparse_nnz": 1285,
+      "build_seconds": 0.35303341899998486,
+      "total_seconds": 0.35862789200109546,
+      "peak_process_rss_kib": 80108,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "23/25",
+        "B": "12915026223/125000000000",
+        "second_shift_lower": "102084973777/125000000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "1/100",
+          "a": "1/50",
+          "b": "12915026223/1000000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "bilayer_s1_2x2_g1d100_k1d100_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          2,
+          0,
+          "1/100"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "1/100"
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          "1/100"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "1/100"
+        ],
+        [
+          1,
+          0,
+          3,
+          0,
+          "1/100"
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          "1/100"
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          "1/100"
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          "1/100"
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          "1/100"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "1/100"
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          "1/100"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "1/100"
+        ],
+        [
+          3,
+          0,
+          1,
+          0,
+          "1/100"
+        ],
+        [
+          3,
+          0,
+          2,
+          0,
+          "1/100"
+        ],
+        [
+          3,
+          1,
+          1,
+          1,
+          "1/100"
+        ],
+        [
+          3,
+          1,
+          2,
+          1,
+          "1/100"
+        ]
+      ]
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 8,
+      "physical_sites": 16,
+      "full_dimension": 43046721,
+      "retained_states": 1,
+      "trial_subspace_dimension": 409,
+      "reached_support_dimension": 9765,
+      "trial_max_excited_dimers": 2,
+      "E00": "-16",
+      "Vmin": "-16/25",
+      "Vmax": "8/25",
+      "second_eigenvalue_lower": "-190829917819/12500000000",
+      "ground_lower": "-30932113331448318370015873249728102996511/1932468846355136645670490973314422327075",
+      "ground_upper": "-1114594484396974915732470468977/69634127209799380565365044525",
+      "ground_lower_display": -16.006526257740155,
+      "ground_upper_display": -16.00644007555137,
+      "ground_width_display": 8.61821887840527e-05,
+      "exact_rayleigh": "-1114594484396974915732470468977/69634127209799380565365044525",
+      "exact_residual_squared": "309257962214508309309987103230506370298326193997875487/4848911672270522465635702709239881299672422570755232475625",
+      "exact_residual_squared_display": 6.377884010200933e-05,
+      "integer_matrix_denominator": 3600,
+      "sparse_nnz": 15169,
+      "build_seconds": 0.5228364309987228,
+      "total_seconds": 0.5628450709991739,
+      "peak_process_rss_kib": 82924,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "87/100",
+        "B": "1704917819/12500000000",
+        "second_shift_lower": "9170082181/12500000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "1/100",
+          "a": "13/400",
+          "b": "1704917819/200000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "bilayer_s1_4x2_g1d100_k1d100_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          2,
+          0,
+          "1/100"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "1/100"
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          "1/100"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "1/100"
+        ],
+        [
+          1,
+          0,
+          3,
+          0,
+          "1/100"
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          "1/100"
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          "1/100"
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          "1/100"
+        ],
+        [
+          2,
+          0,
+          4,
+          0,
+          "1/100"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "1/100"
+        ],
+        [
+          2,
+          1,
+          4,
+          1,
+          "1/100"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "1/100"
+        ],
+        [
+          3,
+          0,
+          5,
+          0,
+          "1/100"
+        ],
+        [
+          3,
+          0,
+          2,
+          0,
+          "1/100"
+        ],
+        [
+          3,
+          1,
+          5,
+          1,
+          "1/100"
+        ],
+        [
+          3,
+          1,
+          2,
+          1,
+          "1/100"
+        ],
+        [
+          4,
+          0,
+          6,
+          0,
+          "1/100"
+        ],
+        [
+          4,
+          0,
+          5,
+          0,
+          "1/100"
+        ],
+        [
+          4,
+          1,
+          6,
+          1,
+          "1/100"
+        ],
+        [
+          4,
+          1,
+          5,
+          1,
+          "1/100"
+        ],
+        [
+          5,
+          0,
+          7,
+          0,
+          "1/100"
+        ],
+        [
+          5,
+          0,
+          4,
+          0,
+          "1/100"
+        ],
+        [
+          5,
+          1,
+          7,
+          1,
+          "1/100"
+        ],
+        [
+          5,
+          1,
+          4,
+          1,
+          "1/100"
+        ],
+        [
+          6,
+          0,
+          0,
+          0,
+          "1/100"
+        ],
+        [
+          6,
+          0,
+          7,
+          0,
+          "1/100"
+        ],
+        [
+          6,
+          1,
+          0,
+          1,
+          "1/100"
+        ],
+        [
+          6,
+          1,
+          7,
+          1,
+          "1/100"
+        ],
+        [
+          7,
+          0,
+          1,
+          0,
+          "1/100"
+        ],
+        [
+          7,
+          0,
+          6,
+          0,
+          "1/100"
+        ],
+        [
+          7,
+          1,
+          1,
+          1,
+          "1/100"
+        ],
+        [
+          7,
+          1,
+          6,
+          1,
+          "1/100"
+        ]
+      ]
+    },
+    {
+      "status": "exact_rational_sparse_support_ground_certificate",
+      "s": "1",
+      "N_dimers": 16,
+      "physical_sites": 32,
+      "full_dimension": 1853020188851841,
+      "retained_states": 1,
+      "trial_subspace_dimension": 1713,
+      "reached_support_dimension": 133145,
+      "trial_max_excited_dimers": 2,
+      "E00": "-32",
+      "Vmin": "-32/25",
+      "Vmax": "16/25",
+      "second_eigenvalue_lower": "-980595737743/31250000000",
+      "ground_lower": "-131536921483740944919484118367618581482496/4109404512537451333223716304553650358075",
+      "ground_upper": "-742962451707407102348523604992/23211375736602217788307544275",
+      "ground_lower_display": -32.008754816527,
+      "ground_upper_display": -32.0085487451665,
+      "ground_width_display": 0.00020607136050097315,
+      "exact_rayleigh": "-742962451707407102348523604992/23211375736602217788307544275",
+      "exact_residual_squared": "628995287953629867908145336686963498833926268847521216/4848911672271535335734831714809639077090897397929767480625",
+      "exact_residual_squared_display": 0.00012971885867720269,
+      "integer_matrix_denominator": 3600,
+      "sparse_nnz": 165233,
+      "build_seconds": 1.804907218000153,
+      "total_seconds": 2.195067800999823,
+      "peak_process_rss_kib": 133636,
+      "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+      "relative_form_bound": {
+        "alpha": "81/100",
+        "B": "5908237743/31250000000",
+        "second_shift_lower": "19404262257/31250000000",
+        "local_certificate": {
+          "spin": "1",
+          "coupling": "1/100",
+          "a": "19/400",
+          "b": "5908237743/1000000000000",
+          "local_dimension": 81,
+          "exact_inertia": [
+            0,
+            0,
+            81
+          ],
+          "kind": "bilayer",
+          "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+          "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+        },
+        "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+        "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+      },
+      "trial_artifact": "bilayer_s1_4x4_g1d100_k1d100_q2_trial.npz",
+      "weak_bonds": [
+        [
+          0,
+          0,
+          4,
+          0,
+          "1/100"
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          "1/100"
+        ],
+        [
+          0,
+          1,
+          4,
+          1,
+          "1/100"
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          "1/100"
+        ],
+        [
+          1,
+          0,
+          5,
+          0,
+          "1/100"
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          "1/100"
+        ],
+        [
+          1,
+          1,
+          5,
+          1,
+          "1/100"
+        ],
+        [
+          1,
+          1,
+          2,
+          1,
+          "1/100"
+        ],
+        [
+          2,
+          0,
+          6,
+          0,
+          "1/100"
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          "1/100"
+        ],
+        [
+          2,
+          1,
+          6,
+          1,
+          "1/100"
+        ],
+        [
+          2,
+          1,
+          3,
+          1,
+          "1/100"
+        ],
+        [
+          3,
+          0,
+          7,
+          0,
+          "1/100"
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          "1/100"
+        ],
+        [
+          3,
+          1,
+          7,
+          1,
+          "1/100"
+        ],
+        [
+          3,
+          1,
+          0,
+          1,
+          "1/100"
+        ],
+        [
+          4,
+          0,
+          8,
+          0,
+          "1/100"
+        ],
+        [
+          4,
+          0,
+          5,
+          0,
+          "1/100"
+        ],
+        [
+          4,
+          1,
+          8,
+          1,
+          "1/100"
+        ],
+        [
+          4,
+          1,
+          5,
+          1,
+          "1/100"
+        ],
+        [
+          5,
+          0,
+          9,
+          0,
+          "1/100"
+        ],
+        [
+          5,
+          0,
+          6,
+          0,
+          "1/100"
+        ],
+        [
+          5,
+          1,
+          9,
+          1,
+          "1/100"
+        ],
+        [
+          5,
+          1,
+          6,
+          1,
+          "1/100"
+        ],
+        [
+          6,
+          0,
+          10,
+          0,
+          "1/100"
+        ],
+        [
+          6,
+          0,
+          7,
+          0,
+          "1/100"
+        ],
+        [
+          6,
+          1,
+          10,
+          1,
+          "1/100"
+        ],
+        [
+          6,
+          1,
+          7,
+          1,
+          "1/100"
+        ],
+        [
+          7,
+          0,
+          11,
+          0,
+          "1/100"
+        ],
+        [
+          7,
+          0,
+          4,
+          0,
+          "1/100"
+        ],
+        [
+          7,
+          1,
+          11,
+          1,
+          "1/100"
+        ],
+        [
+          7,
+          1,
+          4,
+          1,
+          "1/100"
+        ],
+        [
+          8,
+          0,
+          12,
+          0,
+          "1/100"
+        ],
+        [
+          8,
+          0,
+          9,
+          0,
+          "1/100"
+        ],
+        [
+          8,
+          1,
+          12,
+          1,
+          "1/100"
+        ],
+        [
+          8,
+          1,
+          9,
+          1,
+          "1/100"
+        ],
+        [
+          9,
+          0,
+          13,
+          0,
+          "1/100"
+        ],
+        [
+          9,
+          0,
+          10,
+          0,
+          "1/100"
+        ],
+        [
+          9,
+          1,
+          13,
+          1,
+          "1/100"
+        ],
+        [
+          9,
+          1,
+          10,
+          1,
+          "1/100"
+        ],
+        [
+          10,
+          0,
+          14,
+          0,
+          "1/100"
+        ],
+        [
+          10,
+          0,
+          11,
+          0,
+          "1/100"
+        ],
+        [
+          10,
+          1,
+          14,
+          1,
+          "1/100"
+        ],
+        [
+          10,
+          1,
+          11,
+          1,
+          "1/100"
+        ],
+        [
+          11,
+          0,
+          15,
+          0,
+          "1/100"
+        ],
+        [
+          11,
+          0,
+          8,
+          0,
+          "1/100"
+        ],
+        [
+          11,
+          1,
+          15,
+          1,
+          "1/100"
+        ],
+        [
+          11,
+          1,
+          8,
+          1,
+          "1/100"
+        ],
+        [
+          12,
+          0,
+          0,
+          0,
+          "1/100"
+        ],
+        [
+          12,
+          0,
+          13,
+          0,
+          "1/100"
+        ],
+        [
+          12,
+          1,
+          0,
+          1,
+          "1/100"
+        ],
+        [
+          12,
+          1,
+          13,
+          1,
+          "1/100"
+        ],
+        [
+          13,
+          0,
+          1,
+          0,
+          "1/100"
+        ],
+        [
+          13,
+          0,
+          14,
+          0,
+          "1/100"
+        ],
+        [
+          13,
+          1,
+          1,
+          1,
+          "1/100"
+        ],
+        [
+          13,
+          1,
+          14,
+          1,
+          "1/100"
+        ],
+        [
+          14,
+          0,
+          2,
+          0,
+          "1/100"
+        ],
+        [
+          14,
+          0,
+          15,
+          0,
+          "1/100"
+        ],
+        [
+          14,
+          1,
+          2,
+          1,
+          "1/100"
+        ],
+        [
+          14,
+          1,
+          15,
+          1,
+          "1/100"
+        ],
+        [
+          15,
+          0,
+          3,
+          0,
+          "1/100"
+        ],
+        [
+          15,
+          0,
+          12,
+          0,
+          "1/100"
+        ],
+        [
+          15,
+          1,
+          3,
+          1,
+          "1/100"
+        ],
+        [
+          15,
+          1,
+          12,
+          1,
+          "1/100"
+        ]
+      ]
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "10",
+      "A_lower": "485833563113781/500000000000000",
+      "B_lower": "464253719883183/500000000000000",
+      "C_lower": "839724942927107/1000000000000000",
+      "A_lower_display": 0.971667126227562,
+      "B_lower_display": 0.928507439766366,
+      "C_lower_display": 0.839724942927107,
+      "tails_upper_display": [
+        0.003264969981553361,
+        0.014688898798581873,
+        0.0892052947468035
+      ],
+      "bootstrap": {
+        "input": {
+          "A_lower": "485833563113781/500000000000000",
+          "B_lower": "464253719883183/500000000000000",
+          "C_lower": "839724942927107/1000000000000000",
+          "n": 2,
+          "m": 2,
+          "beta": "10"
+        },
+        "updates": [],
+        "status": "bound_left_purity_domain",
+        "formal_proof_assistant_verified": false
+      }
+    },
+    {
+      "beta": "12",
+      "A_lower": "972454425186677/1000000000000000",
+      "B_lower": "941101317615457/1000000000000000",
+      "C_lower": "946880681894777/1000000000000000",
+      "A_lower_display": 0.972454425186677,
+      "B_lower_display": 0.941101317615457,
+      "C_lower_display": 0.946880681894777,
+      "tails_upper_display": [
+        0.0006318488265556571,
+        0.003338615929695059,
+        0.02519099137438653
+      ],
+      "bootstrap": {
+        "input": {
+          "A_lower": "972454425186677/1000000000000000",
+          "B_lower": "941101317615457/1000000000000000",
+          "C_lower": "946880681894777/1000000000000000",
+          "n": 2,
+          "m": 2,
+          "beta": "12"
+        },
+        "updates": [
+          {
+            "round": 1,
+            "defects": [
+              "55572152590015013/1000000000000000000",
+              "127790391183949717/1000000000000000000",
+              "179427134126987289/1000000000000000000"
+            ]
+          }
+        ],
+        "status": "bound_left_purity_domain",
+        "formal_proof_assistant_verified": false
+      }
+    },
+    {
+      "beta": "16",
+      "A_lower": "482510124622891/500000000000000",
+      "B_lower": "930153494975747/1000000000000000",
+      "C_lower": "197884538125871/200000000000000",
+      "A_lower_display": 0.965020249245782,
+      "B_lower_display": 0.930153494975747,
+      "C_lower_display": 0.989422690629355,
+      "tails_upper_display": [
+        2.368006039365672e-05,
+        0.0001729197209512393,
+        0.002028399432041893
+      ],
+      "bootstrap": {
+        "input": {
+          "A_lower": "482510124622891/500000000000000",
+          "B_lower": "930153494975747/1000000000000000",
+          "C_lower": "197884538125871/200000000000000",
+          "n": 2,
+          "m": 2,
+          "beta": "16"
+        },
+        "updates": [
+          {
+            "round": 1,
+            "defects": [
+              "3009987614409827/50000000000000000",
+              "20435117627663851/200000000000000000",
+              "24942043326831273/500000000000000000"
+            ]
+          }
+        ],
+        "status": "bound_left_purity_domain",
+        "formal_proof_assistant_verified": false
+      }
+    },
+    {
+      "beta": "20",
+      "A_lower": "956523099261027/1000000000000000",
+      "B_lower": "228461481499301/250000000000000",
+      "C_lower": "495734028977557/500000000000000",
+      "A_lower_display": 0.956523099261027,
+      "B_lower_display": 0.913845925997204,
+      "C_lower_display": 0.991468057955114,
+      "tails_upper_display": [
+        8.875283342891226e-07,
+        8.958758696644246e-06,
+        0.00016353236047096168
+      ],
+      "bootstrap": {
+        "input": {
+          "A_lower": "956523099261027/1000000000000000",
+          "B_lower": "228461481499301/250000000000000",
+          "C_lower": "495734028977557/500000000000000",
+          "n": 2,
+          "m": 2,
+          "beta": "20"
+        },
+        "updates": [
+          {
+            "round": 1,
+            "defects": [
+              "9801728242694409/100000000000000000",
+              "4761047413481719/25000000000000000",
+              "32630731646018163/200000000000000000"
+            ]
+          }
+        ],
+        "status": "bound_left_purity_domain",
+        "formal_proof_assistant_verified": false
+      }
+    }
+  ],
+  "total_seconds": 9.066633385000387
+}

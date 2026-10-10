@@ -1,0 +1,58 @@
+{
+  "source": "Unmodified original analytic_certificates.cert",
+  "result": {
+    "s": "1",
+    "g": "1/100",
+    "beta": "6",
+    "n_cells": 2,
+    "max_physical_seed_sites": 8,
+    "dimer_z_upper": "25185908317/25000000000",
+    "hoeffding_delta_n": "81/5000",
+    "S_lower": "242029814229/250000000000",
+    "T_lower": "827893665811/1000000000000",
+    "S_lower_display": 0.968119256916,
+    "T_lower_display": 0.827893665811,
+    "bootstrap": {
+      "status": "accepted_conditional_scalar_seed",
+      "physical_inputs_verified": false,
+      "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+      "input": {
+        "S_lower": "242029814229/250000000000",
+        "T_lower": "827893665811/1000000000000",
+        "n": 2,
+        "beta": "6"
+      },
+      "rounding_decimal_digits": 12,
+      "updates": [
+        {
+          "round": 1,
+          "p_upper": "8337492473/200000000000",
+          "q_upper": "17059778941/125000000000"
+        },
+        {
+          "round": 2,
+          "p_upper": "6811688223/200000000000",
+          "q_upper": "1885308373/25000000000"
+        },
+        {
+          "round": 3,
+          "p_upper": "791803011/62500000000",
+          "q_upper": "17073465221/1000000000000"
+        },
+        {
+          "round": 4,
+          "p_upper": "238122923/250000000000",
+          "q_upper": "324514831/500000000000"
+        }
+      ],
+      "rounds": 4,
+      "final_n": 32,
+      "final_beta": "96",
+      "final_p": "238122923/250000000000",
+      "final_q": "324514831/500000000000",
+      "final_common_u": "238122923/250000000000",
+      "conditional_gap_lower_rational": "27848912817/500000000000",
+      "conditional_scope": "every even periodic L >= 32, only if all analytic/physical premises hold"
+    }
+  }
+}

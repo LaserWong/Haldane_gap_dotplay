@@ -1,0 +1,15 @@
+# Python and tool caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python virtual environments
+.venv/
+venv/
+
+# Local temporary working directories
+/.tmp/
+/tmp/

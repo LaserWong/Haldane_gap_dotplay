@@ -1,0 +1,301 @@
+{
+  "status": "deterministic_exact_rational_certificates",
+  "model": {
+    "spin": "1/2",
+    "width": 2,
+    "g": "1/20",
+    "k": "1/20"
+  },
+  "ground_certificates": [
+    {
+      "status": "exact_rational_ground_and_dimer_tail_certificate",
+      "s": "1/2",
+      "M": 2,
+      "W": 2,
+      "physical_sites": 8,
+      "full_dimension": 256,
+      "retained_states": 1,
+      "ritz_sector_dimension": 70,
+      "sparse_nnz": 518,
+      "g": "1/20",
+      "k": "1/20",
+      "E00": "-3",
+      "Vmin": "-3/10",
+      "Vmax": "1/10",
+      "second_eigenvalue_lower": "-23/10",
+      "ground_lower": "-65432716931415365554482342689/21782979627970303664595741680",
+      "ground_upper": "-929645318868883578593921819/309485009821382844325201914",
+      "ground_lower_display": -3.003846032495797,
+      "ground_upper_display": -3.003846032495797,
+      "ground_width_display": 2.4934030762890765e-25,
+      "exact_rayleigh": "-929645318868883578593921819/309485009821382844325201914",
+      "exact_residual_squared": "840464548084529778399713495413/4789048565207071780576560175698666704844155843463169800",
+      "exact_residual_squared_display": 1.7549718626588813e-25,
+      "dyadic_vector_bits": 44,
+      "build_seconds": 0.05302827100058494,
+      "ritz_seconds": 0.015687213999626692,
+      "verification_seconds": 0.001140581000072416,
+      "total_seconds": 0.06985662599981879,
+      "peak_process_rss_kib": 48668,
+      "proof": {
+        "no_missed_state": "Weyl lambda_1 >= E00+1+Vmin > E00; dimer-product trial gives lambda_0 <= E00",
+        "ground_enclosure": "Temple: rho-residual_squared/(second_lower-rho) <= lambda_0 <= rho",
+        "omitted_spectrum": "Ordered Weyl bounds lambda_j(H)>=lambda_j(H0)+Vmin for every j>=1",
+        "exact_arithmetic": "Integer matrix; dyadic Ritz vector; Python integer dot products; Fraction endpoints"
+      }
+    },
+    {
+      "status": "exact_rational_ground_and_dimer_tail_certificate",
+      "s": "1/2",
+      "M": 4,
+      "W": 2,
+      "physical_sites": 16,
+      "full_dimension": 65536,
+      "retained_states": 1,
+      "ritz_sector_dimension": 12870,
+      "sparse_nnz": 174542,
+      "g": "1/20",
+      "k": "1/20",
+      "E00": "-6",
+      "Vmin": "-3/5",
+      "Vmax": "1/5",
+      "second_eigenvalue_lower": "-28/5",
+      "ground_lower": "-150831114555451849871115507863/25114467370733477654638527490",
+      "ground_upper": "-7434753567412418863225478713/1237940039285312376809412172",
+      "ground_lower_display": -6.0057461035872555,
+      "ground_upper_display": -6.0057461035872555,
+      "ground_width_display": 3.121044922411535e-22,
+      "exact_rayleigh": "-7434753567412418863225478713/1237940039285312376809412172",
+      "exact_residual_squared": "4851696279459400217269120806794033/38312388521643018770766398797653635314210735204543939600",
+      "exact_residual_squared_display": 1.2663518163892686e-22,
+      "dyadic_vector_bits": 44,
+      "build_seconds": 12.194818705000216,
+      "ritz_seconds": 0.13303317400004744,
+      "verification_seconds": 0.19841048800026329,
+      "total_seconds": 12.526262864000273,
+      "peak_process_rss_kib": 61524,
+      "proof": {
+        "no_missed_state": "Weyl lambda_1 >= E00+1+Vmin > E00; dimer-product trial gives lambda_0 <= E00",
+        "ground_enclosure": "Temple: rho-residual_squared/(second_lower-rho) <= lambda_0 <= rho",
+        "omitted_spectrum": "Ordered Weyl bounds lambda_j(H)>=lambda_j(H0)+Vmin for every j>=1",
+        "exact_arithmetic": "Integer matrix; dyadic Ritz vector; Python integer dot products; Fraction endpoints"
+      }
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "8",
+      "S_lower": "904880957067/1000000000000",
+      "T_lower": "133175671869/500000000000",
+      "S_lower_display": 0.904880957067,
+      "T_lower_display": 0.266351343738,
+      "S_upper_display": 1.907706640936854,
+      "T_upper_display": 1.0363746692822504,
+      "tail_n_upper_display": 0.04309483377431206,
+      "tail_2n_upper_display": 0.9376376023866839,
+      "energy_defect_upper": "6559354914733007596473624036025823965646431477095397/3370752832050089612629838452983454887357878806894966120",
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "904880957067/1000000000000",
+          "T_lower": "133175671869/500000000000",
+          "n": 2,
+          "beta": "8"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [],
+        "failure_round": 1,
+        "attempted_p_upper": "6426978154103/1000000000000"
+      }
+    },
+    {
+      "beta": "10",
+      "S_lower": "192078503341/200000000000",
+      "T_lower": "249642163923/500000000000",
+      "S_lower_display": 0.960392516705,
+      "T_lower_display": 0.499284327846,
+      "S_upper_display": 1.387953223774942,
+      "T_upper_display": 1.007177040125134,
+      "tail_n_upper_display": 0.010531870031108009,
+      "tail_2n_upper_display": 0.4152267634489028,
+      "energy_defect_upper": "6559354914733007596473624036025823965646431477095397/3370752832050089612629838452983454887357878806894966120",
+      "bootstrap": {
+        "status": "unusable_thermal_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "192078503341/200000000000",
+          "T_lower": "249642163923/500000000000",
+          "n": 2,
+          "beta": "10"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "686175065041/1000000000000",
+            "q_upper": "4338372457191/62500000000"
+          }
+        ],
+        "failure_round": 1
+      }
+    },
+    {
+      "beta": "12",
+      "S_lower": "971903799507/1000000000000",
+      "T_lower": "712899777843/1000000000000",
+      "S_lower_display": 0.971903799507,
+      "T_lower_display": 0.712899777843,
+      "S_upper_display": 1.1570291928404381,
+      "T_upper_display": 1.001416094348902,
+      "tail_n_upper_display": 0.002576771317022816,
+      "tail_2n_upper_display": 0.18436553327191632,
+      "energy_defect_upper": "6559354914733007596473624036025823965646431477095397/3370752832050089612629838452983454887357878806894966120",
+      "bootstrap": {
+        "status": "unusable_spatial_bound",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "971903799507/1000000000000",
+          "T_lower": "712899777843/1000000000000",
+          "n": 2,
+          "beta": "12"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "58805012111/500000000000",
+            "q_upper": "756308615897/1000000000000"
+          }
+        ],
+        "failure_round": 2,
+        "attempted_p_upper": "9117904996723/1000000000000"
+      }
+    },
+    {
+      "beta": "16",
+      "S_lower": "38761810671/40000000000",
+      "T_lower": "465517943051/500000000000",
+      "S_lower_display": 0.969045266775,
+      "T_lower_display": 0.931035886102,
+      "S_upper_display": 1.0046039114587606,
+      "T_upper_display": 1.0000551297266065,
+      "tail_n_upper_display": 0.00015429728972249785,
+      "tail_2n_upper_display": 0.03637466928225038,
+      "energy_defect_upper": "6559354914733007596473624036025823965646431477095397/3370752832050089612629838452983454887357878806894966120",
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "38761810671/40000000000",
+          "T_lower": "465517943051/500000000000",
+          "n": 2,
+          "beta": "16"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "5168730961/500000000000",
+            "q_upper": "428913577/31250000000"
+          },
+          {
+            "round": 2,
+            "p_upper": "77477267/125000000000",
+            "q_upper": "410804489/1000000000000"
+          }
+        ],
+        "rounds": 2,
+        "final_n": 8,
+        "final_beta": "64",
+        "final_p": "77477267/125000000000",
+        "final_q": "410804489/1000000000000",
+        "final_common_u": "77477267/125000000000",
+        "conditional_gap_lower_rational": "4513005109/50000000000",
+        "conditional_scope": "every even periodic L >= 8, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "20",
+      "S_lower": "961810621191/1000000000000",
+      "T_lower": "985798983863/1000000000000",
+      "S_lower_display": 0.961810621191,
+      "T_lower_display": 0.985798983863,
+      "S_upper_display": 0.968731475711026,
+      "T_upper_display": 1.000002146245947,
+      "tail_n_upper_display": 9.239581266159604e-06,
+      "tail_2n_upper_display": 0.007177040125134125,
+      "energy_defect_upper": "6559354914733007596473624036025823965646431477095397/3370752832050089612629838452983454887357878806894966120",
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "961810621191/1000000000000",
+          "T_lower": "985798983863/1000000000000",
+          "n": 2,
+          "beta": "20"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "4661940399/1000000000000",
+            "q_upper": "114503693/200000000000"
+          }
+        ],
+        "rounds": 1,
+        "final_n": 4,
+        "final_beta": "40",
+        "final_p": "4661940399/1000000000000",
+        "final_q": "114503693/200000000000",
+        "final_common_u": "4661940399/1000000000000",
+        "conditional_gap_lower_rational": "93972140261/1000000000000",
+        "conditional_scope": "every even periodic L >= 4, only if all analytic/physical premises hold"
+      }
+    },
+    {
+      "beta": "24",
+      "S_lower": "477184838609/500000000000",
+      "T_lower": "249293453983/250000000000",
+      "S_lower_display": 0.954369677218,
+      "T_lower_display": 0.997173815932,
+      "S_upper_display": 0.9557222122922854,
+      "T_upper_display": 1.0000000835551335,
+      "tail_n_upper_display": 5.532819389788245e-07,
+      "tail_2n_upper_display": 0.0014160943489020293,
+      "energy_defect_upper": "6559354914733007596473624036025823965646431477095397/3370752832050089612629838452983454887357878806894966120",
+      "bootstrap": {
+        "status": "accepted_conditional_scalar_seed",
+        "physical_inputs_verified": false,
+        "interpretation": "Scalar acceptance only; physical/analytic hypotheses require separate verification",
+        "input": {
+          "S_lower": "477184838609/500000000000",
+          "T_lower": "249293453983/250000000000",
+          "n": 2,
+          "beta": "24"
+        },
+        "rounding_decimal_digits": 12,
+        "updates": [
+          {
+            "round": 1,
+            "p_upper": "5102689589/1000000000000",
+            "q_upper": "7336507/125000000000"
+          }
+        ],
+        "rounds": 1,
+        "final_n": 4,
+        "final_beta": "48",
+        "final_p": "5102689589/1000000000000",
+        "final_q": "7336507/125000000000",
+        "final_common_u": "5102689589/1000000000000",
+        "conditional_gap_lower_rational": "76428116571/1000000000000",
+        "conditional_scope": "every even periodic L >= 4, only if all analytic/physical premises hold"
+      }
+    }
+  ]
+}

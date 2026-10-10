@@ -1,0 +1,72 @@
+{
+  "status": "PASS independent full residual, local PSD, spectral bins, all seeds and gap comparisons",
+  "source_sha256": "529d9f7a8556cfac3a8aff3b0228f1144d8a2fedc0a2f36054cfa9619496c09e",
+  "grounds": [
+    {
+      "nx": 2,
+      "ny": 2,
+      "trial_dimension": 13,
+      "full_residual_support": 19,
+      "exact_residual_and_Temple_match": true,
+      "local_PSD_and_ordered_comparison_pass": true,
+      "vector_sha256": "24ebee3af570b6a6bfdb4f2ebbaaf865369894877ee9f2d57a9efb89aa3af14a"
+    },
+    {
+      "nx": 4,
+      "ny": 2,
+      "trial_dimension": 57,
+      "full_residual_support": 453,
+      "exact_residual_and_Temple_match": true,
+      "local_PSD_and_ordered_comparison_pass": true,
+      "vector_sha256": "9acca0cb1deeb6de8e585a28b52459669f6075c53cdc8666eba4509d3980020c"
+    },
+    {
+      "nx": 4,
+      "ny": 4,
+      "trial_dimension": 241,
+      "full_residual_support": 8321,
+      "exact_residual_and_Temple_match": true,
+      "local_PSD_and_ordered_comparison_pass": true,
+      "vector_sha256": "b04b62e09c29a4e1b016476ce5cfae8cebc3245c8952e4d25ec98f68ed82f879"
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "8",
+      "purities_and_replay_match": true,
+      "gap_lower": null
+    },
+    {
+      "beta": "10",
+      "purities_and_replay_match": true,
+      "gap_lower": "13565559971/250000000000"
+    },
+    {
+      "beta": "12",
+      "purities_and_replay_match": true,
+      "gap_lower": "3458091413/40000000000"
+    },
+    {
+      "beta": "14",
+      "purities_and_replay_match": true,
+      "gap_lower": "73168847933/1000000000000"
+    },
+    {
+      "beta": "16",
+      "purities_and_replay_match": true,
+      "gap_lower": "56625205647/1000000000000"
+    },
+    {
+      "beta": "20",
+      "purities_and_replay_match": true,
+      "gap_lower": "19074840683/500000000000"
+    },
+    {
+      "beta": "24",
+      "purities_and_replay_match": true,
+      "gap_lower": "22425463767/1000000000000"
+    }
+  ],
+  "small_square_bridge_L2_through_7": "1461/2500",
+  "physical_scope": "Every integer periodic square L>=2, gap>=0.086452285325, once spin1 real directional transfers and audited3-purity interpolation are applied."
+}

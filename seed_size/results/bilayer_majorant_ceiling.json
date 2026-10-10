@@ -1,0 +1,311 @@
+[
+  {
+    "majorant_family_excluded": false,
+    "order": "xyt",
+    "beta_tail_start": "128",
+    "corner_curvature": "9451948861864407483402476792467972370827074722443958741001128/964968335260261960048620896689494079632437324825427341746131625",
+    "delta_best_upper": [
+      "286671783194075675935910349330692073745/340282366920938463463374607431768211456",
+      "132774150020811714774273233189116470977/170141183460469231731687303715884105728",
+      "118514558795865409241781423817625783853/170141183460469231731687303715884105728"
+    ],
+    "excluded_intervals": [
+      [
+        "0",
+        "8"
+      ],
+      [
+        "8",
+        "10"
+      ],
+      [
+        "10",
+        "41/4"
+      ],
+      [
+        "41/4",
+        "83/8"
+      ],
+      [
+        "83/8",
+        "333/32"
+      ],
+      [
+        "333/32",
+        "2665/256"
+      ],
+      [
+        "2665/256",
+        "10661/1024"
+      ]
+    ],
+    "unresolved_intervals": [
+      [
+        "10661/1024",
+        "21323/2048"
+      ]
+    ],
+    "allows_arbitrarily_sharp_ground_refinement_within_current_intervals": true,
+    "scope": "Only ground-only numerators plus the declared independent-bin comparison family and correlated staircase scheme; permits all improved ground pivots inside current enclosures, zero ground width, all beta and all local a. Not absence of a physical gap or a better certificate.",
+    "model_id": "square_af_bilayer_spin_half_unit_rung",
+    "g": "1/50",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_2x2_g1d50_k1d50_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x2_g1d50_k1d50_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x4_g1d50_k1d50_q2_ground.json"
+    ]
+  },
+  {
+    "majorant_family_excluded": false,
+    "order": "xty",
+    "beta_tail_start": "128",
+    "corner_curvature": "9451948861864407483402476792467972370827074722443958741001128/964968335260261960048620896689494079632437324825427341746131625",
+    "delta_best_upper": [
+      "286671783194075675935910349330692073745/340282366920938463463374607431768211456",
+      "132774150020811714774273233189116470977/170141183460469231731687303715884105728",
+      "118514558795865409241781423817625783853/170141183460469231731687303715884105728"
+    ],
+    "excluded_intervals": [
+      [
+        "0",
+        "8"
+      ],
+      [
+        "8",
+        "17/2"
+      ],
+      [
+        "17/2",
+        "9"
+      ],
+      [
+        "9",
+        "145/16"
+      ],
+      [
+        "145/16",
+        "291/32"
+      ],
+      [
+        "291/32",
+        "583/64"
+      ],
+      [
+        "583/64",
+        "73/8"
+      ],
+      [
+        "73/8",
+        "2337/256"
+      ],
+      [
+        "2337/256",
+        "9349/1024"
+      ],
+      [
+        "9349/1024",
+        "4675/512"
+      ]
+    ],
+    "unresolved_intervals": [
+      [
+        "4675/512",
+        "18701/2048"
+      ]
+    ],
+    "allows_arbitrarily_sharp_ground_refinement_within_current_intervals": true,
+    "scope": "Only ground-only numerators plus the declared independent-bin comparison family and correlated staircase scheme; permits all improved ground pivots inside current enclosures, zero ground width, all beta and all local a. Not absence of a physical gap or a better certificate.",
+    "model_id": "square_af_bilayer_spin_half_unit_rung",
+    "g": "1/50",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_2x2_g1d50_k1d50_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x2_g1d50_k1d50_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x4_g1d50_k1d50_q2_ground.json"
+    ]
+  },
+  {
+    "majorant_family_excluded": false,
+    "order": "txy",
+    "beta_tail_start": "128",
+    "corner_curvature": "9451948861864407483402476792467972370827074722443958741001128/964968335260261960048620896689494079632437324825427341746131625",
+    "delta_best_upper": [
+      "286671783194075675935910349330692073745/340282366920938463463374607431768211456",
+      "132774150020811714774273233189116470977/170141183460469231731687303715884105728",
+      "118514558795865409241781423817625783853/170141183460469231731687303715884105728"
+    ],
+    "excluded_intervals": [
+      [
+        "0",
+        "4"
+      ],
+      [
+        "4",
+        "6"
+      ],
+      [
+        "6",
+        "7"
+      ],
+      [
+        "7",
+        "29/4"
+      ],
+      [
+        "29/4",
+        "59/8"
+      ],
+      [
+        "59/8",
+        "15/2"
+      ],
+      [
+        "15/2",
+        "241/32"
+      ],
+      [
+        "241/32",
+        "1929/256"
+      ],
+      [
+        "1929/256",
+        "965/128"
+      ],
+      [
+        "965/128",
+        "7721/1024"
+      ],
+      [
+        "7721/1024",
+        "15443/2048"
+      ]
+    ],
+    "unresolved_intervals": [
+      [
+        "15443/2048",
+        "3861/512"
+      ]
+    ],
+    "allows_arbitrarily_sharp_ground_refinement_within_current_intervals": true,
+    "scope": "Only ground-only numerators plus the declared independent-bin comparison family and correlated staircase scheme; permits all improved ground pivots inside current enclosures, zero ground width, all beta and all local a. Not absence of a physical gap or a better certificate.",
+    "model_id": "square_af_bilayer_spin_half_unit_rung",
+    "g": "1/50",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_2x2_g1d50_k1d50_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x2_g1d50_k1d50_q2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x4_g1d50_k1d50_q2_ground.json"
+    ]
+  },
+  {
+    "majorant_family_excluded": true,
+    "order": "xyt",
+    "beta_tail_start": "32",
+    "corner_curvature": "1236341953750060892821370118121933052598979974763876824163262542/54720389058321863387858813468224057317184749305665958960498806875",
+    "delta_best_upper": [
+      "65127212342310635408581554589200288241/85070591730234615865843651857942052864",
+      "229130396069259992122155326455939069769/340282366920938463463374607431768211456",
+      "186637273026060785001194276008660069855/340282366920938463463374607431768211456"
+    ],
+    "excluded_intervals": [
+      [
+        "0",
+        "8"
+      ],
+      [
+        "8",
+        "12"
+      ],
+      [
+        "12",
+        "16"
+      ],
+      [
+        "16",
+        "32"
+      ]
+    ],
+    "unresolved_intervals": [],
+    "allows_arbitrarily_sharp_ground_refinement_within_current_intervals": true,
+    "scope": "Only ground-only numerators plus the declared independent-bin comparison family and correlated staircase scheme; permits all improved ground pivots inside current enclosures, zero ground width, all beta and all local a. Not absence of a physical gap or a better certificate.",
+    "model_id": "square_af_bilayer_spin_half_unit_rung",
+    "g": "3/100",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_2x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x4_g3d100_depth2_ground.json"
+    ]
+  },
+  {
+    "majorant_family_excluded": true,
+    "order": "xty",
+    "beta_tail_start": "32",
+    "corner_curvature": "1236341953750060892821370118121933052598979974763876824163262542/54720389058321863387858813468224057317184749305665958960498806875",
+    "delta_best_upper": [
+      "65127212342310635408581554589200288241/85070591730234615865843651857942052864",
+      "229130396069259992122155326455939069769/340282366920938463463374607431768211456",
+      "186637273026060785001194276008660069855/340282366920938463463374607431768211456"
+    ],
+    "excluded_intervals": [
+      [
+        "0",
+        "8"
+      ],
+      [
+        "8",
+        "16"
+      ],
+      [
+        "16",
+        "32"
+      ]
+    ],
+    "unresolved_intervals": [],
+    "allows_arbitrarily_sharp_ground_refinement_within_current_intervals": true,
+    "scope": "Only ground-only numerators plus the declared independent-bin comparison family and correlated staircase scheme; permits all improved ground pivots inside current enclosures, zero ground width, all beta and all local a. Not absence of a physical gap or a better certificate.",
+    "model_id": "square_af_bilayer_spin_half_unit_rung",
+    "g": "3/100",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_2x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x4_g3d100_depth2_ground.json"
+    ]
+  },
+  {
+    "majorant_family_excluded": true,
+    "order": "txy",
+    "beta_tail_start": "32",
+    "corner_curvature": "1236341953750060892821370118121933052598979974763876824163262542/54720389058321863387858813468224057317184749305665958960498806875",
+    "delta_best_upper": [
+      "65127212342310635408581554589200288241/85070591730234615865843651857942052864",
+      "229130396069259992122155326455939069769/340282366920938463463374607431768211456",
+      "186637273026060785001194276008660069855/340282366920938463463374607431768211456"
+    ],
+    "excluded_intervals": [
+      [
+        "0",
+        "4"
+      ],
+      [
+        "4",
+        "8"
+      ],
+      [
+        "8",
+        "16"
+      ],
+      [
+        "16",
+        "32"
+      ]
+    ],
+    "unresolved_intervals": [],
+    "allows_arbitrarily_sharp_ground_refinement_within_current_intervals": true,
+    "scope": "Only ground-only numerators plus the declared independent-bin comparison family and correlated staircase scheme; permits all improved ground pivots inside current enclosures, zero ground width, all beta and all local a. Not absence of a physical gap or a better certificate.",
+    "model_id": "square_af_bilayer_spin_half_unit_rung",
+    "g": "3/100",
+    "sources": [
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_2x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x2_g3d100_depth2_ground.json",
+      "/workspace/shared/haldane_optimization/low_energy/bilayer_s1d2_4x4_g3d100_depth2_ground.json"
+    ]
+  }
+]

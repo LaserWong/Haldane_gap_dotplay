@@ -1,0 +1,61 @@
+{
+  "n": 10,
+  "beta": 8,
+  "a": "5951/1250",
+  "sectors": [
+    {
+      "abs_m": 0,
+      "single_m_dimension": 856945,
+      "pm_multiplicity": 1,
+      "energy_lower": "-1066059959/21875000",
+      "energy_lower_display": -48.734169554285714,
+      "all_state_trace_upper": "700917226917/100",
+      "all_state_trace_upper_display": 7009172269.17,
+      "remaining_D_minus_16_upper_display": 7009041401.079
+    },
+    {
+      "abs_m": 1,
+      "single_m_dimension": 837100,
+      "pm_multiplicity": 2,
+      "energy_lower": "-42425142387/875000000",
+      "energy_lower_display": -48.48587701371429,
+      "all_state_trace_upper": "1878730475927/1000",
+      "all_state_trace_upper_display": 1878730475.927,
+      "remaining_D_minus_16_upper_display": 1878694566.612
+    },
+    {
+      "abs_m": 2,
+      "single_m_dimension": 780175,
+      "pm_multiplicity": 2,
+      "energy_lower": "-20990277647/437500000",
+      "energy_lower_display": -47.97777747885714,
+      "all_state_trace_upper": "93931356839/3125",
+      "all_state_trace_upper_display": 30058034.18848,
+      "remaining_D_minus_16_upper_display": 30057417.75173
+    },
+    {
+      "abs_m": 3,
+      "single_m_dimension": 693450,
+      "pm_multiplicity": 2,
+      "energy_lower": "-2575600051/54687500",
+      "energy_lower_display": -47.096686646857144,
+      "all_state_trace_upper": "2320387973203/100000000",
+      "all_state_trace_upper_display": 23203.87973203,
+      "remaining_D_minus_16_upper_display": 23203.34434797
+    },
+    {
+      "abs_m": 4,
+      "single_m_dimension": 587400,
+      "pm_multiplicity": 2,
+      "energy_lower": "-4003441983/87500000",
+      "energy_lower_display": -45.75362266285714,
+      "all_state_trace_upper": "2119176762299/5000000000000",
+      "all_state_trace_upper_display": 0.4238353524598,
+      "remaining_D_minus_16_upper_display": 0.4238238077447
+    }
+  ],
+  "all_low_M_states_trace_upper": "8917983983589/1000",
+  "all_low_M_states_trace_upper_display": 8917983983.589,
+  "formal_remaining_D_minus_16_upper_display": 8917816589.21,
+  "important": "D-16 bound is for removing ANY 16 exact energy eigenstates per M sector; no assertion the available Ritz lists have been certified as such. Unconditional result is the all-state trace upper bound."
+}

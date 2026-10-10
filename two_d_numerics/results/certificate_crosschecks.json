@@ -1,0 +1,97 @@
+[
+  {
+    "kind": "direct_integer_matrix",
+    "spin": "1/2",
+    "M": 2,
+    "W": 2,
+    "g": "1/50",
+    "k": "1/50",
+    "max_entry_difference": 1.734723475976807e-17,
+    "independent_E0": -3.0006060594815893,
+    "certified_E0": -3.000606059481588
+  },
+  {
+    "kind": "direct_integer_matrix",
+    "spin": "1/2",
+    "M": 4,
+    "W": 2,
+    "g": "1/50",
+    "k": "1/50",
+    "max_entry_difference": 8.881784197001252e-16,
+    "independent_E0": -6.000907598578347,
+    "certified_E0": -6.0009075985783475
+  },
+  {
+    "kind": "direct_integer_matrix",
+    "spin": "1",
+    "M": 2,
+    "W": 1,
+    "g": "1/10",
+    "k": "0",
+    "max_entry_difference": 0.0,
+    "independent_E0": -4.027708525314676,
+    "certified_E0": -4.027708525314678
+  },
+  {
+    "kind": "independent_local_dimer_kernels",
+    "spin": "1/2",
+    "all_four_kernels_match": true,
+    "all_four_kernels_exact_rational_match": true,
+    "max_float_entry_difference": 0.0
+  },
+  {
+    "kind": "independent_local_dimer_kernels",
+    "spin": "1",
+    "all_four_kernels_match": true,
+    "all_four_kernels_exact_rational_match": true,
+    "max_float_entry_difference": 1.1102230246251565e-16
+  },
+  {
+    "kind": "full_spin_basis_exact_residual",
+    "artifact": "bilayer_s1d2_2x2_g1d100_k1d100_q2_ground.json",
+    "physical_sites": 8,
+    "full_sector_dimension": 70,
+    "expanded_nonzero_coefficients": 64,
+    "rayleigh_exact_match": true,
+    "residual_squared_exact_match": true,
+    "independent_ground": -3.0006060594815858,
+    "certificate_lower": -3.0006062754518026,
+    "certificate_upper": -3.000605997521509
+  },
+  {
+    "kind": "full_spin_basis_exact_residual",
+    "artifact": "bilayer_s1d2_2x2_g1d50_k1d50_q2_ground.json",
+    "physical_sites": 8,
+    "full_sector_dimension": 70,
+    "expanded_nonzero_coefficients": 64,
+    "rayleigh_exact_match": true,
+    "residual_squared_exact_match": true,
+    "independent_ground": -3.002448941115452,
+    "certificate_lower": -3.002452654211969,
+    "certificate_upper": -3.0024479181519297
+  },
+  {
+    "kind": "full_spin_basis_exact_residual",
+    "artifact": "bilayer_s1d2_4x2_g1d100_k1d100_q2_ground.json",
+    "physical_sites": 16,
+    "full_sector_dimension": 12870,
+    "expanded_nonzero_coefficients": 3840,
+    "rayleigh_exact_match": true,
+    "residual_squared_exact_match": true,
+    "independent_ground": -6.000907566919536,
+    "certificate_lower": -6.000908732300795,
+    "certificate_upper": -6.000907289980248
+  },
+  {
+    "kind": "full_spin_basis_exact_residual",
+    "artifact": "bilayer_s1d2_4x2_g1d50_k1d50_q2_ground.json",
+    "physical_sites": 16,
+    "full_sector_dimension": 12870,
+    "expanded_nonzero_coefficients": 3840,
+    "rayleigh_exact_match": true,
+    "residual_squared_exact_match": true,
+    "independent_ground": -6.003661060516564,
+    "certificate_lower": -6.003679344221709,
+    "certificate_upper": -6.003656520376975
+  }
+]

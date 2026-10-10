@@ -1,0 +1,61 @@
+{
+  "model": "bilayer_s_half",
+  "g": "1/4000",
+  "beta": "12",
+  "onsite_gap": "1",
+  "periodic_length_2_convention": "Two distinct directed-neighbor terms connect the same pair; no simple-graph deduplication.",
+  "maximum_seed_spins": 32,
+  "trace_seed_method": "Gibbs variational lower + Golden-Thompson + centered Hoeffding upper",
+  "perturbation_spectral_width_bound_per_cell": "1/1000",
+  "seed_exponents": [
+    "9/15625",
+    "36/15625",
+    "144/15625"
+  ],
+  "purity_lower_bounds": [
+    "999424165856154089/1000000000000000000",
+    "997698652170741851/1000000000000000000",
+    "990242081527557809/1000000000000000000"
+  ],
+  "purity_lower_bounds_display": [
+    0.9994241658561541,
+    0.9976986521707418,
+    0.9902420815275578
+  ],
+  "full_spectrum_used": false,
+  "bootstrap": {
+    "input": {
+      "A_lower": "999424165856154089/1000000000000000000",
+      "B_lower": "997698652170741851/1000000000000000000",
+      "C_lower": "990242081527557809/1000000000000000000",
+      "n": 2,
+      "m": 2,
+      "beta": "12"
+    },
+    "updates": [
+      {
+        "round": 1,
+        "defects": [
+          "35525554674691/250000000000000000",
+          "215994405449381/500000000000000000",
+          "207549696022559/250000000000000000"
+        ]
+      }
+    ],
+    "status": "accepted_analytic_scalar_certificate",
+    "formal_proof_assistant_verified": false,
+    "rounds": 1,
+    "n": 4,
+    "m": 4,
+    "beta": "24",
+    "defects": [
+      "35525554674691/250000000000000000",
+      "215994405449381/500000000000000000",
+      "207549696022559/250000000000000000"
+    ],
+    "u": "207549696022559/250000000000000000",
+    "uniform_square_gap_lower": "75585614253/500000000000",
+    "uniform_square_gap_lower_display": 0.151171228506,
+    "scope": "Every integer square side L >= n, when n=m and the two transfer hypotheses hold. For n != m, each dyadic rectangle [2^j n,2^(j+1)n] x [2^j m,2^(j+1)m]."
+  }
+}

@@ -1,0 +1,1648 @@
+[
+  {
+    "nx": 2,
+    "ny": 2,
+    "g": "3/10",
+    "physical_spins": 8,
+    "full_dimension": 256,
+    "ground_energy_shifted": 0.0,
+    "ground_degeneracy": 1,
+    "gap": 0.40000000000000036,
+    "product_ground_residual": 0.0,
+    "all_occupation_spectrum_matches_physical_ED": true,
+    "predicted_product_gap_min": 0.40000000000000036,
+    "seconds": 0.09268708399940806
+  },
+  {
+    "nx": 2,
+    "ny": 2,
+    "g": "8/25",
+    "physical_spins": 8,
+    "full_dimension": 256,
+    "ground_energy_shifted": 0.0,
+    "ground_degeneracy": 1,
+    "gap": 0.16000000000000192,
+    "product_ground_residual": 0.0,
+    "all_occupation_spectrum_matches_physical_ED": true,
+    "predicted_product_gap_min": 0.16000000000000014,
+    "seconds": 0.017110287999457796
+  },
+  {
+    "nx": 2,
+    "ny": 2,
+    "g": "1/3",
+    "physical_spins": 8,
+    "full_dimension": 256,
+    "ground_energy_shifted": 0.0,
+    "ground_degeneracy": 2,
+    "gap": 0.6666666666666661,
+    "product_ground_residual": 0.0,
+    "all_occupation_spectrum_matches_physical_ED": true,
+    "predicted_product_gap_min": 0.0,
+    "seconds": 0.017692432000330882
+  },
+  {
+    "nx": 2,
+    "ny": 2,
+    "g": "7/20",
+    "physical_spins": 8,
+    "full_dimension": 256,
+    "ground_energy_shifted": -0.20000000000000107,
+    "ground_degeneracy": 1,
+    "gap": 0.20000000000000107,
+    "product_ground_residual": 0.0,
+    "all_occupation_spectrum_matches_physical_ED": true,
+    "predicted_product_gap_min": -0.1999999999999993,
+    "seconds": 0.015038186000310816
+  },
+  {
+    "nx": 4,
+    "ny": 2,
+    "g": "3/10",
+    "physical_spins": 16,
+    "full_dimension": 65536,
+    "ground_energy_shifted": 0.0,
+    "ground_degeneracy": 1,
+    "gap": 0.8,
+    "method": "Conserved rung occupations and total Sz; max dense block 1107",
+    "distinct_occupation_graphs": 149,
+    "seconds": 1.7323095700012345,
+    "triplet_sector_minima": [
+      {
+        "mask": 0,
+        "triplets": 0,
+        "dimension": 1,
+        "min_energy": 0.0
+      },
+      {
+        "mask": 1,
+        "triplets": 1,
+        "dimension": 3,
+        "min_energy": 1.0
+      },
+      {
+        "mask": 2,
+        "triplets": 1,
+        "dimension": 3,
+        "min_energy": 1.0
+      },
+      {
+        "mask": 3,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 0.8
+      },
+      {
+        "mask": 4,
+        "triplets": 1,
+        "dimension": 3,
+        "min_energy": 1.0
+      },
+      {
+        "mask": 5,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 1.4
+      },
+      {
+        "mask": 6,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 7,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806228
+      },
+      {
+        "mask": 8,
+        "triplets": 1,
+        "dimension": 3,
+        "min_energy": 1.0
+      },
+      {
+        "mask": 9,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 10,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 1.4
+      },
+      {
+        "mask": 11,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806235
+      },
+      {
+        "mask": 12,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 0.8
+      },
+      {
+        "mask": 13,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806226
+      },
+      {
+        "mask": 14,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806226
+      },
+      {
+        "mask": 15,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 1.2125492133612448
+      },
+      {
+        "mask": 16,
+        "triplets": 1,
+        "dimension": 3,
+        "min_energy": 1.0
+      },
+      {
+        "mask": 17,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 18,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 19,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.8
+      },
+      {
+        "mask": 20,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 1.4
+      },
+      {
+        "mask": 21,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.0999999999999996
+      },
+      {
+        "mask": 22,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 23,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706133
+      },
+      {
+        "mask": 24,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 25,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 3.0
+      },
+      {
+        "mask": 26,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 27,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.606274606680623
+      },
+      {
+        "mask": 28,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806228
+      },
+      {
+        "mask": 29,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.354395152010802
+      },
+      {
+        "mask": 30,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.1999999999999997
+      },
+      {
+        "mask": 31,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.0187449992988507
+      },
+      {
+        "mask": 32,
+        "triplets": 1,
+        "dimension": 3,
+        "min_energy": 1.0
+      },
+      {
+        "mask": 33,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 34,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 35,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.8
+      },
+      {
+        "mask": 36,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 37,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 38,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 3.0
+      },
+      {
+        "mask": 39,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.606274606680623
+      },
+      {
+        "mask": 40,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 1.4
+      },
+      {
+        "mask": 41,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 42,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.0999999999999996
+      },
+      {
+        "mask": 43,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706146
+      },
+      {
+        "mask": 44,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806235
+      },
+      {
+        "mask": 45,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.1999999999999984
+      },
+      {
+        "mask": 46,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.354395152010802
+      },
+      {
+        "mask": 47,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.0187449992988475
+      },
+      {
+        "mask": 48,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 0.8
+      },
+      {
+        "mask": 49,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.8
+      },
+      {
+        "mask": 50,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.8
+      },
+      {
+        "mask": 51,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 1.5999999999999996
+      },
+      {
+        "mask": 52,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806226
+      },
+      {
+        "mask": 53,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706133
+      },
+      {
+        "mask": 54,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.6062746066806226
+      },
+      {
+        "mask": 55,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.2321405898081945
+      },
+      {
+        "mask": 56,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806226
+      },
+      {
+        "mask": 57,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.606274606680623
+      },
+      {
+        "mask": 58,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706146
+      },
+      {
+        "mask": 59,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.2321405898081945
+      },
+      {
+        "mask": 60,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 1.2125492133612448
+      },
+      {
+        "mask": 61,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.0187449992988538
+      },
+      {
+        "mask": 62,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.018744999298857
+      },
+      {
+        "mask": 63,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 1.6513827985674858
+      },
+      {
+        "mask": 64,
+        "triplets": 1,
+        "dimension": 3,
+        "min_energy": 1.0
+      },
+      {
+        "mask": 65,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 1.4
+      },
+      {
+        "mask": 66,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 67,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806228
+      },
+      {
+        "mask": 68,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 69,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.1
+      },
+      {
+        "mask": 70,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 3.0
+      },
+      {
+        "mask": 71,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.3543951520108024
+      },
+      {
+        "mask": 72,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 73,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 74,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 75,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.2
+      },
+      {
+        "mask": 76,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.8
+      },
+      {
+        "mask": 77,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.062372876770617
+      },
+      {
+        "mask": 78,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.6062746066806226
+      },
+      {
+        "mask": 79,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.0187449992988498
+      },
+      {
+        "mask": 80,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 1.4
+      },
+      {
+        "mask": 81,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.1
+      },
+      {
+        "mask": 82,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 83,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.062372876770617
+      },
+      {
+        "mask": 84,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.0999999999999996
+      },
+      {
+        "mask": 85,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.1999999999999997
+      },
+      {
+        "mask": 86,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 3.0999999999999996
+      },
+      {
+        "mask": 87,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.485010144979425
+      },
+      {
+        "mask": 88,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 89,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 3.0999999999999996
+      },
+      {
+        "mask": 90,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.8
+      },
+      {
+        "mask": 91,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.807792631838304
+      },
+      {
+        "mask": 92,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706133
+      },
+      {
+        "mask": 93,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.4850101449794293
+      },
+      {
+        "mask": 94,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.8077926318383026
+      },
+      {
+        "mask": 95,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.203305146761472
+      },
+      {
+        "mask": 96,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 97,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 98,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 3.0
+      },
+      {
+        "mask": 99,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.606274606680622
+      },
+      {
+        "mask": 100,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 3.0
+      },
+      {
+        "mask": 101,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 3.099999999999999
+      },
+      {
+        "mask": 102,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 4.0
+      },
+      {
+        "mask": 103,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 3.3543951520108006
+      },
+      {
+        "mask": 104,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 105,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.8000000000000003
+      },
+      {
+        "mask": 106,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 3.0999999999999996
+      },
+      {
+        "mask": 107,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.807792631838308
+      },
+      {
+        "mask": 108,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.606274606680623
+      },
+      {
+        "mask": 109,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.8077926318383
+      },
+      {
+        "mask": 110,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 3.354395152010802
+      },
+      {
+        "mask": 111,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.7697394864488425
+      },
+      {
+        "mask": 112,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806228
+      },
+      {
+        "mask": 113,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.062372876770615
+      },
+      {
+        "mask": 114,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.6062746066806217
+      },
+      {
+        "mask": 115,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.232140589808192
+      },
+      {
+        "mask": 116,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.354395152010802
+      },
+      {
+        "mask": 117,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.4850101449794306
+      },
+      {
+        "mask": 118,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 3.3543951520108006
+      },
+      {
+        "mask": 119,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.7286138522553154
+      },
+      {
+        "mask": 120,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.1999999999999997
+      },
+      {
+        "mask": 121,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.807792631838305
+      },
+      {
+        "mask": 122,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.8077926318383066
+      },
+      {
+        "mask": 123,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.502327786156169
+      },
+      {
+        "mask": 124,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.0187449992988507
+      },
+      {
+        "mask": 125,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.2033051467614735
+      },
+      {
+        "mask": 126,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.769739486448844
+      },
+      {
+        "mask": 127,
+        "triplets": 7,
+        "dimension": 2187,
+        "min_energy": 2.1758528120094702
+      },
+      {
+        "mask": 128,
+        "triplets": 1,
+        "dimension": 3,
+        "min_energy": 1.0
+      },
+      {
+        "mask": 129,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 130,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 1.4
+      },
+      {
+        "mask": 131,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806235
+      },
+      {
+        "mask": 132,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 133,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 134,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 135,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.2
+      },
+      {
+        "mask": 136,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 137,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 3.0
+      },
+      {
+        "mask": 138,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.1
+      },
+      {
+        "mask": 139,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.3543951520108024
+      },
+      {
+        "mask": 140,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.8
+      },
+      {
+        "mask": 141,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.6062746066806226
+      },
+      {
+        "mask": 142,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.062372876770615
+      },
+      {
+        "mask": 143,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.018744999298849
+      },
+      {
+        "mask": 144,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 2.0
+      },
+      {
+        "mask": 145,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 3.0
+      },
+      {
+        "mask": 146,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 147,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.606274606680622
+      },
+      {
+        "mask": 148,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 149,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 3.0999999999999996
+      },
+      {
+        "mask": 150,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.8000000000000003
+      },
+      {
+        "mask": 151,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.807792631838306
+      },
+      {
+        "mask": 152,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 3.0
+      },
+      {
+        "mask": 153,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 4.0
+      },
+      {
+        "mask": 154,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 3.099999999999999
+      },
+      {
+        "mask": 155,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 3.3543951520107997
+      },
+      {
+        "mask": 156,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.606274606680623
+      },
+      {
+        "mask": 157,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 3.3543951520108024
+      },
+      {
+        "mask": 158,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.8077926318383044
+      },
+      {
+        "mask": 159,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.7697394864488443
+      },
+      {
+        "mask": 160,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 1.4
+      },
+      {
+        "mask": 161,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 162,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.1
+      },
+      {
+        "mask": 163,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.062372876770614
+      },
+      {
+        "mask": 164,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.4
+      },
+      {
+        "mask": 165,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.8
+      },
+      {
+        "mask": 166,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 3.0999999999999996
+      },
+      {
+        "mask": 167,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.807792631838308
+      },
+      {
+        "mask": 168,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 2.0999999999999996
+      },
+      {
+        "mask": 169,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 3.0999999999999996
+      },
+      {
+        "mask": 170,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.1999999999999997
+      },
+      {
+        "mask": 171,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.485010144979426
+      },
+      {
+        "mask": 172,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706146
+      },
+      {
+        "mask": 173,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.8077926318383057
+      },
+      {
+        "mask": 174,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.485010144979429
+      },
+      {
+        "mask": 175,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.20330514676146
+      },
+      {
+        "mask": 176,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806235
+      },
+      {
+        "mask": 177,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.6062746066806226
+      },
+      {
+        "mask": 178,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.062372876770616
+      },
+      {
+        "mask": 179,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.232140589808192
+      },
+      {
+        "mask": 180,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.1999999999999984
+      },
+      {
+        "mask": 181,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.8077926318383044
+      },
+      {
+        "mask": 182,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.807792631838306
+      },
+      {
+        "mask": 183,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.5023277861561635
+      },
+      {
+        "mask": 184,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.354395152010802
+      },
+      {
+        "mask": 185,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 3.3543951520108015
+      },
+      {
+        "mask": 186,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.4850101449794293
+      },
+      {
+        "mask": 187,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.728613852255321
+      },
+      {
+        "mask": 188,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.0187449992988475
+      },
+      {
+        "mask": 189,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.769739486448841
+      },
+      {
+        "mask": 190,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.20330514676146
+      },
+      {
+        "mask": 191,
+        "triplets": 7,
+        "dimension": 2187,
+        "min_energy": 2.175852812009456
+      },
+      {
+        "mask": 192,
+        "triplets": 2,
+        "dimension": 9,
+        "min_energy": 0.8
+      },
+      {
+        "mask": 193,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806226
+      },
+      {
+        "mask": 194,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806226
+      },
+      {
+        "mask": 195,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 1.2125492133612448
+      },
+      {
+        "mask": 196,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.8
+      },
+      {
+        "mask": 197,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706133
+      },
+      {
+        "mask": 198,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.606274606680622
+      },
+      {
+        "mask": 199,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.0187449992988498
+      },
+      {
+        "mask": 200,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.8
+      },
+      {
+        "mask": 201,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.6062746066806226
+      },
+      {
+        "mask": 202,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706133
+      },
+      {
+        "mask": 203,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.018744999298846
+      },
+      {
+        "mask": 204,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 1.5999999999999996
+      },
+      {
+        "mask": 205,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.232140589808192
+      },
+      {
+        "mask": 206,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.232140589808194
+      },
+      {
+        "mask": 207,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 1.6513827985674858
+      },
+      {
+        "mask": 208,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806226
+      },
+      {
+        "mask": 209,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.3543951520108015
+      },
+      {
+        "mask": 210,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.1999999999999993
+      },
+      {
+        "mask": 211,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.018744999298849
+      },
+      {
+        "mask": 212,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706133
+      },
+      {
+        "mask": 213,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.4850101449794293
+      },
+      {
+        "mask": 214,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.8077926318383053
+      },
+      {
+        "mask": 215,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.203305146761471
+      },
+      {
+        "mask": 216,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.6062746066806226
+      },
+      {
+        "mask": 217,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 3.354395152010801
+      },
+      {
+        "mask": 218,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.807792631838305
+      },
+      {
+        "mask": 219,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.769739486448849
+      },
+      {
+        "mask": 220,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.2321405898081945
+      },
+      {
+        "mask": 221,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.728613852255318
+      },
+      {
+        "mask": 222,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.502327786156167
+      },
+      {
+        "mask": 223,
+        "triplets": 7,
+        "dimension": 2187,
+        "min_energy": 2.1758528120094702
+      },
+      {
+        "mask": 224,
+        "triplets": 3,
+        "dimension": 27,
+        "min_energy": 1.6062746066806226
+      },
+      {
+        "mask": 225,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.2
+      },
+      {
+        "mask": 226,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.3543951520108015
+      },
+      {
+        "mask": 227,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.018744999298846
+      },
+      {
+        "mask": 228,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.606274606680623
+      },
+      {
+        "mask": 229,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.807792631838305
+      },
+      {
+        "mask": 230,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 3.3543951520108015
+      },
+      {
+        "mask": 231,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.7697394864488465
+      },
+      {
+        "mask": 232,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 2.0623728767706146
+      },
+      {
+        "mask": 233,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.807792631838305
+      },
+      {
+        "mask": 234,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.4850101449794306
+      },
+      {
+        "mask": 235,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.203305146761461
+      },
+      {
+        "mask": 236,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.2321405898081945
+      },
+      {
+        "mask": 237,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.502327786156168
+      },
+      {
+        "mask": 238,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.7286138522553194
+      },
+      {
+        "mask": 239,
+        "triplets": 7,
+        "dimension": 2187,
+        "min_energy": 2.1758528120094596
+      },
+      {
+        "mask": 240,
+        "triplets": 4,
+        "dimension": 81,
+        "min_energy": 1.2125492133612448
+      },
+      {
+        "mask": 241,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.018744999298849
+      },
+      {
+        "mask": 242,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.01874499929885
+      },
+      {
+        "mask": 243,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 1.651382798567493
+      },
+      {
+        "mask": 244,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.0187449992988538
+      },
+      {
+        "mask": 245,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.203305146761464
+      },
+      {
+        "mask": 246,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.7697394864488407
+      },
+      {
+        "mask": 247,
+        "triplets": 7,
+        "dimension": 2187,
+        "min_energy": 2.175852812009463
+      },
+      {
+        "mask": 248,
+        "triplets": 5,
+        "dimension": 243,
+        "min_energy": 2.018744999298857
+      },
+      {
+        "mask": 249,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.7697394864488394
+      },
+      {
+        "mask": 250,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 2.2033051467614646
+      },
+      {
+        "mask": 251,
+        "triplets": 7,
+        "dimension": 2187,
+        "min_energy": 2.1758528120094685
+      },
+      {
+        "mask": 252,
+        "triplets": 6,
+        "dimension": 729,
+        "min_energy": 1.6513827985674858
+      },
+      {
+        "mask": 253,
+        "triplets": 7,
+        "dimension": 2187,
+        "min_energy": 2.175852812009457
+      },
+      {
+        "mask": 254,
+        "triplets": 7,
+        "dimension": 2187,
+        "min_energy": 2.175852812009463
+      },
+      {
+        "mask": 255,
+        "triplets": 8,
+        "dimension": 6561,
+        "min_energy": 1.5922311017173758
+      }
+    ]
+  },
+  {
+    "kind": "spin1_star",
+    "weights": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "dimension": 243,
+    "minimum": -5.000000000000003,
+    "analytic_lower": -5
+  },
+  {
+    "kind": "spin1_star",
+    "weights": [
+      2,
+      1,
+      1
+    ],
+    "dimension": 81,
+    "minimum": -5.485349493297328,
+    "analytic_lower": -6
+  },
+  {
+    "kind": "spin1_star",
+    "weights": [
+      2,
+      2
+    ],
+    "dimension": 27,
+    "minimum": -6.000000000000003,
+    "analytic_lower": -6
+  },
+  {
+    "kind": "occupied_plaquette_PSD",
+    "all_16_occupations_checked": true,
+    "minimum_shifted": 0.0,
+    "analytic_inequality": "K_plaquette >= -(3/2) sum_i n_i"
+  }
+]

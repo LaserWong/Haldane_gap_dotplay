@@ -1,0 +1,127 @@
+{
+  "status": "PASS independent source-ground audit, radical envelope, interval coverage and optimistic-map failure",
+  "source_sha256": "7e68eb8f51601b924608cc35f21e5c3a068bf4de0e7a3f1c84f0e30fbfe99256",
+  "ground_input_checks": [
+    {
+      "nx": 2,
+      "ny": 2,
+      "full_dimension": 256,
+      "trial_dimension": 34,
+      "full_residual_support": 38,
+      "exact_matrix_nonzeros": 258,
+      "exact_rayleigh_matches": true,
+      "full_residual_matches": true,
+      "Temple_interval_matches": true,
+      "full_space_second_energy_bound": "-280000000001/125000000000",
+      "input_sha256": "e1896f41051923ae7966127fafe6735656dcfd9daa7e2918b8093f2730d5403d",
+      "seconds": 0.03715945399926568
+    },
+    {
+      "nx": 4,
+      "ny": 2,
+      "full_dimension": 65536,
+      "trial_dimension": 433,
+      "full_residual_support": 2133,
+      "exact_matrix_nonzeros": 9877,
+      "exact_rayleigh_matches": true,
+      "full_residual_matches": true,
+      "Temple_interval_matches": true,
+      "full_space_second_energy_bound": "-333436269667/62500000000",
+      "input_sha256": "4338f21fd9d52919884e2d2d3003609f97f8d5ae4f8cd6c815295303be3e069c",
+      "seconds": 0.3065906449992326
+    },
+    {
+      "nx": 4,
+      "ny": 4,
+      "full_dimension": 4294967296,
+      "trial_dimension": 3769,
+      "full_residual_support": 77753,
+      "exact_matrix_nonzeros": 277977,
+      "exact_rayleigh_matches": true,
+      "full_residual_matches": true,
+      "Temple_interval_matches": true,
+      "full_space_second_energy_bound": "-358203519571/31250000000",
+      "input_sha256": "246ea0c7b015a122633e81c8e8e09f9a709471cb9c4d102ec2d362aae0b6b3c5",
+      "seconds": 5.975459593000778
+    }
+  ],
+  "all_beta_checks": [
+    {
+      "order": "xyt",
+      "intervals": [
+        {
+          "beta_lo": "0",
+          "beta_hi": "8",
+          "upper_map_exclusion_rounds": 0
+        },
+        {
+          "beta_lo": "8",
+          "beta_hi": "12",
+          "upper_map_exclusion_rounds": 0
+        },
+        {
+          "beta_lo": "12",
+          "beta_hi": "16",
+          "upper_map_exclusion_rounds": 1
+        },
+        {
+          "beta_lo": "16",
+          "beta_hi": "32",
+          "upper_map_exclusion_rounds": 0
+        }
+      ],
+      "tail_from": "32",
+      "all_beta_covered": true
+    },
+    {
+      "order": "xty",
+      "intervals": [
+        {
+          "beta_lo": "0",
+          "beta_hi": "8",
+          "upper_map_exclusion_rounds": 0
+        },
+        {
+          "beta_lo": "8",
+          "beta_hi": "16",
+          "upper_map_exclusion_rounds": 0
+        },
+        {
+          "beta_lo": "16",
+          "beta_hi": "32",
+          "upper_map_exclusion_rounds": 0
+        }
+      ],
+      "tail_from": "32",
+      "all_beta_covered": true
+    },
+    {
+      "order": "txy",
+      "intervals": [
+        {
+          "beta_lo": "0",
+          "beta_hi": "4",
+          "upper_map_exclusion_rounds": 0
+        },
+        {
+          "beta_lo": "4",
+          "beta_hi": "8",
+          "upper_map_exclusion_rounds": 1
+        },
+        {
+          "beta_lo": "8",
+          "beta_hi": "16",
+          "upper_map_exclusion_rounds": 0
+        },
+        {
+          "beta_lo": "16",
+          "beta_hi": "32",
+          "upper_map_exclusion_rounds": 0
+        }
+      ],
+      "tail_from": "32",
+      "all_beta_covered": true
+    }
+  ],
+  "scope": "Only the declared ground-only numerator/independent-dimer-bin majorant family, with arbitrary refined pivots inside these intervals, all admissible local a, and xyt/xty/txy staircase orders; not a physical phase boundary."
+}

@@ -1,0 +1,22 @@
+{
+  "alpha": "83/100",
+  "B": "2163649829/15625000000",
+  "second_shift_lower": "10805100171/15625000000",
+  "local_certificate": {
+    "spin": "1/2",
+    "coupling": "1/50",
+    "a": "17/400",
+    "b": "2163649829/500000000000",
+    "local_dimension": 16,
+    "exact_inertia": [
+      0,
+      0,
+      16
+    ],
+    "kind": "bilayer",
+    "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+    "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+  },
+  "full_inequality": "H >= E00*I + alpha*(H0-E00*I) - B*I",
+  "ordered_bins": "lambda_j(H) >= E00 + alpha*(lambda_j(H0)-E00) - B, by min-max"
+}

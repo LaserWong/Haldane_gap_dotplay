@@ -1,0 +1,2309 @@
+[
+  {
+    "model": {
+      "spin": 0.5,
+      "nsites": 8,
+      "edges": [
+        {
+          "i": 0,
+          "j": 1,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 2,
+          "j": 3,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 4,
+          "j": 5,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 6,
+          "j": 7,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 0,
+          "j": 4,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 5,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 3,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 0,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 1,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 0,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 1,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 6,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 7,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 2,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 3,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 4,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 5,
+          "coupling": 0.305,
+          "kind": "straight"
+        }
+      ],
+      "label": "frustrated_2x2_J3/10_eps1/200",
+      "geometry": {
+        "family": "frustrated_robustness",
+        "nx": 2,
+        "ny": 2,
+        "J": "3/10",
+        "epsilon": "1/200",
+        "straight": "61/200",
+        "cross": "3/10",
+        "periodic_both": true,
+        "convention": "straight J+epsilon; cross J"
+      },
+      "single_ion": 0.0,
+      "dimension": 256,
+      "edge_counts": {
+        "rung": 4,
+        "straight": 16,
+        "cross": 16
+      },
+      "total_coupling": 13.68
+    },
+    "physical_spins": 8,
+    "full_dimension": 256,
+    "Sz0_dimension": 70,
+    "ground_shifted": -0.00037983264368435243,
+    "gap": 0.3699840209389955,
+    "ground_singlet_product_overlap_squared": 0.9995187129781961,
+    "exact_product_rayleigh_shifted": "0",
+    "product_residual_squared_formula": "12 * epsilon^2",
+    "product_residual_squared": 0.000300000000000005,
+    "max_low_eigenpair_residual": 4.28668669083565e-15,
+    "energies_M0_shifted": [
+      -0.00037983264368435243,
+      0.36960418829531116,
+      0.7899500012499376,
+      0.7899999999999996,
+      0.7900000000000005,
+      0.7905999605968486,
+      0.9747025915518703,
+      0.9891222482899247,
+      0.9999283066696747,
+      0.999928306669676,
+      1.0090479335527431,
+      1.1841641408641121
+    ],
+    "energies_M1_shifted": [
+      0.974702591551869,
+      0.9891222482899251,
+      0.9999283066696747,
+      0.9999283066696756
+    ],
+    "seconds": 0.013365421998969396,
+    "certified": false,
+    "full_spectrum_ground_degeneracy": 1
+  },
+  {
+    "model": {
+      "spin": 0.5,
+      "nsites": 8,
+      "edges": [
+        {
+          "i": 0,
+          "j": 1,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 2,
+          "j": 3,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 4,
+          "j": 5,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 6,
+          "j": 7,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 0,
+          "j": 4,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 5,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 3,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 0,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 1,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 0,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 1,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 6,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 7,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 2,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 3,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 4,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 5,
+          "coupling": 0.31,
+          "kind": "straight"
+        }
+      ],
+      "label": "frustrated_2x2_J3/10_eps1/100",
+      "geometry": {
+        "family": "frustrated_robustness",
+        "nx": 2,
+        "ny": 2,
+        "J": "3/10",
+        "epsilon": "1/100",
+        "straight": "31/100",
+        "cross": "3/10",
+        "periodic_both": true,
+        "convention": "straight J+epsilon; cross J"
+      },
+      "single_ion": 0.0,
+      "dimension": 256,
+      "edge_counts": {
+        "rung": 4,
+        "straight": 16,
+        "cross": 16
+      },
+      "total_coupling": 13.76
+    },
+    "physical_spins": 8,
+    "full_dimension": 256,
+    "Sz0_dimension": 70,
+    "ground_shifted": -0.0015401296676493814,
+    "gap": 0.3400404077787531,
+    "ground_singlet_product_overlap_squared": 0.9980155715588377,
+    "exact_product_rayleigh_shifted": "0",
+    "product_residual_squared_formula": "12 * epsilon^2",
+    "product_residual_squared": 0.0012000000000000023,
+    "max_low_eigenpair_residual": 5.830432203211377e-15,
+    "energies_M0_shifted": [
+      -0.0015401296676493814,
+      0.3385002781111037,
+      0.7798000199960051,
+      0.7800000000000016,
+      0.7800000000000029,
+      0.7823425453507791,
+      0.9488665561250387,
+      0.9764047064355501,
+      0.9997120733134182,
+      0.9997120733134195,
+      1.0157283482957458,
+      1.1698636582384931
+    ],
+    "energies_M1_shifted": [
+      0.9488665561250405,
+      0.9764047064355519,
+      0.9997120733134159,
+      0.9997120733134168
+    ],
+    "seconds": 0.008577217000492965,
+    "certified": false,
+    "full_spectrum_ground_degeneracy": 1
+  },
+  {
+    "model": {
+      "spin": 0.5,
+      "nsites": 8,
+      "edges": [
+        {
+          "i": 0,
+          "j": 1,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 2,
+          "j": 3,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 4,
+          "j": 5,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 6,
+          "j": 7,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 0,
+          "j": 4,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 5,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 3,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 0,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 1,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 0,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 1,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 6,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 7,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 2,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 3,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 4,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 5,
+          "coupling": 0.32,
+          "kind": "straight"
+        }
+      ],
+      "label": "frustrated_2x2_J3/10_eps1/50",
+      "geometry": {
+        "family": "frustrated_robustness",
+        "nx": 2,
+        "ny": 2,
+        "J": "3/10",
+        "epsilon": "1/50",
+        "straight": "8/25",
+        "cross": "3/10",
+        "periodic_both": true,
+        "convention": "straight J+epsilon; cross J"
+      },
+      "single_ion": 0.0,
+      "dimension": 256,
+      "edge_counts": {
+        "rung": 4,
+        "straight": 16,
+        "cross": 16
+      },
+      "total_coupling": 13.92
+    },
+    "physical_spins": 8,
+    "full_dimension": 256,
+    "Sz0_dimension": 70,
+    "ground_shifted": -0.0063549689959288,
+    "gap": 0.28103017757177673,
+    "ground_singlet_product_overlap_squared": 0.9913806794007007,
+    "exact_product_rayleigh_shifted": "0",
+    "product_residual_squared_formula": "12 * epsilon^2",
+    "product_residual_squared": 0.004800000000000044,
+    "max_low_eigenpair_residual": 4.638690796298714e-15,
+    "energies_M0_shifted": [
+      -0.0063549689959288,
+      0.27467520857584793,
+      0.7592003197442567,
+      0.7599999999999958,
+      0.7599999999999989,
+      0.7689320547848011,
+      0.8958688876853254,
+      0.9453349485476519,
+      0.9988373558560322,
+      0.9988373558560335,
+      1.0190438694339436,
+      1.1394673987420503
+    ],
+    "energies_M1_shifted": [
+      0.8958688876853258,
+      0.945334948547655,
+      0.9988373558560344,
+      0.9988373558560348
+    ],
+    "seconds": 0.008846389000609634,
+    "certified": false,
+    "full_spectrum_ground_degeneracy": 1
+  },
+  {
+    "model": {
+      "spin": 0.5,
+      "nsites": 16,
+      "edges": [
+        {
+          "i": 0,
+          "j": 1,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 2,
+          "j": 3,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 4,
+          "j": 5,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 6,
+          "j": 7,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 8,
+          "j": 9,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 10,
+          "j": 11,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 12,
+          "j": 13,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 14,
+          "j": 15,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 0,
+          "j": 4,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 5,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 3,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 0,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 1,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 8,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 9,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 8,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 9,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 6,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 7,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 10,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 11,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 10,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 11,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 4,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 5,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 12,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 13,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 12,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 13,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 10,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 11,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 10,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 11,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 14,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 15,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 14,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 8,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 9,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 8,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 9,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 0,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 1,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 14,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 15,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 14,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 15,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 2,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 3,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 12,
+          "coupling": 0.305,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 13,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 12,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 13,
+          "coupling": 0.305,
+          "kind": "straight"
+        }
+      ],
+      "label": "frustrated_4x2_J3/10_eps1/200",
+      "geometry": {
+        "family": "frustrated_robustness",
+        "nx": 4,
+        "ny": 2,
+        "J": "3/10",
+        "epsilon": "1/200",
+        "straight": "61/200",
+        "cross": "3/10",
+        "periodic_both": true,
+        "convention": "straight J+epsilon; cross J"
+      },
+      "single_ion": 0.0,
+      "dimension": 65536,
+      "edge_counts": {
+        "rung": 8,
+        "straight": 32,
+        "cross": 32
+      },
+      "total_coupling": 27.36
+    },
+    "physical_spins": 16,
+    "full_dimension": 65536,
+    "Sz0_dimension": 12870,
+    "ground_shifted": -0.00048724623702689485,
+    "gap": 0.7899738665473395,
+    "ground_singlet_product_overlap_squared": 0.9994424493377362,
+    "exact_product_rayleigh_shifted": "0",
+    "product_residual_squared_formula": "18 * epsilon^2",
+    "product_residual_squared": 0.00045000000000000226,
+    "max_low_eigenpair_residual": 2.1536491842543315e-14,
+    "energies_M0_shifted": [
+      -0.00048724623702689485,
+      0.7894866203103126,
+      0.7896203554220049,
+      0.7896203554220094,
+      0.7897540818887965,
+      0.9894716009152669,
+      0.9946104088797618,
+      0.9946104088797822,
+      0.9996932360703505,
+      0.9996948729898403,
+      1.0046082530126528,
+      1.004608253012659
+    ],
+    "energies_M1_shifted": [
+      0.9894716009152758,
+      0.9946104088797814,
+      0.9946104088797885,
+      0.9996932360703603
+    ],
+    "seconds": 1.6653887560005387,
+    "certified": false
+  },
+  {
+    "model": {
+      "spin": 0.5,
+      "nsites": 16,
+      "edges": [
+        {
+          "i": 0,
+          "j": 1,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 2,
+          "j": 3,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 4,
+          "j": 5,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 6,
+          "j": 7,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 8,
+          "j": 9,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 10,
+          "j": 11,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 12,
+          "j": 13,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 14,
+          "j": 15,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 0,
+          "j": 4,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 5,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 3,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 0,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 1,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 8,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 9,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 8,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 9,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 6,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 7,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 10,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 11,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 10,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 11,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 4,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 5,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 12,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 13,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 12,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 13,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 10,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 11,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 10,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 11,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 14,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 15,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 14,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 8,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 9,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 8,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 9,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 0,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 1,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 14,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 15,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 14,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 15,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 2,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 3,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 12,
+          "coupling": 0.31,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 13,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 12,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 13,
+          "coupling": 0.31,
+          "kind": "straight"
+        }
+      ],
+      "label": "frustrated_4x2_J3/10_eps1/100",
+      "geometry": {
+        "family": "frustrated_robustness",
+        "nx": 4,
+        "ny": 2,
+        "J": "3/10",
+        "epsilon": "1/100",
+        "straight": "31/100",
+        "cross": "3/10",
+        "periodic_both": true,
+        "convention": "straight J+epsilon; cross J"
+      },
+      "single_ion": 0.0,
+      "dimension": 65536,
+      "edge_counts": {
+        "rung": 8,
+        "straight": 32,
+        "cross": 32
+      },
+      "total_coupling": 27.52
+    },
+    "physical_spins": 16,
+    "full_dimension": 65536,
+    "Sz0_dimension": 12870,
+    "ground_shifted": -0.001969667667065522,
+    "gap": 0.779851413466349,
+    "ground_singlet_product_overlap_squared": 0.9977207516535876,
+    "exact_product_rayleigh_shifted": "0",
+    "product_residual_squared_formula": "18 * epsilon^2",
+    "product_residual_squared": 0.0017999999999999746,
+    "max_low_eigenpair_residual": 2.7121191986599174e-14,
+    "energies_M0_shifted": [
+      -0.001969667667065522,
+      0.7778817457992835,
+      0.7784437841309568,
+      0.778443784130979,
+      0.7790056957008256,
+      0.9778623931749078,
+      0.9884238967210495,
+      0.9884238967210601,
+      0.9987562050646881,
+      0.9987696280328056,
+      1.0084060364498164,
+      1.0084060364498244
+    ],
+    "energies_M1_shifted": [
+      0.977862393174914,
+      0.9884238967210388,
+      0.9884238967210655,
+      0.9987562050646872
+    ],
+    "seconds": 1.415718954998738,
+    "certified": false
+  },
+  {
+    "model": {
+      "spin": 0.5,
+      "nsites": 16,
+      "edges": [
+        {
+          "i": 0,
+          "j": 1,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 2,
+          "j": 3,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 4,
+          "j": 5,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 6,
+          "j": 7,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 8,
+          "j": 9,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 10,
+          "j": 11,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 12,
+          "j": 13,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 14,
+          "j": 15,
+          "coupling": 1.0,
+          "kind": "rung"
+        },
+        {
+          "i": 0,
+          "j": 4,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 5,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 0,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 1,
+          "j": 3,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 0,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 2,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 3,
+          "j": 1,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 8,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 9,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 8,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 9,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 6,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 4,
+          "j": 7,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 6,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 5,
+          "j": 7,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 10,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 11,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 10,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 11,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 4,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 6,
+          "j": 5,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 4,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 7,
+          "j": 5,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 12,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 13,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 12,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 13,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 10,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 8,
+          "j": 11,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 10,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 9,
+          "j": 11,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 14,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 15,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 14,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 8,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 10,
+          "j": 9,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 8,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 11,
+          "j": 9,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 0,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 1,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 0,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 1,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 14,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 12,
+          "j": 15,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 14,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 13,
+          "j": 15,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 2,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 3,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 2,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 3,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 12,
+          "coupling": 0.32,
+          "kind": "straight"
+        },
+        {
+          "i": 14,
+          "j": 13,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 12,
+          "coupling": 0.3,
+          "kind": "cross"
+        },
+        {
+          "i": 15,
+          "j": 13,
+          "coupling": 0.32,
+          "kind": "straight"
+        }
+      ],
+      "label": "frustrated_4x2_J3/10_eps1/50",
+      "geometry": {
+        "family": "frustrated_robustness",
+        "nx": 4,
+        "ny": 2,
+        "J": "3/10",
+        "epsilon": "1/50",
+        "straight": "8/25",
+        "cross": "3/10",
+        "periodic_both": true,
+        "convention": "straight J+epsilon; cross J"
+      },
+      "single_ion": 0.0,
+      "dimension": 65536,
+      "edge_counts": {
+        "rung": 8,
+        "straight": 32,
+        "cross": 32
+      },
+      "total_coupling": 27.84
+    },
+    "physical_spins": 16,
+    "full_dimension": 65536,
+    "Sz0_dimension": 12870,
+    "ground_shifted": -0.008047463678657607,
+    "gap": 0.7590301031337079,
+    "ground_singlet_product_overlap_squared": 0.9904928344507358,
+    "exact_product_rayleigh_shifted": "0",
+    "product_residual_squared_formula": "18 * epsilon^2",
+    "product_residual_squared": 0.00720000000000001,
+    "max_low_eigenpair_residual": 2.916319153599163e-14,
+    "energies_M0_shifted": [
+      -0.008047463678657607,
+      0.7509826394550503,
+      0.7534597904011111,
+      0.7534597904011227,
+      0.7559351934163026,
+      0.951260717035951,
+      0.9735530633093257,
+      0.9735530633093665,
+      0.9948855145640705,
+      0.9949983238416964,
+      1.01340020421181,
+      1.013400204211818
+    ],
+    "energies_M1_shifted": [
+      0.9512607170359839,
+      0.9735530633093239,
+      0.9735530633093532,
+      0.994885514564058
+    ],
+    "seconds": 2.3698335379995115,
+    "certified": false
+  }
+]

@@ -1,0 +1,201 @@
+{
+  "status": "exact_rational_sparse_support_ground_certificate",
+  "s": "1/2",
+  "N_dimers": 4,
+  "physical_sites": 8,
+  "full_dimension": 256,
+  "retained_states": 1,
+  "trial_subspace_dimension": 23,
+  "reached_support_dimension": 58,
+  "trial_max_excited_dimers": 2,
+  "support_depth": null,
+  "E00": "-3",
+  "Vmin": "-363/50",
+  "Vmax": "121/50",
+  "second_eigenvalue_lower": "-166250000001/62500000000",
+  "ground_lower": "-395083977635308984744848862853197940683/131677984627734265239212478455138411680",
+  "ground_upper": "-18571450276639057395552059317/6189700196427170657361588320",
+  "ground_lower_display": -3.000379894575753,
+  "ground_upper_display": -3.000379612466352,
+  "ground_width_display": 2.8210940115660917e-07,
+  "exact_rayleigh": "-18571450276639057395552059317/6189700196427170657361588320",
+  "exact_residual_squared": "735783970734387469638254359878357222329046793883/7662477704330111003875083780972270585913319718632084480",
+  "exact_residual_squared_display": 9.602428863428753e-08,
+  "integer_matrix_denominator": 800,
+  "sparse_nnz": 179,
+  "build_seconds": 0.07730479699966963,
+  "total_seconds": 0.0833908659988083,
+  "peak_process_rss_kib": 91288,
+  "proof": "Exact metric Rayleigh/residual includes all H-applied output states, including outside trial subspace. Ordered Weyl second-level bound and Temple give unique full-Hilbert ground enclosure.",
+  "reference_certificate": {
+    "status": "exact_occupancy_star_plus_local_PSD_reference",
+    "J": "3/10",
+    "a": "0",
+    "b": "3750000001/500000000000",
+    "B": "3750000001/62500000000",
+    "second_shift_lower": "21249999999/62500000000",
+    "local_certificate": {
+      "spin": "1/2",
+      "coupling": "1/200",
+      "a": "0",
+      "b": "3750000001/500000000000",
+      "local_dimension": 16,
+      "exact_inertia": [
+        0,
+        0,
+        16
+      ],
+      "kind": "bilayer",
+      "inequality": "g*v + a*(h_i+h_j) + b*I is strictly positive definite",
+      "arithmetic": "Rational orthogonal dimer basis; exact integer congruence and fraction-free inertia"
+    },
+    "bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 12
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 18
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/10",
+        "multiplicity": 108
+      },
+      {
+        "q": 4,
+        "energy_lower": "2/5",
+        "multiplicity": 81
+      }
+    ],
+    "proof": "For each occupied rung set A, Hff >= |A|-J*(active edge weight+half sum maximal incident active weight). Each bin has exact rank3^|A|. Add local epsilon comparison -4aQ-B. Vacuum unique lowest reference bin; ordered min-max then certifies all omitted states."
+  },
+  "trial_artifact": "ff_2x2_J3d10_eps1d200_q2_trial.npz",
+  "weak_bonds": [
+    [
+      0,
+      0,
+      2,
+      0,
+      "61/100"
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      "3/5"
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      "3/5"
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      "61/100"
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      "61/100"
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      "3/5"
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      "3/5"
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      "61/100"
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      "61/100"
+    ],
+    [
+      1,
+      0,
+      3,
+      1,
+      "3/5"
+    ],
+    [
+      1,
+      1,
+      3,
+      0,
+      "3/5"
+    ],
+    [
+      1,
+      1,
+      3,
+      1,
+      "61/100"
+    ],
+    [
+      2,
+      0,
+      3,
+      0,
+      "61/100"
+    ],
+    [
+      2,
+      0,
+      3,
+      1,
+      "3/5"
+    ],
+    [
+      2,
+      1,
+      3,
+      0,
+      "3/5"
+    ],
+    [
+      2,
+      1,
+      3,
+      1,
+      "61/100"
+    ]
+  ]
+}

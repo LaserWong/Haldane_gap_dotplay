@@ -1,0 +1,119 @@
+[
+  {
+    "excluded": true,
+    "n_bootstrap": 2,
+    "m_input": 4,
+    "length_unit": "physical_sites",
+    "threshold": "1/2",
+    "C_lower": "2",
+    "beta_tail_start": "2",
+    "tail_W_upper": "9246313379930967418713315839180218575/340282366920938463463374607431768211456",
+    "finite_interval_leaves": [
+      {
+        "beta_lo": "0",
+        "beta_hi": "1/4",
+        "W_upper": "114931305737879544074466709978968588801/340282366920938463463374607431768211456",
+        "method": "direct_interval"
+      },
+      {
+        "beta_lo": "1/4",
+        "beta_hi": "1/2",
+        "W_upper": "16631617538069437698378454114093203835/170141183460469231731687303715884105728",
+        "method": "direct_interval"
+      },
+      {
+        "beta_lo": "1/2",
+        "beta_hi": "1",
+        "W_upper": "32157588892024149497748906631194440359/340282366920938463463374607431768211456",
+        "method": "direct_interval"
+      },
+      {
+        "beta_lo": "1",
+        "beta_hi": "2",
+        "W_upper": "451049243314887840058636721535189087/21267647932558653966460912964485513216",
+        "method": "direct_interval"
+      }
+    ],
+    "unresolved": [],
+    "scope": "Only the stated scalar recursion at this n; not all larger n from the same moment input",
+    "spin": "1"
+  },
+  {
+    "excluded": true,
+    "n_bootstrap": 2,
+    "m_input": 4,
+    "length_unit": "physical_sites",
+    "threshold": "1/2",
+    "C_lower": "4",
+    "beta_tail_start": "1",
+    "tail_W_upper": "71345010647615489341923733327007859375/340282366920938463463374607431768211456",
+    "finite_interval_leaves": [
+      {
+        "beta_lo": "0",
+        "beta_hi": "1/8",
+        "W_upper": "51951244509406829421763405055742635461/340282366920938463463374607431768211456",
+        "method": "direct_interval"
+      },
+      {
+        "beta_lo": "1/8",
+        "beta_hi": "1/4",
+        "W_upper": "6780984793512679613623264935519981693/340282366920938463463374607431768211456",
+        "method": "direct_interval"
+      },
+      {
+        "beta_lo": "1/4",
+        "beta_hi": "1/2",
+        "W_upper": "3997313122127150171102565387281218951/170141183460469231731687303715884105728",
+        "method": "direct_interval"
+      },
+      {
+        "beta_lo": "1/2",
+        "beta_hi": "1",
+        "W_upper": "3728766017428124287386621244894607815/340282366920938463463374607431768211456",
+        "method": "direct_interval"
+      }
+    ],
+    "unresolved": [],
+    "scope": "Only the stated scalar recursion at this n; not all larger n from the same moment input",
+    "spin": "2"
+  },
+  {
+    "excluded": true,
+    "n_bootstrap": 2,
+    "m_input": 4,
+    "length_unit": "physical_sites",
+    "threshold": "1/2",
+    "C_lower": "6",
+    "beta_tail_start": "1",
+    "tail_W_upper": "313745741313462363306514159904665129/21267647932558653966460912964485513216",
+    "finite_interval_leaves": [
+      {
+        "beta_lo": "0",
+        "beta_hi": "1/8",
+        "W_upper": "170028869115917999166351900655308186659/340282366920938463463374607431768211456",
+        "method": "direct_interval"
+      },
+      {
+        "beta_lo": "1/8",
+        "beta_hi": "1/4",
+        "W_upper": "2793741631368353048918398963479839441/340282366920938463463374607431768211456",
+        "method": "direct_interval"
+      },
+      {
+        "beta_lo": "1/4",
+        "beta_hi": "1/2",
+        "W_upper": "2527672352866373901361446121198309829/340282366920938463463374607431768211456",
+        "method": "direct_interval"
+      },
+      {
+        "beta_lo": "1/2",
+        "beta_hi": "1",
+        "W_upper": "247658225106450333008421359837684931/170141183460469231731687303715884105728",
+        "method": "direct_interval"
+      }
+    ],
+    "unresolved": [],
+    "scope": "Only the stated scalar recursion at this n; not all larger n from the same moment input",
+    "spin": "3"
+  }
+]
