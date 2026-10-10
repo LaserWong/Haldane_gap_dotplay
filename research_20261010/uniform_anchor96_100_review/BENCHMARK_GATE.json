@@ -1,0 +1,12 @@
+{
+  "status": "PASS before96/100 batch",
+  "benchmark_length": 48,
+  "exact_accepted_integer_match": true,
+  "cpu_seconds": 9.26638,
+  "rss_kib": 11072,
+  "expected_long_batch_CPU_seconds_upper": 60,
+  "basis": "Prior sealed sequential-through120 run30.5914CPU sec; shorter100-site run with same freshly rebuilt blocks",
+  "total_scientific_CPU_budget_seconds": 120,
+  "hard_memory_MiB": 100,
+  "compiler_attempt": "g++ within100MiB exhausted virtual memory; reused sealed independent sequential executable with external hard limits rather than escalating"
+}

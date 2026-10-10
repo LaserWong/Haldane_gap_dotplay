@@ -1,0 +1,127 @@
+{
+  "status": "PASS_ACTUAL_G0105_ALL_INTEGER_POINT",
+  "g": "21/200",
+  "all_integer_L_ge2_gap": "31673112867/1000000000000",
+  "gap_display": 0.031673112867,
+  "best": {
+    "source": "actual_g0105_complete_residual_inputs",
+    "coupling_interval": [
+      "21/200",
+      "21/200"
+    ],
+    "gap": "31673112867/1000000000000",
+    "gap_display": 0.031673112867,
+    "terminal_n": 2048,
+    "terminal_beta": "24064/5",
+    "finite_windows": 8,
+    "methods": {
+      "direct_txy": 8,
+      "inherited_canonical": 0
+    },
+    "beta_initial": "47/5"
+  },
+  "results": [
+    {
+      "source": "actual_g0105_complete_residual_inputs",
+      "coupling_interval": [
+        "21/200",
+        "21/200"
+      ],
+      "gap": "31673112867/1000000000000",
+      "gap_display": 0.031673112867,
+      "terminal_n": 2048,
+      "terminal_beta": "24064/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      },
+      "beta_initial": "47/5"
+    },
+    {
+      "source": "actual_g0105_complete_residual_inputs",
+      "coupling_interval": [
+        "21/200",
+        "21/200"
+      ],
+      "gap": "15677839429/500000000000",
+      "gap_display": 0.031355678858,
+      "terminal_n": 2048,
+      "terminal_beta": "4864",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      },
+      "beta_initial": "19/2"
+    },
+    {
+      "source": "actual_g0105_complete_residual_inputs",
+      "coupling_interval": [
+        "21/200",
+        "21/200"
+      ],
+      "gap": "2686052747/100000000000",
+      "gap_display": 0.02686052747,
+      "terminal_n": 2048,
+      "terminal_beta": "5120",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      },
+      "beta_initial": "10"
+    },
+    {
+      "source": "actual_g0105_complete_residual_inputs",
+      "coupling_interval": [
+        "21/200",
+        "21/200"
+      ],
+      "gap": "12162873589/1000000000000",
+      "gap_display": 0.012162873589,
+      "terminal_n": 4096,
+      "terminal_beta": "11264",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      },
+      "beta_initial": "11"
+    }
+  ],
+  "actual_ground_lowers": {
+    "16": "-193960811338423062016456487986488175877911971282440276775961642993590738609339143775969/1383374537794435404940632650208494058285378119762646911864565512011526670099911540972000",
+    "32": "-2451759342439862039454581330873909881562493604213824852234888576981688899481325307266817/8752601710201577015791580545009697700983828279059874026441398037789629315006581443247900"
+  },
+  "ground_search_dimensions": [
+    16,
+    43
+  ],
+  "denominator_retained_spectral_counts": [
+    49,
+    97
+  ],
+  "total_denominator_search_dimensions": [
+    64,
+    139
+  ],
+  "largest_numerator_search_dimension": 43,
+  "largest_numerator_retained_states": 1,
+  "largest_physical_dimension": "340282366920938463463374607431768211456",
+  "unique_finite_volume_ground": true,
+  "hypothetical_targets_used": false,
+  "adversarial_rejections": [
+    "invented_ground_lower",
+    "wrong_ground_dimension",
+    "changed_odd_endpoint",
+    "omitted_tail",
+    "inflated_initial_ratio",
+    "missing_window"
+  ],
+  "seconds": 4.407549030001974,
+  "peak_rss_kib": 30212,
+  "cpu_affinity": [
+    4
+  ]
+}

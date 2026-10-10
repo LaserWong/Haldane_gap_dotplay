@@ -1,0 +1,49 @@
+{
+  "status": "PRODUCER exact finite-window and coverage-extension candidate; independent new review pending",
+  "A_lower": {
+    "exact": "782159275175083593289269/1000000000000000000000000",
+    "display": 0.7821592751750835
+  },
+  "B_lower": {
+    "exact": "213232331787153576811891/250000000000000000000000",
+    "display": 0.8529293271486144
+  },
+  "window": {
+    "all_integer_lengths": [
+      48,
+      96
+    ],
+    "thermal_purity_lower": {
+      "exact": "256991805584988123566957/500000000000000000000000",
+      "display": 0.5139836111699763
+    },
+    "gap_lower": {
+      "exact": "53/10000",
+      "display": 0.0053
+    },
+    "exponential_margin": {
+      "exact": "3073520767251214907573321097960383201360627/20000000000000000000000000000000000000000000000",
+      "display": 0.00015367603836256074
+    },
+    "unique_ground_state": true
+  },
+  "combined_coverage": {
+    "gap_lower": {
+      "exact": "19/5000",
+      "display": 0.0038
+    },
+    "all_integer_L_at_least": 48,
+    "prior_tail_from": 52,
+    "overlap": [
+      52,
+      96
+    ],
+    "bootstrap_initialization_remains": 52,
+    "unique_ground_state": true,
+    "not_claimed": "No48 bootstrap initialization, no below48, no minimality, no adaptive all-r exclusion"
+  },
+  "resources": {
+    "cpu_seconds": 0.488903842,
+    "maxrss_kib": 10624
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "tests": [
+    "rounding relaxed effective counts destroys exact fixed moments",
+    "without the tiny trivial block, C2 is negative",
+    "dropping tiny high-order moment contributions is forbidden",
+    "independent sector upper corners can violate raw identity-trace interval",
+    "A4 physical multiplicities1,2,3 must be restored exactly once",
+    "integer-correction slack proof includes x0,xh and near-node boundaries"
+  ],
+  "sector_corner_violations_at_lengths": [
+    6,
+    8,
+    10
+  ],
+  "C2_without_tiny_block": "-370377533185693/125000000000000",
+  "C2_with_tiny_block": "12499629622466814307/125000000000000"
+}

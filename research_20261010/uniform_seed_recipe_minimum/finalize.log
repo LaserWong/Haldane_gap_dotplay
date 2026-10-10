@@ -1,0 +1,15 @@
+{
+  "status": "PASS exact saved-history verification; new scalar exclusion pending independent review",
+  "families": 41,
+  "closed_interval_leaves": 332,
+  "all_leaf_paths_end_with_nonpositive_G": true,
+  "finite_round_cap_failures_accepted": 0,
+  "target_entry_paths_accepted_as_failures": 0,
+  "maximum_recorded_failure_round": 7,
+  "failure_types": {
+    "spatial": 215,
+    "thermal": 117
+  },
+  "cpu_seconds_main_certificate": 91.20818645,
+  "anchor_review_manifest_sha256": "99317ea99db7892f33852e6a0b12b9aa4d3825527852ff605d7d86f22d3f22d7"
+}

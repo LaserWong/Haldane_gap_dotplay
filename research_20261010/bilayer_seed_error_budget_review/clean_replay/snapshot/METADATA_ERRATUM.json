@@ -1,0 +1,5 @@
+{
+  "frozen_point_manifest_sha256": "0a2986e6c996e58a6d157bcc0e4bd876d499104a5edbfe38fd56d957bccc6767",
+  "field": "input.denominator_patches[*].odd_band.fixed_center",
+  "correction": "All point odd trial families use fixed z=1/10. The inherited fixed_center field was mislabeled with the physical coupling/interval midpoint. Exact gram_symbol, theta_coefficients, second_moment_coefficients, residual_squared_coefficients and endpoint inequalities already correspond to z=1/10. This metadata correction changes no numerical certificate. Closed extension records correct the label before their separate freeze."
+}

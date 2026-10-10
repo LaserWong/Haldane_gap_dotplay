@@ -1,0 +1,47 @@
+{
+  "status": "uncontracted16D_trial_and_residual_target_only",
+  "g": "21/200",
+  "trial": {
+    "geometry": [
+      4,
+      4
+    ],
+    "N": 16,
+    "trial_dimension": 16,
+    "center": "21/200",
+    "integer_coefficients": [
+      281474976710656,
+      -7829549421975,
+      831886687400,
+      831886687400,
+      -167137022685,
+      49020593580,
+      103210619062,
+      -13780905200,
+      -13780905200,
+      2669309777,
+      -862697471,
+      -1003766670,
+      278684824,
+      278684824,
+      -71279576,
+      30873678
+    ],
+    "integer_metric_norm": "85403794142665249564047633280",
+    "rayleigh_coefficients": [
+      "99482626856809303849172223/667217141739572262219122135",
+      "-7353221137107729737441364621/2668868566958289048876488540"
+    ]
+  },
+  "shifted_Rayleigh": "-74831542393814881406930878641/533773713391657809775297708000",
+  "shifted_Rayleigh_display": -0.14019338254468716,
+  "target_ground_lower": "-1486955798738302998359409765721799/10586753812214974980044522999000000",
+  "complete_residual_squared_budget": "1147614200694009870215031597866362129060015599714903189208424217106244994758391582626970237232225340832814043417562122957492053200405616498101/2945623406252073646984450500326725052897803330993079672607602789632248731877947984375000000000000000000000000000000000000000000000000000000000000",
+  "budget_display": 0.00038959976969839505,
+  "budget_positive": true,
+  "full_image_max_q": 8,
+  "fixed_origin_q4_supports": 455,
+  "fixed_origin_q6_supports": 3003,
+  "basis": "B(6) + L(5) + U(5): adds five already-known H-applied directions to the11D B+L space",
+  "cost_estimate": "Same exact commutator technique;about56.6-fold fewer q6 supports than8x4. Expected well below1s plus startup, not measured. Conservative initial gate40CPU seconds/100MiB."
+}

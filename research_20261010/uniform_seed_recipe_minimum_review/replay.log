@@ -1,0 +1,66 @@
+{"n": 48, "ell": 10, "leaves": 6, "max_round": 2, "elapsed_CPU": 0.15910583399999997}
+{"n": 48, "ell": 12, "leaves": 6, "max_round": 2, "elapsed_CPU": 0.19074507100000002}
+{"n": 48, "ell": 14, "leaves": 6, "max_round": 3, "elapsed_CPU": 0.266435734}
+{"n": 48, "ell": 16, "leaves": 7, "max_round": 3, "elapsed_CPU": 0.30974474900000004}
+{"n": 48, "ell": 18, "leaves": 7, "max_round": 4, "elapsed_CPU": 0.36150768}
+{"n": 48, "ell": 20, "leaves": 10, "max_round": 3, "elapsed_CPU": 0.428323366}
+{"n": 48, "ell": 22, "leaves": 11, "max_round": 4, "elapsed_CPU": 0.59367924}
+{"n": 48, "ell": 24, "leaves": 13, "max_round": 4, "elapsed_CPU": 0.65718779}
+{"n": 48, "ell": 26, "leaves": 14, "max_round": 6, "elapsed_CPU": 0.874960017}
+{"n": 48, "ell": 28, "leaves": 12, "max_round": 5, "elapsed_CPU": 0.969902938}
+{"n": 48, "ell": 30, "leaves": 11, "max_round": 4, "elapsed_CPU": 1.041312152}
+{"n": 48, "ell": 32, "leaves": 9, "max_round": 3, "elapsed_CPU": 1.0950028909999998}
+{"n": 48, "ell": 34, "leaves": 7, "max_round": 3, "elapsed_CPU": 1.215308084}
+{"n": 48, "ell": 36, "leaves": 6, "max_round": 3, "elapsed_CPU": 1.259210763}
+{"n": 48, "ell": 38, "leaves": 6, "max_round": 2, "elapsed_CPU": 1.374319447}
+{"n": 48, "ell": 40, "leaves": 5, "max_round": 3, "elapsed_CPU": 1.409577073}
+{"n": 48, "ell": 42, "leaves": 5, "max_round": 2, "elapsed_CPU": 1.4492253819999998}
+{"n": 48, "ell": 44, "leaves": 5, "max_round": 2, "elapsed_CPU": 1.5006033909999998}
+{"n": 48, "ell": 46, "leaves": 4, "max_round": 5, "elapsed_CPU": 1.593042246}
+{"n": 48, "ell": 48, "leaves": 2, "max_round": 6, "elapsed_CPU": 1.6080975149999999}
+{"n": 50, "ell": 10, "leaves": 6, "max_round": 2, "elapsed_CPU": 1.63888369}
+{"n": 50, "ell": 12, "leaves": 6, "max_round": 2, "elapsed_CPU": 1.702360084}
+{"n": 50, "ell": 14, "leaves": 6, "max_round": 3, "elapsed_CPU": 1.768721408}
+{"n": 50, "ell": 16, "leaves": 7, "max_round": 3, "elapsed_CPU": 1.8541741889999999}
+{"n": 50, "ell": 18, "leaves": 8, "max_round": 4, "elapsed_CPU": 1.9510607359999999}
+{"n": 50, "ell": 20, "leaves": 10, "max_round": 5, "elapsed_CPU": 2.003894748}
+{"n": 50, "ell": 22, "leaves": 12, "max_round": 7, "elapsed_CPU": 2.177117749}
+{"n": 50, "ell": 24, "leaves": 17, "max_round": 6, "elapsed_CPU": 2.4481428530000002}
+{"n": 50, "ell": 26, "leaves": 22, "max_round": 5, "elapsed_CPU": 2.8214113220000003}
+{"n": 50, "ell": 28, "leaves": 19, "max_round": 6, "elapsed_CPU": 3.134303071}
+{"n": 50, "ell": 30, "leaves": 14, "max_round": 5, "elapsed_CPU": 3.213304564}
+{"n": 50, "ell": 32, "leaves": 9, "max_round": 4, "elapsed_CPU": 3.3834711630000003}
+{"n": 50, "ell": 34, "leaves": 7, "max_round": 4, "elapsed_CPU": 3.50443457}
+{"n": 50, "ell": 36, "leaves": 6, "max_round": 4, "elapsed_CPU": 3.618529569}
+{"n": 50, "ell": 38, "leaves": 6, "max_round": 2, "elapsed_CPU": 3.733542983}
+{"n": 50, "ell": 40, "leaves": 5, "max_round": 4, "elapsed_CPU": 3.763253088}
+{"n": 50, "ell": 42, "leaves": 5, "max_round": 3, "elapsed_CPU": 3.872304574}
+{"n": 50, "ell": 44, "leaves": 5, "max_round": 2, "elapsed_CPU": 3.971492117}
+{"n": 50, "ell": 46, "leaves": 5, "max_round": 2, "elapsed_CPU": 4.082223919}
+{"n": 50, "ell": 48, "leaves": 4, "max_round": 3, "elapsed_CPU": 4.173370711}
+{"n": 50, "ell": 50, "leaves": 1, "max_round": 4, "elapsed_CPU": 4.185025040999999}
+{
+  "status": "PASS exclusion only n48/n50 in specified fixed-node canonical cooled grammar; includes ideal unrounded envelope evaluation",
+  "original_history_summary": {
+    "failure_types": {
+      "spatial": 215,
+      "thermal": 117
+    },
+    "max_round": 7,
+    "roundcap_only_failures": 0
+  },
+  "independent_ideal_history_summary": {
+    "failure_types": {
+      "spatial": 215,
+      "thermal": 117
+    },
+    "max_round": 7,
+    "roundcap_only_failures": 0
+  },
+  "resources": {
+    "CPU_seconds": 4.185025040999999,
+    "RSS_KiB": 14212,
+    "CPU": 5,
+    "memory_limit_MiB": 700
+  }
+}

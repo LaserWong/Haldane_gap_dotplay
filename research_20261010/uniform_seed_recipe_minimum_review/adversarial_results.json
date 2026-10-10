@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tests": [
+    "independent fixed-point exponentials enclose longer exact Taylor references",
+    "independent directed logs enclose longer exact atanh references",
+    "directed roots handle zero, exact powers, and large bases",
+    "reject truncated positive trajectory",
+    "reject target entry mislabeled failure",
+    "reject positive terminal output mislabeled failure",
+    "reject incorrect failure-round label",
+    "reject uncovered real-r interval",
+    "tstar cannot be promoted to an upper bound on actual leading mass",
+    "cold-ray S1/16,T1 gives strictly negative first spatial G"
+  ],
+  "CPU_seconds": 0.06077436
+}

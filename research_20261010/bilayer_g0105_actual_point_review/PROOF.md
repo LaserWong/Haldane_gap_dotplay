@@ -1,0 +1,9 @@
+# Independent actual g=.105 point audit
+
+Accepted gap 31673112867/10^12 for every integer periodic square L>=2, with unique ground. Four proposed temperatures are checked independently; best initial beta47/5, eight finite windows followed by the terminal exponential witness at L2048, beta24064/5.
+
+Both new complete physical residual reviews are required. Their exact ground lower bounds replace only the ground exponential in denominator traces. Old Rayleigh pivots and polynomial metadata remain normalization devices; they are not asserted to prove the new ground bounds. The override object is matched exactly to its verified source, dimension and lower bound. All odd and tail absolute endpoints retain their independently checked meaning. Denominator retained counts49/97 differ from ground search dimensions16/43 and combined ground-plus-odd dimensions64/139. Numerator search43 retains one state in physical dimension2^128.
+
+The audit reconstructs fixed trial matrices and fixed z=.1 odd-family polynomials using accepted independent geometry code, checks all cutoffs and complete shell counts at the new coupling, and bounds exponentials with directed rational intervals. Each saved trace component dominates its independently calculated upper bound. Each saved initial ratio and purity is below the independently calculated lower bound. Every transported state, finite direct window, canonical terminal witness and fresh short-size bound L2..7 is independently replayed. No hypothetical target from the seed-error study is used. Six deliberate source, dimension, odd endpoint, tail, ratio and window corruptions are rejected.
+
+Inputs and review dependencies are hash-pinned in INPUT_SHA256 and the snapshot. REPRODUCE.sh validates the seal and rebuilds the scientific audit in a fresh directory. CPU4, one thread, bounded process resources. No producer or root files changed.

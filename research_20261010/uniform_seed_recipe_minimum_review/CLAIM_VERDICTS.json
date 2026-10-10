@@ -1,0 +1,33 @@
+{
+  "status": "ACCEPTED scoped all-r certificate-recipe exclusion",
+  "n_excluded": [
+    48,
+    50
+  ],
+  "ell": "every even10..n",
+  "r": "every realr>=1",
+  "families": 41,
+  "closed_boxes": 332,
+  "cold_rays_from": 16,
+  "finite_failures": {
+    "failure_types": {
+      "spatial": 215,
+      "thermal": 117
+    },
+    "max_round": 7,
+    "roundcap_only_failures": 0
+  },
+  "envelope_scope": "fixed inherited moment intervals/caps and floor1e-10Radau nodes; ideal unrounded min(Hermite,packing) and any conservative evaluation precision",
+  "leading_iteration_scope": "total-power initialization and any number/monotone limit of prescribed nonnegative-tail forcing updates, including valid weaker squared-tail variants",
+  "continuation": "canonical sequentialG only",
+  "target": "S,T>=99/100",
+  "bridges": "granted free",
+  "tstar": "cap on declared lower-certificate construction only, not actual physicalleadingweight",
+  "minimum_seed52": "NOT ESTABLISHED, including within this recipe",
+  "n_below48": "NOT EXCLUDED",
+  "physical_gap_nogo": "NOT CLAIMED",
+  "adaptive_or_timefirst_continuation": "OUTSIDE SCOPE",
+  "new_nodes_or_integercorrections": "OUTSIDE SCOPE",
+  "producer_rounding_nuance": "original literal constants24decimal; independent ideal-envelope replay establishes arbitrary-precision extension",
+  "producer_manifest_sha256": "94b7c842440d46fdb77f197a92e2096313f34afcc975bf0846e8c4b4414d5900"
+}
