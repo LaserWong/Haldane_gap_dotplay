@@ -1,0 +1,30 @@
+{
+  "n": 4,
+  "twist": "I",
+  "magnetization": -2,
+  "start": 0,
+  "requested_count": 100000,
+  "records": [
+    {
+      "code": 2,
+      "multiplicity": 8,
+      "norm_squared": 6772640330816417
+    },
+    {
+      "code": 4,
+      "multiplicity": 8,
+      "norm_squared": 15238440931001861
+    },
+    {
+      "code": 10,
+      "multiplicity": 4,
+      "norm_squared": 27090561606261966
+    }
+  ],
+  "diagnostic": "seconds=0.000103098 d=10 nnz=42 reps=3 rowsum=28\n",
+  "cpu_seconds": 0.007278999999999999,
+  "wall_seconds": 0.009467638003116008,
+  "maxrss_kib": 8496,
+  "source_sha256": "f64317bdee4a94482542b09cd000b71a1f19bb9741bbbaa2298484fd7f905316",
+  "coefficients_sha256": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474"
+}

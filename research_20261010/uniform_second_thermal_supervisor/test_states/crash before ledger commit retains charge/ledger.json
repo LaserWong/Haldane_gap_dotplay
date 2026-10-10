@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675307.3558772,
+    "bindings": {
+      "fixture": "crash before ledger commit retains charge"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "3171d51241774c5ea97e96e87f3f863c",
+        "kind": "worker",
+        "details": {
+          "fixture": "crash before ledger commit retains charge"
+        },
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675292.356446,
+        "identity": {
+          "pid": 11,
+          "start_ticks": 3521010,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 23552
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "9cde75eb30f04ecca8f796281b14dac8e42a7d9505a66c6746bd6d6d01caf525"
+}

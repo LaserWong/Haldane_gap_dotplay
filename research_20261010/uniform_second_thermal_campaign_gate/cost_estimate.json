@@ -1,0 +1,178 @@
+{
+  "status": "estimate only, not a thermal result or runtime guarantee",
+  "basis": "local pilot four L12I M0 columns; external exact block dimensions/representative counts",
+  "kernel_seconds_per_coordinate_step": 2.9441704838571242e-08,
+  "cases": [
+    {
+      "n": 4,
+      "twist": "I",
+      "representatives": 13,
+      "coordinate_steps": 34176,
+      "scaled_kernel_cpu_seconds": 0.0010061997045630107,
+      "batch16_count": 5,
+      "largest_block": 19
+    },
+    {
+      "n": 4,
+      "twist": "P",
+      "representatives": 13,
+      "coordinate_steps": 34176,
+      "scaled_kernel_cpu_seconds": 0.0010061997045630107,
+      "batch16_count": 5,
+      "largest_block": 19
+    },
+    {
+      "n": 5,
+      "twist": "I",
+      "representatives": 22,
+      "coordinate_steps": 152064,
+      "scaled_kernel_cpu_seconds": 0.004477023404572497,
+      "batch16_count": 6,
+      "largest_block": 51
+    },
+    {
+      "n": 5,
+      "twist": "P",
+      "representatives": 22,
+      "coordinate_steps": 152064,
+      "scaled_kernel_cpu_seconds": 0.004477023404572497,
+      "batch16_count": 6,
+      "largest_block": 51
+    },
+    {
+      "n": 6,
+      "twist": "I",
+      "representatives": 52,
+      "coordinate_steps": 1003008,
+      "scaled_kernel_cpu_seconds": 0.029530265486725663,
+      "batch16_count": 7,
+      "largest_block": 141
+    },
+    {
+      "n": 6,
+      "twist": "P",
+      "representatives": 52,
+      "coordinate_steps": 1003008,
+      "scaled_kernel_cpu_seconds": 0.029530265486725663,
+      "batch16_count": 7,
+      "largest_block": 141
+    },
+    {
+      "n": 7,
+      "twist": "I",
+      "representatives": 106,
+      "coordinate_steps": 5673600,
+      "scaled_kernel_cpu_seconds": 0.1670404565721178,
+      "batch16_count": 11,
+      "largest_block": 393
+    },
+    {
+      "n": 7,
+      "twist": "P",
+      "representatives": 106,
+      "coordinate_steps": 5673600,
+      "scaled_kernel_cpu_seconds": 0.1670404565721178,
+      "batch16_count": 11,
+      "largest_block": 393
+    },
+    {
+      "n": 8,
+      "twist": "I",
+      "representatives": 266,
+      "coordinate_steps": 40316544,
+      "scaled_kernel_cpu_seconds": 1.1869877885592703,
+      "batch16_count": 22,
+      "largest_block": 1107
+    },
+    {
+      "n": 8,
+      "twist": "P",
+      "representatives": 266,
+      "coordinate_steps": 40316544,
+      "scaled_kernel_cpu_seconds": 1.1869877885592703,
+      "batch16_count": 22,
+      "largest_block": 1107
+    },
+    {
+      "n": 9,
+      "twist": "I",
+      "representatives": 630,
+      "coordinate_steps": 269914176,
+      "scaled_kernel_cpu_seconds": 7.94673350153817,
+      "batch16_count": 46,
+      "largest_block": 3139
+    },
+    {
+      "n": 9,
+      "twist": "P",
+      "representatives": 630,
+      "coordinate_steps": 269914176,
+      "scaled_kernel_cpu_seconds": 7.94673350153817,
+      "batch16_count": 46,
+      "largest_block": 3139
+    },
+    {
+      "n": 10,
+      "twist": "I",
+      "representatives": 1652,
+      "coordinate_steps": 2022773952,
+      "scaled_kernel_cpu_seconds": 59.55391364993427,
+      "batch16_count": 110,
+      "largest_block": 8953
+    },
+    {
+      "n": 10,
+      "twist": "P",
+      "representatives": 1652,
+      "coordinate_steps": 2022773952,
+      "scaled_kernel_cpu_seconds": 59.55391364993427,
+      "batch16_count": 110,
+      "largest_block": 8953
+    },
+    {
+      "n": 11,
+      "twist": "I",
+      "representatives": 4270,
+      "coordinate_steps": 14970865152,
+      "scaled_kernel_cpu_seconds": 440.767792983236,
+      "batch16_count": 274,
+      "largest_block": 25653
+    },
+    {
+      "n": 11,
+      "twist": "P",
+      "representatives": 4270,
+      "coordinate_steps": 14970865152,
+      "scaled_kernel_cpu_seconds": 440.767792983236,
+      "batch16_count": 274,
+      "largest_block": 25653
+    },
+    {
+      "n": 12,
+      "twist": "I",
+      "representatives": 11595,
+      "coordinate_steps": 116959400064,
+      "scaled_kernel_cpu_seconds": 3443.484134780658,
+      "batch16_count": 733,
+      "largest_block": 73789
+    },
+    {
+      "n": 12,
+      "twist": "P",
+      "representatives": 11595,
+      "coordinate_steps": 116959400064,
+      "scaled_kernel_cpu_seconds": 3443.484134780658,
+      "batch16_count": 733,
+      "largest_block": 73789
+    }
+  ],
+  "scaled_total_kernel_cpu_seconds": 7906.283233298188,
+  "batch16_total": 2428,
+  "planning_cpu_hours": [
+    2,
+    3
+  ],
+  "proposed_cap_aggregate_cpu_hours": 6,
+  "maximum_workers": 2,
+  "memory_per_worker_mib": 256
+}

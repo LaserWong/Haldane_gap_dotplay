@@ -1,0 +1,16 @@
+{
+  "status": "PASS engineering launch gate; root authorization still required",
+  "producer_manifest_sha256": "4c631ec44671a0fd7c85ff88754ae1c426b92d215595ee47715b832e87367c3f",
+  "single_authorized_persistent_state_directory_required": true,
+  "campaign_deadline_utc": "2026-10-11T06:00:00Z",
+  "user_hardstop_utc": "2026-10-14T00:00:00Z",
+  "aggregate_CPU_seconds": 21600,
+  "max_workers": 2,
+  "worker_tree_memory_MiB": 256,
+  "supervisor_overhead_separate_and_charged": true,
+  "tests_passed": 15,
+  "thermal_jobs_executed": 0,
+  "full_campaign_authorized": false,
+  "sole_authorized_state_directory": "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_run",
+  "no_alternative_or_reset_or_second_instance": true
+}

@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675307.5057757,
+    "bindings": {
+      "fixture": "failed metadata attempt charged"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "1a81ef8f99de460da751d6f3f656548d",
+        "kind": "worker",
+        "details": {
+          "fixture": "failed metadata attempt charged"
+        },
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675292.5071442,
+        "identity": {
+          "pid": 13,
+          "start_ticks": 3521025,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 9
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "0d2e244b11e412536d845005fb780cdfd5f130d63b3a37c8021c99848cb16250"
+}

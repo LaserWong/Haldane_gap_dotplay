@@ -1,0 +1,28 @@
+{
+  "status": "PASS independent authorized scheduling fixtures",
+  "tests": [
+    "reserved-before-launch survives restart without refund",
+    "third simultaneous worker rejected",
+    "duplicate campaign lock rejected",
+    "corrupt persistent checkpoint rejected",
+    "terminal wait4 accounts nested child CPU",
+    "guardian crash cleans descendant group",
+    "post-result crash does not refund",
+    "deadline kills active descendants",
+    "failed retries debit aggregate budget across attempts",
+    "aggregate budget survives reopening",
+    "SIGKILL watchdog leaves no running descendants",
+    "owner crash triggers parent-death cascade",
+    "historical certificate cannot bypass current validation"
+  ],
+  "count": 13,
+  "no_thermal_commands": true,
+  "deadline_utc": "2026-10-11T06:00:00Z",
+  "user_hardstop_utc": "2026-10-14T00:00:00Z",
+  "aggregate_CPU_limit_seconds": 21600,
+  "max_worker_trees": 2,
+  "CPU_affinity": 5,
+  "self_CPU_seconds": 0.083585531,
+  "waited_children_CPU_seconds": 0.5848709999999999,
+  "children_maxrss_KiB": 9856
+}

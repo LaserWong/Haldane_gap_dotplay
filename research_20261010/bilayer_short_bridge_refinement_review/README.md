@@ -1,0 +1,1 @@
+Independent short-size L2..7 review only. Positive continuous bounds through g=.15, .1525 and .1528; exact fixed-method zero bracket. No all-size bootstrap claim. See ACCEPTANCE.json and PROOF.md. Run bash REPRODUCE.sh for a fresh-directory exact physical replay.

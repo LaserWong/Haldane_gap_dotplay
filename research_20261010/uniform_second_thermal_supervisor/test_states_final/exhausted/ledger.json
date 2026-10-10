@@ -1,0 +1,26 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 5,
+    "deadline": 1791675346.2341409,
+    "bindings": {
+      "fixture": "exhausted"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "44a96c9001ea48798131dab4defb680b",
+        "kind": "worker",
+        "details": {},
+        "reservation": 3,
+        "charge": 3,
+        "status": "RESERVED",
+        "reserved_utc": 1791675326.2352352,
+        "identity": null
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "e73480bc4b8caca2c227767e44936f3c7b2bc8b8a141a175c25b525b94c91074"
+}

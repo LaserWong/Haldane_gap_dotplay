@@ -1,0 +1,30 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675355.0630696,
+    "bindings": {
+      "fixture": "supervisor_crash"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "77861536666340af9f2a09eb7953e425",
+        "kind": "worker",
+        "details": {},
+        "reservation": 100,
+        "charge": 100,
+        "status": "ACTIVE",
+        "reserved_utc": 1791675335.066013,
+        "identity": {
+          "pid": 23,
+          "start_ticks": 3525281,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        }
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "a3a1b71b9063ed6cc79d13372998644051253711f13d4b17a11e1ce1c62ebdf6"
+}

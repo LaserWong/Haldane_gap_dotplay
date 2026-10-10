@@ -1,0 +1,31 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675483.9627185,
+    "bindings": {
+      "fixture": "watchdog_killed"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "d5cce296d17841f29b61cefc2a040230",
+        "kind": "worker",
+        "details": {},
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675463.963539,
+        "identity": {
+          "pid": 19,
+          "start_ticks": 3538171,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 9
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "2a23bd9180c8b4004bb113b03601f23ba2ecf195e42d6dd18bedf3410b933bde"
+}

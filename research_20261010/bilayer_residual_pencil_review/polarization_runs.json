@@ -1,0 +1,108 @@
+{
+  "runs": [
+    {
+      "indices": [
+        0
+      ],
+      "file": "polarization/result_0.json"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "file": "polarization/result_1.json"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "file": "polarization/result_2.json"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "file": "polarization/result_3.json"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "file": "polarization/result_4.json"
+    },
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "file": "polarization/result_0_1.json"
+    },
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "file": "polarization/result_0_2.json"
+    },
+    {
+      "indices": [
+        0,
+        3
+      ],
+      "file": "polarization/result_0_3.json"
+    },
+    {
+      "indices": [
+        0,
+        4
+      ],
+      "file": "polarization/result_0_4.json"
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "file": "polarization/result_1_2.json"
+    },
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "file": "polarization/result_1_3.json"
+    },
+    {
+      "indices": [
+        1,
+        4
+      ],
+      "file": "polarization/result_1_4.json"
+    },
+    {
+      "indices": [
+        2,
+        3
+      ],
+      "file": "polarization/result_2_3.json"
+    },
+    {
+      "indices": [
+        2,
+        4
+      ],
+      "file": "polarization/result_2_4.json"
+    },
+    {
+      "indices": [
+        3,
+        4
+      ],
+      "file": "polarization/result_3_4.json"
+    }
+  ],
+  "cpu_seconds": 3.235655,
+  "seconds": 3.644212997001887,
+  "peak_rss_kib": 9728,
+  "scope": "4x4 only; 15 exact independent scalar polarizations; no8x4 support contraction"
+}

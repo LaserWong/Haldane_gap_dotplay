@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675346.2383032,
+    "bindings": {
+      "fixture": "slots"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "ab2658356b314f599be6fad74d7af8ca",
+        "kind": "worker",
+        "details": {},
+        "reservation": 10,
+        "charge": 10,
+        "status": "RESERVED",
+        "reserved_utc": 1791675326.2392662,
+        "identity": null
+      },
+      {
+        "id": "4222a1d639f248f0a57d69fb4b393940",
+        "kind": "worker",
+        "details": {},
+        "reservation": 10,
+        "charge": 10,
+        "status": "RESERVED",
+        "reserved_utc": 1791675326.2396803,
+        "identity": null
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "a60d20d87eac7dd7cc3ae0c0d4666c49dea504229100eba7276b4ff84e86575a"
+}

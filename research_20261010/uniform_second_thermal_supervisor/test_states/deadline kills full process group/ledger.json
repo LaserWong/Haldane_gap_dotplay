@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675293.0051768,
+    "bindings": {
+      "fixture": "deadline kills full process group"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "b062c9a8837e4792aa364b197581fa98",
+        "kind": "worker",
+        "details": {
+          "fixture": "deadline kills full process group"
+        },
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675292.6558948,
+        "identity": {
+          "pid": 15,
+          "start_ticks": 3521040,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 9
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "4a2787d0bc31c60aea2c2965c69547a4b3a7101769fded09fb96273b91a6a7fd"
+}

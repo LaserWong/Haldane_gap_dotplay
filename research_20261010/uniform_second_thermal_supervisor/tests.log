@@ -1,0 +1,28 @@
+{
+  "status": "PASS scheduling-only fixtures",
+  "tests": [
+    "crash after reserve retains full charge",
+    "aggregate budget exhaustion rejects launch",
+    "duplicate active campaign lock rejected",
+    "third worker reservation rejected",
+    "normal durable completion refund",
+    "crash during child retains charge",
+    "crash before ledger commit retains charge",
+    "failed metadata attempt charged",
+    "deadline kills full process group",
+    "watchdog killed leaves no live descendants",
+    "supervisor crash parent-death cleanup",
+    "source identity change rejected"
+  ],
+  "count": 12,
+  "no_thermal_jobs": true,
+  "campaign_deadline_utc": "2026-10-11T06:00:00Z",
+  "user_deadline_utc": "2026-10-14T00:00:00Z",
+  "reserve_rule": "122 CPU seconds per120-second-limited possible process",
+  "supervisor_source_sha256": "41952a7efb226277c0287c911198506d6d1c25173a38d148b45e5f6dadcf1eff",
+  "resources": {
+    "self_cpu": 0.152473,
+    "children_cpu": 0.567541,
+    "maxrss_kib": 8960
+  }
+}

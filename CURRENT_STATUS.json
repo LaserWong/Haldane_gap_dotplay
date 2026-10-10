@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T23:21:44Z",
+  "updated_at_utc": "2026-10-10T23:46:00Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -44,9 +44,9 @@
     },
     {
       "id": "overview",
-      "status": "stage13_locally_frozen_post_freeze_replay_passed_stage12_last_remotely_verified",
-      "path": "research_20261010/overview_stage13/README.md",
-      "manifest_sha256": "25c5663d046405f58899a205df1edaa1bd5b3a42b327919b8c9475294a4944fa"
+      "status": "stage14_locally_frozen_stage13_remotely_verified",
+      "path": "research_20261010/overview_stage14/README.md",
+      "manifest_sha256": "873769e3e99bf338a9b32548df20d89ecf7ce614aa3e68fad10035f91bf0d41e"
     },
     {
       "id": "trial_size_criteria",
@@ -343,15 +343,49 @@
       "composed_gap": "0.0038",
       "bootstrap_initialization_size": 52,
       "limitations": "No below48, new initialization, minimum seed, provisional MPS50, adaptive-startup or new thermal-certification claim."
+    },
+    {
+      "id": "uniform_second_initialization",
+      "status": "independently_verified_scalar_gap0.0046_all_integer_L_ge36_conditional_on18_published_physical_inputs",
+      "path": "research_20261010/uniform_second_initialization_review",
+      "review_manifest_sha256": "3e713b2de14407cca8c14e7236c23077998d29ea13268267626859fc5c23511b"
+    },
+    {
+      "id": "uniform_second_moment",
+      "status": "independently_verified_scalar_gap0.0214_all_integer_L_ge36_conditional_on18_published_physical_inputs",
+      "path": "research_20261010/uniform_second_moment_review",
+      "review_manifest_sha256": "dbdea168300fa8a014c4a1fcbb72a6f64d1f8ddb3250949eeeed067d55c329de"
+    },
+    {
+      "id": "bilayer_short_bridge",
+      "status": "independently_verified_only_integer_L2_through7_interval0_to0.1528_gap0.000696608341",
+      "path": "research_20261010/bilayer_short_bridge_refinement_review",
+      "review_manifest_sha256": "49bc11944d411a6342f18b3661173fab47c4298d4932a1ce750befe244bc2d7a"
+    },
+    {
+      "id": "bilayer_complete_4x4_H2",
+      "status": "independently_verified_complete4x4_H2_fixture_no_new_gap_no_full8x4_acceptance",
+      "path": "research_20261010/bilayer_residual_pencil_review",
+      "review_manifest_sha256": "a4eec8140e891b53cc9bd4c237c95236dd32a7069180ed9bc9355df82e4060fb"
+    },
+    {
+      "id": "uniform_second_thermal_supervisor",
+      "status": "engineering_gate_pass_frozen_review_executed_zero_thermal_jobs",
+      "path": "research_20261010/uniform_second_thermal_supervisor_review",
+      "review_manifest_sha256": "797f9942024ae7d3da835538b044b6f64c154805865191bb070c2e4184f03464"
+    },
+    {
+      "id": "bilayer_complete_8x4_H2",
+      "status": "independent_review_in_progress_outside_stage14"
     }
   ],
-  "verification": "Ordinary bilayer entire 0<=g<=0.105: gap>=0.004499695659 for every integer square L>=2 over80 closed pieces; extension [.102,.105] gap>=.017785998829. Earlier [.1,.102] gap>=.013574634391 remains valid. Discrete g=.10 gap>=.055807148827 and g=.102 gap>=.016509932002. Alternating spin-1 chain g=.21/.22/.225: gaps>=.107424972/.071581253/.051807500 for every integer M>=2. At g=.25 only M=2..16 has gap>=.01; no all-size certificate. Exact direct-window lemma and producer prose erratum accepted. M8 rank4/9/13/17 arbitrary-vector Rayleigh inputs remain valid; inherited rounded psi/u are not exact singlets or spatial-symmetry eigenvectors. Only added pair directions and their pair-derived H descendants have exact claimed symmetry. Uniform transfer moments improve trace caps, not the gap. MPS current review fully PASS: trial-energy difference .4238202243082572 is not a physical gap. Each even n6..24 specified delayed/canonical continuation excluded, with n24 70/73 alternatives; no exact physical-purity upper-bound or universal minimum-seed claim. Uniform periodic unit-coupling spin-1 Heisenberg chain: cooled n60/n56/n54 independently accepted gaps .0102 for every integer L>=60, .0068 for L>=56, .0025 for L>=54, each with unique ground state. New exact Hermite n52 review certifies gap>=.0038 for every integer L>=52, unique ground state, using the inherited nine certified heat inputs and accepted MPS104, with no new thermal job. The separately accepted direct48..96 window gives gap>=.0053 and composes with n52 to gap>=.0038 for every integer L>=48, unique ground. Bootstrap initialization remains52. No claim below L48 or minimum seed. Original theorem is even-length; original physical trace identity applies to all integer n>=4 and supports the separately proved signed odd extension. Lower-bound comparisons are not physical-gap ratios. Stage13 actual g=.105 point: gap>=.031673112867 for every integer square L>=2 with unique ground state. Denominator ground-search dimensions16/43, total trial dimensions64/139, retained49/97; largest43D numerator retains one Rayleigh term in2^128 physical dimension. Error budgets are selected sufficient targets, not necessary/no-go conditions. Uniform moment-optimality spectra are abstract information-limit examples with no asserted quantum/cross-temperature realization. MPS96/100 acceptance is negative shifted Rayleigh only. Fixed-node Hermite/packing plus fixed-anchor canonical sequential-G exclusions cover only n48/n50, all41 even-base choices and every r>=1; no n<48 or minimum-seed result. Original paper already uses certified matrix-polynomial thermal traces and has no full-ED premise. Coverage onset is distinct from bootstrap initialization seed. Original second initialization already starts n36 at beta49/4 with18 I/P heat inputs at lengths4..12, then six rounds to n2304,beta784. The n52 startup-size improvement is relative only to the original first nine-input n60 route, not every original recipe. Original second-input thermal columns were not independently rerun in this stage.",
-  "last_verified_remote_commit": "340bef8be2de4649e8e6271bdbe6d70c063dcdae",
+  "verification": "Ordinary bilayer entire 0<=g<=0.105: gap>=0.004499695659 for every integer square L>=2 over80 closed pieces; extension [.102,.105] gap>=.017785998829. Earlier [.1,.102] gap>=.013574634391 remains valid. Discrete g=.10 gap>=.055807148827 and g=.102 gap>=.016509932002. Alternating spin-1 chain g=.21/.22/.225: gaps>=.107424972/.071581253/.051807500 for every integer M>=2. At g=.25 only M=2..16 has gap>=.01; no all-size certificate. Exact direct-window lemma and producer prose erratum accepted. M8 rank4/9/13/17 arbitrary-vector Rayleigh inputs remain valid; inherited rounded psi/u are not exact singlets or spatial-symmetry eigenvectors. Only added pair directions and their pair-derived H descendants have exact claimed symmetry. Uniform transfer moments improve trace caps, not the gap. MPS current review fully PASS: trial-energy difference .4238202243082572 is not a physical gap. Each even n6..24 specified delayed/canonical continuation excluded, with n24 70/73 alternatives; no exact physical-purity upper-bound or universal minimum-seed claim. Uniform periodic unit-coupling spin-1 Heisenberg chain: cooled n60/n56/n54 independently accepted gaps .0102 for every integer L>=60, .0068 for L>=56, .0025 for L>=54, each with unique ground state. New exact Hermite n52 review certifies gap>=.0038 for every integer L>=52, unique ground state, using the inherited nine certified heat inputs and accepted MPS104, with no new thermal job. The separately accepted direct48..96 window gives gap>=.0053 and composes with n52 to gap>=.0038 for every integer L>=48, unique ground. Bootstrap initialization remains52. No claim below L48 or minimum seed. Original theorem is even-length; original physical trace identity applies to all integer n>=4 and supports the separately proved signed odd extension. Lower-bound comparisons are not physical-gap ratios. Stage13 actual g=.105 point: gap>=.031673112867 for every integer square L>=2 with unique ground state. Denominator ground-search dimensions16/43, total trial dimensions64/139, retained49/97; largest43D numerator retains one Rayleigh term in2^128 physical dimension. Error budgets are selected sufficient targets, not necessary/no-go conditions. Uniform moment-optimality spectra are abstract information-limit examples with no asserted quantum/cross-temperature realization. MPS96/100 acceptance is negative shifted Rayleigh only. Fixed-node Hermite/packing plus fixed-anchor canonical sequential-G exclusions cover only n48/n50, all41 even-base choices and every r>=1; no n<48 or minimum-seed result. Original paper already uses certified matrix-polynomial thermal traces and has no full-ED premise. Coverage onset is distinct from bootstrap initialization seed. Original second initialization already starts n36 at beta49/4 with18 I/P heat inputs at lengths4..12, then six rounds to n2304,beta784. The n52 startup-size improvement is relative only to the original first nine-input n60 route, not every original recipe. Original second-input thermal columns were not independently rerun in this stage. Stage14 adds separately conditional .0046/.0214 for all integer L>=36 under18 published beta49/4 physical certificates, with no completed local full rerun accepted. New bilayer interval[0,.1528] gap.000696608341 applies only L2..7; all-size[0,.105] unchanged. Complete4x4 H2 fixture accepted, no new gap; full8x4 review in progress and excluded. Engineering supervisor PASS is not physical campaign acceptance.",
+  "last_verified_remote_commit": "0639f9d93a79d5ed521033383c135861fa925916",
   "last_report_utc": "2026-10-10T22:15:12Z",
   "last_report_local": "2026-10-10T18:15:12-04:00",
   "next_report_utc": "2026-10-11T03:15:00Z",
-  "updated_at_local": "2026-10-10T19:21:44-04:00",
-  "prepared_stage": 13,
+  "updated_at_local": "2026-10-10T19:46:00-04:00",
+  "prepared_stage": 14,
   "last_publication_notification_utc": "2026-10-10T22:59:06Z",
   "original_method_comparison": {
     "first_route_original_startup": 60,
@@ -365,6 +399,77 @@
       "beta": 784
     },
     "source": "https://github.com/openai/math/blob/main/preprints/The-periodic-spin-one-Haldane-gap-September-24-2026/build/initialization.tex",
-    "scope": "No claim that n52 is smaller than all original initialization recipes; no independent rerun of second thermal-input columns in this stage."
+    "scope": "n52 improves only the original first-input n60 route. Original second initialization already starts n36. New stage14 all-integer L>=36 scalar deductions are conditional on18 published thermal certificates; no accepted complete local physical rerun."
+  },
+  "last_verified_remote_tree": "ec2eec712f4d5ba5107aac9a398d15c805fa28dc",
+  "last_remote_verified_at_utc": "2026-10-10T23:26:33.300Z",
+  "last_publication_notification_utc_note": "22:59:06 records the last notification timestamp independently available here; stage13 publication verified separately at23:26:33.300UTC.",
+  "conditional_uniform_results": {
+    "evidence_category": "conditional_on_18_published_physical_integer_total_error_certificates",
+    "beta": "49/4",
+    "lengths": [
+      4,
+      12
+    ],
+    "seams": [
+      "I",
+      "P"
+    ],
+    "local_full_physical_rerun_accepted": false,
+    "bounds": [
+      {
+        "gap": "0.0046",
+        "scope": "all_integer_L_ge36_unique_ground"
+      },
+      {
+        "gap": "0.0214",
+        "scope": "all_integer_L_ge36_unique_ground"
+      }
+    ],
+    "separate_from_locally_accepted_bounds": true
+  },
+  "thermal_campaign": {
+    "status": "running_at_verified_snapshot_not_full_physical_validation",
+    "launch_authorized_at_utc": "2026-10-10T23:44:00Z",
+    "state_directory": "research_20261010/uniform_second_thermal_campaign_run",
+    "aggregate_cpu_budget_seconds": 21600,
+    "supervisor_overhead_charged": true,
+    "max_workers": 2,
+    "worker_cpus": [
+      0,
+      1
+    ],
+    "worker_tree_memory_bytes": 268435456,
+    "deadline_utc": "2026-10-11T06:00:00Z",
+    "no_ledger_reset_or_alternate_state_directory_or_second_instance": true,
+    "full_physical_campaign_accepted": false,
+    "mutable_outputs_in_stage14_overview": false,
+    "snapshot_at_utc": "2026-10-10T23:45:56Z",
+    "snapshot_source": "Producer launch verification and sole persistent ledger",
+    "completed_cases": 12,
+    "total_cases": 18,
+    "completed_length_range": [
+      4,
+      9
+    ],
+    "completed_seams": [
+      "I",
+      "P"
+    ],
+    "saved_batches": 222,
+    "active_cases": [
+      {
+        "n": 10,
+        "seam": "I",
+        "cpu": 1
+      },
+      {
+        "n": 10,
+        "seam": "P",
+        "cpu": 0
+      }
+    ],
+    "committed_cpu_seconds": 221,
+    "live_conservative_reservations_within_budget": true
   }
 }

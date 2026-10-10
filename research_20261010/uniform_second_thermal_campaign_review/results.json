@@ -1,0 +1,30 @@
+{
+  "checkpoint_identity_logic": "ACCEPTED inspected source plus independent contract tests",
+  "campaign_launch": "BLOCKED pending aggregate CPU/deadline/two-worker supervisor",
+  "faults_rejected": [
+    "stale kernel",
+    "wrong seam",
+    "wrong M",
+    "wrong start",
+    "wrong count",
+    "missing record",
+    "duplicate record",
+    "wrong ordering",
+    "wrong multiplicity",
+    "negative norm",
+    "float norm",
+    "bool norm",
+    "overflow norm",
+    "wrong aggregate"
+  ],
+  "producer_manifest": "4a282841f56100a6ea99d20d9ce63a79309afe0d1ecdec12f39dee4f94013b68",
+  "imported_code_execution": false,
+  "new_kernel_invocations": 0,
+  "blockers": [
+    "per-invocation CPU budget resets",
+    "metadata setup outside local accounting",
+    "failed/retried attempts have no durable aggregate debit",
+    "no global stop deadline",
+    "no global two-worker enforcement"
+  ]
+}

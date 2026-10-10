@@ -1,0 +1,46 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 210,
+    "deadline": 1791675503.0079563,
+    "bindings": {
+      "test": "failed_budget"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "8740987c1e81423886dc86e370b08c63",
+        "kind": "worker",
+        "details": {},
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675488.008763,
+        "identity": {
+          "pid": 17,
+          "start_ticks": 3540575,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 9
+      },
+      {
+        "id": "415a36c3ad9949bab9a0109f44340dd5",
+        "kind": "worker",
+        "details": {},
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675488.1456494,
+        "identity": {
+          "pid": 19,
+          "start_ticks": 3540589,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 9
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "8911d71d99189d3ee0d525d39c5a718a13bd994134c574f59904cd8b31ce1253"
+}

@@ -1,0 +1,40 @@
+{
+  "n": 4,
+  "twist": "P",
+  "magnetization": 0,
+  "start": 0,
+  "requested_count": 100000,
+  "records": [
+    {
+      "code": 8,
+      "multiplicity": 4,
+      "norm_squared": 74900412226538871505650446
+    },
+    {
+      "code": 14,
+      "multiplicity": 8,
+      "norm_squared": 25180541924835586467531165443
+    },
+    {
+      "code": 16,
+      "multiplicity": 4,
+      "norm_squared": 13643543773116001752207208233
+    },
+    {
+      "code": 20,
+      "multiplicity": 2,
+      "norm_squared": 213589256053983645329418461202
+    },
+    {
+      "code": 40,
+      "multiplicity": 1,
+      "norm_squared": 259224563311753496939
+    }
+  ],
+  "diagnostic": "seconds=0.000120406 d=19 nnz=99 reps=5 rowsum=36\n",
+  "cpu_seconds": 0.005914000000000006,
+  "wall_seconds": 0.008937341001001187,
+  "maxrss_kib": 8524,
+  "source_sha256": "f64317bdee4a94482542b09cd000b71a1f19bb9741bbbaa2298484fd7f905316",
+  "coefficients_sha256": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474"
+}

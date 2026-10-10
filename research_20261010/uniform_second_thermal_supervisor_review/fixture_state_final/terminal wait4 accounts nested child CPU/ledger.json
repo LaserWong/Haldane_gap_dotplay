@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675528.1275024,
+    "bindings": {
+      "test": "terminal wait4 accounts nested child CPU"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "8cb0b5e9589d4500996c00fd5c61266c",
+        "kind": "worker",
+        "details": {},
+        "reservation": 100,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675518.1283793,
+        "identity": {
+          "pid": 6,
+          "start_ticks": 3543587,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "8cb0b5e9589d4500996c00fd5c61266c",
+          "identity": {
+            "pid": 6,
+            "start_ticks": 3543587,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.322275,
+          "watchdog_cpu": 0.007326,
+          "maxrss_kib": 8960,
+          "finished_utc": 1791675518.4943476
+        },
+        "terminal_wait4_cpu": 0.333581,
+        "completed_utc": 1791675518.50308
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "1371aa9c8fa9ae3376c209b4f8e82d7f98a89e577627b4c7ed98e08ff0aebb07"
+}

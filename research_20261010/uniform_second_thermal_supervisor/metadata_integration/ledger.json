@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 10000,
+    "deadline": 1791675454.1888473,
+    "bindings": {
+      "test": "frozen-runner metadata only"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "1e84040565f04453a527f4aefeafdd2d",
+        "kind": "worker",
+        "details": {},
+        "reservation": 2684,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675394.1903849,
+        "identity": {
+          "pid": 8,
+          "start_ticks": 3531193,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "1e84040565f04453a527f4aefeafdd2d",
+          "identity": {
+            "pid": 8,
+            "start_ticks": 3531193,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.452681,
+          "watchdog_cpu": 0.013760999999999999,
+          "maxrss_kib": 12928,
+          "finished_utc": 1791675394.7271094
+        },
+        "terminal_wait4_cpu": 0.46990199999999993,
+        "completed_utc": 1791675394.750478
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "987ac07e4e0935675368d0f65c30ed61f7a4c3dfd37ddc5eb54481939b6acb9d"
+}

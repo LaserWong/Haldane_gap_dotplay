@@ -1,0 +1,27 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675311.9956386,
+    "bindings": {
+      "fixture": "after_reserve"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "3ce82672d36b45faa36cd083420f8332",
+        "kind": "worker",
+        "details": {},
+        "reservation": 20,
+        "charge": 20,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675291.9964275,
+        "identity": null,
+        "reconciled_utc": 1791675291.9982429
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "8ce463d5f73dc0140d3bd5577c595050628e0207146f99d99beb529ecf8a808b"
+}

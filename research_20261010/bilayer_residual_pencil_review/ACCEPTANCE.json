@@ -1,0 +1,27 @@
+{
+  "status": "PASS_COMPLETE_4X4_FIXTURE_AND_CONDITIONAL_SECTOR_PENCIL_PROOF",
+  "geometry": [
+    4,
+    4
+  ],
+  "basis_dimension": 16,
+  "new_U_block_dimension": 5,
+  "independent_support_polarizations": 15,
+  "all_four_missing_blocks_exact": true,
+  "complete_coupling_polynomial_exact": true,
+  "all_mixed_blocks_exact": true,
+  "existing_full_residual_polynomial_reproduced": true,
+  "signed_q8_commutator_required": true,
+  "full_even_singlet_cutoff_required": true,
+  "separate_global_ground_identification_required": true,
+  "projected_H2_rejected": true,
+  "partial8x4_sample_not_certificate": true,
+  "full8x4_matrix_independently_reviewed": false,
+  "producer4x2_matrix_independently_reviewed": false,
+  "new_gap_claim": false,
+  "producer_manifest_sha256": "86b34b8fe80d89fa958b777f7af5fbcf81ce9af588d123e02f4d7c2641fe56e6",
+  "independent_support_cpu_seconds": 3.235655,
+  "independent_support_peak_rss_kib": 9728,
+  "assembly_peak_rss_kib": 23784,
+  "no_producer_root_or_GitHub_edits": true
+}

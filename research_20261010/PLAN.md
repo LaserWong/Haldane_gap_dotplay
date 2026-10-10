@@ -5,7 +5,7 @@ The user resumed research from GitHub and requested ongoing main updates and rep
 
 Baseline: main commit 6be889a30f642bde77fb89af75b3a7379615bed1. GitHub AGENTS.md, README and historical pause records were read. The exported working tree passed all 1,149 original manifest hashes. Historical checkpoint files remain unchanged.
 
-## Active work
+## Initial work queue (historical; current priorities are in the latest milestone) 
 1. Independently reconstruct stronger alternating spin-1 chain certificates at g=0.1, 0.125, 0.15. Verify exact local forms, full sparse residuals, completeness and finite-size bridges.
 2. Independently reconstruct optimized ordinary-bilayer g=0.01 and g=0.02 inputs and recursion, including finite-size interpolation and short-size bounds.
 3. Independently certify the fully frustrated J=0.3 reference with unequal straight/cross couplings, initially epsilon=0.005. Check occupancy counting, star inequalities, exact residuals and all-size scope.
@@ -174,3 +174,16 @@ Original-startup comparison correction (user clarification 23:19:41 UTC): [the o
 [Stage 13 overview](overview_stage13/README.md) is locally frozen with 67 files and manifest 25c5663d046405f58899a205df1edaa1bd5b3a42b327919b8c9475294a4944fa. It includes all 80 bilayer intervals, the separate finite 48–96 uniform window and composed L>=48 coverage, while retaining initialization 52. Post-freeze read-only reproduction passed at 23:21:17 UTC with all sealed files unchanged; no remote publication is asserted.
 
 Stage 13 root files finalized at 2026-10-10 19:21 EDT / 2026-10-10 23:21 UTC after successful overview replay. No further scientific additions enter this freeze.
+
+
+## Stage 14 milestone — 2026-10-10 19:46 EDT / 23:46 UTC
+
+Stage13 was published and remotely verified at 23:26:33.300 UTC: commit 0639f9d93a79d5ed521033383c135861fa925916, tree ec2eec712f4d5ba5107aac9a398d15c805fa28dc. The preceding local-preparation statements are historical snapshots, not current publication status. Stage14 remains local preparation until separate remote verification.
+
+The [stage14 overview](overview_stage14/README.md) is sealed with manifest 873769e3e99bf338a9b32548df20d89ecf7ce614aa3e68fad10035f91bf0d41e. It preserves every stage13 main result and separates conditional uniform results from locally accepted physical-input results. Independent scalar reviews derive .0046 and .0214 for every integer L>=36, unique ground, conditional on the eighteen published beta49/4 I/P integer-total/error certificates at lengths4..12 and the accepted72-site D26 anchor. Rational conversion of published totals, small fixtures and engineering kernel tests do not discharge a full local physical rerun. Keep locally accepted .0038 for L>=48, .0068 for L>=56 and .0102 for L>=60, with bootstrap initialization52. The original second route already initialized36; n52 is smaller only than the original first route60. Original certified matrix-polynomial thermal traces never required full ED; retain original attribution and license.
+
+New [bilayer short-size bounds](bilayer_short_bridge_refinement_review/PROOF.md) cover only integer square L2..7: [0,.15]/[0,.1525]/[0,.1528] give .050426624396/.006136044669/.000696608341. All-size[0,.105] and gap.004499695659 remain unchanged. The [complete4x4 H2 fixture](bilayer_residual_pencil_review/PROOF.md) is accepted; projected K G^-1 K is insufficient, sector pencil needs global ground identification and a full even-singlet cutoff. Full8x4 independent review is ongoing, outside stage14, with no new pencil gap.
+
+Campaign launch was authorized at 23:44 UTC. The verified producer snapshot at 23:45:56 UTC confirms running: 12/18 cases complete (L4 through9, both I/P seams), 222 batches saved, L10 I/P active on CPU1/0, 221 CPU seconds committed plus live conservative reservations within the 21600-second budget. This timestamped operational snapshot is not full physical validation. The sole state path is uniform_second_thermal_campaign_run. Enforce21600 aggregate CPU seconds including charged supervisor overhead, at most two single-core workers on CPU0/1,256MiB per worker tree, and stop no later than2026-10-11T06:00:00Z. Never reset the ledger, use an alternate state directory or start a second instance. The frozen supervisor PASS records zero thermal jobs; subsequent operational state belongs in root status and must not alter the sealed overview. Full physical acceptance remains pending.
+
+Next priorities: monitor resource/checkpoint evidence; finish full8x4 independent review separately; complete stage14 root/publication QA without merging evidence categories; retain bounded alternative-chain direct-window work. Next regular report remains2026-10-11T03:15:00Z. Entire research stops2026-10-14T00:00:00Z (October13 20:00 EDT), with final and partial checkpoints preserved.

@@ -1,0 +1,31 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675497.6093614,
+    "bindings": {
+      "test": "post-result crash does not refund"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "675518efcaba47d7a11be4a60c259b11",
+        "kind": "worker",
+        "details": {},
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675487.6101532,
+        "identity": {
+          "pid": 12,
+          "start_ticks": 3540535,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 23552
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "2a44835645c738d908b09f94780375bb06e0fe1f101a971b9209d3e4b17cadef"
+}

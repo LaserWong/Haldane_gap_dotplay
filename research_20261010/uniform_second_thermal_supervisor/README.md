@@ -1,0 +1,5 @@
+# Supervisor launch gate, not a campaign launch
+
+Persistent21600CPU-second ledger, two worker trees onCPU0/1,256MiB address ceilings per tree, separate supervisor overhead capped/charged. Hard campaign wallstop2026-10-11T06:00:00Z, earlier than user research stop2026-10-14T00:00:00Z. Every attempt pre-reserves a worst-case process-count bound, including metadata and failures, with122 seconds reserved per120-second process limit. Successful terminal wait4 measurements refund unused allowance; unknown attempts stay fully charged. No budget reset or automatic restart after terminal state.
+
+Private process lifetime/memory hook ensures descendant cleanup even after watchdog/supervisor crash. Exclusive campaign lock, reserve-before-launch startup gate, persistent exact statuses, full-group cleanup before reuse, current-invocation certificate validation. Frozen runner4a2828… remains unchanged. See PROOF.md and tests.json. Only scheduling fixtures and metadata integration ran; no thermal campaign. Independent reviewer and root authorization required before --launch.

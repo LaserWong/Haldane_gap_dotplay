@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675341.2404354,
+    "bindings": {
+      "fixture": "normal durable completion refund"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "433b0adbb1724a27b08f80ddea041591",
+        "kind": "worker",
+        "details": {
+          "fixture": "normal durable completion refund"
+        },
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675326.241476,
+        "identity": {
+          "pid": 7,
+          "start_ticks": 3524399,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 9
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "086e6e140a0061bedab63500784bf774b5b16b60a530955a4bdb17bcd32db816"
+}

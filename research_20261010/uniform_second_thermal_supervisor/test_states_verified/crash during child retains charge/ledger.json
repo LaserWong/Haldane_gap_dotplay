@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675349.012469,
+    "bindings": {
+      "fixture": "crash during child retains charge"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "38a95bd4373a48328cb8403a5827b217",
+        "kind": "worker",
+        "details": {
+          "fixture": "crash during child retains charge"
+        },
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675334.0140471,
+        "identity": {
+          "pid": 10,
+          "start_ticks": 3525176,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 23296
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "43c417acd2abc5fd847c762f51bde730861d52551d2072105cf4ccf27173fc7b"
+}

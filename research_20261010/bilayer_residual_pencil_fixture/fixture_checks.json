@@ -1,0 +1,29 @@
+{
+  "status": "PASS_PRODUCER_FIXTURES_PENDING_INDEPENDENT_AUDIT",
+  "results": [
+    {
+      "shape": [
+        4,
+        2
+      ],
+      "dimension": 16,
+      "all_mixed_blocks_exact": true,
+      "old_J0_reproduced": true,
+      "complete_q8_PSD": true,
+      "saved_scalar_four_terms_exact": true,
+      "full_4x4_second_moment_exact": false
+    },
+    {
+      "shape": [
+        4,
+        4
+      ],
+      "dimension": 16,
+      "all_mixed_blocks_exact": true,
+      "old_J0_reproduced": true,
+      "complete_q8_PSD": true,
+      "saved_scalar_four_terms_exact": true,
+      "full_4x4_second_moment_exact": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "n": 4,
+  "twist": "P",
+  "magnetization": -2,
+  "start": 0,
+  "requested_count": 100000,
+  "records": [
+    {
+      "code": 2,
+      "multiplicity": 8,
+      "norm_squared": 68547842141
+    },
+    {
+      "code": 4,
+      "multiplicity": 8,
+      "norm_squared": 136413080076
+    },
+    {
+      "code": 10,
+      "multiplicity": 4,
+      "norm_squared": 272225580559
+    }
+  ],
+  "diagnostic": "seconds=6.8619e-05 d=10 nnz=42 reps=3 rowsum=28\n",
+  "cpu_seconds": 0.005264999999999999,
+  "wall_seconds": 0.007580924000649247,
+  "maxrss_kib": 8516,
+  "source_sha256": "f64317bdee4a94482542b09cd000b71a1f19bb9741bbbaa2298484fd7f905316",
+  "coefficients_sha256": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474"
+}

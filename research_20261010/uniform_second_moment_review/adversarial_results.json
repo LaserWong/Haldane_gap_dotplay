@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "fixtures": {
+    "smaller unsupported negative cap": "REJECTED",
+    "false exterior margin": "REJECTED",
+    "corrupted filter coefficient": "REJECTED",
+    "nonpositive shifted coefficient": "REJECTED",
+    "nonexclusion outside support cap": "REJECTED",
+    "replace signed odd moments with absolute values": "REJECTED",
+    "reverse adverse odd interval direction": "REJECTED",
+    "endpoint-only interior positivity": "REJECTED",
+    "omitted zero condition": "REJECTED",
+    "zero and nonnegative fixture polynomials": "PASS",
+    "missing integer window": "REJECTED",
+    "gap in finite windows": "REJECTED",
+    "wrong window inverse temperature": "REJECTED",
+    "wrong spatial base coordinate": "REJECTED",
+    "thermal coordinate silently unstaggered": "REJECTED",
+    "inflated recurrence purity": "REJECTED",
+    "inflated finite window purity": "REJECTED",
+    "inflated target gap": "REJECTED",
+    "premature asymptotic onset": "REJECTED",
+    "false terminal common defect": "REJECTED",
+    "omitting N multiplicity 3 changes seed optimistically": "PASS",
+    "fractional mass treated as a full spectral occurrence": "REJECTED",
+    "negative leading sign requires positive odd physical traces": "PASS",
+    "all signed moment box corners": 1024
+  },
+  "rejected_mutations": 20,
+  "cpu_seconds": 0.23403641599999997
+}

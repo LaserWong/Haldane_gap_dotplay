@@ -1,0 +1,24 @@
+{
+  "status": "PASS validator tests only, no campaign computation",
+  "faults_rejected": [
+    "corrupt payload digest",
+    "stale matrix_sha256",
+    "stale orbit_sha256",
+    "stale case_sha256",
+    "stale binary",
+    "stale coefficients",
+    "wrong physical seam",
+    "missing record",
+    "duplicate record",
+    "wrong orbit weight",
+    "wrong orbit code",
+    "negative norm",
+    "wrong aggregate",
+    "overflow-sized norm",
+    "missing batch/hole"
+  ],
+  "idempotent_valid_passes": 2,
+  "valid_fixture_batches": 5,
+  "source_sha256": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b",
+  "kernel_sha256": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653"
+}

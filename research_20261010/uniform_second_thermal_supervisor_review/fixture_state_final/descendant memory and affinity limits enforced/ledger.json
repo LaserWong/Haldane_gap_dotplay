@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675529.6480672,
+    "bindings": {
+      "test": "descendant memory and affinity limits enforced"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "c0efdc5ab0894f7baa2e222e29896ce9",
+        "kind": "worker",
+        "details": {},
+        "reservation": 100,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675519.6490865,
+        "identity": {
+          "pid": 28,
+          "start_ticks": 3543739,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "c0efdc5ab0894f7baa2e222e29896ce9",
+          "identity": {
+            "pid": 28,
+            "start_ticks": 3543739,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.212664,
+          "watchdog_cpu": 0.006588999999999999,
+          "maxrss_kib": 8960,
+          "finished_utc": 1791675519.9107058
+        },
+        "terminal_wait4_cpu": 0.22104999999999997,
+        "completed_utc": 1791675519.9209306
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "3b2743701d63716122b9faa7a888f90516eb7390554aedfb5b429be2597f615c"
+}

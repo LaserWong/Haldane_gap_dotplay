@@ -1,0 +1,31 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 1000,
+    "deadline": 1791675528.5147574,
+    "bindings": {
+      "test": "guardian crash cleans descendant group"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "84e14cb0625b482da242f035aa1a90db",
+        "kind": "worker",
+        "details": {},
+        "reservation": 100,
+        "charge": 100,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791675518.5152442,
+        "identity": {
+          "pid": 9,
+          "start_ticks": 3543626,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 23296
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "82174b4031b1e3bcfd7dc140ecbd5025e841acff77b4e2a8a42b8c9a1e31246f"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "count": 10,
+  "tests": {
+    "missing_window": true,
+    "wrong_spatial_base": true,
+    "wrong_beta": true,
+    "window_gap": true,
+    "inflated_spatial_seed": true,
+    "inflated_thermal_update": true,
+    "inflated_gap_label": true,
+    "premature_asymptotic_onset": true,
+    "signed_odd_terms_and_negative_endpoint_coefficients_retained": true,
+    "odd_trace_requires_physical_identity": true
+  }
+}

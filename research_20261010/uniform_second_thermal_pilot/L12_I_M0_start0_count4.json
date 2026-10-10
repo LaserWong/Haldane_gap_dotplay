@@ -1,0 +1,35 @@
+{
+  "n": 12,
+  "twist": "I",
+  "magnetization": 0,
+  "start": 0,
+  "requested_count": 4,
+  "records": [
+    {
+      "code": 728,
+      "multiplicity": 12,
+      "norm_squared": 25760027
+    },
+    {
+      "code": 1214,
+      "multiplicity": 24,
+      "norm_squared": 3978578470
+    },
+    {
+      "code": 1376,
+      "multiplicity": 48,
+      "norm_squared": 62569854137
+    },
+    {
+      "code": 1430,
+      "multiplicity": 48,
+      "norm_squared": 198806055237
+    }
+  ],
+  "diagnostic": "seconds=1.66846 d=73789 nnz=904333 reps=1728 rowsum=52\n",
+  "cpu_seconds": 2.62507,
+  "wall_seconds": 2.648255184998561,
+  "maxrss_kib": 47868,
+  "source_sha256": "5d496b80611e7c68f0ebbf027d686ecff1192a5b77864e2b931ebf2850051d51",
+  "coefficients_sha256": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474"
+}
