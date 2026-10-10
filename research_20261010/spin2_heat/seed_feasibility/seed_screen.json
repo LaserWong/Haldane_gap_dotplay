@@ -1,0 +1,712 @@
+{
+  "status": "EXPLORATORY_ONLY_NOT_A_NO_GO_THEOREM_FOR_MODEL",
+  "rows": [
+    {
+      "a": 4.76121,
+      "shift_status": "archived_D124_certified",
+      "beta": 6,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.07158569847436,
+      "N_cap_rescaled": 1.026932807224987,
+      "N_moment_divided_by_cap_power": 1.6346845890115658,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 90.321010899354,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.0564177383475908e-08,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 2703.2384501140587,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 4.228853914590621e-16,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 2435789.7372416845,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.7883205430948417e-31,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 1977690547709.5845,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 3.19809036485503e-62,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.76121,
+      "shift_status": "archived_D124_certified",
+      "beta": 8,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.1111141470786903,
+      "N_cap_rescaled": 1.0851120292886398,
+      "N_moment_divided_by_cap_power": 1.7242250793594633,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 105875.78722585105,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.930983814626704e-12,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 3620141526.9582148,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 3.728698492350298e-24,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 4.3662159849057193e+18,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.3903192446855386e-47,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 6.354613158505396e+36,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.9329876021429665e-94,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.76121,
+      "shift_status": "archived_D124_certified",
+      "beta": 10,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.1719739408868908,
+      "N_cap_rescaled": 1.1575465262357765,
+      "N_moment_divided_by_cap_power": 1.7146508726099012,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 412947645.1247473,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.2751156687261804e-18,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 5.534085845290038e+16,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 5.1761513060833754e-36,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 1.0204946742045572e+33,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.6792542343468637e-71,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 3.471364365227545e+65,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 7.178403252265599e-142,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.76121,
+      "shift_status": "archived_D124_certified",
+      "beta": 12,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.2488025162098104,
+      "N_cap_rescaled": 1.2408663124500479,
+      "N_moment_divided_by_cap_power": 1.6528231998071214,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 2990656826155.5566,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.9842488200553714e-25,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 2.9561582573210333e+24,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 3.9372433798911334e-50,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 2.9128515043254025e+48,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.5501885432496557e-99,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 2.828234626887827e+96,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.4030845196224897e-198,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.76121,
+      "shift_status": "archived_D124_certified",
+      "beta": 16,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.4355337597547928,
+      "N_cap_rescaled": 1.43310611124617,
+      "N_moment_divided_by_cap_power": 1.4898527432926885,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 3.025496361037783e+20,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 6.376273698501065e-41,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 3.0505513777769867e+40,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 4.0656866278196455e-81,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 3.1019544973179083e+80,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.6529807755631483e-161,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 3.207373901143599e+160,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.76121,
+      "shift_status": "archived_D124_certified",
+      "beta": 20,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.6562732721345172,
+      "N_cap_rescaled": 1.6555301091868424,
+      "N_moment_divided_by_cap_power": 1.3494917446539005,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 3.1700680784947255e+28,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 7.983800024761426e-57,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 3.349767612600663e+56,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 6.374106283538055e-113,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 3.7403143527941053e+112,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 4.0629230913839323e-225,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 4.663317152572529e+224,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.76121,
+      "shift_status": "archived_D124_certified",
+      "beta": 24,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.9090505082379596,
+      "N_cap_rescaled": 1.9088260512533246,
+      "N_moment_divided_by_cap_power": 1.2475390466758949,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 2.601444191971615e+36,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.2904488377245052e-72,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 2.255837216488923e+72,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.6652582027845262e-144,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 1.6962671824321627e+144,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.7730848819411504e-288,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": ">exp(650)",
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.76121,
+      "shift_status": "archived_D124_certified",
+      "beta": 32,
+      "max_moment": 10,
+      "J_cap_rescaled": 2.5236538344346218,
+      "N_cap_rescaled": 2.5236341172394057,
+      "N_moment_divided_by_cap_power": 1.1272387577037646,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 8.639710291564632e+51,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.2033044053769872e-103,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 2.488153130721707e+103,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.4479414919996648e-206,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 2.06363533397341e+206,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": ">exp(650)",
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.761235250999516,
+      "shift_status": "D180_infinite_chain_numerical_only",
+      "beta": 6,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.0714233591126412,
+      "N_cap_rescaled": 1.0267772325316233,
+      "N_moment_divided_by_cap_power": 1.6346845890115684,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 88.5863112021457,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.137743946515801e-08,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 2600.3991305216487,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 4.569949180864952e-16,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 2253985.4509944143,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.0884435515688244e-31,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 1693483470834.6658,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 4.361596468089405e-62,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.761235250999516,
+      "shift_status": "D180_infinite_chain_numerical_only",
+      "beta": 8,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.1108897158055866,
+      "N_cap_rescaled": 1.0848928501207444,
+      "N_moment_divided_by_cap_power": 1.7242250793594645,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 103173.24492857594,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.0334699495544944e-12,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 3437687730.150952,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 4.1350000357411576e-24,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 3.937195361420334e+18,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.7098225295579373e-47,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 5.1671684131366726e+36,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.923493082583903e-94,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.761235250999516,
+      "shift_status": "D180_infinite_chain_numerical_only",
+      "beta": 10,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.1716780431128921,
+      "N_cap_rescaled": 1.157254271068265,
+      "N_moment_divided_by_cap_power": 1.714650872609901,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 399814039.7136198,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.427042537245585e-18,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 5.1876657394657704e+16,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 5.890535477599486e-36,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 8.96732539991008e+32,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 3.46984082128582e-71,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 2.6804306461095096e+65,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.2039795325061455e-141,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.761235250999516,
+      "shift_status": "D180_infinite_chain_numerical_only",
+      "beta": 12,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.2484241713934219,
+      "N_cap_rescaled": 1.2404903720342872,
+      "N_moment_divided_by_cap_power": 1.6528231998071228,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 2876883247238.413,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.144296410561095e-25,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 2.735514318401135e+24,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 4.598007096345197e-50,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 2.4942556767966886e+48,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.114166925804079e-99,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 2.073770459045233e+96,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 4.469701790163871e-198,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.761235250999516,
+      "shift_status": "D180_infinite_chain_numerical_only",
+      "beta": 16,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.4349538983029608,
+      "N_cap_rescaled": 1.4325272304050545,
+      "N_moment_divided_by_cap_power": 1.4898527432926887,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 2.8730124611164144e+20,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 7.071071052081532e-41,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 2.750806825837166e+40,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 5.000004582358542e-81,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 2.5223126723418516e+80,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.5000045823606423e-161,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 2.1206870723520973e+160,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.761235250999516,
+      "shift_status": "D180_infinite_chain_numerical_only",
+      "beta": 20,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.6554370321993641,
+      "N_cap_rescaled": 1.65469424446908,
+      "N_moment_divided_by_cap_power": 1.3494917446539,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 2.9716296462183367e+28,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 9.085680558960587e-57,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 2.94351915355991e+56,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 8.254959121947437e-113,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 2.8881016691128352e+112,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 6.81443501050232e-225,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": 2.780377083710781e+224,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.761235250999516,
+      "shift_status": "D180_infinite_chain_numerical_only",
+      "beta": 24,
+      "max_moment": 10,
+      "J_cap_rescaled": 1.907893928327903,
+      "N_cap_rescaled": 1.9076696073283756,
+      "N_moment_divided_by_cap_power": 1.2475390466758955,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 2.4072756653119385e+36,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.5070170524972307e-72,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 1.9316586426742345e+72,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.2711003965174413e-144,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 1.2437683706060214e+144,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 5.157897011061679e-288,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": ">exp(650)",
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    },
+    {
+      "a": 4.761235250999516,
+      "shift_status": "D180_infinite_chain_numerical_only",
+      "beta": 32,
+      "max_moment": 10,
+      "J_cap_rescaled": 2.5216154650632747,
+      "N_cap_rescaled": 2.5215957637937483,
+      "N_moment_divided_by_cap_power": 1.1272387577037644,
+      "vN_gt_one_and_mN_ge_vN_power": true,
+      "trials": [
+        {
+          "N": 128,
+          "nontrivial_sector_exclusion_upper_bound": 7.790779796867592e+51,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 1.4798306145114912e-103,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0005217430630278
+        },
+        {
+          "N": 256,
+          "nontrivial_sector_exclusion_upper_bound": 2.0232083280953386e+103,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 2.1898986476454578e-206,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0002608375134097
+        },
+        {
+          "N": 512,
+          "nontrivial_sector_exclusion_upper_bound": 1.3644573129581116e+206,
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0001304102532877
+        },
+        {
+          "N": 1024,
+          "nontrivial_sector_exclusion_upper_bound": ">exp(650)",
+          "exclusion_required_less_than": 1,
+          "method_fails_before_ell_search": true,
+          "ground_numerator_one_T_lower_even_without_remainder": 0.0,
+          "J_cap_required_for_T_at_least_7_over_8_even_without_remainder": 1.0000652030009283
+        }
+      ]
+    }
+  ],
+  "successful_tested_seeds": 0,
+  "diagonalizations_performed": 0,
+  "recommendation": "Do not allocate full L9/L10 traces for the archived independent one-atom-cap + MPS numerator-one startup at beta 6..32. A materially different scalar certificate is needed first."
+}

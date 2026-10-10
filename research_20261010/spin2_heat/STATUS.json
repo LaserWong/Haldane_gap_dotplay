@@ -1,0 +1,17 @@
+{
+  "status": "complete_independently_reviewed",
+  "updated_utc": "2026-10-10T18:02:45.168078+00:00",
+  "model": "spin-2 isotropic periodic Heisenberg J=1, beta=8, I/P/C seams",
+  "complete_L9_L10_trace": false,
+  "uniform_spin2_gap_proved": false,
+  "full_campaign_started": false,
+  "benchmark_jobs_active": false,
+  "independent_review_directory": "../spin2_heat_review",
+  "final_candidate_kernel": "compressed_fast.cpp",
+  "final_candidate_source_sha256": "a6ed33529dd576913c682e3847a2bb9ea147c42b4a1ca4a8d3d4002926566439",
+  "recommendation": "No full run for the archived scalar startup: optimistic seed screen fails and L10 critical path exceeds the remaining two-core window. Seek a stronger scalar/filter proposal first.",
+  "next_step": "No full campaign. Follow NEXT_STEPS.md to seek a stronger scalar startup with a viable critical path.",
+  "independent_review": "PASS; no blocking mathematical or kernel defect",
+  "independent_review_path": "../spin2_heat_review/README.md",
+  "independent_review_manifest_sha256": "2a4079afa70ee73f55d58f5ce836e06a9ef7cc51f0e8ac3750a6f9d771fa5c6c"
+}

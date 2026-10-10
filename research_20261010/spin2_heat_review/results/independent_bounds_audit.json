@@ -1,0 +1,84 @@
+{
+  "open8": {
+    "dimension": 38165,
+    "offdiagonal_edges": 358904,
+    "minimum_integer_margin": "839778326",
+    "lower": "-1066059959/31250000",
+    "per_bond": "-1066059959/218750000",
+    "strictly_above_minus_39_over_8": true,
+    "witness_sha256": "fd99c0e0d543914af71c78838cdb9b60760b23ec2ee97af09b08692c14ac826b"
+  },
+  "integer_ranges": {
+    "max_dimension_used": 9765625,
+    "max_degree": 640,
+    "eta_prime": 10938,
+    "coordinate_bound": "144115192577105384",
+    "universal_row_l1_bound": 3152,
+    "max_split_high_and_subtraction": "1918533501182718872",
+    "max_split_low": 1610672,
+    "max_norm_chunk_abs": "13956894827592306758675189922481170432",
+    "all_signed_bounds_pass": true,
+    "extreme_split_checks": 870
+  },
+  "archived_GMP_input_matrices": [
+    {
+      "twist": "I",
+      "sectors": 9,
+      "exact_matrix_entries_verified": 2171,
+      "input_sha256": "3285485a107421dc5c56bc8a28bfb020a3983a0b7f874f65e2f2166915622b64"
+    },
+    {
+      "twist": "P",
+      "sectors": 9,
+      "exact_matrix_entries_verified": 2171,
+      "input_sha256": "b951087562b9c23e84148a86d7e9f36ad42517d79de81f9e2089d76fe7f8bcf7"
+    },
+    {
+      "twist": "C",
+      "sectors": 9,
+      "exact_matrix_entries_verified": 2171,
+      "input_sha256": "bf8f3596133a7c17062c04a5066e674d88a3beeb05cf4818864737b6b79dedb5"
+    }
+  ],
+  "sizes": {
+    "3": {
+      "hilbert_dimension": 125,
+      "all_dimensions_orbits_edges_match": true,
+      "representatives": 19,
+      "column_edges": 1292
+    },
+    "4": {
+      "hilbert_dimension": 625,
+      "all_dimensions_orbits_edges_match": true,
+      "representatives": 66,
+      "column_edges": 25385
+    },
+    "8": {
+      "hilbert_dimension": 390625,
+      "all_dimensions_orbits_edges_match": true,
+      "representatives": 12813,
+      "column_edges": 4002622063
+    },
+    "9": {
+      "hilbert_dimension": 1953125,
+      "all_dimensions_orbits_edges_match": true,
+      "representatives": 55199,
+      "column_edges": 90555397975,
+      "frobenius_error_numerator": 340727888,
+      "thermal_norm_error_upper_display": 2.885355964204924e-07,
+      "conditional_error_at_Z_le_100_display": 5.770712011662638e-06,
+      "condition_Z_le_100_not_verified": true
+    },
+    "10": {
+      "hilbert_dimension": 9765625,
+      "all_dimensions_orbits_edges_match": true,
+      "representatives": 247113,
+      "column_edges": 2119000652898,
+      "frobenius_error_numerator": 1658650919,
+      "thermal_norm_error_upper_display": 2.217851327519341e-06,
+      "conditional_error_at_Z_le_100_display": 4.4357031469251334e-05,
+      "condition_Z_le_100_not_verified": true
+    }
+  },
+  "elapsed_seconds": 0.9480146689984394
+}

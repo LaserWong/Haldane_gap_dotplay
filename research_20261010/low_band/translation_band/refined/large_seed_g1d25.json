@@ -1,0 +1,46 @@
+{
+  "g": "1/25",
+  "status": "larger_seed_candidate_pending_independent_review",
+  "accepted_float": 420,
+  "grid_scope": "beta5..30 step.05",
+  "exact": {
+    "beta_initial": "51/4",
+    "order": "xyt",
+    "J1": "1992618832557197/2000000000000000",
+    "J2": "9924739824614509/10000000000000000",
+    "C": "2484404657190223/2500000000000000",
+    "first_purities": [
+      "9999931392489919/10000000000000000",
+      "4999855979719037/5000000000000000",
+      "999677668732897/1000000000000000"
+    ],
+    "exact_exponential_method": "256-bit directed dyadic range-reduced Taylor from independently reviewed fast_exp.py",
+    "accepted": true,
+    "bootstrap": {
+      "input": {
+        "A_lower": "9999931392489919/10000000000000000",
+        "B_lower": "4999855979719037/5000000000000000",
+        "C_lower": "999677668732897/1000000000000000",
+        "n": 8,
+        "m": 8,
+        "beta": "51/2"
+      },
+      "updates": [],
+      "status": "accepted_analytic_scalar_certificate",
+      "formal_proof_assistant_verified": false,
+      "rounds": 0,
+      "n": 8,
+      "m": 8,
+      "beta": "51/2",
+      "defects": [
+        "68607510081/10000000000000000",
+        "144020280963/5000000000000000",
+        "322331267103/1000000000000000"
+      ],
+      "u": "322331267103/1000000000000000",
+      "uniform_square_gap_lower": "89690095267/500000000000",
+      "uniform_square_gap_lower_display": 0.179380190534,
+      "scope": "Every integer square side L >= n, when n=m and the two transfer hypotheses hold. For n != m, each dyadic rectangle [2^j n,2^(j+1)n] x [2^j m,2^(j+1)m]."
+    }
+  }
+}

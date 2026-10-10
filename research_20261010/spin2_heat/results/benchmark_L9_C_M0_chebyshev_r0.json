@@ -1,0 +1,37 @@
+{
+  "compute_seconds": 16.529,
+  "dimension": 180325,
+  "nnz": 2348605,
+  "block_reps": 5228,
+  "degree": 136,
+  "components": 4,
+  "identity": {
+    "L": 9,
+    "twist": "C",
+    "M": 0,
+    "start": 0,
+    "count": 1,
+    "algorithm": "chebyshev",
+    "source_sha256": "e7a47eb0bb8f32d9c1054e09a9db95ba911fa02ce13526d9bdba6eae79ebfc78",
+    "executable_sha256": "3179405e6535763af14138a584726fa631173b59f4b287186bc932b407cf3438",
+    "coefficient_sha256": "67eed20f1e6d573fb203ef41e87eb4413bfcb9a5810cc5b43e1b971b6edaf618"
+  },
+  "started_utc": "2026-10-10T17:36:45.401548+00:00",
+  "wall_seconds": 26.320018344000346,
+  "exit_code": 0,
+  "max_rss_kib": 173664,
+  "cpu_user_seconds": 24.298811,
+  "cpu_system_seconds": 1.6041509999999999,
+  "stdout": "logs/benchmark_L9_C_M0_chebyshev_r0.stdout",
+  "stderr": "logs/benchmark_L9_C_M0_chebyshev_r0.stderr",
+  "command": [
+    "/workspace/shared/haldane_active/research_20261010/spin2_heat/heat_columns",
+    "9",
+    "C",
+    "0",
+    "0",
+    "1",
+    "/workspace/shared/haldane_active/research_20261010/spin2_heat/coefficients_chebyshev_Q56.txt",
+    "compute"
+  ]
+}

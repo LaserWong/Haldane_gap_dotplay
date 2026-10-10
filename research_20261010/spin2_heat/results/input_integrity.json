@@ -1,0 +1,77 @@
+{
+  "checked_utc": "2026-10-10T17:55:28.792219+00:00",
+  "historical_spin2_files": [
+    {
+      "path": "heat_trace/spin2/chebyshev_coefficients.json",
+      "sha256": "2673af591faa304339e116ddbaa46bfea99414c1762758c74d35c14bdf0190f3",
+      "matches_historical_pause": true
+    },
+    {
+      "path": "heat_trace/spin2/chebyshev_columns.cpp",
+      "sha256": "7b0062066cd8a366bcb802fab561bba1cb34d0867d8a07b1fd496d8956c89255",
+      "matches_historical_pause": true
+    },
+    {
+      "path": "heat_trace/spin2/cluster_verification.json",
+      "sha256": "fc804ed9ceae700e7a2d8e88f232886a1968b382d26d39a4d0a26d8f703e595d",
+      "matches_historical_pause": true
+    },
+    {
+      "path": "heat_trace/spin2/coefficients_mu256_Q56.txt",
+      "sha256": "67eed20f1e6d573fb203ef41e87eb4413bfcb9a5810cc5b43e1b971b6edaf618",
+      "matches_historical_pause": true
+    },
+    {
+      "path": "heat_trace/spin2/prepare_chebyshev.py",
+      "sha256": "9aaffe2f80586a422cd60032032fd1100d0ff428c4a8594c0156adf029f0ed84",
+      "matches_historical_pause": true
+    },
+    {
+      "path": "heat_trace/spin2/verify_cluster.py",
+      "sha256": "b9c80362b07550f20f43809ac166fcf45112fc5d36f822df488e13e1aa479f59",
+      "matches_historical_pause": true
+    }
+  ],
+  "selected_original_dependency_copies": [
+    {
+      "path": "original_dependencies/build_thermal4.py",
+      "sha256": "c959d6a5c96c9f4d3176c445793e2e862886c1355b6c9c3a82443133c374842c"
+    },
+    {
+      "path": "original_dependencies/exact_thermal4.cpp",
+      "sha256": "ef92e5afaa10ecb66eee555958523f8cd6d925306e1fc93acbd25f8cbb9f2ad4"
+    },
+    {
+      "path": "original_dependencies/thermal4_C.txt",
+      "sha256": "bf8f3596133a7c17062c04a5066e674d88a3beeb05cf4818864737b6b79dedb5"
+    },
+    {
+      "path": "original_dependencies/thermal4_C_exact.txt",
+      "sha256": "f0c523c9c58ad1f0f82a8859348e776495e6f4d34807ddeae37eadf177749b44"
+    },
+    {
+      "path": "original_dependencies/thermal4_I.txt",
+      "sha256": "3285485a107421dc5c56bc8a28bfb020a3983a0b7f874f65e2f2166915622b64"
+    },
+    {
+      "path": "original_dependencies/thermal4_I_exact.txt",
+      "sha256": "9af578bcdc000c981823a6009d462d4fa86d046262448d180f71c47decee82bc"
+    },
+    {
+      "path": "original_dependencies/thermal4_P.txt",
+      "sha256": "b951087562b9c23e84148a86d7e9f36ad42517d79de81f9e2089d76fe7f8bcf7"
+    },
+    {
+      "path": "original_dependencies/thermal4_P_exact.txt",
+      "sha256": "fa4b82aa92766b223b46ab7a1d5183f1ef204a72bd1de76573572ef42d475116"
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "worker_limits": "2 GiB address space and 600 seconds per benchmark child; one numeric thread"
+  },
+  "baseline_changed_by_this_task": false,
+  "old_interrupted_benchmark_reused": false
+}

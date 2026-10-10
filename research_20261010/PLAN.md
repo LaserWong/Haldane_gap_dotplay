@@ -26,3 +26,13 @@ Regular reports begin 10 October 18:15 EDT and recur every five hours through 13
 The initial three independent audits and all-size bridges are complete. The ordinary bilayer g=.03 now passes the new full-low-band and number-sector-tail route, with independently reviewed all-size gap .009195338283. Stronger chain points through g=.16125 and the specified-method obstruction at .1615 are audited. The FF one-product-state interval through epsilon=.00475 is certified.
 
 Current priorities: larger-seed exact ground moments and translated low band; independent verification of later scalar improvements; interval certificates beyond the existing FF continuum range; bounded spin2 heat benchmarks and error proof. Completed physical audits should be reused rather than rerun without a change. Progress and caveats remain in each result directory and CURRENT_STATUS.json.
+
+## Milestone update — 14:10 EDT / 18:10 UTC
+
+The larger-seed 4x4/8x4/8x8 ordinary-bilayer certificates at g=.03/.04/.05 and all-size bridges passed independent reconstruction. The complete 193-state low band and 29-dimensional ground search fit the 128-spin largest seed without full diagonalization. The FF continuous interval now reaches epsilon=.00855 with independent exact endpoint, residual, tail and finite-window verification.
+
+Spin2 kernels passed independent L3/L4 and exact-error audits, but full L10 traces cost roughly 847–1034 core-hours and the current scalar startup screen is unsuccessful. Do not start that campaign before obtaining a viable scalar route and an explicit affordable budget.
+
+The simplified inverse-moment/sector-Temple variant has also passed independent all-size review, yielding .282017228092/.180632156388/.104475599844.
+
+Next: derive practical trial-size/seed-size acceptance and exclusion criteria, independently audit small-seed all-temperature obstructions, and test g=.06 with reused moments before planning a second dressed triplet layer. Keep new work in separate directories from frozen inputs.

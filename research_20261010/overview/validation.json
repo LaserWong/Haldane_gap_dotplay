@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "claims": 27,
+  "dimension_rows": 43,
+  "source_hashes": 54,
+  "matplotlib": "3.10.8",
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "peak_rss_kib": 111968,
+  "checks": [
+    "all evidence hashes",
+    "every primary exact fraction",
+    "decimal displays rounded down",
+    "full Hilbert dimensions and dimension source pointers",
+    "pending/failure gaps null"
+  ]
+}

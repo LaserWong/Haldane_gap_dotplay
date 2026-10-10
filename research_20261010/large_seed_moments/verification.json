@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "Independent direct physical-spin T action exactly matches symbolic TT/DD matching rules on all 76 matchings for 3x2, including q0/q2/q4/q6 and length-two parallel edges.",
+    "All 225 six-triplet pairing Gram entries exactly equal 2**6 times 3**union_loops in the physical rational basis.",
+    "All saved block1 G/K/J entries exactly match after explicit integer-basis transformation on 2x2, g=1/100; dimension 4.",
+    "All saved block1 G/K/J entries exactly match after explicit integer-basis transformation on 2x2, g=1/50; dimension 4.",
+    "All saved block1 G/K/J entries exactly match after explicit integer-basis transformation on 2x2, g=3/100; dimension 4.",
+    "All saved block1 G/K/J entries exactly match after explicit integer-basis transformation on 4x2, g=1/100; dimension 11.",
+    "All saved block1 G/K/J entries exactly match after explicit integer-basis transformation on 4x2, g=1/50; dimension 11.",
+    "All saved block1 G/K/J entries exactly match after explicit integer-basis transformation on 4x2, g=3/100; dimension 11.",
+    "All saved block1 G/K/J entries exactly match after explicit integer-basis transformation on 4x4, g=1/100; dimension 11.",
+    "All saved block1 G/K/J entries exactly match after explicit integer-basis transformation on 4x4, g=1/50; dimension 11.",
+    "All saved block1 G/K/J entries exactly match after explicit integer-basis transformation on 4x4, g=3/100; dimension 11."
+  ],
+  "total_seconds": 1.1632685129989113,
+  "independence": "Matching rules checked against independent physical-spin action; saved large block matrix comparisons share local conventions, independent worker review pending."
+}

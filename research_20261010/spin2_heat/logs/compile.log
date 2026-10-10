@@ -1,0 +1,47 @@
+chebyshev_columns.cpp: In function ‘std::string dec(i128)’:
+chebyshev_columns.cpp:20:109: warning: conversion from ‘u128’ {aka ‘__int128 unsigned’} to ‘char’ may change value [-Wconversion]
+   20 | std::string dec(i128 x){bool neg=x<0;u128 z=neg?-x:x;std::string s;if(!z)return "0";while(z){s.push_back('0'+z%10);z/=10;}if(neg)s.push_back('-');std::reverse(s.begin(),s.end());return s;}
+      |                                                                                                          ~~~^~~~~
+chebyshev_columns.cpp: In function ‘std::set<int> orbit(const std::vector<int>&, int)’:
+chebyshev_columns.cpp:24:80: warning: conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+   24 | std::set<int> orbit(const std::vector<int>&w,int m){std::set<int>o;int n=w.size();for(int f=0;f<(m==0?2:1);++f)for(int r=0;r<2;++r)for(int t=0;t<n;++t){int c=0;for(int k=0;k<n;++k)c=5*c+(f?-1:1)*w[r?(t-k+n)%n:(t+k)%n]+2;o.insert(c);}return o;}
+      |                                                                          ~~~~~~^~
+chebyshev_columns.cpp: In function ‘int main(int, char**)’:
+chebyshev_columns.cpp:95:120: warning: conversion from ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} to ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’} may change value [-Wconversion]
+   95 |  for(int code=0;code<D;++code){auto w=decode(code,n);if(std::accumulate(w.begin(),w.end(),0)==m){index[code]=words.size();codes.push_back(code);words.push_back(w);}}
+      |                                                                                                              ~~~~~~~~~~^~
+chebyshev_columns.cpp:96:18: warning: conversion from ‘std::vector<std::vector<int> >::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+   96 |  int d=words.size();std::vector<Rep>reps;
+      |        ~~~~~~~~~~^~
+chebyshev_columns.cpp:117:40: warning: conversion from ‘std::vector<Edge>::size_type’ {aka ‘long unsigned int’} to ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’} may change value [-Wconversion]
+  117 |  for(int i=0;i<d;++i){off[i]=edges.size();edges.insert(edges.end(),rows[i].begin(),rows[i].end());}off[d]=edges.size();rows.clear();rows.shrink_to_fit();words.clear();words.shrink_to_fit();index.clear();index.shrink_to_fit();
+      |                              ~~~~~~~~~~^~
+chebyshev_columns.cpp:117:117: warning: conversion from ‘std::vector<Edge>::size_type’ {aka ‘long unsigned int’} to ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’} may change value [-Wconversion]
+  117 |  for(int i=0;i<d;++i){off[i]=edges.size();edges.insert(edges.end(),rows[i].begin(),rows[i].end());}off[d]=edges.size();rows.clear();rows.shrink_to_fit();words.clear();words.shrink_to_fit();index.clear();index.shrink_to_fit();
+      |                                                                                                           ~~~~~~~~~~^~
+chebyshev_columns.cpp: In instantiation of ‘void compute(const std::vector<int>&, const std::vector<Edge>&, const std::vector<Rep>&, const std::vector<long int>&, int, int, bool, bool) [with int N = 4]’:
+chebyshev_columns.cpp:118:26:   required from here
+  118 |  if(twist=="C")compute<4>(off,edges,reps,coef,start,count,horner,dump);else compute<2>(off,edges,reps,coef,start,count,horner,dump);
+      |                ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chebyshev_columns.cpp:26:44: warning: conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+   26 |  using V=std::array<i64,N>;int d=off.size()-1,K=coef.size()-1;while(K>0&&!coef[K])--K;
+      |                                  ~~~~~~~~~~^~
+chebyshev_columns.cpp:26:60: warning: conversion from ‘std::vector<long int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+   26 |  using V=std::array<i64,N>;int d=off.size()-1,K=coef.size()-1;while(K>0&&!coef[K])--K;
+      |                                                 ~~~~~~~~~~~^~
+chebyshev_columns.cpp:31:18: warning: conversion from ‘double’ to ‘i64’ {aka ‘long int’} may change value [-Wfloat-conversion]
+   31 |  i64 ds=std::ceil(std::sqrt(double(d)));while(ds*ds<d)++ds;
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+chebyshev_columns.cpp: In instantiation of ‘void compute(const std::vector<int>&, const std::vector<Edge>&, const std::vector<Rep>&, const std::vector<long int>&, int, int, bool, bool) [with int N = 2]’:
+chebyshev_columns.cpp:118:87:   required from here
+  118 |  if(twist=="C")compute<4>(off,edges,reps,coef,start,count,horner,dump);else compute<2>(off,edges,reps,coef,start,count,horner,dump);
+      |                                                                             ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chebyshev_columns.cpp:26:44: warning: conversion from ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+   26 |  using V=std::array<i64,N>;int d=off.size()-1,K=coef.size()-1;while(K>0&&!coef[K])--K;
+      |                                  ~~~~~~~~~~^~
+chebyshev_columns.cpp:26:60: warning: conversion from ‘std::vector<long int>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+   26 |  using V=std::array<i64,N>;int d=off.size()-1,K=coef.size()-1;while(K>0&&!coef[K])--K;
+      |                                                 ~~~~~~~~~~~^~
+chebyshev_columns.cpp:31:18: warning: conversion from ‘double’ to ‘i64’ {aka ‘long int’} may change value [-Wfloat-conversion]
+   31 |  i64 ds=std::ceil(std::sqrt(double(d)));while(ds*ds<d)++ds;
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~

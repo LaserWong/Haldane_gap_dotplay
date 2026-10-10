@@ -1,0 +1,131 @@
+{
+  "generated_utc": "2026-10-10T17:55:28.698075+00:00",
+  "scope": "No full L9/L10 run; extrapolated finite-trace costs only",
+  "by_length": {
+    "9": {
+      "L": 9,
+      "exact_representatives": 55199,
+      "exact_column_edge_products": 90555397975,
+      "M0_through_absM4_work_fraction": 0.8678897075986265,
+      "samples": [
+        {
+          "twist": "I",
+          "M": 0,
+          "seconds_per_column": 0.5703775,
+          "cpu_seconds_per_column": 0.5699725,
+          "seconds_per_stored_edge_per_column": 2.428579944264787e-07,
+          "peak_rss_mib": 170.5390625,
+          "source_record": "results/benchmark_L9_I_M0_chebyshev_r0_compressed_b4_c4_fast.json"
+        },
+        {
+          "twist": "C",
+          "M": 0,
+          "seconds_per_column": 2.851825,
+          "cpu_seconds_per_column": 2.844425,
+          "seconds_per_stored_edge_per_column": 1.2142633605906484e-06,
+          "peak_rss_mib": 170.3828125,
+          "source_record": "results/benchmark_L9_C_M0_chebyshev_r0_compressed_b4_c4_fast.json"
+        }
+      ],
+      "I_or_P_core_hours_range": [
+        6.10891731575003,
+        6.10891731575003
+      ],
+      "C_core_hours_range": [
+        30.54391718465197,
+        30.54391718465197
+      ],
+      "IPC_core_hours_range": [
+        42.76175181615203,
+        42.76175181615203
+      ],
+      "IP_only_core_hours_range": [
+        12.21783463150006,
+        12.21783463150006
+      ],
+      "IPC_low_M_core_hours_range": [
+        37.112484280125216,
+        37.112484280125216
+      ],
+      "IP_only_low_M_core_hours_range": [
+        10.603732925820958,
+        10.603732925820958
+      ],
+      "interpretation": "Rate range from sampled magnetizations, not a confidence interval. P assumed same work rate as I. Excludes graph setup and checkpoint I/O; assumes graphs reused for sizeable chunks. Partial last SIMD batches add a negligible but unmodeled overhead.",
+      "same_native_compile_speedup_vs_uncompressed": {
+        "I": 8.107455150317115,
+        "C": 3.0446012641028113
+      }
+    },
+    "10": {
+      "L": 10,
+      "exact_representatives": 247113,
+      "exact_column_edge_products": 2119000652898,
+      "M0_through_absM4_work_fraction": 0.8466204053318691,
+      "samples": [
+        {
+          "twist": "I",
+          "M": 0,
+          "seconds_per_column": 3.889675,
+          "cpu_seconds_per_column": 3.88665,
+          "seconds_per_stored_edge_per_column": 3.173756470944851e-07,
+          "peak_rss_mib": 725.51953125,
+          "source_record": "results/benchmark_L10_I_M0_chebyshev_r0_compressed_b4_c4_fast.json"
+        },
+        {
+          "twist": "I",
+          "M": -4,
+          "seconds_per_column": 2.4038975,
+          "cpu_seconds_per_column": 2.392705,
+          "seconds_per_stored_edge_per_column": 2.9427071857020443e-07,
+          "peak_rss_mib": 567.578125,
+          "source_record": "results/benchmark_L10_I_M-4_chebyshev_r0_compressed_b4_c4_fast.json"
+        },
+        {
+          "twist": "C",
+          "M": 0,
+          "seconds_per_column": 13.749175,
+          "cpu_seconds_per_column": 13.690325,
+          "seconds_per_stored_edge_per_column": 1.1218555053160782e-06,
+          "peak_rss_mib": 776.2265625,
+          "source_record": "results/benchmark_L10_C_M0_chebyshev_r0_compressed_b4_c4_fast.json"
+        },
+        {
+          "twist": "C",
+          "M": -4,
+          "seconds_per_column": 6.942875,
+          "cpu_seconds_per_column": 6.940625,
+          "seconds_per_stored_edge_per_column": 8.499051291467744e-07,
+          "peak_rss_mib": 567.19140625,
+          "source_record": "results/benchmark_L10_C_M-4_chebyshev_r0_compressed_b4_c4_fast.json"
+        }
+      ],
+      "I_or_P_core_hours_range": [
+        173.2110679941741,
+        186.81088983531643
+      ],
+      "C_core_hours_range": [
+        500.2637565453816,
+        660.3368189505514
+      ],
+      "IPC_core_hours_range": [
+        846.6858925337299,
+        1033.9585986211844
+      ],
+      "IP_only_core_hours_range": [
+        346.4221359883482,
+        373.62177967063286
+      ],
+      "IPC_low_M_core_hours_range": [
+        716.8215535256817,
+        875.3704478610385
+      ],
+      "IP_only_low_M_core_hours_range": [
+        293.28804918638724,
+        316.3158225455655
+      ],
+      "interpretation": "Rate range from sampled magnetizations, not a confidence interval. P assumed same work rate as I. Excludes graph setup and checkpoint I/O; assumes graphs reused for sizeable chunks. Partial last SIMD batches add a negligible but unmodeled overhead."
+    }
+  },
+  "allocation_recommendation": "Do not start: L10 critical path exceeds the remaining two-core window and the updated optimistic scalar screen has no accepted seed."
+}

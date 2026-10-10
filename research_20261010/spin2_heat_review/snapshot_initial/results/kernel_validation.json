@@ -1,0 +1,205 @@
+{
+  "checks": [
+    {
+      "L": 3,
+      "M": 0,
+      "twist": "I",
+      "algorithm": "chebyshev",
+      "columns": 2,
+      "dimension": 19,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 8.571633739493497e-15
+    },
+    {
+      "L": 3,
+      "M": 0,
+      "twist": "I",
+      "algorithm": "horner",
+      "columns": 2,
+      "dimension": 19,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 2.4769017255157815e-16
+    },
+    {
+      "L": 3,
+      "M": 0,
+      "twist": "P",
+      "algorithm": "chebyshev",
+      "columns": 2,
+      "dimension": 19,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 1.199355178148692e-14
+    },
+    {
+      "L": 3,
+      "M": 0,
+      "twist": "P",
+      "algorithm": "horner",
+      "columns": 2,
+      "dimension": 19,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 8.146709333816105e-15
+    },
+    {
+      "L": 3,
+      "M": 0,
+      "twist": "C",
+      "algorithm": "chebyshev",
+      "columns": 2,
+      "dimension": 19,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 8.5636388580746e-15
+    },
+    {
+      "L": 3,
+      "M": 0,
+      "twist": "C",
+      "algorithm": "horner",
+      "columns": 2,
+      "dimension": 19,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 3.595849692380677e-16
+    },
+    {
+      "L": 4,
+      "M": 0,
+      "twist": "I",
+      "algorithm": "chebyshev",
+      "columns": 2,
+      "dimension": 85,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 1.322603395204191e-14
+    },
+    {
+      "L": 4,
+      "M": 0,
+      "twist": "I",
+      "algorithm": "horner",
+      "columns": 2,
+      "dimension": 85,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 9.16424083916592e-16
+    },
+    {
+      "L": 4,
+      "M": 0,
+      "twist": "P",
+      "algorithm": "chebyshev",
+      "columns": 2,
+      "dimension": 85,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 1.327858111078163e-14
+    },
+    {
+      "L": 4,
+      "M": 0,
+      "twist": "P",
+      "algorithm": "horner",
+      "columns": 2,
+      "dimension": 85,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 3.207187126105592e-16
+    },
+    {
+      "L": 4,
+      "M": 0,
+      "twist": "C",
+      "algorithm": "chebyshev",
+      "columns": 2,
+      "dimension": 85,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 1.335119608966437e-14
+    },
+    {
+      "L": 4,
+      "M": 0,
+      "twist": "C",
+      "algorithm": "horner",
+      "columns": 2,
+      "dimension": 85,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 3.909172063909093e-16
+    },
+    {
+      "L": 4,
+      "M": -1,
+      "twist": "I",
+      "algorithm": "chebyshev",
+      "columns": 2,
+      "dimension": 80,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 1.5583697781115438e-14
+    },
+    {
+      "L": 4,
+      "M": -1,
+      "twist": "I",
+      "algorithm": "horner",
+      "columns": 2,
+      "dimension": 80,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 4.446105673492912e-16
+    },
+    {
+      "L": 4,
+      "M": -1,
+      "twist": "P",
+      "algorithm": "chebyshev",
+      "columns": 2,
+      "dimension": 80,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 1.5468442920753415e-14
+    },
+    {
+      "L": 4,
+      "M": -1,
+      "twist": "P",
+      "algorithm": "horner",
+      "columns": 2,
+      "dimension": 80,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 4.480044628585573e-16
+    },
+    {
+      "L": 4,
+      "M": -1,
+      "twist": "C",
+      "algorithm": "chebyshev",
+      "columns": 2,
+      "dimension": 80,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 1.547750946239991e-14
+    },
+    {
+      "L": 4,
+      "M": -1,
+      "twist": "C",
+      "algorithm": "horner",
+      "columns": 2,
+      "dimension": 80,
+      "python_bigint_bitwise_match": true,
+      "ubsan_pass": true,
+      "small_floating_column_error": 4.337133820826797e-16
+    }
+  ],
+  "exact_columns": 36,
+  "seconds": 34.91622186599852,
+  "scope": "Python bigint reference is independent in ring multiplication and loop structure; tiny eigensolver is a diagnostic, not a premise."
+}

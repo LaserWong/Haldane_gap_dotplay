@@ -1,0 +1,3366 @@
+{
+  "3/500_2x2": {
+    "geometry": [
+      2,
+      2
+    ],
+    "vector_epsilon": "3/500",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_2x2_eps3d500_q2_ground.json",
+    "source_record_sha256": "69a2a4ccf36bbd4fb5bd7429f8028e41da04ccbd22130df321ebb99525e1d16f",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_2x2_eps3d500_q2_trial.npz",
+    "trial_artifact_sha256": "1449224af1072801ee18c225dd148066f33d2e5b71f991d2ce8d76edc5dfb1b1",
+    "full_dimension": 256,
+    "physical_spins": 8,
+    "linear_trial_dimension": 23,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 58,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "4951760157141777676095426096",
+    "E00": "-3",
+    "rayleigh_coefficients": [
+      "-1547138406427586231174144779/515808349702268507926606885",
+      "-18975865464074949743099904/103161669940453701585321377"
+    ],
+    "residual_squared_coefficients": [
+      "118231898779591926101902918523283382700570513248632/266058253622577720749814078273228447268341709329403225",
+      "-7882126585303320704157791580537413978454271913478528/53211650724515544149962815654645689453668341865880645",
+      "131427906858955062748257500175582894508483513944279476/10642330144903108829992563130929137890733668373176129"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 12
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 18
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/10",
+        "multiplicity": 108
+      },
+      {
+        "q": 4,
+        "energy_lower": "2/5",
+        "multiplicity": 81
+      }
+    ]
+  },
+  "3/500_4x2": {
+    "geometry": [
+      4,
+      2
+    ],
+    "vector_epsilon": "3/500",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x2_eps3d500_q2_ground.json",
+    "source_record_sha256": "7047909be33ed60141e7f49c20fd3b44590c836e7281876bb7094a62f3d452b4",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x2_eps3d500_q2_trial.npz",
+    "trial_artifact_sha256": "806322eedb7977873a5f3fd4600db7d8ba8d609f7f35abb56a4f78c3df674403",
+    "full_dimension": 65536,
+    "physical_spins": 16,
+    "linear_trial_dimension": 93,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 1301,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "79228162514267047394891601664",
+    "E00": "-6",
+    "rayleigh_coefficients": [
+      "-9283450593653748582638763309/1547425049106778269431476595",
+      "-72901102956120772751524359/309485009821355653886295319"
+    ],
+    "residual_squared_coefficients": [
+      "316717786742292915559293629688326894968346891645973/478904856520623027725135468628647463808480032406558805",
+      "-105572595580808785617279612332940641344308851414830618/478904856520623027725135468628647463808480032406558805",
+      "1761388835785971927406684926953592683071575318148298789/95780971304124605545027093725729492761696006481311761"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 24
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "7/5",
+        "multiplicity": 72
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 144
+      },
+      {
+        "q": 3,
+        "energy_lower": "27/20",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/5",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "39/20",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "12/5",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "3",
+        "multiplicity": 216
+      },
+      {
+        "q": 4,
+        "energy_lower": "1",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "8/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "19/10",
+        "multiplicity": 2592
+      },
+      {
+        "q": 4,
+        "energy_lower": "11/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "47/20",
+        "multiplicity": 1296
+      },
+      {
+        "q": 4,
+        "energy_lower": "14/5",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "59/20",
+        "multiplicity": 648
+      },
+      {
+        "q": 4,
+        "energy_lower": "4",
+        "multiplicity": 162
+      },
+      {
+        "q": 5,
+        "energy_lower": "31/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "37/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "43/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "49/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "29/10",
+        "multiplicity": 1944
+      },
+      {
+        "q": 6,
+        "energy_lower": "6/5",
+        "multiplicity": 2916
+      },
+      {
+        "q": 6,
+        "energy_lower": "9/5",
+        "multiplicity": 5832
+      },
+      {
+        "q": 6,
+        "energy_lower": "21/10",
+        "multiplicity": 11664
+      },
+      {
+        "q": 7,
+        "energy_lower": "29/20",
+        "multiplicity": 17496
+      },
+      {
+        "q": 8,
+        "energy_lower": "4/5",
+        "multiplicity": 6561
+      }
+    ]
+  },
+  "3/500_4x4": {
+    "geometry": [
+      4,
+      4
+    ],
+    "vector_epsilon": "3/500",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x4_eps3d500_q2_ground.json",
+    "source_record_sha256": "8be0a32a67907570e16ff84f38d63b7456466dd4a4351300220ff48d1bf3809f",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x4_eps3d500_q2_trial.npz",
+    "trial_artifact_sha256": "1aa9c68a9fb18f812b09065a314bdcc88c566054fae1eb4ef48dab932d99cdf1",
+    "full_dimension": 4294967296,
+    "physical_spins": 32,
+    "linear_trial_dimension": 377,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 21345,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "20282409603651030494536142684160",
+    "E00": "-12",
+    "rayleigh_coefficients": [
+      "-26525912040545519873452360/2210607213009537886977729",
+      "-5335838202161312216001392/25790417485111275348073505"
+    ],
+    "residual_squared_coefficients": [
+      "4252170915080910648467830640661582630648146000/4886784250209796412499583966806553932437741997441",
+      "-3307244045068076391857719979807190511778235256976/11402496583822858295832362589215292509021397994029",
+      "48265204095472725194173622925535720252010759842824208/1995436902169000201770663453112676189078744648955075"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 48
+      },
+      {
+        "q": 2,
+        "energy_lower": "7/5",
+        "multiplicity": 288
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 792
+      },
+      {
+        "q": 3,
+        "energy_lower": "39/20",
+        "multiplicity": 2592
+      },
+      {
+        "q": 3,
+        "energy_lower": "12/5",
+        "multiplicity": 6912
+      },
+      {
+        "q": 3,
+        "energy_lower": "3",
+        "multiplicity": 5616
+      },
+      {
+        "q": 4,
+        "energy_lower": "11/5",
+        "multiplicity": 1944
+      },
+      {
+        "q": 4,
+        "energy_lower": "5/2",
+        "multiplicity": 20736
+      },
+      {
+        "q": 4,
+        "energy_lower": "14/5",
+        "multiplicity": 12960
+      },
+      {
+        "q": 4,
+        "energy_lower": "59/20",
+        "multiplicity": 46656
+      },
+      {
+        "q": 4,
+        "energy_lower": "17/5",
+        "multiplicity": 46656
+      },
+      {
+        "q": 4,
+        "energy_lower": "4",
+        "multiplicity": 18468
+      },
+      {
+        "q": 5,
+        "energy_lower": "11/4",
+        "multiplicity": 46656
+      },
+      {
+        "q": 5,
+        "energy_lower": "61/20",
+        "multiplicity": 143856
+      },
+      {
+        "q": 5,
+        "energy_lower": "16/5",
+        "multiplicity": 23328
+      },
+      {
+        "q": 5,
+        "energy_lower": "67/20",
+        "multiplicity": 139968
+      },
+      {
+        "q": 5,
+        "energy_lower": "7/2",
+        "multiplicity": 264384
+      },
+      {
+        "q": 5,
+        "energy_lower": "19/5",
+        "multiplicity": 93312
+      },
+      {
+        "q": 5,
+        "energy_lower": "79/20",
+        "multiplicity": 209952
+      },
+      {
+        "q": 5,
+        "energy_lower": "22/5",
+        "multiplicity": 108864
+      },
+      {
+        "q": 5,
+        "energy_lower": "5",
+        "multiplicity": 31104
+      },
+      {
+        "q": 6,
+        "energy_lower": "3",
+        "multiplicity": 69984
+      },
+      {
+        "q": 6,
+        "energy_lower": "33/10",
+        "multiplicity": 513216
+      },
+      {
+        "q": 6,
+        "energy_lower": "18/5",
+        "multiplicity": 909792
+      },
+      {
+        "q": 6,
+        "energy_lower": "15/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 6,
+        "energy_lower": "39/10",
+        "multiplicity": 921456
+      },
+      {
+        "q": 6,
+        "energy_lower": "81/20",
+        "multiplicity": 1178064
+      },
+      {
+        "q": 6,
+        "energy_lower": "21/5",
+        "multiplicity": 58320
+      },
+      {
+        "q": 6,
+        "energy_lower": "87/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 6,
+        "energy_lower": "9/2",
+        "multiplicity": 699840
+      },
+      {
+        "q": 6,
+        "energy_lower": "24/5",
+        "multiplicity": 209952
+      },
+      {
+        "q": 6,
+        "energy_lower": "99/20",
+        "multiplicity": 349920
+      },
+      {
+        "q": 6,
+        "energy_lower": "27/5",
+        "multiplicity": 46656
+      },
+      {
+        "q": 6,
+        "energy_lower": "6",
+        "multiplicity": 40824
+      },
+      {
+        "q": 7,
+        "energy_lower": "13/4",
+        "multiplicity": 139968
+      },
+      {
+        "q": 7,
+        "energy_lower": "71/20",
+        "multiplicity": 1364688
+      },
+      {
+        "q": 7,
+        "energy_lower": "77/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 7,
+        "energy_lower": "4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "83/20",
+        "multiplicity": 5178816
+      },
+      {
+        "q": 7,
+        "energy_lower": "43/10",
+        "multiplicity": 2869344
+      },
+      {
+        "q": 7,
+        "energy_lower": "89/20",
+        "multiplicity": 3079296
+      },
+      {
+        "q": 7,
+        "energy_lower": "23/5",
+        "multiplicity": 3359232
+      },
+      {
+        "q": 7,
+        "energy_lower": "19/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "49/10",
+        "multiplicity": 1154736
+      },
+      {
+        "q": 7,
+        "energy_lower": "101/20",
+        "multiplicity": 1889568
+      },
+      {
+        "q": 7,
+        "energy_lower": "26/5",
+        "multiplicity": 139968
+      },
+      {
+        "q": 7,
+        "energy_lower": "107/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "11/2",
+        "multiplicity": 559872
+      },
+      {
+        "q": 7,
+        "energy_lower": "119/20",
+        "multiplicity": 209952
+      },
+      {
+        "q": 7,
+        "energy_lower": "7",
+        "multiplicity": 34992
+      },
+      {
+        "q": 8,
+        "energy_lower": "16/5",
+        "multiplicity": 52488
+      },
+      {
+        "q": 8,
+        "energy_lower": "19/5",
+        "multiplicity": 5038848
+      },
+      {
+        "q": 8,
+        "energy_lower": "41/10",
+        "multiplicity": 10077696
+      },
+      {
+        "q": 8,
+        "energy_lower": "17/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "22/5",
+        "multiplicity": 23225940
+      },
+      {
+        "q": 8,
+        "energy_lower": "91/20",
+        "multiplicity": 5353776
+      },
+      {
+        "q": 8,
+        "energy_lower": "47/10",
+        "multiplicity": 13856832
+      },
+      {
+        "q": 8,
+        "energy_lower": "97/20",
+        "multiplicity": 7558272
+      },
+      {
+        "q": 8,
+        "energy_lower": "5",
+        "multiplicity": 4618944
+      },
+      {
+        "q": 8,
+        "energy_lower": "103/20",
+        "multiplicity": 7138368
+      },
+      {
+        "q": 8,
+        "energy_lower": "53/10",
+        "multiplicity": 2099520
+      },
+      {
+        "q": 8,
+        "energy_lower": "109/20",
+        "multiplicity": 1259712
+      },
+      {
+        "q": 8,
+        "energy_lower": "28/5",
+        "multiplicity": 2571912
+      },
+      {
+        "q": 8,
+        "energy_lower": "59/10",
+        "multiplicity": 314928
+      },
+      {
+        "q": 8,
+        "energy_lower": "121/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "13/2",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "8",
+        "multiplicity": 13122
+      },
+      {
+        "q": 9,
+        "energy_lower": "15/4",
+        "multiplicity": 1259712
+      },
+      {
+        "q": 9,
+        "energy_lower": "81/20",
+        "multiplicity": 12282192
+      },
+      {
+        "q": 9,
+        "energy_lower": "87/20",
+        "multiplicity": 37791360
+      },
+      {
+        "q": 9,
+        "energy_lower": "93/20",
+        "multiplicity": 62355744
+      },
+      {
+        "q": 9,
+        "energy_lower": "24/5",
+        "multiplicity": 10077696
+      },
+      {
+        "q": 9,
+        "energy_lower": "99/20",
+        "multiplicity": 50388480
+      },
+      {
+        "q": 9,
+        "energy_lower": "51/10",
+        "multiplicity": 11337408
+      },
+      {
+        "q": 9,
+        "energy_lower": "21/4",
+        "multiplicity": 13226976
+      },
+      {
+        "q": 9,
+        "energy_lower": "27/5",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 9,
+        "energy_lower": "111/20",
+        "multiplicity": 2519424
+      },
+      {
+        "q": 9,
+        "energy_lower": "57/10",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 9,
+        "energy_lower": "117/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 9,
+        "energy_lower": "123/20",
+        "multiplicity": 1889568
+      },
+      {
+        "q": 9,
+        "energy_lower": "141/20",
+        "multiplicity": 314928
+      },
+      {
+        "q": 10,
+        "energy_lower": "4",
+        "multiplicity": 5668704
+      },
+      {
+        "q": 10,
+        "energy_lower": "43/10",
+        "multiplicity": 41570496
+      },
+      {
+        "q": 10,
+        "energy_lower": "23/5",
+        "multiplicity": 107705376
+      },
+      {
+        "q": 10,
+        "energy_lower": "49/10",
+        "multiplicity": 158723712
+      },
+      {
+        "q": 10,
+        "energy_lower": "101/20",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 10,
+        "energy_lower": "26/5",
+        "multiplicity": 81251424
+      },
+      {
+        "q": 10,
+        "energy_lower": "107/20",
+        "multiplicity": 11337408
+      },
+      {
+        "q": 10,
+        "energy_lower": "11/2",
+        "multiplicity": 28343520
+      },
+      {
+        "q": 10,
+        "energy_lower": "113/20",
+        "multiplicity": 17006112
+      },
+      {
+        "q": 10,
+        "energy_lower": "119/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 10,
+        "energy_lower": "61/10",
+        "multiplicity": 472392
+      },
+      {
+        "q": 10,
+        "energy_lower": "32/5",
+        "multiplicity": 2834352
+      },
+      {
+        "q": 11,
+        "energy_lower": "17/4",
+        "multiplicity": 34012224
+      },
+      {
+        "q": 11,
+        "energy_lower": "91/20",
+        "multiplicity": 121877136
+      },
+      {
+        "q": 11,
+        "energy_lower": "97/20",
+        "multiplicity": 294772608
+      },
+      {
+        "q": 11,
+        "energy_lower": "103/20",
+        "multiplicity": 204073344
+      },
+      {
+        "q": 11,
+        "energy_lower": "53/10",
+        "multiplicity": 17006112
+      },
+      {
+        "q": 11,
+        "energy_lower": "109/20",
+        "multiplicity": 79361856
+      },
+      {
+        "q": 11,
+        "energy_lower": "23/4",
+        "multiplicity": 8503056
+      },
+      {
+        "q": 11,
+        "energy_lower": "59/10",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 12,
+        "energy_lower": "21/5",
+        "multiplicity": 12754584
+      },
+      {
+        "q": 12,
+        "energy_lower": "9/2",
+        "multiplicity": 136048896
+      },
+      {
+        "q": 12,
+        "energy_lower": "24/5",
+        "multiplicity": 391140576
+      },
+      {
+        "q": 12,
+        "energy_lower": "51/10",
+        "multiplicity": 306110016
+      },
+      {
+        "q": 12,
+        "energy_lower": "27/5",
+        "multiplicity": 112665492
+      },
+      {
+        "q": 12,
+        "energy_lower": "111/20",
+        "multiplicity": 8503056
+      },
+      {
+        "q": 13,
+        "energy_lower": "89/20",
+        "multiplicity": 153055008
+      },
+      {
+        "q": 13,
+        "energy_lower": "19/4",
+        "multiplicity": 408146688
+      },
+      {
+        "q": 13,
+        "energy_lower": "101/20",
+        "multiplicity": 331619184
+      },
+      {
+        "q": 14,
+        "energy_lower": "22/5",
+        "multiplicity": 153055008
+      },
+      {
+        "q": 14,
+        "energy_lower": "47/10",
+        "multiplicity": 420901272
+      },
+      {
+        "q": 15,
+        "energy_lower": "87/20",
+        "multiplicity": 229582512
+      },
+      {
+        "q": 16,
+        "energy_lower": "4",
+        "multiplicity": 43046721
+      }
+    ]
+  },
+  "3/400_2x2": {
+    "geometry": [
+      2,
+      2
+    ],
+    "vector_epsilon": "3/400",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_2x2_eps3d400_q2_ground.json",
+    "source_record_sha256": "36bd554c4348ea42bc23e6c847ed9e9686aab1da2b79231799a3f751a32fec50",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_2x2_eps3d400_q2_trial.npz",
+    "trial_artifact_sha256": "280745d14276cece6754f570599085a4009873c34a259f1202f359808b23fa55",
+    "full_dimension": 256,
+    "physical_spins": 8,
+    "linear_trial_dimension": 23,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 58,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "4951760157141774300594424240",
+    "E00": "-3",
+    "rayleigh_coefficients": [
+      "-928184484275998669542703413/309485009821360893787151515",
+      "-14305280636932941394474800/61897001964272178757430303"
+    ],
+    "residual_squared_coefficients": [
+      "66938776025717082116430077216591123570226607996536/95780971304127848886562979251105662193013297566795225",
+      "-714013610939988428010060651744234986689683307723200/3831238852165113955462519170044226487720531902671809",
+      "47634389859152340505382324500663405918444706553220980/3831238852165113955462519170044226487720531902671809"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 12
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 18
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/10",
+        "multiplicity": 108
+      },
+      {
+        "q": 4,
+        "energy_lower": "2/5",
+        "multiplicity": 81
+      }
+    ]
+  },
+  "3/400_4x2": {
+    "geometry": [
+      4,
+      2
+    ],
+    "vector_epsilon": "3/400",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x2_eps3d400_q2_ground.json",
+    "source_record_sha256": "13a145a6ac28ff47dd8550bc69ee50b7a97d7e2689a198cf5af99a2062412a35",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x2_eps3d400_q2_trial.npz",
+    "trial_artifact_sha256": "b77e167b7a1ae9688b3c5986f3f3ae400a8622da8641232f6b481cb542e0d780",
+    "full_dimension": 65536,
+    "physical_spins": 16,
+    "linear_trial_dimension": 93,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 1301,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "79228162514262565935619235200",
+    "E00": "-6",
+    "rayleigh_coefficients": [
+      "-18565646083341820503231554103/3094850098213381481860126375",
+      "-182985507588284793437855601/618970019642676296372025275"
+    ],
+    "residual_squared_coefficients": [
+      "9939969785073154556287504746693750800940070035504066/9578097130411377004137926324723092941229140130970640625",
+      "-530131721870642836260988159661963344192917168590526406/1915619426082275400827585264944618588245828026194128125",
+      "7080020805845815210628183460318282673006747679046251499/383123885216455080165517052988923717649165605238825625"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 24
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "7/5",
+        "multiplicity": 72
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 144
+      },
+      {
+        "q": 3,
+        "energy_lower": "27/20",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/5",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "39/20",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "12/5",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "3",
+        "multiplicity": 216
+      },
+      {
+        "q": 4,
+        "energy_lower": "1",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "8/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "19/10",
+        "multiplicity": 2592
+      },
+      {
+        "q": 4,
+        "energy_lower": "11/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "47/20",
+        "multiplicity": 1296
+      },
+      {
+        "q": 4,
+        "energy_lower": "14/5",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "59/20",
+        "multiplicity": 648
+      },
+      {
+        "q": 4,
+        "energy_lower": "4",
+        "multiplicity": 162
+      },
+      {
+        "q": 5,
+        "energy_lower": "31/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "37/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "43/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "49/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "29/10",
+        "multiplicity": 1944
+      },
+      {
+        "q": 6,
+        "energy_lower": "6/5",
+        "multiplicity": 2916
+      },
+      {
+        "q": 6,
+        "energy_lower": "9/5",
+        "multiplicity": 5832
+      },
+      {
+        "q": 6,
+        "energy_lower": "21/10",
+        "multiplicity": 11664
+      },
+      {
+        "q": 7,
+        "energy_lower": "29/20",
+        "multiplicity": 17496
+      },
+      {
+        "q": 8,
+        "energy_lower": "4/5",
+        "multiplicity": 6561
+      }
+    ]
+  },
+  "3/400_4x4": {
+    "geometry": [
+      4,
+      4
+    ],
+    "vector_epsilon": "3/400",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x4_eps3d400_q2_ground.json",
+    "source_record_sha256": "e1d0a6f1b0700308dc4e5f4a617e8e153a2b8a0306d25b1defc604722bf801c9",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x4_eps3d400_q2_trial.npz",
+    "trial_artifact_sha256": "6f73066cf29c44f194914c533b73f75b84f5078651f3116f0d40c9a5eba37803",
+    "full_dimension": 4294967296,
+    "physical_spins": 32,
+    "linear_trial_dimension": 377,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 21345,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "20282409603651863376402506842112",
+    "E00": "-12",
+    "rayleigh_coefficients": [
+      "-4641898727586134089728538808/386856262276685016181993615",
+      "-20033426246656877287215360/77371252455337003236398723"
+    ],
+    "residual_squared_coefficients": [
+      "203737294777233499828844736555539990828444248016848/149657767662687306299705721393164328589467355900768225",
+      "-10865989054758356228381863180239144470107210019546064/29931553532537461259941144278632865717893471180153645",
+      "145042106996952291392228433988344710663044999855943120/5986310706507492251988228855726573143578694236030729"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 48
+      },
+      {
+        "q": 2,
+        "energy_lower": "7/5",
+        "multiplicity": 288
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 792
+      },
+      {
+        "q": 3,
+        "energy_lower": "39/20",
+        "multiplicity": 2592
+      },
+      {
+        "q": 3,
+        "energy_lower": "12/5",
+        "multiplicity": 6912
+      },
+      {
+        "q": 3,
+        "energy_lower": "3",
+        "multiplicity": 5616
+      },
+      {
+        "q": 4,
+        "energy_lower": "11/5",
+        "multiplicity": 1944
+      },
+      {
+        "q": 4,
+        "energy_lower": "5/2",
+        "multiplicity": 20736
+      },
+      {
+        "q": 4,
+        "energy_lower": "14/5",
+        "multiplicity": 12960
+      },
+      {
+        "q": 4,
+        "energy_lower": "59/20",
+        "multiplicity": 46656
+      },
+      {
+        "q": 4,
+        "energy_lower": "17/5",
+        "multiplicity": 46656
+      },
+      {
+        "q": 4,
+        "energy_lower": "4",
+        "multiplicity": 18468
+      },
+      {
+        "q": 5,
+        "energy_lower": "11/4",
+        "multiplicity": 46656
+      },
+      {
+        "q": 5,
+        "energy_lower": "61/20",
+        "multiplicity": 143856
+      },
+      {
+        "q": 5,
+        "energy_lower": "16/5",
+        "multiplicity": 23328
+      },
+      {
+        "q": 5,
+        "energy_lower": "67/20",
+        "multiplicity": 139968
+      },
+      {
+        "q": 5,
+        "energy_lower": "7/2",
+        "multiplicity": 264384
+      },
+      {
+        "q": 5,
+        "energy_lower": "19/5",
+        "multiplicity": 93312
+      },
+      {
+        "q": 5,
+        "energy_lower": "79/20",
+        "multiplicity": 209952
+      },
+      {
+        "q": 5,
+        "energy_lower": "22/5",
+        "multiplicity": 108864
+      },
+      {
+        "q": 5,
+        "energy_lower": "5",
+        "multiplicity": 31104
+      },
+      {
+        "q": 6,
+        "energy_lower": "3",
+        "multiplicity": 69984
+      },
+      {
+        "q": 6,
+        "energy_lower": "33/10",
+        "multiplicity": 513216
+      },
+      {
+        "q": 6,
+        "energy_lower": "18/5",
+        "multiplicity": 909792
+      },
+      {
+        "q": 6,
+        "energy_lower": "15/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 6,
+        "energy_lower": "39/10",
+        "multiplicity": 921456
+      },
+      {
+        "q": 6,
+        "energy_lower": "81/20",
+        "multiplicity": 1178064
+      },
+      {
+        "q": 6,
+        "energy_lower": "21/5",
+        "multiplicity": 58320
+      },
+      {
+        "q": 6,
+        "energy_lower": "87/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 6,
+        "energy_lower": "9/2",
+        "multiplicity": 699840
+      },
+      {
+        "q": 6,
+        "energy_lower": "24/5",
+        "multiplicity": 209952
+      },
+      {
+        "q": 6,
+        "energy_lower": "99/20",
+        "multiplicity": 349920
+      },
+      {
+        "q": 6,
+        "energy_lower": "27/5",
+        "multiplicity": 46656
+      },
+      {
+        "q": 6,
+        "energy_lower": "6",
+        "multiplicity": 40824
+      },
+      {
+        "q": 7,
+        "energy_lower": "13/4",
+        "multiplicity": 139968
+      },
+      {
+        "q": 7,
+        "energy_lower": "71/20",
+        "multiplicity": 1364688
+      },
+      {
+        "q": 7,
+        "energy_lower": "77/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 7,
+        "energy_lower": "4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "83/20",
+        "multiplicity": 5178816
+      },
+      {
+        "q": 7,
+        "energy_lower": "43/10",
+        "multiplicity": 2869344
+      },
+      {
+        "q": 7,
+        "energy_lower": "89/20",
+        "multiplicity": 3079296
+      },
+      {
+        "q": 7,
+        "energy_lower": "23/5",
+        "multiplicity": 3359232
+      },
+      {
+        "q": 7,
+        "energy_lower": "19/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "49/10",
+        "multiplicity": 1154736
+      },
+      {
+        "q": 7,
+        "energy_lower": "101/20",
+        "multiplicity": 1889568
+      },
+      {
+        "q": 7,
+        "energy_lower": "26/5",
+        "multiplicity": 139968
+      },
+      {
+        "q": 7,
+        "energy_lower": "107/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "11/2",
+        "multiplicity": 559872
+      },
+      {
+        "q": 7,
+        "energy_lower": "119/20",
+        "multiplicity": 209952
+      },
+      {
+        "q": 7,
+        "energy_lower": "7",
+        "multiplicity": 34992
+      },
+      {
+        "q": 8,
+        "energy_lower": "16/5",
+        "multiplicity": 52488
+      },
+      {
+        "q": 8,
+        "energy_lower": "19/5",
+        "multiplicity": 5038848
+      },
+      {
+        "q": 8,
+        "energy_lower": "41/10",
+        "multiplicity": 10077696
+      },
+      {
+        "q": 8,
+        "energy_lower": "17/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "22/5",
+        "multiplicity": 23225940
+      },
+      {
+        "q": 8,
+        "energy_lower": "91/20",
+        "multiplicity": 5353776
+      },
+      {
+        "q": 8,
+        "energy_lower": "47/10",
+        "multiplicity": 13856832
+      },
+      {
+        "q": 8,
+        "energy_lower": "97/20",
+        "multiplicity": 7558272
+      },
+      {
+        "q": 8,
+        "energy_lower": "5",
+        "multiplicity": 4618944
+      },
+      {
+        "q": 8,
+        "energy_lower": "103/20",
+        "multiplicity": 7138368
+      },
+      {
+        "q": 8,
+        "energy_lower": "53/10",
+        "multiplicity": 2099520
+      },
+      {
+        "q": 8,
+        "energy_lower": "109/20",
+        "multiplicity": 1259712
+      },
+      {
+        "q": 8,
+        "energy_lower": "28/5",
+        "multiplicity": 2571912
+      },
+      {
+        "q": 8,
+        "energy_lower": "59/10",
+        "multiplicity": 314928
+      },
+      {
+        "q": 8,
+        "energy_lower": "121/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "13/2",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "8",
+        "multiplicity": 13122
+      },
+      {
+        "q": 9,
+        "energy_lower": "15/4",
+        "multiplicity": 1259712
+      },
+      {
+        "q": 9,
+        "energy_lower": "81/20",
+        "multiplicity": 12282192
+      },
+      {
+        "q": 9,
+        "energy_lower": "87/20",
+        "multiplicity": 37791360
+      },
+      {
+        "q": 9,
+        "energy_lower": "93/20",
+        "multiplicity": 62355744
+      },
+      {
+        "q": 9,
+        "energy_lower": "24/5",
+        "multiplicity": 10077696
+      },
+      {
+        "q": 9,
+        "energy_lower": "99/20",
+        "multiplicity": 50388480
+      },
+      {
+        "q": 9,
+        "energy_lower": "51/10",
+        "multiplicity": 11337408
+      },
+      {
+        "q": 9,
+        "energy_lower": "21/4",
+        "multiplicity": 13226976
+      },
+      {
+        "q": 9,
+        "energy_lower": "27/5",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 9,
+        "energy_lower": "111/20",
+        "multiplicity": 2519424
+      },
+      {
+        "q": 9,
+        "energy_lower": "57/10",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 9,
+        "energy_lower": "117/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 9,
+        "energy_lower": "123/20",
+        "multiplicity": 1889568
+      },
+      {
+        "q": 9,
+        "energy_lower": "141/20",
+        "multiplicity": 314928
+      },
+      {
+        "q": 10,
+        "energy_lower": "4",
+        "multiplicity": 5668704
+      },
+      {
+        "q": 10,
+        "energy_lower": "43/10",
+        "multiplicity": 41570496
+      },
+      {
+        "q": 10,
+        "energy_lower": "23/5",
+        "multiplicity": 107705376
+      },
+      {
+        "q": 10,
+        "energy_lower": "49/10",
+        "multiplicity": 158723712
+      },
+      {
+        "q": 10,
+        "energy_lower": "101/20",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 10,
+        "energy_lower": "26/5",
+        "multiplicity": 81251424
+      },
+      {
+        "q": 10,
+        "energy_lower": "107/20",
+        "multiplicity": 11337408
+      },
+      {
+        "q": 10,
+        "energy_lower": "11/2",
+        "multiplicity": 28343520
+      },
+      {
+        "q": 10,
+        "energy_lower": "113/20",
+        "multiplicity": 17006112
+      },
+      {
+        "q": 10,
+        "energy_lower": "119/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 10,
+        "energy_lower": "61/10",
+        "multiplicity": 472392
+      },
+      {
+        "q": 10,
+        "energy_lower": "32/5",
+        "multiplicity": 2834352
+      },
+      {
+        "q": 11,
+        "energy_lower": "17/4",
+        "multiplicity": 34012224
+      },
+      {
+        "q": 11,
+        "energy_lower": "91/20",
+        "multiplicity": 121877136
+      },
+      {
+        "q": 11,
+        "energy_lower": "97/20",
+        "multiplicity": 294772608
+      },
+      {
+        "q": 11,
+        "energy_lower": "103/20",
+        "multiplicity": 204073344
+      },
+      {
+        "q": 11,
+        "energy_lower": "53/10",
+        "multiplicity": 17006112
+      },
+      {
+        "q": 11,
+        "energy_lower": "109/20",
+        "multiplicity": 79361856
+      },
+      {
+        "q": 11,
+        "energy_lower": "23/4",
+        "multiplicity": 8503056
+      },
+      {
+        "q": 11,
+        "energy_lower": "59/10",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 12,
+        "energy_lower": "21/5",
+        "multiplicity": 12754584
+      },
+      {
+        "q": 12,
+        "energy_lower": "9/2",
+        "multiplicity": 136048896
+      },
+      {
+        "q": 12,
+        "energy_lower": "24/5",
+        "multiplicity": 391140576
+      },
+      {
+        "q": 12,
+        "energy_lower": "51/10",
+        "multiplicity": 306110016
+      },
+      {
+        "q": 12,
+        "energy_lower": "27/5",
+        "multiplicity": 112665492
+      },
+      {
+        "q": 12,
+        "energy_lower": "111/20",
+        "multiplicity": 8503056
+      },
+      {
+        "q": 13,
+        "energy_lower": "89/20",
+        "multiplicity": 153055008
+      },
+      {
+        "q": 13,
+        "energy_lower": "19/4",
+        "multiplicity": 408146688
+      },
+      {
+        "q": 13,
+        "energy_lower": "101/20",
+        "multiplicity": 331619184
+      },
+      {
+        "q": 14,
+        "energy_lower": "22/5",
+        "multiplicity": 153055008
+      },
+      {
+        "q": 14,
+        "energy_lower": "47/10",
+        "multiplicity": 420901272
+      },
+      {
+        "q": 15,
+        "energy_lower": "87/20",
+        "multiplicity": 229582512
+      },
+      {
+        "q": 16,
+        "energy_lower": "4",
+        "multiplicity": 43046721
+      }
+    ]
+  },
+  "1/125_2x2": {
+    "geometry": [
+      2,
+      2
+    ],
+    "vector_epsilon": "1/125",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_2x2_eps1d125_q2_ground.json",
+    "source_record_sha256": "a477409d02752e5cefc0348a3c381411383fd7411a2e17321384bd2759787c3d",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_2x2_eps1d125_q2_trial.npz",
+    "trial_artifact_sha256": "ee37744e3622e59132ddbc01487ac0c6c3cf1c5891594c2308dd26bb2e9906c6",
+    "full_dimension": 256,
+    "physical_spins": 8,
+    "linear_trial_dimension": 23,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 58,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "4951760157141707031149401280",
+    "E00": "-3",
+    "rayleigh_coefficients": [
+      "-232036632270100966977158947/77371252455339172361709395",
+      "-38211882586960878371440217/154742504910678344723418790"
+    ],
+    "residual_squared_coefficients": [
+      "47701523903403132806272894109943317370366838189531/59863107065078279078722673896715769786755664312660250",
+      "-1192538097585056016776755746374633204667775338588647/5986310706507827907872267389671576978675566431266025",
+      "298373138725019856452505930559543865937420300312549791/23945242826031311631489069558686307914702265725064100"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 12
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 18
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/10",
+        "multiplicity": 108
+      },
+      {
+        "q": 4,
+        "energy_lower": "2/5",
+        "multiplicity": 81
+      }
+    ]
+  },
+  "1/125_4x2": {
+    "geometry": [
+      4,
+      2
+    ],
+    "vector_epsilon": "1/125",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x2_eps1d125_q2_ground.json",
+    "source_record_sha256": "fc475d560d090c14e123e12529f50aec1cbd1b603e26d78d078f1c72dbe0dd70",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x2_eps1d125_q2_trial.npz",
+    "trial_artifact_sha256": "2d2853a84ec4cce1ed31af9b1caf2c1f8be18815df26c52fd0624056e8ac3ef9",
+    "full_dimension": 65536,
+    "physical_spins": 16,
+    "linear_trial_dimension": 93,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 1301,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "79228162514266224422146071424",
+    "E00": "-6",
+    "rayleigh_coefficients": [
+      "-18565163527350271613697060421/3094850098213524391490080915",
+      "-195438412435858890576624069/618970019642704878298016183"
+    ],
+    "residual_squared_coefficients": [
+      "11324817219362995208411564342353764621963587519335604/9578097130412261571902527237392568679072374833247237225",
+      "-566240860968125427778238602392119654405508300479674752/1915619426082452314380505447478513735814474966649447445",
+      "7091229709269688012862822015429372891268031931948345585/383123885216490462876101089495702747162894993329889489"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 24
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "7/5",
+        "multiplicity": 72
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 144
+      },
+      {
+        "q": 3,
+        "energy_lower": "27/20",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/5",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "39/20",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "12/5",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "3",
+        "multiplicity": 216
+      },
+      {
+        "q": 4,
+        "energy_lower": "1",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "8/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "19/10",
+        "multiplicity": 2592
+      },
+      {
+        "q": 4,
+        "energy_lower": "11/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "47/20",
+        "multiplicity": 1296
+      },
+      {
+        "q": 4,
+        "energy_lower": "14/5",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "59/20",
+        "multiplicity": 648
+      },
+      {
+        "q": 4,
+        "energy_lower": "4",
+        "multiplicity": 162
+      },
+      {
+        "q": 5,
+        "energy_lower": "31/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "37/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "43/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "49/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "29/10",
+        "multiplicity": 1944
+      },
+      {
+        "q": 6,
+        "energy_lower": "6/5",
+        "multiplicity": 2916
+      },
+      {
+        "q": 6,
+        "energy_lower": "9/5",
+        "multiplicity": 5832
+      },
+      {
+        "q": 6,
+        "energy_lower": "21/10",
+        "multiplicity": 11664
+      },
+      {
+        "q": 7,
+        "energy_lower": "29/20",
+        "multiplicity": 17496
+      },
+      {
+        "q": 8,
+        "energy_lower": "4/5",
+        "multiplicity": 6561
+      }
+    ]
+  },
+  "1/125_4x4": {
+    "geometry": [
+      4,
+      4
+    ],
+    "vector_epsilon": "1/125",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x4_eps1d125_q2_ground.json",
+    "source_record_sha256": "0ae6074fd4aed9f5f38446db6bc4c0432e0c12f2929864e43086b05d0fe0157c",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x4_eps1d125_q2_trial.npz",
+    "trial_artifact_sha256": "29b6d8436a710b788587ce10b7b28d1f5d146fd3fda02e01f9bf57cc9e08e1ee",
+    "full_dimension": 4294967296,
+    "physical_spins": 32,
+    "linear_trial_dimension": 377,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 21345,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "20282409603652538461935184183296",
+    "E00": "-12",
+    "rayleigh_coefficients": [
+      "-18567386639683445232883097284/1547425049106791569666685805",
+      "-3166978311604399960275768/11462407771161419034568043"
+    ],
+    "residual_squared_coefficients": [
+      "3710372365352918646757073710476037687253622119175692/2394524282603156300859920830291333497736426052588498025",
+      "-6871059935836789284605947631774942176750798612810664/17737216908171528154517932076232099983232785574729615",
+      "28665899321109640422989818701728259143087034714225136/1182481127211435210301195471748806665548852371648641"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 48
+      },
+      {
+        "q": 2,
+        "energy_lower": "7/5",
+        "multiplicity": 288
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 792
+      },
+      {
+        "q": 3,
+        "energy_lower": "39/20",
+        "multiplicity": 2592
+      },
+      {
+        "q": 3,
+        "energy_lower": "12/5",
+        "multiplicity": 6912
+      },
+      {
+        "q": 3,
+        "energy_lower": "3",
+        "multiplicity": 5616
+      },
+      {
+        "q": 4,
+        "energy_lower": "11/5",
+        "multiplicity": 1944
+      },
+      {
+        "q": 4,
+        "energy_lower": "5/2",
+        "multiplicity": 20736
+      },
+      {
+        "q": 4,
+        "energy_lower": "14/5",
+        "multiplicity": 12960
+      },
+      {
+        "q": 4,
+        "energy_lower": "59/20",
+        "multiplicity": 46656
+      },
+      {
+        "q": 4,
+        "energy_lower": "17/5",
+        "multiplicity": 46656
+      },
+      {
+        "q": 4,
+        "energy_lower": "4",
+        "multiplicity": 18468
+      },
+      {
+        "q": 5,
+        "energy_lower": "11/4",
+        "multiplicity": 46656
+      },
+      {
+        "q": 5,
+        "energy_lower": "61/20",
+        "multiplicity": 143856
+      },
+      {
+        "q": 5,
+        "energy_lower": "16/5",
+        "multiplicity": 23328
+      },
+      {
+        "q": 5,
+        "energy_lower": "67/20",
+        "multiplicity": 139968
+      },
+      {
+        "q": 5,
+        "energy_lower": "7/2",
+        "multiplicity": 264384
+      },
+      {
+        "q": 5,
+        "energy_lower": "19/5",
+        "multiplicity": 93312
+      },
+      {
+        "q": 5,
+        "energy_lower": "79/20",
+        "multiplicity": 209952
+      },
+      {
+        "q": 5,
+        "energy_lower": "22/5",
+        "multiplicity": 108864
+      },
+      {
+        "q": 5,
+        "energy_lower": "5",
+        "multiplicity": 31104
+      },
+      {
+        "q": 6,
+        "energy_lower": "3",
+        "multiplicity": 69984
+      },
+      {
+        "q": 6,
+        "energy_lower": "33/10",
+        "multiplicity": 513216
+      },
+      {
+        "q": 6,
+        "energy_lower": "18/5",
+        "multiplicity": 909792
+      },
+      {
+        "q": 6,
+        "energy_lower": "15/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 6,
+        "energy_lower": "39/10",
+        "multiplicity": 921456
+      },
+      {
+        "q": 6,
+        "energy_lower": "81/20",
+        "multiplicity": 1178064
+      },
+      {
+        "q": 6,
+        "energy_lower": "21/5",
+        "multiplicity": 58320
+      },
+      {
+        "q": 6,
+        "energy_lower": "87/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 6,
+        "energy_lower": "9/2",
+        "multiplicity": 699840
+      },
+      {
+        "q": 6,
+        "energy_lower": "24/5",
+        "multiplicity": 209952
+      },
+      {
+        "q": 6,
+        "energy_lower": "99/20",
+        "multiplicity": 349920
+      },
+      {
+        "q": 6,
+        "energy_lower": "27/5",
+        "multiplicity": 46656
+      },
+      {
+        "q": 6,
+        "energy_lower": "6",
+        "multiplicity": 40824
+      },
+      {
+        "q": 7,
+        "energy_lower": "13/4",
+        "multiplicity": 139968
+      },
+      {
+        "q": 7,
+        "energy_lower": "71/20",
+        "multiplicity": 1364688
+      },
+      {
+        "q": 7,
+        "energy_lower": "77/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 7,
+        "energy_lower": "4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "83/20",
+        "multiplicity": 5178816
+      },
+      {
+        "q": 7,
+        "energy_lower": "43/10",
+        "multiplicity": 2869344
+      },
+      {
+        "q": 7,
+        "energy_lower": "89/20",
+        "multiplicity": 3079296
+      },
+      {
+        "q": 7,
+        "energy_lower": "23/5",
+        "multiplicity": 3359232
+      },
+      {
+        "q": 7,
+        "energy_lower": "19/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "49/10",
+        "multiplicity": 1154736
+      },
+      {
+        "q": 7,
+        "energy_lower": "101/20",
+        "multiplicity": 1889568
+      },
+      {
+        "q": 7,
+        "energy_lower": "26/5",
+        "multiplicity": 139968
+      },
+      {
+        "q": 7,
+        "energy_lower": "107/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "11/2",
+        "multiplicity": 559872
+      },
+      {
+        "q": 7,
+        "energy_lower": "119/20",
+        "multiplicity": 209952
+      },
+      {
+        "q": 7,
+        "energy_lower": "7",
+        "multiplicity": 34992
+      },
+      {
+        "q": 8,
+        "energy_lower": "16/5",
+        "multiplicity": 52488
+      },
+      {
+        "q": 8,
+        "energy_lower": "19/5",
+        "multiplicity": 5038848
+      },
+      {
+        "q": 8,
+        "energy_lower": "41/10",
+        "multiplicity": 10077696
+      },
+      {
+        "q": 8,
+        "energy_lower": "17/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "22/5",
+        "multiplicity": 23225940
+      },
+      {
+        "q": 8,
+        "energy_lower": "91/20",
+        "multiplicity": 5353776
+      },
+      {
+        "q": 8,
+        "energy_lower": "47/10",
+        "multiplicity": 13856832
+      },
+      {
+        "q": 8,
+        "energy_lower": "97/20",
+        "multiplicity": 7558272
+      },
+      {
+        "q": 8,
+        "energy_lower": "5",
+        "multiplicity": 4618944
+      },
+      {
+        "q": 8,
+        "energy_lower": "103/20",
+        "multiplicity": 7138368
+      },
+      {
+        "q": 8,
+        "energy_lower": "53/10",
+        "multiplicity": 2099520
+      },
+      {
+        "q": 8,
+        "energy_lower": "109/20",
+        "multiplicity": 1259712
+      },
+      {
+        "q": 8,
+        "energy_lower": "28/5",
+        "multiplicity": 2571912
+      },
+      {
+        "q": 8,
+        "energy_lower": "59/10",
+        "multiplicity": 314928
+      },
+      {
+        "q": 8,
+        "energy_lower": "121/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "13/2",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "8",
+        "multiplicity": 13122
+      },
+      {
+        "q": 9,
+        "energy_lower": "15/4",
+        "multiplicity": 1259712
+      },
+      {
+        "q": 9,
+        "energy_lower": "81/20",
+        "multiplicity": 12282192
+      },
+      {
+        "q": 9,
+        "energy_lower": "87/20",
+        "multiplicity": 37791360
+      },
+      {
+        "q": 9,
+        "energy_lower": "93/20",
+        "multiplicity": 62355744
+      },
+      {
+        "q": 9,
+        "energy_lower": "24/5",
+        "multiplicity": 10077696
+      },
+      {
+        "q": 9,
+        "energy_lower": "99/20",
+        "multiplicity": 50388480
+      },
+      {
+        "q": 9,
+        "energy_lower": "51/10",
+        "multiplicity": 11337408
+      },
+      {
+        "q": 9,
+        "energy_lower": "21/4",
+        "multiplicity": 13226976
+      },
+      {
+        "q": 9,
+        "energy_lower": "27/5",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 9,
+        "energy_lower": "111/20",
+        "multiplicity": 2519424
+      },
+      {
+        "q": 9,
+        "energy_lower": "57/10",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 9,
+        "energy_lower": "117/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 9,
+        "energy_lower": "123/20",
+        "multiplicity": 1889568
+      },
+      {
+        "q": 9,
+        "energy_lower": "141/20",
+        "multiplicity": 314928
+      },
+      {
+        "q": 10,
+        "energy_lower": "4",
+        "multiplicity": 5668704
+      },
+      {
+        "q": 10,
+        "energy_lower": "43/10",
+        "multiplicity": 41570496
+      },
+      {
+        "q": 10,
+        "energy_lower": "23/5",
+        "multiplicity": 107705376
+      },
+      {
+        "q": 10,
+        "energy_lower": "49/10",
+        "multiplicity": 158723712
+      },
+      {
+        "q": 10,
+        "energy_lower": "101/20",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 10,
+        "energy_lower": "26/5",
+        "multiplicity": 81251424
+      },
+      {
+        "q": 10,
+        "energy_lower": "107/20",
+        "multiplicity": 11337408
+      },
+      {
+        "q": 10,
+        "energy_lower": "11/2",
+        "multiplicity": 28343520
+      },
+      {
+        "q": 10,
+        "energy_lower": "113/20",
+        "multiplicity": 17006112
+      },
+      {
+        "q": 10,
+        "energy_lower": "119/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 10,
+        "energy_lower": "61/10",
+        "multiplicity": 472392
+      },
+      {
+        "q": 10,
+        "energy_lower": "32/5",
+        "multiplicity": 2834352
+      },
+      {
+        "q": 11,
+        "energy_lower": "17/4",
+        "multiplicity": 34012224
+      },
+      {
+        "q": 11,
+        "energy_lower": "91/20",
+        "multiplicity": 121877136
+      },
+      {
+        "q": 11,
+        "energy_lower": "97/20",
+        "multiplicity": 294772608
+      },
+      {
+        "q": 11,
+        "energy_lower": "103/20",
+        "multiplicity": 204073344
+      },
+      {
+        "q": 11,
+        "energy_lower": "53/10",
+        "multiplicity": 17006112
+      },
+      {
+        "q": 11,
+        "energy_lower": "109/20",
+        "multiplicity": 79361856
+      },
+      {
+        "q": 11,
+        "energy_lower": "23/4",
+        "multiplicity": 8503056
+      },
+      {
+        "q": 11,
+        "energy_lower": "59/10",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 12,
+        "energy_lower": "21/5",
+        "multiplicity": 12754584
+      },
+      {
+        "q": 12,
+        "energy_lower": "9/2",
+        "multiplicity": 136048896
+      },
+      {
+        "q": 12,
+        "energy_lower": "24/5",
+        "multiplicity": 391140576
+      },
+      {
+        "q": 12,
+        "energy_lower": "51/10",
+        "multiplicity": 306110016
+      },
+      {
+        "q": 12,
+        "energy_lower": "27/5",
+        "multiplicity": 112665492
+      },
+      {
+        "q": 12,
+        "energy_lower": "111/20",
+        "multiplicity": 8503056
+      },
+      {
+        "q": 13,
+        "energy_lower": "89/20",
+        "multiplicity": 153055008
+      },
+      {
+        "q": 13,
+        "energy_lower": "19/4",
+        "multiplicity": 408146688
+      },
+      {
+        "q": 13,
+        "energy_lower": "101/20",
+        "multiplicity": 331619184
+      },
+      {
+        "q": 14,
+        "energy_lower": "22/5",
+        "multiplicity": 153055008
+      },
+      {
+        "q": 14,
+        "energy_lower": "47/10",
+        "multiplicity": 420901272
+      },
+      {
+        "q": 15,
+        "energy_lower": "87/20",
+        "multiplicity": 229582512
+      },
+      {
+        "q": 16,
+        "energy_lower": "4",
+        "multiplicity": 43046721
+      }
+    ]
+  },
+  "17/2000_2x2": {
+    "geometry": [
+      2,
+      2
+    ],
+    "vector_epsilon": "17/2000",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_2x2_eps17d2000_q2_ground.json",
+    "source_record_sha256": "6b3f7e8b078e00332a88c70771f0e85cac3a7827446f3d2680964b9e3dc9009f",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_2x2_eps17d2000_q2_trial.npz",
+    "trial_artifact_sha256": "bde2bb0fdc22a021643faae0155e25226de54ab0623ac0f2c2840f03e0eec456",
+    "full_dimension": 256,
+    "physical_spins": 8,
+    "linear_trial_dimension": 23,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 58,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "4951760157141739812847759552",
+    "E00": "-3",
+    "rayleigh_coefficients": [
+      "-165733214128848392597282391/55265180325242631839818745",
+      "-1848554788162038524589762/7033750223212698597795113"
+    ],
+    "residual_squared_coefficients": [
+      "19272469398209976742520585425675003592409080854656/21379681094671097032697784499830546553922001173625175",
+      "-16489813388850756804879948065262281281517523678336/77744294889713080118901034544838351105170913358637",
+      "6796058426826868370084656021978105684669535616105300/544210064227991560832307241813868457736196393510459"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 12
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 18
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/10",
+        "multiplicity": 108
+      },
+      {
+        "q": 4,
+        "energy_lower": "2/5",
+        "multiplicity": 81
+      }
+    ]
+  },
+  "17/2000_4x2": {
+    "geometry": [
+      4,
+      2
+    ],
+    "vector_epsilon": "17/2000",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x2_eps17d2000_q2_ground.json",
+    "source_record_sha256": "988df9223024fba5c95a2acb52bb4a11f1bdf69b0937c04657335c9e5ac7591c",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x2_eps17d2000_q2_trial.npz",
+    "trial_artifact_sha256": "560b2126cea9bfff47e38ab1b5fb789eb8241677575f39224dd8ebf4609f7234",
+    "full_dimension": 65536,
+    "physical_spins": 16,
+    "linear_trial_dimension": 93,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 1301,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "79228162514262657302083650240",
+    "E00": "-6",
+    "rayleigh_coefficients": [
+      "-4125477484244342404677792777/687744466269641122413920575",
+      "-415838883595056422407992463/1237940039285354020345057035"
+    ],
+    "residual_squared_coefficients": [
+      "5689564208709305387640853020563784274716782930789719/4256932057960621820086000876825933206255904881674975625",
+      "-89248066019029864344277785250308123808001900461648954/283795470530708121339066725121728880417060325444998375",
+      "28409180474897668214016508101672521670501439228149866471/1532495540865823855230960315657335954252125757402991225"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 24
+      },
+      {
+        "q": 2,
+        "energy_lower": "4/5",
+        "multiplicity": 36
+      },
+      {
+        "q": 2,
+        "energy_lower": "7/5",
+        "multiplicity": 72
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 144
+      },
+      {
+        "q": 3,
+        "energy_lower": "27/20",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "9/5",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "39/20",
+        "multiplicity": 216
+      },
+      {
+        "q": 3,
+        "energy_lower": "12/5",
+        "multiplicity": 432
+      },
+      {
+        "q": 3,
+        "energy_lower": "3",
+        "multiplicity": 216
+      },
+      {
+        "q": 4,
+        "energy_lower": "1",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "8/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "19/10",
+        "multiplicity": 2592
+      },
+      {
+        "q": 4,
+        "energy_lower": "11/5",
+        "multiplicity": 162
+      },
+      {
+        "q": 4,
+        "energy_lower": "47/20",
+        "multiplicity": 1296
+      },
+      {
+        "q": 4,
+        "energy_lower": "14/5",
+        "multiplicity": 324
+      },
+      {
+        "q": 4,
+        "energy_lower": "59/20",
+        "multiplicity": 648
+      },
+      {
+        "q": 4,
+        "energy_lower": "4",
+        "multiplicity": 162
+      },
+      {
+        "q": 5,
+        "energy_lower": "31/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "37/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "43/20",
+        "multiplicity": 1944
+      },
+      {
+        "q": 5,
+        "energy_lower": "49/20",
+        "multiplicity": 3888
+      },
+      {
+        "q": 5,
+        "energy_lower": "29/10",
+        "multiplicity": 1944
+      },
+      {
+        "q": 6,
+        "energy_lower": "6/5",
+        "multiplicity": 2916
+      },
+      {
+        "q": 6,
+        "energy_lower": "9/5",
+        "multiplicity": 5832
+      },
+      {
+        "q": 6,
+        "energy_lower": "21/10",
+        "multiplicity": 11664
+      },
+      {
+        "q": 7,
+        "energy_lower": "29/20",
+        "multiplicity": 17496
+      },
+      {
+        "q": 8,
+        "energy_lower": "4/5",
+        "multiplicity": 6561
+      }
+    ]
+  },
+  "17/2000_4x4": {
+    "geometry": [
+      4,
+      4
+    ],
+    "vector_epsilon": "17/2000",
+    "source_record": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x4_eps17d2000_q2_ground.json",
+    "source_record_sha256": "504eae280c120256ebece3e071c248ea136502c2807dfa44b362728f8b21846b",
+    "trial_artifact": "research_20261010/nonperturbative_audit/epsilon_scan/ff_4x4_eps17d2000_q2_trial.npz",
+    "trial_artifact_sha256": "b70d6a260362c60a5c9387b62f1d1f42234c185657919d1a171a4fcb67511e85",
+    "full_dimension": 4294967296,
+    "physical_spins": 32,
+    "linear_trial_dimension": 377,
+    "retained_vectors": 1,
+    "full_action_union_dimension": 21345,
+    "integer_action_scale": 40,
+    "integer_metric_norm": "20282409603651652638609903779840",
+    "E00": "-12",
+    "rayleigh_coefficients": [
+      "-18567164802726440654307835388/1547425049106723986710350325",
+      "-90886264570776818491307232/309485009821344797342070065"
+    ],
+    "residual_squared_coefficients": [
+      "4190209135919322497894376949700400636534826753059616/2394524282602947141740868410279932882785388484227605625",
+      "-197186312278384856970503399734019807736300565324561632/478904856520589428348173682055986576557077696845521125",
+      "2323176536892995951576432840147605574217221358433790216/95780971304117885669634736411197315311415539369104225"
+    ],
+    "convex_residual_squared": true,
+    "saved_point_Rayleigh_and_full_residual_match": true,
+    "reference_bins": [
+      {
+        "q": 0,
+        "energy_lower": "0",
+        "multiplicity": 1
+      },
+      {
+        "q": 1,
+        "energy_lower": "1",
+        "multiplicity": 48
+      },
+      {
+        "q": 2,
+        "energy_lower": "7/5",
+        "multiplicity": 288
+      },
+      {
+        "q": 2,
+        "energy_lower": "2",
+        "multiplicity": 792
+      },
+      {
+        "q": 3,
+        "energy_lower": "39/20",
+        "multiplicity": 2592
+      },
+      {
+        "q": 3,
+        "energy_lower": "12/5",
+        "multiplicity": 6912
+      },
+      {
+        "q": 3,
+        "energy_lower": "3",
+        "multiplicity": 5616
+      },
+      {
+        "q": 4,
+        "energy_lower": "11/5",
+        "multiplicity": 1944
+      },
+      {
+        "q": 4,
+        "energy_lower": "5/2",
+        "multiplicity": 20736
+      },
+      {
+        "q": 4,
+        "energy_lower": "14/5",
+        "multiplicity": 12960
+      },
+      {
+        "q": 4,
+        "energy_lower": "59/20",
+        "multiplicity": 46656
+      },
+      {
+        "q": 4,
+        "energy_lower": "17/5",
+        "multiplicity": 46656
+      },
+      {
+        "q": 4,
+        "energy_lower": "4",
+        "multiplicity": 18468
+      },
+      {
+        "q": 5,
+        "energy_lower": "11/4",
+        "multiplicity": 46656
+      },
+      {
+        "q": 5,
+        "energy_lower": "61/20",
+        "multiplicity": 143856
+      },
+      {
+        "q": 5,
+        "energy_lower": "16/5",
+        "multiplicity": 23328
+      },
+      {
+        "q": 5,
+        "energy_lower": "67/20",
+        "multiplicity": 139968
+      },
+      {
+        "q": 5,
+        "energy_lower": "7/2",
+        "multiplicity": 264384
+      },
+      {
+        "q": 5,
+        "energy_lower": "19/5",
+        "multiplicity": 93312
+      },
+      {
+        "q": 5,
+        "energy_lower": "79/20",
+        "multiplicity": 209952
+      },
+      {
+        "q": 5,
+        "energy_lower": "22/5",
+        "multiplicity": 108864
+      },
+      {
+        "q": 5,
+        "energy_lower": "5",
+        "multiplicity": 31104
+      },
+      {
+        "q": 6,
+        "energy_lower": "3",
+        "multiplicity": 69984
+      },
+      {
+        "q": 6,
+        "energy_lower": "33/10",
+        "multiplicity": 513216
+      },
+      {
+        "q": 6,
+        "energy_lower": "18/5",
+        "multiplicity": 909792
+      },
+      {
+        "q": 6,
+        "energy_lower": "15/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 6,
+        "energy_lower": "39/10",
+        "multiplicity": 921456
+      },
+      {
+        "q": 6,
+        "energy_lower": "81/20",
+        "multiplicity": 1178064
+      },
+      {
+        "q": 6,
+        "energy_lower": "21/5",
+        "multiplicity": 58320
+      },
+      {
+        "q": 6,
+        "energy_lower": "87/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 6,
+        "energy_lower": "9/2",
+        "multiplicity": 699840
+      },
+      {
+        "q": 6,
+        "energy_lower": "24/5",
+        "multiplicity": 209952
+      },
+      {
+        "q": 6,
+        "energy_lower": "99/20",
+        "multiplicity": 349920
+      },
+      {
+        "q": 6,
+        "energy_lower": "27/5",
+        "multiplicity": 46656
+      },
+      {
+        "q": 6,
+        "energy_lower": "6",
+        "multiplicity": 40824
+      },
+      {
+        "q": 7,
+        "energy_lower": "13/4",
+        "multiplicity": 139968
+      },
+      {
+        "q": 7,
+        "energy_lower": "71/20",
+        "multiplicity": 1364688
+      },
+      {
+        "q": 7,
+        "energy_lower": "77/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 7,
+        "energy_lower": "4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "83/20",
+        "multiplicity": 5178816
+      },
+      {
+        "q": 7,
+        "energy_lower": "43/10",
+        "multiplicity": 2869344
+      },
+      {
+        "q": 7,
+        "energy_lower": "89/20",
+        "multiplicity": 3079296
+      },
+      {
+        "q": 7,
+        "energy_lower": "23/5",
+        "multiplicity": 3359232
+      },
+      {
+        "q": 7,
+        "energy_lower": "19/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "49/10",
+        "multiplicity": 1154736
+      },
+      {
+        "q": 7,
+        "energy_lower": "101/20",
+        "multiplicity": 1889568
+      },
+      {
+        "q": 7,
+        "energy_lower": "26/5",
+        "multiplicity": 139968
+      },
+      {
+        "q": 7,
+        "energy_lower": "107/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 7,
+        "energy_lower": "11/2",
+        "multiplicity": 559872
+      },
+      {
+        "q": 7,
+        "energy_lower": "119/20",
+        "multiplicity": 209952
+      },
+      {
+        "q": 7,
+        "energy_lower": "7",
+        "multiplicity": 34992
+      },
+      {
+        "q": 8,
+        "energy_lower": "16/5",
+        "multiplicity": 52488
+      },
+      {
+        "q": 8,
+        "energy_lower": "19/5",
+        "multiplicity": 5038848
+      },
+      {
+        "q": 8,
+        "energy_lower": "41/10",
+        "multiplicity": 10077696
+      },
+      {
+        "q": 8,
+        "energy_lower": "17/4",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "22/5",
+        "multiplicity": 23225940
+      },
+      {
+        "q": 8,
+        "energy_lower": "91/20",
+        "multiplicity": 5353776
+      },
+      {
+        "q": 8,
+        "energy_lower": "47/10",
+        "multiplicity": 13856832
+      },
+      {
+        "q": 8,
+        "energy_lower": "97/20",
+        "multiplicity": 7558272
+      },
+      {
+        "q": 8,
+        "energy_lower": "5",
+        "multiplicity": 4618944
+      },
+      {
+        "q": 8,
+        "energy_lower": "103/20",
+        "multiplicity": 7138368
+      },
+      {
+        "q": 8,
+        "energy_lower": "53/10",
+        "multiplicity": 2099520
+      },
+      {
+        "q": 8,
+        "energy_lower": "109/20",
+        "multiplicity": 1259712
+      },
+      {
+        "q": 8,
+        "energy_lower": "28/5",
+        "multiplicity": 2571912
+      },
+      {
+        "q": 8,
+        "energy_lower": "59/10",
+        "multiplicity": 314928
+      },
+      {
+        "q": 8,
+        "energy_lower": "121/20",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "13/2",
+        "multiplicity": 419904
+      },
+      {
+        "q": 8,
+        "energy_lower": "8",
+        "multiplicity": 13122
+      },
+      {
+        "q": 9,
+        "energy_lower": "15/4",
+        "multiplicity": 1259712
+      },
+      {
+        "q": 9,
+        "energy_lower": "81/20",
+        "multiplicity": 12282192
+      },
+      {
+        "q": 9,
+        "energy_lower": "87/20",
+        "multiplicity": 37791360
+      },
+      {
+        "q": 9,
+        "energy_lower": "93/20",
+        "multiplicity": 62355744
+      },
+      {
+        "q": 9,
+        "energy_lower": "24/5",
+        "multiplicity": 10077696
+      },
+      {
+        "q": 9,
+        "energy_lower": "99/20",
+        "multiplicity": 50388480
+      },
+      {
+        "q": 9,
+        "energy_lower": "51/10",
+        "multiplicity": 11337408
+      },
+      {
+        "q": 9,
+        "energy_lower": "21/4",
+        "multiplicity": 13226976
+      },
+      {
+        "q": 9,
+        "energy_lower": "27/5",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 9,
+        "energy_lower": "111/20",
+        "multiplicity": 2519424
+      },
+      {
+        "q": 9,
+        "energy_lower": "57/10",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 9,
+        "energy_lower": "117/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 9,
+        "energy_lower": "123/20",
+        "multiplicity": 1889568
+      },
+      {
+        "q": 9,
+        "energy_lower": "141/20",
+        "multiplicity": 314928
+      },
+      {
+        "q": 10,
+        "energy_lower": "4",
+        "multiplicity": 5668704
+      },
+      {
+        "q": 10,
+        "energy_lower": "43/10",
+        "multiplicity": 41570496
+      },
+      {
+        "q": 10,
+        "energy_lower": "23/5",
+        "multiplicity": 107705376
+      },
+      {
+        "q": 10,
+        "energy_lower": "49/10",
+        "multiplicity": 158723712
+      },
+      {
+        "q": 10,
+        "energy_lower": "101/20",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 10,
+        "energy_lower": "26/5",
+        "multiplicity": 81251424
+      },
+      {
+        "q": 10,
+        "energy_lower": "107/20",
+        "multiplicity": 11337408
+      },
+      {
+        "q": 10,
+        "energy_lower": "11/2",
+        "multiplicity": 28343520
+      },
+      {
+        "q": 10,
+        "energy_lower": "113/20",
+        "multiplicity": 17006112
+      },
+      {
+        "q": 10,
+        "energy_lower": "119/20",
+        "multiplicity": 3779136
+      },
+      {
+        "q": 10,
+        "energy_lower": "61/10",
+        "multiplicity": 472392
+      },
+      {
+        "q": 10,
+        "energy_lower": "32/5",
+        "multiplicity": 2834352
+      },
+      {
+        "q": 11,
+        "energy_lower": "17/4",
+        "multiplicity": 34012224
+      },
+      {
+        "q": 11,
+        "energy_lower": "91/20",
+        "multiplicity": 121877136
+      },
+      {
+        "q": 11,
+        "energy_lower": "97/20",
+        "multiplicity": 294772608
+      },
+      {
+        "q": 11,
+        "energy_lower": "103/20",
+        "multiplicity": 204073344
+      },
+      {
+        "q": 11,
+        "energy_lower": "53/10",
+        "multiplicity": 17006112
+      },
+      {
+        "q": 11,
+        "energy_lower": "109/20",
+        "multiplicity": 79361856
+      },
+      {
+        "q": 11,
+        "energy_lower": "23/4",
+        "multiplicity": 8503056
+      },
+      {
+        "q": 11,
+        "energy_lower": "59/10",
+        "multiplicity": 14171760
+      },
+      {
+        "q": 12,
+        "energy_lower": "21/5",
+        "multiplicity": 12754584
+      },
+      {
+        "q": 12,
+        "energy_lower": "9/2",
+        "multiplicity": 136048896
+      },
+      {
+        "q": 12,
+        "energy_lower": "24/5",
+        "multiplicity": 391140576
+      },
+      {
+        "q": 12,
+        "energy_lower": "51/10",
+        "multiplicity": 306110016
+      },
+      {
+        "q": 12,
+        "energy_lower": "27/5",
+        "multiplicity": 112665492
+      },
+      {
+        "q": 12,
+        "energy_lower": "111/20",
+        "multiplicity": 8503056
+      },
+      {
+        "q": 13,
+        "energy_lower": "89/20",
+        "multiplicity": 153055008
+      },
+      {
+        "q": 13,
+        "energy_lower": "19/4",
+        "multiplicity": 408146688
+      },
+      {
+        "q": 13,
+        "energy_lower": "101/20",
+        "multiplicity": 331619184
+      },
+      {
+        "q": 14,
+        "energy_lower": "22/5",
+        "multiplicity": 153055008
+      },
+      {
+        "q": 14,
+        "energy_lower": "47/10",
+        "multiplicity": 420901272
+      },
+      {
+        "q": 15,
+        "energy_lower": "87/20",
+        "multiplicity": 229582512
+      },
+      {
+        "q": 16,
+        "energy_lower": "4",
+        "multiplicity": 43046721
+      }
+    ]
+  }
+}

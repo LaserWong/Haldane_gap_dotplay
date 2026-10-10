@@ -1,0 +1,190 @@
+{
+  "updated_utc": "2026-10-10T17:53:11.622719+00:00",
+  "model": "unit-rung spin-1/2 square bilayer, J=3/10, straight J+epsilon, crossed J, positive-direction periodic multiplicities",
+  "new_verification_status": "exact candidates awaiting separate independent audit",
+  "coverage_union": [
+    [
+      "0",
+      "171/20000"
+    ]
+  ],
+  "gaps_inside_union": [],
+  "all_integer_square_sides": "L>=2",
+  "unique_finite_volume_ground_state": true,
+  "uniform_gap": "130756138215761138933052179454005525/170141183460469231731687303715884105728",
+  "uniform_gap_truncated_decimal": "0.000768515509",
+  "uniform_gap_on_0_through_17_over_2000": "579534716789337058753503842495191995/340282366920938463463374607431768211456",
+  "selected_intervals": [
+    {
+      "epsilon_interval": [
+        "0",
+        "19/4000"
+      ],
+      "uniform_gap": "2752980708324742958664216503824603161/340282366920938463463374607431768211456",
+      "source": "research_20261010/nonperturbative_audit/vacuum_interval_certificates.json",
+      "status": "previously independently audited"
+    },
+    {
+      "epsilon_interval": [
+        "19/4000",
+        "3/500"
+      ],
+      "uniform_gap": "9144271839109939547049964976837961391/340282366920938463463374607431768211456",
+      "source": "research_20261010/epsilon_interval_extension/extension_certificates.json",
+      "source_index": 0,
+      "vector_epsilon": "3/500",
+      "initial_beta": "61/2",
+      "asymptotic_entry_side": 16,
+      "status": "exact candidate, independent audit pending"
+    },
+    {
+      "epsilon_interval": [
+        "3/500",
+        "3/400"
+      ],
+      "uniform_gap": "3263290913586246452215824626429740599/340282366920938463463374607431768211456",
+      "source": "research_20261010/epsilon_interval_extension/extension_certificates.json",
+      "source_index": 1,
+      "vector_epsilon": "3/400",
+      "initial_beta": "63/2",
+      "asymptotic_entry_side": 32,
+      "status": "exact candidate, independent audit pending"
+    },
+    {
+      "epsilon_interval": [
+        "3/400",
+        "1/125"
+      ],
+      "uniform_gap": "1338642154518943881985035994688729863/170141183460469231731687303715884105728",
+      "source": "research_20261010/epsilon_interval_extension/extension_certificates.json",
+      "source_index": 2,
+      "vector_epsilon": "1/125",
+      "initial_beta": "32",
+      "asymptotic_entry_side": 32,
+      "status": "exact candidate, independent audit pending"
+    },
+    {
+      "epsilon_interval": [
+        "1/125",
+        "33/4000"
+      ],
+      "uniform_gap": "2019920421083350906855162647642051107/340282366920938463463374607431768211456",
+      "source": "research_20261010/epsilon_interval_extension/frontier_certificates.json",
+      "source_index": 0,
+      "vector_epsilon": "1/125",
+      "initial_beta": "65/2",
+      "asymptotic_entry_side": 64,
+      "status": "exact candidate, independent audit pending"
+    },
+    {
+      "epsilon_interval": [
+        "33/4000",
+        "17/2000"
+      ],
+      "uniform_gap": "579534716789337058753503842495191995/340282366920938463463374607431768211456",
+      "source": "research_20261010/epsilon_interval_extension/frontier_certificates.json",
+      "source_index": 1,
+      "vector_epsilon": "17/2000",
+      "initial_beta": "65/2",
+      "asymptotic_entry_side": 128,
+      "status": "exact candidate, independent audit pending"
+    },
+    {
+      "epsilon_interval": [
+        "17/2000",
+        "171/20000"
+      ],
+      "uniform_gap": "130756138215761138933052179454005525/170141183460469231731687303715884105728",
+      "source": "research_20261010/epsilon_interval_extension/frontier_certificates.json",
+      "source_index": 2,
+      "vector_epsilon": "17/2000",
+      "initial_beta": "65/2",
+      "asymptotic_entry_side": 256,
+      "status": "exact candidate, independent audit pending"
+    }
+  ],
+  "new_linear_trial_dimensions": [
+    23,
+    93,
+    377
+  ],
+  "full_Hilbert_dimensions": [
+    256,
+    65536,
+    4294967296
+  ],
+  "full_polynomial_action_union_dimensions": [
+    58,
+    1301,
+    21345
+  ],
+  "retained_vectors_per_geometry_per_parameter_interval": 1,
+  "new_eigensolves": 0,
+  "explicit_uncovered_test_region": [
+    "171/20000",
+    "11/1250"
+  ],
+  "failed_proposals": [
+    {
+      "interval": [
+        "171/20000",
+        "43/5000"
+      ],
+      "vector_epsilon": "17/2000",
+      "tested_beta_grid": [
+        12,
+        120,
+        0.5
+      ]
+    },
+    {
+      "interval": [
+        "43/5000",
+        "173/20000"
+      ],
+      "vector_epsilon": "17/2000",
+      "tested_beta_grid": [
+        12,
+        120,
+        0.5
+      ]
+    },
+    {
+      "interval": [
+        "173/20000",
+        "87/10000"
+      ],
+      "vector_epsilon": "17/2000",
+      "tested_beta_grid": [
+        12,
+        120,
+        0.5
+      ]
+    },
+    {
+      "interval": [
+        "87/10000",
+        "7/800"
+      ],
+      "vector_epsilon": "9/1000",
+      "tested_beta_grid": [
+        12,
+        120,
+        0.5
+      ]
+    },
+    {
+      "interval": [
+        "7/800",
+        "11/1250"
+      ],
+      "vector_epsilon": "9/1000",
+      "tested_beta_grid": [
+        12,
+        120,
+        0.5
+      ]
+    }
+  ],
+  "failure_scope": "Failure of tested fixed-vector/comparison/beta proposals only. No maximality or physical-gap-closing conclusion."
+}

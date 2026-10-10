@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T17:46:00Z",
+  "updated_at_utc": "2026-10-10T18:10:00Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -16,32 +16,45 @@
     },
     {
       "id": "low_band_review",
-      "status": "completed_g003_all_sizes"
+      "status": "completed_small_seed_g003"
     },
     {
       "id": "epsilon_interval",
-      "status": "completed_through_0.00475_one_trial"
+      "status": "independently_certified_through_0.00855"
     },
     {
       "id": "large_seed_moments",
-      "status": "running"
+      "status": "independently_verified"
     },
     {
       "id": "translated_low_band",
-      "status": "running"
+      "status": "independently_certified_g003_g004_g005_all_sizes"
     },
     {
       "id": "spin2_heat",
-      "status": "running_bounded_benchmarks"
+      "status": "independently_verified_kernel_no_full_campaign"
     },
     {
       "id": "scalar_refinement",
-      "status": "candidate_pending_review"
+      "status": "independently_verified_eight_rounds_all_sizes"
+    },
+    {
+      "id": "moment_bounds",
+      "status": "independently_verified_stronger_all_size_Temple_variant"
+    },
+    {
+      "id": "trial_size_criteria",
+      "status": "derivation_and_scoped_exclusion_review_running"
+    },
+    {
+      "id": "next_band_layer",
+      "status": "bounded_g006_and_second_order_planning"
     },
     {
       "id": "overview",
-      "status": "running"
+      "status": "updating_to_new_reviewed_results"
     }
   ],
-  "verification": "Independent all-size certificates now include ordinary bilayer g=.03 gap .009195338283; chain g=.16125; uniform FF epsilon interval through .00475. Newer scalar refinements and large-seed extensions remain separately pending."
+  "verification": "Independently audited all-size larger-seed ordinary bilayer gaps: g=.03 .282017228092, g=.04 .180632156388, g=.05 .104475599844. FF uniform closed interval through epsilon=.00855 has gap>.000768515509. Spin2 large traces remain uncomputed.",
+  "last_verified_remote_commit": "d39313f2926a7ee4184bc822728939fbf35241a8"
 }
