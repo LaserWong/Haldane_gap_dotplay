@@ -1,0 +1,17 @@
+{
+  "status": "exact_fixed_trial_space_ritz_bracket",
+  "lower": "-42711130904735408575307406501282150818231/84669930689597827770791108182310000000000",
+  "upper": "-533889136203355193829345296552538/1058374133619972847134888852278875",
+  "width": "1/10000000000",
+  "trial_dimension": 43,
+  "lower_matrix_positive_definite": {
+    "positive_definite": true,
+    "positive_leading_minor_count": 43,
+    "clearing_denominator": "84669930689597827770791108182310000000000",
+    "leading_minor_sha256": "b21e43b9ca288d9a69bb1ceef46b68a387a5af20120e4926d8bcbda7b1c22180"
+  },
+  "source_sha256": {
+    "low_band/third_moment_exact/enlarged_8x8_g1d10.json": "834e3eef4b9b381d352596a7eb74c222b0bf20c0c2e3fcc6f627bdb29e6e9977"
+  },
+  "limitation": "Only the fixed 43D trial space; not a physical ground lower bound and not an exclusion of stronger other numerator spaces."
+}

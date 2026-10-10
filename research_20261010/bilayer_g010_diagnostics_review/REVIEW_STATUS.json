@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-10-10T21:41:53.729055+00:00",
+  "source_manifest_sha256": "64aef0cf10637f509afd325ab230f8a74a97775b961657d1c5962e6c61be04bb",
+  "accepted": [
+    "three exact ground lower improvements",
+    "restricted endpoint-weighted affine-square degree-five brackets of width 1e-10",
+    "fixed 43D numerator Ritz bracket of width 1e-10"
+  ],
+  "conditional_only": [
+    "23 bounded floating sensitivity cases",
+    "8x4 denominator ground uncertainty is principal tested bottleneck"
+  ],
+  "not_claimed": [
+    "g=0.10 startup or all-size gap proof",
+    "all-beta exclusion",
+    "physical ground lower from 43D Ritz floor",
+    "M6 or enlarged-state residual",
+    "unrestricted M0..M5 optimality"
+  ],
+  "exact_replay": "PASS_exact_endpoints_restricted_class_and_numerator_brackets",
+  "scan_replay": "PASS_independent_conditional_float_scan",
+  "source_preservation": true,
+  "root_or_GitHub_changes": false
+}

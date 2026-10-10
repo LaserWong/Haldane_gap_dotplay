@@ -1,0 +1,82 @@
+{
+  "status": "PASS exact finite-n24 singlet and all-momentum spin1 completion",
+  "n": 24,
+  "exact_sum_C": "0",
+  "exact_total_raising_norm": "0",
+  "Sz_psi": "0 by checked local charge selection and cyclic trace",
+  "normalized_operator_algebra": "R=S+/sqrt2,L=S-/sqrt2; [R,L]=M=Sz; [H,R]=[H,L]=[H,M]=0",
+  "derivation": [
+    "R psi=0 from zero exact norm. M psi=0 implies norm(L psi)^2=<psi,(LR+M)psi>=0, hence L psi=0.",
+    "For v_j=R_j psi, R v_j=0 and M v_j=v_j, so RL v_j=v_j.",
+    "Thus <L v_i,L v_j>=<v_i,RL v_j>=<v_i,v_j>; with [H,L]=0, the full H forms agree too.",
+    "L v_j=[L,R_j]psi=-Sz_j psi. All normalized lowered Fourier states have bond<=52.",
+    "Distinct nonzero momenta and three Sz components give69 orthogonal tangent states. Add psi for70. No spin multiplet or MPS symmetry is assumed before this finite-n derivation."
+  ],
+  "local_integer_commutators_verified": true,
+  "small_physical_fixtures": [
+    {
+      "n": 2,
+      "total_raising_psi_zero": true,
+      "total_lowering_psi_zero": true,
+      "local_lowering_equals_minus_longitudinal_at_every_site": true,
+      "all_displacement_Gram_and_H_forms_equal": true,
+      "C": [
+        "807008896800",
+        "-807008896800"
+      ],
+      "K": [
+        "-1614017793600",
+        "1614017793600"
+      ]
+    },
+    {
+      "n": 4,
+      "total_raising_psi_zero": true,
+      "total_lowering_psi_zero": true,
+      "local_lowering_equals_minus_longitudinal_at_every_site": true,
+      "all_displacement_Gram_and_H_forms_equal": true,
+      "C": [
+        "15316803973683932169184",
+        "-11487602905341467950240",
+        "7658401836999003731296",
+        "-11487602905341467950240"
+      ],
+      "K": [
+        "-68925617432048807701440",
+        "57438014526707339751200",
+        "-45950411621365871800960",
+        "57438014526707339751200"
+      ]
+    },
+    {
+      "n": 6,
+      "total_raising_psi_zero": true,
+      "total_lowering_psi_zero": true,
+      "local_lowering_equals_minus_longitudinal_at_every_site": true,
+      "all_displacement_Gram_and_H_forms_equal": true,
+      "C": [
+        "530251930819152061073873230109088",
+        "-380778510900795675551168727970848",
+        "228914284561153706229154687894240",
+        "-226523478139868122429845149955872",
+        "228914284561153706229154687894240",
+        "-380778510900795675551168727970848"
+      ],
+      "K": [
+        "-3807785109007956755511687279708480",
+        "2900527201917849961883490052160352",
+        "-1973446163556915192489943801062784",
+        "1953623032286087216724594777513344",
+        "-1973446163556915192489943801062784",
+        "2900527201917849961883490052160352"
+      ]
+    }
+  ],
+  "input_hashes": {
+    "local_tensors.json": "3537af75de7e020cc29f984006d03a70f03d3a62a26ba2a2e9099d3d109b6a1c",
+    "momentum_extension/exact_matrices_n24.json": "86781c66f87ddcddec2ac702b10514f7131c96011eb8354d137fd844892644a6",
+    "momentum_extension/fourier_witness_data.json": "51fe56fe4e7c6fc689c6a295d696b9398223ff89fea82b8e5c0be9b6bdcba178"
+  },
+  "cpu_seconds": 0.9757642260000001,
+  "peak_kb": 22656
+}

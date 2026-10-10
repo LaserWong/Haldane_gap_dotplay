@@ -1,0 +1,40 @@
+{
+  "status": "ACCEPTED_INDEPENDENT_REVIEW",
+  "updated_utc": "2026-10-10T21:31:46Z",
+  "updated_America_New_York": "2026-10-10T17:31:46-04:00",
+  "discrete_all_integer_results": [
+    {
+      "g": "11/50",
+      "gap_lower": "65580452251/1000000000000",
+      "paths": 27,
+      "window_checks": 135
+    },
+    {
+      "g": "21/100",
+      "gap_lower": "12700941751/125000000000",
+      "paths": 18,
+      "window_checks": 81
+    },
+    {
+      "g": "9/40",
+      "gap_lower": "11377480989/250000000000",
+      "paths": 27,
+      "window_checks": 162
+    }
+  ],
+  "all_integer_scope": "M>=2, unique finite-volume ground states; no continuous coupling interval asserted",
+  "exact_physical_endpoints_verified": [
+    "21/100",
+    "11/50",
+    "9/40",
+    "1/4"
+  ],
+  "recipe_only_all_beta_obstruction": {
+    "g": "1/4",
+    "status": "PASS_RECIPE_SCOPED_ALL_BETA_OBSTRUCTION",
+    "physical_ratios_not_upper_bounded": true
+  },
+  "clean_sibling_replay": "PASS",
+  "adversarial_corruptions_rejected": 10,
+  "producer_manifest_sha256": "f3e38ff6b3106078c1a4109db83722e1220e5214fc3e6b3c9aaea5920e1074bc"
+}

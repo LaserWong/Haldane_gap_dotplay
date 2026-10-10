@@ -1,0 +1,47 @@
+{
+  "status": "PASS independent review",
+  "n": 24,
+  "numerator_length": 48,
+  "full_Hilbert_dimension_denominator": 282429536481,
+  "full_Hilbert_dimension_numerator": 79766443076872509863361,
+  "retained_numerator_states": 1,
+  "transverse_translation_orbit_generators": 24,
+  "transverse_Gram_rank": 23,
+  "individual_MPS_bond_max": 52,
+  "zero_global_raising_norm_exact": true,
+  "finite_n24_ground_singlet_derived": true,
+  "H_eigenstate_assumption_used": false,
+  "independent_H_contraction": "Three single-site channels with separately evaluated periodic seam; no producer two-site insertion tensors read by the contraction engine.",
+  "Fourier_unnormalized_norm_factor": 24,
+  "Fourier_translation_eigenvalue": "exp(-2 pi i k/24) for positive phase in the vector definition",
+  "rows": [
+    {
+      "retained_denominator_span_dimension": 48,
+      "all_beta_fixed_recipe_exclusion": false,
+      "inconclusive_closed_unions": [
+        [
+          "533/64",
+          "679/64"
+        ]
+      ],
+      "all_other_beta_nonnegative_excluded": true,
+      "arithmetic": "Independent exact rational outward enclosures"
+    },
+    {
+      "retained_denominator_span_dimension": 70,
+      "all_beta_fixed_recipe_exclusion": false,
+      "inconclusive_closed_unions": [
+        [
+          "539/64",
+          "339/32"
+        ]
+      ],
+      "all_other_beta_nonnegative_excluded": true,
+      "arithmetic": "Independent exact rational outward enclosures"
+    }
+  ],
+  "actual_seed_startup_certified": false,
+  "spectral_gap_claim": false,
+  "scope": "Fixed one-Rayleigh numerator and specified thermal-first whole-cycle delays followed by accepted joint-aware canonical conversion. Remaining intervals are necessary-condition screens, not feasibility certificates.",
+  "proof": "REVIEW.md"
+}

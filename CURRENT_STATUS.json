@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-10T21:30:00Z",
+  "updated_at_utc": "2026-10-10T21:47:00Z",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -44,7 +44,7 @@
     },
     {
       "id": "overview",
-      "status": "stage8_frozen_verified"
+      "status": "stage9_frozen_verified"
     },
     {
       "id": "trial_size_criteria",
@@ -100,7 +100,7 @@
     },
     {
       "id": "chain_filter_extension",
-      "status": "independently_verified_counted_low_band_g020_all_M_ge2"
+      "status": "independently_verified_counted_rank67_g0225_all_M_ge2"
     },
     {
       "id": "joint_trace_ratio",
@@ -137,8 +137,20 @@
       "id": "mps_excited_seed_core",
       "status": "independently_verified_n14_n16_n20_fixed_recipe_exclusions_n24_unresolved_window",
       "review_manifest_sha256": "1755b6ac3ecb360aa968b4fc54a4bda22d13332a41ce4742dc7179cb783d41cb"
+    },
+    {
+      "id": "mps_momentum_70_state",
+      "status": "independently_verified_n24_70_orthogonal_states_recipe_screen_unresolved",
+      "unresolved_beta": [
+        "539/64",
+        "339/32"
+      ]
+    },
+    {
+      "id": "bilayer_g010_diagnostics",
+      "status": "independently_verified_scoped_moment_bounds_and_conditional_bottleneck_no_gap_certificate"
     }
   ],
-  "verification": "Ordinary bilayer entire 0<=g<=0.09: gap>=0.001945771244 for every integer L>=2. Discrete g=0.09: gap>=0.027330086079, largest 43-dimensional search with one retained numerator state. Smaller denominator total trial dimensions are 59/125, with retained low bands 49/97. Spin-1 alternating chain g=0.2: gap>=0.043446395688 for every integer M>=2. Uniform spin-1 fixed D26 recipe exclusions are independently verified through n=20 at listed sizes; n=24 remains unresolved in the three-state screen. AKLT is a separate projector-reference certificate. New stronger chain and momentum-resolved MPS branches remain under investigation.",
-  "last_verified_remote_commit": "fb38f57548c86d9dda19450e68cbbedbafd6765a"
+  "verification": "Ordinary bilayer entire 0<=g<=0.09: gap>=0.001945771244 for every integer L>=2. Discrete g=0.09: gap>=0.027330086079, largest 43-dimensional search with one retained numerator state. Smaller denominator total trial dimensions are 59/125, with retained low bands 49/97. Spin-1 alternating chain g=0.225: gap>=0.045509923956 for every integer M>=2. Uniform spin-1 fixed D26 recipe exclusions are independently verified through n=20 at listed sizes; n=24 remains unresolved in the independently verified 70-state screen. AKLT is a separate projector-reference certificate. New stronger chain and momentum-resolved MPS branches remain under investigation.",
+  "last_verified_remote_commit": "609894b496a4deb519eaa2df1507e69f3aec6b67"
 }

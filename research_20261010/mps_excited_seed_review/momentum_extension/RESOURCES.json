@@ -1,0 +1,43 @@
+{
+  "single_CPU_affinity": 1,
+  "physical_and_channel_address_space_limit_MiB": 700,
+  "scalar_address_space_limit_MiB": 1024,
+  "n24_contraction_CPU_seconds": 359.8924,
+  "n24_contraction_peak_KiB": 107376,
+  "independent_build": {
+    "CPU_seconds": 8.699376268,
+    "peak_KiB": 303248
+  },
+  "tiny_contractions": {
+    "2": {
+      "CPU_seconds": 0.437644,
+      "peak_KiB": 62652
+    },
+    "4": {
+      "CPU_seconds": 6.49161,
+      "peak_KiB": 81492
+    },
+    "6": {
+      "CPU_seconds": 22.343,
+      "peak_KiB": 83152
+    }
+  },
+  "other_verifiers": {
+    "independent_fourier": {
+      "CPU_seconds": 0.07169481500000001,
+      "peak_KiB": 9956
+    },
+    "independent_singlet": {
+      "CPU_seconds": 2.259534509,
+      "peak_KiB": 21956
+    },
+    "independent_scalar48": {
+      "CPU_seconds": 22.005411922,
+      "peak_KiB": 12504
+    },
+    "independent_scalar70": {
+      "CPU_seconds": 20.633529830999997,
+      "peak_KiB": 12504
+    }
+  }
+}

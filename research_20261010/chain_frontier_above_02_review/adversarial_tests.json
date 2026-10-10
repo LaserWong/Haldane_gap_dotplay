@@ -1,0 +1,47 @@
+{
+  "exact_zero_and_2x2_pivot_cases": 4,
+  "rejected": [
+    {
+      "status": "REJECTED",
+      "test": "wrong nonunit Gram normalization"
+    },
+    {
+      "status": "REJECTED",
+      "test": "dropped residual offdiagonal"
+    },
+    {
+      "status": "REJECTED",
+      "test": "truncated full second moment"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong weighted complement cutoff"
+    },
+    {
+      "status": "REJECTED",
+      "test": "quintet omission from reference multiplicity"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong complement dimension"
+    },
+    {
+      "status": "REJECTED",
+      "test": "unsafe threshold at complement"
+    },
+    {
+      "status": "REJECTED",
+      "test": "wrong negative inertia count"
+    },
+    {
+      "status": "REJECTED",
+      "test": "zero threshold multiplicity"
+    },
+    {
+      "status": "REJECTED",
+      "test": "nonpositive local form"
+    }
+  ],
+  "seconds": 9.259694952997961,
+  "status": "PASS"
+}

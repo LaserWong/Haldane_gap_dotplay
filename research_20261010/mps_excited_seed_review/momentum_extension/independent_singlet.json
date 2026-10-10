@@ -1,0 +1,68 @@
+{
+  "status": "PASS independent normalized spin completion",
+  "n24_ground_singlet_is_derived": true,
+  "requires_H_eigenstate_assumption": false,
+  "local_commutators_and_H_invariance": true,
+  "fixtures": [
+    {
+      "n": 2,
+      "C": [
+        "807008896800",
+        "-807008896800"
+      ],
+      "K": [
+        "-1614017793600",
+        "1614017793600"
+      ],
+      "all_lowering_identities": true
+    },
+    {
+      "n": 4,
+      "C": [
+        "15316803973683932169184",
+        "-11487602905341467950240",
+        "7658401836999003731296",
+        "-11487602905341467950240"
+      ],
+      "K": [
+        "-68925617432048807701440",
+        "57438014526707339751200",
+        "-45950411621365871800960",
+        "57438014526707339751200"
+      ],
+      "all_lowering_identities": true
+    },
+    {
+      "n": 6,
+      "C": [
+        "530251930819152061073873230109088",
+        "-380778510900795675551168727970848",
+        "228914284561153706229154687894240",
+        "-226523478139868122429845149955872",
+        "228914284561153706229154687894240",
+        "-380778510900795675551168727970848"
+      ],
+      "K": [
+        "-3807785109007956755511687279708480",
+        "2900527201917849961883490052160352",
+        "-1973446163556915192489943801062784",
+        "1953623032286087216724594777513344",
+        "-1973446163556915192489943801062784",
+        "2900527201917849961883490052160352"
+      ],
+      "all_lowering_identities": true
+    }
+  ],
+  "positive_momentum_modes": 23,
+  "retained_orthogonal_states": 70,
+  "single_state_bond_bound": 52,
+  "identities": [
+    "[R,L]=M with R=S+/sqrt2, L=S-/sqrt2.",
+    "R psi=0 and M psi=0 imply L psi=0 by norm positivity.",
+    "R v_j=0 and M v_j=v_j imply RL v_j=v_j.",
+    "<L v_i,L v_j>=<v_i,v_j>; [H,L]=0 gives equal full-H forms.",
+    "L v_j=-Sz_j psi; each lowered Fourier vector remains a single-source bond52 MPS."
+  ],
+  "CPU_seconds": 2.259534509,
+  "peak_KiB": 21956
+}

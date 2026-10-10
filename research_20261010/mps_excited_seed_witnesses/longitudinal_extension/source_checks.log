@@ -1,0 +1,31 @@
+{
+  "status": "PASS construction and direct fixtures",
+  "fixtures": [
+    {
+      "n": 2,
+      "norm": "3228035587200",
+      "H_numerator": "-6456071174400",
+      "psi_cross_inner_product": "0",
+      "translation_eigenvalue": -1,
+      "physical_support": 2
+    },
+    {
+      "n": 4,
+      "norm": "183801646485463487203840",
+      "H_numerator": "-919008232427317436019200",
+      "psi_cross_inner_product": "0",
+      "translation_eigenvalue": -1,
+      "physical_support": 10
+    },
+    {
+      "n": 6,
+      "norm": "11856965999297513682386191270770816",
+      "H_numerator": "-93056129233461445685898898582008576",
+      "psi_cross_inner_product": "0",
+      "translation_eigenvalue": -1,
+      "physical_support": 92
+    }
+  ],
+  "cpu_seconds": 16.629014212,
+  "peak_kb": 71780
+}

@@ -1,0 +1,30 @@
+{
+  "address_limit_bytes": 1073741824,
+  "cpu_affinity": [
+    4
+  ],
+  "peak_rss_kib": 29584,
+  "results": [
+    {
+      "g": "11/50",
+      "gap_lower": "65580452251/1000000000000",
+      "paths": 27,
+      "window_checks": 135
+    },
+    {
+      "g": "21/100",
+      "gap_lower": "12700941751/125000000000",
+      "paths": 18,
+      "window_checks": 81
+    },
+    {
+      "g": "9/40",
+      "gap_lower": "11377480989/250000000000",
+      "paths": 27,
+      "window_checks": 162
+    }
+  ],
+  "scope": "Discrete listed couplings; all integer M>=2; unique finite-volume ground states",
+  "seconds": 68.50566842199987,
+  "status": "PASS_INDEPENDENT_EXACT_COUNTED_SCHUR_ALL_INTEGER_REVIEW"
+}

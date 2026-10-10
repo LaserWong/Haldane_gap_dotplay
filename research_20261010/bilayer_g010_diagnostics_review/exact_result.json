@@ -1,0 +1,133 @@
+{
+  "status": "PASS_exact_endpoints_restricted_class_and_numerator_brackets",
+  "source_manifest_sha256": "64aef0cf10637f509afd325ab230f8a74a97775b961657d1c5962e6c61be04bb",
+  "source_files": 28,
+  "inherited_sealed_files": 810,
+  "results": [
+    {
+      "shape": "4x4",
+      "N": 16,
+      "full_dimension": "4294967296",
+      "trial_dimension": 11,
+      "lower": "-63496684407/500000000000",
+      "old_lower": "-635390297391/5000000000000",
+      "improvement": "423453321/5000000000000",
+      "negative_witness": "-22319284614473983906203496802582593960235877218721097029085195527632435839475359814191446522976047021059815077/123015364784490888830926021871599993919257812500000000000000000000000000000000000000000000",
+      "a": "4398709341572746806514729855860735750932277357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+      "a1": "3918709341572746806514729855860735750932277357577171579514210371258535592214889/6298386676965933508143412319825919688666000000000000000000000000000000000000000",
+      "max_odd_upper": "67570754717/62500000000",
+      "rayleigh": "-6707348886031445029598478876/52967228876597746233464112025",
+      "bracket_upper": "-63496684357/500000000000",
+      "gram": {
+        "dimension": 11,
+        "all_rational_LDL_pivots_positive": true,
+        "pivot_sha256": "1ee58e91a9aa02f948f21821c4494917a3238ae9585000d89574709013539fed"
+      },
+      "upper_weight": {
+        "dimension": 11,
+        "all_rational_LDL_pivots_positive": true,
+        "pivot_sha256": "edafc4997ecc2bf033a8bb33dfb3abd3fa8342e260955e24869f563e32e46fdd"
+      },
+      "lower_weight": {
+        "dimension": 11,
+        "all_rational_LDL_pivots_positive": true,
+        "pivot_sha256": "ad994f50458f8f7e34a184ad4f752a6a480a21ece35481e2f7f278b6bb83424d"
+      },
+      "all_moment_geometry_and_Hankel_checks": true,
+      "complete_affine_base_span": true,
+      "odd_count_and_unique_ground_conditions": true,
+      "unchanged_patch_other_fields": true
+    },
+    {
+      "shape": "8x4",
+      "N": 32,
+      "full_dimension": "18446744073709551616",
+      "trial_dimension": 29,
+      "lower": "-637715387/2500000000",
+      "old_lower": "-255370784663/1000000000000",
+      "improvement": "284629863/1000000000000",
+      "negative_witness": "-830904611567318678680446647660104452745978456228076027955948135051721856213312446209912064818961388463010901/2460307295689817776618520437431999878385156250000000000000000000000000000000000000000000",
+      "a": "3918709341572746806514729855860735750932277357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+      "a1": "2958709341572746806514729855860735750932277357577171579514210371258535592214889/6298386676965933508143412319825919688666000000000000000000000000000000000000000",
+      "max_odd_upper": "39/40",
+      "rayleigh": "-7111025690516737930304486403/28253834844306983548081210610",
+      "bracket_upper": "-2550861547/10000000000",
+      "gram": {
+        "dimension": 29,
+        "all_rational_LDL_pivots_positive": true,
+        "pivot_sha256": "605abf05a3af0b5265aded1a534e21b870540d4cd270adf203a7143a954c0183"
+      },
+      "upper_weight": {
+        "dimension": 29,
+        "all_rational_LDL_pivots_positive": true,
+        "pivot_sha256": "f31bf70accdd864d8fc38b4fcfec3dcaba596fd79fd8aac12eace8db0fde73a3"
+      },
+      "lower_weight": {
+        "dimension": 29,
+        "all_rational_LDL_pivots_positive": true,
+        "pivot_sha256": "39d23e1d675c171e56224b1c6c9abff0d5508f14d19714e1a4ad57b3c7f93702"
+      },
+      "all_moment_geometry_and_Hankel_checks": true,
+      "complete_affine_base_span": true,
+      "odd_count_and_unique_ground_conditions": true,
+      "unchanged_patch_other_fields": true
+    },
+    {
+      "shape": "8x8",
+      "N": 64,
+      "full_dimension": "340282366920938463463374607431768211456",
+      "trial_dimension": 29,
+      "lower": "-51724680959/100000000000",
+      "old_lower": "-2589767114133/5000000000000",
+      "improvement": "3533066183/5000000000000",
+      "negative_witness": "-7692635741780861203362305798792172626294252436159531578725667800746554568687969735693225576411123588302298557/12301536478449088883092602187159999391925781250000000000000000000000000000000000000000000",
+      "a": "2958709341572746806514729855860735750932277357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+      "a1": "1038709341572746806514729855860735750932277357577171579514210371258535592214889/6298386676965933508143412319825919688666000000000000000000000000000000000000000",
+      "max_odd_upper": "793548387097/1000000000000",
+      "rayleigh": "-3932059914455191524909847707/7949130746188140838762956980",
+      "bracket_upper": "-51724680949/100000000000",
+      "gram": {
+        "dimension": 29,
+        "all_rational_LDL_pivots_positive": true,
+        "pivot_sha256": "61d554bad3d71558e8ba5aaaa286db124e08f0f65c5d83c05cd38e64d836706d"
+      },
+      "upper_weight": {
+        "dimension": 29,
+        "all_rational_LDL_pivots_positive": true,
+        "pivot_sha256": "7393d010de9acb85dfdc9867f00bff26e50d429d85010ec26928e82de4e9340e"
+      },
+      "lower_weight": {
+        "dimension": 29,
+        "all_rational_LDL_pivots_positive": true,
+        "pivot_sha256": "5e170dd15863f2ff5208da96a6834cf9cb80241f958372d7e575b99244b96f72"
+      },
+      "all_moment_geometry_and_Hankel_checks": true,
+      "complete_affine_base_span": true,
+      "odd_count_and_unique_ground_conditions": true,
+      "unchanged_patch_other_fields": true
+    }
+  ],
+  "numerator": {
+    "dimension": 43,
+    "lower": "-42711130904735408575307406501282150818231/84669930689597827770791108182310000000000",
+    "upper": "-533889136203355193829345296552538/1058374133619972847134888852278875",
+    "positive_definite": {
+      "dimension": 43,
+      "all_rational_LDL_pivots_positive": true,
+      "pivot_sha256": "68e61bdbc9f8e2327334f3304dc18f8894a1ffa5790dbb5007b21e3d732bc705"
+    },
+    "physical_ground_lower": false
+  },
+  "adversarial_tests": [
+    "endpoint overshoot has positive saved-vector value",
+    "extra level below a defeats unrestricted global inference",
+    "spectrum above U defeats sign theorem",
+    "full affine-base-span exact projection checked",
+    "patch changes restricted to ground lower and witness"
+  ],
+  "cpu_affinity": [
+    7
+  ],
+  "peak_rss_kib": 27108,
+  "seconds": 9.738405430998682
+}

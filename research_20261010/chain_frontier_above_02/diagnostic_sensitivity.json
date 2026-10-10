@@ -1,0 +1,107 @@
+{
+  "status": "FLOAT_DIAGNOSTIC_HYPOTHETICAL_INPUTS_NOT_CERTIFICATES",
+  "g": "1/4",
+  "rows": [
+    {
+      "hypothetical_Rayleigh_shift": 0,
+      "passes": 1458,
+      "best": {
+        "beta": 22.55,
+        "time_steps": 1,
+        "canonical_steps": 0,
+        "from_M": 16,
+        "all_M_ge8_gap": 0.36391105947060925,
+        "asymptotic_gap": 0.36391105947060925,
+        "finite_window_min": 0.3725453242307695,
+        "time_pair_at_conversion": [
+          0.9999999999999994,
+          1.0
+        ],
+        "all_M_ge4_gap": 0.36373623355095835
+      }
+    },
+    {
+      "hypothetical_Rayleigh_shift": 0.0025,
+      "passes": 750,
+      "best": {
+        "beta": 11.35,
+        "time_steps": 3,
+        "canonical_steps": 0,
+        "from_M": 64,
+        "all_M_ge8_gap": 0.15425699411662028,
+        "asymptotic_gap": 0.15577619744711266,
+        "finite_window_min": 0.15425699411662028,
+        "time_pair_at_conversion": [
+          0.9999999999999496,
+          0.9999999999999972
+        ],
+        "all_M_ge4_gap": 0.15420457696618292
+      }
+    },
+    {
+      "hypothetical_Rayleigh_shift": 0.005,
+      "passes": 297,
+      "best": {
+        "beta": 10.3,
+        "time_steps": 3,
+        "canonical_steps": 0,
+        "from_M": 64,
+        "all_M_ge8_gap": 0.1035250168830426,
+        "asymptotic_gap": 0.10448336467958237,
+        "finite_window_min": 0.1035250168830426,
+        "time_pair_at_conversion": [
+          0.9999999968369822,
+          0.9999999996736907
+        ],
+        "all_M_ge4_gap": 0.1035250168830426
+      }
+    },
+    {
+      "hypothetical_Rayleigh_shift": 0.0075,
+      "passes": 139,
+      "best": {
+        "beta": 9.9,
+        "time_steps": 3,
+        "canonical_steps": 1,
+        "from_M": 128,
+        "all_M_ge8_gap": 0.06097117707553624,
+        "asymptotic_gap": 0.06276721081790666,
+        "finite_window_min": 0.06097117707553624,
+        "time_pair_at_conversion": [
+          0.9999932376425174,
+          0.9999983159834375
+        ],
+        "all_M_ge4_gap": 0.06097117707553624
+      }
+    },
+    {
+      "hypothetical_Rayleigh_shift": 0.01,
+      "passes": 33,
+      "best": {
+        "beta": 9.5,
+        "time_steps": 4,
+        "canonical_steps": 1,
+        "from_M": 256,
+        "all_M_ge8_gap": 0.012341689258144344,
+        "asymptotic_gap": 0.012946567362254024,
+        "finite_window_min": 0.012341689258144344,
+        "time_pair_at_conversion": [
+          0.9975466934057571,
+          0.9987844455065376
+        ],
+        "all_M_ge4_gap": 0.012341689258144344
+      }
+    },
+    {
+      "hypothetical_Rayleigh_shift": 0.0125,
+      "passes": 0,
+      "best": null
+    },
+    {
+      "hypothetical_Rayleigh_shift": 0.015626143856861834,
+      "passes": 0,
+      "best": null
+    }
+  ],
+  "note": "Only delta is changed; no corresponding new M8 trial or energy has been certified. Bounded scans are not all-beta impossibility results."
+}

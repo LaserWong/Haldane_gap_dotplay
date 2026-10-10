@@ -1,0 +1,69 @@
+{
+  "status": "exact_positive_definite_replay",
+  "scope": "Degree-five polynomials (x-a)(x-ell) times nonnegative cubic weights on the full inherited support interval [L,U], acting on base B; not all possible M0..M5 methods.",
+  "results": [
+    {
+      "shape": "4x4",
+      "L": "-635390297391/5000000000000",
+      "U": "88/5",
+      "a": "4398709341572746806514729855860735750932277357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+      "ell_upper": "-63496684357/500000000000",
+      "certified_lower": "-63496684407/500000000000",
+      "bracket_width": "1/10000000000",
+      "upper_weight": {
+        "positive_definite": true,
+        "positive_leading_minor_count": 11,
+        "clearing_denominator": "984122918275927110647408174972799951354062500000000000000000000000000000000000000000000000",
+        "leading_minor_sha256": "0a67c590ab2341b25e1d3305882dfb99f75d2b2ce96c6676c618cff4447650b9"
+      },
+      "lower_weight": {
+        "positive_definite": true,
+        "positive_leading_minor_count": 11,
+        "clearing_denominator": "7872983346207416885179265399782399610832500000000000000000000000000000000000000000000000000000000000000",
+        "leading_minor_sha256": "7a95ed1726ec0f296493c00a6b48a018c9f61a22f6334375f4b34442490813bb"
+      }
+    },
+    {
+      "shape": "8x4",
+      "L": "-255370784663/1000000000000",
+      "U": "176/5",
+      "a": "3918709341572746806514729855860735750932277357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+      "ell_upper": "-2550861547/10000000000",
+      "certified_lower": "-637715387/2500000000",
+      "bracket_width": "1/10000000000",
+      "upper_weight": {
+        "positive_definite": true,
+        "positive_leading_minor_count": 29,
+        "clearing_denominator": "19682458365518542212948163499455999027081250000000000000000000000000000000000000000000000",
+        "leading_minor_sha256": "5b78d76839b10ff592c5f77a03c35302d54d147b4ab5976e87fc0e4553262c8e"
+      },
+      "lower_weight": {
+        "positive_definite": true,
+        "positive_leading_minor_count": 29,
+        "clearing_denominator": "31491933384829667540717061599129598443330000000000000000000000000000000000000000000000000000000000000",
+        "leading_minor_sha256": "b4cf695bea4b5f739c1b95c473d5792783110d31d97e3045cf3d0c05010d6311"
+      }
+    },
+    {
+      "shape": "8x8",
+      "L": "-2589767114133/5000000000000",
+      "U": "352/5",
+      "a": "2958709341572746806514729855860735750932277357577171579514210371258535592214889/3149193338482966754071706159912959844333000000000000000000000000000000000000000",
+      "ell_upper": "-51724680949/100000000000",
+      "certified_lower": "-51724680959/100000000000",
+      "bracket_width": "1/10000000000",
+      "upper_weight": {
+        "positive_definite": true,
+        "positive_leading_minor_count": 29,
+        "clearing_denominator": "49206145913796355532370408748639997567703125000000000000000000000000000000000000000000000",
+        "leading_minor_sha256": "fed03f64fb69429f431de44d1722eefffbf5a5ba0e561329b6d03b34de3ae562"
+      },
+      "lower_weight": {
+        "positive_definite": true,
+        "positive_leading_minor_count": 29,
+        "clearing_denominator": "1574596669241483377035853079956479922166500000000000000000000000000000000000000000000000000000000000000",
+        "leading_minor_sha256": "3b342d5087b8f1be829566cbd89d40d4065dd0b42a9d21f71df275d319cfbf30"
+      }
+    }
+  ]
+}

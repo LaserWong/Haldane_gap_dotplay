@@ -1,0 +1,16 @@
+{
+  "benchmark_displacements": [
+    0,
+    1,
+    12
+  ],
+  "observed_CPU_seconds": 48.3934,
+  "observed_peak_MiB": 52.94921875,
+  "reality_translation_symmetry": "C(r)=C(n-r), K(r)=K(n-r), so r0..12 determine all24 entries. No reflection-invariance premise is required.",
+  "conservative_total_13_displacement_CPU_seconds": 290.836,
+  "remaining_10_displacement_CPU_seconds": 223.72,
+  "memory_projection_MiB": 105.8984375,
+  "gate_CPU_seconds": 600,
+  "gate_memory_MiB": 700,
+  "decision": "Proceed with remaining r2..11; each job pinned to CPU2 with700MiB address-space cap."
+}

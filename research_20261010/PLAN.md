@@ -82,3 +82,13 @@ Exact third-moment contraction and a 43-dimensional largest search with one reta
 Uniform-chain fixed D26 screens now have independently accepted all-temperature obstructions at n=6,8,10,12,14,16,20 under their explicitly specified recipes. Compact exact excited-state contractions avoid full physical support expansion at n=24. The three-state n=24 screen leaves the closed temperature window [13/2,45/4]; this is not a successful seed certificate. A longitudinal fourth state and displacement-resolved momentum states are under separate investigation. The alternating-chain 67-dimensional small reference gives new candidates above g=.2, pending independent scalar review.
 
 Next: publish the stable stage 8 scope, finish independent review of the stronger chain comparison, tighten the n=24 necessary screen with more orthogonal low-energy witnesses, and identify the trace-upper information required for a successful nonperturbative seed. Do not substitute a bounded numerical scan for an all-temperature exclusion. No full spin-2 spectral campaign is scheduled.
+
+## Milestone update — 2026-10-10 17:46 EDT / 21:46 UTC
+
+Stage 8 is published and verified at 609894b496a4deb519eaa2df1507e69f3aec6b67. All 425 snapshot files match remote hashes and 5,624 outside paths remain unchanged. The 1D-to-2D explanation is published with explicit startup, transfer, partial-data and omitted-spectrum conditions.
+
+The alternating-chain 67-dimensional small reference has independent all-size certificates at g=.21/.22/.225, with bounds .101607534008/.065580452251/.045509923956. The maximum physical seed remains M=8 and its numerator input is unchanged. Larger-reference g=.25 diagnostics have separate pending review and are not a new gap certificate.
+
+At n=24 in the uniform spin-1 chain, exact displacement contractions and certified Fourier algebra give 70 orthogonal trial states with bond dimension at most 52. Total-spin singlet structure is proved at this finite size from an exact zero norm, and normalized lowering supplies all spin components. The strongest accepted fixed-recipe necessary screen still leaves beta in [539/64,339/32]. A compact two-vector current-operator extension is being benchmarked independently of these frozen results.
+
+The g=.1 bilayer diagnostic is independently accepted as a scoped input-sensitivity analysis. Available moments sharpen ground lower endpoints without reaching startup on the tested grid. The 8×4 denominator remains the tested bottleneck. An exact hard-core pair commutator may supply the complete new residual without enumerating q=8 supports; its local fixtures have passed and the separate physical producer/reviewer are active. This is not yet a g=.1 certificate.

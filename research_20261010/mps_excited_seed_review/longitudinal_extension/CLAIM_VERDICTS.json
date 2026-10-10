@@ -1,0 +1,108 @@
+{
+  "status": "PASS independent longitudinal review",
+  "rows": [
+    {
+      "n": 14,
+      "numerator_length": 28,
+      "retained_denominator_dimension": 4,
+      "retained_numerator_dimension": 1,
+      "denominator_Hilbert_dimension": 4782969,
+      "numerator_Hilbert_dimension": 22876792454961,
+      "bond_dimensions": [
+        26,
+        52,
+        52,
+        52
+      ],
+      "physical_witness_verdict": "PASS exact independent replay",
+      "scalar_verdict": "PASS all-beta fixed-recipe exclusion",
+      "all_beta_fixed_recipe_exclusion": true,
+      "inconclusive_closed_union": [],
+      "exact_global_J_upper": "31110930893963425124070994053437806612754758769623/100000000000000000000000000000000000000000000000000",
+      "global_J_upper_display": 0.31110930893963423
+    },
+    {
+      "n": 16,
+      "numerator_length": 32,
+      "retained_denominator_dimension": 4,
+      "retained_numerator_dimension": 1,
+      "denominator_Hilbert_dimension": 43046721,
+      "numerator_Hilbert_dimension": 1853020188851841,
+      "bond_dimensions": [
+        26,
+        52,
+        52,
+        52
+      ],
+      "physical_witness_verdict": "PASS exact independent replay",
+      "scalar_verdict": "PASS all-beta fixed-recipe exclusion",
+      "all_beta_fixed_recipe_exclusion": true,
+      "inconclusive_closed_union": [],
+      "exact_global_J_upper": "41421425680115793793637355110476316937124531152199/100000000000000000000000000000000000000000000000000",
+      "global_J_upper_display": 0.4142142568011579
+    },
+    {
+      "n": 20,
+      "numerator_length": 40,
+      "retained_denominator_dimension": 4,
+      "retained_numerator_dimension": 1,
+      "denominator_Hilbert_dimension": 3486784401,
+      "numerator_Hilbert_dimension": 12157665459056928801,
+      "bond_dimensions": [
+        26,
+        52,
+        52,
+        52
+      ],
+      "physical_witness_verdict": "PASS exact independent replay",
+      "scalar_verdict": "PASS all-beta fixed-recipe exclusion",
+      "all_beta_fixed_recipe_exclusion": true,
+      "inconclusive_closed_union": [],
+      "exact_global_J_upper": "30668651302367561077409701558991618803793349125213/50000000000000000000000000000000000000000000000000",
+      "global_J_upper_display": 0.6133730260473512
+    },
+    {
+      "n": 24,
+      "numerator_length": 48,
+      "retained_denominator_dimension": 4,
+      "retained_numerator_dimension": 1,
+      "denominator_Hilbert_dimension": 282429536481,
+      "numerator_Hilbert_dimension": 79766443076872509863361,
+      "bond_dimensions": [
+        26,
+        52,
+        52,
+        52
+      ],
+      "physical_witness_verdict": "PASS exact independent replay",
+      "scalar_verdict": "Only bounded screen; no feasibility claim",
+      "all_beta_fixed_recipe_exclusion": false,
+      "inconclusive_closed_union": [
+        [
+          "31/4",
+          "11"
+        ]
+      ],
+      "exact_global_J_upper": "76759611062029354586047231680509351019911957450529/100000000000000000000000000000000000000000000000000",
+      "global_J_upper_display": 0.7675961106202935
+    }
+  ],
+  "all_beta_exclusion_n": [
+    14,
+    16,
+    20
+  ],
+  "n24_unresolved_closed_union": [
+    "31/4",
+    "11"
+  ],
+  "conditional_three_state_budget": {
+    "beta": "8",
+    "hypothetical_trace_multiplier": "201/200",
+    "conditional_final_common_lower": "3118586672206141870519219172441346470434173518129/3125000000000000000000000000000000000000000000000",
+    "four_to_three_witness_trace_ratio_lower": "101893421066079096220343803968175311939282276146863/100000000000000000000000000000000000000000000000000",
+    "premise_impossible": true
+  },
+  "proof": "REVIEW.md",
+  "scope": "Four fixed orthogonal witnesses. Necessary-condition obstruction only; no actual startup or gap certificate."
+}

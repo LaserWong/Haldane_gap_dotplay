@@ -1,0 +1,62 @@
+{
+  "status": "producer complete, staged independent review",
+  "model": "uniform periodic unit-coupling spin1 Heisenberg, with doubled periodic bond at n2",
+  "fixed_numerator": "archived exact D26 one-state Rayleigh at2n",
+  "all_beta_excluded_denominator_sizes": [
+    14,
+    16,
+    20
+  ],
+  "allowed_recipe": "thermal-first G initialization, any fixed complete time-first delay, then specified accepted joint-aware canonical conversion",
+  "n24_screens": [
+    {
+      "retained_denominator_states": 3,
+      "inconclusive_closed_union": [
+        "13/2",
+        "45/4"
+      ]
+    },
+    {
+      "retained_denominator_states": 4,
+      "inconclusive_closed_union": [
+        "31/4",
+        "11"
+      ]
+    },
+    {
+      "retained_denominator_states": 48,
+      "inconclusive_closed_union": [
+        "533/64",
+        "679/64"
+      ]
+    },
+    {
+      "retained_denominator_states": 70,
+      "inconclusive_closed_union": [
+        "539/64",
+        "339/32"
+      ]
+    }
+  ],
+  "physical_support_expansion_maximum_n": 6,
+  "maximum_retained_denominator_dimension": 70,
+  "retained_numerator_dimension": 1,
+  "MPS_bond_dimensions": [
+    26,
+    52
+  ],
+  "variational_optimization": "none",
+  "n24_displacement_contraction_CPU_seconds": 231.4436,
+  "n24_displacement_peak_KiB": 54288,
+  "singlet_scope": "proved for fixed n24 state by exact zero global-raising norm; not assumed across sizes",
+  "not_claimed": [
+    "physical low eigenvalues",
+    "physical gap or gaplessness",
+    "universal minimum seed",
+    "denominator upper traces",
+    "success at n24",
+    "arbitrary adaptive scalar orderings"
+  ],
+  "independent_review_directory": "../mps_excited_seed_review",
+  "writes": "only this new producer directory; no root/frozen archive/GitHub edits"
+}

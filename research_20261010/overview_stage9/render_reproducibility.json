@@ -1,0 +1,103 @@
+{
+  "status": "PASS byte-identical independent re-render",
+  "checked_utc": "2026-10-10T21:47:12.631694+00:00",
+  "files": [
+    {
+      "file": "certified_bounds.png",
+      "sha256": "9215d3219df3964fdc71064fa08077f6fa2a84a272038a84c9dcd2276a7fce16",
+      "byte_identical": true
+    },
+    {
+      "file": "certified_bounds.pdf",
+      "sha256": "ae97fe1b3d66e95235eb76314b206a3fb51c7150abd4ac49f88a3e20858de7be",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.png",
+      "sha256": "52a62c99ecbfd0f7b2e7039bb8ec8b90d4811d19d37e0c9e2b623ac77b74785b",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.pdf",
+      "sha256": "e1092da4a28b7dfd87dab31ac4ca8ec5b6d6f57d8055fbc2873bb505516fee94",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.png",
+      "sha256": "ed7362ea68a206fd8e4790569e874b6b3433fedec448e510c6f360cb0180f796",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.pdf",
+      "sha256": "84ac81d8acdef4ff60c80c0078958fbf23079766b2ac9e5e1674f6d5ad79c576",
+      "byte_identical": true
+    },
+    {
+      "file": "aklt_reference_scope.png",
+      "sha256": "aadbd9a324d69c3a616e534d0a51fe66808fd1b62d96a5f0e47437b42a3cc2f2",
+      "byte_identical": true
+    },
+    {
+      "file": "aklt_reference_scope.pdf",
+      "sha256": "cb6c35fb3df2ffc9d0f5c7a9fd134efac4ff9704e925a0c897e0f533971aa0be",
+      "byte_identical": true
+    },
+    {
+      "file": "recipe_upper_caps.png",
+      "sha256": "e4118a11ee86c706148c071c97d2747fe9d957af648fe6e9af07a5d784a2a782",
+      "byte_identical": true
+    },
+    {
+      "file": "recipe_upper_caps.pdf",
+      "sha256": "587561803cb838dcea517d9c4b223b3a7647123f65914fcd4efcf2b2480891dc",
+      "byte_identical": true
+    },
+    {
+      "file": "mps_recipe_windows.png",
+      "sha256": "93e032c5832476bc225fdb8201fa7385b9244d9f6e00306496f205e4544598c7",
+      "byte_identical": true
+    },
+    {
+      "file": "mps_recipe_windows.pdf",
+      "sha256": "ef0fd17377a1213cbc20f5ac70542d39c7850dbe439a049e1791ab29b49390bf",
+      "byte_identical": true
+    }
+  ],
+  "replay_validation": {
+    "status": "PASS",
+    "claims": 212,
+    "dimension_rows": 108,
+    "direct_source_hashes": 216,
+    "review_seals": 27,
+    "sealed_file_hashes_checked": 1974,
+    "combined_review_included": true,
+    "interval_extension_included": true,
+    "cpu_affinity": [
+      0
+    ],
+    "address_space_limit_bytes": 1073741824,
+    "blas_threads": 1,
+    "checks": [
+      "source SHA-256",
+      "complete selected review manifests",
+      "all exact gap JSON pointers",
+      "all decimal floors",
+      "best point selection",
+      "all exact adjacent closed pieces and uniform minimum",
+      "Hilbert dimensions",
+      "numerator rank separated from search and filtered span",
+      "failure gaps remain null",
+      "all 207 chain candidate routes",
+      "all exact interval pieces",
+      "59/125 denominator trial dimensions",
+      "reference67 versus unchanged M8 search",
+      "70 orthogonal MPS states with bond52 and necessary screen only",
+      "g010 diagnostic scope without gap promotion",
+      "separate AKLT projector reference",
+      "all stage8 files and 209 prior certificate rows preserved"
+    ],
+    "matplotlib": "3.10.8",
+    "peak_rss_kib": 138136
+  },
+  "writes": "temporary directory only for replay images; this recorder writes render_reproducibility.json before freeze"
+}

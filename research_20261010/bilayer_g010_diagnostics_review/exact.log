@@ -1,0 +1,29 @@
+{
+  "status": "PASS_exact_endpoints_restricted_class_and_numerator_brackets",
+  "source_manifest_sha256": "64aef0cf10637f509afd325ab230f8a74a97775b961657d1c5962e6c61be04bb",
+  "source_files": 28,
+  "inherited_sealed_files": 810,
+  "numerator": {
+    "dimension": 43,
+    "lower": "-42711130904735408575307406501282150818231/84669930689597827770791108182310000000000",
+    "upper": "-533889136203355193829345296552538/1058374133619972847134888852278875",
+    "positive_definite": {
+      "dimension": 43,
+      "all_rational_LDL_pivots_positive": true,
+      "pivot_sha256": "68e61bdbc9f8e2327334f3304dc18f8894a1ffa5790dbb5007b21e3d732bc705"
+    },
+    "physical_ground_lower": false
+  },
+  "adversarial_tests": [
+    "endpoint overshoot has positive saved-vector value",
+    "extra level below a defeats unrestricted global inference",
+    "spectrum above U defeats sign theorem",
+    "full affine-base-span exact projection checked",
+    "patch changes restricted to ground lower and witness"
+  ],
+  "cpu_affinity": [
+    7
+  ],
+  "peak_rss_kib": 27108,
+  "seconds": 9.738405430998682
+}
