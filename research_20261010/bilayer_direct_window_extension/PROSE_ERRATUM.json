@@ -1,0 +1,12 @@
+{
+  "frozen_manifest_sha256": "92735c1564f97640afb420b7fb5136e5e26e8390f2428a072faba3f1b0ef0572",
+  "file": "PROOF.md",
+  "incorrect": "55580714827/10^12 = .055807148827",
+  "correct": "55807148827/10^12 = .055807148827",
+  "scope": "Prose numerator typo only. candidate.json and all replay records already contain the correct exact fraction and decimal. No frozen artifacts changed.",
+  "resource_correction": {
+    "incorrect": "below30MiB",
+    "correct": "peak_rss_kib=91684 (about89.54MiB) in the sealed replay.json; below100MiB",
+    "scope": "Resource prose only; declared700MiB job cap remains valid."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "ACCEPTED independent analytical and exact scalar review",
+  "model": "uniform periodic spin-1 Heisenberg, bilinear coefficient1",
+  "gap": "19/5000",
+  "all_integer_L_at_least": 52,
+  "unique_ground_state": true,
+  "canonical_seed": {
+    "n": 52,
+    "beta": "567/25",
+    "thermal_coordinate": "T(104,567/25)"
+  },
+  "asymptotic_from": 3328,
+  "Hermite_majorant": "PASS exact nonnegative-factor polynomial identity including x0",
+  "signed_moment_endpoints": "PASS all8box corners",
+  "anchor104": "INHERITED fresh exact reconstruction and sequential contraction, sealed prior review",
+  "direct_time_first": "PASS optional window104\u2013208 at beta567/25, not misidentified initial52 seed",
+  "below52": "NOT CLAIMED",
+  "minimum_seed": "NOT CLAIMED",
+  "thermal_inputs": "INHERITED same9certified beta21/2 traces",
+  "transfer": "INHERITED real self-adjoint Hilbert-Schmidt all-integer physical identity",
+  "producer_manifest_sha256": "9c4e7a8b78a88920582cfdea1318c71a1c4557c25213d490277325ab3b78c8c9"
+}

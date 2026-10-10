@@ -1,0 +1,49 @@
+{
+  "status": "PASS independent continuous .085 fixed-center physical and all-integer-size audit",
+  "accepted": true,
+  "producer_manifest_sha256": "cd21cbf09698816bf8cb096fe1680c89dff47ba5a895b1bedc1693ed2bec56dc",
+  "extension_interval": [
+    "2/25",
+    "17/200"
+  ],
+  "extension_all_integer_L_ge2_uniform_gap": "1682875193/500000000000",
+  "combined_coupling_interval": [
+    "0",
+    "17/200"
+  ],
+  "combined_closed_intervals": 49,
+  "combined_all_integer_L_ge2_uniform_gap": "486442811/250000000000",
+  "unique_finite_volume_ground": true,
+  "finite_windows": 100,
+  "required_finite_windows": 84,
+  "short_size_rows": 96,
+  "coupled_ladder_states": 100,
+  "coupled_transitions": 84,
+  "odd_mode_endpoint_certificates": 432,
+  "maximum_augmented_dimensions": [
+    59,
+    125,
+    30
+  ],
+  "largest_numerator_retained_states": 1,
+  "largest_odd_input_used": false,
+  "producer_modules_imported": 0,
+  "eigensolver_calls": 0,
+  "new_sparse_support": false,
+  "new_moments_above_H2": false,
+  "accepted_UTC": "2026-10-10T21:05:00Z",
+  "proof": "REVIEW.md",
+  "reproduction": "REPRODUCE.sh",
+  "adversarial_rejections": 61,
+  "complex_bivariate_fixtures": 60,
+  "physical_normalization_rejections": 12,
+  "all_sources_verified": true,
+  "all_required_tests_passed": true,
+  "resource_cost": {
+    "returncode": 0,
+    "wall_seconds": 42.941306736000115,
+    "peak_child_rss_kib": 33388,
+    "one_cpu_per_child": true,
+    "address_space_cap_bytes": 1073741824
+  }
+}

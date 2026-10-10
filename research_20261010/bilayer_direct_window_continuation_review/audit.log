@@ -1,0 +1,46 @@
+{
+  "status": "PASS_ALL_66_CLOSED_INTERVAL_PATHS",
+  "interval": [
+    "0",
+    "1/10"
+  ],
+  "uniform_gap": "4499695659/1000000000000",
+  "uniform_gap_display": 0.004499695659,
+  "limiting": [
+    {
+      "source": "interval_range_0085/lowband/interval_007.json",
+      "coupling_interval": [
+        "169/2000",
+        "339/4000"
+      ],
+      "gap": "4499695659/1000000000000",
+      "gap_display": 0.004499695659,
+      "terminal_n": 16384,
+      "terminal_beta": "35840",
+      "finite_windows": 11,
+      "methods": {
+        "direct_txy": 11,
+        "inherited_canonical": 0
+      }
+    }
+  ],
+  "finite_windows": 517,
+  "closed_interval_cover": true,
+  "adversarial_rejections": [
+    "wrong_interval",
+    "wrong_beta",
+    "wrong_common_base",
+    "wrong_label",
+    "missing_window",
+    "inflated_direct_endpoint",
+    "inflated_canonical_endpoint",
+    "wrong_terminal",
+    "oversized_gap",
+    "changed_short_bound"
+  ],
+  "seconds": 10.851738059001946,
+  "peak_rss_kib": 27292,
+  "cpu_affinity": [
+    4
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-10-10T21:54:03.792467+00:00",
+  "model": "ordinary periodic spin-1/2 square bilayer",
+  "coupling": "1/10",
+  "all_integer_L_ge2_gap": "1559041531/40000000000",
+  "gap_display": 0.038976038275,
+  "unique_finite_volume_ground": true,
+  "complete_residual_verified": true,
+  "positive_variance_verified": true,
+  "sector_ground_identification_verified": true,
+  "all_trace_tails_unchanged_except_proved_ground_lower": true,
+  "all_finite_windows_and_short_bridges_verified": true,
+  "exact_coupling_polynomials_verified": true,
+  "continuous_coupling_claim": false,
+  "physical_q8_production_enumerated": false,
+  "physical_seal_sha256": "7d6269e8b080301cf7f941f9c3b9fd9e3f1db339ce2587bd078ed3ded96def95",
+  "scalar_seal_sha256": "0c7abb4cee911bb2c42990c0402b00dd7ecf62e0d607775d1f1c69c205424555",
+  "polynomial_seal_sha256": "96027b2dbe17e94c922a3884122ff96c525354a359e143e38328fbd3abbbc3ed",
+  "producer_final_seal_sha256": "3640433572c753deaefb5a7f201c54fab1b9189cea9ce9efcc31ef4c4e1ef489",
+  "producer_root_github_preserved": true,
+  "reproduction": {
+    "exit_code": 0,
+    "seconds": 25.356168824000633,
+    "peak_rss_kib": 179296
+  }
+}

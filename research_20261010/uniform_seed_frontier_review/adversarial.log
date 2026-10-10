@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "polynomial_points_checked": 495,
+  "tests": [
+    "495 closed-support point checks, including zero and repeated/end nodes",
+    "k2 exactly reproduces x\u00b2",
+    "negative middle coefficient requires lower moment endpoint",
+    "majorant fails beyond h: certified support is essential",
+    "multiplication by x\u00b3 handles zero without division",
+    "direct halfstep retains beta22.68 at base104",
+    "canonical windows have no missing integer interval",
+    "using actual lower anchor improves residual ratio; substituting an upper anchor is unsafe"
+  ],
+  "cpu_seconds": 0.010223032999999992,
+  "maxrss_kib": 8960
+}

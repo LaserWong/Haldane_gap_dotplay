@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "model": "ordinary periodic spin-1/2 square bilayer",
+  "coupling_interval": [
+    "0",
+    "1/10"
+  ],
+  "uniform_gap_lower": "4499695659/1000000000000",
+  "uniform_gap_display": 0.004499695659,
+  "all_integer_square_sides_from": 2,
+  "unique_finite_volume_ground": true,
+  "source_intervals": 66,
+  "required_finite_windows": 517,
+  "physical_inputs_inherited_and_hash_matched": true,
+  "closed_real_parameter_coverage": true,
+  "short_integer_sides": [
+    2,
+    7
+  ],
+  "all_terminal_witnesses_checked": true,
+  "limiting": [
+    {
+      "source": "interval_range_0085/lowband/interval_007.json",
+      "coupling_interval": [
+        "169/2000",
+        "339/4000"
+      ],
+      "gap": "4499695659/1000000000000",
+      "gap_display": 0.004499695659,
+      "terminal_n": 16384,
+      "terminal_beta": "35840",
+      "finite_windows": 11,
+      "methods": {
+        "direct_txy": 11,
+        "inherited_canonical": 0
+      }
+    }
+  ],
+  "producer_manifest_sha256": "13878cb1b8456ae34e33c1f5e1f2738755bfd1b65afdef7dd0913cb7de6ab961",
+  "independent_point_review_manifest_sha256": "8e2726b4925b752fed9789dc43b3486229a626e4d7d07b45c1d6b5171d23f8c7",
+  "no_physical_gap_monotonicity_assumption": true,
+  "no_producer_root_or_github_edits": true
+}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "model": "ordinary periodic spin-1/2 square bilayer",
+  "coupling": "1/10",
+  "gap_lower": "55807148827/1000000000000",
+  "gap_display": 0.055807148827,
+  "all_integer_square_sides_from": 2,
+  "unique_finite_volume_ground": true,
+  "analytic_direct_window_lemma": true,
+  "independent_exact_paths": 9,
+  "physical_inputs_inherited_and_hash_matched": true,
+  "initial_beta": "187/20",
+  "asymptotic_onset": 1024,
+  "asymptotic_beta": "11968/5",
+  "finite_windows": [
+    [
+      8,
+      16
+    ],
+    [
+      16,
+      32
+    ],
+    [
+      32,
+      64
+    ],
+    [
+      64,
+      128
+    ],
+    [
+      128,
+      256
+    ],
+    [
+      256,
+      512
+    ],
+    [
+      512,
+      1024
+    ]
+  ],
+  "short_integer_sides": [
+    2,
+    7
+  ],
+  "continuous_coupling_claim": false,
+  "producer_manifest_sha256": "92735c1564f97640afb420b7fb5136e5e26e8390f2428a072faba3f1b0ef0572",
+  "producer_erratum_sha256": "7172d81cfbe5fcad8f868d6f5b7ac49414a08b0da05e34780c981c8246b41a37",
+  "no_producer_root_or_github_edits": true
+}

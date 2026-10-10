@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "model": "ordinary periodic spin-1/2 square bilayer",
+  "extension_interval": [
+    "1/10",
+    "51/500"
+  ],
+  "extension_uniform_gap_lower": "13574634391/1000000000000",
+  "extension_gap_display": 0.013574634391,
+  "combined_interval": [
+    "0",
+    "51/500"
+  ],
+  "combined_uniform_gap_lower": "4499695659/1000000000000",
+  "combined_gap_display": 0.004499695659,
+  "all_integer_square_sides_from": 2,
+  "unique_finite_volume_ground": true,
+  "new_closed_intervals": 8,
+  "combined_closed_intervals": 74,
+  "required_finite_windows": 68,
+  "odd_mode_interval_checks": 384,
+  "physical_endpoint_checks": 16,
+  "interior_bounds": "exact concavity of reference-minus-affine means and convexity of complete variance; affine correlated energy minima",
+  "all_new_short_size_bounds_verified": true,
+  "all_complete_counted_tails_verified": true,
+  "all_basepoints_and_terminal_witnesses_verified": true,
+  "no_physical_gap_monotonicity_assumption": true,
+  "point_review_manifest_sha256": "d101b554ea00c044e148031ec4d073d10f6f757b78a019e5bc6502a67e086d05",
+  "producer_interval_manifest_sha256": "ae11e04adf4aded2a5aebd57bdc3692a0a2c3e6023ed060740bf93e16efa42e6",
+  "prior_uniform_review_manifest_sha256": "c9dadb17430a3523cda109599f3025ff62c7b9ebebacc2b9eb48acce2381e977",
+  "no_producer_root_or_github_edits": true
+}

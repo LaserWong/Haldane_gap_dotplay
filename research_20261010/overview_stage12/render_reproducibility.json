@@ -1,0 +1,163 @@
+{
+  "status": "PASS byte-identical independent re-render",
+  "checked_utc": "2026-10-10T22:46:55.230974+00:00",
+  "files": [
+    {
+      "file": "certified_bounds.png",
+      "sha256": "c879342c925e518807cc562f7d6f439912b330f8e93ad53e3ee25a1bfb32bad5",
+      "byte_identical": true
+    },
+    {
+      "file": "certified_bounds.pdf",
+      "sha256": "dd325f9d1800cd89cd04fb3e95a8285c31407fc921a5cf6d7fe00704f460bd74",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.png",
+      "sha256": "14fe8a9d0e7168a0a55278ab3d3f727a4e8df32f1fa82e5286efd019c1ddc961",
+      "byte_identical": true
+    },
+    {
+      "file": "ordinary_interval_pieces.pdf",
+      "sha256": "d0473e2aa8e3ee2bbe7ea945faba4594f04769ef36cca41fa43a30f33bd0e8df",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.png",
+      "sha256": "a1f5d2c4c1cac9fbc2705f820ad79ff638cccf8b6ebad180ec009fb611b4e7ff",
+      "byte_identical": true
+    },
+    {
+      "file": "trial_space_counts.pdf",
+      "sha256": "6db2a465783a24f97cb19aaeaa7d3c8d40a29331d7d7dde5744237869d6b6f54",
+      "byte_identical": true
+    },
+    {
+      "file": "aklt_reference_scope.png",
+      "sha256": "aadbd9a324d69c3a616e534d0a51fe66808fd1b62d96a5f0e47437b42a3cc2f2",
+      "byte_identical": true
+    },
+    {
+      "file": "aklt_reference_scope.pdf",
+      "sha256": "cb6c35fb3df2ffc9d0f5c7a9fd134efac4ff9704e925a0c897e0f533971aa0be",
+      "byte_identical": true
+    },
+    {
+      "file": "recipe_upper_caps.png",
+      "sha256": "e4118a11ee86c706148c071c97d2747fe9d957af648fe6e9af07a5d784a2a782",
+      "byte_identical": true
+    },
+    {
+      "file": "recipe_upper_caps.pdf",
+      "sha256": "587561803cb838dcea517d9c4b223b3a7647123f65914fcd4efcf2b2480891dc",
+      "byte_identical": true
+    },
+    {
+      "file": "mps_recipe_windows.png",
+      "sha256": "4770bd101f0feba5a88c7b2678ce8a74c328e5991067a74e600dcc0821efc003",
+      "byte_identical": true
+    },
+    {
+      "file": "mps_recipe_windows.pdf",
+      "sha256": "53d470e652487b516aa7fd9a811cab97fe0748f451b7658bb9b742e0e049c98a",
+      "byte_identical": true
+    },
+    {
+      "file": "chain_window_refinement.png",
+      "sha256": "9428873fd7934b1933c1eb469d344db747d1fe2c712deb18cff726fd77673f02",
+      "byte_identical": true
+    },
+    {
+      "file": "chain_window_refinement.pdf",
+      "sha256": "f7d8f6cd17d09e1e0c3f3e91b2243f41ef6dde7a13247839a1ab274f93002a6a",
+      "byte_identical": true
+    },
+    {
+      "file": "accepted_recipe_scope.png",
+      "sha256": "b9616a1beacbc41341f38ef6d5b61636b3661d70f31611e62e7e66a241c5051c",
+      "byte_identical": true
+    },
+    {
+      "file": "accepted_recipe_scope.pdf",
+      "sha256": "afdcc1087bc4521fe9a262d25bf674994f2ad01da1436bbe9ac5bdb623c5e0d0",
+      "byte_identical": true
+    },
+    {
+      "file": "uniform_gap_frontier.png",
+      "sha256": "859917a8d8891cd2da6d5c32885061b8746a44aece35975667fc74f2e6049c68",
+      "byte_identical": true
+    },
+    {
+      "file": "uniform_gap_frontier.pdf",
+      "sha256": "5755a28bc75cc3526cde1c919829d8e9521936e6a63aac48fbbd9cfe20c357b1",
+      "byte_identical": true
+    },
+    {
+      "file": "uniform_theorem_comparison.png",
+      "sha256": "435cc15635ef2b02ffabfed436d0978cb5048bbaa569fed3d3442ece1debcc69",
+      "byte_identical": true
+    },
+    {
+      "file": "uniform_theorem_comparison.pdf",
+      "sha256": "717db27348c3157f452bb94dd0276cf250ab0e15a0d5344b3665bdb38cc62ace",
+      "byte_identical": true
+    },
+    {
+      "file": "bilayer_frontier.png",
+      "sha256": "78df936a89c2e8c62a4eb2d146df97c2332b6931983815c64792e6201972bd91",
+      "byte_identical": true
+    },
+    {
+      "file": "bilayer_frontier.pdf",
+      "sha256": "1832e900b78fa146f047b8763b27c5cefc63b52e9b77ae03fcf9b48ef55e85ee",
+      "byte_identical": true
+    }
+  ],
+  "replay_validation": {
+    "status": "PASS",
+    "claims": 311,
+    "finite_size_certificate_rows": 1,
+    "uniform_large_size_certificate_rows": 4,
+    "dimension_rows": 108,
+    "direct_source_hashes": 314,
+    "review_seals": 44,
+    "sealed_file_hashes_checked": 2846,
+    "combined_review_included": true,
+    "interval_extension_included": true,
+    "cpu_affinity": [
+      8
+    ],
+    "address_space_limit_bytes": 1073741824,
+    "blas_threads": 1,
+    "checks": [
+      "source SHA-256",
+      "complete selected review manifests",
+      "all exact gap JSON pointers",
+      "all decimal floors",
+      "best point selection",
+      "all exact adjacent closed pieces and uniform minimum",
+      "Hilbert dimensions",
+      "numerator rank separated from search and filtered span",
+      "failure gaps remain null",
+      "all 207 chain candidate routes",
+      "all exact interval pieces",
+      "59/139 denominator trial dimensions",
+      "reference67 versus unchanged M8 search",
+      "70 orthogonal MPS states with bond52 and necessary screen only",
+      "g010 diagnostic scope without gap promotion",
+      "separate AKLT projector reference",
+      "all stage11 files and 228 prior certificate rows preserved",
+      "finite-size g025 kept separate",
+      "pair symmetry erratum",
+      "74-integer current and even/direct recipe scopes",
+      "four unique-ground uniform gaps with explicit minima52/54/56/60 including odd lengths",
+      "historical66 pieces preserved; current74-piece interval through .102",
+      "new direct point and fixed-family metadata erratum",
+      "original source n>=4 scope and theorem comparison",
+      "rank195 fixed early-window obstruction and strict decimal direction"
+    ],
+    "matplotlib": "3.10.8",
+    "peak_rss_kib": 149628
+  },
+  "writes": "temporary directory only for replay images; this recorder writes render_reproducibility.json before freeze"
+}

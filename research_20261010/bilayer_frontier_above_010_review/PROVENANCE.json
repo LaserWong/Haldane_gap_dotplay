@@ -1,0 +1,65 @@
+{
+  "GROUND_4x4_MATRIX.json": {
+    "source": "interval_extension_review/inputs/auxiliary/matrix_polynomial_4x4.json",
+    "sha256": "433ccc5da55b16fdb3b52095d63915cce753cbfcffcfed38b472b9ec534bb19f",
+    "review": "interval_extension_review",
+    "manifest_sha256": "1af6c2142aa6a3649fd50275a8582add9cfe0a72ff8f21556195185c495eb956",
+    "manifest_entry": "inputs/auxiliary/matrix_polynomial_4x4.json"
+  },
+  "GROUND_8x4_FIXED.json": {
+    "source": "interval_range_010_review/results/fixed_polynomial_reconstruction.json",
+    "sha256": "c80bbe52951c6bdc179640ace05b5c194fdcaa1c91fc64190b24a536823f4375",
+    "review": "interval_range_010_review",
+    "manifest_sha256": "d6eb3e4ce912086fe66dc1eb2917c3ae7381bc6a527a939b99229b97b863f3e5",
+    "manifest_entry": "results/fixed_polynomial_reconstruction.json"
+  },
+  "NUMERATOR_8x8_MATRIX.json": {
+    "source": "interval_range_010_review/results/inherited009_numerator_operator.json",
+    "sha256": "e03791180b906b482f0582af1d5405d1635baacb3d2c9ef3d90e4baf13b70fe4",
+    "review": "interval_range_010_review",
+    "manifest_sha256": "d6eb3e4ce912086fe66dc1eb2917c3ae7381bc6a527a939b99229b97b863f3e5",
+    "manifest_entry": "results/inherited009_numerator_operator.json"
+  },
+  "ACCEPTED_FIXED_VECTORS.json": {
+    "source": "interval_range_010/coverage/interval_010.json",
+    "sha256": "afad4c8302217d3a8fc3ba5ba5a277ba7f23558c22894efd7a640503e0fefa39",
+    "review": "interval_range_010_review",
+    "manifest_sha256": "d6eb3e4ce912086fe66dc1eb2917c3ae7381bc6a527a939b99229b97b863f3e5",
+    "manifest_entry": "snapshot/coverage/interval_010.json"
+  },
+  "ODD_STRUCTURAL_POLYNOMIALS.json": {
+    "source": "interval_range_0085_review/results/odd_polynomial_reconstruction.json",
+    "sha256": "38bc8eecfa927ed9bb3d480ffeeffa66c735d0e769d42cc9147a1f797a043f96",
+    "review": "interval_range_0085_review",
+    "manifest_sha256": "c14cdb65f0e1b92a6025758e63352e404eef01965f7dde2344a2eaaf86c5a0b9",
+    "manifest_entry": "results/odd_polynomial_reconstruction.json"
+  },
+  "ODD_LITERAL_IDENTITY.json": {
+    "source": "interval_range_0085_review/results/literal_definition.json",
+    "sha256": "11ca33d16e8fe12d664e9b4e3c6c5519da2c98371437ac92cb1a9216b05c81f5",
+    "review": "interval_range_0085_review",
+    "manifest_sha256": "c14cdb65f0e1b92a6025758e63352e404eef01965f7dde2344a2eaaf86c5a0b9",
+    "manifest_entry": "results/literal_definition.json"
+  },
+  "ACCEPTED_ODD_AUDIT.py": {
+    "source": "interval_range_0085_review/audit.py",
+    "sha256": "96a16f997083da915bd38f3ae5c13ed86785bb8cf0f5038716b983290e1ce98f",
+    "review": "interval_range_0085_review",
+    "manifest_sha256": "c14cdb65f0e1b92a6025758e63352e404eef01965f7dde2344a2eaaf86c5a0b9",
+    "manifest_entry": "audit.py"
+  },
+  "ACCEPTED_SCALAR_AUDIT.py": {
+    "source": "bilayer_direct_window_continuation_review/audit.py",
+    "sha256": "1f41bc1348be88dd5159e2756e61ec2ce686cb6b335e573968132d4bfa00418a",
+    "review": "bilayer_direct_window_continuation_review",
+    "manifest_sha256": "c9dadb17430a3523cda109599f3025ff62c7b9ebebacc2b9eb48acce2381e977",
+    "manifest_entry": "audit.py"
+  },
+  "INDEPENDENT_POINT_MATH.py": {
+    "source": "bilayer_direct_window_review/audit.py",
+    "sha256": "340239cd6fea56db975b9a6acb3c2c75197f2f684f9a08c3e1506de055596ff5",
+    "review": "bilayer_direct_window_review",
+    "manifest_sha256": "8e2726b4925b752fed9789dc43b3486229a626e4d7d07b45c1d6b5171d23f8c7",
+    "manifest_entry": "audit.py"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS independent joint-aware continuous interval and all-integer-size review",
+  "accepted": true,
+  "extension_interval": [
+    "39/500",
+    "2/25"
+  ],
+  "extension_all_integer_L_ge2_uniform_gap": "4107651847/500000000000",
+  "combined_coupling_interval": [
+    "0",
+    "2/25"
+  ],
+  "combined_closed_intervals": 33,
+  "combined_all_integer_L_ge2_uniform_gap": "486442811/250000000000",
+  "unique_finite_volume_ground": true,
+  "accepted_UTC": "2026-10-10T19:23:07Z",
+  "source_gate_file": "ACCEPTANCE_GATES.json",
+  "proof": "REVIEW.md",
+  "reproduction": "REPRODUCE.sh",
+  "new_scalar_lemma_accepted": true,
+  "producer_frozen": true,
+  "all_intermediate_integer_size_windows_checked": true,
+  "odd_band_trial_inputs": false
+}

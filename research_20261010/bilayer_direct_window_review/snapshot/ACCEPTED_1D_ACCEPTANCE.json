@@ -1,0 +1,47 @@
+{
+  "status": "ACCEPTED_INDEPENDENT_ANALYTIC_AND_EXACT_SCALAR_REVIEW",
+  "updated_utc": "2026-10-10T22:13:51Z",
+  "updated_America_New_York": "2026-10-10T18:13:51-04:00",
+  "all_integer_M_ge_2": [
+    {
+      "g": "21/100",
+      "gap": "26856243/250000000",
+      "onset": 128,
+      "windows": 5,
+      "status": "PASS"
+    },
+    {
+      "g": "11/50",
+      "gap": "71581253/1000000000",
+      "onset": 128,
+      "windows": 5,
+      "status": "PASS"
+    },
+    {
+      "g": "9/40",
+      "gap": "20723/400000",
+      "onset": 256,
+      "windows": 6,
+      "status": "PASS"
+    }
+  ],
+  "g025": {
+    "status": "FINITE_M2_THROUGH_M16_ONLY",
+    "gap": "1/100",
+    "beta": "1884/125",
+    "next_argument": 0.3870258342574809,
+    "next_b": -0.25422206217257126
+  },
+  "physical_inputs": "Inherited, matching independently reviewed frozen manifests; no new physical recomputation",
+  "clean_replay": "PASS",
+  "adversarial_rejections": 12,
+  "toy_tests": {
+    "checks": 9282,
+    "signed_checks": 7655,
+    "negative_dominant_counterexample": "[-10,1] has negative odd traces"
+  },
+  "no_time_space_relabeling": true,
+  "no_physical_purity_monotonicity": true,
+  "producer_original_manifest_sha256": "605f410b7d503c4a819b9ff46088442d00df6d25170dded22f234087b56c1da5",
+  "producer_prose_erratum": "PRODUCER_PROSE_ERRATUM.json"
+}

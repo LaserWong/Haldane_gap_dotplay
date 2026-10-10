@@ -1,0 +1,1104 @@
+{
+  "status": "PASS_ALL_66_CLOSED_INTERVAL_PATHS",
+  "interval": [
+    "0",
+    "1/10"
+  ],
+  "uniform_gap": "4499695659/1000000000000",
+  "uniform_gap_display": 0.004499695659,
+  "limiting": [
+    {
+      "source": "interval_range_0085/lowband/interval_007.json",
+      "coupling_interval": [
+        "169/2000",
+        "339/4000"
+      ],
+      "gap": "4499695659/1000000000000",
+      "gap_display": 0.004499695659,
+      "terminal_n": 16384,
+      "terminal_beta": "35840",
+      "finite_windows": 11,
+      "methods": {
+        "direct_txy": 11,
+        "inherited_canonical": 0
+      }
+    }
+  ],
+  "results": [
+    {
+      "source": "ordinary_interval/coverage/interval_001.json",
+      "coupling_interval": [
+        "0",
+        "1/200"
+      ],
+      "gap": "6705133083/25000000000",
+      "gap_display": 0.26820532332,
+      "terminal_n": 256,
+      "terminal_beta": "3168/5",
+      "finite_windows": 5,
+      "methods": {
+        "direct_txy": 5,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_002.json",
+      "coupling_interval": [
+        "1/200",
+        "1/100"
+      ],
+      "gap": "131974432339/500000000000",
+      "gap_display": 0.263948864678,
+      "terminal_n": 256,
+      "terminal_beta": "640",
+      "finite_windows": 5,
+      "methods": {
+        "direct_txy": 5,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_003.json",
+      "coupling_interval": [
+        "1/100",
+        "3/200"
+      ],
+      "gap": "259975954789/1000000000000",
+      "gap_display": 0.259975954789,
+      "terminal_n": 256,
+      "terminal_beta": "3248/5",
+      "finite_windows": 5,
+      "methods": {
+        "direct_txy": 5,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_004.json",
+      "coupling_interval": [
+        "3/200",
+        "1/50"
+      ],
+      "gap": "127567604239/500000000000",
+      "gap_display": 0.255135208478,
+      "terminal_n": 256,
+      "terminal_beta": "656",
+      "finite_windows": 5,
+      "methods": {
+        "direct_txy": 5,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_005.json",
+      "coupling_interval": [
+        "1/50",
+        "1/40"
+      ],
+      "gap": "249770377239/1000000000000",
+      "gap_display": 0.249770377239,
+      "terminal_n": 256,
+      "terminal_beta": "3344/5",
+      "finite_windows": 5,
+      "methods": {
+        "direct_txy": 5,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_006.json",
+      "coupling_interval": [
+        "1/40",
+        "3/100"
+      ],
+      "gap": "242150950529/1000000000000",
+      "gap_display": 0.242150950529,
+      "terminal_n": 256,
+      "terminal_beta": "3408/5",
+      "finite_windows": 5,
+      "methods": {
+        "direct_txy": 5,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_007.json",
+      "coupling_interval": [
+        "3/100",
+        "7/200"
+      ],
+      "gap": "23039464369/100000000000",
+      "gap_display": 0.23039464369,
+      "terminal_n": 256,
+      "terminal_beta": "3488/5",
+      "finite_windows": 5,
+      "methods": {
+        "direct_txy": 5,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_008.json",
+      "coupling_interval": [
+        "7/200",
+        "1/25"
+      ],
+      "gap": "208037698699/1000000000000",
+      "gap_display": 0.208037698699,
+      "terminal_n": 256,
+      "terminal_beta": "3648/5",
+      "finite_windows": 5,
+      "methods": {
+        "direct_txy": 5,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_009.json",
+      "coupling_interval": [
+        "1/25",
+        "9/200"
+      ],
+      "gap": "191105228947/1000000000000",
+      "gap_display": 0.191105228947,
+      "terminal_n": 256,
+      "terminal_beta": "3648/5",
+      "finite_windows": 5,
+      "methods": {
+        "direct_txy": 5,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_010.json",
+      "coupling_interval": [
+        "9/200",
+        "1/20"
+      ],
+      "gap": "170305481917/1000000000000",
+      "gap_display": 0.170305481917,
+      "terminal_n": 512,
+      "terminal_beta": "7296/5",
+      "finite_windows": 6,
+      "methods": {
+        "direct_txy": 6,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_011.json",
+      "coupling_interval": [
+        "1/20",
+        "11/200"
+      ],
+      "gap": "143296711663/1000000000000",
+      "gap_display": 0.143296711663,
+      "terminal_n": 512,
+      "terminal_beta": "7264/5",
+      "finite_windows": 6,
+      "methods": {
+        "direct_txy": 6,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_012.json",
+      "coupling_interval": [
+        "11/200",
+        "3/50"
+      ],
+      "gap": "563047547/5000000000",
+      "gap_display": 0.1126095094,
+      "terminal_n": 512,
+      "terminal_beta": "1440",
+      "finite_windows": 6,
+      "methods": {
+        "direct_txy": 6,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_013.json",
+      "coupling_interval": [
+        "3/50",
+        "13/200"
+      ],
+      "gap": "77256890431/1000000000000",
+      "gap_display": 0.077256890431,
+      "terminal_n": 1024,
+      "terminal_beta": "2880",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_014.json",
+      "coupling_interval": [
+        "13/200",
+        "27/400"
+      ],
+      "gap": "68573596163/1000000000000",
+      "gap_display": 0.068573596163,
+      "terminal_n": 1024,
+      "terminal_beta": "14464/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_015.json",
+      "coupling_interval": [
+        "27/400",
+        "11/160"
+      ],
+      "gap": "3897607553/62500000000",
+      "gap_display": 0.062361720848,
+      "terminal_n": 1024,
+      "terminal_beta": "14144/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "ordinary_interval/coverage/interval_016.json",
+      "coupling_interval": [
+        "11/160",
+        "7/100"
+      ],
+      "gap": "23381217559/500000000000",
+      "gap_display": 0.046762435118,
+      "terminal_n": 2048,
+      "terminal_beta": "29056/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_001.json",
+      "coupling_interval": [
+        "7/100",
+        "71/1000"
+      ],
+      "gap": "83065811847/1000000000000",
+      "gap_display": 0.083065811847,
+      "terminal_n": 1024,
+      "terminal_beta": "13824/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_002.json",
+      "coupling_interval": [
+        "71/1000",
+        "9/125"
+      ],
+      "gap": "62696887647/1000000000000",
+      "gap_display": 0.062696887647,
+      "terminal_n": 1024,
+      "terminal_beta": "14528/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_003.json",
+      "coupling_interval": [
+        "9/125",
+        "73/1000"
+      ],
+      "gap": "6077523189/125000000000",
+      "gap_display": 0.048620185512,
+      "terminal_n": 1024,
+      "terminal_beta": "14592/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_004.json",
+      "coupling_interval": [
+        "73/1000",
+        "147/2000"
+      ],
+      "gap": "2429434159/40000000000",
+      "gap_display": 0.060735853975,
+      "terminal_n": 1024,
+      "terminal_beta": "14656/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_005.json",
+      "coupling_interval": [
+        "147/2000",
+        "37/500"
+      ],
+      "gap": "54446837317/1000000000000",
+      "gap_display": 0.054446837317,
+      "terminal_n": 1024,
+      "terminal_beta": "14656/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_006.json",
+      "coupling_interval": [
+        "37/500",
+        "149/2000"
+      ],
+      "gap": "11989228339/250000000000",
+      "gap_display": 0.047956913356,
+      "terminal_n": 1024,
+      "terminal_beta": "14656/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_007.json",
+      "coupling_interval": [
+        "149/2000",
+        "299/4000"
+      ],
+      "gap": "43680903/781250000",
+      "gap_display": 0.05591155584,
+      "terminal_n": 1024,
+      "terminal_beta": "2944",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_008.json",
+      "coupling_interval": [
+        "299/4000",
+        "3/40"
+      ],
+      "gap": "52733928813/1000000000000",
+      "gap_display": 0.052733928813,
+      "terminal_n": 1024,
+      "terminal_beta": "2944",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_009.json",
+      "coupling_interval": [
+        "3/40",
+        "19/250"
+      ],
+      "gap": "24254526407/500000000000",
+      "gap_display": 0.048509052814,
+      "terminal_n": 1024,
+      "terminal_beta": "14784/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_010.json",
+      "coupling_interval": [
+        "19/250",
+        "153/2000"
+      ],
+      "gap": "50975996969/1000000000000",
+      "gap_display": 0.050975996969,
+      "terminal_n": 1024,
+      "terminal_beta": "14784/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_011.json",
+      "coupling_interval": [
+        "153/2000",
+        "77/1000"
+      ],
+      "gap": "23640941919/500000000000",
+      "gap_display": 0.047281883838,
+      "terminal_n": 1024,
+      "terminal_beta": "14784/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_012.json",
+      "coupling_interval": [
+        "77/1000",
+        "31/400"
+      ],
+      "gap": "2735951259/62500000000",
+      "gap_display": 0.043775220144,
+      "terminal_n": 2048,
+      "terminal_beta": "29568/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_013.json",
+      "coupling_interval": [
+        "31/400",
+        "311/4000"
+      ],
+      "gap": "9122392413/200000000000",
+      "gap_display": 0.045611962065,
+      "terminal_n": 2048,
+      "terminal_beta": "29696/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_014.json",
+      "coupling_interval": [
+        "311/4000",
+        "623/8000"
+      ],
+      "gap": "5845847143/125000000000",
+      "gap_display": 0.046766777144,
+      "terminal_n": 1024,
+      "terminal_beta": "14848/5",
+      "finite_windows": 7,
+      "methods": {
+        "direct_txy": 7,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_extension/coverage/interval_015.json",
+      "coupling_interval": [
+        "623/8000",
+        "39/500"
+      ],
+      "gap": "45939600493/1000000000000",
+      "gap_display": 0.045939600493,
+      "terminal_n": 2048,
+      "terminal_beta": "29696/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_joint_extension/coverage/interval_001.json",
+      "coupling_interval": [
+        "39/500",
+        "79/1000"
+      ],
+      "gap": "2795096761/100000000000",
+      "gap_display": 0.02795096761,
+      "terminal_n": 2048,
+      "terminal_beta": "26368/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_joint_extension/coverage/interval_002.json",
+      "coupling_interval": [
+        "79/1000",
+        "2/25"
+      ],
+      "gap": "3001736067/250000000000",
+      "gap_display": 0.012006944268,
+      "terminal_n": 8192,
+      "terminal_beta": "105984/5",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/ground_only/interval_001.json",
+      "coupling_interval": [
+        "2/25",
+        "161/2000"
+      ],
+      "gap": "2512660703/125000000000",
+      "gap_display": 0.020101285624,
+      "terminal_n": 4096,
+      "terminal_beta": "53248/5",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/ground_only/interval_002.json",
+      "coupling_interval": [
+        "161/2000",
+        "81/1000"
+      ],
+      "gap": "5799508793/500000000000",
+      "gap_display": 0.011599017586,
+      "terminal_n": 8192,
+      "terminal_beta": "107008/5",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/ground_only/interval_003.json",
+      "coupling_interval": [
+        "81/1000",
+        "13/160"
+      ],
+      "gap": "15874705701/1000000000000",
+      "gap_display": 0.015874705701,
+      "terminal_n": 4096,
+      "terminal_beta": "51712/5",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/ground_only/interval_004.json",
+      "coupling_interval": [
+        "13/160",
+        "163/2000"
+      ],
+      "gap": "13589232139/1000000000000",
+      "gap_display": 0.013589232139,
+      "terminal_n": 4096,
+      "terminal_beta": "53504/5",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/ground_only/interval_005.json",
+      "coupling_interval": [
+        "163/2000",
+        "327/4000"
+      ],
+      "gap": "315736179/40000000000",
+      "gap_display": 0.007893404475,
+      "terminal_n": 8192,
+      "terminal_beta": "20992",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/ground_only/interval_006.json",
+      "coupling_interval": [
+        "327/4000",
+        "131/1600"
+      ],
+      "gap": "12944725343/1000000000000",
+      "gap_display": 0.012944725343,
+      "terminal_n": 4096,
+      "terminal_beta": "10752",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/ground_only/interval_007.json",
+      "coupling_interval": [
+        "131/1600",
+        "41/500"
+      ],
+      "gap": "10728730917/1000000000000",
+      "gap_display": 0.010728730917,
+      "terminal_n": 8192,
+      "terminal_beta": "21504",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/lowband/interval_001.json",
+      "coupling_interval": [
+        "41/500",
+        "33/400"
+      ],
+      "gap": "3061310307/100000000000",
+      "gap_display": 0.03061310307,
+      "terminal_n": 2048,
+      "terminal_beta": "22528/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/lowband/interval_002.json",
+      "coupling_interval": [
+        "33/400",
+        "83/1000"
+      ],
+      "gap": "24246812947/1000000000000",
+      "gap_display": 0.024246812947,
+      "terminal_n": 4096,
+      "terminal_beta": "45056/5",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/lowband/interval_003.json",
+      "coupling_interval": [
+        "83/1000",
+        "167/2000"
+      ],
+      "gap": "16818463259/1000000000000",
+      "gap_display": 0.016818463259,
+      "terminal_n": 4096,
+      "terminal_beta": "45056/5",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/lowband/interval_004.json",
+      "coupling_interval": [
+        "167/2000",
+        "21/250"
+      ],
+      "gap": "7906408149/1000000000000",
+      "gap_display": 0.007906408149,
+      "terminal_n": 8192,
+      "terminal_beta": "90624/5",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/lowband/interval_005.json",
+      "coupling_interval": [
+        "21/250",
+        "337/4000"
+      ],
+      "gap": "3744292087/250000000000",
+      "gap_display": 0.014977168348,
+      "terminal_n": 8192,
+      "terminal_beta": "90624/5",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/lowband/interval_006.json",
+      "coupling_interval": [
+        "337/4000",
+        "169/2000"
+      ],
+      "gap": "1845332609/200000000000",
+      "gap_display": 0.009226663045,
+      "terminal_n": 8192,
+      "terminal_beta": "88576/5",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/lowband/interval_007.json",
+      "coupling_interval": [
+        "169/2000",
+        "339/4000"
+      ],
+      "gap": "4499695659/1000000000000",
+      "gap_display": 0.004499695659,
+      "terminal_n": 16384,
+      "terminal_beta": "35840",
+      "finite_windows": 11,
+      "methods": {
+        "direct_txy": 11,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/lowband/interval_008.json",
+      "coupling_interval": [
+        "339/4000",
+        "679/8000"
+      ],
+      "gap": "9152916667/1000000000000",
+      "gap_display": 0.009152916667,
+      "terminal_n": 8192,
+      "terminal_beta": "90624/5",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_0085/lowband/interval_009.json",
+      "coupling_interval": [
+        "679/8000",
+        "17/200"
+      ],
+      "gap": "1279329329/200000000000",
+      "gap_display": 0.006396646645,
+      "terminal_n": 16384,
+      "terminal_beta": "181248/5",
+      "finite_windows": 11,
+      "methods": {
+        "direct_txy": 11,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_009/coverage/interval_001.json",
+      "coupling_interval": [
+        "17/200",
+        "43/500"
+      ],
+      "gap": "6479583171/200000000000",
+      "gap_display": 0.032397915855,
+      "terminal_n": 2048,
+      "terminal_beta": "22528/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_009/coverage/interval_002.json",
+      "coupling_interval": [
+        "43/500",
+        "87/1000"
+      ],
+      "gap": "9411010437/500000000000",
+      "gap_display": 0.018822020874,
+      "terminal_n": 4096,
+      "terminal_beta": "8704",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_009/coverage/interval_003.json",
+      "coupling_interval": [
+        "87/1000",
+        "11/125"
+      ],
+      "gap": "3990658079/500000000000",
+      "gap_display": 0.007981316158,
+      "terminal_n": 8192,
+      "terminal_beta": "90624/5",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_009/coverage/interval_004.json",
+      "coupling_interval": [
+        "11/125",
+        "177/2000"
+      ],
+      "gap": "14533770763/500000000000",
+      "gap_display": 0.029067541526,
+      "terminal_n": 4096,
+      "terminal_beta": "45312/5",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_009/coverage/interval_005.json",
+      "coupling_interval": [
+        "177/2000",
+        "89/1000"
+      ],
+      "gap": "463318241/20000000000",
+      "gap_display": 0.02316591205,
+      "terminal_n": 4096,
+      "terminal_beta": "45312/5",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_009/coverage/interval_006.json",
+      "coupling_interval": [
+        "89/1000",
+        "179/2000"
+      ],
+      "gap": "832781801/50000000000",
+      "gap_display": 0.01665563602,
+      "terminal_n": 4096,
+      "terminal_beta": "45312/5",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_009/coverage/interval_007.json",
+      "coupling_interval": [
+        "179/2000",
+        "9/100"
+      ],
+      "gap": "4542437683/500000000000",
+      "gap_display": 0.009084875366,
+      "terminal_n": 8192,
+      "terminal_beta": "91136/5",
+      "finite_windows": 10,
+      "methods": {
+        "direct_txy": 10,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_001.json",
+      "coupling_interval": [
+        "9/100",
+        "91/1000"
+      ],
+      "gap": "4456179057/250000000000",
+      "gap_display": 0.017824716228,
+      "terminal_n": 4096,
+      "terminal_beta": "44032/5",
+      "finite_windows": 9,
+      "methods": {
+        "direct_txy": 9,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_002.json",
+      "coupling_interval": [
+        "91/1000",
+        "23/250"
+      ],
+      "gap": "14994531891/500000000000",
+      "gap_display": 0.029989063782,
+      "terminal_n": 2048,
+      "terminal_beta": "4608",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_003.json",
+      "coupling_interval": [
+        "23/250",
+        "93/1000"
+      ],
+      "gap": "18190085721/500000000000",
+      "gap_display": 0.036380171442,
+      "terminal_n": 2048,
+      "terminal_beta": "22528/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_004.json",
+      "coupling_interval": [
+        "93/1000",
+        "47/500"
+      ],
+      "gap": "37088569571/1000000000000",
+      "gap_display": 0.037088569571,
+      "terminal_n": 2048,
+      "terminal_beta": "22016/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_005.json",
+      "coupling_interval": [
+        "47/500",
+        "19/200"
+      ],
+      "gap": "11821782269/250000000000",
+      "gap_display": 0.047287129076,
+      "terminal_n": 2048,
+      "terminal_beta": "23552/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_006.json",
+      "coupling_interval": [
+        "19/200",
+        "12/125"
+      ],
+      "gap": "12482852691/250000000000",
+      "gap_display": 0.049931410764,
+      "terminal_n": 2048,
+      "terminal_beta": "4736",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_007.json",
+      "coupling_interval": [
+        "12/125",
+        "97/1000"
+      ],
+      "gap": "2546056091/50000000000",
+      "gap_display": 0.05092112182,
+      "terminal_n": 2048,
+      "terminal_beta": "23808/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_008.json",
+      "coupling_interval": [
+        "97/1000",
+        "49/500"
+      ],
+      "gap": "50277617413/1000000000000",
+      "gap_display": 0.050277617413,
+      "terminal_n": 2048,
+      "terminal_beta": "23936/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_009.json",
+      "coupling_interval": [
+        "49/500",
+        "99/1000"
+      ],
+      "gap": "3004320093/62500000000",
+      "gap_display": 0.048069121488,
+      "terminal_n": 2048,
+      "terminal_beta": "24064/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    },
+    {
+      "source": "interval_range_010/coverage/interval_010.json",
+      "coupling_interval": [
+        "99/1000",
+        "1/10"
+      ],
+      "gap": "18369425247/500000000000",
+      "gap_display": 0.036738850494,
+      "terminal_n": 2048,
+      "terminal_beta": "22528/5",
+      "finite_windows": 8,
+      "methods": {
+        "direct_txy": 8,
+        "inherited_canonical": 0
+      }
+    }
+  ],
+  "finite_windows": 517,
+  "closed_interval_cover": true,
+  "adversarial_rejections": [
+    "wrong_interval",
+    "wrong_beta",
+    "wrong_common_base",
+    "wrong_label",
+    "missing_window",
+    "inflated_direct_endpoint",
+    "inflated_canonical_endpoint",
+    "wrong_terminal",
+    "oversized_gap",
+    "changed_short_bound"
+  ],
+  "seconds": 8.430371144000674,
+  "peak_rss_kib": 27036,
+  "cpu_affinity": [
+    4
+  ]
+}

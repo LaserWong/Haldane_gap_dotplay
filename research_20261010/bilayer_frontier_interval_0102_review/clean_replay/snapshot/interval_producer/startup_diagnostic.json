@@ -1,0 +1,134 @@
+{
+  "status": "bounded_float_diagnostic_not_all_temperature_exclusion",
+  "grid": "beta5..20 step.05; max12 joint-coupled cycles",
+  "results": [
+    {
+      "g": "41/400",
+      "counts": {
+        "positive_first_cycle": 251,
+        "accepted_small_defect": 0,
+        "direct_initial_above_half": 121
+      },
+      "best": {
+        "beta": "199/20",
+        "minimum_canonical_defect": 0.14752025007144032,
+        "states": [
+          {
+            "cycle": 0,
+            "n": 8,
+            "beta": 19.9,
+            "canonical": [
+              0.9749732108795212,
+              0.9232982995373488,
+              0.8524797499285597
+            ],
+            "raw": [
+              0.9888615541948869,
+              0.9721076951747439,
+              0.9434379460158117
+            ],
+            "joint": 0.8524797499285597,
+            "u": 0.14752025007144032,
+            "canonical_update_arguments": [
+              0.8524797499285597,
+              0.7158406119476894,
+              0.4720545028045108
+            ]
+          },
+          {
+            "cycle": 1,
+            "n": 16,
+            "beta": 39.8,
+            "canonical": [
+              0.9850271269859585,
+              0.9212117680776071,
+              0.8162708370686429
+            ],
+            "raw": [
+              0.9850271269859585,
+              0.9615729911894715,
+              0.9377282608018084
+            ],
+            "joint": 0.8162708370686428,
+            "u": 0.1837291629313571,
+            "canonical_update_arguments": [
+              0.8162708370686428,
+              0.6494198767930142,
+              0.36029296497994123
+            ]
+          },
+          {
+            "cycle": 2,
+            "n": 32,
+            "beta": 79.6,
+            "canonical": [
+              0.9416887900196457,
+              0.8389001730727863,
+              0.7037535003815508
+            ],
+            "raw": [
+              0.9746686908212423,
+              0.9334708705821864,
+              0.8949339130838383
+            ],
+            "joint": 0.7037535003815508,
+            "u": 0.2962464996184492,
+            "canonical_update_arguments": [
+              0.7037535003815508,
+              0.45138799503119353,
+              0.05326355606033394
+            ]
+          }
+        ],
+        "status": "all_comparison_paths_left_domain",
+        "initial_direct_purity": 0.7502029884954904
+      }
+    },
+    {
+      "g": "21/200",
+      "counts": {
+        "positive_first_cycle": 162,
+        "accepted_small_defect": 0,
+        "direct_initial_above_half": 0
+      },
+      "best": {
+        "beta": "191/20",
+        "minimum_canonical_defect": 0.3416101552305757,
+        "states": [
+          {
+            "cycle": 0,
+            "n": 8,
+            "beta": 19.1,
+            "canonical": [
+              0.9473624771248298,
+              0.8114122532778417,
+              0.6583898447694243
+            ],
+            "raw": [
+              0.9767307451979648,
+              0.9407682275689865,
+              0.8173694590349556
+            ],
+            "joint": 0.6583898447694243,
+            "u": 0.3416101552305757,
+            "canonical_update_arguments": [
+              0.6583898447694243,
+              0.37512843861717765
+            ]
+          }
+        ],
+        "status": "all_comparison_paths_left_domain",
+        "initial_direct_purity": 0.4086755555599072
+      }
+    },
+    {
+      "g": "11/100",
+      "counts": {
+        "positive_first_cycle": 0,
+        "accepted_small_defect": 0,
+        "direct_initial_above_half": 0
+      },
+      "best": null
+    }
+  ]
+}

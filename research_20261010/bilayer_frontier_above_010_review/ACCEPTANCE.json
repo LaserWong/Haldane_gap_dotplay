@@ -1,0 +1,62 @@
+{
+  "status": "PASS_WITH_EXPLICIT_POINT_METADATA_ERRATUM",
+  "model": "ordinary periodic spin-1/2 square bilayer",
+  "points": [
+    {
+      "g": "1001/10000",
+      "gap_lower": "6812464003/125000000000",
+      "gap_display": 0.054499712024,
+      "onset": 2048
+    },
+    {
+      "g": "201/2000",
+      "gap_lower": "49244008353/1000000000000",
+      "gap_display": 0.049244008353,
+      "onset": 2048
+    },
+    {
+      "g": "101/1000",
+      "gap_lower": "20458548381/500000000000",
+      "gap_display": 0.040917096762,
+      "onset": 2048
+    },
+    {
+      "g": "203/2000",
+      "gap_lower": "7299991311/250000000000",
+      "gap_display": 0.029199965244,
+      "onset": 4096
+    },
+    {
+      "g": "51/500",
+      "gap_lower": "8254966001/500000000000",
+      "gap_display": 0.016509932002,
+      "onset": 4096
+    }
+  ],
+  "all_integer_square_sides_from": 2,
+  "unique_finite_volume_ground": true,
+  "physical_polynomial_identities_inherited_and_hash_matched": true,
+  "new_coupling_physical_cutoffs_recomputed": true,
+  "fixed_odd_family_z": "1/10",
+  "full_odd_mode_checks": 240,
+  "complete_thermal_tails_checked": true,
+  "new_coupling_short_size_bounds_checked": true,
+  "legal_domain": {
+    "status": "PASS",
+    "legal_closed_domain": [
+      "1/10",
+      "129259642269/1073741824000"
+    ],
+    "short_L7_zero_bracket": [
+      "129259642269/1073741824000",
+      "64629821209/536870912000"
+    ],
+    "all_cutoff_brackets": 9,
+    "positive_endpoint_margins": true,
+    "whole_domain_reason": "reference minus affine means is concave; fixed-family variance is convex and PSD; short_L7 is strictly decreasing"
+  },
+  "continuous_gap_interval_claim": false,
+  "point_producer_manifest_sha256": "0a2986e6c996e58a6d157bcc0e4bd876d499104a5edbfe38fd56d957bccc6767",
+  "metadata_erratum_sha256": "8858510923b025e673327583bbdf469e1d82195c5dd7d79b7012caa52904a489",
+  "no_producer_root_or_github_edits": true
+}

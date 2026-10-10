@@ -1,0 +1,68 @@
+{
+  "status": "PASS independent auxiliary/filter continuous extension and all-integer-size review",
+  "extension_interval": [
+    "7/100",
+    "39/500"
+  ],
+  "extension_closed_intervals": 15,
+  "extension_all_integer_L_ge2_uniform_gap": "2006633957/1000000000000",
+  "extension_gap_display": 0.002006633957,
+  "combined_coupling_interval": [
+    "0",
+    "39/500"
+  ],
+  "combined_closed_intervals": 31,
+  "combined_all_integer_L_ge2_uniform_gap": "486442811/250000000000",
+  "combined_uniform_gap_display": 0.001945771244,
+  "unique_finite_volume_ground": true,
+  "base_trial_dimensions": [
+    11,
+    29,
+    29
+  ],
+  "augmented_dimension_upper": [
+    11,
+    29,
+    30
+  ],
+  "largest_filtered_max_triplets": 6,
+  "denominator_retained_states": [
+    1,
+    1
+  ],
+  "largest_trace_rank": 1,
+  "largest_full_dimension": "340282366920938463463374607431768211456",
+  "largest_physical_spins": 128,
+  "largest_second_moment_required": true,
+  "new_higher_moments": false,
+  "producer_modules_imported": 0,
+  "eigensolver_calls": 0,
+  "verified_snapshot_inputs": 105,
+  "runtime_seconds": 13.104622232996917,
+  "peak_rss_kib": 26052,
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_cap_bytes": 1073741824,
+  "blas_threads": 1,
+  "generated_utc": "2026-10-10T19:17:41.725367+00:00",
+  "model": "Ordinary spin-1/2 square bilayer, rung coupling 1, equal straight intralayer g, no crossed bonds",
+  "boundary": "Periodic positive-direction weighted bonds; multiplicities retained at length two",
+  "size_scope": "Every integer square side L>=2",
+  "producer_manifest_sha256": "3b1f4f32cea6b844fffe2f56ef23a13b437fcf9cf3f2a1f24c44b4afe0bdc8a0",
+  "producer_frozen_files": 28,
+  "prior_reviews_verified": 7,
+  "prior_review_files_verified": 656,
+  "physical_source_points_rechecked": 21,
+  "auxiliary_witness_exports_rechecked": 21,
+  "finite_windows_replayed": 81,
+  "short_size_rows_replayed": 90,
+  "complete_three_direction_rounds_replayed": 66,
+  "largest_asymptotic_onset": 1024,
+  "corruption_tests_rejected": 21,
+  "filter_edgecases_passed": 4,
+  "new_excited_trial_family": false,
+  "minimum_ground_identification_margin": "2442144058590138117283833378211177023300830014710555306885233192493683681652011974078661/3032348158305273325688995987000000000000000000000000000000000000000000000000000000000000",
+  "minimum_even_Temple_denominator": "2478674224246441538225762103666056858700446930997991319092048642111983520889544909119279/1516174079152636662844497993500000000000000000000000000000000000000000000000000000000000",
+  "output_scope": "Local review only; no remote publication"
+}
