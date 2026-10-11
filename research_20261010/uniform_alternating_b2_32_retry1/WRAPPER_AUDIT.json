@@ -1,0 +1,36 @@
+{
+  "status": "STRUCTURED_CONSTANTS_AND_UNCHANGED_KERNEL_VERIFIED",
+  "shared_kernel_sha256": "afaf61d76e1de0dceae377b0c61923bf3d2facf11f85a3915888a19707ad5214",
+  "shared_included_path": "../uniform_alternating_b2_fixture/fixture.cpp",
+  "all_matrix_and_signed_convolution_helpers_changed": false,
+  "length": 32,
+  "convolution_power": 29,
+  "next_power": 30,
+  "normalizing_b_squared": 2304,
+  "child_cpu_cap": 25,
+  "block_sides": [
+    1,
+    8,
+    32,
+    80,
+    136,
+    162,
+    136,
+    80,
+    32,
+    8,
+    1
+  ],
+  "changed_wrapper_elements": [
+    "Structured LENGTH and CONVOLUTION_POWER instead of raw literal substitution",
+    "CHILD_CPU_CAP25 under remaining budget",
+    "Dynamic N/H input/output labels use LENGTH",
+    "Unchanged norm=Tr(T^(L-2) T\u00b2), energy=L Tr(T^(L-2) O), B\u00b2=L(same-adj+disj)",
+    "Checkpoint bit field names are length-neutral",
+    "Fixed original block array162 preserved verbatim"
+  ],
+  "failed_predecessor": "uniform_alternating_b2_32_companion",
+  "failed_numeric_CPU_charge": 2.223153,
+  "failed_compile_CPU_charge": 8.624353,
+  "no_unrestricted_numeric_replacement": true
+}

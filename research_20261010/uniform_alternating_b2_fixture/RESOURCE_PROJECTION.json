@@ -1,0 +1,274 @@
+{
+  "status": "DESIGN_PROJECTION_ONLY_NO_L32_OR_L64_CONTRACTION",
+  "local_blocks_sha256": "1e63ba284062733ec459fd0f2125874b561b407ef7d722897f1923336ff58581",
+  "file_bytes": 2781490,
+  "rows": [
+    {
+      "charge": -10,
+      "side": 1,
+      "caps": {
+        "T": {
+          "max_entry_bits": 12,
+          "row_abs_sum_upper_power2_bits": 12
+        },
+        "O_h": {
+          "max_entry_bits": 27,
+          "row_abs_sum_upper_power2_bits": 27
+        },
+        "O_h2": {
+          "max_entry_bits": 28,
+          "row_abs_sum_upper_power2_bits": 28
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 42,
+          "row_abs_sum_upper_power2_bits": 42
+        }
+      }
+    },
+    {
+      "charge": -8,
+      "side": 8,
+      "caps": {
+        "T": {
+          "max_entry_bits": 15,
+          "row_abs_sum_upper_power2_bits": 16
+        },
+        "O_h": {
+          "max_entry_bits": 31,
+          "row_abs_sum_upper_power2_bits": 32
+        },
+        "O_h2": {
+          "max_entry_bits": 32,
+          "row_abs_sum_upper_power2_bits": 32
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 48,
+          "row_abs_sum_upper_power2_bits": 49
+        }
+      }
+    },
+    {
+      "charge": -6,
+      "side": 32,
+      "caps": {
+        "T": {
+          "max_entry_bits": 17,
+          "row_abs_sum_upper_power2_bits": 19
+        },
+        "O_h": {
+          "max_entry_bits": 34,
+          "row_abs_sum_upper_power2_bits": 36
+        },
+        "O_h2": {
+          "max_entry_bits": 35,
+          "row_abs_sum_upper_power2_bits": 36
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 51,
+          "row_abs_sum_upper_power2_bits": 54
+        }
+      }
+    },
+    {
+      "charge": -4,
+      "side": 80,
+      "caps": {
+        "T": {
+          "max_entry_bits": 19,
+          "row_abs_sum_upper_power2_bits": 20
+        },
+        "O_h": {
+          "max_entry_bits": 35,
+          "row_abs_sum_upper_power2_bits": 38
+        },
+        "O_h2": {
+          "max_entry_bits": 36,
+          "row_abs_sum_upper_power2_bits": 38
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 54,
+          "row_abs_sum_upper_power2_bits": 56
+        }
+      }
+    },
+    {
+      "charge": -2,
+      "side": 136,
+      "caps": {
+        "T": {
+          "max_entry_bits": 19,
+          "row_abs_sum_upper_power2_bits": 21
+        },
+        "O_h": {
+          "max_entry_bits": 37,
+          "row_abs_sum_upper_power2_bits": 39
+        },
+        "O_h2": {
+          "max_entry_bits": 37,
+          "row_abs_sum_upper_power2_bits": 39
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 56,
+          "row_abs_sum_upper_power2_bits": 58
+        }
+      }
+    },
+    {
+      "charge": 0,
+      "side": 162,
+      "caps": {
+        "T": {
+          "max_entry_bits": 19,
+          "row_abs_sum_upper_power2_bits": 21
+        },
+        "O_h": {
+          "max_entry_bits": 38,
+          "row_abs_sum_upper_power2_bits": 39
+        },
+        "O_h2": {
+          "max_entry_bits": 38,
+          "row_abs_sum_upper_power2_bits": 40
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 57,
+          "row_abs_sum_upper_power2_bits": 58
+        }
+      }
+    },
+    {
+      "charge": 2,
+      "side": 136,
+      "caps": {
+        "T": {
+          "max_entry_bits": 19,
+          "row_abs_sum_upper_power2_bits": 21
+        },
+        "O_h": {
+          "max_entry_bits": 37,
+          "row_abs_sum_upper_power2_bits": 39
+        },
+        "O_h2": {
+          "max_entry_bits": 37,
+          "row_abs_sum_upper_power2_bits": 39
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 56,
+          "row_abs_sum_upper_power2_bits": 58
+        }
+      }
+    },
+    {
+      "charge": 4,
+      "side": 80,
+      "caps": {
+        "T": {
+          "max_entry_bits": 19,
+          "row_abs_sum_upper_power2_bits": 20
+        },
+        "O_h": {
+          "max_entry_bits": 35,
+          "row_abs_sum_upper_power2_bits": 38
+        },
+        "O_h2": {
+          "max_entry_bits": 36,
+          "row_abs_sum_upper_power2_bits": 38
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 54,
+          "row_abs_sum_upper_power2_bits": 56
+        }
+      }
+    },
+    {
+      "charge": 6,
+      "side": 32,
+      "caps": {
+        "T": {
+          "max_entry_bits": 17,
+          "row_abs_sum_upper_power2_bits": 19
+        },
+        "O_h": {
+          "max_entry_bits": 34,
+          "row_abs_sum_upper_power2_bits": 36
+        },
+        "O_h2": {
+          "max_entry_bits": 35,
+          "row_abs_sum_upper_power2_bits": 36
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 51,
+          "row_abs_sum_upper_power2_bits": 54
+        }
+      }
+    },
+    {
+      "charge": 8,
+      "side": 8,
+      "caps": {
+        "T": {
+          "max_entry_bits": 15,
+          "row_abs_sum_upper_power2_bits": 16
+        },
+        "O_h": {
+          "max_entry_bits": 31,
+          "row_abs_sum_upper_power2_bits": 32
+        },
+        "O_h2": {
+          "max_entry_bits": 32,
+          "row_abs_sum_upper_power2_bits": 32
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 48,
+          "row_abs_sum_upper_power2_bits": 49
+        }
+      }
+    },
+    {
+      "charge": 10,
+      "side": 1,
+      "caps": {
+        "T": {
+          "max_entry_bits": 12,
+          "row_abs_sum_upper_power2_bits": 12
+        },
+        "O_h": {
+          "max_entry_bits": 27,
+          "row_abs_sum_upper_power2_bits": 27
+        },
+        "O_h2": {
+          "max_entry_bits": 28,
+          "row_abs_sum_upper_power2_bits": 28
+        },
+        "O_adj_sym": {
+          "max_entry_bits": 42,
+          "row_abs_sum_upper_power2_bits": 42
+        }
+      }
+    }
+  ],
+  "conservative_bit_caps": {
+    "T64_infinity_norm_log2_upper": 1344,
+    "R61_infinity_norm_log2_upper": 1305
+  },
+  "production_plan": {
+    "L": 64,
+    "binary_convolution_N": 61,
+    "full_matrix_multiplications_per_charge_block_upper": 29,
+    "maximum_block_side": 162,
+    "max_simultaneous_matrix_buffers_target": 10,
+    "dense_676_matrix_allocation": false,
+    "dense_1352_matrix_allocation": false,
+    "cpu_projection_seconds_not_guaranteed": [
+      20,
+      40
+    ],
+    "requested_future_hard_cpu_seconds": 60,
+    "requested_future_hard_memory_mib": 256,
+    "proposed_wall_watchdog_seconds": 180,
+    "execute_authorized": false
+  },
+  "resources": {
+    "cpu_seconds": 0.162310988,
+    "peak_rss_kib": 12416
+  }
+}

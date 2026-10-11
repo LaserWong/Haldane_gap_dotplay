@@ -1,0 +1,13 @@
+{
+  "status": "failed-no-retry",
+  "charged_cpu_seconds": 30,
+  "observed_wait4_tree_cpu_seconds": 0.12631499999999998,
+  "observed_combined_peak_rss_bytes": 26214400,
+  "failure": "OSError [Errno 12] Cannot allocate memory while listing /proc in frozen session_supervisor.py snapshot(), observed at cleanup surviving_session_member check line72",
+  "numerical_outputs_created": false,
+  "controller_run_log_empty": true,
+  "provenance": "exec command python research_20261010/bilayer_physical_dispatch_integration/outer.py exited1; exact earlier stop cause unavailable because supervisor could not finish its resource receipt",
+  "cleanup": "Subsequent ps scan found no adapter/session/outer or numerical worker matching this gate",
+  "remaining_producer_test_authority": 0,
+  "scope": "Failure evidence only; no successful integration claim"
+}

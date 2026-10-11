@@ -1,0 +1,42 @@
+{
+  "mode": "review64",
+  "exit_code": 0,
+  "watchdog_reason": null,
+  "wall_seconds": 8.539535342999443,
+  "wait4_total_cpu_seconds": 8.280454,
+  "wait4_peak_rss_kib": 29640,
+  "launcher_CPU_seconds": 0.366451523,
+  "launcher_hard_CPU_seconds": 1,
+  "child_hard_CPU_seconds": 27,
+  "aggregate_hard_ceiling_seconds": 28,
+  "AS_mib": 256,
+  "postexec_observations": [
+    {
+      "pid": 5,
+      "executable": "/workspace/shared/haldane_active/research_20261010/uniform_alternating_b2_fixture_review/independent64",
+      "cpu_limits": [
+        27,
+        27
+      ],
+      "AS_limits": [
+        268435456,
+        268435456
+      ],
+      "affinity": [
+        5
+      ],
+      "SIGXCPU": "default_unblocked"
+    }
+  ],
+  "wait4_records": [
+    {
+      "pid": 5,
+      "exit_code": 0,
+      "user_cpu": 8.156401,
+      "system_cpu": 0.124053,
+      "peak_rss_kib": 29640
+    }
+  ],
+  "whole_tree_empty": true,
+  "automatic_retry": false
+}

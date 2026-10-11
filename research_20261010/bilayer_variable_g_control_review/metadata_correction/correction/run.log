@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_variable_g_control_review/check_control_fix_corrected.py", line 49, in <module>
+    analytic=vacuum24(P.parent/'bilayer_whole_m4_pipeline');assert values==analytic;checks.append('all24_fixed_witness_vacuum_accumulators_match_independent_local_edge_pair_contractions');e.atomic(R/'ANALYTIC_VACUUM24.json',analytic)
+                                                                   ^^^^^^^^^^^^^^^^
+AssertionError

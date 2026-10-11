@@ -1,0 +1,24 @@
+{
+  "name": "physical24",
+  "cap_cpu_seconds": 12,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 12,
+  "command": [
+    "research_20261010/bilayer_variable_g_control_review/independent_physical24",
+    "research_20261010/bilayer_variable_g_control_review/physical24/reference.jsonl"
+  ],
+  "state": "completed",
+  "pid": 5,
+  "exit_status": 0,
+  "wait4_user_seconds": 1.4565329999999999,
+  "wait4_system_seconds": 0.525134,
+  "wait4_cpu_seconds": 1.9816669999999998,
+  "max_live_tree_cpu_seconds": 1.95,
+  "max_observed_processes": 1,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 2.0107890900035272,
+  "peak_rss_kib": 76436,
+  "max_observed_tree_rss_bytes": 78270464,
+  "stop_reason": null
+}

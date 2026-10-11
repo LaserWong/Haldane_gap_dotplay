@@ -1,0 +1,42 @@
+{
+  "mode": "scalar",
+  "exit_code": 0,
+  "watchdog_reason": null,
+  "wall_seconds": 0.0680617460020585,
+  "wait4_total_cpu_seconds": 0.052941999999999996,
+  "wait4_peak_rss_kib": 9856,
+  "launcher_CPU_seconds": 0.059919371,
+  "launcher_hard_CPU_seconds": 1,
+  "child_hard_CPU_seconds": 2,
+  "aggregate_hard_ceiling_seconds": 3,
+  "AS_mib": 256,
+  "postexec_observations": [
+    {
+      "pid": 5,
+      "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "cpu_limits": [
+        2,
+        2
+      ],
+      "AS_limits": [
+        268435456,
+        268435456
+      ],
+      "affinity": [
+        5
+      ],
+      "SIGXCPU": "default_unblocked"
+    }
+  ],
+  "wait4_records": [
+    {
+      "pid": 5,
+      "exit_code": 0,
+      "user_cpu": 0.044864999999999995,
+      "system_cpu": 0.008076999999999999,
+      "peak_rss_kib": 9856
+    }
+  ],
+  "whole_tree_empty": true,
+  "automatic_retry": false
+}

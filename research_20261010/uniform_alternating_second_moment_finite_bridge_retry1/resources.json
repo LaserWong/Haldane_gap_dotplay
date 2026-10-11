@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "watchdog_fired": null,
+  "wait4_user_cpu_seconds": 18.321941,
+  "wait4_system_cpu_seconds": 0.186355,
+  "wait4_total_cpu_seconds": 18.508295999999998,
+  "wait4_peak_rss_kib": 15628,
+  "wall_seconds": 19.031991809999454,
+  "parent_cpu_seconds": 0.315003745,
+  "child_hard_cpu_seconds": 23,
+  "parent_hard_cpu_seconds": 1,
+  "aggregate_authorized_cpu_seconds": 30,
+  "child_active_cpu_kill_threshold": 22,
+  "active_poll_count": 904,
+  "max_polled_cpu_seconds": 18.48,
+  "hard_address_space_mib": 256,
+  "CPU_affinity": [
+    4
+  ],
+  "prior_scalar_child_CPU_seconds": 4.022079,
+  "prior_scalar_parent_CPU_seconds": 0.059370611,
+  "physical_contractions": false,
+  "automatic_retry": false
+}

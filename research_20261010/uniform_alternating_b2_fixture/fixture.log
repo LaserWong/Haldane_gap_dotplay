@@ -1,0 +1,16 @@
+GUARDS CPU=14 AS=256MiB AFFINITY=4
+START direct D26 cpu=0.034234
+START transfer D26 cpu=0.05823
+block=-10 side=1 cpu=0.062234
+block=-8 side=8 cpu=0.062234
+block=-6 side=32 cpu=0.07023
+block=-4 side=80 cpu=0.202258
+block=-2 side=136 cpu=0.698251
+block=0 side=162 cpu=2.1117
+block=2 side=136 cpu=2.51172
+block=4 side=80 cpu=2.6117
+block=6 side=32 cpu=2.6277
+block=8 side=8 cpu=2.6277
+block=10 side=1 cpu=2.6277
+block=0 side=4 cpu=2.63177
+FINAL cpu=2.63241 rss_kib=22288 matrix_multiplications=2668

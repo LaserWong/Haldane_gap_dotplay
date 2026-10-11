@@ -1,0 +1,54 @@
+{
+  "physical_reference_cases": [
+    {
+      "nx": 4,
+      "type": "localized",
+      "independent_dense_moments_and_Q_bilinears": true,
+      "variable_g_matrices": 5,
+      "independent_q8_WZ_identity": "1433925504"
+    },
+    {
+      "nx": 4,
+      "type": "symmetrized",
+      "independent_dense_moments_and_Q_bilinears": true,
+      "variable_g_matrices": 5,
+      "independent_q8_WZ_identity": "67986124800"
+    },
+    {
+      "nx": 4,
+      "type": "generic",
+      "independent_dense_moments_and_Q_bilinears": true,
+      "variable_g_matrices": 5,
+      "independent_q8_WZ_identity": "104141319929856"
+    },
+    {
+      "nx": 5,
+      "type": "localized",
+      "independent_dense_moments_and_Q_bilinears": true,
+      "variable_g_matrices": 5,
+      "independent_q8_WZ_identity": "6716533824"
+    },
+    {
+      "nx": 5,
+      "type": "symmetrized",
+      "independent_dense_moments_and_Q_bilinears": true,
+      "variable_g_matrices": 5,
+      "independent_q8_WZ_identity": "109791411840"
+    },
+    {
+      "nx": 5,
+      "type": "generic",
+      "independent_dense_moments_and_Q_bilinears": true,
+      "variable_g_matrices": 5,
+      "independent_q8_WZ_identity": "1578456571317120"
+    }
+  ],
+  "old_numerical_kernel_prefix_identical": true,
+  "old_step_identical_after_removing_only_two_new_bilinears": true,
+  "physical_K_denominator": "22*g_den",
+  "physical_J_denominator": "(22*g_den)^2",
+  "signed_synthetic_origin_weight_test": true,
+  "stale22_schema_rejected": true,
+  "full8x4_physical_controls": "NOT_COMPUTED",
+  "production_admission": "BLOCKED_PENDING_CONTROL_REVISION"
+}

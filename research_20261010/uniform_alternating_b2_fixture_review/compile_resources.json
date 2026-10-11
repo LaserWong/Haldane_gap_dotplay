@@ -1,0 +1,25 @@
+{
+  "mode": "compile",
+  "exit_code": 125,
+  "watchdog_reason": null,
+  "wall_seconds": 0.006051748001482338,
+  "wait4_total_cpu_seconds": 0.001362,
+  "wait4_peak_rss_kib": 6524,
+  "launcher_CPU_seconds": 3.124385815,
+  "launcher_hard_CPU_seconds": 1,
+  "child_hard_CPU_seconds": 29,
+  "aggregate_hard_ceiling_seconds": 30,
+  "AS_mib": 512,
+  "postexec_observations": [],
+  "wait4_records": [
+    {
+      "pid": 5,
+      "exit_code": 125,
+      "user_cpu": 0.001362,
+      "system_cpu": 0.0,
+      "peak_rss_kib": 6524
+    }
+  ],
+  "whole_tree_empty": true,
+  "automatic_retry": false
+}

@@ -1,0 +1,31 @@
+{
+  "status": "WRAPPER_PARAMETER_CHANGE_ONLY",
+  "source_64_sha256": "d9716b07e918e1e2051ac23f08d86cd9a042c457dfac2783f58a1cf2e366437e",
+  "target_32_sha256": "91bcc6d4c5e8b42f538d3e456baa1768a4dcc2978aba70dffde4f3af73353c23",
+  "ordered_text_replacements": [
+    [
+      "64",
+      "32"
+    ],
+    [
+      "61",
+      "29"
+    ],
+    [
+      "62",
+      "30"
+    ],
+    [
+      "59",
+      "29"
+    ],
+    [
+      "9216",
+      "2304"
+    ]
+  ],
+  "shared_matrix_kernel": "../uniform_alternating_b2_fixture/fixture.cpp",
+  "shared_matrix_kernel_sha256": "afaf61d76e1de0dceae377b0c61923bf3d2facf11f85a3915888a19707ad5214",
+  "matrix_and_block_power_helpers_changed": false,
+  "explanation": "Physical length and output labels64->32; convolution61=L-3->29; next power62=L-2->30; CPU guard59->29; B-norm square96\u00b2=9216->48\u00b2=2304. Every matrix/convolution helper is included verbatim from the unchanged frozen fixture."
+}

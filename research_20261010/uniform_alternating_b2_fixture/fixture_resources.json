@@ -1,0 +1,22 @@
+{
+  "mode": "fixture",
+  "exit_code": 0,
+  "wall_watchdog_fired": false,
+  "wall_seconds": 2.6547449799982132,
+  "wait4_user_cpu_seconds": 2.447024,
+  "wait4_system_cpu_seconds": 0.18639,
+  "wait4_total_cpu_seconds": 2.6334139999999997,
+  "wait4_peak_rss_kib": 22288,
+  "child_hard_cpu_seconds": 14,
+  "child_hard_address_space_mib": 256,
+  "parent_hard_cpu_seconds": 1,
+  "aggregate_fixture_cpu_ceiling_seconds": 15,
+  "affinity": [
+    4
+  ],
+  "automatic_retry": false,
+  "requested_physical_lengths": [
+    4,
+    6
+  ]
+}

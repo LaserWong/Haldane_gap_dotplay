@@ -1,0 +1,13 @@
+GUARDS CPU=25 AS=256MiB AFFINITY=4 LENGTH=32 CONV=29
+block=-10 side=1 cpu_delta=0 cpu_total=0.00715
+block=-8 side=8 cpu_delta=0 cpu_total=0.00715
+block=-6 side=32 cpu_delta=0.024042 cpu_total=0.031192
+block=-4 side=80 cpu_delta=0.351907 cpu_total=0.391146
+block=-2 side=136 cpu_delta=1.83613 cpu_total=2.24327
+block=0 side=162 cpu_delta=3.02107 cpu_total=5.29234
+block=2 side=136 cpu_delta=1.96873 cpu_total=7.2892
+block=4 side=80 cpu_delta=0.398438 cpu_total=7.69971
+block=6 side=32 cpu_delta=0.027858 cpu_total=7.73167
+block=8 side=8 cpu_delta=0.00452 cpu_total=7.73619
+block=10 side=1 cpu_delta=0 cpu_total=7.73619
+FINAL cpu=7.73865 rss_kib=25436 matrix_multiplications=286

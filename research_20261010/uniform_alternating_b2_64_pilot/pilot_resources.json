@@ -1,0 +1,26 @@
+{
+  "mode": "pilot",
+  "exit_code": 0,
+  "wall_watchdog_fired": false,
+  "wall_seconds": 17.75952623199555,
+  "wait4_user_cpu_seconds": 16.783404,
+  "wait4_system_cpu_seconds": 0.40241099999999996,
+  "wait4_total_cpu_seconds": 17.185815,
+  "wait4_peak_rss_kib": 35636,
+  "child_hard_cpu_seconds": 59,
+  "child_hard_address_space_mib": 256,
+  "parent_hard_cpu_seconds": 1,
+  "aggregate_pilot_cpu_ceiling_seconds": 60,
+  "affinity": [
+    4
+  ],
+  "automatic_retry": false,
+  "requested_physical_lengths": [
+    64
+  ],
+  "observables": [
+    "norm",
+    "H",
+    "B2"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-11T03:44:17.766018+00:00",
+  "updated_at_utc": "2026-10-11T04:51:18.296769+00:00",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -44,11 +44,11 @@
     },
     {
       "id": "overview",
-      "status": "stage20_locally_frozen_stage19_remotely_verified",
-      "path": "research_20261010/overview_stage20/README.md",
-      "manifest_sha256": "de1e346d56f73dc638dba23e97845b8767ed9c6d3b85fe2f609642551e28b853",
-      "post_freeze_replay": "PASS",
-      "post_freeze_replay_at_utc": "2026-10-11T03:43:27Z"
+      "status": "stage21_locally_frozen_stage20_last_verified_at_freeze",
+      "path": "research_20261010/overview_stage21/README.md",
+      "manifest_sha256": "36e427dd2105465d40adf8b3d8c36cd76bff079b31a995bef1efa9837d847da4",
+      "root_manifest_verification": "PASS_122_files",
+      "root_manifest_verified_at_utc": "2026-10-11T04:41:48Z"
     },
     {
       "id": "trial_size_criteria",
@@ -615,15 +615,45 @@
       "status": "sealed_read_only_partial22_defects_no_runtime_replay_not_production_admission",
       "path": "research_20261010/bilayer_lazy_chunk_hardening_review",
       "review_manifest_sha256": "20c733a6af3bfa8592a30be064493c9b99080ed4511c7abaa3a84f4ac4c46f35"
+    },
+    {
+      "id": "uniform_alternating_b2_fixture_review",
+      "status": "accepted_full_physical32_64_B2_Gibbs_observable_bounds",
+      "path": "research_20261010/uniform_alternating_b2_fixture_review",
+      "review_manifest_sha256": "8d26c955fb5500893be65dbbc6e639a86b230d299c9b59ed201a6f89728875ee"
+    },
+    {
+      "id": "uniform_alternating_second_moment_robustness_review",
+      "status": "accepted_four_earlier_B2_closed_intervals",
+      "path": "research_20261010/uniform_alternating_second_moment_robustness_review",
+      "review_manifest_sha256": "0a0b5864bb403c4d05419b375c93756791050e64b7dd100862358e2b5ab10e08"
+    },
+    {
+      "id": "uniform_alternating_second_moment_finite_bridge_review",
+      "status": "accepted_four_stronger_closed_intervals39_windows56_bridges4_closures",
+      "path": "research_20261010/uniform_alternating_second_moment_finite_bridge_review",
+      "review_manifest_sha256": "4700be5942eac716532d52c82aef89e8508334e61da511b26f2dd75a7a2272c3"
+    },
+    {
+      "id": "bilayer_incremental_control_first_review",
+      "status": "synthetic_component_findings_production_gate_failure_preserved",
+      "path": "research_20261010/bilayer_incremental_control_first_review",
+      "review_manifest_sha256": "d5d5465dd89efa4570d340e719c9eb09224ff864a56fca662827c951d5ce0930"
+    },
+    {
+      "id": "bilayer_variable_g_control_review",
+      "status": "numerical24_control_COMPONENT_PASS_full_production_BLOCKED_outer_guard_expectedM012_and_authorization",
+      "path": "research_20261010/bilayer_variable_g_control_review",
+      "review_manifest_sha256": "3dc84b1b0909403e3555f19b5ae2035219bdc579c0f039043d07ee94b7f2355e"
     }
   ],
-  "verification": "Stage19 independently accepts genuine n34/.0248,n32/.0245,n30/.0179 bootstrap starts, each allintegerL>=n uniqueground. Finite28..56 and individual24..27 give coverage>=24/.0023; analyticL2gap2,L3gap1 and directL4..23 complete uniform allintegerL>=2 gap.0023. Initialization remains30, not2; no minimum seed. Direct25 mathematics accepted but resource budget compliance NOT ACCEPTED; prior58D resource limitation preserved.18input thermal campaign remains completed, no restart. Bilayer nested allsize bounds unchanged; stronger26..33 and active300CPU m4fixture/sample work excluded pending independent acceptance, production unapproved. Final stage19 stronger review accepts gap.0248 for every integerL>=2 using rechecked4..25 prefix,new26..33 and n34 tail plus analytic2/3. n34 is the strongest-proof tail, distinct from successful n30 at.0179. Earlier.0023 and nested weaker records remain valid. Original-bound ratios51.7538 and6.49030 apply only common scopes, not physical gap ratios. Stage20 accepts self-contained exposition of existing uniform theorem, no new physics; two near-uniform alternating intervals[19999/20001,20001/19999] gap.015 and[12499/12501,12501/12499] gap.005, everyintegerM>=2,unit alternating1,g,unique finite-volume ground. Separate from weak-dimer range; no interposed-region/phase/maximality claim. Guide selfcheck anomaly retained; active120CPU hardening/PSD hypothesis not scientific acceptance. Final stage20 PSD-cell review accepts8 exact rows, including four main nested intervals with gaps.020/.015/.010/.005, allintegercellsM>=2. Structural AA* proof and70windows accepted. Wholem4 algebra/sixfixtures and bounded sample evidence accepted, full8x4 moments/production blocked; partial22hardening finding identifies defects, active24control excluded.",
-  "last_verified_remote_commit": "3ec8d89e05676fffb0db54f09e59594fa4de4bd9",
-  "last_report_utc": "2026-10-11T03:10:39Z",
-  "last_report_local": "2026-10-10T23:10:39-04:00",
+  "verification": "Stage19 independently accepts genuine n34/.0248,n32/.0245,n30/.0179 bootstrap starts, each allintegerL>=n uniqueground. Finite28..56 and individual24..27 give coverage>=24/.0023; analyticL2gap2,L3gap1 and directL4..23 complete uniform allintegerL>=2 gap.0023. Initialization remains30, not2; no minimum seed. Direct25 mathematics accepted but resource budget compliance NOT ACCEPTED; prior58D resource limitation preserved.18input thermal campaign remains completed, no restart. Bilayer nested allsize bounds unchanged; stronger26..33 and active300CPU m4fixture/sample work excluded pending independent acceptance, production unapproved. Final stage19 stronger review accepts gap.0248 for every integerL>=2 using rechecked4..25 prefix,new26..33 and n34 tail plus analytic2/3. n34 is the strongest-proof tail, distinct from successful n30 at.0179. Earlier.0023 and nested weaker records remain valid. Original-bound ratios51.7538 and6.49030 apply only common scopes, not physical gap ratios. Stage20 accepts self-contained exposition of existing uniform theorem, no new physics; two near-uniform alternating intervals[19999/20001,20001/19999] gap.015 and[12499/12501,12501/12499] gap.005, everyintegerM>=2,unit alternating1,g,unique finite-volume ground. Separate from weak-dimer range; no interposed-region/phase/maximality claim. Guide selfcheck anomaly retained; active120CPU hardening/PSD hypothesis not scientific acceptance. Final stage20 PSD-cell review accepts8 exact rows, including four main nested intervals with gaps.020/.015/.010/.005, allintegercellsM>=2. Structural AA* proof and70windows accepted. Wholem4 algebra/sixfixtures and bounded sample evidence accepted, full8x4 moments/production blocked; partial22hardening finding identifies defects, active24control excluded. Stage21 accepts physical32/64 B² Gibbs observable caps.136/.157 and8 more near-uniform intervals, final4 with39windows56bridges4tailclosures. No uniform or bilayer gap change. Numerical24/control component PASS is not fullproduction admission; outer startup guard/accepted57Dcontrols/explicit resource authority pending. Restricted-cell proposal unaccepted and over30CPUbudget; no physicalg.9 or necessary.835target claim.",
+  "last_verified_remote_commit": "47a0c919d8c32f65e564ff7a5453a6eca3efd60c",
+  "last_report_utc": "2026-10-11T04:00:12Z",
+  "last_report_local": "2026-10-11T00:00:12-04:00",
   "next_report_utc": "2026-10-11T08:15:00Z",
-  "updated_at_local": "2026-10-10T23:44:17.766018-04:00",
-  "prepared_stage": 20,
+  "updated_at_local": "2026-10-11T00:51:18.296769-04:00",
+  "prepared_stage": 21,
   "last_publication_notification_utc": "2026-10-11T03:10:39Z",
   "original_method_comparison": {
     "first_route_original_startup": 60,
@@ -644,8 +674,8 @@
     "current_second_input_bootstrap_initialization": 30,
     "strongest_proof_tail_initialization": 34
   },
-  "last_verified_remote_tree": "3b8af211301a74666770f48a0186e4d8f1fafdc1",
-  "last_remote_verified_at_utc": "2026-10-11T03:10:12.426Z",
+  "last_verified_remote_tree": "ac73119766c9207bb92df0272bc3e862fe29f166",
+  "last_remote_verified_at_utc": "2026-10-11T03:52:34.622Z",
   "last_publication_notification_utc_note": "Verified parent report at03:10:39UTC covers scheduled03:15UTC report; no later notification claimed.",
   "thermal_campaign": {
     "status": "completed_independent_physical_review_accepted",
@@ -761,13 +791,13 @@
     "full_review_manifest_sha256": "792127565ad16526eeaa61add62bcc15db499578fc9d2157f11df27848867b94",
     "monitoring_needed": false
   },
-  "publication_state_note": "At document freeze, latest completed remote verification is stage19; this checkpoint contains stage20. Subsequent commit and verification receipt establish its publication.",
+  "publication_state_note": "This checkpoint contains stage21; as of freeze latest completed remote verification is stage20. Publication is established by subsequent commit/receipt.",
   "last_remote_verification_summary": {
-    "snapshot_files": 560,
-    "dependency_entries_verified": 4047,
-    "preserved_existing_files": 13701,
+    "snapshot_files": 832,
+    "dependency_entries_verified": 3690,
+    "preserved_existing_files": 14257,
     "stage11_transport_files_preserved": 27,
-    "verification_method": "Verified root and 24 changed subtree reads without truncation, reusing 215 unchanged subtree SHAs from the prior verified tree; verified every snapshot entry and outside file. Re-read identical root tree after main update.",
+    "verification_method": "Verified root and 26 changed subtree reads without truncation, reusing 226 unchanged subtree SHAs from the prior verified tree; verified every snapshot entry and outside file. Re-read identical root tree after main update.",
     "workflow_runs": 0
   },
   "bilayer_current_all_size_interval": {
@@ -992,7 +1022,8 @@
     "direct25_reviewer": "RESOURCE_BUDGET_COMPLIANCE_NOT_ACCEPTED_25.9614_process_CPU_seconds_vs15_authorized_cause_unresolved",
     "58D_producer_algebra": "UNVERIFIED_preserved_addendum",
     "proof_guide_initial_self_check": "30.21035921_CPU_seconds_vs30_limit_strict_compliance_not_accepted_final60_limit_record25.746380744_no_external_wait4_or_postexec_limit_claim",
-    "m4_pipeline_producer": "general_descendant_detection_UNVERIFIED_missing_proc_children_path_compilation_CPU_missing_early_fixture_source_hashes_missing"
+    "m4_pipeline_producer": "general_descendant_detection_UNVERIFIED_missing_proc_children_path_compilation_CPU_missing_early_fixture_source_hashes_missing",
+    "restricted_cell_proposal": "NOT_ACCEPTED_child30.397826_charged30.697826_vs30_authorized_no_independent_scientific_acceptance"
   },
   "active_stage19_excluded_work": {
     "whole_m4_fixture_sample_gate": "active_300_CPU_second_gate_only",
@@ -1007,29 +1038,29 @@
     "intervals": [
       {
         "g": [
-          "19999/20001",
-          "20001/19999"
+          "9998709/10001291",
+          "10001291/9998709"
         ],
         "gap": "1/50"
       },
       {
         "g": [
-          "99993/100007",
-          "100007/99993"
+          "1249773/1250227",
+          "1250227/1249773"
         ],
         "gap": "3/200"
       },
       {
         "g": [
-          "199983/200017",
-          "200017/199983"
+          "9997841/10002159",
+          "10002159/9997841"
         ],
         "gap": "1/100"
       },
       {
         "g": [
-          "99991/100009",
-          "100009/99991"
+          "156213/156287",
+          "156287/156213"
         ],
         "gap": "1/200"
       }
@@ -1062,7 +1093,46 @@
       17
     ],
     "all_integer_windows_checked": 70,
-    "structural_positive_cell_transfer_accepted": true
+    "structural_positive_cell_transfer_accepted": true,
+    "historical_stage20_main_intervals": [
+      {
+        "g": [
+          "19999/20001",
+          "20001/19999"
+        ],
+        "gap": "1/50"
+      },
+      {
+        "g": [
+          "99993/100007",
+          "100007/99993"
+        ],
+        "gap": "3/200"
+      },
+      {
+        "g": [
+          "199983/200017",
+          "200017/199983"
+        ],
+        "gap": "1/100"
+      },
+      {
+        "g": [
+          "99991/100009",
+          "100009/99991"
+        ],
+        "gap": "1/200"
+      }
+    ],
+    "stage21_accepted_rows": 8,
+    "strongest_final_rows": 4,
+    "final_integer_cell_windows": 39,
+    "finite_bridges": 56,
+    "tail_closures": 4,
+    "physical_Gibbs_observable_caps": {
+      "L32": "17/125",
+      "L64": "157/1000"
+    }
   },
   "active_stage20_excluded_work": {
     "checkpoint_hardening": "active24_field_control_package_excluded_from_sealed_partial22_finding",
@@ -1079,5 +1149,22 @@
     "review_actual_wait4_CPU_seconds": 49.784555,
     "partial22_finding": "known_hardening_defects",
     "active24_control_package": "excluded"
+  },
+  "active_stage21_excluded_work": {
+    "bilayer_launch_package": "active_not_in_stage21_freeze",
+    "full_m4_production": "NOT_AUTHORIZED_pending_outer_startup_guard_exact57D_controls_and_resource_authority",
+    "H_squared64": "active_excluded_from_stage21"
+  },
+  "bilayer_control_component_status": {
+    "verdict": "COMPONENT_PASS",
+    "review_manifest_sha256": "3dc84b1b0909403e3555f19b5ae2035219bdc579c0f039043d07ee94b7f2355e",
+    "full_production_admission": "BLOCKED",
+    "required": [
+      "hash_pinned_outer_startup_guard",
+      "independently_derived_EXPECTED_M012",
+      "explicit_resource_authorization_and_fixed_job_identity"
+    ],
+    "full8x4_moments": false,
+    "review_reserved_CPU_seconds": 106
   }
 }

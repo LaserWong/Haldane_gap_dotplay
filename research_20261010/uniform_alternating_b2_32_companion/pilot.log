@@ -1,0 +1,7 @@
+GUARDS CPU=29 AS=256MiB AFFINITY=4
+block=-10 side=1 cpu_delta=0 cpu_total=0.007541
+block=-8 side=8 cpu_delta=0 cpu_total=0.007541
+block=-6 side=32 cpu_delta=0.023955 cpu_total=0.031496
+block=-4 side=80 cpu_delta=0.360063 cpu_total=0.399557
+block=-2 side=136 cpu_delta=1.7931 cpu_total=2.2126
+FAILED ordered block identity cpu=2.22064

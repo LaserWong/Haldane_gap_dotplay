@@ -1,0 +1,26 @@
+{
+  "name": "final_checks",
+  "cap_cpu_seconds": 6,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 8,
+  "parent_reserved_cpu_seconds": 2,
+  "command": [
+    "python",
+    "research_20261010/bilayer_variable_g_control_review/check_control_fix_final.py"
+  ],
+  "state": "completed",
+  "pid": 7,
+  "parent_actual_cpu_seconds": 0.15344,
+  "exit_status": 0,
+  "wait4_user_seconds": 1.325582,
+  "wait4_system_seconds": 0.809535,
+  "wait4_cpu_seconds": 2.135117,
+  "max_live_tree_cpu_seconds": 2.06,
+  "max_observed_processes": 3,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 4.295785481001076,
+  "peak_rss_kib": 55424,
+  "max_observed_tree_rss_bytes": 104624128,
+  "stop_reason": null
+}

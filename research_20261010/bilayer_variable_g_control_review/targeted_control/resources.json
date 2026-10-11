@@ -1,0 +1,26 @@
+{
+  "name": "targeted_control",
+  "cap_cpu_seconds": 15,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 17,
+  "parent_reserved_cpu_seconds": 2,
+  "command": [
+    "python",
+    "research_20261010/bilayer_variable_g_control_review/check_control_fix.py"
+  ],
+  "state": "failed_or_stopped",
+  "pid": 6,
+  "parent_actual_cpu_seconds": 0.079521,
+  "exit_status": 1,
+  "wait4_user_seconds": 0.686647,
+  "wait4_system_seconds": 0.472848,
+  "wait4_cpu_seconds": 1.159495,
+  "max_live_tree_cpu_seconds": 1.12,
+  "max_observed_processes": 1,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 2.025236979003239,
+  "peak_rss_kib": 30336,
+  "max_observed_tree_rss_bytes": 30801920,
+  "stop_reason": null
+}

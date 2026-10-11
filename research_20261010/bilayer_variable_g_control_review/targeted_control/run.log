@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_variable_g_control_review/check_control_fix.py", line 48, in <module>
+    assert values==e.read(phys.KERNEL/'runs/chunk_q0/result.json.accumulators.json');checks.append('all24_vacuum_accumulators_match_frozen_accepted_chunk')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,26 @@
+{
+  "name": "fresh_benchmark",
+  "cap_cpu_seconds": 18,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 20,
+  "parent_reserved_cpu_seconds": 2,
+  "command": [
+    "python",
+    "research_20261010/bilayer_variable_g_control_review/run_fresh_control.py"
+  ],
+  "state": "completed",
+  "pid": 8,
+  "parent_actual_cpu_seconds": 0.158266,
+  "exit_status": 0,
+  "wait4_user_seconds": 3.753124,
+  "wait4_system_seconds": 3.434204,
+  "wait4_cpu_seconds": 7.187328,
+  "max_live_tree_cpu_seconds": 7.17,
+  "max_observed_processes": 2,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 7.728533251000044,
+  "peak_rss_kib": 46956,
+  "max_observed_tree_rss_bytes": 60010496,
+  "stop_reason": null
+}

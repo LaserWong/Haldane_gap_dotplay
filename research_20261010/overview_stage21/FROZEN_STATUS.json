@@ -1,0 +1,129 @@
+{
+  "status": "FROZEN verified static overview",
+  "frozen_utc": "2026-10-11T04:41:13.544882+00:00",
+  "M_or_L_ge2_main_certificate_rows": 339,
+  "preserved_stage20_main_rows": 339,
+  "preserved_stage20_unconditional_positive_certificate_records": 423,
+  "unconditional_positive_certificate_records": 431,
+  "new_first_second_moment_closed_intervals": 4,
+  "new_length_resolved_finite_purity_closed_intervals": 4,
+  "new_physical_observable_lengths": [
+    32,
+    64
+  ],
+  "new_finite_bridge_checks": 56,
+  "new_final_bootstrap_windows": 39,
+  "smallest_genuine_uniform_initialization": 30,
+  "gap_at_smallest_uniform_initialization": "179/10000",
+  "uniform_contiguous_coverage_onset": 2,
+  "strongest_uniform_gap": "31/1250",
+  "strongest_uniform_gap_tail_initialization": 34,
+  "physical24_keeps_parity_MPS48": true,
+  "bilayer_nested_covers_unchanged": [
+    {
+      "endpoint": "27/250",
+      "closed_pieces": 86,
+      "gap_lower": "4499695659/1000000000000"
+    },
+    {
+      "endpoint": "433/4000",
+      "closed_pieces": 88,
+      "gap_lower": "293202989/500000000000"
+    }
+  ],
+  "new_bilayer_gap": false,
+  "full8x4_m4_accepted": false,
+  "full_production_authorized": false,
+  "engineering_scope": [
+    {
+      "component": "first incremental-control review",
+      "synthetic_records": 2945,
+      "synthetic_nonphysical": true,
+      "fresh_metadata_assembly_pass": true,
+      "committed_restart_output_digest_binding": false,
+      "production_gate": "FAIL",
+      "physical_memory_profile_tested": false,
+      "full8x4_moments_computed": false,
+      "new_gap": false,
+      "full_production_authorized": false,
+      "primary_source": "research_20261010/bilayer_incremental_control_first_review/BENCHMARK.json",
+      "finding": "research_20261010/bilayer_incremental_control_first_review/FINDING.md"
+    }
+  ],
+  "final_component_scope": [
+    {
+      "component": "final numerical24 and corrected-control review",
+      "component_pass": true,
+      "complete_small_dense_fixtures": 6,
+      "exact_variable_g_pencils": 30,
+      "fields_per_accumulator": 24,
+      "physical_K_denominator": "22*g_den",
+      "physical_J_denominator": "(22*g_den)^2",
+      "actual8x4_vacuum_targets": 1,
+      "complete8x4_chunks_required": 2945,
+      "corrected_control_checks": 26,
+      "producer_revised_AS_profile_MiB": [
+        64,
+        64,
+        128
+      ],
+      "producer_revised_profile_evidence_reviewed": true,
+      "independent_complete8x4_sweep": false,
+      "production_launch_gate": "BLOCKED_TWO_EXPLICIT_PRELAUNCH_CONDITIONS",
+      "missing_external_accounted_startup_guard": true,
+      "missing_independent_accepted57D_m012_controls": true,
+      "production_resource_authorization_present": false,
+      "new_gap": false,
+      "full8x4_moments_computed": false,
+      "separate_no_refund_reserved_CPU": [
+        90,
+        8,
+        8
+      ],
+      "preserved_failed_reviewer_checks": 2,
+      "first25_parent_CPU_separately_metered": false,
+      "all2945_raw_synthetic_records_in_manifest": false,
+      "primary_source": "research_20261010/bilayer_variable_g_control_review/STATUS.json",
+      "review": "research_20261010/bilayer_variable_g_control_review/FINAL_REVIEW.md"
+    }
+  ],
+  "producer_only_unaccepted_findings": [
+    {
+      "component": "restricted-cell seed producer proposal",
+      "producer_manifest": "research_20261010/alternating_restricted_cell_seed_proposal/MANIFEST_SHA256.json",
+      "producer_manifest_sha256": "867d8d01f6936f6acb3f3c5584a5319dc53e2496c33533f5249ac910132f81ac",
+      "independently_accepted": false,
+      "mathematical_status": "Exact producer construction and scoped recipe failure; independent review pending",
+      "resource_status": "NOT_ACCEPTED",
+      "actual_child_cpu_seconds": "30.397826",
+      "charged_cpu_seconds_including_reserves": "30.697826",
+      "authorized_cpu_seconds": "30",
+      "cell_seeds_tested": [
+        15,
+        16,
+        17
+      ],
+      "all_size_bootstrap_closed": false,
+      "g09_certified": false,
+      "new_gap": false,
+      "failure_is_universal_nogo": false
+    }
+  ],
+  "prior_resource_failures_preserved": true,
+  "mutable_campaign_data_included": false,
+  "direct_source_hashes": 1889,
+  "stage21_dependency_pins": 1008,
+  "review_seals": 108,
+  "sealed_review_entries_checked": 8049,
+  "previous_stage20_unchanged": true,
+  "root_files_modified_by_this_writer": false,
+  "remote_publication_performed": false,
+  "cpu_affinity": [
+    8
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "corruptions_rejected": 360,
+  "byte_identical_rendered_files": 48,
+  "scope": "Integrity and exact scoped extraction of independent final reviews; no new thermal or physical production",
+  "user_research_hard_cutoff_utc": "2026-10-14T00:00:00Z"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vacuum_dispatcher",
+  "cap_cpu_seconds": 26,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 28,
+  "parent_reserved_cpu_seconds": 2,
+  "command": [
+    "python",
+    "research_20261010/bilayer_variable_g_control_review/run_vacuum.py"
+  ],
+  "state": "completed",
+  "pid": 8,
+  "parent_actual_cpu_seconds": 0.165118,
+  "exit_status": 0,
+  "wait4_user_seconds": 0.15570799999999999,
+  "wait4_system_seconds": 0.17690999999999998,
+  "wait4_cpu_seconds": 0.33261799999999997,
+  "max_live_tree_cpu_seconds": 0.29000000000000004,
+  "max_observed_processes": 3,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 0.4662467879970791,
+  "peak_rss_kib": 12924,
+  "max_observed_tree_rss_bytes": 34435072,
+  "stop_reason": null
+}

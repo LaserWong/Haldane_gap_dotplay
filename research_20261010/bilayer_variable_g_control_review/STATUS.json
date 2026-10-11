@@ -1,0 +1,16 @@
+{
+  "component_review": "PASS",
+  "production_launch_gate": "BLOCKED_TWO_EXPLICIT_PRELAUNCH_CONDITIONS",
+  "conditions": [
+    "Externally bounded and accounted production startup/outer launcher",
+    "Independently verified accepted57D fixed-witness m012 controls"
+  ],
+  "physical_scope": "Six dense small fixtures;30 variable-g pencils;one actual8x4 vacuum target;no full8x4 sweep",
+  "control_scope": "Fresh2945 synthetic assembly; corrected digest/recovery/fault checks; producer revised-profile evidence reviewed",
+  "closed_reserved_cpu_seconds": [
+    90,
+    8,
+    8
+  ],
+  "new_physical_result": false
+}

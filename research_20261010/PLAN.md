@@ -309,3 +309,20 @@ Stage20 final scope supersedes preparatory pending wording: positive-cell numeri
 Whole-m4 reviewda9d659b68317702eec8db66beaa5ff3b21ffdb623ee3aa6b63663e86834f810 accepts complete algebra/six smallphysical fixtures/limited sample provenance, not full8x4moments. Independent64q6checkpoint reproduced; soft-stop prevented independent repeated-phase/finalq4total completion. Producer descendant detection/compileCPU/earlyhash gaps remain; independent repaired observer tests do not repair producer history. Review90/90reserved,49.784555 actualCPU, no refunds. Coldplanning~15065>10800 budget; fullproduction BLOCKED. Partial22read-only finding20c733a6af3bfa8592a30be064493c9b99080ed4511c7abaa3a84f4ac4c46f35 preserves missing adoption digests/controller-death reconciliation/aggregate-deadline-reservation forecasting and CAP-2 margin/variableg issues. Active24field/control hardening excluded; no new production authorization.
 
 Stage20 post-freeze replay PASS2026-10-11 03:43:27UTC:111sealed files,103reviewseals/7580entries,321guards,46byte-identicalexports. Active24/control and B² work remain excluded. At this document freeze, latest completed remote verification remains stage19; stage20 publication will be established by its commit and receipt.
+
+
+## Stage21 milestone — 2026-10-11 00:41 EDT / 2026-10-11 04:41 UTC
+
+As of freeze latest verified main is stage20 47a0c919d8c32f65e564ff7a5453a6eca3efd60c, tree ac73119766c9207bb92df0272bc3e862fe29f166,03:52:34.622UTC;832files3690dependencies,14257outside files27transport preserved. This checkpoint contains stage21 overview manifest 36e427dd2105465d40adf8b3d8c36cd76bff079b31a995bef1efa9837d847da4; subsequent commit/receipt establishes publication. Last user report04:00:12UTC; nextregular08:15UTC. No later notification claimed.
+
+FinalB² finite-bridge review4700be5942eac716532d52c82aef89e8508334e61da511b26f2dd75a7a2272c3 accepts four closed intervals[9998709/10001291,10001291/9998709]/.020,[1249773/1250227,1250227/1249773]/.015,[9997841/10002159,10002159/9997841]/.010,[156213/156287,156287/156213]/.005, allintegercellsM>=2,unit1,g,physicalL2M,unique finite-volume ground.39windows56finitebridges4tails independently checked; normalizedbeta/physicalbeta/c and ownMPS64 preserved. L24bridge is parity/MPS48, no ownMPS24. Earlier4B²rows and allstage20rows preserved, no optimal-radius or physicalodd-ring conclusion.
+
+PhysicalB² review independently reconstructs eleven D26 chargeblocks at32/64 and tinyphysical fixtures; trueGibbs normalized caps κ32<=17/125,κ64<=157/1000. This is not MPS=Gibbs or spectral truncation. Initial162→130 producerwrapper change/stoppedrun/corrected authorized retry remain preserved.
+
+Numerical24/control review3dc84b1b0909403e3555f19b5ae2035219bdc579c0f039043d07ee94b7f2355e COMPONENT_PASS: sixphysicalfixtures24fields/30KJpairs,2945syntheticrestart and one realvacuumchunk/controlfaults. Fullproduction remainsBLOCKED: externally pinned guard from processstart and accepted57D EXPECTED_M012 independently verified, plus explicit resourceauthority/jobidentity required. Active launchpackage excluded. No full8x4moments,gap or production run.106reviewreservedCPU preserved with all failed attempts.
+
+Restricted-cell proposal is producer-only, cell15/16/17 recipe did notclose; target.835 unachieved/counterfactual, no physicalg.9 seed/gap/no-go. Child30.397826CPU,charged30.697826 exceed30authorized,resourceNOT_ACCEPTED and stopped. All previous resourceexceptions and snapshots preserved. Uniform.0248/bilayernestedbounds/thermalDONE unchanged.
+
+Next: stage21publication QA; independent launchguard/exact57Dcontrolreview without assuming production permission. Nextreport08:15UTC; strict entiretaskstop2026-10-14 00UTC /October13 20EDT with complete/partial evidence saved.
+
+Root verification confirms122 stage21 sealed files match manifest36e427dd2105465d40adf8b3d8c36cd76bff079b31a995bef1efa9837d847da4. Frozen QA includes108reviewseals/8049entries,360guards,48exports. Active outer-launch and H²64 work remain excluded. No unverified post-freeze replay timestamp is asserted by this root update.

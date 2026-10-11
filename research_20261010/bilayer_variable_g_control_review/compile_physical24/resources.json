@@ -1,0 +1,28 @@
+{
+  "name": "compile_physical24",
+  "cap_cpu_seconds": 8,
+  "address_space_mib": 512,
+  "charged_cpu_seconds": 8,
+  "command": [
+    "g++",
+    "-O1",
+    "-std=c++17",
+    "research_20261010/bilayer_variable_g_control_review/independent_physical24.cpp",
+    "-o",
+    "research_20261010/bilayer_variable_g_control_review/independent_physical24"
+  ],
+  "state": "completed",
+  "pid": 6,
+  "exit_status": 0,
+  "wait4_user_seconds": 2.819747,
+  "wait4_system_seconds": 1.2005,
+  "wait4_cpu_seconds": 4.0202469999999995,
+  "max_live_tree_cpu_seconds": 3.98,
+  "max_observed_processes": 3,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 4.063420587997825,
+  "peak_rss_kib": 222748,
+  "max_observed_tree_rss_bytes": 229273600,
+  "stop_reason": null
+}

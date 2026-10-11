@@ -1,0 +1,25 @@
+{
+  "status": "FAILED_NO_AUTOMATIC_RETRY",
+  "exit_code": 1,
+  "watchdog_fired": null,
+  "wait4_user_cpu_seconds": 3.429799,
+  "wait4_system_cpu_seconds": 0.140126,
+  "wait4_total_cpu_seconds": 3.569925,
+  "wait4_peak_rss_kib": 15588,
+  "wall_seconds": 3.7349943360022735,
+  "parent_cpu_seconds": 0.05284861299999999,
+  "child_hard_cpu_seconds": 26,
+  "parent_hard_cpu_seconds": 1,
+  "aggregate_authorized_cpu_seconds": 30,
+  "child_active_cpu_kill_threshold": 25,
+  "active_poll_count": 180,
+  "max_polled_cpu_seconds": 3.56,
+  "hard_address_space_mib": 256,
+  "CPU_affinity": [
+    4
+  ],
+  "prior_scalar_child_CPU_seconds": 0.452154,
+  "prior_scalar_parent_CPU_seconds": 0.006521998,
+  "physical_contractions": false,
+  "automatic_retry": false
+}

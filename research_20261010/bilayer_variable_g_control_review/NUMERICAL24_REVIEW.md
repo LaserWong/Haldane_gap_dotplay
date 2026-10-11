@@ -1,0 +1,17 @@
+# Completed numerical24-field review, production control still separate
+
+2026-10-11 03:52UTC. Numerical source manifest1f8a2d76a5cf295d78ea75718220df9ca6ddcf6d99215a6bfb4050c777e0c067. This is the numerical part of an active review; it does not approve production.
+
+PASS: the versioned24-field extension appends UZ=<Qψ,z> and WZ=<Qχ,z>, with fixed χ=T0ψ,z=T0χ and T0=200Q+11(C+C†+D). Every old source/operator kernel line before the scalar accumulator declarations is identical to the accepted22-field version. The old target step is identical after removing only the two new bilinear additions; no old signed term or source path was replaced.
+
+The independent reference is a standalone dense-vector program derived from the previously accepted independent spin-swap implementation. It neither includes nor calls the producer's source/kernel, sparse physical reference, matching contraction, or polynomial pencil formulas. It independently constructs the localized, symmetrized and generic sources on4×2/5×2; computes fullψ,χ,z and their Q images; and computes actual first/second matrix elements for g=0,1/10,11/100,3/25,1/4. All six source/geometry cases agree in m0–m4, the six Q/Q² weighted Gram quantities, both appended bilinears, and all30 K/J matrix pairs (180 independent symmetric matrix entries). The full dense χ/z retain q8/q10, so high-sector omission cannot hide behind low-sector equality.
+
+VARIABLE_G_DERIVATION.md independently proves the reconstruction. In particular WZ has a q8 contribution. Its equivalent old-field form is1548800n8+10648d8+4cross6; UZ has no high-sector correction. The producer's gamma-v form gives the same complete physical WZ in every fixture. cR/cM remain distinct, and the trial columns ψ,χ are fixed as g varies.
+
+The physical K(g) denominator is22·g_den and J(g) denominator is(22·g_den)^2. Earlier fixture keys K_scaled_11/J_scaled_121 refer to11/121 times the integer H(2g_den,g_num) matrices, not a denominator of11/121 for physical H′. The final consumer uses explicit physical denominators correctly. No independent normalization is applied to the second trial column.
+
+The consumer rejects stale22-field vectors. Pure signed synthetic algebra checks verify the q4 factor8 and q6 factor16/3, without assuming positivity of partial commutator contributions. The complete-control routine rejects an intentionally changed m2. That small-fixture mutation test is not a completed8×4 accepted57D control: full physical m0/m1/m2 equality is still a mandatory final complete-coverage gate.
+
+The new review ledger has25/90 seconds conservatively reserved so far:8 for compilation,12 for dense references,5 for checking. Actual aggregate wait4 is6.113365 seconds. The dense runtime took1.981667 CPU seconds, peakRSS76436KiB; compilation took4.020247 seconds, peakRSS222748KiB under512MiB. All work used CPU7 and the external aggregate process-tree guard.65 reserved seconds remain for the separately revised production controls. The previous whole-moment review's90/90 ledger and the read-only22-field finding remain unchanged.
+
+Production remains blocked pending the new metadata/controller revision and its independent review. In particular the frozen numerical package's historical production entrypoint has repeated-adoption scaling and unenforced cumulative-controller-budget limitations. No full8×4 moment, eigenvalue endpoint, all-size gap, or production job was computed or authorized here.

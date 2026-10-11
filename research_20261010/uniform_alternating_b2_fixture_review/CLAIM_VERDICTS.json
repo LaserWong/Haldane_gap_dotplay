@@ -1,0 +1,37 @@
+{
+  "historical_issues": [
+    "Fixture adjacent-omission label actually tests doubled subtraction; true omission independently checked.",
+    "Producer first32 wrapper changed162 to130; stopped, retained, and explicitly authorized corrected retry independently verified."
+  ],
+  "mathematical": {
+    "Gibbs_effect_fidelity_bound": "PASS",
+    "adjacent_both_orders": "PASS",
+    "overlap_safe_formula": "PASS",
+    "signed_binary_convolution": "PASS"
+  },
+  "not_claimed": [
+    "new all-size robust interval",
+    "H2 production at32/64",
+    "thermal spectral truncation",
+    "optimality"
+  ],
+  "physical": {
+    "D26_all_saved_local_entries": "PASS",
+    "accepted_N_and_total_H_both_lengths": "PASS",
+    "beta": "49/4",
+    "complete_L4_L6_D26_and_two_D2_families": "PASS",
+    "independent_exact_L32_all_11_blocks": "PASS",
+    "independent_exact_L64_all_11_blocks": "PASS",
+    "kappa32_upper": "17/125",
+    "kappa64_upper": "157/1000"
+  },
+  "producer_manifests": {
+    "uniform_alternating_b2_32_retry1": "eccb1dcbcf423c3c2678bde743bce0882c81473415160bdd24d8beb4e87d9b75",
+    "uniform_alternating_b2_64_pilot": "26d1977cf2324cd693c306aecd3b621989364e773413192253670c0951ca3570",
+    "uniform_alternating_b2_fixture": "0cad4bf9a9bd907cd9be78a6eceaf20ec041b45c3d398fd664c38bd49ee88696",
+    "uniform_gap_0248_all_sizes_review": "5407745b521a61a310d89857da94c14a73fcc2093a80d467dc8f72e9fd31deaf",
+    "uniform_smaller_second_initialization_review": "54401c08804d8cade3cd91f652c2ae4d9182ceb25599e153802cc1a1770ffa2f"
+  },
+  "resource": "PASS_WITH_PRESERVED_PREEXEC_COMPILE_FAILURE_AND_EXPLICITLY_AUTHORIZED_CORRECTION",
+  "status": "ACCEPTED"
+}
