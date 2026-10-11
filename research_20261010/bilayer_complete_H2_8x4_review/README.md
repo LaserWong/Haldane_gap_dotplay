@@ -1,0 +1,1 @@
+Independent acceptance of the complete43D8x4 H² matrix and all coupling-polynomial coefficients. All784 missing-block entries checked by an independent full support pass. No new ground endpoint or all-size gap is claimed. See ACCEPTANCE.json and PROOF.md; REPRODUCE.sh rebuilds and repeats the independent complete pass.

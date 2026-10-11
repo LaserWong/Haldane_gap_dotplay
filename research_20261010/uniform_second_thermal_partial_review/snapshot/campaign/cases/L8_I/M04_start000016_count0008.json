@@ -1,0 +1,78 @@
+{
+  "payload": {
+    "identity": {
+      "case_sha256": "ab0216a482fa176af90f7d306d0c294754cb9866d9aa585020eab48ddb529555",
+      "parameters": {
+        "n": 8,
+        "twist": "I",
+        "beta": "49/4",
+        "shift": "700741/500000",
+        "cutoff": 280,
+        "Q": 36028797018963968,
+        "mode": "full_nonnegative_M",
+        "batch_size": 16
+      },
+      "pins": {
+        "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+        "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+        "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+        "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+      },
+      "M": 4,
+      "start": 16,
+      "count": 8,
+      "matrix_sha256": "944c205dd24f4d098f16002e5e0c478910ef2ac538434328561e404998de4053",
+      "orbit_sha256": "a6deb64424386f7dc9c60d7b9512c80c3308b5dab3eb8cc6b2de9a6b2b1185c6"
+    },
+    "records": [
+      {
+        "code": 3320,
+        "multiplicity": 16,
+        "norm_squared": 128
+      },
+      {
+        "code": 3374,
+        "multiplicity": 32,
+        "norm_squared": 122
+      },
+      {
+        "code": 3392,
+        "multiplicity": 16,
+        "norm_squared": 128
+      },
+      {
+        "code": 3536,
+        "multiplicity": 16,
+        "norm_squared": 128
+      },
+      {
+        "code": 3554,
+        "multiplicity": 32,
+        "norm_squared": 122
+      },
+      {
+        "code": 3560,
+        "multiplicity": 16,
+        "norm_squared": 128
+      },
+      {
+        "code": 3608,
+        "multiplicity": 8,
+        "norm_squared": 128
+      },
+      {
+        "code": 4100,
+        "multiplicity": 4,
+        "norm_squared": 128
+      }
+    ],
+    "weighted_norm": 17536,
+    "resources": {
+      "cpu_seconds": 0.00793000000000002,
+      "wall_seconds": 0.010498545998416375,
+      "child_maxrss_kib": 9480,
+      "diagnostic": "seconds=0.00237444 d=266 nnz=1834 reps=24 rowsum=24\n"
+    }
+  },
+  "sha256": "27cdc9101cb42b5801150eeb2de98b1a90beaa8b345c11a16ca3a150a9792935"
+}

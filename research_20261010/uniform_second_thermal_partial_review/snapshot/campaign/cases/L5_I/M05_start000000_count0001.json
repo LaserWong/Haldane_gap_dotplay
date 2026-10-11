@@ -1,0 +1,43 @@
+{
+  "payload": {
+    "identity": {
+      "case_sha256": "edf2e6d5f49a1ae47a21298ff8316a35851d02a9188794f3af8af261d2eaea6b",
+      "parameters": {
+        "n": 5,
+        "twist": "I",
+        "beta": "49/4",
+        "shift": "700741/500000",
+        "cutoff": 280,
+        "Q": 36028797018963968,
+        "mode": "full_nonnegative_M",
+        "batch_size": 16
+      },
+      "pins": {
+        "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+        "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+        "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+        "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+      },
+      "M": 5,
+      "start": 0,
+      "count": 1,
+      "matrix_sha256": "01e2cc0bc4bbc7386820bbf148adf941e3fc8370fa48118f7c6bdbfa99d361c9",
+      "orbit_sha256": "efd43ade8b59d740005b6714cd667de60443dc535fb629bbcebaffa1ce864486"
+    },
+    "records": [
+      {
+        "code": 242,
+        "multiplicity": 2,
+        "norm_squared": 0
+      }
+    ],
+    "weighted_norm": 0,
+    "resources": {
+      "cpu_seconds": 0.004398000000000006,
+      "wall_seconds": 0.006631258002016693,
+      "child_maxrss_kib": 9328,
+      "diagnostic": "seconds=3.9251e-05 d=1 nnz=1 reps=1 rowsum=7\n"
+    }
+  },
+  "sha256": "f74c14cf96a6eb3ac0e64f4a0721db74f2a40c22029f7b4a52b6d9e1d2627df2"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS_COMPLETE_8X4_PHYSICAL_H2_MATRIX",
+  "geometry": [
+    8,
+    4
+  ],
+  "physical_spins": 64,
+  "full_Hilbert_dimension": "18446744073709551616",
+  "trial_dimension": 43,
+  "missing_block_dimension": 14,
+  "independent_entries_verified": 784,
+  "complete_H2_coefficient_entries_verified": 5547,
+  "all4495_q4_supports": true,
+  "all169911_q6_supports": true,
+  "M_zero_supports_retained": 96705,
+  "M_zero_TT_trace": 4505303808,
+  "signed_commutator_and_complete_q8_PSD": true,
+  "all_mixed_blocks_and_coupling_polynomial_exact": true,
+  "projected_H2_rejected": true,
+  "prior_full_residual_polynomial_reproduced": true,
+  "sector_specific_pencil_obligations_preserved": true,
+  "new_ground_endpoint_claim": false,
+  "new_all_size_gap_claim": false,
+  "producer_manifest_sha256": "554c761bdb4ce1dfc6e8543ef145af43f30f1929f8553ff821e1c633a4f31118",
+  "fixture_review_manifest_sha256": "a4eec8140e891b53cc9bd4c237c95236dd32a7069180ed9bc9355df82e4060fb",
+  "independent_full_pass_cpu_seconds": 28.628992,
+  "independent_full_pass_peak_rss_kib": 13568,
+  "no_producer_root_or_GitHub_edits": true
+}

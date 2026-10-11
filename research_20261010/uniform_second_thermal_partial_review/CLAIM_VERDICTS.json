@@ -1,0 +1,32 @@
+{
+  "status": "ACCEPTED partial physical reproduction only",
+  "full_input_cases": 16,
+  "lengths": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "seams": [
+    "I",
+    "P"
+  ],
+  "beta": "49/4",
+  "exact_published_W_matches": 16,
+  "all18_thermal_premises_discharged": false,
+  "missing_cases": [
+    "L12_I",
+    "L12_P"
+  ],
+  "valid_saved_batches": 990,
+  "terminal_state": "BUDGET_RESERVATION_EXHAUSTED",
+  "charged_CPU_seconds": 16207,
+  "remaining_ledger_CPU_seconds": 5393,
+  "unknown_failed_reservations_retained": 14640,
+  "no_restart_or_refund_authorized": true,
+  "second_initialization_gap_status": "CONDITIONAL, unchanged"
+}

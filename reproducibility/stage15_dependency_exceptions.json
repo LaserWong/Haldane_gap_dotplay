@@ -1,0 +1,12 @@
+{
+  "scope": "Historical source-state index versus independently sealed immutable review snapshot",
+  "exceptions": [
+    {
+      "manifest": "research_20261010/uniform_second_thermal_campaign_partial_outcome/CAMPAIGN_STATE_SHA256.json",
+      "historical_relative_path": "campaign.lock",
+      "historical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "historical_size_bytes": 0,
+      "resolution": "Intentionally excluded by the independent review snapshot manifest. It is an empty operational lock, not scientific evidence. All other 1143 historical state entries are verified at research_20261010/uniform_second_thermal_partial_review/snapshot/campaign. No live campaign path was read or copied for publication."
+    }
+  ]
+}

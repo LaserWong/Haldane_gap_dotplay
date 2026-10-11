@@ -1,0 +1,68 @@
+{
+  "payload": {
+    "identity": {
+      "case_sha256": "ab0216a482fa176af90f7d306d0c294754cb9866d9aa585020eab48ddb529555",
+      "parameters": {
+        "n": 8,
+        "twist": "I",
+        "beta": "49/4",
+        "shift": "700741/500000",
+        "cutoff": 280,
+        "Q": 36028797018963968,
+        "mode": "full_nonnegative_M",
+        "batch_size": 16
+      },
+      "pins": {
+        "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+        "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+        "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+        "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+      },
+      "M": 1,
+      "start": 64,
+      "count": 6,
+      "matrix_sha256": "fc38db75276d08a69d34fd555d4e64df6100e0175dca249d7b8f8eb5a023f94f",
+      "orbit_sha256": "3926da8544a29a67ca07f3a51e7afc9e10e8d25e5eb8a184779cb20a0015383f"
+    },
+    "records": [
+      {
+        "code": 1361,
+        "multiplicity": 16,
+        "norm_squared": 263893279684730778879071
+      },
+      {
+        "code": 1397,
+        "multiplicity": 32,
+        "norm_squared": 616423934900596133977202
+      },
+      {
+        "code": 1643,
+        "multiplicity": 16,
+        "norm_squared": 3205576314014984543847588
+      },
+      {
+        "code": 1661,
+        "multiplicity": 16,
+        "norm_squared": 3146113437708573740367409
+      },
+      {
+        "code": 1823,
+        "multiplicity": 16,
+        "norm_squared": 2137528877624261004981466
+      },
+      {
+        "code": 3281,
+        "multiplicity": 16,
+        "norm_squared": 1306097352715346600248244
+      }
+    ],
+    "weighted_norm": 180672914104785422980450912,
+    "resources": {
+      "cpu_seconds": 0.023797000000000013,
+      "wall_seconds": 0.027347209994331934,
+      "child_maxrss_kib": 9428,
+      "diagnostic": "seconds=0.0140896 d=1016 nnz=8744 reps=70 rowsum=36\n"
+    }
+  },
+  "sha256": "1cbfe6d7ddc5651eac6eac6db8751766a07e4ef14b3ab873c4bb940c4cb92bc5"
+}

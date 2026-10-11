@@ -1,0 +1,20 @@
+checkpoint M00_start000000_count0016.json
+checkpoint M00_start000016_count0016.json
+checkpoint M00_start000032_count0016.json
+checkpoint M00_start000048_count0016.json
+checkpoint M00_start000064_count0016.json
+checkpoint M00_start000080_count0016.json
+checkpoint M00_start000096_count0016.json
+checkpoint M00_start000112_count0016.json
+checkpoint M00_start000128_count0016.json
+checkpoint M00_start000144_count0016.json
+checkpoint M00_start000160_count0016.json
+checkpoint M00_start000176_count0016.json
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/campaign.py", line 109, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/campaign.py", line 103, in main
+    b=resource.getrusage(resource.RUSAGE_CHILDREN);wall=time.monotonic();r=subprocess.run(command(n,t,s['M'],start,count,'compute'),capture_output=True,text=True,preexec_fn=limits(args.cpu,min(120,remaining)),timeout=min(125,remaining+5));a=resource.getrusage(resource.RUSAGE_CHILDREN);assert r.returncode==0,(r.returncode,r.stderr)
+                                                                                                                                                                                                                                                                                                     ^^^^^^^^^^^^^^^
+AssertionError: (-9, '')

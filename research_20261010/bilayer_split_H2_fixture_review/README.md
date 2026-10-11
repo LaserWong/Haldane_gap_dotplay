@@ -1,0 +1,1 @@
+Independent complete21D4x4 split R/M fixture accepted. All125 oriented image-block entries and full H² polynomial verified; exact16D compression and full residual PSD pass. Partial8x4 recombination is not a full matrix certificate. See ACCEPTANCE.json and PROOF.md. REPRODUCE.sh rebuilds the independent checker and repeats the small complete pass.

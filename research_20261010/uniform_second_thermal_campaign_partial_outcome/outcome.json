@@ -1,0 +1,251 @@
+{
+  "status": "TERMINAL PARTIAL, no restart authorized",
+  "terminal_state": "BUDGET_RESERVATION_EXHAUSTED",
+  "charged_cpu_seconds": 16207,
+  "remaining_ledger_seconds": 5393,
+  "unknown_full_charges": [
+    {
+      "id": "42c340703b89456bb17690aa738ed015",
+      "details": {
+        "n": 12,
+        "twist": "I",
+        "action": "run",
+        "cpu": 0,
+        "max_new_batches": 32
+      },
+      "charge": 7320
+    },
+    {
+      "id": "7764ed460eda4473b9258faa94b14284",
+      "details": {
+        "n": 12,
+        "twist": "P",
+        "action": "run",
+        "cpu": 1,
+        "max_new_batches": 32
+      },
+      "charge": 7320
+    }
+  ],
+  "complete_cases": [
+    {
+      "case": "L10_I",
+      "W": "19772960374215472827775892486",
+      "matches_published": true,
+      "batches": 110,
+      "representatives": 1652
+    },
+    {
+      "case": "L10_P",
+      "W": "5030484777222468978572235564",
+      "matches_published": true,
+      "batches": 110,
+      "representatives": 1652
+    },
+    {
+      "case": "L11_I",
+      "W": "841347687722481981930750335",
+      "matches_published": true,
+      "batches": 274,
+      "representatives": 4270
+    },
+    {
+      "case": "L11_P",
+      "W": "2928767918985354021900689432",
+      "matches_published": true,
+      "batches": 274,
+      "representatives": 4270
+    },
+    {
+      "case": "L4_I",
+      "W": "1298092848946206529211955779616040",
+      "matches_published": true,
+      "batches": 5,
+      "representatives": 13
+    },
+    {
+      "case": "L4_P",
+      "W": "683496640248050713756440676071",
+      "matches_published": true,
+      "batches": 5,
+      "representatives": 13
+    },
+    {
+      "case": "L5_I",
+      "W": "9095379218684502088743241789",
+      "matches_published": true,
+      "batches": 6,
+      "representatives": 22
+    },
+    {
+      "case": "L5_P",
+      "W": "9205948219074287936685289758037",
+      "matches_published": true,
+      "batches": 6,
+      "representatives": 22
+    },
+    {
+      "case": "L6_I",
+      "W": "11971284263768914176431179720622",
+      "matches_published": true,
+      "batches": 7,
+      "representatives": 52
+    },
+    {
+      "case": "L6_P",
+      "W": "266573596119930013833919176645",
+      "matches_published": true,
+      "batches": 7,
+      "representatives": 52
+    },
+    {
+      "case": "L7_I",
+      "W": "15044150708248976451784593468",
+      "matches_published": true,
+      "batches": 11,
+      "representatives": 106
+    },
+    {
+      "case": "L7_P",
+      "W": "534330762492192297990602166370",
+      "matches_published": true,
+      "batches": 11,
+      "representatives": 106
+    },
+    {
+      "case": "L8_I",
+      "W": "386135473475360677201628357188",
+      "matches_published": true,
+      "batches": 22,
+      "representatives": 266
+    },
+    {
+      "case": "L8_P",
+      "W": "42459883501386986922766507327",
+      "matches_published": true,
+      "batches": 22,
+      "representatives": 266
+    },
+    {
+      "case": "L9_I",
+      "W": "4866417737994347551816846903",
+      "matches_published": true,
+      "batches": 46,
+      "representatives": 630
+    },
+    {
+      "case": "L9_P",
+      "W": "37716485750353424806876104310",
+      "matches_published": true,
+      "batches": 46,
+      "representatives": 630
+    }
+  ],
+  "total_valid_batch_files": 990,
+  "L12": [
+    {
+      "twist": "I",
+      "completed_representatives": 256,
+      "remaining_representatives": 11339,
+      "completed_batches": 16,
+      "remaining_batches": 717,
+      "total_batches": 733,
+      "saved_cpu_seconds": 116.49563499999998,
+      "batch_cpu_min_mean_max": [
+        6.8062319999999925,
+        7.280977187499999,
+        8.978337000000002
+      ],
+      "batch_cpu_seconds": [
+        7.697388,
+        7.173353999999998,
+        7.733406000000002,
+        6.860231999999999,
+        7.013332999999994,
+        6.948879000000002,
+        7.351848,
+        6.960619999999995,
+        6.959320999999999,
+        6.965739000000015,
+        7.275951999999996,
+        7.990815999999991,
+        6.901992999999998,
+        6.8062319999999925,
+        6.878184999999998,
+        8.978337000000002
+      ],
+      "kernel_wall_seconds": [
+        6.82895,
+        6.31751,
+        6.94073,
+        6.02562,
+        6.20808,
+        6.05733,
+        6.66095,
+        6.03866,
+        6.18035,
+        6.32279,
+        6.45163,
+        7.13806,
+        6.11796,
+        6.05664,
+        6.07998,
+        8.83346
+      ],
+      "kernel_seconds_per_nnz_representative": 4.503435646769498e-07,
+      "estimated_remaining_kernel_seconds": 3175.369166313347,
+      "estimated_batch_setup_seconds": 0.7648084374999984,
+      "estimated_remaining_total_seconds": 3723.7368160008455,
+      "warning": "host-based scaling estimate, not rigorous completion bound; wall-to-CPU approximation"
+    },
+    {
+      "twist": "P",
+      "completed_representatives": 192,
+      "remaining_representatives": 11403,
+      "completed_batches": 12,
+      "remaining_batches": 721,
+      "total_batches": 733,
+      "saved_cpu_seconds": 114.88107699999999,
+      "batch_cpu_min_mean_max": [
+        7.972678000000001,
+        9.573423083333333,
+        11.627466000000002
+      ],
+      "batch_cpu_seconds": [
+        10.539507,
+        10.278629999999998,
+        7.972678000000001,
+        11.627466000000002,
+        9.025030000000005,
+        9.799764999999994,
+        9.32312600000001,
+        9.517974999999986,
+        8.976733000000005,
+        8.546727000000006,
+        9.422706999999987,
+        9.850733
+      ],
+      "kernel_wall_seconds": [
+        9.5736,
+        9.176,
+        7.17931,
+        11.5183,
+        8.13027,
+        8.88702,
+        8.40803,
+        8.57333,
+        8.10284,
+        7.68926,
+        8.61522,
+        8.88766
+      ],
+      "kernel_seconds_per_nnz_representative": 6.032348795557979e-07,
+      "estimated_remaining_kernel_seconds": 4288.318317717839,
+      "estimated_batch_setup_seconds": 0.8450197499999987,
+      "estimated_remaining_total_seconds": 4897.577557467838,
+      "warning": "host-based scaling estimate, not rigorous completion bound; wall-to-CPU approximation"
+    }
+  ],
+  "current_runtime_estimate_remaining_seconds": 8621.314373468684,
+  "no_new_gap_claim": "Full18 thermal premise remains incomplete; L12I/P partials are not trace certificates."
+}

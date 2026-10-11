@@ -1,0 +1,63 @@
+{
+  "payload": {
+    "identity": {
+      "case_sha256": "0ce5d406f60f1caf99aa85f81e24d6e9a581a3482183edf0d0873db276a2fa4c",
+      "parameters": {
+        "n": 4,
+        "twist": "I",
+        "beta": "49/4",
+        "shift": "700741/500000",
+        "cutoff": 280,
+        "Q": 36028797018963968,
+        "mode": "full_nonnegative_M",
+        "batch_size": 16
+      },
+      "pins": {
+        "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+        "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+        "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+        "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+      },
+      "M": 0,
+      "start": 0,
+      "count": 5,
+      "matrix_sha256": "25b1a7fc24d658bb6fdfcc75fb541dcc075fd23847f8165ca13196b2690284bf",
+      "orbit_sha256": "aa02492311c426f756d8ed3ec139a033aca145d689e3426ec0af550b2bb070bb"
+    },
+    "records": [
+      {
+        "code": 8,
+        "multiplicity": 4,
+        "norm_squared": 7211523414631594353202485147729
+      },
+      {
+        "code": 14,
+        "multiplicity": 8,
+        "norm_squared": 64903866017623039741666535414361
+      },
+      {
+        "code": 16,
+        "multiplicity": 4,
+        "norm_squared": 28846093658526499361818313070694
+      },
+      {
+        "code": 20,
+        "multiplicity": 2,
+        "norm_squared": 259617327501740359385156756571705
+      },
+      {
+        "code": 40,
+        "multiplicity": 1,
+        "norm_squared": 115384374634106542890288639675154
+      }
+    ],
+    "weighted_norm": 1298080426071203954454017629007144,
+    "resources": {
+      "cpu_seconds": 0.004876999999999999,
+      "wall_seconds": 0.007770741001877468,
+      "child_maxrss_kib": 9316,
+      "diagnostic": "seconds=0.00011954 d=19 nnz=99 reps=5 rowsum=36\n"
+    }
+  },
+  "sha256": "b67d0dfcdecb1c61137f659bb061a7c50ce952670a08fd7bcedc951620378828"
+}

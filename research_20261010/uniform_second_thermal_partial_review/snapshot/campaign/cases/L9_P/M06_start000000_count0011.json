@@ -1,0 +1,93 @@
+{
+  "payload": {
+    "identity": {
+      "case_sha256": "82ed7d5da12e1b8aba51539750fe5b9351d004c2b28a84b150e8aa513affbe61",
+      "parameters": {
+        "n": 9,
+        "twist": "P",
+        "beta": "49/4",
+        "shift": "700741/500000",
+        "cutoff": 280,
+        "Q": 36028797018963968,
+        "mode": "full_nonnegative_M",
+        "batch_size": 16
+      },
+      "pins": {
+        "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+        "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+        "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+        "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+      },
+      "M": 6,
+      "start": 0,
+      "count": 11,
+      "matrix_sha256": "3845e1b0c20953912397ff227d8c1b4defc195cadf6cc05d6bdbea352a35006c",
+      "orbit_sha256": "7f7916e700cca882fec117deb3cfd2c7891c73f209789ef7f2164b6e267b12eb"
+    },
+    "records": [
+      {
+        "code": 4373,
+        "multiplicity": 36,
+        "norm_squared": 35
+      },
+      {
+        "code": 5831,
+        "multiplicity": 36,
+        "norm_squared": 18
+      },
+      {
+        "code": 6317,
+        "multiplicity": 36,
+        "norm_squared": 35
+      },
+      {
+        "code": 6479,
+        "multiplicity": 36,
+        "norm_squared": 21
+      },
+      {
+        "code": 10205,
+        "multiplicity": 18,
+        "norm_squared": 35
+      },
+      {
+        "code": 10691,
+        "multiplicity": 36,
+        "norm_squared": 19
+      },
+      {
+        "code": 10853,
+        "multiplicity": 36,
+        "norm_squared": 34
+      },
+      {
+        "code": 10907,
+        "multiplicity": 18,
+        "norm_squared": 18
+      },
+      {
+        "code": 12311,
+        "multiplicity": 18,
+        "norm_squared": 22
+      },
+      {
+        "code": 12365,
+        "multiplicity": 36,
+        "norm_squared": 33
+      },
+      {
+        "code": 12869,
+        "multiplicity": 6,
+        "norm_squared": 34
+      }
+    ],
+    "weighted_norm": 8574,
+    "resources": {
+      "cpu_seconds": 0.008616999999999972,
+      "wall_seconds": 0.010952789001748897,
+      "child_maxrss_kib": 9752,
+      "diagnostic": "seconds=0.00196656 d=156 nnz=930 reps=11 rowsum=17\n"
+    }
+  },
+  "sha256": "6f1162faa6c6f124ec839c6ade134b92fa063395eaf22b9388543d026dccd889"
+}

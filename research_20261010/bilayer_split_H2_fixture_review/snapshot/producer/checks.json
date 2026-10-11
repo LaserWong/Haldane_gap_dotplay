@@ -1,0 +1,23 @@
+{
+  "status": "PRODUCER_SPLIT_FIXTURE_PASSES_PENDING_INDEPENDENT_REVIEW",
+  "checks": [
+    {
+      "geometry": "4x4",
+      "partial": false,
+      "PP_and_TT_recombination_exact": true
+    },
+    {
+      "geometry": "8x4",
+      "partial": true,
+      "PP_and_TT_recombination_exact": true
+    },
+    {
+      "geometry": "4x4",
+      "trial_dimension": 21,
+      "full_Hilbert_dimension": "4294967296",
+      "full_G_K_J_compression_exact": true,
+      "full_unprojected_residual_PSD": true,
+      "q8_MM_only": true
+    }
+  ]
+}

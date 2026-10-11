@@ -1,0 +1,73 @@
+{
+  "payload": {
+    "identity": {
+      "case_sha256": "7224c10770f770b39b43b77ad9a32d25200188d3a45b4237781ca21cd21d27de",
+      "parameters": {
+        "n": 7,
+        "twist": "P",
+        "beta": "49/4",
+        "shift": "700741/500000",
+        "cutoff": 280,
+        "Q": 36028797018963968,
+        "mode": "full_nonnegative_M",
+        "batch_size": 16
+      },
+      "pins": {
+        "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+        "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+        "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+        "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+      },
+      "M": 0,
+      "start": 16,
+      "count": 7,
+      "matrix_sha256": "6152cc17d24b7a3be0edf715336cc3f657a387a159dd76ed62ea07809a5d39fd",
+      "orbit_sha256": "af1cf786fc66364591ff9479f19b96c92b9d452baa230d4336fbb3c1ef5a3b54"
+    },
+    "records": [
+      {
+        "code": 371,
+        "multiplicity": 14,
+        "norm_squared": 5829946144467490988397894323
+      },
+      {
+        "code": 373,
+        "multiplicity": 14,
+        "norm_squared": 1316197042324947235779972970
+      },
+      {
+        "code": 383,
+        "multiplicity": 14,
+        "norm_squared": 2847030160685029154440731938
+      },
+      {
+        "code": 385,
+        "multiplicity": 28,
+        "norm_squared": 2773303116049952273565219933
+      },
+      {
+        "code": 421,
+        "multiplicity": 14,
+        "norm_squared": 1324648093096679011719432116
+      },
+      {
+        "code": 425,
+        "multiplicity": 14,
+        "norm_squared": 11826466242997035488565385505
+      },
+      {
+        "code": 1093,
+        "multiplicity": 1,
+        "norm_squared": 7044379891052440147714380640
+      }
+    ],
+    "weighted_norm": 408716894710447650112188374692,
+    "resources": {
+      "cpu_seconds": 0.01199399999999999,
+      "wall_seconds": 0.014594562999263871,
+      "child_maxrss_kib": 9340,
+      "diagnostic": "seconds=0.00441841 d=393 nnz=3081 reps=23 rowsum=39\n"
+    }
+  },
+  "sha256": "70acdaa8e02a37f79a35d966a0905ca8ca92b70f8bf941bde07dc07e9ed26934"
+}

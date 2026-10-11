@@ -1,0 +1,294 @@
+{
+  "payload": {
+    "parameters": {
+      "n": 6,
+      "twist": "P",
+      "beta": "49/4",
+      "shift": "700741/500000",
+      "cutoff": 280,
+      "Q": 36028797018963968,
+      "mode": "full_nonnegative_M",
+      "batch_size": 16
+    },
+    "pins": {
+      "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+      "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+      "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+      "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+    },
+    "sectors": [
+      {
+        "M": 0,
+        "dimension": 141,
+        "nnz": 981,
+        "representatives": [
+          [
+            26,
+            6
+          ],
+          [
+            44,
+            12
+          ],
+          [
+            50,
+            24
+          ],
+          [
+            52,
+            6
+          ],
+          [
+            62,
+            12
+          ],
+          [
+            68,
+            12
+          ],
+          [
+            104,
+            6
+          ],
+          [
+            122,
+            12
+          ],
+          [
+            124,
+            12
+          ],
+          [
+            128,
+            12
+          ],
+          [
+            130,
+            6
+          ],
+          [
+            140,
+            6
+          ],
+          [
+            142,
+            12
+          ],
+          [
+            182,
+            2
+          ],
+          [
+            364,
+            1
+          ]
+        ],
+        "orbit_sha256": "c3f901495e4b9f4803bf5b459b8bb924a77d97cffc93abdcd94efb99f45353b0",
+        "matrix_sha256": "055292756aa32d94663ae927cbfdcb06f23d8866afeeea358bf0ba18e7de0279"
+      },
+      {
+        "M": 1,
+        "dimension": 126,
+        "nnz": 858,
+        "representatives": [
+          [
+            53,
+            24
+          ],
+          [
+            71,
+            24
+          ],
+          [
+            107,
+            12
+          ],
+          [
+            125,
+            24
+          ],
+          [
+            131,
+            24
+          ],
+          [
+            133,
+            24
+          ],
+          [
+            143,
+            24
+          ],
+          [
+            149,
+            24
+          ],
+          [
+            151,
+            12
+          ],
+          [
+            155,
+            24
+          ],
+          [
+            185,
+            12
+          ],
+          [
+            203,
+            12
+          ],
+          [
+            365,
+            12
+          ]
+        ],
+        "orbit_sha256": "be084a1f378bd64e6a8db2aa5bf46c4cade63283c954d14ac0d218e3e6d575a0",
+        "matrix_sha256": "2f3fc0227b0589284a2e979f9f247583f18a0d69a48037767c0839d189df1621"
+      },
+      {
+        "M": 2,
+        "dimension": 90,
+        "nnz": 570,
+        "representatives": [
+          [
+            80,
+            12
+          ],
+          [
+            134,
+            24
+          ],
+          [
+            152,
+            24
+          ],
+          [
+            158,
+            24
+          ],
+          [
+            160,
+            12
+          ],
+          [
+            188,
+            12
+          ],
+          [
+            206,
+            24
+          ],
+          [
+            212,
+            12
+          ],
+          [
+            224,
+            6
+          ],
+          [
+            368,
+            12
+          ],
+          [
+            374,
+            12
+          ],
+          [
+            392,
+            6
+          ]
+        ],
+        "orbit_sha256": "073297825142cad8481d5ff46d12172ad26032ec428e65209923f8d86afca95e",
+        "matrix_sha256": "6b8363cd9ccaf57ab15eeb1715adf17752712d4a6e48be1edf8bc900ae2a7987"
+      },
+      {
+        "M": 3,
+        "dimension": 50,
+        "nnz": 278,
+        "representatives": [
+          [
+            161,
+            24
+          ],
+          [
+            215,
+            24
+          ],
+          [
+            233,
+            12
+          ],
+          [
+            377,
+            12
+          ],
+          [
+            395,
+            24
+          ],
+          [
+            455,
+            4
+          ]
+        ],
+        "orbit_sha256": "c8d345da9c7f47aacb2caf998cf357f90d59f91a955b969c8e93b8385a13e96c",
+        "matrix_sha256": "3f8e0d1e8ebad21e355beef1fd723abae1b2c62b24cd5384227bc1269c437d27"
+      },
+      {
+        "M": 4,
+        "dimension": 21,
+        "nnz": 93,
+        "representatives": [
+          [
+            242,
+            12
+          ],
+          [
+            404,
+            12
+          ],
+          [
+            458,
+            12
+          ],
+          [
+            476,
+            6
+          ]
+        ],
+        "orbit_sha256": "09b2179237715a10e35a60447ffbcb0379d2cc24c658182f7d96b97ab98aa979",
+        "matrix_sha256": "1469c1c508773fda7035fb70ae4decd20ad66f016b446fc899300862f949131b"
+      },
+      {
+        "M": 5,
+        "dimension": 6,
+        "nnz": 18,
+        "representatives": [
+          [
+            485,
+            12
+          ]
+        ],
+        "orbit_sha256": "c9f9e608ae8a76d437afe17fade652c04284c60c16513981441fedc40a55dd96",
+        "matrix_sha256": "9c7020897213bf4e6a0b6fdae387f19b038f7d56064ee6c0ca2d3749a0ccaa0f"
+      },
+      {
+        "M": 6,
+        "dimension": 1,
+        "nnz": 1,
+        "representatives": [
+          [
+            728,
+            2
+          ]
+        ],
+        "orbit_sha256": "ce72c22d4845925bc27a09e2787f2723243d3f3b1d9f14cebee5ac49bbb5ee32",
+        "matrix_sha256": "9fbc61be473718c52faf028c08899c0f2f311365e631c22004f150a05633b9b5"
+      }
+    ]
+  },
+  "sha256": "fd0ecd552d139487135e34ca37d4bab6092f5bfad25eeeb79b1ed284d8264dea"
+}

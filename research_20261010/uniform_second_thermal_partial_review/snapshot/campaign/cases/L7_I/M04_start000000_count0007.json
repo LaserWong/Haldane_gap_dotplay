@@ -1,0 +1,73 @@
+{
+  "payload": {
+    "identity": {
+      "case_sha256": "b879cb45825fe10c9c0c7fa95c09d2c51975f93c444503382b3466c6c51b2119",
+      "parameters": {
+        "n": 7,
+        "twist": "I",
+        "beta": "49/4",
+        "shift": "700741/500000",
+        "cutoff": 280,
+        "Q": 36028797018963968,
+        "mode": "full_nonnegative_M",
+        "batch_size": 16
+      },
+      "pins": {
+        "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+        "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+        "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+        "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+      },
+      "M": 4,
+      "start": 0,
+      "count": 7,
+      "matrix_sha256": "f0c8356da78cf3460e7aa7fed8de6afb4801b843b20d775ac66aae2ce1faf962",
+      "orbit_sha256": "3bc195e0a34b654241afb942df0c7f1740afe9e7c54ef9ed170c70d374a4c168"
+    },
+    "records": [
+      {
+        "code": 485,
+        "multiplicity": 28,
+        "norm_squared": 38
+      },
+      {
+        "code": 647,
+        "multiplicity": 28,
+        "norm_squared": 41
+      },
+      {
+        "code": 701,
+        "multiplicity": 28,
+        "norm_squared": 41
+      },
+      {
+        "code": 1133,
+        "multiplicity": 14,
+        "norm_squared": 42
+      },
+      {
+        "code": 1187,
+        "multiplicity": 28,
+        "norm_squared": 41
+      },
+      {
+        "code": 1205,
+        "multiplicity": 14,
+        "norm_squared": 42
+      },
+      {
+        "code": 1367,
+        "multiplicity": 14,
+        "norm_squared": 42
+      }
+    ],
+    "weighted_norm": 6272,
+    "resources": {
+      "cpu_seconds": 0.005606,
+      "wall_seconds": 0.007820915001502726,
+      "child_maxrss_kib": 9368,
+      "diagnostic": "seconds=0.000965922 d=77 nnz=441 reps=7 rowsum=21\n"
+    }
+  },
+  "sha256": "e28376981d6f151f92b190812a690e23993acd705784fe50639714476309bf40"
+}

@@ -1,0 +1,1 @@
+Accepted: two physical57D8x4 point ground lower endpoints and two newly generated exact57D/fixed-r2 target exclusions. No new gap or universal no-go. Exact rational witnesses, positive LDL pivots and fraction-free determinant certificates are in audit.json. See PROOF.md; run REPRODUCE.sh for a clean exact replay without physical contractions.

@@ -1,0 +1,68 @@
+{
+  "payload": {
+    "identity": {
+      "case_sha256": "d552fa75064a345b2ed0bf621fc61afb05d58953370299daa4fdc51695011797",
+      "parameters": {
+        "n": 5,
+        "twist": "P",
+        "beta": "49/4",
+        "shift": "700741/500000",
+        "cutoff": 280,
+        "Q": 36028797018963968,
+        "mode": "full_nonnegative_M",
+        "batch_size": 16
+      },
+      "pins": {
+        "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+        "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+        "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+        "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+      },
+      "M": 0,
+      "start": 0,
+      "count": 6,
+      "matrix_sha256": "6fe2dcd13274f2860e0da1412e3b9a886766ac9e15c26e9493747639212550d1",
+      "orbit_sha256": "b712b55b75597a654a79a2c23554a22d4b10626eae98a507ea99192bd76b0a79"
+    },
+    "records": [
+      {
+        "code": 17,
+        "multiplicity": 10,
+        "norm_squared": 8517928439250394052964149922
+      },
+      {
+        "code": 23,
+        "multiplicity": 10,
+        "norm_squared": 39630342424840078473224243410
+      },
+      {
+        "code": 41,
+        "multiplicity": 10,
+        "norm_squared": 264685639378874135817285727723
+      },
+      {
+        "code": 43,
+        "multiplicity": 10,
+        "norm_squared": 121833303192142652721978279582
+      },
+      {
+        "code": 47,
+        "multiplicity": 10,
+        "norm_squared": 432262998884802683094194201704
+      },
+      {
+        "code": 121,
+        "multiplicity": 1,
+        "norm_squared": 525669717876646898599217736847
+      }
+    ],
+    "weighted_norm": 9194971841075746340195683760257,
+    "resources": {
+      "cpu_seconds": 0.007075999999999999,
+      "wall_seconds": 0.009453874998143874,
+      "child_maxrss_kib": 9304,
+      "diagnostic": "seconds=0.000303941 d=51 nnz=311 reps=6 rowsum=37\n"
+    }
+  },
+  "sha256": "3f240e3fa0dfbe372563145a9d38231a251d77b1de8651a6478487998deeaf75"
+}

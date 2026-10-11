@@ -1,0 +1,120 @@
+{
+  "payload": {
+    "parameters": {
+      "n": 4,
+      "twist": "I",
+      "beta": "49/4",
+      "shift": "700741/500000",
+      "cutoff": 280,
+      "Q": 36028797018963968,
+      "mode": "full_nonnegative_M",
+      "batch_size": 16
+    },
+    "pins": {
+      "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+      "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+      "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+      "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+    },
+    "sectors": [
+      {
+        "M": 0,
+        "dimension": 19,
+        "nnz": 99,
+        "representatives": [
+          [
+            8,
+            4
+          ],
+          [
+            14,
+            8
+          ],
+          [
+            16,
+            4
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            40,
+            1
+          ]
+        ],
+        "orbit_sha256": "aa02492311c426f756d8ed3ec139a033aca145d689e3426ec0af550b2bb070bb",
+        "matrix_sha256": "25b1a7fc24d658bb6fdfcc75fb541dcc075fd23847f8165ca13196b2690284bf"
+      },
+      {
+        "M": 1,
+        "dimension": 16,
+        "nnz": 80,
+        "representatives": [
+          [
+            17,
+            16
+          ],
+          [
+            23,
+            8
+          ],
+          [
+            41,
+            8
+          ]
+        ],
+        "orbit_sha256": "ee364fec555686a1bdf54c81cb4fbe550e7d6607c311e6e88009994bed4223d9",
+        "matrix_sha256": "5384be1bff00858612e8463c575b2361cc44097767f0ebdd367ce9d1aa323489"
+      },
+      {
+        "M": 2,
+        "dimension": 10,
+        "nnz": 42,
+        "representatives": [
+          [
+            26,
+            8
+          ],
+          [
+            44,
+            8
+          ],
+          [
+            50,
+            4
+          ]
+        ],
+        "orbit_sha256": "507776a05ba85a12dfe43da35c39a061b95f555da6e60b82cc1a169b5473dc34",
+        "matrix_sha256": "02c4354bdae1780fa1e1a6919a827fd27f3a59a91b54ccc4e1d86d036fbdde68"
+      },
+      {
+        "M": 3,
+        "dimension": 4,
+        "nnz": 12,
+        "representatives": [
+          [
+            53,
+            8
+          ]
+        ],
+        "orbit_sha256": "00504532d38a606715995b12216ab5a875401c838a4c9510bd6c81b10f31d029",
+        "matrix_sha256": "32027e047b29fb737f6761f9a5380ba657ed1291a705955165e4898a410a6db1"
+      },
+      {
+        "M": 4,
+        "dimension": 1,
+        "nnz": 1,
+        "representatives": [
+          [
+            80,
+            2
+          ]
+        ],
+        "orbit_sha256": "37d6a65ae1525bfff15c5689f9a4d357e15959dcf844bdf2d1008038fc011469",
+        "matrix_sha256": "cfb6409ffdecf89b683cd3265172f52ad4b9a344fbbad4b5195088874b028f89"
+      }
+    ]
+  },
+  "sha256": "0ce5d406f60f1caf99aa85f81e24d6e9a581a3482183edf0d0873db276a2fa4c"
+}

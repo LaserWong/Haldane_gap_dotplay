@@ -1,0 +1,62 @@
+{
+  "status": "FROZEN verified static overview",
+  "frozen_utc": "2026-10-11T00:08:41.321786+00:00",
+  "M_or_L_ge2_certificate_rows": 320,
+  "preserved_stage14_main_rows": 320,
+  "unconditional_positive_gap_records": 330,
+  "separate_conditional_uniform_rows": 2,
+  "new_bilayer_ground_endpoint_records": 6,
+  "ground_endpoint_records_are_not_gap_records": true,
+  "new_full8x4_H2_basis_dimensions": [
+    43,
+    57
+  ],
+  "new_split4x4_basis_dimension": 21,
+  "original_first_initialization": 60,
+  "original_second_initialization": 36,
+  "locally_accepted_uniform_coverage_minimum": 48,
+  "locally_accepted_uniform_initialization": 52,
+  "current_all_size_bilayer_endpoint": "21/200",
+  "current_all_size_bilayer_closed_pieces": 80,
+  "new_all_size_bilayer_gap": false,
+  "accepted_complete_thermal_cases": 16,
+  "accepted_thermal_lengths": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "missing_thermal_cases": [
+    "L12_I",
+    "L12_P"
+  ],
+  "accepted_saved_batches": 990,
+  "partial_snapshot_historical_status_at": "2026-10-10 23:59 UTC",
+  "future_operational_status_belongs_in_root_docs": true,
+  "pending_repair_review_and_extension_design_excluded": true,
+  "partial_snapshot_terminal": "BUDGET_RESERVATION_EXHAUSTED",
+  "partial_snapshot_charged_CPU_seconds": 16207,
+  "partial_snapshot_remaining_CPU_seconds": 5393,
+  "partial_snapshot_failed_reservations_retained": 14640,
+  "full18_thermal_premises_discharged": false,
+  "conditional_uniform_gaps_unchanged": true,
+  "mutable_campaign_data_included": false,
+  "resume_reset_refund_authorized_by_snapshot": false,
+  "direct_source_hashes": 419,
+  "review_seals": 66,
+  "sealed_source_files_checked": 4877,
+  "previous_stage14_unchanged": true,
+  "root_files_modified": false,
+  "remote_publication_performed": false,
+  "cpu_affinity": [
+    8
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "corruptions_rejected": 194,
+  "byte_identical_rendered_files": 32,
+  "scope": "Integrity and scoped extraction of immutable independent reviews; not a fresh physical-proof audit"
+}

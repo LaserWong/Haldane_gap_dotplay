@@ -1,0 +1,118 @@
+{
+  "payload": {
+    "identity": {
+      "case_sha256": "16fc4c8a1e37336d644139c137282856be6a23f74d1609c1074c9925ea877281",
+      "parameters": {
+        "n": 11,
+        "twist": "P",
+        "beta": "49/4",
+        "shift": "700741/500000",
+        "cutoff": 280,
+        "Q": 36028797018963968,
+        "mode": "full_nonnegative_M",
+        "batch_size": 16
+      },
+      "pins": {
+        "kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+        "kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+        "coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+        "campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b"
+      },
+      "M": 3,
+      "start": 112,
+      "count": 16,
+      "matrix_sha256": "7783f1c668d41cdd8adf020b88882b5beef28db61f267b081836176dc2cddc7a",
+      "orbit_sha256": "ffbd68775361ff2eab4fa826965181b8f21a91ac76f025d8a3231267fe4bcd30"
+    },
+    "records": [
+      {
+        "code": 13106,
+        "multiplicity": 44,
+        "norm_squared": 11145
+      },
+      {
+        "code": 13850,
+        "multiplicity": 22,
+        "norm_squared": 5077
+      },
+      {
+        "code": 14336,
+        "multiplicity": 44,
+        "norm_squared": 76055
+      },
+      {
+        "code": 14498,
+        "multiplicity": 44,
+        "norm_squared": 536464
+      },
+      {
+        "code": 14552,
+        "multiplicity": 44,
+        "norm_squared": 1153491
+      },
+      {
+        "code": 14570,
+        "multiplicity": 44,
+        "norm_squared": 836762
+      },
+      {
+        "code": 14576,
+        "multiplicity": 44,
+        "norm_squared": 189216
+      },
+      {
+        "code": 14822,
+        "multiplicity": 44,
+        "norm_squared": 537305
+      },
+      {
+        "code": 14984,
+        "multiplicity": 44,
+        "norm_squared": 3538214
+      },
+      {
+        "code": 15038,
+        "multiplicity": 44,
+        "norm_squared": 11347722
+      },
+      {
+        "code": 15056,
+        "multiplicity": 44,
+        "norm_squared": 9975261
+      },
+      {
+        "code": 15062,
+        "multiplicity": 44,
+        "norm_squared": 2517676
+      },
+      {
+        "code": 15146,
+        "multiplicity": 44,
+        "norm_squared": 4850164
+      },
+      {
+        "code": 15200,
+        "multiplicity": 44,
+        "norm_squared": 12502744
+      },
+      {
+        "code": 15218,
+        "multiplicity": 44,
+        "norm_squared": 18059332
+      },
+      {
+        "code": 15224,
+        "multiplicity": 44,
+        "norm_squared": 5810992
+      }
+    ],
+    "weighted_norm": 3165583586,
+    "resources": {
+      "cpu_seconds": 0.9152779999999989,
+      "wall_seconds": 0.9238915579990135,
+      "child_maxrss_kib": 15472,
+      "diagnostic": "seconds=0.844226 d=14355 nnz=152823 reps=690 rowsum=37\n"
+    }
+  },
+  "sha256": "be081b4f31a6b8113d01473deba68bd3954f3d70e65d098e2aa9b88e7861a44b"
+}

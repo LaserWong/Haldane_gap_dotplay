@@ -1,0 +1,70 @@
+{
+  "status": "ACCEPTED partial physical reproduction only",
+  "full_cases": 16,
+  "full_lengths": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "seams": [
+    "I",
+    "P"
+  ],
+  "missing_full_cases": [
+    "L12_I",
+    "L12_P"
+  ],
+  "valid_saved_batches": 990,
+  "valid_completed_case_batches": 962,
+  "valid_partial_L12_batches": [
+    {
+      "seam": "I",
+      "valid_batches": 16,
+      "saved_columns": 256,
+      "weighted_multiplicity": 11172,
+      "expected_full_batches": 733,
+      "sum_completed_child_CPU_seconds": 116.49563499999998,
+      "next_child_CPU_cap_upper_bound": 2,
+      "recent_batch_CPU_seconds": [
+        6.901992999999998,
+        6.8062319999999925,
+        6.878184999999998,
+        8.978337000000002
+      ],
+      "no_full_trace_certificate": true
+    },
+    {
+      "seam": "P",
+      "valid_batches": 12,
+      "saved_columns": 192,
+      "weighted_multiplicity": 8256,
+      "expected_full_batches": 733,
+      "sum_completed_child_CPU_seconds": 114.88107699999999,
+      "next_child_CPU_cap_upper_bound": 4,
+      "recent_batch_CPU_seconds": [
+        8.976733000000005,
+        8.546727000000006,
+        9.422706999999987,
+        9.850733
+      ],
+      "no_full_trace_certificate": true
+    }
+  ],
+  "ledger_terminal_state": "BUDGET_RESERVATION_EXHAUSTED",
+  "charged_CPU_seconds": 16207,
+  "completed_attempt_charges": 1445,
+  "supervisor_overhead_charge": 122,
+  "unknown_failed_attempt_charges": 14640,
+  "remaining_CPU_ledger_capacity": 5393,
+  "failed_reservations_retained": true,
+  "no_active_attempts": true,
+  "cause": "Observed childSIGKILL(-9); deterministic next allowance at most2/4CPU seconds vs recent6.8\u20139.9second batches strongly supports invocation-budget boundary as cause. No per-kill kernel diagnosis was recorded.",
+  "prior_fixture_gap": "Scheduling fixtures tested failed-attempt accounting and cleanup, but not a successful batch sequence approaching the runner allowance boundary.",
+  "restart_or_refund_authorized": false,
+  "all18_thermal_premises_discharged": false
+}

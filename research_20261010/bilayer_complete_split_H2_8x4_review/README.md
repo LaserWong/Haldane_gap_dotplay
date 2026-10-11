@@ -1,0 +1,1 @@
+Independent complete57D8x4 split R/M matrix accepted. All980 oriented image entries and9747 H² polynomial entries verified; exact43D compression and114D residual-block PSD pass. No new energy endpoint or all-size gap. See ACCEPTANCE.json, PROOF.md and audit.json. REPRODUCE.sh rebuilds and repeats the complete independent pass.
