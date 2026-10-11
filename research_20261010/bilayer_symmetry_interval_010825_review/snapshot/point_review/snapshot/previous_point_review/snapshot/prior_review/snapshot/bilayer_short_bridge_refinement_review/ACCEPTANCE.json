@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "scope": "Only periodic square sides L=2,3,4,5,6,7",
+  "model": "ordinary spin-1/2 bilayer, unit rung exchange, positive-neighbor multiplicity",
+  "continuous_positive_bounds": [
+    {
+      "coupling_interval": [
+        "0",
+        "3/20"
+      ],
+      "gap_lower": "12606656099/250000000000"
+    },
+    {
+      "coupling_interval": [
+        "0",
+        "61/400"
+      ],
+      "gap_lower": "6136044669/1000000000000"
+    },
+    {
+      "coupling_interval": [
+        "0",
+        "191/1250"
+      ],
+      "gap_lower": "696608341/1000000000000"
+    }
+  ],
+  "unique_finite_volume_ground": true,
+  "full_Hilbert_lambda2_comparison": true,
+  "trial_dimension": 2,
+  "physical_spin_counts": [
+    8,
+    18,
+    32,
+    50,
+    72,
+    98
+  ],
+  "full_Hilbert_dimensions": [
+    "256",
+    "262144",
+    "4294967296",
+    "1125899906842624",
+    "4722366482869645213696",
+    "316912650057057350374175801344"
+  ],
+  "L2_parallel_edges_verified": true,
+  "L3_triangles_verified": true,
+  "all_odd_short_sizes_verified": true,
+  "exact_fixed_rational_interval_trials_verified": true,
+  "optimal_envelope_strict_monotonicity_verified": true,
+  "limiting_fixed_method_zero": {
+    "L": 7,
+    "lower": "43020160355685663/281474976710656000",
+    "upper": "5377520044460739/35184372088832000"
+  },
+  "all_size_bootstrap_claim": false,
+  "universal_no_go_claim": false,
+  "residual_required_for_Rayleigh_upper": false,
+  "next_three_state_span_executed": false,
+  "producer_manifest_sha256": "dab1217d11fb125cad0766827ff02b1546ef4b46f46125019d55ddd633b079fa",
+  "no_producer_root_or_GitHub_edits": true
+}

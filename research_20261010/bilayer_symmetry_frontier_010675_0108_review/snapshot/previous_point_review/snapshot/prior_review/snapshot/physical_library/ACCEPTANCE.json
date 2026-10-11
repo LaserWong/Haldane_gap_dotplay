@@ -1,0 +1,61 @@
+{
+  "status": "PASS_PHYSICAL_POINT_ENDPOINTS_AND_SCOPED_TARGET_EXCLUSIONS",
+  "physical_endpoints": [
+    {
+      "shape": [
+        4,
+        4
+      ],
+      "g": "11/100",
+      "basis_dimension": 16,
+      "shifted_ground_lower": "-33684533485208098855504687265988150195634220517835580834936497680188134968692073820325/218230765483989816451395892399796718635596540757960294335849093431226026701687182793694",
+      "downward12_decimal_lower": "-19294102169/125000000000"
+    },
+    {
+      "shape": [
+        4,
+        4
+      ],
+      "g": "3/25",
+      "basis_dimension": 16,
+      "shifted_ground_lower": "-176115499418089359638507929424250187218993671314887928854657865368826866504282417069798/952763436354254794164147377825606171377603722265010429472329315241555333569503581279725",
+      "downward12_decimal_lower": "-46211759577/250000000000"
+    },
+    {
+      "shape": [
+        8,
+        4
+      ],
+      "g": "11/100",
+      "basis_dimension": 43,
+      "shifted_ground_lower": "-4247677447892450370748595441314870560301607471619279047367863432245663479182583469730543/13775718181297093466026128892059539683726649309667008866413619119201984319286414536126180",
+      "downward12_decimal_lower": "-61669052633/200000000000"
+    },
+    {
+      "shape": [
+        8,
+        4
+      ],
+      "g": "3/25",
+      "basis_dimension": 43,
+      "shifted_ground_lower": "-1855619732869843211446337937583379164084675110243298364254737188113910841407116774864497/5023874698209873131627965399485233588332018433631306792217860052200031673041121790728275",
+      "downward12_decimal_lower": "-184680136781/500000000000"
+    }
+  ],
+  "unique_global_ground": true,
+  "full_even_singlet_sector_r2_cutoff_verified": true,
+  "independent_odd_mode_coupling_checks": 96,
+  "scoped_target_exclusions": 2,
+  "target_dimension": 43,
+  "target_coupling": "11/100",
+  "target_cutoff_fixed": true,
+  "target_scalar_sufficiency_certificates_not_reviewed": true,
+  "float_temperature_diagnostics_not_certificates": true,
+  "all_size_gap_claim": false,
+  "universal_no_go_claim": false,
+  "producer_witness_manifest_sha256": "b7182fdbe901f78e7f1efbfc1456153ba9948debaf8e0d6aa8fe93614e743046",
+  "producer_assessment_manifest_sha256": "0ffd7b5d40738c7c22772bd5d72584eadb9b0c963f5746b660c4ecbafcc3030f",
+  "full8x4_matrix_review_manifest_sha256": "a77330918068b2fcb60a6bdc11412546a4e3fd909a7b393e46c98b62236b654a",
+  "no_new_physical_contractions": true,
+  "no_producer_root_or_GitHub_edits": true
+}

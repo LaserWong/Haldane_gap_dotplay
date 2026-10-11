@@ -1,0 +1,17 @@
+# Cached optimized .107–.108 point sweep, frozen
+
+Updated 2026-10-11 00:59 UTC / 2026-10-10 20:59 EDT.
+
+For the ordinary isotropic spin-half square bilayer H′=Q+gA/2, unit rung exchange and accepted periodic multiedges, these are exact point candidates for every integer square L≥2, with unique ground, pending independent review:
+
+- g=107/1000 (0.107): gap ≥ 15448308603/1000000000000 = 0.015448308603, beta0=189/20, 44 successful beta proposals; asymptotic starts at 128. Finite windows: [8,16] gap 0.089757481354, [16,32] gap 0.055656068709, [32,64] gap 0.037954054575, [64,128] gap 0.029976818984.
+- g=43/400 (0.1075): gap ≥ 12576432653/1000000000000 = 0.012576432653, beta0=189/20, 33 successful beta proposals; asymptotic starts at 256. Finite windows: [8,16] gap 0.086064813327, [16,32] gap 0.050746067821, [32,64] gap 0.032099022912, [64,128] gap 0.023547100978, [128,256] gap 0.019758402427.
+- g=27/250 (0.108): gap ≥ 6236941481/1000000000000 = 0.006236941481, beta0=19/2, 20 successful beta proposals; asymptotic starts at 512. Finite windows: [8,16] gap 0.082346702242, [16,32] gap 0.045568046267, [32,64] gap 0.025613251441, [64,128] gap 0.016089916329, [128,256] gap 0.011742819596, [256,512] gap 0.009821308482.
+
+All three authorized couplings succeeded; the task stopped at its highest authorized coupling .108. These are separate point certificates, not a closed interval and not evidence of gap monotonicity. No higher coupling was tested and no optimal frontier/no-go claim is made. Proposed next task: separately authorize a closed [.1065,.108] certificate with fixed rational witnesses and exact endpoint/interior control, subdividing if required. No interval calculations have been started in this package.
+
+Every denominator uses the cached accepted complete physical H′² matrix, dimensions21/57, including q8 and cross terms. Both energy and negative Temple-pencil rational candidates are contracted exactly; selected vectors are the ones with larger exact Temple lower. Global-ground, even-sector and odd-mode cutoff gates are recomputed at each coupling; complete fixed odd residuals and all omitted reference-tail terms remain included. Floating eigenvectors propose integer coefficients on a2^48 grid only. No global optimizer claim is made.
+
+The43D energy numerator retains one state. Denominator retained counts stay49/97, and combined ground-plus-odd trial dimensions69/153. The largest physical Hilbert dimension remains2^128. Norms, physical means, full second moments, variances, strict negative-pencil endpoints and fixed-vector coupling polynomials are in result.json. The beta grid7..14 step .05 only proposes temperatures. Directed384-bit exponentials, rational round-down and integer-square-root enclosures provide acceptance of the exact trace ratios, every finite size window, and the terminal exponential witness. The accepted short[0,.15] theorem covers L2,...,7 with .050426624396.
+
+Recorded CPU use 4.223 seconds and peak RSS 54384 KiB, CPU2 and single-thread BLAS, under the additional120CPU-second/256MiB allocation. There was no new physical support contraction, predecessor/root edit or GitHub write. INPUT_SHA256.json pins direct inputs and the previously frozen .10675 package. Reproduce by copying produce.py to a fresh sibling directory; do not overwrite this frozen package. No .git metadata is present in this extracted workspace, so no branch/commit assertion is made.

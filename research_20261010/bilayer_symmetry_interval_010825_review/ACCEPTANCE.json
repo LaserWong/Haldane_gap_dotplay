@@ -1,0 +1,41 @@
+{
+  "status": "ACCEPT_TWO_CLOSED_PIECES_WITH_STRONGER_NESTED_COVER",
+  "extension_interval": [
+    "27/250",
+    "433/4000"
+  ],
+  "extension_uniform_gap_lower": "293202989/500000000000",
+  "combined_interval": [
+    "0",
+    "433/4000"
+  ],
+  "combined_uniform_gap_lower": "293202989/500000000000",
+  "new_closed_pieces": 2,
+  "combined_closed_pieces": 88,
+  "preserved_stronger_nested_certificate": {
+    "coupling_interval": [
+      "0",
+      "27/250"
+    ],
+    "uniform_gap": "4499695659/1000000000000",
+    "closed_pieces": 86,
+    "review_seal": "61283a4637b0906e2c059e25023933003ba9a4815771ec0b52a680a0bb713f0b"
+  },
+  "all_integer_square_sides_from": 2,
+  "unique_full_Hilbert_ground": true,
+  "selected_ground_search_dimensions": [
+    21,
+    57
+  ],
+  "selected_numerator_search_dimension": 43,
+  "denominator_retained_counts": [
+    49,
+    97
+  ],
+  "numerator_retained_states": 1,
+  "no_gap_monotonicity_assumption": true,
+  "no_new_physical_support": true,
+  "producer_seal": "9e577cf4f9a225c0e51e889450f6cbcb429b0eeedc773eba76402e97cb07cd1b",
+  "point_review_seal": "e9b6f4f3451a71a44b9644f02c759512550b21d13325f2a7cc2ef4484f2501e4",
+  "previous_interval_review_seal": "61283a4637b0906e2c059e25023933003ba9a4815771ec0b52a680a0bb713f0b"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "FROZEN verified static overview",
+  "frozen_utc": "2026-10-11T01:15:26.630490+00:00",
+  "M_or_L_ge2_certificate_rows": 339,
+  "preserved_stage16_main_rows": 326,
+  "unconditional_positive_certificate_records": 350,
+  "separate_conditional_uniform_rows": 2,
+  "nested_covers": [
+    {
+      "endpoint": "27/250",
+      "closed_pieces": 86,
+      "gap_lower": "4499695659/1000000000000"
+    },
+    {
+      "endpoint": "433/4000",
+      "closed_pieces": 88,
+      "gap_lower": "293202989/500000000000"
+    }
+  ],
+  "selected_new_ground_search_dimensions": [
+    21,
+    57
+  ],
+  "selected_new_numerator_search_dimension": 43,
+  "retained_counts": [
+    49,
+    97,
+    1
+  ],
+  "pair_product_scope": "g11/100,z-11/400 fixed-parameter variance lower bound only",
+  "full18_thermal_premises_discharged": false,
+  "mutable_campaign_data_included": false,
+  "direct_source_hashes": 484,
+  "review_seals": 81,
+  "sealed_source_files_checked": 6656,
+  "previous_stage16_unchanged": true,
+  "root_files_modified": false,
+  "remote_publication_performed": false,
+  "cpu_affinity": [
+    8
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "corruptions_rejected": 233,
+  "byte_identical_rendered_files": 36,
+  "scope": "Integrity and exact scoped extraction of immutable independent reviews; not a fresh physical-proof audit"
+}

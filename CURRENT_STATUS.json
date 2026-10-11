@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-11T00:59:53.692730+00:00",
+  "updated_at_utc": "2026-10-11T01:27:50.932214+00:00",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -44,11 +44,11 @@
     },
     {
       "id": "overview",
-      "status": "stage16_locally_frozen_stage15_resume_remotely_verified",
-      "path": "research_20261010/overview_stage16/README.md",
-      "manifest_sha256": "911fce0e47b5bff696187ac31524fbcb75096068ef2846e40472f5228ac36a7e",
+      "status": "stage17_locally_frozen_stage16_remotely_verified",
+      "path": "research_20261010/overview_stage17/README.md",
+      "manifest_sha256": "f4e281b0b923aca9996366f8d56730f88477bf0351e46282b8ea10e0ae4ceac0",
       "post_freeze_replay": "PASS",
-      "post_freeze_replay_at_utc": "2026-10-11T00:59:32Z"
+      "post_freeze_replay_at_utc": "2026-10-11T01:16:21Z"
     },
     {
       "id": "trial_size_criteria",
@@ -84,7 +84,7 @@
     },
     {
       "id": "ordinary_continuous_g_interval",
-      "status": "independently_verified_entire_0_to_0.1065_all_integer_square_L_ge2"
+      "status": "independently_verified_nested_all_size_intervals0_to0.108_and0_to0.10825"
     },
     {
       "id": "full_ground_moment_pencil",
@@ -100,7 +100,7 @@
     },
     {
       "id": "continuous_interval_extension",
-      "status": "independently_verified82_closed_pieces_through0.1065"
+      "status": "independently_verified86_pieces0_to0.108_and88_pieces0_to0.10825"
     },
     {
       "id": "chain_filter_extension",
@@ -475,15 +475,45 @@
       "status": "independently_verified_signed_identities_scoped_envelope_target_barrier",
       "path": "research_20261010/bilayer_next_residual_direction_review",
       "review_manifest_sha256": "8cc778af3e672d6710b454c2b1d84df8d109bde43302081dc631b444bf056490"
+    },
+    {
+      "id": "bilayer_symmetry_frontier_010675_0108_review",
+      "status": "independently_verified_four_all_size_points0.10675_through0.108",
+      "path": "research_20261010/bilayer_symmetry_frontier_010675_0108_review",
+      "review_manifest_sha256": "4cdc6d5b68c95082a0d48369e46b984cea303e0f8f774d048cf2bcf55f367136"
+    },
+    {
+      "id": "bilayer_symmetry_interval_0108_review",
+      "status": "independently_verified_nested86_piece_interval0_to0.108_gap0.004499695659",
+      "path": "research_20261010/bilayer_symmetry_interval_0108_review",
+      "review_manifest_sha256": "61283a4637b0906e2c059e25023933003ba9a4815771ec0b52a680a0bb713f0b"
+    },
+    {
+      "id": "bilayer_symmetry_frontier_010825_review",
+      "status": "independently_verified_point0.10825_gap0.001585809758_only_scoped0.1085_failure",
+      "path": "research_20261010/bilayer_symmetry_frontier_010825_review",
+      "review_manifest_sha256": "e9b6f4f3451a71a44b9644f02c759512550b21d13325f2a7cc2ef4484f2501e4"
+    },
+    {
+      "id": "bilayer_symmetry_interval_010825_review",
+      "status": "independently_verified_nested88_piece_interval0_to0.10825_gap0.000586405978",
+      "path": "research_20261010/bilayer_symmetry_interval_010825_review",
+      "review_manifest_sha256": "8a4e274d06b2d8aa0c63a02af978a0820fe3110105ccc27da869a8183786827a"
+    },
+    {
+      "id": "bilayer_pair_product_review",
+      "status": "independently_verified_fixed_z_minus_g_over4_atg0.11_variance_floor_not_all_z_or_gap_no_go",
+      "path": "research_20261010/bilayer_pair_product_review",
+      "review_manifest_sha256": "2da9636ae7a2053736ae5aca3aaea8a39a5c75ce4b0d342d8b7beb5ababd16f3"
     }
   ],
-  "verification": "Ordinary bilayer entire 0<=g<=0.105: gap>=0.004499695659 for every integer square L>=2 over80 closed pieces; extension [.102,.105] gap>=.017785998829. Earlier [.1,.102] gap>=.013574634391 remains valid. Discrete g=.10 gap>=.055807148827 and g=.102 gap>=.016509932002. Alternating spin-1 chain g=.21/.22/.225: gaps>=.107424972/.071581253/.051807500 for every integer M>=2. At g=.25 only M=2..16 has gap>=.01; no all-size certificate. Exact direct-window lemma and producer prose erratum accepted. M8 rank4/9/13/17 arbitrary-vector Rayleigh inputs remain valid; inherited rounded psi/u are not exact singlets or spatial-symmetry eigenvectors. Only added pair directions and their pair-derived H descendants have exact claimed symmetry. Uniform transfer moments improve trace caps, not the gap. MPS current review fully PASS: trial-energy difference .4238202243082572 is not a physical gap. Each even n6..24 specified delayed/canonical continuation excluded, with n24 70/73 alternatives; no exact physical-purity upper-bound or universal minimum-seed claim. Uniform periodic unit-coupling spin-1 Heisenberg chain: cooled n60/n56/n54 independently accepted gaps .0102 for every integer L>=60, .0068 for L>=56, .0025 for L>=54, each with unique ground state. New exact Hermite n52 review certifies gap>=.0038 for every integer L>=52, unique ground state, using the inherited nine certified heat inputs and accepted MPS104, with no new thermal job. The separately accepted direct48..96 window gives gap>=.0053 and composes with n52 to gap>=.0038 for every integer L>=48, unique ground. Bootstrap initialization remains52. No claim below L48 or minimum seed. Original theorem is even-length; original physical trace identity applies to all integer n>=4 and supports the separately proved signed odd extension. Lower-bound comparisons are not physical-gap ratios. Stage13 actual g=.105 point: gap>=.031673112867 for every integer square L>=2 with unique ground state. Denominator ground-search dimensions16/43, total trial dimensions64/139, retained49/97; largest43D numerator retains one Rayleigh term in2^128 physical dimension. Error budgets are selected sufficient targets, not necessary/no-go conditions. Uniform moment-optimality spectra are abstract information-limit examples with no asserted quantum/cross-temperature realization. MPS96/100 acceptance is negative shifted Rayleigh only. Fixed-node Hermite/packing plus fixed-anchor canonical sequential-G exclusions cover only n48/n50, all41 even-base choices and every r>=1; no n<48 or minimum-seed result. Original paper already uses certified matrix-polynomial thermal traces and has no full-ED premise. Coverage onset is distinct from bootstrap initialization seed. Original second initialization already starts n36 at beta49/4 with18 I/P heat inputs at lengths4..12, then six rounds to n2304,beta784. The n52 startup-size improvement is relative only to the original first nine-input n60 route, not every original recipe. Original second-input thermal columns were not independently rerun in this stage. Stage14 adds separately conditional .0046/.0214 for all integer L>=36 under18 published beta49/4 physical certificates, with no completed local full rerun accepted. New bilayer interval[0,.1528] gap.000696608341 applies only L2..7; all-size[0,.105] unchanged. Complete4x4 H2 fixture accepted, no new gap; full8x4 was excluded from the historical stage14 scope; stage15 acceptance is recorded below. Engineering supervisor PASS is not physical campaign acceptance. Stage15 independently accepts full43D/57D 8x4 H2 and split21D 4x4 fixture, six isolated g=.11/.12 shifted ground-energy lower endpoints (not gaps), and only fixed-span/fixed-r2 target exclusions. No all-size bilayer extension. Partial physical thermal review accepts16 complete cases and990 batches, bothL12 incomplete; conditional.0214 unchanged. Campaign terminal23:59UTC, no resume authorized, proposed21600-to43200 extension design only. Subsequent operational update: repair review PASS and extension/resume authorized2026-10-11 00:16:28UTC, actual resume00:17UTC. At00:18:49UTC L12I/P batches28/21,16543 CPU seconds committed, no new failures. Original61 attempts/16207 charges retained under append-only43200 cap. Historical stage15 partial review unchanged;16/18 complete cases and conditional.0214 unchanged. Stage16 supersedes earlier bilayer frontier:82 closed pieces certify[0,.1065] gap.004499695659 for every integer square L>=2. [.106,.1065] gap.019955613868 and point.1065 gap.021451810876 independently accepted, ground searches21/57 and numerator43, retained49/97/1, physical2^128 unchanged. g=.11 gap.020227124817 onlyL2..32. Exact square isotropy window/recurrence accepted, no non-square axis swap. Smallm4 fixtures accepted but no full8x4m4 computation; cost gate unresolved.",
-  "last_verified_remote_commit": "852f5105c581ec45f5eab6b3a5301d23913e7e22",
+  "verification": "Ordinary bilayer entire 0<=g<=0.105: gap>=0.004499695659 for every integer square L>=2 over80 closed pieces; extension [.102,.105] gap>=.017785998829. Earlier [.1,.102] gap>=.013574634391 remains valid. Discrete g=.10 gap>=.055807148827 and g=.102 gap>=.016509932002. Alternating spin-1 chain g=.21/.22/.225: gaps>=.107424972/.071581253/.051807500 for every integer M>=2. At g=.25 only M=2..16 has gap>=.01; no all-size certificate. Exact direct-window lemma and producer prose erratum accepted. M8 rank4/9/13/17 arbitrary-vector Rayleigh inputs remain valid; inherited rounded psi/u are not exact singlets or spatial-symmetry eigenvectors. Only added pair directions and their pair-derived H descendants have exact claimed symmetry. Uniform transfer moments improve trace caps, not the gap. MPS current review fully PASS: trial-energy difference .4238202243082572 is not a physical gap. Each even n6..24 specified delayed/canonical continuation excluded, with n24 70/73 alternatives; no exact physical-purity upper-bound or universal minimum-seed claim. Uniform periodic unit-coupling spin-1 Heisenberg chain: cooled n60/n56/n54 independently accepted gaps .0102 for every integer L>=60, .0068 for L>=56, .0025 for L>=54, each with unique ground state. New exact Hermite n52 review certifies gap>=.0038 for every integer L>=52, unique ground state, using the inherited nine certified heat inputs and accepted MPS104, with no new thermal job. The separately accepted direct48..96 window gives gap>=.0053 and composes with n52 to gap>=.0038 for every integer L>=48, unique ground. Bootstrap initialization remains52. No claim below L48 or minimum seed. Original theorem is even-length; original physical trace identity applies to all integer n>=4 and supports the separately proved signed odd extension. Lower-bound comparisons are not physical-gap ratios. Stage13 actual g=.105 point: gap>=.031673112867 for every integer square L>=2 with unique ground state. Denominator ground-search dimensions16/43, total trial dimensions64/139, retained49/97; largest43D numerator retains one Rayleigh term in2^128 physical dimension. Error budgets are selected sufficient targets, not necessary/no-go conditions. Uniform moment-optimality spectra are abstract information-limit examples with no asserted quantum/cross-temperature realization. MPS96/100 acceptance is negative shifted Rayleigh only. Fixed-node Hermite/packing plus fixed-anchor canonical sequential-G exclusions cover only n48/n50, all41 even-base choices and every r>=1; no n<48 or minimum-seed result. Original paper already uses certified matrix-polynomial thermal traces and has no full-ED premise. Coverage onset is distinct from bootstrap initialization seed. Original second initialization already starts n36 at beta49/4 with18 I/P heat inputs at lengths4..12, then six rounds to n2304,beta784. The n52 startup-size improvement is relative only to the original first nine-input n60 route, not every original recipe. Original second-input thermal columns were not independently rerun in this stage. Stage14 adds separately conditional .0046/.0214 for all integer L>=36 under18 published beta49/4 physical certificates, with no completed local full rerun accepted. New bilayer interval[0,.1528] gap.000696608341 applies only L2..7; all-size[0,.105] unchanged. Complete4x4 H2 fixture accepted, no new gap; full8x4 was excluded from the historical stage14 scope; stage15 acceptance is recorded below. Engineering supervisor PASS is not physical campaign acceptance. Stage15 independently accepts full43D/57D 8x4 H2 and split21D 4x4 fixture, six isolated g=.11/.12 shifted ground-energy lower endpoints (not gaps), and only fixed-span/fixed-r2 target exclusions. No all-size bilayer extension. Partial physical thermal review accepts16 complete cases and990 batches, bothL12 incomplete; conditional.0214 unchanged. Campaign terminal23:59UTC, no resume authorized, proposed21600-to43200 extension design only. Subsequent operational update: repair review PASS and extension/resume authorized2026-10-11 00:16:28UTC, actual resume00:17UTC. At00:18:49UTC L12I/P batches28/21,16543 CPU seconds committed, no new failures. Original61 attempts/16207 charges retained under append-only43200 cap. Historical stage15 partial review unchanged;16/18 complete cases and conditional.0214 unchanged. Stage16 supersedes earlier bilayer frontier:82 closed pieces certify[0,.1065] gap.004499695659 for every integer square L>=2. [.106,.1065] gap.019955613868 and point.1065 gap.021451810876 independently accepted, ground searches21/57 and numerator43, retained49/97/1, physical2^128 unchanged. g=.11 gap.020227124817 onlyL2..32. Exact square isotropy window/recurrence accepted, no non-square axis swap. Smallm4 fixtures accepted but no full8x4m4 computation; cost gate unresolved. Stage17 preserves stronger nested[0,.108] gap.004499695659 over86pieces while extending[0,.10825] with gap.000586405978 over88pieces, allintegerL>=2 uniqueground. Five new point bounds independently accepted. g=.1085 only scoped saved-path/finite-grid failures; .109 untested. Fixedz=-g/4 NNpair variance floor atg.11 is not all-z exclusion or newgap. Thermal16/18 complete remains conditional.0214.",
+  "last_verified_remote_commit": "5d799b8cdd3fa343030d394d20f8b56007b7944e",
   "last_report_utc": "2026-10-10T22:15:12Z",
   "last_report_local": "2026-10-10T18:15:12-04:00",
   "next_report_utc": "2026-10-11T03:15:00Z",
-  "updated_at_local": "2026-10-10T20:59:53.692730-04:00",
-  "prepared_stage": 16,
+  "updated_at_local": "2026-10-10T21:27:50.932214-04:00",
+  "prepared_stage": 17,
   "last_publication_notification_utc": "2026-10-10T22:59:06Z",
   "original_method_comparison": {
     "first_route_original_startup": 60,
@@ -499,9 +529,9 @@
     "source": "https://github.com/openai/math/blob/main/preprints/The-periodic-spin-one-Haldane-gap-September-24-2026/build/initialization.tex",
     "scope": "n52 improves only the original first-input n60 route. Original second initialization already starts n36. New stage14 all-integer L>=36 scalar deductions are conditional on18 published thermal certificates; no accepted complete local physical rerun."
   },
-  "last_verified_remote_tree": "d35bd40fdea67b2103c752f5e49e5101eefb273c",
-  "last_remote_verified_at_utc": "2026-10-11T00:27:04.999Z",
-  "last_publication_notification_utc_note": "Historical notification timestamp retained; repair/resume remote verification00:27:04.999UTC is not a notification claim.",
+  "last_verified_remote_tree": "3acf20ff8f0c906676d4e164ef5dbacbae5bb59b",
+  "last_remote_verified_at_utc": "2026-10-11T01:27:31.124Z",
+  "last_publication_notification_utc_note": "Historical notification timestamp retained; remote verification timestamp does not claim a new user notification.",
   "conditional_uniform_results": {
     "evidence_category": "conditional_on_18_published_physical_integer_total_error_certificates",
     "beta": "49/4",
@@ -548,8 +578,8 @@
     "no_ledger_reset_or_alternate_state_directory_or_second_instance": true,
     "full_physical_campaign_accepted": false,
     "mutable_outputs_in_stage14_overview": false,
-    "snapshot_at_utc": "2026-10-11T00:55:28.946432Z",
-    "snapshot_source": "Producer read-only live execution and same-ledger snapshot",
+    "snapshot_at_utc": "2026-10-11T01:16:00Z",
+    "snapshot_source": "Producer operational snapshot relayed by root",
     "completed_cases": 16,
     "total_cases": 18,
     "completed_length_range": [
@@ -560,7 +590,7 @@
       "I",
       "P"
     ],
-    "committed_cpu_seconds": 21037,
+    "committed_cpu_seconds": 23552,
     "historical_running_snapshot": {
       "snapshot_at_utc": "2026-10-10T23:45:56Z",
       "completed_cases": 12,
@@ -609,14 +639,13 @@
     "repair_review_manifest_sha256": "74e56ac805d5f9f6e23c93171dcf1224b9c2ace62de05defbf5115101b64200c",
     "repair_code_path": "research_20261010/uniform_second_thermal_extension_gate",
     "L12_saved_batches_at_snapshot": {
-      "I": 301,
-      "P": 222
+      "I": 452,
+      "P": 338
     },
     "first_resumed_invocation_cpu_seconds_approx": [
       71,
       84
     ],
-    "new_failures_at_snapshot": 0,
     "independently_accepted_historical_saved_batches": 990,
     "applied_append_only_extension": {
       "old_total_cpu_seconds": 21600,
@@ -636,31 +665,31 @@
       "L12_run_whole_tree_reservation_seconds": 552
     },
     "L12_total_batches_per_case": 733,
-    "active_reserved_cpu_seconds": 1104,
-    "active_reservations": 2
+    "remaining_before_live_reservations_seconds": 19648
   },
-  "publication_state_note": "Stage15 and subsequent repair/resume commit remotely verified. Stage16 science/root update locally prepared, not yet remotely published.",
+  "publication_state_note": "Stage16 remotely verified; stage17 science/root docs locally frozen, not yet remotely published.",
   "last_remote_verification_summary": {
-    "snapshot_files": 65,
-    "dependency_entries_checked": 70,
-    "outside_files_preserved": 10723,
+    "snapshot_files": 1131,
+    "dependency_entries_verified": 2952,
+    "preserved_existing_files": 10785,
     "stage11_transport_files_preserved": 27,
+    "verification_method": "225 untruncated subtree reads and169 identical inherited subtree SHAs after full recursive tree transport closed",
     "workflow_runs": 0,
     "ci_pass_claimed": false
   },
   "bilayer_current_all_size_interval": {
     "coupling_interval": [
       "0",
-      "0.1065"
+      "0.10825"
     ],
-    "closed_pieces": 82,
-    "gap_lower": "0.004499695659",
+    "closed_pieces": 88,
+    "gap_lower": "0.000586405978",
     "scope": "every_integer_periodic_square_L_ge2_unique_full_Hilbert_ground",
     "latest_extension_interval": [
-      "0.106",
-      "0.1065"
+      "0.108",
+      "0.10825"
     ],
-    "latest_extension_gap": "0.019955613868",
+    "latest_extension_gap": "0.000586405978",
     "point0.1065_gap": "0.021451810876",
     "point0.1065_search_dimensions": {
       "denominators": [
@@ -674,7 +703,43 @@
       97,
       1
     ],
-    "largest_full_Hilbert_dimension": "2^128"
+    "largest_full_Hilbert_dimension": "2^128",
+    "historical_stage16": {
+      "coupling_interval": [
+        "0",
+        "0.1065"
+      ],
+      "closed_pieces": 82,
+      "gap_lower": "0.004499695659",
+      "scope": "every_integer_periodic_square_L_ge2_unique_full_Hilbert_ground",
+      "latest_extension_interval": [
+        "0.106",
+        "0.1065"
+      ],
+      "latest_extension_gap": "0.019955613868",
+      "point0.1065_gap": "0.021451810876",
+      "point0.1065_search_dimensions": {
+        "denominators": [
+          21,
+          57
+        ],
+        "numerator": 43
+      },
+      "retained_states": [
+        49,
+        97,
+        1
+      ],
+      "largest_full_Hilbert_dimension": "2^128"
+    },
+    "stronger_nested_interval": {
+      "coupling_interval": [
+        "0",
+        "0.108"
+      ],
+      "closed_pieces": 86,
+      "gap_lower": "0.004499695659"
+    }
   },
   "bilayer_finite0.11": {
     "gap": "0.020227124817",
@@ -693,6 +758,50 @@
     "small_physical_fixtures": "accepted4x2_5x2",
     "full8x4_production": "not_run_cost_gate_blocked",
     "raw_tuple_support_visits": 29230129152,
-    "counts_not_measured_runtime": true
+    "counts_not_measured_runtime": true,
+    "new58D_q6_fixture": "producer_ready_independent_review_pending_full_production_not_started"
+  },
+  "bilayer_stage17_points": [
+    {
+      "g": "0.10675",
+      "gap": "0.018514632200",
+      "scope": "all_integer_square_L_ge2_unique_ground"
+    },
+    {
+      "g": "0.107",
+      "gap": "0.015448308603",
+      "scope": "all_integer_square_L_ge2_unique_ground"
+    },
+    {
+      "g": "0.1075",
+      "gap": "0.012576432653",
+      "scope": "all_integer_square_L_ge2_unique_ground"
+    },
+    {
+      "g": "0.108",
+      "gap": "0.006236941481",
+      "scope": "all_integer_square_L_ge2_unique_ground"
+    },
+    {
+      "g": "0.10825",
+      "gap": "0.001585809758",
+      "scope": "all_integer_square_L_ge2_unique_ground"
+    }
+  ],
+  "bilayer_frontier_limitations": {
+    "g0.1085": "saved_vector_scoped_path_and_finite_beta_grid_misses_only_no_all_temperature_or_physical_no_go",
+    "g0.109": "untested",
+    "new_search_dimensions": {
+      "denominators": [
+        21,
+        57
+      ],
+      "numerator": 43
+    },
+    "retained_counts": [
+      49,
+      97,
+      1
+    ]
   }
 }

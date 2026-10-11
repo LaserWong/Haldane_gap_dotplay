@@ -1,0 +1,61 @@
+{
+  "scope": "geometry-only; no physical contraction",
+  "geometries": [
+    {
+      "shape": [
+        8,
+        4
+      ],
+      "rungs": 32,
+      "edges": 64,
+      "weighted_edges": 64,
+      "same_sublattice_common_neighbor_histogram": {
+        "0": 128,
+        "1": 32,
+        "2": 80
+      },
+      "residual_coefficient": 1056
+    },
+    {
+      "shape": [
+        4,
+        2
+      ],
+      "rungs": 8,
+      "edges": 12,
+      "weighted_edges": 16,
+      "same_sublattice_common_neighbor_histogram": {
+        "2": 4,
+        "4": 8
+      },
+      "residual_coefficient": 432
+    },
+    {
+      "shape": [
+        2,
+        2
+      ],
+      "rungs": 4,
+      "edges": 4,
+      "weighted_edges": 8,
+      "same_sublattice_common_neighbor_histogram": {
+        "8": 2
+      },
+      "residual_coefficient": 384
+    }
+  ],
+  "g": "11/100",
+  "z": "-11/400",
+  "norm_upper": "17691634988021295618994938888972508206787581786834665817825839041/10000000000000000000000000000000000000000000000000000000000000000",
+  "norm_upper_display": 1.7691634988021296,
+  "variance_lower": "96630600000000000000000000000000000000000000000000000000000000/17691634988021295618994938888972508206787581786834665817825839041",
+  "variance_lower_display": 0.00546193724126837,
+  "partial_pairing_bounds": {
+    "8": 764,
+    "10": 9496,
+    "16": 46206736,
+    "18": 997313824,
+    "20": 23758664096,
+    "32": 22481059424730751232
+  }
+}

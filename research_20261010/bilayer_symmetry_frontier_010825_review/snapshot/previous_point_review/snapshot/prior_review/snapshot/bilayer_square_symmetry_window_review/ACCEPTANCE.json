@@ -1,0 +1,11 @@
+{
+  "status": "ACCEPT_SQUARE_ISOTROPIC_DIRECT_WINDOW_AND_SCOPED_RECURRENCE",
+  "bound": "a^4*(2b-1)*sqrt(2*b^2*sqrt(2c-1)-1)",
+  "geometry": "a=T(n,n;beta), b=Sx(n,n;2beta), c=Sy(2n,n;2beta), even n>=2",
+  "all_integer_rectangles": "n<=L,W<=2n",
+  "canonical_middle_entry_is_not_raw_b": true,
+  "full_cycle_square_symmetry_valid": true,
+  "basepoint_closure_rules_valid": true,
+  "new_g011_gap_claim": false,
+  "physical_inputs_replayed": false
+}

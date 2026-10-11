@@ -1,0 +1,42 @@
+{
+  "status": "ACCEPT_FOUR_ALL_INTEGER_POINTS",
+  "points": [
+    {
+      "g": "427/4000",
+      "gap_lower": "92573161/5000000000",
+      "terminal_L": 128
+    },
+    {
+      "g": "107/1000",
+      "gap_lower": "15448308603/1000000000000",
+      "terminal_L": 128
+    },
+    {
+      "g": "43/400",
+      "gap_lower": "12576432653/1000000000000",
+      "terminal_L": 256
+    },
+    {
+      "g": "27/250",
+      "gap_lower": "6236941481/1000000000000",
+      "terminal_L": 512
+    }
+  ],
+  "all_integer_square_sides_from": 2,
+  "unique_full_Hilbert_ground": true,
+  "continuous_coupling_claim": false,
+  "denominator_search_dimensions": [
+    21,
+    57
+  ],
+  "numerator_search_dimension": 43,
+  "retained_counts": [
+    49,
+    97,
+    1
+  ],
+  "exact_new_ground_vectors_checked": 16,
+  "exact_new_numerator_vectors_checked": 4,
+  "no_optimizer_numerical_certificate_assumption": true,
+  "no_new_physical_support": true
+}

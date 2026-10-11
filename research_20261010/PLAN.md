@@ -239,3 +239,18 @@ Next: complete stage16 publication QA; monitor existing thermal checkpoints and 
 Read-only producer operational snapshot2026-10-11 00:55:28.946432 UTC confirms RUNNING:16/18 full cases complete; L12I301/733 andL12P222/733 batches;21037 CPU seconds committed plus1104 in two active552 reservations, within43200. Historical16207 charges retained, no post-extension failures. This snapshot does not independently certify the unfinished physical columns or promote conditional.0214.
 
 Stage16 post-freeze read-only replay PASS at2026-10-11 00:59:32 UTC:85 sealed files,76 review seals/5849 source entries,222 corruption tests,34 byte-identical exports. Root docs finalized after this verification; no remote publication performed by this documentation update.
+
+
+## Stage 17 milestone — 2026-10-10 21:27 EDT / 2026-10-11 01:27 UTC
+
+Stage16 is remotely verified at commit 5d799b8cdd3fa343030d394d20f8b56007b7944e, tree 3acf20ff8f0c906676d4e164ef5dbacbae5bb59b, verified 2026-10-11T01:27:31.124Z. Earlier local-preparation wording is historical. The [stage17 overview](overview_stage17/README.md) is frozen with manifest f4e281b0b923aca9996366f8d56730f88477bf0351e46282b8ea10e0ae4ceac0,90 files; post-freeze replay PASS01:16:21UTC,81seals/6656source entries,233corruption rejections,36identicalexports. Stage17 remote publication is pending.
+
+Two nested all-size bilayer certificates remain simultaneously valid: [0,.108] gap.004499695659 over86closed pieces, and[0,.10825] gap.000586405978 over88pieces, each unique full-Hilbert ground for every integer squareL>=2. Four new pieces[.1065,.108] give .005329481750; two[.108,.10825] give .000586405978. New points .10675/.107/.1075/.108/.10825 give .018514632200/.015448308603/.012576432653/.006236941481/.001585809758. No physical-gap monotonicity or interpolation from points is assumed.
+
+New searches use21/57 denominator and43 numerator dimensions, retained49/97/1, full physical2^32/2^64/2^128 unchanged. The g=.1085 saved-vector beta19/2 path fails atn128; finite floating beta-grid misses are not all-temperature or physical no-go results. g=.109 remains untested. Fixedz=-g/4 nearest-neighbor pair-product atg=.11 has independent variance floor.005461937241, not all-z/family exclusion or newgap. General8x4m4 remains cost-blocked;58Dq6 fixture production evidence awaits independent review, and full production is not started.
+
+Thermal snapshot01:16UTC:16 complete cases; L12I452/733,P338/733,23552CPU seconds committed including unchanged16207 historical charges. Total cap43200 leaves19648 before live reservations. Same ledger/two workers/256MiB/06UTC deadline. Partial progress does not promote conditional.0214 forL>=36; all18 physical certificates need independent final acceptance.
+
+Next: stage17 publication QA; monitor existing thermal execution and final physical review; independently audit low-cost58Dq6 fixture before any broader computation. Keep historical overviews immutable, original secondn36/first-route60-to52 qualification, and thermal-polynomial notfullED premise. Next regular report03:15UTC; entire research ends2026-10-14 00UTC / October13 20EDT.
+
+Stage16 remote verification used225 untruncated subtree reads and169 identical inherited subtree SHAs after the full recursive-tree transport closed; all1131 snapshot files,2952 dependencies and10785 outside files were still checked/preserved. This is verified remote data integrity, not a GitHub Actions result.
