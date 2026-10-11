@@ -1,0 +1,62 @@
+[
+  {
+    "entry": "outer",
+    "pins": 26,
+    "hash_reads": 535,
+    "limits": {
+      "cpu": [
+        6,
+        6
+      ],
+      "address_space": [
+        67108864,
+        134217728
+      ]
+    },
+    "memory": {
+      "VmPeak": 40042496,
+      "VmSize": 40042496,
+      "VmRSS": 13393920
+    }
+  },
+  {
+    "entry": "supervisor",
+    "pins": 26,
+    "hash_reads": 535,
+    "limits": {
+      "cpu": [
+        6,
+        6
+      ],
+      "address_space": [
+        67108864,
+        134217728
+      ]
+    },
+    "memory": {
+      "VmPeak": 40042496,
+      "VmSize": 40042496,
+      "VmRSS": 13430784
+    }
+  },
+  {
+    "entry": "controller",
+    "pins": 26,
+    "hash_reads": 535,
+    "limits": {
+      "cpu": [
+        6,
+        6
+      ],
+      "address_space": [
+        67108864,
+        134217728
+      ]
+    },
+    "memory": {
+      "VmPeak": 40042496,
+      "VmSize": 40042496,
+      "VmRSS": 13430784
+    }
+  }
+]

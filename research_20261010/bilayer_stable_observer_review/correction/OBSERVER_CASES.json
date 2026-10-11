@@ -1,0 +1,328 @@
+[
+  {
+    "case": "good",
+    "before": {
+      "pid": 7,
+      "expected_role": "native",
+      "before": {
+        "pid": 7,
+        "start": "5676084",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "cpu": [
+        4,
+        4
+      ],
+      "address_space": [
+        67108864,
+        134217728
+      ],
+      "affinity": "7",
+      "after": {
+        "pid": 7,
+        "start": "5676084",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "outcome": "fork_before_exec"
+    },
+    "after_limits": {
+      "pid": 7,
+      "expected_role": "native",
+      "before": {
+        "pid": 7,
+        "start": "5676084",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "cpu": [
+        3,
+        3
+      ],
+      "address_space": [
+        134217728,
+        134217728
+      ],
+      "affinity": "7",
+      "after": {
+        "pid": 7,
+        "start": "5676084",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "outcome": "fork_before_exec"
+    },
+    "post_exec": {
+      "pid": 7,
+      "expected_role": "native",
+      "before": {
+        "pid": 7,
+        "start": "5676084",
+        "ppid": 6,
+        "exe": "/usr/bin/sleep",
+        "argv": [
+          "/usr/bin/sleep",
+          "5"
+        ]
+      },
+      "cpu": [
+        3,
+        3
+      ],
+      "address_space": [
+        134217728,
+        134217728
+      ],
+      "affinity": "7",
+      "after": {
+        "pid": 7,
+        "start": "5676084",
+        "ppid": 6,
+        "exe": "/usr/bin/sleep",
+        "argv": [
+          "/usr/bin/sleep",
+          "5"
+        ]
+      },
+      "outcome": "verified_post_exec"
+    },
+    "killed_reaped": true,
+    "wait4_CPU": 0.017778,
+    "exit_status": -9
+  },
+  {
+    "case": "bad_cpu",
+    "before": {
+      "pid": 8,
+      "expected_role": "native",
+      "before": {
+        "pid": 8,
+        "start": "5676089",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "cpu": [
+        4,
+        4
+      ],
+      "address_space": [
+        67108864,
+        134217728
+      ],
+      "affinity": "7",
+      "after": {
+        "pid": 8,
+        "start": "5676089",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "outcome": "fork_before_exec"
+    },
+    "after_limits": {
+      "pid": 8,
+      "expected_role": "native",
+      "before": {
+        "pid": 8,
+        "start": "5676089",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "cpu": [
+        2,
+        2
+      ],
+      "address_space": [
+        134217728,
+        134217728
+      ],
+      "affinity": "7",
+      "after": {
+        "pid": 8,
+        "start": "5676089",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "outcome": "fork_before_exec"
+    },
+    "post_exec": {
+      "pid": 8,
+      "expected_role": "native",
+      "before": {
+        "pid": 8,
+        "start": "5676089",
+        "ppid": 6,
+        "exe": "/usr/bin/sleep",
+        "argv": [
+          "/usr/bin/sleep",
+          "5"
+        ]
+      },
+      "cpu": [
+        2,
+        2
+      ],
+      "address_space": [
+        134217728,
+        134217728
+      ],
+      "affinity": "7",
+      "after": {
+        "pid": 8,
+        "start": "5676089",
+        "ppid": 6,
+        "exe": "/usr/bin/sleep",
+        "argv": [
+          "/usr/bin/sleep",
+          "5"
+        ]
+      },
+      "outcome": "mismatch",
+      "reason": "unexpected_post_exec_cpu"
+    },
+    "killed_reaped": true,
+    "wait4_CPU": 0.008678,
+    "exit_status": -9
+  },
+  {
+    "case": "bad_AS",
+    "before": {
+      "pid": 9,
+      "expected_role": "native",
+      "before": {
+        "pid": 9,
+        "start": "5676091",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "cpu": [
+        4,
+        4
+      ],
+      "address_space": [
+        67108864,
+        134217728
+      ],
+      "affinity": "7",
+      "after": {
+        "pid": 9,
+        "start": "5676091",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "outcome": "fork_before_exec"
+    },
+    "after_limits": {
+      "pid": 9,
+      "expected_role": "native",
+      "before": {
+        "pid": 9,
+        "start": "5676091",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "cpu": [
+        3,
+        3
+      ],
+      "address_space": [
+        100663296,
+        100663296
+      ],
+      "affinity": "7",
+      "after": {
+        "pid": 9,
+        "start": "5676091",
+        "ppid": 6,
+        "exe": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+        ]
+      },
+      "outcome": "fork_before_exec"
+    },
+    "post_exec": {
+      "pid": 9,
+      "expected_role": "native",
+      "before": {
+        "pid": 9,
+        "start": "5676091",
+        "ppid": 6,
+        "exe": "/usr/bin/sleep",
+        "argv": [
+          "/usr/bin/sleep",
+          "5"
+        ]
+      },
+      "cpu": [
+        3,
+        3
+      ],
+      "address_space": [
+        100663296,
+        100663296
+      ],
+      "affinity": "7",
+      "after": {
+        "pid": 9,
+        "start": "5676091",
+        "ppid": 6,
+        "exe": "/usr/bin/sleep",
+        "argv": [
+          "/usr/bin/sleep",
+          "5"
+        ]
+      },
+      "outcome": "mismatch",
+      "reason": "unexpected_post_exec_address_space"
+    },
+    "killed_reaped": true,
+    "wait4_CPU": 0.007982,
+    "exit_status": -9
+  }
+]

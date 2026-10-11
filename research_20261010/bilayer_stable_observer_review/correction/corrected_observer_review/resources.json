@@ -1,0 +1,30 @@
+{
+  "name": "corrected_observer_review",
+  "cap_cpu_seconds": 4,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 6,
+  "parent_reserved_cpu_seconds": 2,
+  "command": [
+    "/usr/bin/prlimit",
+    "--cpu=4:4",
+    "--as=67108864:134217728",
+    "--",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/correction/check_observer_corrected.py"
+  ],
+  "state": "completed",
+  "pid": 6,
+  "parent_actual_cpu_seconds": 0.22216799999999998,
+  "exit_status": 0,
+  "wait4_user_seconds": 0.682337,
+  "wait4_system_seconds": 0.422935,
+  "wait4_cpu_seconds": 1.105272,
+  "max_live_tree_cpu_seconds": 1.05,
+  "max_observed_processes": 2,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 1.1767330310030957,
+  "peak_rss_kib": 17452,
+  "max_observed_tree_rss_bytes": 30257152,
+  "stop_reason": null
+}

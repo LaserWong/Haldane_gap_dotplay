@@ -1,0 +1,13 @@
+{
+  "verdict": "FAIL_STATIC_SCIENTIFIC_VALIDATOR_REGRESSION",
+  "source_manifest": "aec2ba0bba2cecf5bc9cae4f727aa73f667971d4212f5f5290ac46fb1196011d",
+  "location": "physical_session.py verify_output",
+  "correct_coefficient": 193600,
+  "incorrect_coefficient": 193200,
+  "derivation": "1600 * 121",
+  "suspected_mechanism": "unscoped budget replacement3600->3200",
+  "kernel_unchanged": true,
+  "no_test_launch": true,
+  "review_CPU_gate_not_launched": true,
+  "correction_required": "Exact identity of all science/validator formulas to accepted24 version; refreeze inputs/job."
+}

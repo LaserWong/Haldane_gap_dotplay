@@ -1,0 +1,60 @@
+{
+  "status": "STRUCTURED_LENGTH_SIGN_WRAPPER_ONLY",
+  "physical_length": 32,
+  "convolution_power": 29,
+  "convolution_sign": 1,
+  "block_sides": [
+    1,
+    8,
+    32,
+    80,
+    136,
+    162,
+    136,
+    80,
+    32,
+    8,
+    1
+  ],
+  "shared_kernel_sha256": "afaf61d76e1de0dceae377b0c61923bf3d2facf11f85a3915888a19707ad5214",
+  "unrestricted_numeric_substitution": false,
+  "launcher_changes": [
+    [
+      "length64 H\u00b2",
+      "length32 H\u00b2"
+    ],
+    [
+      "cpu=29;mem=512",
+      "cpu=20;mem=512"
+    ],
+    [
+      "uniform_smaller_second_initialization_review/anchors.out",
+      "uniform_gap_0248_all_sizes_review/anchors.out"
+    ],
+    [
+      "P/'expected64.txt'",
+      "P/'expected32.txt'"
+    ],
+    [
+      "cpu=39;mem=256",
+      "cpu=19;mem=256"
+    ],
+    [
+      "wall=120",
+      "wall=90"
+    ],
+    [
+      "30 if mode=='compile' else 40",
+      "30 if mode=='compile' else 20"
+    ],
+    [
+      "else [64]",
+      "else [32]"
+    ],
+    [
+      "'automatic_retry':False",
+      "'prior_shared_compile_CPU_charge':7.129891665,'automatic_retry':False"
+    ]
+  ],
+  "source_changes_are_exactly_in_WRAPPER_DIFF": true
+}

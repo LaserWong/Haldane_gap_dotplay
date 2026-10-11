@@ -1,0 +1,1698 @@
+{
+  "status": "PASS",
+  "corruptions_rejected": 423,
+  "cases": [
+    {
+      "test": "changed exact gap",
+      "rejected": true
+    },
+    {
+      "test": "upward display rounding",
+      "rejected": true
+    },
+    {
+      "test": "missing inherited interval piece",
+      "rejected": true
+    },
+    {
+      "test": "missing newest interval piece",
+      "rejected": true
+    },
+    {
+      "test": "gap in exact interval cover",
+      "rejected": true
+    },
+    {
+      "test": "changed Hilbert count",
+      "rejected": true
+    },
+    {
+      "test": "conflated rank-one search",
+      "rejected": true
+    },
+    {
+      "test": "false maximum 30 trial dimensions",
+      "rejected": true
+    },
+    {
+      "test": "drop smaller complete odd band",
+      "rejected": true
+    },
+    {
+      "test": "conflate 125 trial space with 97 trace states",
+      "rejected": true
+    },
+    {
+      "test": "change largest numerator rank",
+      "rejected": true
+    },
+    {
+      "test": "failure encoded as zero physical gap",
+      "rejected": true
+    },
+    {
+      "test": "changed source digest",
+      "rejected": true
+    },
+    {
+      "test": "unaccepted review seal",
+      "rejected": true
+    },
+    {
+      "test": "remove prior accepted alternative",
+      "rejected": true
+    },
+    {
+      "test": "change chain candidate gap",
+      "rejected": true
+    },
+    {
+      "test": "drop chain candidate route",
+      "rejected": true
+    },
+    {
+      "test": "move accepted point to unsupported .084 parameter",
+      "rejected": true
+    },
+    {
+      "test": "change .085 source point to unsupported .09",
+      "rejected": true
+    },
+    {
+      "test": "AKLT assigned thermal-bootstrap success",
+      "rejected": true
+    },
+    {
+      "test": "AKLT gap applied from L2",
+      "rejected": true
+    },
+    {
+      "test": "AKLT MPS bond conflated with local matrix",
+      "rejected": true
+    },
+    {
+      "test": "AKLT omitted spectrum count changed",
+      "rejected": true
+    },
+    {
+      "test": "conflate exact enlarged search with retained state",
+      "rejected": true
+    },
+    {
+      "test": "recipe upper cap turned into gap bound",
+      "rejected": true
+    },
+    {
+      "test": "recipe upper cap called physical purity",
+      "rejected": true
+    },
+    {
+      "test": "all method seed minimum overclaim",
+      "rejected": true
+    },
+    {
+      "test": "upper envelope source value changed",
+      "rejected": true
+    },
+    {
+      "test": "MPS bond dimension confused with retained numerator",
+      "rejected": true
+    },
+    {
+      "test": "unresolved MPS window promoted to success",
+      "rejected": true
+    },
+    {
+      "test": "n24 inconclusive window turned into all-beta exclusion",
+      "rejected": true
+    },
+    {
+      "test": "three denominator states confused with MPS bond",
+      "rejected": true
+    },
+    {
+      "test": "new .09 interval piece removed",
+      "rejected": true
+    },
+    {
+      "test": "M4 reference67 conflated with physical space",
+      "rejected": true
+    },
+    {
+      "test": "M8 numerator falsely expanded to67",
+      "rejected": true
+    },
+    {
+      "test": "70 MPS witnesses promoted to gap",
+      "rejected": true
+    },
+    {
+      "test": "MPS unresolved screen promoted to feasibility",
+      "rejected": true
+    },
+    {
+      "test": "momentum bond inflated to70",
+      "rejected": true
+    },
+    {
+      "test": "bilayer diagnostic promoted to gap",
+      "rejected": true
+    },
+    {
+      "test": "restricted moment bracket called universal",
+      "rejected": true
+    },
+    {
+      "test": "accepted rank195 omitted",
+      "rejected": true
+    },
+    {
+      "test": "rank195 obstruction made gap bound",
+      "rejected": true
+    },
+    {
+      "test": "rank195 obstruction broadened",
+      "rejected": true
+    },
+    {
+      "test": "rounded-up target used as strict bound",
+      "rejected": true
+    },
+    {
+      "test": "MPS current branch admitted",
+      "rejected": true
+    },
+    {
+      "test": "complete residual made largest residual",
+      "rejected": true
+    },
+    {
+      "test": "hard-core sign omitted",
+      "rejected": true
+    },
+    {
+      "test": "coherent interference omitted",
+      "rejected": true
+    },
+    {
+      "test": "complete omitted tail dropped",
+      "rejected": true
+    },
+    {
+      "test": "139 trials conflated with97 retained",
+      "rejected": true
+    },
+    {
+      "test": "43D search conflated with one retained state",
+      "rejected": true
+    },
+    {
+      "test": "physical space conflated with43D search",
+      "rejected": true
+    },
+    {
+      "test": "g010 point removed",
+      "rejected": true
+    },
+    {
+      "test": "new .10 interval piece removed",
+      "rejected": true
+    },
+    {
+      "test": "new .10 interval gap corrupted",
+      "rejected": true
+    },
+    {
+      "test": "new .10 cover broken",
+      "rejected": true
+    },
+    {
+      "test": "g025 finite result promoted to all sizes",
+      "rejected": true
+    },
+    {
+      "test": "g025 finite range enlarged",
+      "rejected": true
+    },
+    {
+      "test": "g025 finite gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "new all-size chain certificate dropped",
+      "rejected": true
+    },
+    {
+      "test": "producer prose erratum erased",
+      "rejected": true
+    },
+    {
+      "test": "inherited pair vectors called exact singlets",
+      "rejected": true
+    },
+    {
+      "test": "combined pair span called symmetry sector",
+      "rejected": true
+    },
+    {
+      "test": "pair old recipe obstruction made universal",
+      "rejected": true
+    },
+    {
+      "test": "trace cap made physical gap",
+      "rejected": true
+    },
+    {
+      "test": "bounded cooling scan called universal",
+      "rejected": true
+    },
+    {
+      "test": "74 current exact integers changed",
+      "rejected": true
+    },
+    {
+      "test": "current trial difference made gap",
+      "rejected": true
+    },
+    {
+      "test": "current bond confused with search",
+      "rejected": true
+    },
+    {
+      "test": "current old recipe extended to new window",
+      "rejected": true
+    },
+    {
+      "test": "direct closure .99 made universal necessity",
+      "rejected": true
+    },
+    {
+      "test": "even n22 missing",
+      "rejected": true
+    },
+    {
+      "test": "even completion replaced by monotonicity",
+      "rejected": true
+    },
+    {
+      "test": "unreviewed cooled candidates promoted",
+      "rejected": true
+    },
+    {
+      "test": "historical MPS windows presented as current",
+      "rejected": true
+    },
+    {
+      "test": "accepted cooled review omitted",
+      "rejected": true
+    },
+    {
+      "test": "uniform bound promoted below54",
+      "rejected": true
+    },
+    {
+      "test": "uniform gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "uniform only-even scope substituted",
+      "rejected": true
+    },
+    {
+      "test": "uniform seed minimality claimed",
+      "rejected": true
+    },
+    {
+      "test": "uniform numerator count confused with bond",
+      "rejected": true
+    },
+    {
+      "test": "uniform Hilbert dimension confused with bond",
+      "rejected": true
+    },
+    {
+      "test": "new .10 direct point removed",
+      "rejected": true
+    },
+    {
+      "test": "new direct interval piece removed",
+      "rejected": true
+    },
+    {
+      "test": "new direct interval cover broken",
+      "rejected": true
+    },
+    {
+      "test": "new direct point falsely called interval",
+      "rejected": true
+    },
+    {
+      "test": "new direct point fraction typo restored",
+      "rejected": true
+    },
+    {
+      "test": "n52 promoted below52",
+      "rejected": true
+    },
+    {
+      "test": "n52 Hermite gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "n52 canonical coordinate relabeled",
+      "rejected": true
+    },
+    {
+      "test": "n52 falsely claimed minimum",
+      "rejected": true
+    },
+    {
+      "test": "original even theorem promoted to all sizes",
+      "rejected": true
+    },
+    {
+      "test": "original transfer floor changed to2",
+      "rejected": true
+    },
+    {
+      "test": "certified improvement ratio inflated",
+      "rejected": true
+    },
+    {
+      "test": "new .102 point removed",
+      "rejected": true
+    },
+    {
+      "test": "point legal domain made gap interval",
+      "rejected": true
+    },
+    {
+      "test": "fixed odd family moved with g",
+      "rejected": true
+    },
+    {
+      "test": "frontier tails omitted",
+      "rejected": true
+    },
+    {
+      "test": "new .102 interval piece removed",
+      "rejected": true
+    },
+    {
+      "test": "extension endpoint misreported",
+      "rejected": true
+    },
+    {
+      "test": "current74 cover count reduced",
+      "rejected": true
+    },
+    {
+      "test": "extension minimum inflated",
+      "rejected": true
+    },
+    {
+      "test": "actual .105 point gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "actual .105 point removed",
+      "rejected": true
+    },
+    {
+      "test": "new interval piece removed",
+      "rejected": true
+    },
+    {
+      "test": "new interval cover opened",
+      "rejected": true
+    },
+    {
+      "test": "new endpoint inflated",
+      "rejected": true
+    },
+    {
+      "test": "new interval count conflated",
+      "rejected": true
+    },
+    {
+      "test": "16D search conflated with64 trials",
+      "rejected": true
+    },
+    {
+      "test": "139 trials conflated with97 states",
+      "rejected": true
+    },
+    {
+      "test": "largest one numerator conflated with43 search",
+      "rejected": true
+    },
+    {
+      "test": "largest physical Hilbert truncated",
+      "rejected": true
+    },
+    {
+      "test": "stage13 scope guard error_budget_physical_gap",
+      "rejected": true
+    },
+    {
+      "test": "stage13 scope guard optimality_physical_realization",
+      "rejected": true
+    },
+    {
+      "test": "stage13 scope guard optimality_minimum_seed",
+      "rejected": true
+    },
+    {
+      "test": "stage13 scope guard anchors_gap",
+      "rejected": true
+    },
+    {
+      "test": "stage13 scope guard recipe_minimum_seed",
+      "rejected": true
+    },
+    {
+      "test": "stage13 scope guard recipe_adaptive_orders_excluded",
+      "rejected": true
+    },
+    {
+      "test": "stage13 scope guard active_adaptive_and_tensor_assessments_excluded",
+      "rejected": true
+    },
+    {
+      "test": "abstract rank mistaken for physical rank",
+      "rejected": true
+    },
+    {
+      "test": "all-r obstruction mislabeled minimum",
+      "rejected": true
+    },
+    {
+      "test": "anchor96 treated as gap",
+      "rejected": true
+    },
+    {
+      "test": "conditional target made actual gap",
+      "rejected": true
+    },
+    {
+      "test": "complete q8 omitted",
+      "rejected": true
+    },
+    {
+      "test": "finite48 bridge made new initialization",
+      "rejected": true
+    },
+    {
+      "test": "coverage extended below48",
+      "rejected": true
+    },
+    {
+      "test": "finite .0053 made infinite",
+      "rejected": true
+    },
+    {
+      "test": "finite window extended past96",
+      "rejected": true
+    },
+    {
+      "test": "bridge falsely needs50 anchor",
+      "rejected": true
+    },
+    {
+      "test": "bridge odd lengths omitted",
+      "rejected": true
+    },
+    {
+      "test": "bridge minimum seed invented",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope conditional_second_input_only",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope full18_local_physical_rerun",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope locally_accepted_uniform_bounds_replaced",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope all_size_bilayer_frontier_changed",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope complete4x4_H2_fixture",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope full8x4_matrix_included",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope new_pencil_gap",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope active_mutable_campaign_data_included",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope campaign_launched_in_this_snapshot",
+      "rejected": true
+    },
+    {
+      "test": "stage14 scope supervisor_finally_reviewed",
+      "rejected": true
+    },
+    {
+      "test": "conditional gap promoted to physical rerun",
+      "rejected": true
+    },
+    {
+      "test": "conditional evidence category erased",
+      "rejected": true
+    },
+    {
+      "test": "conditional gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "second premise count reduced to9",
+      "rejected": true
+    },
+    {
+      "test": "second beta confused with first",
+      "rejected": true
+    },
+    {
+      "test": "conditional seed reduced",
+      "rejected": true
+    },
+    {
+      "test": "short bridge promoted to all sizes",
+      "rejected": true
+    },
+    {
+      "test": "short bridge enlarged toL8",
+      "rejected": true
+    },
+    {
+      "test": "short coupling enlarged",
+      "rejected": true
+    },
+    {
+      "test": "trial rank confused withHilbert",
+      "rejected": true
+    },
+    {
+      "test": "pencil full8x4 falsely accepted",
+      "rejected": true
+    },
+    {
+      "test": "projectedH2 substituted",
+      "rejected": true
+    },
+    {
+      "test": "kernel fixtures made fullcampaign",
+      "rejected": true
+    },
+    {
+      "test": "data-plane launch blocker erased",
+      "rejected": true
+    },
+    {
+      "test": "original secondseed hidden",
+      "rejected": true
+    },
+    {
+      "test": "supervisor proof made launch authorization",
+      "rejected": true
+    },
+    {
+      "test": "supervisor fixtures made thermal jobs",
+      "rejected": true
+    },
+    {
+      "test": "supervisor budget silently expanded",
+      "rejected": true
+    },
+    {
+      "test": "supervisor final gate omitted",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope new_full8x4_43D_H2",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope new_full8x4_57D_H2",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope new_all_size_bilayer_gap",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope current_gap_pipeline_search_dimensions_changed",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope float_diagnostic_failures_are_certificates",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope float_diagnostic_failures_universal_nogo",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope conditional_uniform_gap_promoted",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope full18_physical_inputs_accepted",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope mutable_campaign_inputs_included",
+      "rejected": true
+    },
+    {
+      "test": "stage15 scope thermal_campaign_resume_authorized_by_snapshot",
+      "rejected": true
+    },
+    {
+      "test": "ground endpoint made positive gap",
+      "rejected": true
+    },
+    {
+      "test": "ground endpoint sign corrupted",
+      "rejected": true
+    },
+    {
+      "test": "negative lower endpoint rounded upward",
+      "rejected": true
+    },
+    {
+      "test": "ground endpoint physical dimension truncated",
+      "rejected": true
+    },
+    {
+      "test": "even-singlet cutoff omitted",
+      "rejected": true
+    },
+    {
+      "test": "Mzero q6 images dropped",
+      "rejected": true
+    },
+    {
+      "test": "projectedH2 substituted forfull43D",
+      "rejected": true
+    },
+    {
+      "test": "oriented crossblock symmetrized",
+      "rejected": true
+    },
+    {
+      "test": "57D compression changed",
+      "rejected": true
+    },
+    {
+      "test": "new57D span conflated with97 retainedstates",
+      "rejected": true
+    },
+    {
+      "test": "oldpipeline139 replaced bynewspan",
+      "rejected": true
+    },
+    {
+      "test": "57D exact gain inflated",
+      "rejected": true
+    },
+    {
+      "test": "57D endpoint missing",
+      "rejected": true
+    },
+    {
+      "test": "57D target exclusion made universal",
+      "rejected": true
+    },
+    {
+      "test": "57D endpoint coupling changed",
+      "rejected": true
+    },
+    {
+      "test": "partial16 cases promoted to18",
+      "rejected": true
+    },
+    {
+      "test": "partial review made complete physical theorem",
+      "rejected": true
+    },
+    {
+      "test": "missingL12 record erased",
+      "rejected": true
+    },
+    {
+      "test": "L12 invented fullcase",
+      "rejected": true
+    },
+    {
+      "test": "published integer total corrupted",
+      "rejected": true
+    },
+    {
+      "test": "unknown failed charge refunded",
+      "rejected": true
+    },
+    {
+      "test": "partial outcome grants restart",
+      "rejected": true
+    },
+    {
+      "test": "physical multiplicity confused withrepresentatives",
+      "rejected": true
+    },
+    {
+      "test": "partial trace interval inflated",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope m4_small_shapes_only",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope physical8x4_m4_accepted",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope envelope_barrier_universal_nogo",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope geometry_square_isotropic_only",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope raw_canonical_coordinates_distinguished",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope g011_all_size_gap",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope g011_hypothetical_targets_are_physical",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope thermal_full18_accepted",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope conditional_uniform_gaps_promoted",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope repair_review_is_engineering_only",
+      "rejected": true
+    },
+    {
+      "test": "stage16 scope mutable_campaign_included",
+      "rejected": true
+    },
+    {
+      "test": "ambient57 substituted forselected43",
+      "rejected": true
+    },
+    {
+      "test": "selected denominator replaced byambient",
+      "rejected": true
+    },
+    {
+      "test": "g011 finite result promoted allsize",
+      "rejected": true
+    },
+    {
+      "test": "g011 finite range extended",
+      "rejected": true
+    },
+    {
+      "test": "g0106 gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "m4 fixture calledlargephysical",
+      "rejected": true
+    },
+    {
+      "test": "raw recurrence mislabeledcanonical",
+      "rejected": true
+    },
+    {
+      "test": "repair review calledfullthermal",
+      "rejected": true
+    },
+    {
+      "test": "interval81 count corrupted",
+      "rejected": true
+    },
+    {
+      "test": "interval endpoint overstated",
+      "rejected": true
+    },
+    {
+      "test": "new interval piece missing",
+      "rejected": true
+    },
+    {
+      "test": "new interval lower boundary opened",
+      "rejected": true
+    },
+    {
+      "test": "new21/57 grounds mislabeled16/43",
+      "rejected": true
+    },
+    {
+      "test": "newpoint numerator mislabeled57",
+      "rejected": true
+    },
+    {
+      "test": "newpointfloat promoted to exactcertificate",
+      "rejected": true
+    },
+    {
+      "test": "new82piece count reduced",
+      "rejected": true
+    },
+    {
+      "test": "newextension minimum inflated",
+      "rejected": true
+    },
+    {
+      "test": "stage17 broad gap inflated to nested bound",
+      "rejected": true
+    },
+    {
+      "test": "stage17 nested cover deleted",
+      "rejected": true
+    },
+    {
+      "test": "stage17 point promoted to continuum",
+      "rejected": true
+    },
+    {
+      "test": "stage17 interval count wrong",
+      "rejected": true
+    },
+    {
+      "test": "stage17 ground dimensions wrong",
+      "rejected": true
+    },
+    {
+      "test": "stage17 numerator rank conflation",
+      "rejected": true
+    },
+    {
+      "test": "stage17 failed path universal no-go",
+      "rejected": true
+    },
+    {
+      "test": "stage17 untested g109 promoted",
+      "rejected": true
+    },
+    {
+      "test": "stage17 thermal conditional promotion",
+      "rejected": true
+    },
+    {
+      "test": "stage17 pair parameter generalized",
+      "rejected": true
+    },
+    {
+      "test": "stage17 pair variance coefficient corrupted",
+      "rejected": true
+    },
+    {
+      "test": "58D matrix claimed as new gap",
+      "rejected": true
+    },
+    {
+      "test": "58D rank corrupted",
+      "rejected": true
+    },
+    {
+      "test": "58D physical row truncated",
+      "rejected": true
+    },
+    {
+      "test": "58D signed q8 contribution dropped",
+      "rejected": true
+    },
+    {
+      "test": "uncertified endpoint runtime promoted",
+      "rejected": true
+    },
+    {
+      "test": "mutable campaign included",
+      "rejected": true
+    },
+    {
+      "test": "full thermal count reduced",
+      "rejected": true
+    },
+    {
+      "test": "local uniform gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "local uniform size overstated",
+      "rejected": true
+    },
+    {
+      "test": "old conditional records silently rewritten",
+      "rejected": true
+    },
+    {
+      "test": "one-bond MPS energy treated as total",
+      "rejected": true
+    },
+    {
+      "test": "signed moment endpoint mutated",
+      "rejected": true
+    },
+    {
+      "test": "L12 physical integer changed",
+      "rejected": true
+    },
+    {
+      "test": "thermal archive entry digest corrupted",
+      "rejected": true
+    },
+    {
+      "test": "endpoint promoted to gap",
+      "rejected": true
+    },
+    {
+      "test": "negative endpoint rounded upwards",
+      "rejected": true
+    },
+    {
+      "test": "runtime caveat dropped",
+      "rejected": true
+    },
+    {
+      "test": "coverage26 confused with initialization",
+      "rejected": true
+    },
+    {
+      "test": "isolated24 promoted to all-integer onset",
+      "rejected": true
+    },
+    {
+      "test": "isolated24 implicitly covers25",
+      "rejected": true
+    },
+    {
+      "test": "new anchor total energy multiplied byL",
+      "rejected": true
+    },
+    {
+      "test": "bond dimension confused with Hilbert dimension",
+      "rejected": true
+    },
+    {
+      "test": "finite bridge mislabeled startup28",
+      "rejected": true
+    },
+    {
+      "test": "new initialization gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "nested stronger initialization removed",
+      "rejected": true
+    },
+    {
+      "test": "compiler local proof promoted to fullm4",
+      "rejected": true
+    },
+    {
+      "test": "failed180s gate promoted",
+      "rejected": true
+    },
+    {
+      "test": "compiler cost screen called no-go",
+      "rejected": true
+    },
+    {
+      "test": "indexed sample drops zero-source targets",
+      "rejected": true
+    },
+    {
+      "test": "positive direct25 trial wrongly negative",
+      "rejected": true
+    },
+    {
+      "test": "positive trial numerator replaced byone",
+      "rejected": true
+    },
+    {
+      "test": "direct25 runtime failure promoted",
+      "rejected": true
+    },
+    {
+      "test": "finite prefix omits odd length",
+      "rejected": true
+    },
+    {
+      "test": "analyticL2 periodic gap changed",
+      "rejected": true
+    },
+    {
+      "test": "full coverage improperly includesL1",
+      "rejected": true
+    },
+    {
+      "test": "new guarded run erases old anomaly",
+      "rejected": true
+    },
+    {
+      "test": "finite direct trace treated as startup2",
+      "rejected": true
+    },
+    {
+      "test": "strong all-size proof falsely usesn30",
+      "rejected": true
+    },
+    {
+      "test": "strong global gap reduced without source change",
+      "rejected": true
+    },
+    {
+      "test": "strong finite length33 missing",
+      "rejected": true
+    },
+    {
+      "test": "cached prefix purity rounded up",
+      "rejected": true
+    },
+    {
+      "test": "Brauer sample promoted to fullpass",
+      "rejected": true
+    },
+    {
+      "test": "new finite length/source mismatch",
+      "rejected": true
+    },
+    {
+      "test": "parityL24 mislabeled own-length MPS24",
+      "rejected": true
+    },
+    {
+      "test": "parity target and anchor Hilbert conflated",
+      "rejected": true
+    },
+    {
+      "test": "guide promotes infinite-volume uniqueness",
+      "rejected": true
+    },
+    {
+      "test": "guide claims fresh physical validation",
+      "rejected": true
+    },
+    {
+      "test": "guide strongest startup mislabeled30",
+      "rejected": true
+    },
+    {
+      "test": "guide resource exception erased",
+      "rejected": true
+    },
+    {
+      "test": "stage19 archive digest changed",
+      "rejected": true
+    },
+    {
+      "test": "robust interval upper endpoint enlarged",
+      "rejected": true
+    },
+    {
+      "test": "robust narrow gap overclaimed",
+      "rejected": true
+    },
+    {
+      "test": "robust microscopic sites confused with cells",
+      "rejected": true
+    },
+    {
+      "test": "robust initialization16 mislabeled physical16",
+      "rejected": true
+    },
+    {
+      "test": "robust anchor dimension confused with MPSbond",
+      "rejected": true
+    },
+    {
+      "test": "robust physical temperature unscaled",
+      "rejected": true
+    },
+    {
+      "test": "robust finite Weyl extended to all sizes",
+      "rejected": true
+    },
+    {
+      "test": "robust claims optimal neighborhood",
+      "rejected": true
+    },
+    {
+      "test": "robust claimed fresh physical computation",
+      "rejected": true
+    },
+    {
+      "test": "robust odd cells excluded",
+      "rejected": true
+    },
+    {
+      "test": "robust terminal margin corrupted",
+      "rejected": true
+    },
+    {
+      "test": "robust one-cell claim",
+      "rejected": true
+    },
+    {
+      "test": "robust designated unit coefficient changed",
+      "rejected": true
+    },
+    {
+      "test": "pipeline sample promoted to complete8x4",
+      "rejected": true
+    },
+    {
+      "test": "pipeline repeated independent run invented",
+      "rejected": true
+    },
+    {
+      "test": "pipeline q4 aggregate independently overclaimed",
+      "rejected": true
+    },
+    {
+      "test": "pipeline general producer tree guard overclaimed",
+      "rejected": true
+    },
+    {
+      "test": "pipeline production admission invented",
+      "rejected": true
+    },
+    {
+      "test": "pipeline sample checkpoint64 changed512",
+      "rejected": true
+    },
+    {
+      "test": "positive cell lemma promoted numerical gap",
+      "rejected": true
+    },
+    {
+      "test": "positive cell kernel domain extended negativeg",
+      "rejected": true
+    },
+    {
+      "test": "positive cell factor order switched",
+      "rejected": true
+    },
+    {
+      "test": "positive cell spin generalization invented",
+      "rejected": true
+    },
+    {
+      "test": "partial22 finding mislabeled runtime replay",
+      "rejected": true
+    },
+    {
+      "test": "partial22 absent variableg fields invented",
+      "rejected": true
+    },
+    {
+      "test": "partial22 unresolved blockers erased",
+      "rejected": true
+    },
+    {
+      "test": "PSD numerical wider interval overclaimed",
+      "rejected": true
+    },
+    {
+      "test": "PSD numerical .02 raised to .0248",
+      "rejected": true
+    },
+    {
+      "test": "PSD odd cell15 mislabeled physical15",
+      "rejected": true
+    },
+    {
+      "test": "PSD own60 anchor replaced64",
+      "rejected": true
+    },
+    {
+      "test": "PSD odd cell17 mislabeled cell16",
+      "rejected": true
+    },
+    {
+      "test": "PSD physical temperature unscaled",
+      "rejected": true
+    },
+    {
+      "test": "PSD70 integer windows dropped",
+      "rejected": true
+    },
+    {
+      "test": "PSD negative terminal margin accepted",
+      "rejected": true
+    },
+    {
+      "test": "PSD no-go inferred from preliminary failure",
+      "rejected": true
+    },
+    {
+      "test": "PSD physical odd lengths inferred from cells",
+      "rejected": true
+    },
+    {
+      "test": "PSD finite Weyl bridge applied to infinite tail",
+      "rejected": true
+    },
+    {
+      "test": "PSD strengthened row removes prior interval",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 observable trial/Gibbs conflation",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 observable norm denominator lost",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 observable kappa labels swapped",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 Hilbert dimension confused with bond",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 virtual block omitted",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 observable falsely claims H2 production",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 old wrapper issue erased",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 coarse bridge zero margin incorrectly changed",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 improved endpoint inflated",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 improved gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 physical odd rings invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 cell seed mistaken for physical length",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 physical temperature omitted",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 smaller bridge loses cell15",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 late closure omitted",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 finite physical24 removed",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 old parity anchor rewritten24",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 numerical search treated as optimal",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 full m4 production invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 active bilayer working files admitted",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 synthetic metadata claimed physical",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 missing receipt binding claimed fixed",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 restricted producer claimed accepted",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 restricted resource overrun erased",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 restricted budget incorrectly reduced",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 restricted failure promoted no-go",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 dependency removed",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 prior Stage20 archive corrupted",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 hard cutoff changed",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 component pass promoted launch approval",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 six fixtures promoted full8x4",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 variableg wrong denominator",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 missing outer guard erased",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 missing57D controls invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 reviewer failures erased",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 raw synthetic inventory invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 unmetered parent history invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 revised memory profile inflated",
+      "rejected": true
+    },
+    {
+      "test": "Stage21 active outer launch package snapshotted",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 total variance claimed per-site",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 small-root branch simply assumed",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 variance decimal rounded up",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 physical Hilbert dimension replacedD26",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 Gibbs upper bound replacedtrial",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 physical finite gap promoted all-size",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 one length kappa swapped",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 trial span expanded without proof",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 gap interval broadened",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 target gap inflated",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 odd physical rings invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 finite length24 absent",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 late bootstrap window absent",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 terminal margin nonpositive",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 physical temperature scaling missing",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 seed cells confusedphysical",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 parity anchor falsely own-length24",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 actual predecessor failure removed",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 failed startup worker invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 predecessor charge refunded",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 unavailable wait4 invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 metadata check claimed full moments",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 inherited stage cap silently expanded",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 streaming failed review reservation erased",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 actual map size reduced",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 startup memory cap raised",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 220 charge silently removed",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 control margin inflated",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 active successor included",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 whole physical moment claimed",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 dependency pin omitted",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 prior seal changed",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 partial63 promoted full moments",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 failure hypothesis called proven",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 retired attempt charge lost",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 no-q6 prefix claims q6",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 reserved attempt promoted complete",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 second failed control charge refunded",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 retired workers omitted from retry",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 early launch job conflated with later watchdog job",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 repair promoted full lifetime",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 new28 pins silently reduced27",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 science checksum regression waived",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 stable PID exempted afterfirstpass",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 repair missing mismatchdiagnostics",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 real wrong CPU silently allowed",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 failed8second review refunded",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 accepted100 checkpoint omitted",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 initial100 falsely promoted400",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 initial100 invents q6 evidence",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 initial100 classified full moments",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 global process scan invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 retired192 charge refunded aftercleanrun",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 ready100 digest replaced",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 successful400 checkpoint invented",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 terminal400 token confused with400 completion",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 terminal invents new scientific receipts",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 terminal vacuum identity falsely sampled",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 terminal missing argv described as proved unexpected image",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 terminal control export charge refunded",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 old1600 pool deemed sufficient forrelaunch",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 pending new identityrepair accepted",
+      "rejected": true
+    },
+    {
+      "test": "Stage22 final lifecycle gate declaredpass",
+      "rejected": true
+    }
+  ]
+}

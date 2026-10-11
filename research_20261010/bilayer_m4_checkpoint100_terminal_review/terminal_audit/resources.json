@@ -1,0 +1,26 @@
+{
+  "name": "terminal_audit",
+  "cap_cpu_seconds": 6,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 8,
+  "parent_reserved_cpu_seconds": 2,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/shared/haldane_active/research_20261010/bilayer_m4_checkpoint100_terminal_review/check_terminal.py"
+  ],
+  "state": "completed",
+  "pid": 8,
+  "parent_actual_cpu_seconds": 0.12295099999999999,
+  "exit_status": 0,
+  "wait4_user_seconds": 0.43581,
+  "wait4_system_seconds": 0.386273,
+  "wait4_cpu_seconds": 0.8220829999999999,
+  "max_live_tree_cpu_seconds": 0.78,
+  "max_observed_processes": 1,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 1.0733577020000666,
+  "peak_rss_kib": 12032,
+  "max_observed_tree_rss_bytes": 12189696,
+  "stop_reason": null
+}

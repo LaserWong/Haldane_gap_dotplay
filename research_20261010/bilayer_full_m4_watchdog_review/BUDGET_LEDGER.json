@@ -1,0 +1,33 @@
+{
+  "authorized_cpu_seconds": 5,
+  "charged_cpu_seconds": 5,
+  "cpu": 7,
+  "attempts": [
+    {
+      "name": "watchdog_fault",
+      "cap_cpu_seconds": 3,
+      "address_space_mib": 256,
+      "charged_cpu_seconds": 5,
+      "parent_reserved_cpu_seconds": 2,
+      "command": [
+        "python",
+        "research_20261010/bilayer_full_m4_watchdog_review/check_watchdog.py"
+      ],
+      "state": "completed",
+      "pid": 10,
+      "parent_actual_cpu_seconds": 0.20604799999999998,
+      "exit_status": 0,
+      "wait4_user_seconds": 0.19636399999999998,
+      "wait4_system_seconds": 0.351369,
+      "wait4_cpu_seconds": 0.547733,
+      "max_live_tree_cpu_seconds": 0.51,
+      "max_observed_processes": 3,
+      "orphan_wait4": [],
+      "live_group_after_cleanup": [],
+      "wall_seconds": 6.041458318002697,
+      "peak_rss_kib": 40960,
+      "max_observed_tree_rss_bytes": 41943040,
+      "stop_reason": null
+    }
+  ]
+}

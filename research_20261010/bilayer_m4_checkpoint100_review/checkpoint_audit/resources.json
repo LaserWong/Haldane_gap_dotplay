@@ -1,0 +1,26 @@
+{
+  "name": "checkpoint_audit",
+  "cap_cpu_seconds": 3,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 5,
+  "parent_reserved_cpu_seconds": 2,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/shared/haldane_active/research_20261010/bilayer_m4_checkpoint100_review/check_checkpoint.py"
+  ],
+  "state": "completed",
+  "pid": 8,
+  "parent_actual_cpu_seconds": 0.079388,
+  "exit_status": 0,
+  "wait4_user_seconds": 0.256415,
+  "wait4_system_seconds": 0.40259999999999996,
+  "wait4_cpu_seconds": 0.6590149999999999,
+  "max_live_tree_cpu_seconds": 0.62,
+  "max_observed_processes": 1,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 0.7961609289995977,
+  "peak_rss_kib": 13056,
+  "max_observed_tree_rss_bytes": 12976128,
+  "stop_reason": null
+}

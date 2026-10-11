@@ -1,0 +1,16 @@
+{
+  "job_id": "845b55d815552ca70bb870f0efd6be20a94850f952e63a87dc7a0338553e8a0e",
+  "state": "FAILED_OBSERVER_PRE100",
+  "charged_control": 463,
+  "charged_workers": 192,
+  "failed_manifest_sha256": "552153e60e66c147e6384cca5f6b878e6a7cfac271cc35d4e0d66a0ed2e17b73",
+  "independent_failure_review_sha256": "13c905ab7fdb33a8d7b717c750eb43b01ee08f60ce491665956a175e78baa8f5",
+  "prior_predecessor_control220_already_in463": true,
+  "total_cpu_authority": 21600,
+  "repartition": {
+    "standard_workers": 16800,
+    "control": 1600,
+    "retry": 3200
+  },
+  "no_refund": true
+}

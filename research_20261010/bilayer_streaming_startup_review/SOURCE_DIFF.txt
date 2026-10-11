@@ -1,0 +1,158 @@
+--- research_20261010/bilayer_control_memory_revision/engine.py
++++ research_20261010/bilayer_streaming_hash_revision/engine.py
+@@ -5,6 +5,18 @@
+ 
+ def raw(x):return (json.dumps(x,sort_keys=True,separators=(',',':'))+'\n').encode()
+ def sha(b):return hashlib.sha256(b).hexdigest()
++def file_sha256(path):
++ h=hashlib.sha256()
++ with open(path,'rb') as stream:
++  while True:
++   block=stream.read(65536)
++   if not block:break
++   h.update(block)
++ return h.hexdigest()
++
++def verify_pins(pins):
++ assert pins and all(file_sha256(path)==expected for path,expected in pins.items()),'pinned_input_mismatch'
++
+ def atomic(path,x):
+  path=Path(path);path.parent.mkdir(parents=True,exist_ok=True);fd,tmp=tempfile.mkstemp(prefix=path.name+'.tmp.',dir=path.parent)
+  with os.fdopen(fd,'wb') as f:f.write(raw(x));f.flush();os.fsync(f.fileno())
+@@ -81,7 +93,7 @@
+  def complete_synthetic(self,i,a):
+   assert self.kind==KIND and self.schema==SCHEMA,'synthetic_cannot_enter_physical_job'
+   r=self.rows[i];v=dict(schema=self.schema,kind=self.kind,job=self.job,id=i,range=r,values=[str((i+1)*(j-12)) for j in range(24)])
+-  out=self.path/'outputs'/f'{i:04d}.json';atomic(out,v);a=dict(a,state='complete',output_sha256=sha(out.read_bytes()));atomic(self.path/'attempts'/f'{i:04d}.json',a);return a
++  out=self.path/'outputs'/f'{i:04d}.json';atomic(out,v);a=dict(a,state='complete',output_sha256=file_sha256(out));atomic(self.path/'attempts'/f'{i:04d}.json',a);return a
+  def adopt_one(self,i,a):
+   assert a['job']==self.job and a['kind']==self.kind and a['state']=='complete' and i in self.pending
+   out=self.path/'outputs'/f'{i:04d}.json';b=out.read_bytes();self.reads['raw_outputs']+=1;assert sha(b)==a['output_sha256'],'output_digest_mismatch'
+--- research_20261010/bilayer_control_memory_revision/physical_session.py
++++ research_20261010/bilayer_streaming_hash_revision/physical_session.py
+@@ -3,7 +3,7 @@
+ """
+ import os,sys,time,json,signal,resource,ctypes,math
+ from pathlib import Path
+-from engine import IncrementalJob,atomic,read,sha,raw
++from engine import IncrementalJob,atomic,read,sha,raw,file_sha256,verify_pins
+ from session_supervisor import snapshot
+ ROOT=Path(__file__).resolve().parent;KERNEL=ROOT.parent/'bilayer_variable_g_control_gate';SCHEMA='bilayer-moment24-v1';KIND='PHYSICAL-FIXED-WITNESS24'
+ import datetime
+@@ -12,7 +12,7 @@
+ def verify_output(out,receipt,row,identity):
+  assert receipt['identity']==identity and receipt['exit']==0
+  required={'result.json','result.json.schema.json','result.json.accumulators.json','chunk.json','targets.jsonl'};assert required<=set(receipt['output_sha256'])
+- for name,h in receipt['output_sha256'].items():assert Path(name).name==name and sha((out/name).read_bytes())==h
++ for name,h in receipt['output_sha256'].items():assert Path(name).name==name and file_sha256(out/name)==h
+  assert read(out/'result.json.schema.json')==dict(schema=SCHEMA,fields=24)
+  meta=read(out/'chunk.json');q=row['q'];stride=65536 if q==6 else 1024 if q==4 else 127 if q==2 else 1
+  assert (meta['q'],meta['begin'],meta['end'],meta['N'],meta['stride'])==(q,row['begin'],row['end'],row['N'],stride)
+@@ -37,7 +37,7 @@
+   if time.monotonic()-start>2*row['cap']+10 or time.time()>=DEADLINE:why='worker_wall_or_absolute_deadline'
+   if why:os.killpg(pid,signal.SIGKILL);w,st,u=os.wait4(pid,0);break
+   time.sleep(.01)
+- rec=dict(identity=identity,exit=os.waitstatus_to_exitcode(st),reason=why,wait4_cpu=u.ru_utime+u.ru_stime,output_sha256={f.name:sha(f.read_bytes()) for f in out.iterdir() if f.is_file()});assert rec['wait4_cpu']<=row['cap'];atomic(out/'receipt.json',rec);return rec
++ rec=dict(identity=identity,exit=os.waitstatus_to_exitcode(st),reason=why,wait4_cpu=u.ru_utime+u.ru_stime,output_sha256={f.name:file_sha256(f) for f in out.iterdir() if f.is_file()});assert rec['wait4_cpu']<=row['cap'];atomic(out/'receipt.json',rec);return rec
+ 
+ STOP=False
+ def stop_after_chunk(signum,frame):
+@@ -61,7 +61,7 @@
+ 
+ def run(jobdir,outdir):
+  jobdir=Path(jobdir);outdir=Path(outdir);authority=read(jobdir/'PRODUCTION_AUTHORITY.json');assert authority['explicit_authorization'] is True and authority['hard_cap']==21600 and authority['deadline_utc']=='2026-10-14T00:00:00Z'
+- identity=read(jobdir/'PINNED_INPUTS.json');assert required_pins(jobdir)<=set(identity),'mandatory_pins_missing';assert all(sha(Path(f).read_bytes())==h for f,h in identity.items());lockfd=int(os.environ['BILAYER_LOCK_FD']);assert os.fstat(lockfd).st_ino==os.stat(jobdir/'LOCK').st_ino
++ identity=read(jobdir/'PINNED_INPUTS.json');assert required_pins(jobdir)<=set(identity),'mandatory_pins_missing';verify_pins(identity);lockfd=int(os.environ['BILAYER_LOCK_FD']);assert os.fstat(lockfd).st_ino==os.stat(jobdir/'LOCK').st_ino
+  signal.signal(signal.SIGUSR1,stop_after_chunk);completed=0;session_limit=authority.get('session_chunk_limit',100);assert 1<=session_limit<=100
+  job=sha(raw(dict(kind=KIND,schema=SCHEMA,identity=identity)));store=IncrementalJob(jobdir/'store',job,SCHEMA,KIND)
+  for i in list(store.pending):
+@@ -81,7 +81,7 @@
+   if rec['exit']!=0:
+    a.update(state='failed',worker_receipt_sha256=sha(raw(rec)));atomic(store.path/'attempts'/f'{i:04d}.json',a);raise RuntimeError('worker_failed_no_automatic_retry')
+   val=verify_output(out,rec,row,identity);payload=dict(schema=SCHEMA,kind=KIND,job=job,id=i,range=row,values=val,worker_receipt_sha256=sha(raw(rec)))
+-  normalized=store.path/'outputs'/f'{i:04d}.json';atomic(normalized,payload);a.update(state='complete',output_sha256=sha(normalized.read_bytes()));atomic(store.path/'attempts'/f'{i:04d}.json',a);store.adopt_one(i,a);completed+=1
++  normalized=store.path/'outputs'/f'{i:04d}.json';atomic(normalized,payload);a.update(state='complete',output_sha256=file_sha256(normalized));atomic(store.path/'attempts'/f'{i:04d}.json',a);store.adopt_one(i,a);completed+=1
+  if not store.pending:finalize_physical(store,jobdir,identity)
+  atomic(outdir/'SESSION_SELF_CPU.json',dict(controller_self_cpu=time.process_time(),completed_this_session=completed,pending_chunks=len(store.pending),graceful_boundary_stop=bool(store.pending)))
+ if __name__=='__main__':run(sys.argv[1],sys.argv[2])
+--- research_20261010/bilayer_control_memory_revision/production_supervisor.py
++++ research_20261010/bilayer_streaming_hash_revision/production_supervisor.py
+@@ -3,14 +3,14 @@
+ """
+ import os,sys,time,json,fcntl
+ from pathlib import Path
+-from engine import read,sha,atomic
++from engine import read,sha,atomic,file_sha256,verify_pins
+ from physical_session import required_pins,DEADLINE
+ from session_supervisor import supervise
+ ROOT=Path(__file__).resolve().parent
+ 
+ def launch(jobdir):
+  jobdir=Path(jobdir).resolve();authority=read(jobdir/'PRODUCTION_AUTHORITY.json');assert authority['explicit_authorization'] is True and authority['hard_cap']==21600 and authority['deadline_utc']=='2026-10-14T00:00:00Z'
+- pins=read(jobdir/'PINNED_INPUTS.json');assert required_pins(jobdir)<=set(pins) and all(sha(Path(p).read_bytes())==v for p,v in pins.items())
++ pins=read(jobdir/'PINNED_INPUTS.json');assert required_pins(jobdir)<=set(pins);verify_pins(pins)
+  assert (jobdir/'CONTROL_SESSIONS.json').exists(),'controller_budget_requires_explicit_initialization'
+  lock=open(jobdir/'LOCK','a+');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+  sessions=read(jobdir/'CONTROL_SESSIONS.json')['sessions'] if (jobdir/'CONTROL_SESSIONS.json').exists() else [];sid=len(sessions);out=jobdir/'sessions'/str(sid);out.mkdir(parents=True,exist_ok=False)
+--- research_20261010/bilayer_full_m4_watchdog_gate/outer.py
++++ research_20261010/bilayer_streaming_hash_revision/outer.py
+@@ -4,9 +4,9 @@
+ """
+ import os,sys,time,signal,resource,ctypes,fcntl,json,hashlib
+ from pathlib import Path
+-P=Path(__file__).resolve().parent;BASE=P.parent/'bilayer_control_memory_revision';JOB=P.parent/'bilayer_full_m4_production_run'
++P=Path(__file__).resolve().parent;BASE=P;JOB=P.parent/'bilayer_full_m4_production_run_streaming'
+ sys.path.insert(0,str(BASE))
+-from engine import read,atomic,sha,raw,ControlBudget
++from engine import read,atomic,sha,raw,ControlBudget,file_sha256,verify_pins
+ from physical_session import required_pins,DEADLINE
+ from session_supervisor import snapshot
+ 
+@@ -25,9 +25,13 @@
+  lock=open(JOB/'OUTER_LOCK','a+');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+  a=read(JOB/'PRODUCTION_AUTHORITY.json');assert a['explicit_authorization'] is True and a['hard_cap']==21600 and a['deadline_utc']=='2026-10-14T00:00:00Z' and a['session_chunk_limit']==100
+  pins=read(JOB/'PINNED_INPUTS.json');assert required_pins(JOB)|{str(Path(__file__).resolve())}<=set(pins)
+- assert all(sha(Path(p).read_bytes())==h for p,h in pins.items())
++ verify_pins(pins)
+  job=sha(raw(dict(kind='PHYSICAL-FIXED-WITNESS24',schema='bilayer-moment24-v1',identity=pins)));assert a['job_id']==job
+  budget=ControlBudget(JOB/'CONTROL_SESSIONS.json');rid=a['outer_reservation_id'];r=budget.state['sessions'][rid]
++ predecessor=read(JOB/'PREDECESSOR.json');carry=read(JOB/'CONTROL_SESSIONS_CARRY_FORWARD.json')
++ assert predecessor['job_id']=='db32cbc51cf71726756f7910921ef26b684e6c3020a8e8f0a0e5eecd17d24556' and predecessor['charged_control']==220
++ assert carry['reserved']==220 and budget.state['sessions'][:2]==carry['sessions'] and rid>=2
++ assert str((JOB/'PREDECESSOR.json').resolve()) in pins and str((JOB/'CONTROL_SESSIONS_CARRY_FORWARD.json').resolve()) in pins
+  assert int(os.environ['BILAYER_OUTER_RESERVATION_ID'])==rid
+  wid=a['watchdog_reservation_id'];assert int(os.environ['BILAYER_WATCHDOG_RESERVATION_ID'])==wid and wid!=rid
+  wr=budget.state['sessions'][wid];assert wr['charged']==100 and wr['role']=='external_watchdog' and wr['watchdog_cpu_cap']==100 and wr['state']=='reserved'
+@@ -42,7 +46,7 @@
+ 
+  assert r['charged']==120 and r['controller_cap']==100 and r['supervisor_cap']==20 and r['state']=='reserved'
+  marker=JOB/('OUTER_STARTED_%d.json'%rid);assert not marker.exists(),'outer_reservation_is_single_use'
+- atomic(marker,dict(job=job,pid=os.getpid(),reservation_id=rid,start=time.time(),source_sha256=sha(Path(__file__).read_bytes())))
++ atomic(marker,dict(job=job,pid=os.getpid(),reservation_id=rid,start=time.time(),source_sha256=file_sha256(Path(__file__))))
+  libc=ctypes.CDLL(None);assert libc.prctl(36,1,0,0,0)==0
+  ownpid=os.getpid();active=None;seen=set();tree_cpu=0.;peak=0;session_count=0;limit_observations={watchdog:dict(role='external_watchdog',cpu=watchdog_cpu,address_space=watchdog_as)};watchdog_cpu_peak=0.;start=time.monotonic();reason=None
+  def kill_known():
+--- research_20261010/bilayer_full_m4_watchdog_gate/launch.sh
++++ research_20261010/bilayer_streaming_hash_revision/launch.sh
+@@ -2,4 +2,4 @@
+ # Proposal only. Requires root-created, reviewed authority and prepaid ledger.
+ set -eu
+ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
+-exec /usr/bin/taskset -c 6 /usr/bin/prlimit --cpu=99:100 --as=67108864:134217728 -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/shared/haldane_active/research_20261010/bilayer_full_m4_watchdog_gate/outer.py
++exec /usr/bin/taskset -c 6 /usr/bin/prlimit --cpu=99:100 --as=67108864:134217728 -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/outer.py
+--- research_20261010/bilayer_full_m4_watchdog_gate/launch_watchdog.sh
++++ research_20261010/bilayer_streaming_hash_revision/launch_watchdog.sh
+@@ -4,11 +4,11 @@
+ [ "$#" -eq 2 ]
+ case "$1:$2" in *[!0-9:]*|:*) exit 2;; esac
+ [ "$1" != "$2" ]
+-JOB=/workspace/shared/haldane_active/research_20261010/bilayer_full_m4_production_run
++JOB=/workspace/shared/haldane_active/research_20261010/bilayer_full_m4_production_run_streaming
+ NOW=$(/usr/bin/date -u +%s)
+ [ $((1791936000-NOW)) -ge 115205 ]
+ # Single-use markers prevent reuse even if Python never reaches its startup.
+ mkdir "$JOB/OUTER_LAUNCH_USED_$1"
+ mkdir "$JOB/WATCHDOG_LAUNCH_USED_$2"
+ export BILAYER_OUTER_RESERVATION_ID="$1" BILAYER_WATCHDOG_RESERVATION_ID="$2"
+-exec /usr/bin/taskset -c 6 /usr/bin/prlimit --cpu=100:100 --as=67108864:134217728 -- /usr/bin/timeout --signal=TERM --kill-after=5s 28800s /bin/sh /workspace/shared/haldane_active/research_20261010/bilayer_full_m4_watchdog_gate/launch.sh
++exec /usr/bin/taskset -c 6 /usr/bin/prlimit --cpu=100:100 --as=67108864:134217728 -- /usr/bin/timeout --signal=TERM --kill-after=5s 28800s /bin/sh /workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/launch.sh

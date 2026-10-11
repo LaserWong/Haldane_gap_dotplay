@@ -1,0 +1,42 @@
+{
+  "mode": "review32",
+  "exit_code": 0,
+  "watchdog_reason": null,
+  "wall_seconds": 5.791755744998227,
+  "wait4_total_cpu_seconds": 5.60741,
+  "wait4_peak_rss_kib": 20116,
+  "launcher_CPU_seconds": 0.281775827,
+  "launcher_hard_CPU_seconds": 1,
+  "child_hard_CPU_seconds": 10,
+  "aggregate_hard_ceiling_seconds": 11,
+  "AS_mib": 256,
+  "postexec_observations": [
+    {
+      "pid": 5,
+      "executable": "/workspace/shared/haldane_active/research_20261010/uniform_alternating_h2_review/independent_h2",
+      "cpu_limits": [
+        10,
+        10
+      ],
+      "AS_limits": [
+        268435456,
+        268435456
+      ],
+      "affinity": [
+        5
+      ],
+      "SIGXCPU": "default_unblocked"
+    }
+  ],
+  "wait4_records": [
+    {
+      "pid": 5,
+      "exit_code": 0,
+      "user_cpu": 5.495944,
+      "system_cpu": 0.111466,
+      "peak_rss_kib": 20116
+    }
+  ],
+  "whole_tree_empty": true,
+  "automatic_retry": false
+}

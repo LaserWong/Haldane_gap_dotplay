@@ -1,0 +1,87 @@
+{
+  "status": "PASS_ALL_THREE_REAL_STARTUPS_FINAL26_PINS_AS64",
+  "source_manifest": "88aa9e771ab91a958d43a339a9bbd96e627240f2ca82cdc0d4234ddf0908fbee",
+  "job_id": "845b55d815552ca70bb870f0efd6be20a94850f952e63a87dc7a0338553e8a0e",
+  "contexts": [
+    {
+      "entry": "outer",
+      "pins": 26,
+      "hash_reads": 535,
+      "limits": {
+        "cpu": [
+          6,
+          6
+        ],
+        "address_space": [
+          67108864,
+          134217728
+        ]
+      },
+      "memory": {
+        "VmPeak": 40042496,
+        "VmSize": 40042496,
+        "VmRSS": 13393920
+      }
+    },
+    {
+      "entry": "supervisor",
+      "pins": 26,
+      "hash_reads": 535,
+      "limits": {
+        "cpu": [
+          6,
+          6
+        ],
+        "address_space": [
+          67108864,
+          134217728
+        ]
+      },
+      "memory": {
+        "VmPeak": 40042496,
+        "VmSize": 40042496,
+        "VmRSS": 13430784
+      }
+    },
+    {
+      "entry": "controller",
+      "pins": 26,
+      "hash_reads": 535,
+      "limits": {
+        "cpu": [
+          6,
+          6
+        ],
+        "address_space": [
+          67108864,
+          134217728
+        ]
+      },
+      "memory": {
+        "VmPeak": 40042496,
+        "VmSize": 40042496,
+        "VmRSS": 13430784
+      }
+    }
+  ],
+  "python_binary_bytes": 30894944,
+  "read_block_bytes": 65536,
+  "total_hash_reads": 1605,
+  "large_pin_mutation_rejected": true,
+  "old_failed_control_charge": 220,
+  "successor_standard_control_total": 1130,
+  "remaining_control_margin": 70,
+  "unchanged_global_CPU_cap": 21600,
+  "test_only_CPU_affinity_adaptation": "CPU7 and6hard; actualAS64soft/128hard before imports",
+  "no_physical_workers": true,
+  "no_real_authority_or_ledger_created": true,
+  "verdict": "STAGED_LAUNCH_GATE_PASS_CONDITIONAL_ON_ROOT_AUTHORITY_AND_FRESH_PRECHARGE",
+  "predecessor_runtime_failure_retained": true,
+  "review_reservations": {
+    "failed": 10,
+    "corrected": 8,
+    "total": 18
+  },
+  "earlier_sealed_reviews_unchanged": true,
+  "test_scope": "Final pin verification cutpoints under actual AS64; no worker or entire new lifetime replay."
+}

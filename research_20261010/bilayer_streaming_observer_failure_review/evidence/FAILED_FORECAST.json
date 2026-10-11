@@ -1,0 +1,27 @@
+{
+  "control_reserved": 463,
+  "current_authorized_partition": {
+    "control": 1200,
+    "retry": 3600,
+    "standard_worker": 16800,
+    "total": 21600
+  },
+  "inflight_no_refund_charge": 3,
+  "no_new_authority": true,
+  "proposal_carried_control": 463,
+  "proposal_carried_workers": 192,
+  "proposal_control_planned_total": 1373,
+  "proposal_control_remaining": 227,
+  "proposal_fresh_outer_watchdog": 220,
+  "proposal_only_clean_generation_partition": {
+    "control": 1600,
+    "retry": 3200,
+    "standard_worker": 16800,
+    "total": 21600
+  },
+  "proposal_retry_after_retired_workers": 3008,
+  "proposal_standard30_sessions": 690,
+  "remaining_retry_if_reusing63": 3597,
+  "remaining_standard_if_reusing63": 16611,
+  "worker_reserved": 192
+}

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_full_m4_watchdog_gate/outer.py", line 148, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_full_m4_watchdog_gate/outer.py", line 28, in run
+    assert all(sha(Path(p).read_bytes())==h for p,h in pins.items())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_full_m4_watchdog_gate/outer.py", line 28, in <genexpr>
+    assert all(sha(Path(p).read_bytes())==h for p,h in pins.items())
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1020, in read_bytes
+    return f.read()
+           ^^^^^^^^
+MemoryError

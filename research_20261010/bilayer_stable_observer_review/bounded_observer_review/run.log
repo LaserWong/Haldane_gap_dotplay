@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/check_observer.py", line 16, in <module>
+    pins=read(JOB/'PINNED_INPUTS.json');assert digest(JOB/'PINNED_INPUTS.json')=='4c9c17ece2714710b83c8f4e975b027dc057da3a51bb9d44671ba869b124f6da' and len(pins)==27
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

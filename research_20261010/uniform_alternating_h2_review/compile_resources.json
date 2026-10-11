@@ -1,0 +1,106 @@
+{
+  "mode": "compile",
+  "exit_code": 0,
+  "watchdog_reason": null,
+  "wall_seconds": 4.400253886997234,
+  "wait4_total_cpu_seconds": 4.26073,
+  "wait4_peak_rss_kib": 159040,
+  "launcher_CPU_seconds": 0.250349611,
+  "launcher_hard_CPU_seconds": 1,
+  "child_hard_CPU_seconds": 10,
+  "aggregate_hard_ceiling_seconds": 11,
+  "AS_mib": 512,
+  "postexec_observations": [
+    {
+      "pid": 5,
+      "executable": "/usr/bin/x86_64-linux-gnu-g++-14",
+      "cpu_limits": [
+        10,
+        10
+      ],
+      "AS_limits": [
+        536870912,
+        536870912
+      ],
+      "affinity": [
+        5
+      ],
+      "SIGXCPU": "default_unblocked"
+    },
+    {
+      "pid": 6,
+      "executable": "/usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus",
+      "cpu_limits": [
+        10,
+        10
+      ],
+      "AS_limits": [
+        536870912,
+        536870912
+      ],
+      "affinity": [
+        5
+      ],
+      "SIGXCPU": "default_unblocked"
+    },
+    {
+      "pid": 7,
+      "executable": "/usr/bin/x86_64-linux-gnu-as",
+      "cpu_limits": [
+        10,
+        10
+      ],
+      "AS_limits": [
+        536870912,
+        536870912
+      ],
+      "affinity": [
+        5
+      ],
+      "SIGXCPU": "default_unblocked"
+    },
+    {
+      "pid": 8,
+      "executable": "/usr/libexec/gcc/x86_64-linux-gnu/14/collect2",
+      "cpu_limits": [
+        10,
+        10
+      ],
+      "AS_limits": [
+        536870912,
+        536870912
+      ],
+      "affinity": [
+        5
+      ],
+      "SIGXCPU": "default_unblocked"
+    },
+    {
+      "pid": 9,
+      "executable": "/usr/bin/x86_64-linux-gnu-ld.bfd",
+      "cpu_limits": [
+        10,
+        10
+      ],
+      "AS_limits": [
+        536870912,
+        536870912
+      ],
+      "affinity": [
+        5
+      ],
+      "SIGXCPU": "default_unblocked"
+    }
+  ],
+  "wait4_records": [
+    {
+      "pid": 5,
+      "exit_code": 0,
+      "user_cpu": 3.429417,
+      "system_cpu": 0.831313,
+      "peak_rss_kib": 159040
+    }
+  ],
+  "whole_tree_empty": true,
+  "automatic_retry": false
+}

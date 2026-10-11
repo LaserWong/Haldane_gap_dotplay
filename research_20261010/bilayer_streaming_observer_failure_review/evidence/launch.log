@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/outer.py", line 152, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/outer.py", line 124, in run
+    assert cpu in cpus and space in spaces and aff=='6','post_exec_limit_mismatch'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: post_exec_limit_mismatch

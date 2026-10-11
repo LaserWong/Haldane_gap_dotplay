@@ -1,0 +1,39 @@
+{
+  "status": "PASS_PARTIAL_RECEIPT_AND_FAILURE_ACCOUNTING",
+  "job": "845b55d815552ca70bb870f0efd6be20a94850f952e63a87dc7a0338553e8a0e",
+  "producer_failure_seal": "552153e60e66c147e6384cca5f6b878e6a7cfac271cc35d4e0d66a0ed2e17b73",
+  "source_files": 650,
+  "committed_chunks": 63,
+  "covered_targets": {
+    "0": 1,
+    "2": 496,
+    "4": 864,
+    "6": 0
+  },
+  "uncommitted_reserved_attempt": 63,
+  "worker_charge": 192,
+  "control_charge": 463,
+  "total_charge": 655,
+  "completed_worker_wait4_CPU": 10.835779999999996,
+  "completed_worker_setup_CPU": 1.0617489999999996,
+  "completed_worker_body_CPU": 9.429620000000005,
+  "outer_tree_CPU": 13.279290999999999,
+  "outer_self_CPU": 0.667257408,
+  "combined_peak_RSS": 59031552,
+  "no_matching_processes": [],
+  "locks_available": true,
+  "all24_signed_accumulators_preserved": true,
+  "exact_failure_cause_proven": false,
+  "production_gate": "FAIL_REQUIRES_OBSERVER_REPAIR",
+  "full_moments": false,
+  "normalization_note": "Partial raw sector totals only; no full accepted57D m012 gate or positivity assumption.",
+  "new_partition_proposal": {
+    "standard": 16800,
+    "control": 1600,
+    "retry": 3200,
+    "retired_workers": 192,
+    "control_carry": 463,
+    "control_forecast": 1373,
+    "retry_remaining": 3008
+  }
+}

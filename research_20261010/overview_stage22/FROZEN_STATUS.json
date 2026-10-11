@@ -1,0 +1,284 @@
+{
+  "status": "FROZEN verified static overview",
+  "frozen_utc": "2026-10-11T05:59:13.247900+00:00",
+  "M_or_L_ge2_main_certificate_rows": 339,
+  "preserved_stage21_main_rows": 339,
+  "preserved_stage21_unconditional_positive_certificate_records": 431,
+  "unconditional_positive_certificate_records": 435,
+  "new_variance_refined_closed_intervals": 4,
+  "new_physical_H2_lengths": [
+    32,
+    64
+  ],
+  "new_finite_bridge_checks": 56,
+  "new_final_bootstrap_windows": 37,
+  "smallest_genuine_uniform_initialization": 30,
+  "gap_at_smallest_uniform_initialization": "179/10000",
+  "uniform_contiguous_coverage_onset": 2,
+  "strongest_uniform_gap": "31/1250",
+  "strongest_uniform_gap_tail_initialization": 34,
+  "physical24_keeps_parity_MPS48": true,
+  "bilayer_nested_covers_unchanged": [
+    {
+      "endpoint": "27/250",
+      "closed_pieces": 86,
+      "gap_lower": "4499695659/1000000000000"
+    },
+    {
+      "endpoint": "433/4000",
+      "closed_pieces": 88,
+      "gap_lower": "293202989/500000000000"
+    }
+  ],
+  "new_bilayer_gap": false,
+  "full8x4_high_moments_accepted": false,
+  "engineering_scope": [
+    {
+      "component": "accepted57D controls and bounded outer launch",
+      "review": "bilayer_full_m4_launch_review",
+      "job_id": "8bd34794ff776ba9222058c06ade5c76ffd85515518dbc7462d8fc7e49b21a14",
+      "status": "PASS scoped controls and startup; external wall watchdog still missing at this historical seal",
+      "reserved_review_CPU": [
+        30
+      ],
+      "physical_workers": 0,
+      "full_moments_accepted": false,
+      "new_gap": false,
+      "accepted57D_m012": true,
+      "initial_cap": 100,
+      "separate_stage_tokens": [
+        100,
+        400,
+        2945
+      ]
+    },
+    {
+      "component": "external startup watchdog",
+      "review": "bilayer_full_m4_watchdog_review",
+      "job_id": "db32cbc51cf71726756f7910921ef26b684e6c3020a8e8f0a0e5eecd17d24556",
+      "status": "PASS exact pinned bounded staged-launch gate; no authority created by review",
+      "reserved_review_CPU": [
+        5
+      ],
+      "physical_workers": 0,
+      "full_moments_accepted": false,
+      "new_gap": false,
+      "accepted57D_m012": true,
+      "initial_cap": 100,
+      "separate_stage_tokens": [
+        100,
+        400,
+        2945
+      ]
+    },
+    {
+      "component": "streaming full-pin startup correction",
+      "review": "bilayer_streaming_startup_review",
+      "job_id": "845b55d815552ca70bb870f0efd6be20a94850f952e63a87dc7a0338553e8a0e",
+      "status": "PASS actual three verifier cutpoints and final26 pins under AS64; fresh authority and precharge required",
+      "reserved_review_CPU": [
+        10,
+        8
+      ],
+      "physical_workers": 0,
+      "full_moments_accepted": false,
+      "new_gap": false,
+      "accepted57D_m012": true,
+      "initial_cap": 100,
+      "separate_stage_tokens": [
+        100,
+        400,
+        2945
+      ]
+    },
+    {
+      "component": "stable observer and checksum-preserving correction",
+      "review": "bilayer_stable_observer_review",
+      "job_id": "c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01",
+      "status": "PASS bounded observer tests and final28-pin AS64 startup; no full lifetime or scientific result",
+      "reserved_review_CPU": [
+        8,
+        6
+      ],
+      "physical_workers": 0,
+      "full_moments_accepted": false,
+      "new_gap": false,
+      "accepted57D_m012": true,
+      "initial_cap": 100,
+      "separate_stage_tokens": [
+        100,
+        400,
+        2945
+      ]
+    }
+  ],
+  "failed_job_records": [
+    {
+      "charged_control": 220,
+      "cleanup_read_only_process_scan": "No surviving matching launch/worker processes",
+      "failure": "MemoryError during whole-file pin hashing before inner startup",
+      "inner_sessions_started": 0,
+      "job_id": "db32cbc51cf71726756f7910921ef26b684e6c3020a8e8f0a0e5eecd17d24556",
+      "large_pinned_python_bytes": 30894944,
+      "next_generation_must_carry_control_charge": 220,
+      "observed_exit_code": 1,
+      "observed_tool_wall_seconds": 0.140202029,
+      "retry_performed": false,
+      "state": "FAILED_PREINNER",
+      "wait4_cpu_unavailable": true,
+      "workers_dispatched": 0,
+      "source": "research_20261010/bilayer_full_m4_production_run/FAILED_PREINNER.json",
+      "source_sha256": "3fc86dd869c531782e80e45156701e0eb29161515f9a8d2161173a93e1a9f3ef",
+      "sealed_failure_manifest": "research_20261010/bilayer_full_m4_production_run/FAILED_START_MANIFEST_SHA256.json",
+      "sealed_failure_manifest_sha256": "0dd76472806a818c4489fac4b093b7636468dc33771bbb0c8fa6ae3b9875aa32"
+    }
+  ],
+  "failed_job_summaries": [
+    {
+      "job_id": "db32cbc51cf71726756f7910921ef26b684e6c3020a8e8f0a0e5eecd17d24556",
+      "status": "FAILED_PREINNER",
+      "committed_chunks": 0,
+      "worker_charge": 0,
+      "control_charge": 220,
+      "total_charge": 220,
+      "cause_proven": true,
+      "scope": "MemoryError in whole-file startup pin hashing; no physical worker",
+      "primary_source": "research_20261010/bilayer_full_m4_production_run/FAILED_PREINNER.json"
+    },
+    {
+      "job_id": "845b55d815552ca70bb870f0efd6be20a94850f952e63a87dc7a0338553e8a0e",
+      "status": "FAILED_OBSERVER_AFTER63_COMMITS",
+      "committed_chunks": 63,
+      "worker_charge": 192,
+      "control_charge": 463,
+      "total_charge": 655,
+      "cause_proven": false,
+      "scope": "Partial receipt/accounting PASS; production FAIL pending observer repair",
+      "primary_source": "research_20261010/bilayer_streaming_observer_failure_review/CHECKS.json"
+    },
+    {
+      "job_id": "c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01",
+      "status": "FAILED_RESUME100_WITH_INCOMPLETE_ARGV",
+      "committed_chunks": 100,
+      "worker_charge": 492,
+      "control_charge": 716,
+      "total_charge": 1208,
+      "cause_proven": false,
+      "scope": "Classifier rejection of incomplete argv reproduced; reason for empty argv unproven; no new science",
+      "primary_source": "research_20261010/bilayer_m4_checkpoint100_terminal_review/CHECKS.json"
+    }
+  ],
+  "accepted_partial_checkpoint100": [
+    {
+      "job_id": "c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01",
+      "checkpoint_digest": "01d7a5098422a5dcb210fff8c77782e57099ff439e9e49b4b323cba06aea2418",
+      "committed_chunks": 100,
+      "q0_targets": 1,
+      "q2_targets": 496,
+      "q4_targets": 1456,
+      "q6_targets": 0,
+      "all24_signed_chains_verified": true,
+      "first63_values_equal_preserved_prior_generation": true,
+      "retired_worker_charges": 192,
+      "worker_charged": 492,
+      "control_charged": 711,
+      "total_charged": 1203,
+      "verified_role_map_available": false,
+      "idle_evidence": "Exclusive lifetime LOCK acquired throughout audit, complete100 attempts, reaped inner receipt, unchanged stage state and absent continuation; no cross-namespace process-scan claim.",
+      "no_q6_cost_sample": true,
+      "full_moments": false,
+      "review_wrote_token": false,
+      "review_scientific_workers_launched": 0,
+      "primary_source": "research_20261010/bilayer_m4_checkpoint100_review/CHECKS.json"
+    }
+  ],
+  "terminal_checkpoint100_failure": [
+    {
+      "job_id": "c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01",
+      "checkpoint_digest": "01d7a5098422a5dcb210fff8c77782e57099ff439e9e49b4b323cba06aea2418",
+      "authorized_token_cap": 400,
+      "actual_committed": 100,
+      "no_new_scientific_receipts": true,
+      "coverage": {
+        "q0": 1,
+        "q2": 496,
+        "q4": 1456,
+        "q6": 0
+      },
+      "worker_charge": 492,
+      "control_charge": 716,
+      "total_charge": 1208,
+      "unchanged_scientific_and_checkpoint_files": 1021,
+      "both_locks_available_and_held": true,
+      "namespace_caveat": "No cross-namespace empty process-scan assertion.",
+      "verified_roles": {
+        "native": 99,
+        "supervisor": 1,
+        "controller": 1,
+        "external_watchdog": 1
+      },
+      "vacuum_runtime_identity_sampled": false,
+      "interpretation": "The frozen classifier deterministically rejects an empty command line although all role limits match. Equal samples with incomplete argv do not prove an unexpected executable. Cause of empty argv is not established.",
+      "new_launch_authorized_by_review": false,
+      "new_physics_or_fork_tests": false,
+      "full_moments": false,
+      "checkpoint400_exists": false,
+      "primary_source": "research_20261010/bilayer_m4_checkpoint100_terminal_review/CHECKS.json"
+    }
+  ],
+  "current_snapshot_scope": {
+    "uniform_all_integer_physical_gap": "31/1250",
+    "smallest_genuine_uniform_initialization": 30,
+    "uniform_coverage_from": 2,
+    "new_uniform_gap": false,
+    "new_bilayer_gap": false,
+    "new_thermal_campaign": false,
+    "full8x4_high_moments_accepted": false,
+    "active_successor_files_included": false,
+    "streaming_gate_job_id": "845b55d815552ca70bb870f0efd6be20a94850f952e63a87dc7a0338553e8a0e",
+    "streaming_actual_status": "FAILED_AFTER63_COMMITS",
+    "streaming_specific_failure_cause_proven": false,
+    "proposed_clean_generation_partition": {
+      "standard": 16800,
+      "control": 1800,
+      "retry": 3000
+    },
+    "required_control_carry": 716,
+    "required_retired_worker_retry_charge": 492,
+    "current_production_gate": "FAIL_PENDING_INCOMPLETE_IDENTITY_REPAIR",
+    "terminal_failure_included": true,
+    "repaired_gate_job_id": "c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01",
+    "repaired_gate_review_accepted": true,
+    "repaired_runtime_checkpoint_included": true,
+    "maximum_independently_reviewed_committed_chunks": 100,
+    "checkpoint400_included": false,
+    "no_q6_cost_evidence": true,
+    "pending_new_repairs_excluded": true,
+    "successor_initial_cap_reported_by_root": 100,
+    "successor_initial_authority_reported_utc": "2026-10-11 05:11 UTC",
+    "all_stage_transitions_need_separate_token": true,
+    "physical24_retains_parity_MPS48": true,
+    "original_failed_job_zero_workers": true,
+    "original_failed_control_charge_retained": 220,
+    "latest_remote_main_before_snapshot": "2d31755efbf0637cb15579ae52d4138b19326ab4",
+    "latest_remote_main_verified_utc": "2026-10-11T05:01:48Z",
+    "user_research_hard_cutoff_utc": "2026-10-14T00:00:00Z"
+  },
+  "prior_resource_failures_preserved": true,
+  "mutable_campaign_data_included": false,
+  "direct_source_hashes": 5067,
+  "stage22_dependency_pins": 3740,
+  "review_seals": 117,
+  "sealed_review_entries_checked": 11063,
+  "previous_stage21_unchanged": true,
+  "root_files_modified_by_this_writer": false,
+  "remote_publication_performed": false,
+  "cpu_affinity": [
+    8
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "corruptions_rejected": 423,
+  "byte_identical_rendered_files": 50,
+  "scope": "Integrity and exact scoped extraction of independent final reviews and immutable failure exports; no new thermal or physical production",
+  "user_research_hard_cutoff_utc": "2026-10-14T00:00:00Z"
+}

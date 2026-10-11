@@ -1,0 +1,47 @@
+{
+  "status": "PASS_OBSERVER_CORRECTION_AND_SCOPED_BUDGET_DELTA",
+  "source_seal": "6b810258d0d4f593d6d19308b5d19690dedde8d69ac721e9554b6dff66cc9d5a",
+  "job": "c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01",
+  "pins": 28,
+  "actual_startup_cutpoints": [
+    "outer",
+    "supervisor",
+    "controller"
+  ],
+  "actual_AS": [
+    67108864,
+    134217728
+  ],
+  "memory": {
+    "VmPeak": 44306432,
+    "VmSize": 44249088,
+    "VmRSS": 17874944
+  },
+  "barrier_cases": 3,
+  "true_bad_CPU_rejected": true,
+  "true_bad_AS_rejected": true,
+  "injected_bad_affinity_rejected": true,
+  "read_crossing_exec_deferred": true,
+  "same_identity_limit_change_rechecked": true,
+  "mismatch_diagnostics_persisted": true,
+  "all_test_children_reaped": true,
+  "restored193600_nonzero_n8_checked": true,
+  "control_carry": 463,
+  "worker_carry": 192,
+  "global_cap": 21600,
+  "control_pool": 1600,
+  "retry_pool": 3200,
+  "control_forecast": 1373,
+  "retry_remaining": 3008,
+  "no_physical_worker": true,
+  "production_authority_created": false,
+  "verdict": "STAGED_LAUNCH_GATE_PASS_CONDITIONAL_ON_ROOT_AUTHORITY",
+  "review_reservations": {
+    "failed_pin_count": 8,
+    "corrected": 6,
+    "total": 14
+  },
+  "rejected_candidate": "aec2ba0bba2cecf5bc9cae4f727aa73f667971d4212f5f5290ac46fb1196011d",
+  "full_lifecycle_tested": false,
+  "full_scientific_result": false
+}

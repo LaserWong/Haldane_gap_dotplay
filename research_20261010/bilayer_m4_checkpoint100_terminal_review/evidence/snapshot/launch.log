@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/outer.py", line 145, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/outer.py", line 117, in run
+    enforce(observation,JOB/'LIMIT_EVENTS') # Persist full tuple BEFORE failure.
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/limit_observer.py", line 55, in enforce
+    if record['outcome']=='mismatch':raise LimitMismatch(record.get('reason','unknown'))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+limit_observer.LimitMismatch: unexpected_stable_executable_or_command

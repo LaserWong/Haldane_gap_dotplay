@@ -326,3 +326,18 @@ Restricted-cell proposal is producer-only, cell15/16/17 recipe did notclose; tar
 Next: stage21publication QA; independent launchguard/exact57Dcontrolreview without assuming production permission. Nextreport08:15UTC; strict entiretaskstop2026-10-14 00UTC /October13 20EDT with complete/partial evidence saved.
 
 Root verification confirms122 stage21 sealed files match manifest36e427dd2105465d40adf8b3d8c36cd76bff079b31a995bef1efa9837d847da4. Frozen QA includes108reviewseals/8049entries,360guards,48exports. Active outer-launch and H²64 work remain excluded. No unverified post-freeze replay timestamp is asserted by this root update.
+
+
+## Stage22 milestone — 2026-10-11 02:01 EDT / 2026-10-11 06:01 UTC
+
+Latestverifiedstage21main 2d31755efbf0637cb15579ae52d4138b19326ab4,tree 26918c06761c3662552728f5b3cbc9755fd32524,05:01:48.711UTC;1188files8540dependencies15086outside27transport. Threehistoricalpin-path mappings explicit, no unverified postfreeze-render replay claim. Stage22overview a4babfd30903bdb8d6bfc14d19cfc05c88af5b792d37b7416b3be402fe8bf4a3,134files/117reviews11063entries/423guards/50renders. Publication follows commit/receipt. Lastuserreport05:02:17UTC,next08:15UTC.
+
+H²exact32/64variance acceptance improves trueGibbsκ32<=.0969,κ64<=.119. Intervalreview9df6aaa425575c48a02c01db41ab7f40e85817aa2e152b3d9b2d6e839b2d29df accepts closed[4999249/5000751,5000751/4999249]/.020,[9997911/10002089,10002089/9997911]/.015,[399901/400099,400099/399901]/.010,[399891/400109,400109/399891]/.005,allintegercellsM>=2 unique finiteground,unit1,g.37windows56bridges4tails,physicaltemperature/ownMPS64 preserved, nooddphysicalring/optimalradiusclaim. Oldintervals/uniform.0248/bilayernestedbounds unchanged.
+
+Bilayer100partial accepted coverageq0=1,q2=496,q4=1456,q6=0; fullm3/m4 andq6cost unknown. Rootapproved100to400token encountered emptyargv identity observation on nextsupervisor startup, before newcontroller/worker/innerreservation. Terminalreview968bd67feeaa98267d732816b43039ff275952cb8965d86122351c2f81059f39 accepts1036exportfiles and1021unchangedscience/checkpointfiles; correctPython/resource tuple with twoemptyargv samples, actual cause unestablished. No400checkpoint. Retainedcharges1208=716control+492worker, alloldfailed reservations kept. Scopedlaunch/watchdog/stableobserver/partialreview successes do not erase failures or imply completedmoments.
+
+Global21600resourceplan approved repartition16800standard/1800control/3000retry,carry716controls+retire492workers,retryremaining2508; forecast1626controls leaves174. Old1383forecast omittedfresh220launcher and1603exceedsold1600pool. Newarithmetic is not accepted newsource or newlaunchauthority. Boundedidentityrepairpending/outsidefreeze; the selected c2c9 snapshot was terminal at that review boundary; later authorization is recorded below. Completecoverage must still pass exact57Dcontrols/raw24/fullindependentphysicalreview.
+
+Next: stage22publication; reviewboundedrepair without resettingcharges or auto-launch. Thermal18inputcampaignDONE,no restart. Preserveallhistoricalseals/failures/resourcecaveats. Nextreport08:15UTC; strict entiretaskcutoff2026-10-14 00UTC/October13 20EDT with complete/partialcheckpoints.
+
+Operational correction at root freeze: c2c9 terminal gateFAIL is the Stage22 historical selected snapshot, not current launch authority. Successord43e was authorized2026-10-11 06:00:08UTC; producerfirst100 completed06:01:23UTC, independent checkpoint audit pending. Subsequent identityrepair acceptance/successor are excluded from the immutable Stage22 science snapshot. No production count is promoted to independent physical acceptance. Next: review the successor checkpoint with unchanged historical charges; no400 or fullmoments claim.

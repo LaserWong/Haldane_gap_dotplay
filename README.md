@@ -1,4 +1,4 @@
-更新时间：2026-10-11 00:51 EDT（纽约，UTC−4） / 2026-10-11 04:51 UTC
+更新时间：2026-10-11 02:03 EDT（纽约，UTC−4） / 2026-10-11 06:03 UTC
 
 # Haldane_gap_dotplay
 
@@ -14,9 +14,11 @@ Haldane gap bootstrap 的研究检查点与任务状态。
 
 **完成进度：** 均匀周期 spin-1 Heisenberg 链现已对所有整数 L≥2 独立认证唯一基态及 gap≥.0248；L2/L3 解析结果、L4–25 的强化有限证书、全新 L26–33 证书与 n34 尾部完整拼接。此前 .0023 全尺寸及 .0179/.0245 嵌套记录保留为有效历史较弱界。真正 bootstrap 初始化已降至 n30（.0179），n32/n34 分别给 .0245/.0248；全尺寸覆盖起点 2 不等于初始化 2，也不证明最小种子。Stage 18 的完整 18 列输入及 L≥36/.0214 和历史第一输入路线保持可审计。普通二维双层的整个 0≤g≤.108 区间已独立认证，所有整数边长 L≥2 的统一下界为 .004499695659（86 段）；更宽的整个 [0,.10825] 区间下界为 .000586405978（88 段）。两条嵌套结论同时保留。单独 g=0.085 的更强下界为 0.027887084487。g=0.09 的严格下界为 0.027330086079，g=0.10 的单点下界提高为 0.055807148827，g=0.102 的单点下界为 0.016509932002，新增 g=.105 的已验收单点下界为 .031673112867。Spin-1 交替链已推进至 g=0.225，所有整数元胞数 M≥2 的下界为 0.051807500；g=0.25 目前仅认证 2≤M≤16 的下界 0.01，不是全尺寸结果。最大二维种子仍为 128 个自旋，完整 Hilbert 空间 2^128，到 g=0.085 的最大种子过滤基态搜索至多 30 维，新增 g=0.09 使用 43 维搜索并仍仅保留一个分子试探态。0≤g≤0.082 的路线每个种子仅保留基态贡献，继续到 0.085 时两个较小分母种子增加低激发带，到 g=0.09 的总试探维数分别为 59、125；g=0.10 的新路线将 8×4 分母基态搜索增至 43 维，总试探维数为 59、139，低带计数仍为 49、97。g=.105 的新分母基态搜索为 16/43 维，总试探维数为 64/139，保留低态仍为 49/97；最大种子仍只保留一个分子态。非微扰参考点附近整个 0≤ε≤0.00855 区间仍已认证。
 
-截至文档封存，最近已完成远端验收的是 Stage 20（2026-10-11 03:52:34 UTC）：[提交 `47a0c919d8c32f65e564ff7a5453a6eca3efd60c`](https://github.com/LaserWong/Haldane_gap_dotplay/commit/47a0c919d8c32f65e564ff7a5453a6eca3efd60c)，树 `ac73119766c9207bb92df0272bc3e862fe29f166`。832 个快照文件及 3,690 项依赖一致，保留 14,257 个快照外文件与 27 个证据传输文件。无 GitHub Actions 运行，不宣称 CI 通过。本检查点收录 Stage 21；其发布由后续提交记录与验收回执确认。
+截至文档封存，最近已完成远端验收的是 Stage 21（2026-10-11 05:01:48 UTC）：[提交 `2d31755efbf0637cb15579ae52d4138b19326ab4`](https://github.com/LaserWong/Haldane_gap_dotplay/commit/2d31755efbf0637cb15579ae52d4138b19326ab4)，树 `26918c06761c3662552728f5b3cbc9755fd32524`。1,188 个快照文件、8,540 项依赖一致，保留 15,086 个快照外文件与 27 个证据传输文件。三项历史 pin 路径按明确映射解析至保留的原始字节文件；未宣称未确认的 post-freeze render replay 或 GitHub Actions 通过。本检查点收录 Stage 22；发布由后续提交记录与验收回执确认。
 
-**Stage 21 进度与边界：** 物理 L32/L64 的 staggered B² 可观测量独立验收，为近均匀交替链提供更紧热迹比较。最终四个闭区间 [9998709/10001291,10001291/9998709]、[1249773/1250227,1250227/1249773]、[9997841/10002159,10002159/9997841]、[156213/156287,156287/156213] 分别给 gap≥.020/.015/.010/.005，单位键 1,g，每个整数元胞 M≥2、物理 L=2M、唯一有限体积基态。另四个较早 B² 区间及全部 Stage 20 区间保留。均匀 .0248 全整数结果与双层两条嵌套界不变。双层 numerical24/control 组件 PASS 不等于生产许可：outer startup guard 和 accepted57D m0/m1/m2 controls 仍需独立验收及明确生产授权，活动 launch package 与 H²64 工作不纳入本阶段。受限 cell proposal 仅为未接受提案，无 g=.9 物理结果，超预算记录保留。
+**Stage 22 进度与边界：** L32/L64 的精确 H²/总能量方差独立验收，真实 Gibbs observable 上界收紧至 κ32≤.0969、κ64≤.119。四个新闭区间 [4999249/5000751,5000751/4999249]、[9997911/10002089,10002089/9997911]、[399901/400099,400099/399901]、[399891/400109,400109/399891] 分别认证 gap≥.020/.015/.010/.005，单位交替键 1,g，所有整数元胞 M≥2、物理 L=2M、唯一有限体积基态。旧区间、均匀 .0248 和双层嵌套界不变。
+
+**Stage 22 所选双层 m4 历史快照：c2c9 边界终止，snapshot gate FAIL。** 已独立接受 100 个 partial chunks，覆盖 q0=1、q2=496、q4=1456、q6=0；没有完整 m3/m4 或 q6 成本证据。获准的 100→400 continuation 在下一次 supervisor startup 的空 argv 身份观察处失败，未启动新的 controller/worker/scientific attempt，仍无 400 checkpoint。终止审计保留完整元组：正确 pinned Python 与资源设置、两个空 command-line samples；原因未确定，不能说观测到非法 executable。累计收费 1208 CPU 秒=716 control+492 worker 全部保留。总预算 21600 的重分配方案（16800 standard/1800 control/3000 retry）获准作为资源规划，携带全部 716+492 收费；它不批准新实现或自动恢复。此为旧 c2c9 快照的边界状态，不是后续运行的当前权限。后继 d43e 已于 2026-10-11 06:00:08 UTC 获准，生产侧于 06:01:23 UTC 完成其首 100 chunks；该后继及 bounded identity repair 的后续接受记录不纳入 Stage 22 封存科学快照，首 100 独立 checkpoint 审计仍待完成。此处不将生产完成当作独立接受。
 
 **热迹 campaign 当前状态：完成并通过独立审计，无活动任务。** 2026-10-11 01:57 UTC 生产终止，18/18 完整 case、2,428 个 checkpoint。最终累计收费 27543/43200 CPU 秒，含保留的原 16207 秒；共 259 次尝试，无活动预留、修复后无新失败。生产账本原始终止标签 ALL_CASES_COMPLETE_PRODUCER_REVIEW_REQUIRED 原样保存；[最终独立审计](research_20261010/uniform_second_thermal_full_review/PROOF.md)已解决待审状态，清单 `792127565ad16526eeaa61add62bcc15db499578fc9d2157f11df27848867b94`。审计读取不可变完整导出，生产导出 seal 为 `17110955acc17821025bab5c1609706273510de6c8c2a31eb7184d693a9b9156`，不改写旧终止账本。两 worker/256 MiB、原 06:00 UTC 截止和追加式收费历史均保留，不再安排此 campaign 的运行监测或自动重启。
 
@@ -26,7 +28,7 @@ Haldane gap bootstrap 的研究检查点与任务状态。
 
 
 
-**汇报安排：** 最近用户汇报为 2026-10-11 00:00:12 EDT / 04:00:12 UTC；下一轮常规汇报仍为 04:15 EDT / 08:15 UTC。此前 03:10:39 UTC 发布/进展汇报已覆盖原定 03:15 一轮，不重复记为待发。最后一轮常规汇报为 10 月 13 日 16:15 EDT，20:00 EDT 停止科研并保存最终检查点。此处不宣称 04:00:12 UTC 以后的新通知。机器状态见 [CURRENT_STATUS.json](CURRENT_STATUS.json)，计划见 [PLAN](research_20261010/PLAN.md)，所有历史 PAUSED/Release 快照保留。
+**汇报安排：** 最近用户汇报为 2026-10-11 01:02:17 EDT / 05:02:17 UTC；下一轮常规汇报仍为 04:15 EDT / 08:15 UTC。03:10:39 UTC 曾覆盖原定 03:15 一轮，不重复待发。最后常规汇报为 10 月 13 日 16:15 EDT，20:00 EDT 严格停止科研并保存最终检查点。机器状态见 [CURRENT_STATUS.json](CURRENT_STATUS.json)，计划见 [PLAN](research_20261010/PLAN.md)，原 PAUSED/Release 快照不改写。
 
 ## 本轮新增核验结果（2026-10-10 19:21 EDT）
 
@@ -47,6 +49,10 @@ Haldane gap bootstrap 的研究检查点与任务状态。
 | 同上，历史较弱下界保留 | n54，广义 sector powers | 0.0025 | 所有整数 L≥54 |
 | 同上，原 quadratic-tail 冷却结构 | n56 | 0.0068 | 所有整数 L≥56 |
 | 同上，改进原 n60 路线 | n60 | 0.0102 | 所有整数 L≥60 |
+| Spin-1 近均匀交替链，H²/方差收紧 | [4999249/5000751,5000751/4999249] | .020 | 所有整数元胞 M≥2，物理 L=2M |
+| 同上 | [9997911/10002089,10002089/9997911] | .015 | 所有整数元胞 M≥2 |
+| 同上 | [399901/400099,400099/399901] | .010 | 所有整数元胞 M≥2 |
+| 同上 | [399891/400109,400109/399891] | .005 | 所有整数元胞 M≥2 |
 | Spin-1 近均匀交替链，B² 与精确 finite bridge | [9998709/10001291,10001291/9998709] | .020 | 所有整数元胞 M≥2，物理 L=2M |
 | 同上 | [1249773/1250227,1250227/1249773] | .015 | 所有整数元胞 M≥2 |
 | 同上 | [9997841/10002159,10002159/9997841] | .010 | 所有整数元胞 M≥2 |
@@ -105,6 +111,16 @@ Haldane gap bootstrap 的研究检查点与任务状态。
 | 同上，分段固定试探态 | 整个区间 0≤ε≤0.0085 | >0.001703099464 | 所有整数 L≥2 |
 | 同上，分段固定试探态 | 整个区间 0≤ε≤0.00855 | >0.000768515509 | 所有整数 L≥2 |
 
+
+### Stage 22：H² 方差收紧与独立部分运行证据
+
+- [Stage 22 封存图集](research_20261010/overview_stage22/README.md)，清单 `a4babfd30903bdb8d6bfc14d19cfc05c88af5b792d37b7416b3be402fe8bf4a3`，134 文件、117 审计清单/11,063 源项、423 guard 测试与 50 导出，历史科学行和失败记录保持。
+- [H² 独立审查](research_20261010/uniform_alternating_h2_review/PROOF.md)：全部 22 个物理 L32/L64 charge-sector checkpoint（132 个整数）重建通过；总能量方差约 .0002629779063020885/.0004964120744254386，不是每站点方差或标准差。H² 相邻正项与 staggered B² 负项区分。先以能量判定 F>1/2，再由方差选正确的小 infidelity 分支，不能凭小方差独自控制遗漏低态。κ32≤969/10000、κ64≤119/1000 为真实 Gibbs observable 上界，不把 MPS 当作 Gibbs 态。
+- [更强交替区间审查](research_20261010/uniform_alternating_variance_refined_robustness_review/PROOF.md)，seal `9df6aaa425575c48a02c01db41ab7f40e85817aa2e152b3d9b2d6e839b2d29df`：上述四个闭区间经 37 个整数 cell 窗口、56 个有限桥接及四个无限尾部独立核验。cell16=physical32、own MPS64、物理 β/c 与总能量规范保留；L24 桥接仍是 parity/MPS48。没有最佳半径、物理奇数环、真实 gap 或相边界结论。
+- [launch controls](research_20261010/bilayer_full_m4_launch_review/REVIEW.md)、watchdog/startup/stable-observer 审查仅各自接受限定控制证据；后续实际失败及所有原收费不被新控制 PASS 抹去。所有 active repair 包与最终科学验收分开。
+- [initial100 独立审计](research_20261010/bilayer_m4_checkpoint100_review/README.md)核查 1,033 个导出文件及 100 条完整 attempt→receipt→payload→commit 链，24 signed accumulators 与 15-term assemblies 通过。它只接受部分覆盖，不是完整 accepted57D m0/m1/m2 gate，也不能外推 q6 成本。跨 namespace 不作“所有进程为空”断言。
+- [100→400 终止审计](research_20261010/bilayer_m4_checkpoint100_terminal_review/README.md)，seal `968bd67feeaa98267d732816b43039ff275952cb8965d86122351c2f81059f39`：1,036 个导出文件通过，1,021 个科学/checkpoint 文件与已接受 100 快照相同；启动失败发生在任何新 inner reservation/worker 前。716 control/492 worker=1208 收费保留；新增 5 control 来自终止导出，不是科学 worker。
+- 旧 control 预测 1383 漏计 fresh launcher220，实际1603超旧1600 pool，不能以旧源直接重启。新的21600总额分区为16800/1800/3000，携带716controls并退休492workers、retry余2508；clean-generation control预测1626、余174只是规划。资源重分配不等于身份修复接受或新启动授权。
 
 ### Stage 21：物理 B² 输入与更强近均匀邻域
 
@@ -242,7 +258,7 @@ Stage 10 已远端核验的提交为 `f89164be50de9b5e868d08b80bd178eaca4b9a1a`�
 - [紧凑 MPS 激发态及 seed 筛查的独立核验](research_20261010/mps_excited_seed_review/REVIEW.md)：精确收缩低能试探态至 n=24，无需展开 3^24 个物理配置。n=14、16、20 的指定方案已获全温度障碍证明，n=24 当时留下的未排除温度窗已被上述更强的指定方案审计接续。
 - [均匀 Spin-1 链固定 MPS 种子判据](research_20261010/uniform_seed_size_review/README.md)：n=6、8、10、12 的指定 D26 单分子态方案通过全温度障碍核验。结论限定于已定义的试探态和递推方案。
 - [自适应混合立方递推的独立核验](research_20261010/joint_small_seed_review/PROOF.md)：普通双层 g=0.04、0.05 的指定同步混合立方算法对所有有限温度受阻，允许保留部分路径和联合乘积界。
-- [结果与维数图集](research_20261010/overview_stage21/README.md)：区分离散已证参数、整个连续区间、完整 Hilbert 维数与不同试探空间维数。
+- [结果与维数图集](research_20261010/overview_stage22/README.md)：区分离散已证参数、整个连续区间、完整 Hilbert 维数与不同试探空间维数。
 
 - [不同递推顺序的独立核验](research_20261010/alternative_order_review/REVIEW.md)：g=0.06 先温度、再两个空间方向得到更好的起始界，随后用已证明的相邻方向交换不等式转换至标准递推。最大试探空间与前述大种子相同，全部整数尺寸已覆盖。
 - [试探空间与种子尺寸判据](research_20261010/trial_size_criteria/PROOF.md)：完整残差控制能级区间宽度，保留态数与谱尾计数控制热迹误差，实际几何与递推控制能隙证书能否启动。给出可直接检查的误差预算。
@@ -448,8 +464,8 @@ python heat_trace/replay_appendix_a.py
 
 ## 下一步任务记录（按优先级）
 
-1. 完成 Stage 21 出版核验，保存 B² 真实 Gibbs observable 输入、所有闭区间/桥接、维数与温度规范；旧区间保持，不宣称最优半径或物理奇数环。
-2. 独立审查活动 bilayer launch package 的 outer startup guard 与 accepted57D EXPECTED_M012；组件 PASS 不是完整生产批准。生产前还需明确资源授权和固定 job identity。任何活动后续包不回填 Stage 21 seals。
-3. 受限 cell 提案保持 producer-only/unaccepted/resource NOT_ACCEPTED；不继续原超预算任务、不把反事实 .835 或 g=.9 当作物理结果。所有旧 Direct25/58D/guide/pipeline 异常保留。
-4. 均匀全整数 .0248、双层嵌套区间与已完成18列热迹不变；不重跑热迹，不用局部/control 成功替代新物理结果。
-5. 下一轮常规汇报 2026-10-11 04:15 EDT / 08:15 UTC。全部研究在 2026-10-13 20:00 EDT / 2026-10-14 00:00 UTC 停止，保存完整和部分检查点。
+1. 完成 Stage 22 出版核验，保存完整 H²/κ/区间与所有 partial/terminal export，旧科学和失败收费不修改。
+2. 独立审查已获准 d43e 后继的首100 checkpoint，保持新21600分区及全部历史收费；其生产完成不等于独立验收。旧 c2c9 snapshot gate FAIL 与后续已授权运行分开，不能宣称400checkpoint或完整高阶矩。
+3. 未来若准许运行，完整覆盖后仍须 exact57D m0/m1/m2 gate、全部 raw24 fields 与独立最终物理审查；partial/control PASS 不替代科学证书。
+4. 所有既有资源异常、受限cell未接受状态、均匀.0248与双层嵌套界保留。18列热迹campaign已完成，不重启。
+5. 下一轮常规汇报2026-10-11 04:15 EDT /08:15 UTC；全部科研于2026-10-13 20:00 EDT /2026-10-14 00:00 UTC停止，保存完整和部分证据。

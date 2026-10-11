@@ -1,0 +1,7 @@
+# Stable process observer: producer metadata test passed
+
+Current contract is PROPOSAL.md; exact prepared generation is JOB_BINDING.json. Prior63-checkpoint failure is immutable, independently audited13c905..., all655 cumulative reservations retained (463 control+192 workers). No active successor authority/ledger or scientific worker has been created.
+
+Producer test:10/10 CPU seconds charged. Actual wait4 tree .149073, external self .114863041, wall .171179924, combined peakRSS33,562,624 bytes. Source/helper deterministic tests used CPU6, an external aggregate8-CPU child-tree limit plus2 parent,256MiB RSS. Actual native fixtures were /usr/bin/sleep only. Three real fork/exec cases: valid128MiB/3CPU; bad2CPU; bad96MiB AS. Each samples a barrier before changing limits, another after changing limits while argv remains inherited, then the actual exec image. Before-exec cases defer; valid post-exec verifies; genuine bad limits persist full diagnostic before rejection and are killed/reaped. Affinity failure is an injected observation, with no off-CPU6 process. A constructed read-crossing-exec observation defers and retains both identities. Topology-role and retired192 arithmetic checks pass.
+
+Source guarantees remain mandatory; process sampling is supplemental and not guaranteed to catch every short worker. Aggregate resource guards stay active through every transition. No physical correctness or full moment result is newly claimed by this test. Independent review and explicit launch authority are still required.

@@ -1,0 +1,80 @@
+{
+  "status": "PASS_INITIAL100_CHECKPOINT_FOR_ROOT_CONTINUATION_DECISION",
+  "producer_manifest": "737e312e7c1f1f057cd567a088eeb7be53d30aff87e8fc25f50e138634523318",
+  "producer_files": 1033,
+  "job": "c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01",
+  "checkpoint_digest": "01d7a5098422a5dcb210fff8c77782e57099ff439e9e49b4b323cba06aea2418",
+  "committed": 100,
+  "coverage": {
+    "0": 1,
+    "2": 496,
+    "4": 1456,
+    "6": 0
+  },
+  "all24_signed_chains_verified": true,
+  "first63_values_equal_preserved_prior_generation": true,
+  "worker_charged": 492,
+  "control_charged": 711,
+  "total_charged": 1203,
+  "retired_worker_charges": 192,
+  "observer_events": {
+    "exited_during_observation": 11,
+    "fork_before_exec": 1
+  },
+  "verified_role_map_available": false,
+  "idle_evidence": "Exclusive lifetime LOCK acquired throughout audit, complete100 attempts, reaped inner receipt, unchanged stage state and absent continuation; no cross-namespace process-scan claim.",
+  "whole_worker_timing": {
+    "0": {
+      "wait4": 0.032073000000000004,
+      "setup": 0.025758,
+      "body": 0.004655,
+      "GMP": 0.000196,
+      "chunks": 1,
+      "max_wait4": 0.032073000000000004
+    },
+    "2": {
+      "wait4": 2.284109,
+      "setup": 0.115536,
+      "body": 2.1437660000000003,
+      "GMP": 0.005365999999999999,
+      "chunks": 8,
+      "max_wait4": 0.37474799999999997
+    },
+    "4": {
+      "wait4": 12.05881,
+      "setup": 1.3004660000000001,
+      "body": 10.295884000000001,
+      "GMP": 0.051495,
+      "chunks": 91,
+      "max_wait4": 0.182697
+    },
+    "6": {
+      "wait4": 0.0,
+      "setup": 0.0,
+      "body": 0.0,
+      "GMP": 0.0,
+      "chunks": 0,
+      "max_wait4": 0.0
+    }
+  },
+  "outer_progress": {
+    "combined_peak_rss_bytes": 59121664,
+    "job_id": "c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01",
+    "self_cpu": 0.946357087,
+    "sessions": 1,
+    "wait4_tree_cpu": 16.536423,
+    "wall": 17.822664829000132
+  },
+  "remaining_standard": 16500,
+  "retry_remaining": 3008,
+  "remaining_controller_reservations": 667,
+  "planned_control": 1378,
+  "control_spare": 222,
+  "remaining_wall_forecast": 167836,
+  "outer_full_wall_forecast": 172320,
+  "deadline_headroom_seconds": 66104.47993516922,
+  "no_q6_cost_sample": true,
+  "full_moments": false,
+  "token_written": false,
+  "scientific_workers_launched": 0
+}

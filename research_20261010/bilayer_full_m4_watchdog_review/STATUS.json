@@ -1,0 +1,26 @@
+{
+  "bounded_staged_launch_gate": "PASS_EXACT_PINNED_JOB",
+  "production_authority": "NOT_CREATED_BY_REVIEW_REQUIRED_FROM_ROOT",
+  "job_id": "db32cbc51cf71726756f7910921ef26b684e6c3020a8e8f0a0e5eecd17d24556",
+  "source_manifest": "16d7500fe6a439cbc80813954e43f56eb043002d08a122f2ec7a613688931afc",
+  "initial_cap": 100,
+  "only_stage_transitions": [
+    [
+      100,
+      400
+    ],
+    [
+      400,
+      2945
+    ]
+  ],
+  "required_precharge": {
+    "outer": 120,
+    "watchdog": 100,
+    "control_pool": 1200,
+    "job_total": 21600
+  },
+  "no_physical_workers": true,
+  "charged_cpu_seconds": 5,
+  "full_physical_moments": "NOT_COMPUTED"
+}

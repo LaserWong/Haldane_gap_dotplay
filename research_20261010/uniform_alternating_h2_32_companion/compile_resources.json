@@ -1,0 +1,26 @@
+{
+  "mode": "compile",
+  "status": "PASS",
+  "exit_code": 0,
+  "watchdog_fired": null,
+  "wait4_user_cpu_seconds": 5.86867,
+  "wait4_system_cpu_seconds": 1.346508,
+  "wait4_total_cpu_seconds": 7.215178,
+  "wait4_peak_rss_kib": 205636,
+  "wall_seconds": 7.324803144001635,
+  "parent_CPU_seconds": 0.070629059,
+  "child_hard_CPU_seconds": 20,
+  "parent_hard_CPU_seconds": 1,
+  "aggregate_authorized_CPU_seconds": 30,
+  "active_CPU_kill_threshold": 19,
+  "active_poll_count": 179,
+  "max_polled_CPU_seconds": 0.0,
+  "child_memory_MiB": 512,
+  "CPU_affinity": [
+    4
+  ],
+  "wall_limit_seconds": 90,
+  "requested_physical_lengths": [],
+  "prior_shared_compile_CPU_charge": 7.129891665,
+  "automatic_retry": false
+}

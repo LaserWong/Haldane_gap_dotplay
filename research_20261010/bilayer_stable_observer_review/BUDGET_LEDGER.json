@@ -1,0 +1,37 @@
+{
+  "authorized_cpu_seconds": 8,
+  "charged_cpu_seconds": 8,
+  "cpu": 7,
+  "attempts": [
+    {
+      "name": "bounded_observer_review",
+      "cap_cpu_seconds": 6,
+      "address_space_mib": 256,
+      "charged_cpu_seconds": 8,
+      "parent_reserved_cpu_seconds": 2,
+      "command": [
+        "/usr/bin/prlimit",
+        "--cpu=6:6",
+        "--as=67108864:134217728",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_review/check_observer.py"
+      ],
+      "state": "failed_or_stopped",
+      "pid": 8,
+      "parent_actual_cpu_seconds": 0.08765899999999999,
+      "exit_status": 1,
+      "wait4_user_seconds": 0.063614,
+      "wait4_system_seconds": 0.048361999999999995,
+      "wait4_cpu_seconds": 0.11197599999999999,
+      "max_live_tree_cpu_seconds": 0.07,
+      "max_observed_processes": 1,
+      "orphan_wait4": [],
+      "live_group_after_cleanup": [],
+      "wall_seconds": 0.13269805400341284,
+      "peak_rss_kib": 12032,
+      "max_observed_tree_rss_bytes": 11272192,
+      "stop_reason": null
+    }
+  ]
+}

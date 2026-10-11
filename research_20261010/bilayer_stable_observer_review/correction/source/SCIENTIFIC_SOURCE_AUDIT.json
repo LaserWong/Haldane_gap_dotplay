@@ -1,0 +1,24 @@
+{
+  "baseline": "/workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision",
+  "coverage_plan_byte_identical": true,
+  "dispatcher_AST_identical_except_named_budget_values": true,
+  "kernel_executable_sha256": "27049851654a544dbc3ea56528c92f56fe6f10b532b3fd8b8c2f80f0a467feb8",
+  "kernel_source_sha256": "d30fb86f35117b0c12e756d949ce6e0e08e95d0f3bbd33d29a3471d9d4a4da91",
+  "no_numerical_execution": true,
+  "observer_helper_unchanged_from_tested_candidate": true,
+  "pencil_source_sha256": "50e0a5830d4aa2d66cceffa8ac8a649492d077ec72057c42333e557eb8e76893",
+  "rejected_previous_coefficient": 193200,
+  "restored_m3_coefficient": 193600,
+  "scientific_functions_byte_identical": {
+    "finalize_physical": true,
+    "required_pins": true,
+    "stop_after_chunk": true,
+    "verify_output": true,
+    "worker": true
+  },
+  "status": "PASS_SOURCE_ONLY",
+  "unchanged_components": {
+    "production_supervisor.py": true,
+    "session_supervisor.py": true
+  }
+}

@@ -1,0 +1,196 @@
+--- /workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/engine.py
++++ /workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/engine.py
+@@ -2,6 +2,9 @@
+ import os,json,time,hashlib,math,tempfile
+ from pathlib import Path
+ SCHEMA='synthetic-metadata24-v1';KIND='SYNTHETIC-NONPHYSICAL-NOT-ADOPTABLE'
++CONTROL_POOL=1600
++RETRY_POOL=3200
++RETIRED_WORKER_RESERVATIONS=192
+ 
+ def raw(x):return (json.dumps(x,sort_keys=True,separators=(',',':'))+'\n').encode()
+ def sha(b):return hashlib.sha256(b).hexdigest()
+@@ -31,11 +34,11 @@
+ 
+ class ControlBudget:
+  def __init__(self,path):
+-  self.path=Path(path);self.state=read(path) if self.path.exists() else dict(prepaid=1200,reserved=0,sessions=[])
++  self.path=Path(path);self.state=read(path) if self.path.exists() else dict(prepaid=CONTROL_POOL,reserved=0,sessions=[])
+   self.validate()
+  def validate(self):
+-  s=self.state;assert s['prepaid']==1200 and isinstance(s['reserved'],int) and s['reserved']>=0
+-  assert s['reserved']==sum(r['charged'] for r in s['sessions']) and s['reserved']<=1200
++  s=self.state;assert s['prepaid']==CONTROL_POOL and isinstance(s['reserved'],int) and s['reserved']>=0
++  assert s['reserved']==sum(r['charged'] for r in s['sessions']) and s['reserved']<=CONTROL_POOL
+   assert [r['id'] for r in s['sessions']]==list(range(len(s['sessions'])))
+   assert all(isinstance(r[k],int) and r[k]>0 for r in s['sessions'] for k in ['controller_cap','supervisor_cap','charged'])
+   assert all(r['charged']==r['controller_cap']+r['supervisor_cap'] for r in s['sessions'])
+@@ -54,7 +57,8 @@
+ class IncrementalJob:
+  def __init__(self,path,job,schema=SCHEMA,kind=KIND):
+   self.schema=schema;self.kind=kind
+-  self.path=Path(path);self.path.mkdir(parents=True,exist_ok=True);self.job=job;self.rows=plan();self.pending={i:r for i,r in enumerate(self.rows)};self.committed={};self.worker_charged=0;self.failed_charged=0;self.reads=dict(startup_attempts=0,startup_commits=0,raw_outputs=0,new_adoptions=0);self.startup_reconciliations=1
++  self.path=Path(path);self.path.mkdir(parents=True,exist_ok=True);self.job=job;self.rows=plan();self.pending={i:r for i,r in enumerate(self.rows)};self.committed={};self.worker_charged=RETIRED_WORKER_RESERVATIONS if kind=='PHYSICAL-FIXED-WITNESS24' else 0;self.failed_charged=self.worker_charged; # Retired-generation reservations consume retry pool, including completed work.
++  self.reads=dict(startup_attempts=0,startup_commits=0,raw_outputs=0,new_adoptions=0);self.startup_reconciliations=1
+   statepath=self.path/'state.json';state=read(statepath) if statepath.exists() else {'job':job,'kind':self.kind,'worker_charged':0}
+   assert state['job']==job and state['kind']==self.kind and type(state['worker_charged']) is int and state['worker_charged']>=0
+   attempts={};archived={}
+@@ -86,8 +90,8 @@
+  def persist(self):atomic(self.path/'state.json',dict(job=self.job,kind=self.kind,worker_charged=self.worker_charged,committed_count=len(self.committed)))
+  def reserve(self,i):
+   assert i in self.pending and not (self.path/'attempts'/f'{i:04d}.json').exists(),'no_implicit_retry'
+-  r=self.pending[i];retry=3600-self.failed_charged;assert retry>=0
+-  forecast=1200+self.worker_charged+self.pending_reserved+retry;assert forecast<=21600
++  r=self.pending[i];retry=RETRY_POOL-self.failed_charged;assert retry>=0
++  forecast=CONTROL_POOL+self.worker_charged+self.pending_reserved+retry;assert forecast<=21600
+   a=dict(id=i,job=self.job,kind=self.kind,state='reserved',charged=r['cap'],range=r,forecast=forecast)
+   atomic(self.path/'attempts'/f'{i:04d}.json',a);self.worker_charged+=r['cap'];self.persist();return a
+  def complete_synthetic(self,i,a):
+@@ -136,7 +140,7 @@
+  # Production schemas must reject the clearly distinct synthetic identity.
+  assert read(f)['schema']!='bilayer-moment24-v1' and read(f)['kind']==KIND
+  ctrl=ControlBudget(p/'controller_budget_test.json');a=ctrl.reserve(20,3);ctrl.finish(a,.2,.01,'complete');b=ctrl.reserve(20,3);ctrl.finish(b,.1,.01,'fault_stopped');assert ctrl.state['reserved']==46
+- try:ctrl.reserve(1200,3);raise RuntimeError('controller refund/cap mutation survived')
++ try:ctrl.reserve(CONTROL_POOL,3);raise RuntimeError('controller refund/cap mutation survived')
+  except AssertionError:pass
+  result=dict(kind=KIND,records=2945,resumed_from_committed=initial_count,cold_start_cpu=cold_start,generation_cpu=generation_cpu,startup_reconciliation_cpu=restart_cpu,full_near_end_restart_cpu=full_restart_cpu,generation_reads=obj.reads,restart_reads=rest.reads,fully_committed_restart_reads=near.reads,total_cpu=time.process_time()-start,wall=time.monotonic()-wall,final24=list(map(str,near.finish())),serialized_bytes=sum(f.stat().st_size for f in data.rglob('*.json')),controller_sessions_reserved=46,old_outputs_read_per_ordinary_commit=0)
+  atomic(p/'BENCHMARK.json',result);print(json.dumps(result));return result
+--- /workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/physical_session.py
++++ /workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/physical_session.py
+@@ -3,7 +3,7 @@
+ """
+ import os,sys,time,json,signal,resource,ctypes,math
+ from pathlib import Path
+-from engine import IncrementalJob,atomic,read,sha,raw,file_sha256,verify_pins
++from engine import IncrementalJob,atomic,read,sha,raw,file_sha256,verify_pins,CONTROL_POOL,RETRY_POOL
+ from session_supervisor import snapshot
+ ROOT=Path(__file__).resolve().parent;KERNEL=ROOT.parent/'bilayer_variable_g_control_gate';SCHEMA='bilayer-moment24-v1';KIND='PHYSICAL-FIXED-WITNESS24'
+ import datetime
+@@ -66,12 +66,12 @@
+  job=sha(raw(dict(kind=KIND,schema=SCHEMA,identity=identity)));store=IncrementalJob(jobdir/'store',job,SCHEMA,KIND)
+  for i in list(store.pending):
+   if STOP or completed>=session_limit:break
+-  row=store.rows[i];retry_remaining=3600-store.failed_charged;assert retry_remaining>=0
+-  assert 1200+store.worker_charged+store.pending_reserved+retry_remaining<=21600
+-  assert 1200+store.worker_charged+row['cap']<=20000
+-  control=read(jobdir/'CONTROL_SESSIONS.json');session_slots=(1200-control['reserved'])//23+1;assert math.ceil(len(store.pending)/session_limit)<=session_slots,'controller_session_reserve_cannot_cover_pending_chunks'
++  row=store.rows[i];retry_remaining=RETRY_POOL-store.failed_charged;assert retry_remaining>=0
++  assert CONTROL_POOL+store.worker_charged+store.pending_reserved+retry_remaining<=21600
++  assert CONTROL_POOL+store.worker_charged+row['cap']<=20000
++  control=read(jobdir/'CONTROL_SESSIONS.json');session_slots=(CONTROL_POOL-control['reserved'])//23+1;assert math.ceil(len(store.pending)/session_limit)<=session_slots,'controller_session_reserve_cannot_cover_pending_chunks'
+   review_reserve=authority.get('independent_review_wall_reserve',86400);assert review_reserve>=86400
+-  remaining_wall=2*(store.pending_reserved+retry_remaining)+10*(len(store.pending)+math.ceil(retry_remaining/3))+1200+60*session_slots+review_reserve
++  remaining_wall=2*(store.pending_reserved+retry_remaining)+10*(len(store.pending)+math.ceil(retry_remaining/3))+CONTROL_POOL+60*session_slots+review_reserve
+   assert time.time()+remaining_wall<DEADLINE,'complete_work_and_review_deadline_forecast'
+   prior=store.path/'attempts'/f'{i:04d}.json'
+   if prior.exists():
+--- /workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/outer.py
++++ /workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/outer.py
+@@ -4,11 +4,12 @@
+ """
+ import os,sys,time,signal,resource,ctypes,fcntl,json,hashlib
+ from pathlib import Path
+-P=Path(__file__).resolve().parent;BASE=P;JOB=P.parent/'bilayer_full_m4_production_run_streaming'
++P=Path(__file__).resolve().parent;BASE=P;JOB=P.parent/'bilayer_full_m4_production_run_checksum'
+ sys.path.insert(0,str(BASE))
+-from engine import read,atomic,sha,raw,ControlBudget,file_sha256,verify_pins
++from engine import read,atomic,sha,raw,ControlBudget,file_sha256,verify_pins,CONTROL_POOL,RETRY_POOL
+ from physical_session import required_pins,DEADLINE
+ from session_supervisor import snapshot
++from limit_observer import sample,topology_role,enforce
+ 
+ def terminal_valid(job):
+  if not (JOB/'FULL_MOMENTS.json').exists():return False
+@@ -24,13 +25,13 @@
+  assert resource.getrlimit(resource.RLIMIT_AS)==(64*1024**2,128*1024**2)
+  lock=open(JOB/'OUTER_LOCK','a+');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+  a=read(JOB/'PRODUCTION_AUTHORITY.json');assert a['explicit_authorization'] is True and a['hard_cap']==21600 and a['deadline_utc']=='2026-10-14T00:00:00Z' and a['session_chunk_limit']==100
+- pins=read(JOB/'PINNED_INPUTS.json');assert required_pins(JOB)|{str(Path(__file__).resolve())}<=set(pins)
++ pins=read(JOB/'PINNED_INPUTS.json');assert required_pins(JOB)|{str(Path(__file__).resolve()),str((P/'limit_observer.py').resolve())}<=set(pins)
+  verify_pins(pins)
+  job=sha(raw(dict(kind='PHYSICAL-FIXED-WITNESS24',schema='bilayer-moment24-v1',identity=pins)));assert a['job_id']==job
+  budget=ControlBudget(JOB/'CONTROL_SESSIONS.json');rid=a['outer_reservation_id'];r=budget.state['sessions'][rid]
+  predecessor=read(JOB/'PREDECESSOR.json');carry=read(JOB/'CONTROL_SESSIONS_CARRY_FORWARD.json')
+- assert predecessor['job_id']=='db32cbc51cf71726756f7910921ef26b684e6c3020a8e8f0a0e5eecd17d24556' and predecessor['charged_control']==220
+- assert carry['reserved']==220 and budget.state['sessions'][:2]==carry['sessions'] and rid>=2
++ assert predecessor['job_id']=='845b55d815552ca70bb870f0efd6be20a94850f952e63a87dc7a0338553e8a0e' and predecessor['charged_control']==463 and predecessor['charged_workers']==192
++ assert carry['reserved']==463 and budget.state['sessions'][:5]==carry['sessions'] and rid>=5
+  assert str((JOB/'PREDECESSOR.json').resolve()) in pins and str((JOB/'CONTROL_SESSIONS_CARRY_FORWARD.json').resolve()) in pins
+  assert int(os.environ['BILAYER_OUTER_RESERVATION_ID'])==rid
+  wid=a['watchdog_reservation_id'];assert int(os.environ['BILAYER_WATCHDOG_RESERVATION_ID'])==wid and wid!=rid
+@@ -48,7 +49,7 @@
+  marker=JOB/('OUTER_STARTED_%d.json'%rid);assert not marker.exists(),'outer_reservation_is_single_use'
+  atomic(marker,dict(job=job,pid=os.getpid(),reservation_id=rid,start=time.time(),source_sha256=file_sha256(Path(__file__))))
+  libc=ctypes.CDLL(None);assert libc.prctl(36,1,0,0,0)==0
+- ownpid=os.getpid();active=None;seen=set();tree_cpu=0.;peak=0;session_count=0;limit_observations={watchdog:dict(role='external_watchdog',cpu=watchdog_cpu,address_space=watchdog_as)};watchdog_cpu_peak=0.;start=time.monotonic();reason=None
++ ownpid=os.getpid();active=None;seen=set();tree_cpu=0.;peak=0;session_count=0;limit_observations={str(watchdog):dict(role='external_watchdog',cpu=watchdog_cpu,address_space=watchdog_as)};watchdog_cpu_peak=0.;start=time.monotonic();reason=None
+  def kill_known():
+   if active is not None:
+    try:os.killpg(active,signal.SIGKILL)
+@@ -85,10 +86,10 @@
+      time.sleep(1)
+     continue
+    # Fresh startup admission every session; includes fixed24h review reserve.
+-   ctrl=ControlBudget(JOB/'CONTROL_SESSIONS.json');assert ctrl.state['reserved']+23<=1200
++   ctrl=ControlBudget(JOB/'CONTROL_SESSIONS.json');assert ctrl.state['reserved']+23<=CONTROL_POOL
+    # Conservative full original plan upper bound; inner dispatcher also
+    # checks the exact remaining plan before every worker. Never zero forecast.
+-   full_plan_wall=2*(16800+3600)+10*(2945+1200)+1200+60*53+86400
++   full_plan_wall=2*(16800+RETRY_POOL)+10*(2945+(RETRY_POOL+2)//3)+CONTROL_POOL+60*70+86400
+    if time.time()+full_plan_wall>=DEADLINE:raise RuntimeError('full_plan_plus_review_wall_admission')
+    if time.process_time()>=98:raise RuntimeError('outer_self_cpu_admission')
+    pid=os.fork()
+@@ -109,22 +110,14 @@
+       if more==members:break
+       members=more
+      seen|=members;assert len(members)<=3,'unexpected_outer_descendant'
++     config=dict(python=sys.executable,native=str(P.parent/'bilayer_variable_g_control_gate/whole'),scripts=dict(outer=str(P/'outer.py'),supervisor=str(P/'production_supervisor.py'),controller=str(P/'physical_session.py')))
+      for child in members:
+-      if child in limit_observations:continue
+-      try:
+-       cmd=Path('/proc/%d/cmdline'%child).read_bytes().replace(b'\0',b' ').decode()
+-       if 'production_supervisor.py' in cmd:role='supervisor';cpus={(3,20),(3,3)};spaces={(64*1024**2,128*1024**2)}
+-       elif 'physical_session.py' in cmd:role='controller';cpus={(20,20)};spaces={(64*1024**2,128*1024**2)}
+-       elif 'bilayer_variable_g_control_gate/whole ' in cmd:role='native';cpus={(3,3),(6,6)};spaces={(128*1024**2,128*1024**2)}
+-       else:continue # Fork-to-exec transition; source sets limits before exec.
+-       lines=Path('/proc/%d/limits'%child).read_text().splitlines()
+-       cpu=tuple(map(int,next(x for x in lines if x.startswith('Max cpu time')).split()[-3:-1]))
+-       space=tuple(map(int,next(x for x in lines if x.startswith('Max address space')).split()[-3:-1]))
+-       status=Path('/proc/%d/status'%child).read_text();aff=next(x.split(':',1)[1].strip() for x in status.splitlines() if x.startswith('Cpus_allowed_list:'))
+-       assert cpu in cpus and space in spaces and aff=='6','post_exec_limit_mismatch'
+-       limit_observations[child]=dict(role=role,cpu=cpu,address_space=space,affinity=aff)
+-      except FileNotFoundError:pass # Exited between snapshot and fixed-PID read.
+-
++      role=topology_role(child,pid,rows)
++      observation=sample(child,role,config)
++      enforce(observation,JOB/'LIMIT_EVENTS') # Persist full tuple BEFORE failure.
++      if observation['outcome']=='verified_post_exec':
++       key=str(child)+':'+observation['after']['start']
++       limit_observations[key]=observation # Rechecked every poll, never PID-only cache.
+      watchdog_cpu_peak=max(watchdog_cpu_peak,rows[watchdog]['cpu']);assert watchdog_cpu_peak<=100
+      rss=rows[watchdog]['rss']+rows[ownpid]['rss']+sum(rows[p]['rss'] for p in members if p in rows);peak=max(peak,rss)
+      assert rss<=256*1024**2,'whole_tree_rss'
+--- /workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/launch.sh
++++ /workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/launch.sh
+@@ -2,4 +2,4 @@
+ # Proposal only. Requires root-created, reviewed authority and prepaid ledger.
+ set -eu
+ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
+-exec /usr/bin/taskset -c 6 /usr/bin/prlimit --cpu=99:100 --as=67108864:134217728 -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/outer.py
++exec /usr/bin/taskset -c 6 /usr/bin/prlimit --cpu=99:100 --as=67108864:134217728 -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/outer.py
+--- /workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/launch_watchdog.sh
++++ /workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/launch_watchdog.sh
+@@ -4,11 +4,11 @@
+ [ "$#" -eq 2 ]
+ case "$1:$2" in *[!0-9:]*|:*) exit 2;; esac
+ [ "$1" != "$2" ]
+-JOB=/workspace/shared/haldane_active/research_20261010/bilayer_full_m4_production_run_streaming
++JOB=/workspace/shared/haldane_active/research_20261010/bilayer_full_m4_production_run_checksum
+ NOW=$(/usr/bin/date -u +%s)
+ [ $((1791936000-NOW)) -ge 115205 ]
+ # Single-use markers prevent reuse even if Python never reaches its startup.
+ mkdir "$JOB/OUTER_LAUNCH_USED_$1"
+ mkdir "$JOB/WATCHDOG_LAUNCH_USED_$2"
+ export BILAYER_OUTER_RESERVATION_ID="$1" BILAYER_WATCHDOG_RESERVATION_ID="$2"
+-exec /usr/bin/taskset -c 6 /usr/bin/prlimit --cpu=100:100 --as=67108864:134217728 -- /usr/bin/timeout --signal=TERM --kill-after=5s 28800s /bin/sh /workspace/shared/haldane_active/research_20261010/bilayer_streaming_hash_revision/launch.sh
++exec /usr/bin/taskset -c 6 /usr/bin/prlimit --cpu=100:100 --as=67108864:134217728 -- /usr/bin/timeout --signal=TERM --kill-after=5s 28800s /bin/sh /workspace/shared/haldane_active/research_20261010/bilayer_stable_observer_checksum_fix/launch.sh

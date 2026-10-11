@@ -1,0 +1,4 @@
+job_id,status,committed_chunks,worker_charge,control_charge,total_charge,cause_proven,scope,primary_source
+db32cbc51cf71726756f7910921ef26b684e6c3020a8e8f0a0e5eecd17d24556,FAILED_PREINNER,0,0,220,220,True,MemoryError in whole-file startup pin hashing; no physical worker,research_20261010/bilayer_full_m4_production_run/FAILED_PREINNER.json
+845b55d815552ca70bb870f0efd6be20a94850f952e63a87dc7a0338553e8a0e,FAILED_OBSERVER_AFTER63_COMMITS,63,192,463,655,False,Partial receipt/accounting PASS; production FAIL pending observer repair,research_20261010/bilayer_streaming_observer_failure_review/CHECKS.json
+c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01,FAILED_RESUME100_WITH_INCOMPLETE_ARGV,100,492,716,1208,False,Classifier rejection of incomplete argv reproduced; reason for empty argv unproven; no new science,research_20261010/bilayer_m4_checkpoint100_terminal_review/CHECKS.json

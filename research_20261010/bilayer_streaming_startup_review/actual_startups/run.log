@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_streaming_startup_review/check_streaming.py", line 26, in <module>
+    old=(ROOT/'bilayer_control_memory_revision/engine.py').read_text();new=(SRC/'engine.py').read_text();stripped=new[:new.index('def file_sha256')]+new[new.index('def atomic'):];assert stripped==old
+                                                                                                                                                                                          ^^^^^^^^^^^^^
+AssertionError

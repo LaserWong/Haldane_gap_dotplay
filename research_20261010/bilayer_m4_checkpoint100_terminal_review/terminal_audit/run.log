@@ -1,0 +1,47 @@
+{
+  "status": "PASS_TERMINAL_EVIDENCE_GATE_FAIL_PENDING_INCOMPLETE_IDENTITY_REPAIR",
+  "producer_manifest": "2d89c43b510c5fd40f8032c827ea21f8739a06dc3064ad3e4c89a7ff3d992c44",
+  "files": 1036,
+  "unchanged_scientific_and_checkpoint_files": 1021,
+  "job": "c2c9f79a9d55bbc0867f3ef38103d54cb98fc44c185adc280360ca25a969fd01",
+  "checkpoint": "01d7a5098422a5dcb210fff8c77782e57099ff439e9e49b4b323cba06aea2418",
+  "authorized_token_cap": 400,
+  "actual_committed": 100,
+  "no_new_scientific_receipts": true,
+  "coverage": {
+    "q0": 1,
+    "q2": 496,
+    "q4": 1456,
+    "q6": 0
+  },
+  "worker_charge": 492,
+  "control_charge": 716,
+  "total_charge": 1208,
+  "both_locks_available_and_held": true,
+  "namespace_caveat": "No cross-namespace empty process-scan assertion.",
+  "terminal_self_CPU": 2.843112155,
+  "terminal_tree_CPU": 16.546556,
+  "terminal_wall": 676.1132179209962,
+  "peak_RSS": 59121664,
+  "verified_roles": {
+    "native": 99,
+    "supervisor": 1,
+    "controller": 1,
+    "external_watchdog": 1
+  },
+  "interpretation": "The frozen classifier deterministically rejects an empty command line although all role limits match. Equal samples with incomplete argv do not prove an unexpected executable. Cause of empty argv is not established.",
+  "old_control_forecast_without_new_launcher": 1383,
+  "old_control_forecast_with_new_launcher": 1603,
+  "old_control_pool": 1600,
+  "proposed_new_partition": {
+    "standard": 16800,
+    "control": 1800,
+    "retry": 3000,
+    "retired_workers": 492,
+    "remaining_retry": 2508,
+    "control_forecast": 1626,
+    "control_spare": 174
+  },
+  "no_new_physics_or_fork_tests": true,
+  "new_launch_authorized_by_review": false
+}

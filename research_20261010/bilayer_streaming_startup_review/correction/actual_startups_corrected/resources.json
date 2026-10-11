@@ -1,0 +1,30 @@
+{
+  "name": "actual_startups_corrected",
+  "cap_cpu_seconds": 6,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 8,
+  "parent_reserved_cpu_seconds": 2,
+  "command": [
+    "/usr/bin/prlimit",
+    "--cpu=6:6",
+    "--as=67108864:134217728",
+    "--",
+    "python3",
+    "/workspace/shared/haldane_active/research_20261010/bilayer_streaming_startup_review/correction/check_streaming_corrected.py"
+  ],
+  "state": "completed",
+  "pid": 7,
+  "parent_actual_cpu_seconds": 0.046793999999999995,
+  "exit_status": 0,
+  "wait4_user_seconds": 0.195216,
+  "wait4_system_seconds": 0.083646,
+  "wait4_cpu_seconds": 0.278862,
+  "max_live_tree_cpu_seconds": 0.23,
+  "max_observed_processes": 1,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 0.2954567430060706,
+  "peak_rss_kib": 13056,
+  "max_observed_tree_rss_bytes": 13369344,
+  "stop_reason": null
+}

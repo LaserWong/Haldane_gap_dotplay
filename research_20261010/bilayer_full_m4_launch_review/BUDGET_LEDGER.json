@@ -1,0 +1,59 @@
+{
+  "authorized_cpu_seconds": 30,
+  "charged_cpu_seconds": 30,
+  "cpu": 7,
+  "attempts": [
+    {
+      "name": "controls",
+      "cap_cpu_seconds": 4,
+      "address_space_mib": 256,
+      "charged_cpu_seconds": 6,
+      "parent_reserved_cpu_seconds": 2,
+      "command": [
+        "python",
+        "research_20261010/bilayer_full_m4_launch_review/check_controls.py"
+      ],
+      "state": "completed",
+      "pid": 6,
+      "parent_actual_cpu_seconds": 0.056889999999999996,
+      "exit_status": 0,
+      "wait4_user_seconds": 0.136247,
+      "wait4_system_seconds": 0.016961999999999998,
+      "wait4_cpu_seconds": 0.153209,
+      "max_live_tree_cpu_seconds": 0.12,
+      "max_observed_processes": 1,
+      "orphan_wait4": [],
+      "live_group_after_cleanup": [],
+      "wall_seconds": 0.1677668240008643,
+      "peak_rss_kib": 11312,
+      "max_observed_tree_rss_bytes": 11038720,
+      "stop_reason": null
+    },
+    {
+      "name": "startup_fault",
+      "cap_cpu_seconds": 22,
+      "address_space_mib": 256,
+      "charged_cpu_seconds": 24,
+      "parent_reserved_cpu_seconds": 2,
+      "command": [
+        "sh",
+        "research_20261010/bilayer_full_m4_launch_review/test_launch.sh"
+      ],
+      "state": "completed",
+      "pid": 7,
+      "parent_actual_cpu_seconds": 0.07074,
+      "exit_status": 0,
+      "wait4_user_seconds": 0.164217,
+      "wait4_system_seconds": 0.085063,
+      "wait4_cpu_seconds": 0.24928,
+      "max_live_tree_cpu_seconds": 0.21000000000000002,
+      "max_observed_processes": 2,
+      "orphan_wait4": [],
+      "live_group_after_cleanup": [],
+      "wall_seconds": 0.5423234369955026,
+      "peak_rss_kib": 12520,
+      "max_observed_tree_rss_bytes": 21340160,
+      "stop_reason": null
+    }
+  ]
+}

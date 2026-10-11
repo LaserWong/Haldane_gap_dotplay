@@ -1,0 +1,33 @@
+{
+  "authorized_cpu_seconds": 5,
+  "charged_cpu_seconds": 5,
+  "cpu": 7,
+  "attempts": [
+    {
+      "name": "metadata_audit",
+      "cap_cpu_seconds": 3,
+      "address_space_mib": 256,
+      "charged_cpu_seconds": 5,
+      "parent_reserved_cpu_seconds": 2,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/workspace/shared/haldane_active/research_20261010/bilayer_streaming_observer_failure_review/check_failure.py"
+      ],
+      "state": "completed",
+      "pid": 7,
+      "parent_actual_cpu_seconds": 0.085018,
+      "exit_status": 0,
+      "wait4_user_seconds": 0.264677,
+      "wait4_system_seconds": 0.190796,
+      "wait4_cpu_seconds": 0.455473,
+      "max_live_tree_cpu_seconds": 0.44,
+      "max_observed_processes": 1,
+      "orphan_wait4": [],
+      "live_group_after_cleanup": [],
+      "wall_seconds": 0.5054056950029917,
+      "peak_rss_kib": 12032,
+      "max_observed_tree_rss_bytes": 12189696,
+      "stop_reason": null
+    }
+  ]
+}
