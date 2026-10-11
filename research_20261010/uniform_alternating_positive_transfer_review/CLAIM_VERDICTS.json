@@ -1,0 +1,144 @@
+{
+  "status": "ACCEPTED all eight positive-cell interval certificates",
+  "producer_manifest_sha256": "ea050102bb50eea1a287e7e674de0f43aa091a4fcd17a3d8279870f5e26ab529",
+  "positive_cell_structural_review": "abb8e04fa7478e939d18c831a3a4b201c0ec6baf9b8e3e494b5b867a4347f872",
+  "claims": [
+    {
+      "physical_seed": 32,
+      "cell_seed": 16,
+      "own_anchor_physical_length": 64,
+      "eta_radius": "1/20000",
+      "g_closed_interval": [
+        "19999/20001",
+        "20001/19999"
+      ],
+      "gap": "1/50",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell": 4096
+    },
+    {
+      "physical_seed": 32,
+      "cell_seed": 16,
+      "own_anchor_physical_length": 64,
+      "eta_radius": "7/100000",
+      "g_closed_interval": [
+        "99993/100007",
+        "100007/99993"
+      ],
+      "gap": "3/200",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell": 2048
+    },
+    {
+      "physical_seed": 32,
+      "cell_seed": 16,
+      "own_anchor_physical_length": 64,
+      "eta_radius": "17/200000",
+      "g_closed_interval": [
+        "199983/200017",
+        "200017/199983"
+      ],
+      "gap": "1/100",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell": 16384
+    },
+    {
+      "physical_seed": 32,
+      "cell_seed": 16,
+      "own_anchor_physical_length": 64,
+      "eta_radius": "9/100000",
+      "g_closed_interval": [
+        "99991/100009",
+        "100009/99991"
+      ],
+      "gap": "1/200",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell": 1024
+    },
+    {
+      "physical_seed": 34,
+      "cell_seed": 17,
+      "own_anchor_physical_length": 68,
+      "eta_radius": "69/1000000",
+      "g_closed_interval": [
+        "999931/1000069",
+        "1000069/999931"
+      ],
+      "gap": "3/200",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell": 4352
+    },
+    {
+      "physical_seed": 34,
+      "cell_seed": 17,
+      "own_anchor_physical_length": 68,
+      "eta_radius": "89/1000000",
+      "g_closed_interval": [
+        "999911/1000089",
+        "1000089/999911"
+      ],
+      "gap": "1/200",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell": 2176
+    },
+    {
+      "physical_seed": 30,
+      "cell_seed": 15,
+      "own_anchor_physical_length": 60,
+      "eta_radius": "1/25000",
+      "g_closed_interval": [
+        "24999/25001",
+        "25001/24999"
+      ],
+      "gap": "3/200",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell": 15360
+    },
+    {
+      "physical_seed": 30,
+      "cell_seed": 15,
+      "own_anchor_physical_length": 60,
+      "eta_radius": "7/100000",
+      "g_closed_interval": [
+        "99993/100007",
+        "100007/99993"
+      ],
+      "gap": "1/200",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell": 960
+    }
+  ],
+  "complete_integer_windows": 70,
+  "odd_cell_initializations_independently_checked": [
+    15,
+    17
+  ],
+  "late_120_digit_closure_independently_checked": true,
+  "prior_interval_certificates_preserved": true,
+  "uniform_all_physical_lengths_gap_0248_unchanged": true,
+  "new_physical_work": false,
+  "resources": {
+    "hard_CPU_seconds": 30,
+    "hard_address_space_MiB": 256,
+    "process_CPU_seconds": 0.5682654349999999,
+    "monotonic_wall_seconds": 0.570589310998912,
+    "peak_RSS_KiB": 15300,
+    "affinity": [
+      0
+    ]
+  },
+  "limitations": [
+    "Physical thermal and own60/64/68 MPS inputs are inherited accepted evidence; no physical recomputation.",
+    "These are sufficient nested neighborhoods, not optimal radii, actual gaps or phase labels.",
+    "Preliminary 60-digit failures are finite-recipe diagnostics, not no-go statements.",
+    "Producer historical resource accounting is preserved; this review measures only its own new scalar run."
+  ]
+}

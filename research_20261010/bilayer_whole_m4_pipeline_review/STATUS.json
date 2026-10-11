@@ -1,0 +1,16 @@
+{
+  "status": "PASS_SCOPED_ALGEBRA_AND_SIX_INDEPENDENT_DENSE_FIXTURES",
+  "producer_manifest_sha256": "13010f1d1326fd2c76938036b01ce2e912d70f35714a2c473a529910a790a488",
+  "independent_full_physical_fixtures": 6,
+  "independent_exact_8x4_q6_checkpoint_targets": 64,
+  "independent_8x4_repeated_phase": "NOT_REACHED_INTERNAL_SOFT_LIMIT_NO_RETRY",
+  "producer_sample_q6_q4_per_phase": [512, 128],
+  "producer_process_tree_guard": "GENERAL_DESCENDANT_DETECTION_UNVERIFIED_MISSING_PROC_CHILDREN_PATH",
+  "review_repaired_tree_guard": "SPAWNED_DESCENDANT_AND_COMPILER_CAP_CLEANUP_TESTS_PASS",
+  "charged_cpu_seconds": 90,
+  "actual_wait4_cpu_seconds": 49.784555,
+  "full_8x4_moments": "NOT_COMPUTED",
+  "full_production_admission": "BLOCKED_PENDING_HARDENING_COMPLETE_COST_MODEL_AND_SEPARATE_AUTHORIZATION",
+  "new_gap_or_endpoint": false,
+  "next": "Review separately authorized lazy-chunk hardening package; no further numerical execution under this ledger."
+}

@@ -1,0 +1,32 @@
+{
+  "name": "sample",
+  "cap_cpu_seconds": 3,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 3,
+  "command": [
+    "research_20261010/bilayer_whole_m4_pipeline_review/independent",
+    "sample",
+    "sample",
+    "research_20261010/bilayer_whole_m4_pipeline_review/sample",
+    "research_20261010/bilayer_whole_m4_pipeline_review/source",
+    "research_20261010/bilayer_brauer_rule_compiler/run",
+    "3",
+    "0",
+    "64",
+    "16"
+  ],
+  "state": "failed_or_stopped",
+  "pid": 5,
+  "exit_status": 2,
+  "wait4_user_seconds": 1.018667,
+  "wait4_system_seconds": 0.191679,
+  "wait4_cpu_seconds": 1.210346,
+  "max_live_tree_cpu_seconds": 1.18,
+  "max_observed_processes": 1,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 1.2419540250048158,
+  "peak_rss_kib": 21364,
+  "max_observed_tree_rss_bytes": 21876736,
+  "stop_reason": null
+}

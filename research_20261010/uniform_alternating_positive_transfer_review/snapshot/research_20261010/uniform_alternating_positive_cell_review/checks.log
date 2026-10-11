@@ -1,0 +1,24 @@
+{
+  "status": "PASS abstract exact consistency checks",
+  "sequence_window_checks": 2145,
+  "odd_cell_base_checks": 1170,
+  "signed_spectrum_counterexample": "Y eigenvalues [2,-1], n2, M3: 7^4 < 17^3",
+  "noncommuting_selfadjoint_product_counterexample": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "no_physical_computation": true,
+  "resources": {
+    "hard_CPU_seconds": 30,
+    "hard_address_space_MiB": 256,
+    "process_CPU_seconds": 0.16178027700000003,
+    "wall_seconds": 0.16504666100081522,
+    "peak_RSS_KiB": 8960
+  }
+}

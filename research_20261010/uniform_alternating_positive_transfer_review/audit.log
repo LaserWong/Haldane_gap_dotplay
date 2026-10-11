@@ -1,0 +1,81 @@
+{
+  "status": "ACCEPTED all eight positive-cell interval certificates",
+  "rows": [
+    {
+      "physical_seed": 32,
+      "cell_seed": 16,
+      "eta_radius": "1/20000",
+      "gap": "1/50",
+      "terminal_cell": 4096,
+      "terminal_display_margin": 0.31501237010780236
+    },
+    {
+      "physical_seed": 32,
+      "cell_seed": 16,
+      "eta_radius": "7/100000",
+      "gap": "3/200",
+      "terminal_cell": 2048,
+      "terminal_display_margin": 0.21046135423721535
+    },
+    {
+      "physical_seed": 32,
+      "cell_seed": 16,
+      "eta_radius": "17/200000",
+      "gap": "1/100",
+      "terminal_cell": 16384,
+      "terminal_display_margin": 0.5743910556251565
+    },
+    {
+      "physical_seed": 32,
+      "cell_seed": 16,
+      "eta_radius": "9/100000",
+      "gap": "1/200",
+      "terminal_cell": 1024,
+      "terminal_display_margin": 0.682482282192204
+    },
+    {
+      "physical_seed": 34,
+      "cell_seed": 17,
+      "eta_radius": "69/1000000",
+      "gap": "3/200",
+      "terminal_cell": 4352,
+      "terminal_display_margin": 0.07078961262946615
+    },
+    {
+      "physical_seed": 34,
+      "cell_seed": 17,
+      "eta_radius": "89/1000000",
+      "gap": "1/200",
+      "terminal_cell": 2176,
+      "terminal_display_margin": 0.14623573608380386
+    },
+    {
+      "physical_seed": 30,
+      "cell_seed": 15,
+      "eta_radius": "1/25000",
+      "gap": "3/200",
+      "terminal_cell": 15360,
+      "terminal_display_margin": 0.00866684945383752
+    },
+    {
+      "physical_seed": 30,
+      "cell_seed": 15,
+      "eta_radius": "7/100000",
+      "gap": "1/200",
+      "terminal_cell": 960,
+      "terminal_display_margin": 0.6241500994300789
+    }
+  ],
+  "adversarial_rejections": 22,
+  "source_members": 183,
+  "resources": {
+    "hard_CPU_seconds": 30,
+    "hard_address_space_MiB": 256,
+    "process_CPU_seconds": 0.5682654349999999,
+    "monotonic_wall_seconds": 0.570589310998912,
+    "peak_RSS_KiB": 15300,
+    "affinity": [
+      0
+    ]
+  }
+}

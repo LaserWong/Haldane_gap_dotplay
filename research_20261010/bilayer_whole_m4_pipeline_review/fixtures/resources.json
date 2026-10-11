@@ -1,0 +1,26 @@
+{
+  "name": "fixtures",
+  "cap_cpu_seconds": 25,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 25,
+  "command": [
+    "research_20261010/bilayer_whole_m4_pipeline_review/independent",
+    "research_20261010/bilayer_whole_m4_pipeline_review/fixtures",
+    "research_20261010/bilayer_brauer_rule_compiler/run",
+    "research_20261010/bilayer_whole_m4_pipeline_review/source"
+  ],
+  "state": "completed",
+  "pid": 5,
+  "exit_status": 0,
+  "wait4_user_seconds": 7.722477,
+  "wait4_system_seconds": 1.3837359999999999,
+  "wait4_cpu_seconds": 9.106213,
+  "max_live_tree_cpu_seconds": 9.1,
+  "max_observed_processes": 1,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 9.14805222999712,
+  "peak_rss_kib": 178712,
+  "max_observed_tree_rss_bytes": 183001088,
+  "stop_reason": null
+}

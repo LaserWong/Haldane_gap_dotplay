@@ -1,0 +1,37 @@
+{
+  "status": "ACCEPTED both closed intervals, all integer M>=2",
+  "rows": [
+    {
+      "g_closed_interval": [
+        "19999/20001",
+        "20001/19999"
+      ],
+      "gap": "3/200",
+      "terminal_cell_base": 256,
+      "terminal_display_margin": 0.3741351579972647
+    },
+    {
+      "g_closed_interval": [
+        "12499/12501",
+        "12501/12499"
+      ],
+      "gap": "1/200",
+      "terminal_cell_base": 512,
+      "terminal_display_margin": 0.8871826138901137
+    }
+  ],
+  "adversarial_rejections": 18,
+  "resources": {
+    "hard_process_cpu_seconds": 30,
+    "hard_address_space_mib": 256,
+    "process_cpu_seconds": 0.047441372999999995,
+    "monotonic_wall_seconds": 0.05173631099751219,
+    "peak_rss_kib": 11796,
+    "affinity": [
+      0
+    ],
+    "no_physical_contractions": true,
+    "no_eigensolver": true,
+    "no_heat_campaign": true
+  }
+}

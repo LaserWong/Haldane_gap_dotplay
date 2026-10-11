@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "updated_at_utc": "2026-10-11T03:04:48.554335+00:00",
+  "updated_at_utc": "2026-10-11T03:44:17.766018+00:00",
   "resumed_at_utc": "2026-10-10T17:14:00Z",
   "deadline_local": "2026-10-13T20:00:00-04:00",
   "deadline_utc": "2026-10-14T00:00:00Z",
@@ -8,7 +8,7 @@
   "source_commit": "6be889a30f642bde77fb89af75b3a7379615bed1",
   "historical_pause_file": "PAUSED.json",
   "report_interval_hours": 5,
-  "next_report_local": "2026-10-10T23:15:00-04:00",
+  "next_report_local": "2026-10-11T04:15:00-04:00",
   "tasks": [
     {
       "id": "chain_frontier_review",
@@ -44,11 +44,11 @@
     },
     {
       "id": "overview",
-      "status": "stage19_locally_frozen_stage18_remotely_verified",
-      "path": "research_20261010/overview_stage19/README.md",
-      "manifest_sha256": "c3a433da85b34129895f86618e29c37e872f1ae8402521c2b329bda3f6109012",
+      "status": "stage20_locally_frozen_stage19_remotely_verified",
+      "path": "research_20261010/overview_stage20/README.md",
+      "manifest_sha256": "de1e346d56f73dc638dba23e97845b8767ed9c6d3b85fe2f609642551e28b853",
       "post_freeze_replay": "PASS",
-      "post_freeze_replay_at_utc": "2026-10-11T03:04:04Z"
+      "post_freeze_replay_at_utc": "2026-10-11T03:43:27Z"
     },
     {
       "id": "trial_size_criteria",
@@ -579,16 +579,52 @@
       "status": "independently_accepted_gap0.0248_all_integer_L_ge2_unique_ground_tail_initialization34",
       "path": "research_20261010/uniform_gap_0248_all_sizes_review",
       "review_manifest_sha256": "5407745b521a61a310d89857da94c14a73fcc2093a80d467dc8f72e9fd31deaf"
+    },
+    {
+      "id": "uniform_proof_guide_review",
+      "status": "accepted_exposition_existing0.0248_finite_volume_theorem_no_new_physics",
+      "path": "research_20261010/uniform_proof_guide_review",
+      "review_manifest_sha256": "566994b0b5b93324b53c4e1d1dc4e6b71e347dfe1be4f01da101140877ecfdf2"
+    },
+    {
+      "id": "uniform_alternating_robustness_review",
+      "status": "independently_accepted_two_nested_exact_near_uniform_closed_intervals_all_integer_cells_M_ge2",
+      "path": "research_20261010/uniform_alternating_robustness_review",
+      "review_manifest_sha256": "7c819d4758ee43bedba3298a15735d981f7b42ffeeabff40be8dd6a9e4e8bdf0"
+    },
+    {
+      "id": "uniform_alternating_positive_cell_review",
+      "status": "accepted_positive_trace_class_cell_transfer_analytic_lemma",
+      "path": "research_20261010/uniform_alternating_positive_cell_review",
+      "review_manifest_sha256": "abb8e04fa7478e939d18c831a3a4b201c0ec6baf9b8e3e494b5b867a4347f872"
+    },
+    {
+      "id": "uniform_alternating_positive_transfer_review",
+      "status": "accepted_eight_numerical_rows_all_integer_M_ge2",
+      "path": "research_20261010/uniform_alternating_positive_transfer_review",
+      "review_manifest_sha256": "e80440ac87f53460f52c14535e2eb649388cfd3fae72fdff424a14fcf521dfa9"
+    },
+    {
+      "id": "bilayer_whole_m4_pipeline_review",
+      "status": "accepted_whole_algebra_six_physical_fixtures_and_limited_samples_full_production_BLOCKED",
+      "path": "research_20261010/bilayer_whole_m4_pipeline_review",
+      "review_manifest_sha256": "da9d659b68317702eec8db66beaa5ff3b21ffdb623ee3aa6b63663e86834f810"
+    },
+    {
+      "id": "bilayer_lazy_chunk_hardening_review",
+      "status": "sealed_read_only_partial22_defects_no_runtime_replay_not_production_admission",
+      "path": "research_20261010/bilayer_lazy_chunk_hardening_review",
+      "review_manifest_sha256": "20c733a6af3bfa8592a30be064493c9b99080ed4511c7abaa3a84f4ac4c46f35"
     }
   ],
-  "verification": "Stage19 independently accepts genuine n34/.0248,n32/.0245,n30/.0179 bootstrap starts, each allintegerL>=n uniqueground. Finite28..56 and individual24..27 give coverage>=24/.0023; analyticL2gap2,L3gap1 and directL4..23 complete uniform allintegerL>=2 gap.0023. Initialization remains30, not2; no minimum seed. Direct25 mathematics accepted but resource budget compliance NOT ACCEPTED; prior58D resource limitation preserved.18input thermal campaign remains completed, no restart. Bilayer nested allsize bounds unchanged; stronger26..33 and active300CPU m4fixture/sample work excluded pending independent acceptance, production unapproved. Final stage19 stronger review accepts gap.0248 for every integerL>=2 using rechecked4..25 prefix,new26..33 and n34 tail plus analytic2/3. n34 is the strongest-proof tail, distinct from successful n30 at.0179. Earlier.0023 and nested weaker records remain valid. Original-bound ratios51.7538 and6.49030 apply only common scopes, not physical gap ratios.",
-  "last_verified_remote_commit": "0bdca79b9f0ff24159d030b2e4e32ced08a60a16",
-  "last_report_utc": "2026-10-10T22:15:12Z",
-  "last_report_local": "2026-10-10T18:15:12-04:00",
-  "next_report_utc": "2026-10-11T03:15:00Z",
-  "updated_at_local": "2026-10-10T23:04:48.554335-04:00",
-  "prepared_stage": 19,
-  "last_publication_notification_utc": "2026-10-10T22:59:06Z",
+  "verification": "Stage19 independently accepts genuine n34/.0248,n32/.0245,n30/.0179 bootstrap starts, each allintegerL>=n uniqueground. Finite28..56 and individual24..27 give coverage>=24/.0023; analyticL2gap2,L3gap1 and directL4..23 complete uniform allintegerL>=2 gap.0023. Initialization remains30, not2; no minimum seed. Direct25 mathematics accepted but resource budget compliance NOT ACCEPTED; prior58D resource limitation preserved.18input thermal campaign remains completed, no restart. Bilayer nested allsize bounds unchanged; stronger26..33 and active300CPU m4fixture/sample work excluded pending independent acceptance, production unapproved. Final stage19 stronger review accepts gap.0248 for every integerL>=2 using rechecked4..25 prefix,new26..33 and n34 tail plus analytic2/3. n34 is the strongest-proof tail, distinct from successful n30 at.0179. Earlier.0023 and nested weaker records remain valid. Original-bound ratios51.7538 and6.49030 apply only common scopes, not physical gap ratios. Stage20 accepts self-contained exposition of existing uniform theorem, no new physics; two near-uniform alternating intervals[19999/20001,20001/19999] gap.015 and[12499/12501,12501/12499] gap.005, everyintegerM>=2,unit alternating1,g,unique finite-volume ground. Separate from weak-dimer range; no interposed-region/phase/maximality claim. Guide selfcheck anomaly retained; active120CPU hardening/PSD hypothesis not scientific acceptance. Final stage20 PSD-cell review accepts8 exact rows, including four main nested intervals with gaps.020/.015/.010/.005, allintegercellsM>=2. Structural AA* proof and70windows accepted. Wholem4 algebra/sixfixtures and bounded sample evidence accepted, full8x4 moments/production blocked; partial22hardening finding identifies defects, active24control excluded.",
+  "last_verified_remote_commit": "3ec8d89e05676fffb0db54f09e59594fa4de4bd9",
+  "last_report_utc": "2026-10-11T03:10:39Z",
+  "last_report_local": "2026-10-10T23:10:39-04:00",
+  "next_report_utc": "2026-10-11T08:15:00Z",
+  "updated_at_local": "2026-10-10T23:44:17.766018-04:00",
+  "prepared_stage": 20,
+  "last_publication_notification_utc": "2026-10-11T03:10:39Z",
   "original_method_comparison": {
     "first_route_original_startup": 60,
     "current_first_input_family_startup": 52,
@@ -608,9 +644,9 @@
     "current_second_input_bootstrap_initialization": 30,
     "strongest_proof_tail_initialization": 34
   },
-  "last_verified_remote_tree": "48c9916e7ca3871c6d7322810799a4a9e8a9937b",
-  "last_remote_verified_at_utc": "2026-10-11T02:24:13.749Z",
-  "last_publication_notification_utc_note": "Historical notification timestamp retained; remote verification timestamp does not claim a new user notification.",
+  "last_verified_remote_tree": "3b8af211301a74666770f48a0186e4d8f1fafdc1",
+  "last_remote_verified_at_utc": "2026-10-11T03:10:12.426Z",
+  "last_publication_notification_utc_note": "Verified parent report at03:10:39UTC covers scheduled03:15UTC report; no later notification claimed.",
   "thermal_campaign": {
     "status": "completed_independent_physical_review_accepted",
     "launch_authorized_at_utc": "2026-10-10T23:44:00Z",
@@ -725,14 +761,13 @@
     "full_review_manifest_sha256": "792127565ad16526eeaa61add62bcc15db499578fc9d2157f11df27848867b94",
     "monitoring_needed": false
   },
-  "publication_state_note": "Stage18 remotely verified; stage19 locally frozen, no stage19 publication claim.",
+  "publication_state_note": "At document freeze, latest completed remote verification is stage19; this checkpoint contains stage20. Subsequent commit and verification receipt establish its publication.",
   "last_remote_verification_summary": {
-    "snapshot_files": 834,
-    "dependency_entries_verified": 14002,
-    "archive_member_dependency_checks": 10888,
-    "preserved_existing_files": 12870,
+    "snapshot_files": 560,
+    "dependency_entries_verified": 4047,
+    "preserved_existing_files": 13701,
     "stage11_transport_files_preserved": 27,
-    "verification_method": "Verified root and 15 changed subtree reads without truncation, reusing 201 unchanged subtree SHAs from the prior verified tree; verified every snapshot entry and outside file. Re-read identical root tree after main update. Verified sealed thermal ZIP content and all 2979 members locally against exact declared SHA-256, with remote Git blob SHA matching.",
+    "verification_method": "Verified root and 24 changed subtree reads without truncation, reusing 215 unchanged subtree SHAs from the prior verified tree; verified every snapshot entry and outside file. Re-read identical root tree after main update.",
     "workflow_runs": 0
   },
   "bilayer_current_all_size_interval": {
@@ -955,12 +990,94 @@
   "verification_history_through_stage17": "Ordinary bilayer entire 0<=g<=0.105: gap>=0.004499695659 for every integer square L>=2 over80 closed pieces; extension [.102,.105] gap>=.017785998829. Earlier [.1,.102] gap>=.013574634391 remains valid. Discrete g=.10 gap>=.055807148827 and g=.102 gap>=.016509932002. Alternating spin-1 chain g=.21/.22/.225: gaps>=.107424972/.071581253/.051807500 for every integer M>=2. At g=.25 only M=2..16 has gap>=.01; no all-size certificate. Exact direct-window lemma and producer prose erratum accepted. M8 rank4/9/13/17 arbitrary-vector Rayleigh inputs remain valid; inherited rounded psi/u are not exact singlets or spatial-symmetry eigenvectors. Only added pair directions and their pair-derived H descendants have exact claimed symmetry. Uniform transfer moments improve trace caps, not the gap. MPS current review fully PASS: trial-energy difference .4238202243082572 is not a physical gap. Each even n6..24 specified delayed/canonical continuation excluded, with n24 70/73 alternatives; no exact physical-purity upper-bound or universal minimum-seed claim. Uniform periodic unit-coupling spin-1 Heisenberg chain: cooled n60/n56/n54 independently accepted gaps .0102 for every integer L>=60, .0068 for L>=56, .0025 for L>=54, each with unique ground state. New exact Hermite n52 review certifies gap>=.0038 for every integer L>=52, unique ground state, using the inherited nine certified heat inputs and accepted MPS104, with no new thermal job. The separately accepted direct48..96 window gives gap>=.0053 and composes with n52 to gap>=.0038 for every integer L>=48, unique ground. Bootstrap initialization remains52. No claim below L48 or minimum seed. Original theorem is even-length; original physical trace identity applies to all integer n>=4 and supports the separately proved signed odd extension. Lower-bound comparisons are not physical-gap ratios. Stage13 actual g=.105 point: gap>=.031673112867 for every integer square L>=2 with unique ground state. Denominator ground-search dimensions16/43, total trial dimensions64/139, retained49/97; largest43D numerator retains one Rayleigh term in2^128 physical dimension. Error budgets are selected sufficient targets, not necessary/no-go conditions. Uniform moment-optimality spectra are abstract information-limit examples with no asserted quantum/cross-temperature realization. MPS96/100 acceptance is negative shifted Rayleigh only. Fixed-node Hermite/packing plus fixed-anchor canonical sequential-G exclusions cover only n48/n50, all41 even-base choices and every r>=1; no n<48 or minimum-seed result. Original paper already uses certified matrix-polynomial thermal traces and has no full-ED premise. Coverage onset is distinct from bootstrap initialization seed. Original second initialization already starts n36 at beta49/4 with18 I/P heat inputs at lengths4..12, then six rounds to n2304,beta784. The n52 startup-size improvement is relative only to the original first nine-input n60 route, not every original recipe. Original second-input thermal columns were not independently rerun in this stage. Stage14 adds separately conditional .0046/.0214 for all integer L>=36 under18 published beta49/4 physical certificates, with no completed local full rerun accepted. New bilayer interval[0,.1528] gap.000696608341 applies only L2..7; all-size[0,.105] unchanged. Complete4x4 H2 fixture accepted, no new gap; full8x4 was excluded from the historical stage14 scope; stage15 acceptance is recorded below. Engineering supervisor PASS is not physical campaign acceptance. Stage15 independently accepts full43D/57D 8x4 H2 and split21D 4x4 fixture, six isolated g=.11/.12 shifted ground-energy lower endpoints (not gaps), and only fixed-span/fixed-r2 target exclusions. No all-size bilayer extension. Partial physical thermal review accepts16 complete cases and990 batches, bothL12 incomplete; conditional.0214 unchanged. Campaign terminal23:59UTC, no resume authorized, proposed21600-to43200 extension design only. Subsequent operational update: repair review PASS and extension/resume authorized2026-10-11 00:16:28UTC, actual resume00:17UTC. At00:18:49UTC L12I/P batches28/21,16543 CPU seconds committed, no new failures. Original61 attempts/16207 charges retained under append-only43200 cap. Historical stage15 partial review unchanged;16/18 complete cases and conditional.0214 unchanged. Stage16 supersedes earlier bilayer frontier:82 closed pieces certify[0,.1065] gap.004499695659 for every integer square L>=2. [.106,.1065] gap.019955613868 and point.1065 gap.021451810876 independently accepted, ground searches21/57 and numerator43, retained49/97/1, physical2^128 unchanged. g=.11 gap.020227124817 onlyL2..32. Exact square isotropy window/recurrence accepted, no non-square axis swap. Smallm4 fixtures accepted but no full8x4m4 computation; cost gate unresolved. Stage17 preserves stronger nested[0,.108] gap.004499695659 over86pieces while extending[0,.10825] with gap.000586405978 over88pieces, allintegerL>=2 uniqueground. Five new point bounds independently accepted. g=.1085 only scoped saved-path/finite-grid failures; .109 untested. Fixedz=-g/4 NNpair variance floor atg.11 is not all-z exclusion or newgap. Thermal16/18 complete remains conditional.0214.",
   "resource_exceptions": {
     "direct25_reviewer": "RESOURCE_BUDGET_COMPLIANCE_NOT_ACCEPTED_25.9614_process_CPU_seconds_vs15_authorized_cause_unresolved",
-    "58D_producer_algebra": "UNVERIFIED_preserved_addendum"
+    "58D_producer_algebra": "UNVERIFIED_preserved_addendum",
+    "proof_guide_initial_self_check": "30.21035921_CPU_seconds_vs30_limit_strict_compliance_not_accepted_final60_limit_record25.746380744_no_external_wait4_or_postexec_limit_claim",
+    "m4_pipeline_producer": "general_descendant_detection_UNVERIFIED_missing_proc_children_path_compilation_CPU_missing_early_fixture_source_hashes_missing"
   },
   "active_stage19_excluded_work": {
     "whole_m4_fixture_sample_gate": "active_300_CPU_second_gate_only",
     "full_m4_production": "NOT_APPROVED",
-    "self_contained_proof_guide": "active_future_stage_not_in_current_acceptance"
+    "self_contained_proof_guide": "now_accepted_in_stage20"
   },
-  "verification_history_stage18": "Stage18: all18 beta49/4 I/P physical inputs atL4..12,2428 checkpoints, exact error enclosures, coarse and refined signed-moment mappings and MPS72 anchor composition accepted. Both .0046 and .0214 are now fully independently reproduced uniform-chain gap bounds for every integerL>=36 with unique ground; no below36/minimum-seed claim. Historical conditional snapshots remain unchanged. Bilayer nested all-size bounds unchanged:86pieces[0,.108] gap.004499695659 and88pieces[0,.10825] gap.000586405978. Complete58D matrix and tiny finite-patch ground endpoint gains mathematically accepted, not new all-size gaps; producer algebra runtime compliance remains unverified."
+  "verification_history_stage18": "Stage18: all18 beta49/4 I/P physical inputs atL4..12,2428 checkpoints, exact error enclosures, coarse and refined signed-moment mappings and MPS72 anchor composition accepted. Both .0046 and .0214 are now fully independently reproduced uniform-chain gap bounds for every integerL>=36 with unique ground; no below36/minimum-seed claim. Historical conditional snapshots remain unchanged. Bilayer nested all-size bounds unchanged:86pieces[0,.108] gap.004499695659 and88pieces[0,.10825] gap.000586405978. Complete58D matrix and tiny finite-patch ground endpoint gains mathematically accepted, not new all-size gaps; producer algebra runtime compliance remains unverified.",
+  "alternating_near_uniform_intervals": {
+    "model": "periodic_spin1_alternating_bonds1_andg",
+    "scope": "all_integer_cells_M_ge2_physical_L2M_unique_finite_volume_ground",
+    "physical_Hilbert_dimension": "9^M",
+    "intervals": [
+      {
+        "g": [
+          "19999/20001",
+          "20001/19999"
+        ],
+        "gap": "1/50"
+      },
+      {
+        "g": [
+          "99993/100007",
+          "100007/99993"
+        ],
+        "gap": "3/200"
+      },
+      {
+        "g": [
+          "199983/200017",
+          "200017/199983"
+        ],
+        "gap": "1/100"
+      },
+      {
+        "g": [
+          "99991/100009",
+          "100009/99991"
+        ],
+        "gap": "1/200"
+      }
+    ],
+    "first_bond_coefficient_one_even_above_g1": true,
+    "separate_from_weak_dimer_results": true,
+    "no_intermediate_range_maximality_phase_or_M1_claim": true,
+    "historical_two_intervals": [
+      {
+        "g": [
+          "19999/20001",
+          "20001/19999"
+        ],
+        "gap": "3/200"
+      },
+      {
+        "g": [
+          "12499/12501",
+          "12501/12499"
+        ],
+        "gap": "1/200"
+      }
+    ],
+    "accepted_numerical_rows": 8,
+    "main_cell_seed": 16,
+    "main_physical_seed": 32,
+    "main_MPS_anchor": 64,
+    "additional_odd_cell_seeds": [
+      15,
+      17
+    ],
+    "all_integer_windows_checked": 70,
+    "structural_positive_cell_transfer_accepted": true
+  },
+  "active_stage20_excluded_work": {
+    "checkpoint_hardening": "active24_field_control_package_excluded_from_sealed_partial22_finding",
+    "full_bilayer_m4_production": "NOT_APPROVED",
+    "B_squared_work": "active_future_work_excluded"
+  },
+  "bilayer_m4_pipeline_status": {
+    "accepted": "whole_m0_to_m4_algebra_six_dense_fixtures_limited_sample_provenance_and64q6_checkpoint",
+    "full8x4_moments": false,
+    "full_production": "BLOCKED_NOT_AUTHORIZED",
+    "cold_planning_envelope_CPU_seconds_approx": 15065,
+    "planning_budget_CPU_seconds": 10800,
+    "review_reserved_CPU_seconds": 90,
+    "review_actual_wait4_CPU_seconds": 49.784555,
+    "partial22_finding": "known_hardening_defects",
+    "active24_control_package": "excluded"
+  }
 }

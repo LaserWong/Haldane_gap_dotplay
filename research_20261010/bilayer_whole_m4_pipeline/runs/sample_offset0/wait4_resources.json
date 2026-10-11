@@ -1,0 +1,22 @@
+{
+  "name": "sample_offset0",
+  "reserved_cpu_seconds": 35,
+  "charged_cpu_seconds": 35,
+  "state": "failed_or_stopped",
+  "mode": "sample",
+  "kind": "sample",
+  "args": [
+    "0",
+    "64",
+    "16"
+  ],
+  "pid": 5,
+  "exit_status": -6,
+  "wait4_user_seconds": 0.595637,
+  "wait4_system_seconds": 0.10295399999999999,
+  "wait4_cpu_seconds": 0.698591,
+  "wall_seconds": 0.712133836997964,
+  "peak_rss_kib": 19944,
+  "last_external_cpu_seconds": 0.65,
+  "stop_reason": null
+}

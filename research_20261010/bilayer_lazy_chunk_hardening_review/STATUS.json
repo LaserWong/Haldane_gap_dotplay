@@ -1,0 +1,15 @@
+{
+  "status": "READ_ONLY_COMPONENT_FINDING_PRODUCTION_BLOCKED",
+  "source_manifest_sha256": "c26c513f7e29e4dd23e83b1ad9ca367ece96c3b26e8347f926429606e160f5e5",
+  "independent_runtime_replay": false,
+  "new_review_CPU_reservations": 0,
+  "schema_fields": 22,
+  "variable_g_fields": "ABSENT_EXCLUDED",
+  "blockers": [
+    "Receipt output digests not enforced during adoption",
+    "Controller death can leave a worker running without stale-run reconciliation",
+    "Production aggregate/deadline/reservation forecast not implemented",
+    "Fixed CAP-2 worker soft limit retained"
+  ],
+  "next": "Separately authorized24-field/control review in ../bilayer_variable_g_control_review;90-second budget untouched"
+}

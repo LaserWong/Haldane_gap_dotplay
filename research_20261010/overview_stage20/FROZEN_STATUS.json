@@ -1,0 +1,80 @@
+{
+  "status": "FROZEN verified static overview",
+  "frozen_utc": "2026-10-11T03:42:21.139875+00:00",
+  "M_or_L_ge2_certificate_rows": 339,
+  "preserved_stage19_main_rows": 339,
+  "preserved_stage19_unconditional_positive_certificate_records": 413,
+  "unconditional_positive_certificate_records": 423,
+  "new_near_uniform_certificate_records": 10,
+  "historical_conditional_uniform_records_preserved": 2,
+  "current_undischarged_second_input_claims": 0,
+  "smallest_genuine_uniform_initialization": 30,
+  "gap_at_smallest_uniform_initialization": "179/10000",
+  "uniform_contiguous_coverage_onset": 2,
+  "strongest_uniform_gap": "31/1250",
+  "strongest_uniform_gap_tail_initialization": 34,
+  "full18_thermal_premises_remain_discharged": true,
+  "bilayer_nested_covers_unchanged": [
+    {
+      "endpoint": "27/250",
+      "closed_pieces": 86,
+      "gap_lower": "4499695659/1000000000000"
+    },
+    {
+      "endpoint": "433/4000",
+      "closed_pieces": 88,
+      "gap_lower": "293202989/500000000000"
+    }
+  ],
+  "new_bilayer_gap": false,
+  "full8x4_m4_accepted": false,
+  "pipeline_scope": [
+    {
+      "status": "accepted algebra and small fixtures; bounded sample provenance",
+      "coupling_exact": "11/100",
+      "shifted_Hamiltonian": "Hprime=Q+(g/2)(C+Cdagger+D)",
+      "integer_operator": "T=200Hprime=200Q+11(C+Cdagger+D)",
+      "Q_meaning": "sum of rung triplet projectors",
+      "moment_normalization": "divide unnormalized T moments by norm_squared*200^k",
+      "complete_independent_small_fixtures": 6,
+      "scalar_moment_orders": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "signed_terms": 15,
+      "producer_q6_targets_per_phase": 512,
+      "producer_q4_targets_per_phase": 128,
+      "independent_q6_exact_checkpoint_targets": 64,
+      "independent_q4_aggregate_checkpoint_complete": false,
+      "independent_repeated_phase_completed": false,
+      "full8x4_moments_computed": false,
+      "new_energy_endpoint": false,
+      "new_gap": false,
+      "full_production_admitted": false,
+      "producer_general_process_tree_guard_verified": false,
+      "review_repaired_process_tree_guard_tests_pass": true,
+      "source": "research_20261010/bilayer_whole_m4_pipeline_review/STATUS.json"
+    }
+  ],
+  "direct25_review_resource_compliance": "NOT_ACCEPTED unresolved",
+  "prior58D_producer_resource_compliance": "UNVERIFIED",
+  "guide_first30second_strict_compliance": "NOT_ACCEPTED; recorded30.21035921CPU",
+  "guide_final60second_recorded_CPU": 25.746380744,
+  "mutable_campaign_data_included": false,
+  "direct_source_hashes": 914,
+  "review_seals": 103,
+  "sealed_review_entries_checked": 7580,
+  "previous_stage19_unchanged": true,
+  "root_files_modified": false,
+  "remote_publication_performed": false,
+  "cpu_affinity": [
+    8
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "corruptions_rejected": 321,
+  "byte_identical_rendered_files": 46,
+  "scope": "Integrity and exact scoped extraction of independent final reviews; no new thermal or physical production"
+}

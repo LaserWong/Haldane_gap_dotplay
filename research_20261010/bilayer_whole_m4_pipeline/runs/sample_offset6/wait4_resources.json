@@ -1,0 +1,24 @@
+{
+  "name": "sample_offset6",
+  "reserved_cpu_seconds": 10,
+  "charged_cpu_seconds": 10,
+  "state": "complete",
+  "mode": "sample",
+  "kind": "sample",
+  "args": [
+    "6",
+    "64",
+    "16"
+  ],
+  "source_sha256": "6019c459e35baa7ee70b42375a4d00f18d7a36fdfacebaab054c622cc9ebc94e",
+  "executable_sha256": "68f556471cd8b72754007a811e39738ff3cb695be74645556c81c5e824f8a995",
+  "pid": 16,
+  "exit_status": 0,
+  "wait4_user_seconds": 0.7143649999999999,
+  "wait4_system_seconds": 0.182698,
+  "wait4_cpu_seconds": 0.8970629999999999,
+  "wall_seconds": 0.9118354079982964,
+  "peak_rss_kib": 20888,
+  "last_external_cpu_seconds": 0.85,
+  "stop_reason": null
+}

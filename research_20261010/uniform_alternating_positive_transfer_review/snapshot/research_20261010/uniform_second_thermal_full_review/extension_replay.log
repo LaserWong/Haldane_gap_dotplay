@@ -1,0 +1,24 @@
+{
+  "status": "PASS read-only checkpoint/extension audit",
+  "ledger_state": "ALL_CASES_COMPLETE_PRODUCER_REVIEW_REQUIRED",
+  "historical_charge_retained": 16207,
+  "total_current_charges": 27543,
+  "new_failed_attempts": [],
+  "all_old_snapshot_files_unchanged_except_authorized_ledger_extension": true,
+  "L12": [
+    {
+      "seam": "I",
+      "valid_batches": 733,
+      "expected_batches": 733,
+      "columns": 11595,
+      "full_certificate_exists": true
+    },
+    {
+      "seam": "P",
+      "valid_batches": 733,
+      "expected_batches": 733,
+      "columns": 11595,
+      "full_certificate_exists": true
+    }
+  ]
+}

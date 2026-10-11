@@ -1,0 +1,35 @@
+{
+  "status": "ACCEPTED proof guide exposition and exact scalar correspondence",
+  "guide_manifest_sha256": "78514331ec4e434bc633dc2c16520e371bace16e1559e32520aa08ceb095dfd1",
+  "accepted_scientific_result_manifest": "5407745b521a61a310d89857da94c14a73fcc2093a80d467dc8f72e9fd31deaf",
+  "gap": "31/1250",
+  "all_integer_L_at_least": 2,
+  "unique_finite_volume_ground_state": true,
+  "strong_tail_initialization": 34,
+  "smallest_separately_accepted_initialization": 30,
+  "smaller_initialization_gap": "179/10000",
+  "L24_uses": "parity-resolved S24/T48 with MPS48",
+  "no_own_length_MPS24_claim": true,
+  "original_framework_correctly_attributed": true,
+  "original_full_ED_premise": false,
+  "infinite_volume_ground_state_uniqueness": "NOT CLAIMED",
+  "new_physical_computations": false,
+  "physical_premises": "inherited accepted physical reviews, formulas and implementations inspected; no new physical validation claimed",
+  "exact_scalar_replay": "PASS",
+  "four_global_support_rays": "PASS",
+  "forty_global_majorants": "PASS",
+  "eighteen_thermal_endpoint_mappings": "PASS",
+  "thirty_finite_purities": "PASS",
+  "n34_full_scalar_chain": "PASS",
+  "resource_exceptions": {
+    "historical_direct25": "preserved unresolved",
+    "guide_first30second_selfcheck": "strict measured30second compliance NOT ACCEPTED and preserved",
+    "guide_final60second_selfcheck": "recorded25.746380744 CPU seconds; source and record checked, no external wait4 or post-exec limit record claimed"
+  },
+  "findings_resolved": [
+    "positive cap domain explicitly stated",
+    "first saved n34 state explicitly joined to certified seed"
+  ],
+  "publication_scope": "future Stage20 material; no Stage19 blocking or modification",
+  "remote_writes": false
+}

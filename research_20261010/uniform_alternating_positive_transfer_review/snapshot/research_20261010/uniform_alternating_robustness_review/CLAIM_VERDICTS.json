@@ -1,0 +1,40 @@
+{
+  "status": "ACCEPTED both closed intervals, all integer M>=2",
+  "producer_manifest_sha256": "836816261bc679b35d03e13e35141e3f7224fbbf56224ee4d428dc41b653cebd",
+  "claims": [
+    {
+      "eta_radius": "1/20000",
+      "g_closed_interval": [
+        "19999/20001",
+        "20001/19999"
+      ],
+      "gap": "3/200",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell_base": 256
+    },
+    {
+      "eta_radius": "1/12500",
+      "g_closed_interval": [
+        "12499/12501",
+        "12501/12499"
+      ],
+      "gap": "1/200",
+      "all_integer_cells_at_least": 2,
+      "unique_ground_state": true,
+      "terminal_cell_base": 512
+    }
+  ],
+  "physical_cell_history_kernel_independently_derived": true,
+  "untwisted_only_gaussian_comparison": true,
+  "source_manifest_member_and_exact_seed_matches": true,
+  "odd_cell_windows_covered": true,
+  "extensive_Weyl_used_only_for_M_2_to15": true,
+  "physical_compute_performed": false,
+  "new_resource_status": "PASS",
+  "limitations": [
+    "Inherited physical thermal and MPS acceptance; no fresh physical contraction or thermal recomputation.",
+    "No optimal interval/gap or thermodynamic phase-label claim.",
+    "Historical direct25 CPU enforcement exception remains unchanged and is not used in this even-size bridge."
+  ]
+}

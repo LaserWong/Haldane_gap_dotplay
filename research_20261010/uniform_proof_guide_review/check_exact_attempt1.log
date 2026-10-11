@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/uniform_proof_guide_review/check_exact.py", line 170, in <module>
+    r25=js('uniform_direct25_coverage_review/results.json');ray25=F(r25['shifted_total_Rayleigh'])
+                                                                    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'shifted_total_Rayleigh'

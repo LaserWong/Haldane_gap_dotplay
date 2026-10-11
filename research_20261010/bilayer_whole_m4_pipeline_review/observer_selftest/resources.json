@@ -1,0 +1,30 @@
+{
+  "name": "observer_selftest",
+  "cap_cpu_seconds": 3,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 3,
+  "command": [
+    "python",
+    "research_20261010/bilayer_whole_m4_pipeline_review/descendant_selftest.py"
+  ],
+  "state": "failed_or_stopped",
+  "pid": 6,
+  "exit_status": -9,
+  "wait4_user_seconds": 0.018801,
+  "wait4_system_seconds": 0.017776,
+  "wait4_cpu_seconds": 0.044175,
+  "max_live_tree_cpu_seconds": 0.02,
+  "max_observed_processes": 2,
+  "orphan_wait4": [
+    {
+      "pid": 7,
+      "user": 0.007598,
+      "system": 0.0,
+      "exit_status": -9
+    }
+  ],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 0.06540371099981712,
+  "peak_rss_kib": 6400,
+  "stop_reason": "unexpected_runtime_descendant"
+}

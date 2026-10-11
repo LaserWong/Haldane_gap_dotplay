@@ -1,0 +1,24 @@
+{
+  "name": "checks",
+  "cap_cpu_seconds": 4,
+  "address_space_mib": 256,
+  "charged_cpu_seconds": 4,
+  "command": [
+    "python",
+    "research_20261010/bilayer_whole_m4_pipeline_review/check.py"
+  ],
+  "state": "completed",
+  "pid": 6,
+  "exit_status": 0,
+  "wait4_user_seconds": 0.069921,
+  "wait4_system_seconds": 0.030414,
+  "wait4_cpu_seconds": 0.100335,
+  "max_live_tree_cpu_seconds": 0.06,
+  "max_observed_processes": 1,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 0.12717536900163395,
+  "peak_rss_kib": 10988,
+  "max_observed_tree_rss_bytes": 10072064,
+  "stop_reason": null
+}

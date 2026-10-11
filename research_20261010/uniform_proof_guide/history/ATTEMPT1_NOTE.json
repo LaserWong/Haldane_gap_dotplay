@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "record": "history/SELF_CHECK_ATTEMPT1.json",
+  "script": "history/selfcheck_attempt1.py",
+  "script_sha256": "d009d94dfa75705e7892c27c6636caee6950de4fae52445c2127e8143562ded3",
+  "mathematical_status": "PASS",
+  "observed_CPU_seconds": 30.21035921,
+  "declared_RLIMIT_CPU_seconds": 30,
+  "strict_measured_30_second_compliance": "NOT_ACCEPTED",
+  "cause": "Not diagnosed. No physical computation was performed. The original script and result are preserved unchanged.",
+  "final_replay_plan": "Use 60-second CPU limit, 256 MiB address-space limit, 110-term positive Taylor sum with exact geometric remainder, and explicit first-state/seed equality.",
+  "missing_runtime_accounting": [
+    "external wait4 CPU measurement",
+    "post-exec limit observation"
+  ],
+  "first_attempt_mathematical_pass_does_not_establish_resource_compliance": true
+}

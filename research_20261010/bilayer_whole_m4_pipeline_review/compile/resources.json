@@ -1,0 +1,26 @@
+{
+  "name": "compile",
+  "cap_cpu_seconds": 20,
+  "address_space_mib": 512,
+  "charged_cpu_seconds": 20,
+  "command": [
+    "g++",
+    "-O2",
+    "-std=c++17",
+    "research_20261010/bilayer_whole_m4_pipeline_review/independent.cpp",
+    "-o",
+    "research_20261010/bilayer_whole_m4_pipeline_review/independent",
+    "-lgmpxx",
+    "-lgmp"
+  ],
+  "state": "failed_or_stopped",
+  "pid": 6,
+  "exit_status": 1,
+  "wait4_user_seconds": 4.565086,
+  "wait4_system_seconds": 1.813644,
+  "wait4_cpu_seconds": 6.37873,
+  "max_live_tree_cpu_seconds": 0,
+  "wall_seconds": 6.419929633004358,
+  "peak_rss_kib": 313344,
+  "stop_reason": null
+}

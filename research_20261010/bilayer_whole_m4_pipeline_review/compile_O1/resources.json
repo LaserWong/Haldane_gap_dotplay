@@ -1,0 +1,30 @@
+{
+  "name": "compile_O1",
+  "cap_cpu_seconds": 15,
+  "address_space_mib": 512,
+  "charged_cpu_seconds": 15,
+  "command": [
+    "g++",
+    "-O1",
+    "-std=c++17",
+    "research_20261010/bilayer_whole_m4_pipeline_review/independent.cpp",
+    "-o",
+    "research_20261010/bilayer_whole_m4_pipeline_review/independent",
+    "-lgmpxx",
+    "-lgmp"
+  ],
+  "state": "completed",
+  "pid": 5,
+  "exit_status": 0,
+  "wait4_user_seconds": 11.921403,
+  "wait4_system_seconds": 1.966647,
+  "wait4_cpu_seconds": 13.88805,
+  "max_live_tree_cpu_seconds": 13.829999999999998,
+  "max_observed_processes": 3,
+  "orphan_wait4": [],
+  "live_group_after_cleanup": [],
+  "wall_seconds": 13.906193481001537,
+  "peak_rss_kib": 413484,
+  "max_observed_tree_rss_bytes": 424194048,
+  "stop_reason": null
+}

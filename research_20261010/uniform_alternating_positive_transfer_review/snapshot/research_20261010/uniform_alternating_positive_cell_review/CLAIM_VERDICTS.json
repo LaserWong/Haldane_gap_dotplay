@@ -1,0 +1,16 @@
+{
+  "status": "ACCEPTED analytic structural lemmas",
+  "spin": 1,
+  "coupling_domain": "every finite g>=0",
+  "inverse_temperature_domain": "every finite beta>0",
+  "physical_ring": "periodic 2M sites, all integer M>=2",
+  "transfer": "positive trace class, exact A_g A_g* with A_g:L2(mu_g)->L2(mu_1)",
+  "window": "T(M,beta)>=S(n,beta)^(2-M/n) T(2n,beta)^(M/(2n)) >= min(S sqrt(T),T)",
+  "window_base": "every integer n>=2, including odd n",
+  "window_lengths": "every integer n<=M<=2n",
+  "inverse_purity_threshold_needed_for_interpolation": false,
+  "new_numerical_gap_or_interval_claim": false,
+  "previous_all_physical_lengths_gap_0248_unchanged": true,
+  "physical_computation": false,
+  "no_arbitrary_cell_v_or_half_odd_integer_extension": true
+}

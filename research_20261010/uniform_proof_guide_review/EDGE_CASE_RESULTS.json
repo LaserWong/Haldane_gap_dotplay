@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    "positive own-length MPS25 Rayleigh and numerator penalty retained",
+    "double counting the total-energy length factor is detected",
+    "negative coordinate floor is distinct from truncation to zero",
+    "all four odd nontrivial-sector upper moments are negative",
+    "dropping nontrivial-sector multiplicity three changes every finite even bound",
+    "an endpoint-only polynomial positivity test is insufficient",
+    "the n30 certificate does not provide the stronger n34 gap",
+    "the staggered second update uses the new spatial endpoint, with an exact separating fixture",
+    "omitting length33 creates a genuine coverage hole",
+    "L24 uses MPS48 and the failed L25 parity bound is not an accepted certificate"
+  ],
+  "input_sha256": {
+    "uniform_direct25_coverage_review/anchor25.out": "8d2fbffd11aeacee7ac24deac859c283d12acc66c5b260a22c8199727db15a3d",
+    "uniform_direct25_coverage/certificate.json": "a460f8d7b35652f62adcfb5f15985def0181d6c998e8eebcb2574822a6bcdb49",
+    "uniform_second_moment_optimization/certificate.json": "f61b8b7a918eff625128060d94d14aaa8ccb641721ac8c2f86562cbb7080f461",
+    "uniform_smaller_second_initialization/long_certificate.json": "eba4971a8949e3a9734a04bc0a4019000c88402f8a71a1365dff27a3806e8a0d",
+    "uniform_smaller_second_initialization/certificate.json": "ae2a603e1486470a86871893c7527da7fca2a134d9b4e74617764d4845eee0cb",
+    "uniform_n24_second_coverage_review/results.json": "8ae5fafbb471600fa31c248f5f319119d8b086637ff52091f194596fd6a5e55a"
+  },
+  "physical_contractions_performed": false
+}

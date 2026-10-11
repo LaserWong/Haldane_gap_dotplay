@@ -1,0 +1,25 @@
+{
+  "status": "ACCEPTED frozen guide identity and data extraction",
+  "guide_manifest_sha256": "78514331ec4e434bc633dc2c16520e371bace16e1559e32520aa08ceb095dfd1",
+  "guide_members": 11,
+  "consumed_file_pins": 66,
+  "complete_dependency_packages": 15,
+  "original_Git_blobs": 6,
+  "final_guide_selfcheck_record": {
+    "CPU_seconds": 25.746380744,
+    "peak_RSS_KiB": 19056,
+    "CPU_limit_seconds": 60,
+    "address_space_limit_MiB": 256
+  },
+  "first_guide_selfcheck_record_preserved": {
+    "CPU_seconds": 30.21035921,
+    "peak_RSS_KiB": 19076,
+    "CPU_limit_seconds": 30,
+    "address_space_limit_MiB": 256
+  },
+  "domain_qualifier_fixed": true,
+  "first_state_join_fixed": true,
+  "guide_selfcheck_executed_by_this_review": false,
+  "guide_selfcheck_source_inspected": true,
+  "exact_scalar_results_independently_replayed": "CHECK_RESULTS.json"
+}
