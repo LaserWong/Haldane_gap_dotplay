@@ -1,0 +1,1 @@
+Accepted: four point-coupling physical ground lower endpoints and two scoped43D/fixed-r2 positive-pencil exclusions. No new all-size gap or universal no-go. Exact fractions and sector counts are in audit.json; see PROOF.md. REPRODUCE.sh performs a fresh exact replay with no physical support contraction.

@@ -220,3 +220,22 @@ Next: monitor existing execution and exact checkpoints, publish this operational
 ### Publication verification — 2026-10-10 20:25 EDT / 2026-10-11 00:25 UTC
 
 Stage15 main is verified at e2f2f536c4f7facdbf478ca6815c6ed88fcecab6, tree f92ccbce3c41ebe3c2bc8d15cc9a7b43ecfecf05, at2026-10-11 00:21:42.394 UTC. All1560 snapshot files match;5559 dependency entries were checked with one explicit published exception for the excluded empty operational campaign.lock (reproducibility/stage15_dependency_exceptions.json). All9166 outside files and27 original evidence-transport files are preserved. No GitHub Actions run exists for this commit; no CI pass is claimed. Immutable snapshots and earlier freeze receipts remain unchanged. The repaired producer/review and present operational root update are the next separate publication; no new physical completion or conditional-theorem promotion is implied.
+
+
+## Stage 16 milestone — 2026-10-10 20:59 EDT / 2026-10-11 00:59 UTC
+
+Latest verified main is the repair/resume commit852f5105c581ec45f5eab6b3a5301d23913e7e22, treed35bd40fdea67b2103c752f5e49e5101eefb273c, verified00:27:04.999UTC. The65-file/70-dependency snapshot preserved10723 outside files and27 transport files. [Stage16 overview](overview_stage16/README.md) is locally frozen with manifest 911fce0e47b5bff696187ac31524fbcb75096068ef2846e40472f5228ac36a7e; publication remains separate.
+
+Exact isotropic square-window and recurrence reviews strengthen the2D route without swapping purities on a fixed nonsquare rectangle. The [.105,.106] interval accepts gap.020881493369; [.106,.1065] accepts .019955613868. The combined82 closed pieces cover[0,.1065] with gap.004499695659 for every integer periodic squareL>=2 and unique full-Hilbert ground. Point.106/.1065 bounds are .020945510446/.021451810876. Exact gates, all preceding integer windows and asymptotic closure are verified; no physical-gap monotonicity is assumed.
+
+Dimensions are route-specific: .106 uses16/43 denominator searches and43 numerator, embedded within21/57 ambient matrices. The new .1065 route uses21/57 denominator searches and43 numerator. Retained counts stay49/97/1; largest physical dimension2^128 is unchanged. Finite g=.11 uses16/57 denominators and57 numerator, and certifies only2<=L<=32 with gap.020227124817. Two hypothetical ground32 improvements are not physical all-size certificates.
+
+Small4x2/5x2 m3/m4 fixtures and signed normal-ordering/scoped envelope limitations are independently accepted. Full8x4 m4 production remains cost-blocked:29230129152 raw tuple/support visits are counts, not a measured timing prediction. Do not run full production before compact-rule and sampled-cost gates; no new ground endpoint or gap follows from fixture acceptance.
+
+Thermal execution remains separately monitored in CURRENT_STATUS: cumulative43200CPU-second cap retains historical16207 charges, two workers onCPU0/1,256MiB per tree and06:00UTC wallstop. Only16/18 complete physical columns are independently accepted; bothL12 final certificates remain pending. Conditional.0046/.0214 for all integerL>=36 remain unchanged; locally accepted.0038 atL>=48 and.0102 atL>=60 remain separate. Preserve original second startup36, first-route60-to52 qualification and matrix-polynomial rather than full-ED premise.
+
+Next: complete stage16 publication QA; monitor existing thermal checkpoints and independently review final columns when available; test stronger bilayer closure only with exact physical inputs and full integer coverage; keep fullm4 cost gate. Next regular report03:15UTC; full research hardstop2026-10-14 00:00UTC / October13 20:00EDT. All historical overview/partial snapshots remain immutable.
+
+Read-only producer operational snapshot2026-10-11 00:55:28.946432 UTC confirms RUNNING:16/18 full cases complete; L12I301/733 andL12P222/733 batches;21037 CPU seconds committed plus1104 in two active552 reservations, within43200. Historical16207 charges retained, no post-extension failures. This snapshot does not independently certify the unfinished physical columns or promote conditional.0214.
+
+Stage16 post-freeze read-only replay PASS at2026-10-11 00:59:32 UTC:85 sealed files,76 review seals/5849 source entries,222 corruption tests,34 byte-identical exports. Root docs finalized after this verification; no remote publication performed by this documentation update.

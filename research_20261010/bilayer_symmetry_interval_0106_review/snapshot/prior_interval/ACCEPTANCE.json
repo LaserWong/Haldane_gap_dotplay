@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "model": "ordinary periodic spin-1/2 square bilayer",
+  "extension_interval": [
+    "51/500",
+    "21/200"
+  ],
+  "extension_uniform_gap_lower": "17785998829/1000000000000",
+  "combined_interval": [
+    "0",
+    "21/200"
+  ],
+  "combined_uniform_gap_lower": "4499695659/1000000000000",
+  "new_closed_intervals": 6,
+  "combined_closed_intervals": 80,
+  "all_integer_square_sides_from": 2,
+  "unique_finite_volume_ground": true,
+  "ground_search_dimensions": [
+    16,
+    43
+  ],
+  "denominator_retained_spectral_counts": [
+    49,
+    97
+  ],
+  "total_denominator_search_dimensions": [
+    64,
+    139
+  ],
+  "largest_numerator_search_dimension": 43,
+  "largest_numerator_retained_states": 1,
+  "largest_physical_Hilbert_dimension": "340282366920938463463374607431768211456",
+  "complete_variance_polynomials_independently_reconstructed": true,
+  "no_physical_gap_monotonicity_assumption": true,
+  "physical_endpoint_checks": 12,
+  "odd_mode_interval_checks": 288,
+  "required_finite_windows": 50,
+  "producer_manifest_sha256": "4b883b9ec2af7fc652f8309a4650257cd023ddea38a517266dc673bfc6b7476f",
+  "previous_interval_review_manifest_sha256": "45d651b0f68b840ed2c7a42978acd975d7789b69ad75acd3b4c21a9b74d2a7ed",
+  "physical_review_manifests": {
+    "16": "928f1e61cee6a273c7d3af70d3caed60628373435b3b0985ae3005e9de70ac90",
+    "32": "6c19485312d08ad0cca2fc76367d5c9172d3aab8ea843d0a740324b69837b331"
+  },
+  "no_producer_root_or_github_edits": true
+}

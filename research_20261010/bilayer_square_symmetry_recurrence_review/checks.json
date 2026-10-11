@@ -1,0 +1,351 @@
+{
+  "status": "PASS_EXACT_SQUARE_PRESERVING_STRENGTHENED_RECURRENCE",
+  "geometric_cycles": [
+    {
+      "cycle": 0,
+      "new_a_edge": [
+        [
+          1,
+          1,
+          1
+        ],
+        2
+      ],
+      "reflected_c_edge": [
+        [
+          0,
+          1,
+          1
+        ],
+        0
+      ],
+      "time_transported_x_edge": [
+        [
+          0,
+          1,
+          2
+        ],
+        0
+      ],
+      "new_b_edge": [
+        [
+          1,
+          1,
+          2
+        ],
+        0
+      ],
+      "new_c_edge": [
+        [
+          2,
+          1,
+          2
+        ],
+        1
+      ]
+    },
+    {
+      "cycle": 1,
+      "new_a_edge": [
+        [
+          2,
+          2,
+          2
+        ],
+        2
+      ],
+      "reflected_c_edge": [
+        [
+          1,
+          2,
+          2
+        ],
+        0
+      ],
+      "time_transported_x_edge": [
+        [
+          1,
+          2,
+          3
+        ],
+        0
+      ],
+      "new_b_edge": [
+        [
+          2,
+          2,
+          3
+        ],
+        0
+      ],
+      "new_c_edge": [
+        [
+          3,
+          2,
+          3
+        ],
+        1
+      ]
+    },
+    {
+      "cycle": 2,
+      "new_a_edge": [
+        [
+          3,
+          3,
+          3
+        ],
+        2
+      ],
+      "reflected_c_edge": [
+        [
+          2,
+          3,
+          3
+        ],
+        0
+      ],
+      "time_transported_x_edge": [
+        [
+          2,
+          3,
+          4
+        ],
+        0
+      ],
+      "new_b_edge": [
+        [
+          3,
+          3,
+          4
+        ],
+        0
+      ],
+      "new_c_edge": [
+        [
+          4,
+          3,
+          4
+        ],
+        1
+      ]
+    },
+    {
+      "cycle": 3,
+      "new_a_edge": [
+        [
+          4,
+          4,
+          4
+        ],
+        2
+      ],
+      "reflected_c_edge": [
+        [
+          3,
+          4,
+          4
+        ],
+        0
+      ],
+      "time_transported_x_edge": [
+        [
+          3,
+          4,
+          5
+        ],
+        0
+      ],
+      "new_b_edge": [
+        [
+          4,
+          4,
+          5
+        ],
+        0
+      ],
+      "new_c_edge": [
+        [
+          5,
+          4,
+          5
+        ],
+        1
+      ]
+    },
+    {
+      "cycle": 4,
+      "new_a_edge": [
+        [
+          5,
+          5,
+          5
+        ],
+        2
+      ],
+      "reflected_c_edge": [
+        [
+          4,
+          5,
+          5
+        ],
+        0
+      ],
+      "time_transported_x_edge": [
+        [
+          4,
+          5,
+          6
+        ],
+        0
+      ],
+      "new_b_edge": [
+        [
+          5,
+          5,
+          6
+        ],
+        0
+      ],
+      "new_c_edge": [
+        [
+          6,
+          5,
+          6
+        ],
+        1
+      ]
+    },
+    {
+      "cycle": 5,
+      "new_a_edge": [
+        [
+          6,
+          6,
+          6
+        ],
+        2
+      ],
+      "reflected_c_edge": [
+        [
+          5,
+          6,
+          6
+        ],
+        0
+      ],
+      "time_transported_x_edge": [
+        [
+          5,
+          6,
+          7
+        ],
+        0
+      ],
+      "new_b_edge": [
+        [
+          6,
+          6,
+          7
+        ],
+        0
+      ],
+      "new_c_edge": [
+        [
+          7,
+          6,
+          7
+        ],
+        1
+      ]
+    },
+    {
+      "cycle": 6,
+      "new_a_edge": [
+        [
+          7,
+          7,
+          7
+        ],
+        2
+      ],
+      "reflected_c_edge": [
+        [
+          6,
+          7,
+          7
+        ],
+        0
+      ],
+      "time_transported_x_edge": [
+        [
+          6,
+          7,
+          8
+        ],
+        0
+      ],
+      "new_b_edge": [
+        [
+          7,
+          7,
+          8
+        ],
+        0
+      ],
+      "new_c_edge": [
+        [
+          8,
+          7,
+          8
+        ],
+        1
+      ]
+    },
+    {
+      "cycle": 7,
+      "new_a_edge": [
+        [
+          8,
+          8,
+          8
+        ],
+        2
+      ],
+      "reflected_c_edge": [
+        [
+          7,
+          8,
+          8
+        ],
+        0
+      ],
+      "time_transported_x_edge": [
+        [
+          7,
+          8,
+          9
+        ],
+        0
+      ],
+      "new_b_edge": [
+        [
+          8,
+          8,
+          9
+        ],
+        0
+      ],
+      "new_c_edge": [
+        [
+          9,
+          8,
+          9
+        ],
+        1
+      ]
+    }
+  ],
+  "rational_dominance_fixtures": 22,
+  "new_g011_claim": false
+}

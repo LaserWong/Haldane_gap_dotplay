@@ -1,0 +1,12 @@
+{
+  "status": "ACCEPT_SCOPED_SQUARE_RECURRENCE",
+  "formulas": [
+    "a_next=G(a^4*b^2*c)",
+    "b_next=G(a_next*c^2)",
+    "c_next=G(c^4*a_next^2*b_next)"
+  ],
+  "all_updates_require_positive_lower_bounds": true,
+  "new_base": "(2n,2n,2beta), raw txy",
+  "no_rectangular_axis_mislabeling": true,
+  "numerical_g011_certificate": false
+}

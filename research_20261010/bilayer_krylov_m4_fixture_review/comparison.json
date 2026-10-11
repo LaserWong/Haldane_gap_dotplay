@@ -1,0 +1,27 @@
+{
+  "status": "PASS_INDEPENDENT_CARTESIAN_PHYSICAL_M3_M4_FIXTURES",
+  "checks": [
+    {
+      "shape": [
+        4,
+        2
+      ],
+      "all15_separate_normal_order_terms_match": true,
+      "all_sector_norms_match": true,
+      "m3_m4_exact_match": true,
+      "nonzero_q10": false
+    },
+    {
+      "shape": [
+        5,
+        2
+      ],
+      "all15_separate_normal_order_terms_match": true,
+      "all_sector_norms_match": true,
+      "m3_m4_exact_match": true,
+      "nonzero_q10": true
+    }
+  ],
+  "new_large_geometry": false,
+  "production_motif_cost_certified": false
+}

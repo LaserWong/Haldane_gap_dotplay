@@ -1,0 +1,39 @@
+{
+  "status": "ACCEPT_ACTUAL_FINITE_SIZE_G011_AND_HYPOTHETICAL_IMPLICATIONS_ONLY",
+  "g": "11/100",
+  "actual_scope": "every integer square side2<=L<=32",
+  "actual_gap_lower": "20227124817/1000000000000",
+  "actual_gap_decimal": ".020227124817",
+  "unique_full_Hilbert_ground": true,
+  "actual_all_size_claim": false,
+  "conditional_targets": [
+    {
+      "beta_initial": "47/5",
+      "required_ground32_improvement": "2743/10000000",
+      "conditional_only": true,
+      "unproved_ground_target": "-4243908341153344398460829285848565701619413441964432865518306445515402215181275866355559472419/13775809469638861350219666569894129130180552346083125655425694180580733652359361326866670000000",
+      "conditional_all_size_gap": "94038987/1000000000000",
+      "terminal_L": 32768
+    },
+    {
+      "beta_initial": "10",
+      "required_ground32_improvement": "2847/10000000",
+      "conditional_only": true,
+      "unproved_ground_target": "-4243765072734860154302787001316238802676459564220033601011490018295924175551291328997760059051/13775809469638861350219666569894129130180552346083125655425694180580733652359361326866670000000",
+      "conditional_all_size_gap": "131518777/1000000000000",
+      "terminal_L": 16384
+    }
+  ],
+  "fresh_numerator_search_dimension": 57,
+  "denominator_ground_search_dimensions": [
+    16,
+    57
+  ],
+  "retained_counts": [
+    49,
+    97
+  ],
+  "largest_numerator_retained_states": 1,
+  "physical_support_recomputed": false,
+  "producer_seal": "11c4405ac1528973eebaecaa1d7c8d655f6b14aa4d240f0b491446239b46d45e"
+}
