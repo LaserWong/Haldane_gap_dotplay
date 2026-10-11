@@ -1,0 +1,34 @@
+{
+  "schema": "residual-q6-sector-checkpoint-v1",
+  "binding": {
+    "checkpoint.py": "f388f3e0e021732a3a4fb627ee5b04618fe9c7db0830b02be0fc8a62546d7fa5",
+    "chunk_kernel.cpp": "01d40f7e6ed7d84bde002340437d844c8a30e173714d8f9912b3a548686a9a9b",
+    "base_kernel.inc": "f45cab100dc51afc91bdf604a49ab01d4282aca26b7be5b142c31c5d0734c63a",
+    "init_kernel.inc": "d1d2645a317b6eaec7c58aeb3fc1ca0fead3a2c09007ca6eff6347cc34f00d29",
+    "chunk_kernel": "b8c8448f244a1f4118a5e2faf36ddf63a2700dfb3d30cb0908a3eef666fae2bb"
+  },
+  "geometry": {
+    "path": "/workspace/shared/haldane_active/research_20261010/bilayer_complete_residual_8x4/geometry_4x2.txt",
+    "sha256": "cbf29b08435e07cbe3f4942c868919d2a626e0b1c202fbf5a9599b927aa27992"
+  },
+  "coefficients": {
+    "path": "/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_production_gate_review/fixture_coefficients.txt",
+    "sha256": "bf352f28334e34f0e1e7dad1a9fd8528512d9a9b1f3fd056ff6497f204b51e84"
+  },
+  "nx": 4,
+  "ny": 2,
+  "N": 8,
+  "d": 5,
+  "total": {
+    "q4": 35,
+    "q6": 21
+  },
+  "cpu_budget": 16,
+  "memory_MiB": 100,
+  "cpu_affinity": 4,
+  "configuration_id": "8afd1b1f1ba47cda83eab8e7201d9ef20b582eff33a98c11e2c6b8a79f3c3955",
+  "charged_cpu_seconds": 1,
+  "initialization_charge": 1,
+  "assembly_charge": 0,
+  "attempts": []
+}

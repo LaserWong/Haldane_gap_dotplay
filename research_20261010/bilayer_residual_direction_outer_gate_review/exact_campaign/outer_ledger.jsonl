@@ -1,0 +1,14 @@
+{"event":"start","driver_cpu_reservation":10,"total_cpu_cap":360,"memory_split_MiB":[8,32,60],"automatic_restart":false}
+{"event":"reserve_invocation","index":0,"cpu_cap_including_supervisor":1,"cumulative_reserved":11}
+{"event":"invocation_return","index":0,"success":true,"wait_status":0,"observed_wait4_cpu_seconds":0.101511}
+{"event":"reserve_invocation","index":1,"cpu_cap_including_supervisor":2,"cumulative_reserved":13}
+{"event":"invocation_return","index":1,"success":true,"wait_status":0,"observed_wait4_cpu_seconds":0.108541}
+{"event":"reserve_invocation","index":2,"cpu_cap_including_supervisor":2,"cumulative_reserved":15}
+{"event":"invocation_return","index":2,"success":true,"wait_status":0,"observed_wait4_cpu_seconds":0.128015}
+{"event":"reserve_invocation","index":3,"cpu_cap_including_supervisor":2,"cumulative_reserved":17}
+{"event":"invocation_return","index":3,"success":true,"wait_status":0,"observed_wait4_cpu_seconds":0.119053}
+{"event":"reserve_invocation","index":4,"cpu_cap_including_supervisor":2,"cumulative_reserved":19}
+{"event":"invocation_return","index":4,"success":true,"wait_status":0,"observed_wait4_cpu_seconds":0.120868}
+{"event":"reserve_invocation","index":5,"cpu_cap_including_supervisor":1,"cumulative_reserved":20}
+{"event":"invocation_return","index":5,"success":true,"wait_status":0,"observed_wait4_cpu_seconds":0.093751}
+{"event":"COMPLETE_SOLE_PATH","invocations":6,"cumulative_reserved":20}

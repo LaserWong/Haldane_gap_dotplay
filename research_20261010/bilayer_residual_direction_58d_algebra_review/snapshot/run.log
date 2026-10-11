@@ -1,0 +1,20 @@
+g 217/2000 gain 5.774831924278029e-06 lower -0.2997031216301698 grid 0
+g 11/100 gain 6.438571917604633e-06 lower -0.30833747799084693 grid 0
+Traceback (most recent call last):
+  File "/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_58d_algebra/produce.py", line 63, in <module>
+    before=resource.getrusage(resource.RUSAGE_CHILDREN);run=subprocess.run([str(HERE/'exact_ldl'),str(HERE/'ldl_input.txt'),str(HERE/'ldl_results.json')],preexec_fn=limits,timeout=15);assert run.returncode==0;after=resource.getrusage(resource.RUSAGE_CHILDREN);childcpu=after.ru_utime+after.ru_stime-before.ru_utime-before.ru_stime
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2141, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2045, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_58d_algebra/exact_ldl', '/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_58d_algebra/ldl_input.txt', '/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_58d_algebra/ldl_results.json']' timed out after 14.999940900001093 seconds

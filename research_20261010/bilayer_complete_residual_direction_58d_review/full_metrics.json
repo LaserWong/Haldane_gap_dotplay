@@ -1,0 +1,17 @@
+{
+  "command": [
+    "./independent_full",
+    "../bilayer_complete_residual_8x4/geometry_8x4.txt",
+    "../bilayer_residual_direction_outer_gate/reference_coefficients.txt",
+    "8",
+    "4",
+    "full_authorized",
+    "0",
+    "0",
+    "full_progress.json"
+  ],
+  "exit_code": 0,
+  "cpu_seconds": 40.176403,
+  "peak_rss_kib": 54016,
+  "wall_seconds": 40.37346011099726
+}

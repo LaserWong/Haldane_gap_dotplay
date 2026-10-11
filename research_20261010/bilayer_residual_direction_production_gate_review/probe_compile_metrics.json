@@ -1,0 +1,14 @@
+{
+  "command": [
+    "g++",
+    "-O2",
+    "-std=c++17",
+    "interrupt_probe.cpp",
+    "-o",
+    "interrupt_probe"
+  ],
+  "exit_code": 0,
+  "cpu_seconds": 1.4466609999999998,
+  "peak_rss_kib": 60348,
+  "wall_seconds": 1.009915832997649
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_EXACT_SECTOR_REPLAY_WITH_INTERRUPTION_BLOCKER",
+  "all_66_row_entries": true,
+  "all_44_A_A2_entries": true,
+  "different_chunk_order_and_boundaries": true,
+  "rejections": [
+    "binding",
+    "geometry",
+    "coefficients",
+    "configuration",
+    "overlap",
+    "uncommitted prefix",
+    "output digest",
+    "failed charge cannot refund",
+    "complete row digest"
+  ],
+  "charged_cpu_seconds": 10,
+  "observed_kernel_cpu_seconds": 0.09018899999999999,
+  "producer_seal": "7309cb09729f77c39ef870b6c6a69980fecbdb5521a03e89f90836667c4100f0"
+}

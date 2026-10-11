@@ -1,0 +1,27 @@
+{
+  "status": "PASS_INDEPENDENT_SUPERVISOR_DEATH_LOCK_AND_RESTART",
+  "tests": [
+    {
+      "signal": "SIGKILL",
+      "child_dead": true,
+      "inherited_lock_verified": true,
+      "reservation_preserved": true,
+      "real_small_kernel_resumed": true
+    },
+    {
+      "signal": "SIGXCPU",
+      "child_dead": true,
+      "inherited_lock_verified": true,
+      "reservation_preserved": true,
+      "real_small_kernel_resumed": true
+    },
+    {
+      "signal": "SIGTERM",
+      "child_dead": true,
+      "inherited_lock_verified": true,
+      "reservation_preserved": true,
+      "real_small_kernel_resumed": true
+    }
+  ],
+  "parent_identity_race_guard": true
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "residual-q6-sector-checkpoint-v1",
+  "binding": {
+    "checkpoint.py": "0ee30617ddd424e680eaf7df18929a3b591d182c340efe53b5d468e577c6201f",
+    "chunk_kernel.cpp": "01d40f7e6ed7d84bde002340437d844c8a30e173714d8f9912b3a548686a9a9b",
+    "base_kernel.inc": "f45cab100dc51afc91bdf604a49ab01d4282aca26b7be5b142c31c5d0734c63a",
+    "init_kernel.inc": "d1d2645a317b6eaec7c58aeb3fc1ca0fead3a2c09007ca6eff6347cc34f00d29",
+    "chunk_kernel": "1ca45020313a43902c62e72220554e561b2766c77403af63a488bc1bbb0c8667"
+  },
+  "geometry": {
+    "path": "/workspace/shared/haldane_active/research_20261010/bilayer_complete_residual_8x4/geometry_4x2.txt",
+    "sha256": "cbf29b08435e07cbe3f4942c868919d2a626e0b1c202fbf5a9599b927aa27992"
+  },
+  "coefficients": {
+    "path": "/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_launcher_correction/fixture_coefficients.txt",
+    "sha256": "bf352f28334e34f0e1e7dad1a9fd8528512d9a9b1f3fd056ff6497f204b51e84"
+  },
+  "nx": 4,
+  "ny": 2,
+  "N": 8,
+  "d": 5,
+  "total": {
+    "q4": 35,
+    "q6": 21
+  },
+  "cpu_budget": 10,
+  "memory_MiB": 100,
+  "cpu_affinity": 3,
+  "configuration_id": "e036f57cff273c075bf0e14ec2cfbfefee1f19e27b3a78d73d58515d12dd095e",
+  "charged_cpu_seconds": 10,
+  "initialization_charge": 1,
+  "assembly_charge": 1,
+  "attempts": [
+    {
+      "index": 0,
+      "phase": "q4",
+      "start": 0,
+      "end": 17,
+      "charged_cpu_seconds": 2,
+      "kernel_cpu_cap_seconds": 1,
+      "supervisor_cpu_cap_seconds": 1,
+      "status": "complete",
+      "output": "chunk_0000.json",
+      "observed_cpu_seconds": 0.010744,
+      "elapsed_seconds": 0.01572020199819235,
+      "returncode": 0,
+      "output_sha256": "a6b4d90b504c36159142c51609c3873262960124beb2183fcf75f59728194388"
+    },
+    {
+      "index": 1,
+      "phase": "q4",
+      "start": 17,
+      "end": 35,
+      "charged_cpu_seconds": 2,
+      "kernel_cpu_cap_seconds": 1,
+      "supervisor_cpu_cap_seconds": 1,
+      "status": "complete",
+      "output": "chunk_0001.json",
+      "observed_cpu_seconds": 0.010609,
+      "elapsed_seconds": 0.013175419997423887,
+      "returncode": 0,
+      "output_sha256": "5d73e7a3e167aca68e3bdbe37c347fd71747545624ed28b377ac131b6a0a7c6a"
+    },
+    {
+      "index": 2,
+      "phase": "q6",
+      "start": 0,
+      "end": 10,
+      "charged_cpu_seconds": 2,
+      "kernel_cpu_cap_seconds": 1,
+      "supervisor_cpu_cap_seconds": 1,
+      "status": "complete",
+      "output": "chunk_0002.json",
+      "observed_cpu_seconds": 0.015976,
+      "elapsed_seconds": 0.018273109999427106,
+      "returncode": 0,
+      "output_sha256": "f332af163dddd72de58a7b2d767e45b1b325d8f84149f1c638cad3a061067db3"
+    },
+    {
+      "index": 3,
+      "phase": "q6",
+      "start": 10,
+      "end": 21,
+      "charged_cpu_seconds": 2,
+      "kernel_cpu_cap_seconds": 1,
+      "supervisor_cpu_cap_seconds": 1,
+      "status": "complete",
+      "output": "chunk_0003.json",
+      "observed_cpu_seconds": 0.018364,
+      "elapsed_seconds": 0.020705691997136455,
+      "returncode": 0,
+      "output_sha256": "9549a9ba1840e5784c8fb692bb16d59e1d338d41dd068cca8389cc9dbb5da99d"
+    }
+  ],
+  "complete_row_sha256": "3597b84b6d79488a726fad73d848df55f078c5bb0f61978f1225fe2683fc3e5d"
+}

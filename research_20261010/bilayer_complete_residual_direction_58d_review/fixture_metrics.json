@@ -1,0 +1,17 @@
+{
+  "command": [
+    "./independent",
+    "../bilayer_complete_residual_8x4/geometry_4x2.txt",
+    "../bilayer_residual_direction_outer_gate/fixture_coefficients.txt",
+    "4",
+    "2",
+    "fixture",
+    "0",
+    "0",
+    "fixture_vectors.txt"
+  ],
+  "exit_code": 0,
+  "cpu_seconds": 0.180971,
+  "peak_rss_kib": 5800,
+  "wall_seconds": 0.18850191800447647
+}

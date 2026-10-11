@@ -1,0 +1,16 @@
+{
+  "command": [
+    "g++",
+    "-O2",
+    "-std=c++17",
+    "check/instrumented.cpp",
+    "-lgmpxx",
+    "-lgmp",
+    "-o",
+    "check/instrumented"
+  ],
+  "exit_code": 0,
+  "cpu_seconds": 12.796327999999999,
+  "peak_rss_kib": 169688,
+  "wall_seconds": 12.803646864995244
+}

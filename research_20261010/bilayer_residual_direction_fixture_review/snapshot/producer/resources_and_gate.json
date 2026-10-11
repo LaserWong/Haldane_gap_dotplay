@@ -1,0 +1,27 @@
+{
+  "status": "FIXTURE_PASS_PRODUCTION_NOT_AUTHORIZED",
+  "cpu_affinity": 3,
+  "compute_address_limit_MiB": 100,
+  "compile_address_limit_MiB": 512,
+  "compile_cpu_limit_seconds": 40,
+  "fixture_cpu_cap_seconds": 2,
+  "benchmark_cpu_cap_seconds": 3,
+  "final_fixture_cpu_seconds": 0.164225,
+  "final_benchmark_cpu_seconds": 0.388409,
+  "all_attempts_compute_cpu_seconds_upper_bound": 2,
+  "peak_rss_kib": 47872,
+  "projected_full_q4_supports": 4495,
+  "projected_full_q6_supports": 169911,
+  "linear_full_pass_estimate_cpu_seconds": 158.35521392877905,
+  "twice_linear_estimate_cpu_seconds": 316.7104278575581,
+  "proposed_hard_full_cpu_cap_seconds": 360,
+  "projection_is_not_rigorous_runtime_guarantee": true,
+  "missing": [
+    "Full 8x4 CT and D6T cross/self contractions",
+    "Full signed K cross/self contractions including M-zero supports",
+    "Translation N/q weighted normalization and assembly of full 58x58 G/H/H2",
+    "Independent review of new fixture, code and production resource gate",
+    "Separate explicit authorization for full pass; no higher-g search"
+  ],
+  "next_action": "Independent review, then parent budget decision. No full pass is present in this executable."
+}

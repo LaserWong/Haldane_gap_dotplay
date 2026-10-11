@@ -1,0 +1,96 @@
+{
+  "status": "PASS_SOLE_PATH_OUTER_GATE",
+  "all_66_physical_entries": true,
+  "all_44_coupling_entries": true,
+  "interpreter_hash_bound": true,
+  "preflight_failure_precharged_and_stops": true,
+  "fixture_call_caps": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    1
+  ],
+  "production_calls": 46,
+  "production_call_reservation": 350,
+  "driver_reservation": 10,
+  "total_reservation": 360,
+  "memory_MiB": [
+    8,
+    32,
+    60
+  ],
+  "death_tests": [
+    {
+      "victim": "outer",
+      "signal": "SIGKILL",
+      "all_descendants_dead": true,
+      "both_locks_inherited": true,
+      "effective_cpu_and_memory_caps": [
+        [
+          10,
+          8
+        ],
+        [
+          1,
+          32
+        ],
+        [
+          1,
+          60
+        ]
+      ],
+      "SIGXCPU_unblocked_and_not_ignored": true,
+      "restart_refused_ledger_unchanged": true,
+      "reservation_not_refunded": true
+    },
+    {
+      "victim": "outer",
+      "signal": "SIGXCPU",
+      "all_descendants_dead": true,
+      "both_locks_inherited": true,
+      "effective_cpu_and_memory_caps": [
+        [
+          10,
+          8
+        ],
+        [
+          1,
+          32
+        ],
+        [
+          1,
+          60
+        ]
+      ],
+      "SIGXCPU_unblocked_and_not_ignored": true,
+      "restart_refused_ledger_unchanged": true,
+      "reservation_not_refunded": true
+    },
+    {
+      "victim": "supervisor",
+      "signal": "SIGKILL",
+      "all_descendants_dead": true,
+      "both_locks_inherited": true,
+      "effective_cpu_and_memory_caps": [
+        [
+          10,
+          8
+        ],
+        [
+          1,
+          32
+        ],
+        [
+          1,
+          60
+        ]
+      ],
+      "SIGXCPU_unblocked_and_not_ignored": true,
+      "restart_refused_ledger_unchanged": true,
+      "reservation_not_refunded": true
+    }
+  ],
+  "scope": "No 8x4 support work; sole authorized path only; no automatic reset"
+}

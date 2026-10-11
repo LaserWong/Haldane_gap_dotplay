@@ -1,0 +1,40 @@
+4 I PASS
+4 P PASS
+5 I PASS
+5 P PASS
+6 I PASS
+6 P PASS
+7 I PASS
+7 P PASS
+8 I PASS
+8 P PASS
+9 I PASS
+9 P PASS
+10 I PASS
+10 P PASS
+11 I PASS
+11 P PASS
+12 I PASS
+12 P PASS
+{
+  "status": "PRODUCER COMPLETE all18 physical thermal inputs independently recomputed; final independent review pending",
+  "total_batches": 2428,
+  "ledger": {
+    "old_limit": 21600,
+    "old_charges_retained": 16207,
+    "old_attempts_preserved": 61,
+    "new_limit": 43200,
+    "total_charged": 27543,
+    "remaining": 15657,
+    "unknown_old_attempts_full_charge": 14640,
+    "new_failures": 0,
+    "active_attempts": 0,
+    "wallstop_utc": "2026-10-11T06:00:00Z"
+  },
+  "resources": {
+    "cpu_seconds": 8.342767885,
+    "maxrss_kib": 21488,
+    "address_space_limit_mib": 256,
+    "cpu_limit_seconds": 120
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_FULL_ROW_REVIEW",
+  "geometry": [
+    8,
+    4
+  ],
+  "rungs": 32,
+  "spin_half_sites": 64,
+  "full_Hilbert_dimension": "2^64",
+  "old_trial_columns": 57,
+  "new_row_length": 58,
+  "target": "unprojected q6 T from saved .11 coefficients",
+  "Hamiltonian": "ordinary bilayer Hprime=Q+g*A/2; output H200=200Q+11A",
+  "production_path": "/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_production_run",
+  "driver_exit_code": 0,
+  "outer_invocations": 46,
+  "kernel_chunks": 44,
+  "support_coverage": {
+    "q4": 4495,
+    "q6": 169911
+  },
+  "outer_reserved_cpu_seconds": 360,
+  "inner_charged_cpu_seconds": 350,
+  "successful_invocation_wait4_cpu_seconds": 127.515762,
+  "kernel_observed_cpu_seconds": 117.627607,
+  "driver_observed_cpu_not_recorded": true,
+  "driver_cpu_reserved_seconds": 10,
+  "max_kernel_rss_kib": 47872,
+  "address_limits_MiB": {
+    "driver": 8,
+    "supervisor": 32,
+    "kernel": 60,
+    "total": 100
+  },
+  "failures": 0,
+  "retries": 0,
+  "extra_inner_CLI_calls": 0,
+  "configuration_id": "3244efd69ee211b3b4bb422c4dd94f90d64ada3c9129eaebf11061adabedaa6c",
+  "complete_row_sha256": "bea723c7012a0992515c1072f6cdccd8eaf97d6a58e42317358022a1a12580f6",
+  "full_matrix_assembly_pending": true,
+  "independent_scientific_review_pending": true,
+  "new_spectral_claim": false,
+  "optimization_performed": false
+}

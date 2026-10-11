@@ -1,0 +1,16 @@
+{
+  "command": [
+    "g++",
+    "-O2",
+    "-std=c++17",
+    "independent.cpp",
+    "-lgmpxx",
+    "-lgmp",
+    "-o",
+    "independent"
+  ],
+  "exit_code": 0,
+  "cpu_seconds": 8.992423,
+  "peak_rss_kib": 168184,
+  "wall_seconds": 9.001844161997724
+}

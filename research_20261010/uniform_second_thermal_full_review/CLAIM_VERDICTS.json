@@ -1,0 +1,43 @@
+{
+  "status": "ACCEPTED",
+  "physical_inputs": 18,
+  "raw_checkpoints": 2428,
+  "beta": "49/4",
+  "shift": "700741/500000",
+  "small_lengths": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "seams": [
+    "I",
+    "P"
+  ],
+  "all_printed_integer_totals_exactly_reproduced": true,
+  "all_physical_error_enclosures_independently_verified": true,
+  "locally_discharged_claims": [
+    {
+      "gap": "23/5000",
+      "all_integer_L_at_least": 36,
+      "unique_ground_state": true
+    },
+    {
+      "gap": "107/5000",
+      "all_integer_L_at_least": 36,
+      "unique_ground_state": true
+    }
+  ],
+  "model": "untwisted periodic uniform spin-one Heisenberg, bilinear coefficient1",
+  "MPS72": "previously physically rebuilt D26; exact shared input identity and negative total shifted Rayleigh rechecked",
+  "campaign_total_charge": 27543,
+  "campaign_cap": 43200,
+  "historical_charge_retained": 16207,
+  "new_thermal_computation_by_reviewer": false,
+  "no_minimum_claim": true
+}

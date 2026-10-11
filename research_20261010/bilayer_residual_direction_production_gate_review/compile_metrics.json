@@ -1,0 +1,16 @@
+{
+  "command": [
+    "g++",
+    "-O2",
+    "-std=c++17",
+    "chunk_kernel.cpp",
+    "-lgmpxx",
+    "-lgmp",
+    "-o",
+    "chunk_kernel"
+  ],
+  "exit_code": 0,
+  "cpu_seconds": 10.59808,
+  "peak_rss_kib": 167544,
+  "wall_seconds": 10.3415215099958
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "residual-q6-sector-checkpoint-v1",
+  "binding": {
+    "checkpoint.py": "be7bec437d7c73621fda4db2f8d84dc3912c4e89acb2d0a2015ce38a143312af",
+    "chunk_kernel.cpp": "01d40f7e6ed7d84bde002340437d844c8a30e173714d8f9912b3a548686a9a9b",
+    "base_kernel.inc": "f45cab100dc51afc91bdf604a49ab01d4282aca26b7be5b142c31c5d0734c63a",
+    "init_kernel.inc": "d1d2645a317b6eaec7c58aeb3fc1ca0fead3a2c09007ca6eff6347cc34f00d29",
+    "chunk_kernel": "fad356a7740a8362e42879eebc8c9ab2540132bd8a2686d7a1bebbcd6047817e",
+    "outer_driver.cpp": "8110ed37cef04df731846fc68e1ce55e4c4394c9c3cb5e14caa4954f69249e6e",
+    "outer_driver": "06059c758834cab1aa6ef13a6053062af3e2b6a9b338b5dda3e391c8cc924051",
+    "/usr/bin/python3": "889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9"
+  },
+  "geometry": {
+    "path": "/workspace/shared/haldane_active/research_20261010/bilayer_complete_residual_8x4/geometry_4x2.txt",
+    "sha256": "cbf29b08435e07cbe3f4942c868919d2a626e0b1c202fbf5a9599b927aa27992"
+  },
+  "coefficients": {
+    "path": "/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_outer_gate/fixture_coefficients.txt",
+    "sha256": "bf352f28334e34f0e1e7dad1a9fd8528512d9a9b1f3fd056ff6497f204b51e84"
+  },
+  "nx": 4,
+  "ny": 2,
+  "N": 8,
+  "d": 5,
+  "total": {
+    "q4": 35,
+    "q6": 21
+  },
+  "cpu_budget": 10,
+  "memory_MiB": 100,
+  "cpu_affinity": 3,
+  "configuration_id": "9ef0d746fd158075241fb9445a3a09c5194f24e97039398960c41835ed62c513",
+  "charged_cpu_seconds": 1,
+  "initialization_charge": 1,
+  "assembly_charge": 0,
+  "attempts": []
+}

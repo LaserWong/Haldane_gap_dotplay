@@ -1,0 +1,17 @@
+{
+  "command": [
+    "./independent",
+    "../bilayer_complete_residual_8x4/geometry_8x4.txt",
+    "../bilayer_residual_direction_outer_gate/reference_coefficients.txt",
+    "8",
+    "4",
+    "benchmark",
+    "4",
+    "32",
+    "unused"
+  ],
+  "exit_code": 0,
+  "cpu_seconds": 0.5673729999999999,
+  "peak_rss_kib": 53888,
+  "wall_seconds": 0.5708417029964039
+}

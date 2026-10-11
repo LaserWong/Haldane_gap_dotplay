@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SMALL_NORMALIZED_ROW_AND_CHECKPOINT_GATES",
+  "geometry": [
+    4,
+    2
+  ],
+  "old_columns": 21,
+  "new_row_length": 22,
+  "all_new_G_H200_H200_squared_entries_equal_full_physical_fixture": true,
+  "sector_normalizations": {
+    "q4": "8/4",
+    "q6": "8/6"
+  },
+  "chunks": 4,
+  "reloaded_state_between_chunks": true,
+  "rejection_tests": [
+    "incomplete initial assembly",
+    "incomplete q4 assembly",
+    "missing q6 assembly",
+    "incomplete q6 assembly",
+    "changed binary/source binding",
+    "changed coefficient binding",
+    "duplicate/overlap coverage",
+    "reservation is not completion",
+    "changed output digest",
+    "completed phase rerun",
+    "failed attempt retains budget charge"
+  ],
+  "charged_cpu_seconds": 10,
+  "observed_kernel_cpu_seconds": 0.055693,
+  "peak_rss_kib": 9092,
+  "scope": "No 8x4 support work or full production pass"
+}

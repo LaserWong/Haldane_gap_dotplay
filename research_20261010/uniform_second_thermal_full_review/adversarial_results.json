@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "rejections": [
+    "raw_archive_byte_changed",
+    "rehash_wrong_M",
+    "rehash_wrong_start",
+    "rehash_wrong_count",
+    "rehash_wrong_code",
+    "rehash_wrong_multiplicity",
+    "rehash_wrong_aggregate",
+    "missing_checkpoint",
+    "duplicate_archive_member",
+    "changed_old_charge",
+    "refunded_historical_failure",
+    "wrong_deadline"
+  ],
+  "count": 12,
+  "no_campaign_writes": true
+}

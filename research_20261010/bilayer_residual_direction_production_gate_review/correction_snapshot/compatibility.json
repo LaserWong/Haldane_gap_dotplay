@@ -1,0 +1,18 @@
+{
+  "status": "PASS_EXACT_SCIENTIFIC_COMPATIBILITY",
+  "identical_files": [
+    "chunk_kernel",
+    "chunk_kernel.cpp",
+    "base_kernel.inc",
+    "init_kernel.inc"
+  ],
+  "exact_equal_sections": [
+    "rows",
+    "polynomial",
+    "scalars"
+  ],
+  "old_configuration_id": "1157f3678f46a4ca22e90d5336960587a21122f590b52a13f502175ac60afad4",
+  "new_configuration_id": "e036f57cff273c075bf0e14ec2cfbfefee1f19e27b3a78d73d58515d12dd095e",
+  "old_checkpoint_rebinding": false,
+  "full_8x4_run": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS_SOLE_PATH_OUTER_GATE_SMALL_TESTS",
+  "exact_physical_rows_match": true,
+  "fixture_invocations": 6,
+  "fixture_reserved_including_driver": 20,
+  "observed_successful_invocation_cpu_seconds": 0.938369,
+  "failed_preflight_charged": true,
+  "stop_after_first_failed_invocation": true,
+  "outer_death_kills_supervisor_and_kernel": true,
+  "outer_lock_retained_by_kernel": true,
+  "automatic_restart_rejected": true,
+  "interrupted_reservation_preserved": true,
+  "production_plan_invocations": 46,
+  "production_cli_kernel_reservation": 350,
+  "production_driver_reservation": 10,
+  "production_whole_campaign_cap": 360,
+  "memory_split_MiB": [
+    8,
+    32,
+    60
+  ],
+  "python_path": "/usr/bin/python3",
+  "no_8x4_work": true
+}

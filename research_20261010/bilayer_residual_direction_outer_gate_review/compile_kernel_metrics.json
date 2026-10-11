@@ -1,0 +1,16 @@
+{
+  "command": [
+    "g++",
+    "-O2",
+    "-std=c++17",
+    "/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_outer_gate_review/check.VvTFvN/chunk_kernel.cpp",
+    "-lgmpxx",
+    "-lgmp",
+    "-o",
+    "/workspace/shared/haldane_active/research_20261010/bilayer_residual_direction_outer_gate_review/check.VvTFvN/chunk_kernel"
+  ],
+  "exit_code": 0,
+  "cpu_seconds": 5.254729,
+  "peak_rss_kib": 167580,
+  "wall_seconds": 5.262076656006684
+}

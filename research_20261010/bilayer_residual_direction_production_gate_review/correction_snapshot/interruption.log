@@ -1,0 +1,31 @@
+[
+  {
+    "signal": "SIGKILL",
+    "supervisor_returncode": -9,
+    "child_pid": 18,
+    "child_dead_after_supervisor": true,
+    "inherited_lock_fds": 1,
+    "concurrent_restart_rejected": true,
+    "lock_released_after_child_death": true,
+    "successful_real_kernel_resume": true,
+    "interrupted_attempt_remains_charged": true,
+    "charged_after_death": 3,
+    "charged_after_resume": 5
+  },
+  {
+    "signal": "SIGXCPU",
+    "supervisor_returncode": -24,
+    "child_pid": 24,
+    "child_dead_after_supervisor": true,
+    "inherited_lock_fds": 1,
+    "concurrent_restart_rejected": true,
+    "lock_released_after_child_death": true,
+    "successful_real_kernel_resume": true,
+    "interrupted_attempt_remains_charged": true,
+    "charged_after_death": 3,
+    "charged_after_resume": 5
+  },
+  {
+    "parent_identity_race_guard_mismatch_kills_child": true
+  }
+]
