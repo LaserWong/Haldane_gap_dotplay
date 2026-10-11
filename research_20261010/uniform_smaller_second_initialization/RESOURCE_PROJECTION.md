@@ -1,0 +1,1 @@
+Fresh unchanged D26 anchors64/68. Prior audited-code benchmarks: length50 8.12CPU s/32108KiB; four104–120 23.55CPU s/38324KiB. Project two smaller lengths <25CPU s and <45MiB. Hard batch limit60CPU s/100MiB, affinityCPU5. No thermal pass or optimization. Cached scalar runs separately hard120CPU s/256MiB, CPU2.

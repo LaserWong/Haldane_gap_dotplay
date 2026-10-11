@@ -1,0 +1,15 @@
+{
+  "status": "root authorized bounded one-shot independent batch",
+  "external_wall_seconds": 25,
+  "CPU_soft_hard": [
+    30,
+    30
+  ],
+  "memory_MiB": 100,
+  "CPU": 5,
+  "no_retry": true,
+  "postexec_observation_required": true,
+  "guard_sha256": "b44615314a3996f87c8a0a7a8f2126c593dc536ca432dd760637bfd961f6feb1",
+  "engine_sha256": "4dd3ef1afbb71df0e8e1af1f4287d16dc7cf06db8cf06fe9480f26b16cc3ca0a",
+  "earlier25_timing_anomaly_not_resolved": true
+}

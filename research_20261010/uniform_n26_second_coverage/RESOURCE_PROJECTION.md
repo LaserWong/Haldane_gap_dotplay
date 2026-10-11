@@ -1,0 +1,1 @@
+Fresh unchanged D26 MPS52 projected<10CPU seconds/<35MiB based on56=9.87CPU seconds. Cumulative earlier producer anchors34.74137CPU seconds; projected new total<45CPU seconds within60CPU budget. CPU5 hard60CPU seconds/100MiB, coordinated with reviewer. Separate n26 first-window probe only. ScalarCPU2 hard120CPU seconds/256MiB.

@@ -1,0 +1,1 @@
+Only ownMPS25. Existing validated12/16/20/24 combined small-power engine benchmark2.329CPU seconds, unlike generic128-power engine8–10s. Use unchanged matrix multiplication, only binary powers1,2,4,8,16 needed for25-2=23. Project<3CPU seconds/<35MiB. Hard7CPU seconds/100MiB CPU5: remaining original budget7.36279CPU seconds. No other anchor. Scalar≤30CPU seconds/256MiB CPU2.

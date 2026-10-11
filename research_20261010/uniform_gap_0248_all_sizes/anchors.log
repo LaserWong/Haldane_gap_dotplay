@@ -1,0 +1,15 @@
+GUARD_VERIFIED cpu=30/30 AS=104857600/104857600 affinity=4 SIGXCPU=default_unblocked PDEATHSIG=9 SID=PID PGID=PID threads=1
+LIMITS cpu_soft=30 cpu_hard=30 as_soft=104857600 as_hard=104857600
+POSTEXEC affinity=4 threads=1 SIGXCPU=default_unblocked PDEATHSIG=9
+block=-10 dim=1
+block=-8 dim=8
+block=-6 dim=32
+block=-4 dim=80
+block=-2 dim=136
+block=0 dim=162
+block=2 dim=136
+block=4 dim=80
+block=6 dim=32
+block=8 dim=8
+block=10 dim=1
+FINAL cpu_seconds=7.24451 peak_kb=15824

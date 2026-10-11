@@ -1,0 +1,24 @@
+{
+  "selftest": true,
+  "exit_code": 0,
+  "wall_watchdog_fired": false,
+  "wall_seconds": 0.011380626005120575,
+  "wait4_user_cpu_seconds": 0.0033629999999999997,
+  "wait4_system_cpu_seconds": 0.0,
+  "wait4_total_cpu_seconds": 0.0033629999999999997,
+  "wait4_maxrss_kib": 6332,
+  "requested_cpu_soft_hard": [
+    30,
+    30
+  ],
+  "requested_AS_soft_hard": [
+    104857600,
+    104857600
+  ],
+  "external_wall_limit_seconds": 30,
+  "CPU_affinity": [
+    5
+  ],
+  "no_retry": true,
+  "program_timer": "See anchors.log separately; not equated to wait4 accounting"
+}

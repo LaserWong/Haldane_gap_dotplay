@@ -1,0 +1,156 @@
+{
+  "status": "FROZEN verified static overview",
+  "frozen_utc": "2026-10-11T03:03:07.479085+00:00",
+  "M_or_L_ge2_certificate_rows": 339,
+  "preserved_stage18_main_rows": 339,
+  "unconditional_positive_certificate_records": 413,
+  "new_uniform_certificate_records": 61,
+  "historical_conditional_uniform_records_preserved": 2,
+  "current_undischarged_second_input_claims": 0,
+  "smallest_genuine_initialization": 30,
+  "gap_at_smallest_initialization": "179/10000",
+  "uniform_contiguous_coverage_onset": 2,
+  "stage19_scope": {
+    "smallest_accepted_initialization": 30,
+    "strongest_global_gap": "31/1250",
+    "strongest_global_gap_tail_initialization": 34,
+    "uniform_contiguous_coverage_onset": 2,
+    "isolated24": true,
+    "isolated24_alone_proves_uniform_onset": false,
+    "direct25_resource_compliance_accepted": false,
+    "no_minimum_claim": true,
+    "bilayer_new_gap": false,
+    "full8x4_m4_accepted": false,
+    "compiler_scope": "local algebra and512-target samples only",
+    "old180_second_production_gate_passed": false,
+    "failed_cost_gate_is_universal_nogo": false,
+    "active_compiler_included": false
+  },
+  "genuine_initializations": [
+    {
+      "n": 34,
+      "gap": "31/1250"
+    },
+    {
+      "n": 32,
+      "gap": "49/2000"
+    },
+    {
+      "n": 30,
+      "gap": "179/10000"
+    }
+  ],
+  "coverage_records": [
+    {
+      "id": "stage19_coverage28",
+      "model": "untwisted_periodic_uniform_spin1_Heisenberg",
+      "unit_bilinear_exchange": 1,
+      "bootstrap_initialization": 30,
+      "integer_size_min": 28,
+      "gap_lower_exact": "179/10000",
+      "gap_lower_decimal_down_12": "0.017900000000",
+      "unique_ground_state": true,
+      "all_integer_lengths": true,
+      "coverage_only": true,
+      "minimum_seed_claim": false,
+      "primary_source": "research_20261010/uniform_n28_second_initialization_review/CLAIM_VERDICTS.json",
+      "primary_json_pointer": "/gap",
+      "primary_sha256": "d16ef591a87f4efa6d12a7abcd51a1add25ca556563e71f68742c60c251ddacd"
+    },
+    {
+      "id": "stage19_coverage26",
+      "model": "untwisted_periodic_uniform_spin1_Heisenberg",
+      "unit_bilinear_exchange": 1,
+      "bootstrap_initialization": 30,
+      "integer_size_min": 26,
+      "gap_lower_exact": "23/10000",
+      "gap_lower_decimal_down_12": "0.002300000000",
+      "unique_ground_state": true,
+      "all_integer_lengths": true,
+      "coverage_only": true,
+      "minimum_seed_claim": false,
+      "primary_source": "research_20261010/uniform_n26_second_coverage_review/CLAIM_VERDICTS.json",
+      "primary_json_pointer": "/gap",
+      "primary_sha256": "a1d6fb6adf0e133047681326a1d32b61f925c11b92652beb44f3855cde7c630c"
+    },
+    {
+      "id": "stage19_coverage24",
+      "model": "untwisted_periodic_uniform_spin1_Heisenberg",
+      "unit_bilinear_exchange": 1,
+      "bootstrap_initialization": 30,
+      "integer_size_min": 24,
+      "gap_lower_exact": "23/10000",
+      "gap_lower_decimal_down_12": "0.002300000000",
+      "unique_ground_state": true,
+      "all_integer_lengths": true,
+      "coverage_only": true,
+      "minimum_seed_claim": false,
+      "primary_source": "research_20261010/uniform_direct25_coverage_review/CLAIM_VERDICTS.json",
+      "primary_json_pointer": "/gap",
+      "primary_sha256": "9681bead213c1091a46ea365f19ba09623d019e07ceeae07059f74ac7f64ddfc"
+    },
+    {
+      "id": "stage19_coverage2_0023",
+      "model": "untwisted_periodic_uniform_spin1_Heisenberg",
+      "unit_bilinear_exchange": 1,
+      "bootstrap_initialization": 30,
+      "integer_size_min": 2,
+      "gap_lower_exact": "23/10000",
+      "gap_lower_decimal_down_12": "0.002300000000",
+      "unique_ground_state": true,
+      "all_integer_lengths": true,
+      "coverage_only": true,
+      "minimum_seed_claim": false,
+      "primary_source": "research_20261010/uniform_small_lengths_completion_review/CLAIM_VERDICTS.json",
+      "primary_json_pointer": "/gap",
+      "primary_sha256": "af675c738bacbe26c2fe1ea1f8590883bb1b066a0cf56d7db8445ec1a6660db3"
+    },
+    {
+      "id": "stage19_coverage2_0248",
+      "model": "untwisted_periodic_uniform_spin1_Heisenberg",
+      "unit_bilinear_exchange": 1,
+      "bootstrap_initialization": 34,
+      "integer_size_min": 2,
+      "gap_lower_exact": "31/1250",
+      "gap_lower_decimal_down_12": "0.024800000000",
+      "unique_ground_state": true,
+      "all_integer_lengths": true,
+      "coverage_only": true,
+      "minimum_seed_claim": false,
+      "primary_source": "research_20261010/uniform_gap_0248_all_sizes_review/CLAIM_VERDICTS.json",
+      "primary_json_pointer": "/gap",
+      "primary_sha256": "514155ec3b2d145fefcbd426dbcd269c7d68025540c3b6aef1ac285c712b330a"
+    }
+  ],
+  "full18_thermal_premises_remain_discharged": true,
+  "bilayer_nested_covers_unchanged": [
+    {
+      "endpoint": "27/250",
+      "closed_pieces": 86,
+      "gap_lower": "4499695659/1000000000000"
+    },
+    {
+      "endpoint": "433/4000",
+      "closed_pieces": 88,
+      "gap_lower": "293202989/500000000000"
+    }
+  ],
+  "new_bilayer_gap": false,
+  "full8x4_m4_accepted": false,
+  "direct25_review_resource_compliance": "NOT_ACCEPTED unresolved",
+  "prior58D_producer_resource_compliance": "UNVERIFIED",
+  "mutable_campaign_data_included": false,
+  "direct_source_hashes": 843,
+  "review_seals": 97,
+  "sealed_review_entries_checked": 7252,
+  "previous_stage18_unchanged": true,
+  "root_files_modified": false,
+  "remote_publication_performed": false,
+  "cpu_affinity": [
+    8
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "corruptions_rejected": 278,
+  "byte_identical_rendered_files": 42,
+  "scope": "Integrity and exact scoped extraction of independent final reviews; no new thermal or physical production"
+}

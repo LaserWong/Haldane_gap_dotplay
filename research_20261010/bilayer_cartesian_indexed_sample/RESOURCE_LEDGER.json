@@ -1,0 +1,27 @@
+{
+  "cpu_affinity": 6,
+  "threads": 1,
+  "runtime_address_space_mib": 256,
+  "compiler_address_space_mib": 512,
+  "approved_runtime_cpu_seconds": 60,
+  "runtime_attempts": [
+    {
+      "name": "run",
+      "complete": true,
+      "cpu_seconds": 22.8854,
+      "charged_cpu_seconds": 23,
+      "peak_rss_kib": 26128
+    },
+    {
+      "name": "analyze.py",
+      "complete": true,
+      "cpu_seconds": 0.172426,
+      "hard_cpu_seconds": 2,
+      "charged_cpu_seconds": 1
+    }
+  ],
+  "conservative_charged_cpu_seconds": 24,
+  "hardening_replays": 0,
+  "production_runs": 0,
+  "source_note": "After execution, one inherited comment was corrected from spherical to Cartesian; executable statements were unchanged."
+}

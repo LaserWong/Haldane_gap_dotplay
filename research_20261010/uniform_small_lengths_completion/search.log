@@ -1,0 +1,17 @@
+/workspace/shared/haldane_active/research_20261010/uniform_small_lengths_completion/search.py:13: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  res=linprog(cost,A_ub=np.r_[Ab,sg1,sg2],b_ub=np.r_[-x**(k-4),np.zeros(18)],bounds=[(None,None)]*9+[(0,None)]*9,method='highs',options={'threads':1});assert res.success
+J 13 1.041252784891108
+J 14 1.0350018318955778
+J 15 1.0286178203085217
+J 17 1.025899240149454
+J 19 1.026742726258083
+J 21 1.0288382410511727
+J 23 1.0313711861386266
+N 13 -0.15539067387454675
+N 14 0.17630911208253713
+N 15 -0.09968969136365823
+N 17 -0.06306204461803773
+N 19 -0.03965239068671186
+N 21 -0.024862297748212046
+N 23 -0.01556324344160071
+CPU 0.935840666

@@ -1,0 +1,287 @@
+{
+  "physical_fixture_all_15_terms_m3_m4_sector_norms_equal": true,
+  "peak_sparse_state_count_difference_is_basis_dependent": true,
+  "cm_equals_accepted_57d_g011_witness": true,
+  "sample_target_count": 512,
+  "total_origin_containing_q6_supports": 169911,
+  "total_unrestricted_q6_supports": 906192,
+  "full_class_multiplicities_not_enumerated": true,
+  "projections_are_empirical_not_runtime_bounds": true,
+  "families": [
+    {
+      "name": "N",
+      "source_zero_targets": 285,
+      "source_nonzero_targets": 227,
+      "totals": {
+        "incidence_visits": 301056,
+        "embedding_hits": 240026,
+        "row_hits": 1627401,
+        "rule_hits": 3228375,
+        "lookup_calls": 3228887,
+        "lookup_misses": 60475
+      },
+      "sample_classes": {
+        "edges=7,m_nonzero=True": {
+          "sample_count": 1,
+          "rule_hits": 7761,
+          "lookup_calls": 7762,
+          "lookup_misses": 140,
+          "action_cpu_seconds": 0.001823
+        },
+        "edges=3,m_nonzero=True": {
+          "sample_count": 103,
+          "rule_hits": 702720,
+          "lookup_calls": 702823,
+          "lookup_misses": 13123,
+          "action_cpu_seconds": 0.16354599999999997
+        },
+        "edges=4,m_nonzero=True": {
+          "sample_count": 28,
+          "rule_hits": 203478,
+          "lookup_calls": 203506,
+          "lookup_misses": 3728,
+          "action_cpu_seconds": 0.04952600000000001
+        },
+        "edges=3,m_nonzero=False": {
+          "sample_count": 8,
+          "rule_hits": 53496,
+          "lookup_calls": 53504,
+          "lookup_misses": 975,
+          "action_cpu_seconds": 0.011628999999999999
+        },
+        "edges=2,m_nonzero=True": {
+          "sample_count": 85,
+          "rule_hits": 538659,
+          "lookup_calls": 538744,
+          "lookup_misses": 10420,
+          "action_cpu_seconds": 0.130306
+        },
+        "edges=5,m_nonzero=True": {
+          "sample_count": 9,
+          "rule_hits": 67509,
+          "lookup_calls": 67518,
+          "lookup_misses": 1191,
+          "action_cpu_seconds": 0.014182
+        },
+        "edges=1,m_nonzero=False": {
+          "sample_count": 131,
+          "rule_hits": 766683,
+          "lookup_calls": 766814,
+          "lookup_misses": 14392,
+          "action_cpu_seconds": 0.19669400000000004
+        },
+        "edges=2,m_nonzero=False": {
+          "sample_count": 91,
+          "rule_hits": 579447,
+          "lookup_calls": 579538,
+          "lookup_misses": 10763,
+          "action_cpu_seconds": 0.1299049999999999
+        },
+        "edges=0,m_nonzero=False": {
+          "sample_count": 55,
+          "rule_hits": 301260,
+          "lookup_calls": 301315,
+          "lookup_misses": 5638,
+          "action_cpu_seconds": 0.07427900000000001
+        },
+        "edges=6,m_nonzero=True": {
+          "sample_count": 1,
+          "rule_hits": 7362,
+          "lookup_calls": 7363,
+          "lookup_misses": 105,
+          "action_cpu_seconds": 0.00138
+        }
+      },
+      "serialized_rule_bytes": 81888,
+      "empirical_all_origin_support_action_seconds": 261.15254328515624,
+      "tenfold_empirical_action_seconds": 2611.5254328515625,
+      "worst_observed_support_scaled_seconds": 4377.587004,
+      "note": "Analytic m lookup only; no chi or v cache setup/contraction timing."
+    },
+    {
+      "name": "F",
+      "source_zero_targets": 285,
+      "source_nonzero_targets": 227,
+      "totals": {
+        "incidence_visits": 1161216,
+        "embedding_hits": 857346,
+        "row_hits": 6394874,
+        "rule_hits": 17729412,
+        "lookup_calls": 17729924,
+        "lookup_misses": 133503
+      },
+      "sample_classes": {
+        "edges=7,m_nonzero=True": {
+          "sample_count": 1,
+          "rule_hits": 55619,
+          "lookup_calls": 55620,
+          "lookup_misses": 405,
+          "action_cpu_seconds": 0.019797
+        },
+        "edges=3,m_nonzero=True": {
+          "sample_count": 103,
+          "rule_hits": 3828346,
+          "lookup_calls": 3828449,
+          "lookup_misses": 29057,
+          "action_cpu_seconds": 1.0375140000000003
+        },
+        "edges=4,m_nonzero=True": {
+          "sample_count": 28,
+          "rule_hits": 1195844,
+          "lookup_calls": 1195872,
+          "lookup_misses": 8936,
+          "action_cpu_seconds": 0.32489300000000004
+        },
+        "edges=3,m_nonzero=False": {
+          "sample_count": 8,
+          "rule_hits": 341491,
+          "lookup_calls": 341499,
+          "lookup_misses": 2659,
+          "action_cpu_seconds": 0.089611
+        },
+        "edges=2,m_nonzero=True": {
+          "sample_count": 85,
+          "rule_hits": 2769816,
+          "lookup_calls": 2769901,
+          "lookup_misses": 20508,
+          "action_cpu_seconds": 0.7099059999999997
+        },
+        "edges=5,m_nonzero=True": {
+          "sample_count": 9,
+          "rule_hits": 428098,
+          "lookup_calls": 428107,
+          "lookup_misses": 3063,
+          "action_cpu_seconds": 0.10968699999999999
+        },
+        "edges=1,m_nonzero=False": {
+          "sample_count": 131,
+          "rule_hits": 4107432,
+          "lookup_calls": 4107563,
+          "lookup_misses": 30339,
+          "action_cpu_seconds": 1.120063
+        },
+        "edges=2,m_nonzero=False": {
+          "sample_count": 91,
+          "rule_hits": 3232254,
+          "lookup_calls": 3232345,
+          "lookup_misses": 24689,
+          "action_cpu_seconds": 0.8384469999999999
+        },
+        "edges=0,m_nonzero=False": {
+          "sample_count": 55,
+          "rule_hits": 1717038,
+          "lookup_calls": 1717093,
+          "lookup_misses": 13483,
+          "action_cpu_seconds": 0.516453
+        },
+        "edges=6,m_nonzero=True": {
+          "sample_count": 1,
+          "rule_hits": 53474,
+          "lookup_calls": 53475,
+          "lookup_misses": 364,
+          "action_cpu_seconds": 0.018914
+        }
+      },
+      "serialized_rule_bytes": 3165492,
+      "empirical_all_origin_support_action_seconds": 1596.12800484375,
+      "tenfold_empirical_action_seconds": 15961.2800484375,
+      "worst_observed_support_scaled_seconds": 13631.279886,
+      "note": "Analytic m lookup only; no chi or v cache setup/contraction timing."
+    },
+    {
+      "name": "L",
+      "source_zero_targets": 285,
+      "source_nonzero_targets": 227,
+      "totals": {
+        "incidence_visits": 1161216,
+        "embedding_hits": 857346,
+        "row_hits": 5776247,
+        "rule_hits": 8691654,
+        "lookup_calls": 8692166,
+        "lookup_misses": 71405
+      },
+      "sample_classes": {
+        "edges=7,m_nonzero=True": {
+          "sample_count": 1,
+          "rule_hits": 14841,
+          "lookup_calls": 14842,
+          "lookup_misses": 176,
+          "action_cpu_seconds": 0.005346
+        },
+        "edges=3,m_nonzero=True": {
+          "sample_count": 103,
+          "rule_hits": 1822731,
+          "lookup_calls": 1822834,
+          "lookup_misses": 16649,
+          "action_cpu_seconds": 0.5641409999999998
+        },
+        "edges=4,m_nonzero=True": {
+          "sample_count": 28,
+          "rule_hits": 484470,
+          "lookup_calls": 484498,
+          "lookup_misses": 4685,
+          "action_cpu_seconds": 0.17086199999999999
+        },
+        "edges=3,m_nonzero=False": {
+          "sample_count": 8,
+          "rule_hits": 124968,
+          "lookup_calls": 124976,
+          "lookup_misses": 1111,
+          "action_cpu_seconds": 0.037677
+        },
+        "edges=2,m_nonzero=True": {
+          "sample_count": 85,
+          "rule_hits": 1508454,
+          "lookup_calls": 1508539,
+          "lookup_misses": 12841,
+          "action_cpu_seconds": 0.4125160000000001
+        },
+        "edges=5,m_nonzero=True": {
+          "sample_count": 9,
+          "rule_hits": 148110,
+          "lookup_calls": 148119,
+          "lookup_misses": 1593,
+          "action_cpu_seconds": 0.045816
+        },
+        "edges=1,m_nonzero=False": {
+          "sample_count": 131,
+          "rule_hits": 2198196,
+          "lookup_calls": 2198327,
+          "lookup_misses": 16488,
+          "action_cpu_seconds": 0.6486479999999999
+        },
+        "edges=2,m_nonzero=False": {
+          "sample_count": 91,
+          "rule_hits": 1540221,
+          "lookup_calls": 1540312,
+          "lookup_misses": 12646,
+          "action_cpu_seconds": 0.454509
+        },
+        "edges=0,m_nonzero=False": {
+          "sample_count": 55,
+          "rule_hits": 834675,
+          "lookup_calls": 834730,
+          "lookup_misses": 5084,
+          "action_cpu_seconds": 0.220947
+        },
+        "edges=6,m_nonzero=True": {
+          "sample_count": 1,
+          "rule_hits": 14988,
+          "lookup_calls": 14989,
+          "lookup_misses": 132,
+          "action_cpu_seconds": 0.004396
+        }
+      },
+      "serialized_rule_bytes": 415416,
+      "empirical_all_origin_support_action_seconds": 859.3812982617187,
+      "tenfold_empirical_action_seconds": 8593.812982617186,
+      "worst_observed_support_scaled_seconds": 5914.60191,
+      "note": "Analytic m lookup only; no chi or v cache setup/contraction timing."
+    }
+  ],
+  "combined_empirical_action_seconds": 2716.6618463906248,
+  "combined_tenfold_action_seconds": 27166.61846390625,
+  "measured_cartesian_compiler_index_setup_seconds": 3.7516779999999996,
+  "production_gate_180_seconds": "FAIL_EMPIRICAL_RESOURCE_PROJECTION",
+  "analysis_cpu_seconds": 0.172426
+}

@@ -269,3 +269,23 @@ Full58D physical row and [exact endpoint review](bilayer_residual_direction_58d_
 Bilayer[0,.108] gap.004499695659/86pieces and[0,.10825] gap.000586405978/88pieces remain intact. Next: publish stage18 with immutable full physical evidence; continue separately authorized compiler/higher-moment work under independent mathematical and runtime gates; avoid rerunning completed thermal inputs. Regular report03:15UTC; entire research stops2026-10-14 00UTC / October13 20EDT, saving complete and partial checkpoints.
 
 Stage18 post-freeze replay PASS2026-10-11 02:14:28 UTC:97files,87seals/7058review entries,2979thermal ZIP entries,250corruption tests and40byte-identicalexports. Root docs finalized after final replay; no remote writes from this update.
+
+
+## Stage 19 milestone — 2026-10-10 23:03 EDT / 2026-10-11 03:03 UTC
+
+Stage18 verified main 0bdca79b9f0ff24159d030b2e4e32ced08a60a16, tree 48c9916e7ca3871c6d7322810799a4a9e8a9937b,02:24:13.749UTC;834snapshot files,14002dependency checks,12870outside files and27transport preserved. Stage19 local overview manifest c3a433da85b34129895f86618e29c37e872f1ae8402521c2b329bda3f6109012; no remote publication yet.
+
+Accepted genuine second-input starts34/.0248,32/.0245,30/.0179 cover every integerL>=their start with uniqueground. D26 anchors68/64/60 use totalH0/N0+aL, no extraL factor; trialspan1,bond26,normtransfer676,physical3^L distinct. Finite28..56 gives coverage>=28/.0179, individual24..27 plus tail gives>=24/.0023. Final analyticL2gap2,L3gap1 and20directL4..23 certificates now compose gap.0023 and uniqueground for every integerL>=2. Actual bootstrap start stays30; no minimum-seed theorem. Stronger nested .0245>=32/.0248>=34 stay valid. User notified02:50:18UTC of allsize.0023, stronger nested bounds and true startup30; notification is not publication.
+
+Direct25 mathematics is accepted, but its reviewer resource compliance is NOT ACCEPTED:25.9614 processCPU seconds versus15authorized, no post-exec limit/externalwait4 evidence, cause unresolved. Do not relabel as wall time or suppress it. Prior58D producer algebra resource UNVERIFIED also persists. Finite-prefix guarded resource evidence is separate, not retroactive repair of direct25.
+
+Connected-rule and indexed-action reviews accept scoped local algebra/smallfixtures; empirical2716.66CPU-second action projection fails the180-second production target without proving universal infeasibility. Stronger26..33 work and300CPU whole-m4 fixture/sample gate remain active outside this accepted snapshot; full production is unapproved. Bilayer86piece[0,.108]/.004499695659 and88piece[0,.10825]/.000586405978 unchanged. Thermal18-input campaign is DONE, no rerun/restart.
+
+Next: stage19 publication QA; independently finish stronger finite-window certificates; run only approved fixture/sample gate with mathematical/resource acceptance kept separate. Preserve source attribution, original n36 second route, noED novelty, historical snapshots and resource anomalies. Regular report03:15UTC; strict research stop2026-10-14 00UTC / October13 20EDT with complete/partial checkpoints.
+
+
+### Stage19 final strengthening, superseding the preparatory scope above
+
+Final uniform_gap_0248_all_sizes_review seal5407745b521a61a310d89857da94c14a73fcc2093a80d467dc8f72e9fd31deaf accepts .0248 for every integerL>=2 with uniqueground: analytic2/3, strengthened4..25 using existing physical inputs, new independently contracted26..33 and the n34 tail. The strongest proof uses initialization34; smallest successful initialization30 still gives.0179 and is a separate claim. No minimum-seed theorem. The prior weaker.0023 global and nested records remain archived and valid. L26..33 is now accepted, not pending. Original-first/asymptotic bound comparisons are51.7538/6.49030 on common applicable scopes, with original framework/seed-design attribution and noED novelty. User notified02:57:05UTC, not a stage19 publication claim. Active300CPU m4fixture/sample gate and new self-contained proof guide remain outside stage19, full m4production unapproved.
+
+Stage19 final post-freeze replay PASS2026-10-11 03:04:04UTC,103sealed files,manifest c3a433da85b34129895f86618e29c37e872f1ae8402521c2b329bda3f6109012. Root docs finalized after final strong all-size acceptance and this replay; stage19 remote publication remains pending.

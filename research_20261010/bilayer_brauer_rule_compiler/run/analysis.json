@@ -1,0 +1,61 @@
+{
+  "all_local_Cartesian_matrix_entries_equal": true,
+  "implicit_local_matrix_entry_comparisons": 121251328,
+  "all_15_fixture_terms_m3_m4_equal": true,
+  "sampled_per_channel_equalities": 23040,
+  "target_supports": 512,
+  "source": "analytic m=M cM, same source as Cartesian fixture",
+  "families": [
+    {
+      "name": "N",
+      "diagrams": 634,
+      "Cartesian_records": 6824,
+      "record_count_reduction": 10.763406940063092,
+      "brauer_sample_seconds": 0.200126,
+      "Cartesian_same_run_reference_seconds": 1.1461,
+      "Cartesian_previous_run_sample_seconds": 0.786942,
+      "empirical_all_origin_action_seconds": 66.41329841015624,
+      "diagram_hits": 264312,
+      "matching_hits": 194974,
+      "active_diagrams": 118919,
+      "source_requests_excluding_one_target_lookup_per_support": 264312
+    },
+    {
+      "name": "F",
+      "diagrams": 14532,
+      "Cartesian_records": 263791,
+      "record_count_reduction": 18.15242224057253,
+      "brauer_sample_seconds": 1.63998,
+      "Cartesian_same_run_reference_seconds": 8.83703,
+      "Cartesian_previous_run_sample_seconds": 4.80968,
+      "empirical_all_origin_action_seconds": 544.2395347265625,
+      "diagram_hits": 1717692,
+      "matching_hits": 1406007,
+      "active_diagrams": 811151,
+      "source_requests_excluding_one_target_lookup_per_support": 1717692
+    },
+    {
+      "name": "L",
+      "diagrams": 1941,
+      "Cartesian_records": 34618,
+      "record_count_reduction": 17.83513652756311,
+      "brauer_sample_seconds": 0.462633,
+      "Cartesian_same_run_reference_seconds": 2.67404,
+      "Cartesian_previous_run_sample_seconds": 2.58961,
+      "empirical_all_origin_action_seconds": 153.52819465429687,
+      "diagram_hits": 683326,
+      "matching_hits": 528154,
+      "active_diagrams": 325302,
+      "source_requests_excluding_one_target_lookup_per_support": 683326
+    }
+  ],
+  "timing_caveat": "Brauer and Cartesian actions alternate and share the capped lazy source cache; timings are not independent cold-cache speedup measurements.",
+  "diagrams_total": 17107,
+  "serialized_bytes": 342140,
+  "rule_index_charge_bytes": 1596000,
+  "combined_empirical_action_seconds": 764.1810277910156,
+  "tenfold_empirical_action_seconds": 7641.8102779101555,
+  "production_gate_180_seconds": "FAIL_EMPIRICAL_PROJECTION",
+  "fundamental_infeasibility_claim": false,
+  "analysis_cpu_seconds": 0.084718
+}

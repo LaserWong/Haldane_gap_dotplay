@@ -1,0 +1,40 @@
+{
+  "status": "ACCEPTED",
+  "model": "untwisted periodic uniform spin-one Heisenberg, bilinear coefficient1",
+  "beta0": "49/4",
+  "thermal_inputs": "all18 locally physically reproduced, seal792127565ad16526eeaa61add62bcc15db499578fc9d2157f11df27848867b94",
+  "claims": [
+    {
+      "n": 34,
+      "gap": "31/1250",
+      "all_integer_L_at_least": 34,
+      "unique_ground_state": true,
+      "anchor_length": 68,
+      "asymptotic_from": 17408
+    },
+    {
+      "n": 32,
+      "gap": "49/2000",
+      "all_integer_L_at_least": 32,
+      "unique_ground_state": true,
+      "anchor_length": 64,
+      "asymptotic_from": 16384
+    },
+    {
+      "n": 30,
+      "gap": "179/10000",
+      "all_integer_L_at_least": 30,
+      "unique_ground_state": true,
+      "anchor_length": 60,
+      "asymptotic_from": 30720
+    }
+  ],
+  "coverage_start_equals_initialization_size": true,
+  "independent_physical_anchors": [
+    60,
+    64,
+    68
+  ],
+  "no_minimality_or_below30_exclusion": true,
+  "producer_manifest": "fcf4d2c7f838a8ee154f297549f3049a93b49cae30e758534edc9c3dc2d74a84"
+}

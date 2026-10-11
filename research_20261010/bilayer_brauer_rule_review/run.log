@@ -1,0 +1,16 @@
+Independent graph composition comparisons=58000
+small 4 N PASS CPU 0.18333
+small 4 F PASS CPU 1.02051
+small 4 L PASS CPU 1.19616
+small 5 N PASS CPU 1.24772
+small 5 F PASS CPU 2.38966
+small 5 L PASS CPU 2.71421
+4x2 PASS sparse states 4752 seconds 0.0972141
+5x2 PASS sparse states 22320 seconds 0.508071
+Independent expansion records=634 matches all Cartesian entries
+N all 512 x 15 outputs match; zero-source targets=285 diagram_hits=264312 CPU=4.05256
+Independent expansion records=14532 matches all Cartesian entries
+F all 512 x 15 outputs match; zero-source targets=285 diagram_hits=1717692 CPU=9.88491
+Independent expansion records=1941 matches all Cartesian entries
+L all 512 x 15 outputs match; zero-source targets=285 diagram_hits=683326 CPU=12.7183
+CPU=12.7186 RSS_KiB=43604

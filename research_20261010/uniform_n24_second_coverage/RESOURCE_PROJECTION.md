@@ -1,0 +1,1 @@
+Own fresh unchanged MPS48 projected<9CPU seconds/<35MiB. Prior cumulative producer42.09601CPU seconds; projected new total<52CPU seconds within60 budget. CPU5 hard100MiB/60CPU-second process cap; scalarCPU2 hard30CPU-second/256MiB. Only individual24,25, no22. Independent reviewer48 already available; CPU5 coordinated.

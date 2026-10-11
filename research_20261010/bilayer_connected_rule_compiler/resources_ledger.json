@@ -1,0 +1,40 @@
+{
+  "scope": "All physical/local operator algebra attempts in this task; builds excluded and separately limited to 512 MiB. No additional compute authorized.",
+  "cpu_affinity": 6,
+  "single_threaded": true,
+  "runtime_address_space_limit_mib": 256,
+  "attempts": [
+    {
+      "name": "initial_run",
+      "recorded_cpu_seconds": 2.92324,
+      "charged_cpu_seconds": 3,
+      "complete": true
+    },
+    {
+      "name": "validation",
+      "last_operator_cpu_seconds": 16.3711,
+      "subsequent_reference_fixture_wall_seconds_upper_bound": 0.917759,
+      "charged_cpu_seconds": 18,
+      "complete": true,
+      "peak_rss_kib": 24716
+    },
+    {
+      "name": "run",
+      "recorded_cpu_seconds": 3.46989,
+      "charged_cpu_seconds": 4,
+      "complete": true,
+      "peak_rss_kib": 5120
+    },
+    {
+      "name": "checkpoint_hardening_run",
+      "recorded_cpu_seconds": 4.5031,
+      "charged_cpu_seconds": 5,
+      "complete": false,
+      "reason": "CPU_CHECKPOINT_CAP after last support; final report not finalized",
+      "peak_rss_kib": 5120
+    }
+  ],
+  "conservative_total_charged_cpu_seconds": 30,
+  "budget_cpu_seconds": 30,
+  "remaining_authorized_cpu_seconds": 0
+}

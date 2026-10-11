@@ -1,0 +1,1 @@
+Projected fresh unchanged D26 MPS56: <10CPU seconds, <35MiB based on fresh60=8.96s and64/68=15.91s. Prior producer total24.87201CPU seconds, so projected cumulative<35CPU seconds within original60CPU budget. CPU5 hard60CPU seconds/100MiB; scalarCPU2 120CPU seconds/256MiB. Authorized separately after n30 positive. No n26 run.
