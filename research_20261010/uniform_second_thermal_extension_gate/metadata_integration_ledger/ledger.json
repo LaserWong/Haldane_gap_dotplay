@@ -1,0 +1,47 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 10000,
+    "deadline": 1791677483.7066903,
+    "bindings": {
+      "fixture": "metadata-only"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "c8e19f295a2a4ffe91a0e854ec01a8bb",
+        "kind": "worker",
+        "details": {},
+        "reservation": 144,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791677453.7074227,
+        "identity": {
+          "pid": 14,
+          "start_ticks": 3737145,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "c8e19f295a2a4ffe91a0e854ec01a8bb",
+          "identity": {
+            "pid": 14,
+            "start_ticks": 3737145,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.288687,
+          "watchdog_cpu": 0.018851,
+          "maxrss_kib": 14080,
+          "finished_utc": 1791677454.0405452
+        },
+        "terminal_wait4_cpu": 0.309327,
+        "completed_utc": 1791677454.0564156
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "45502d4ee222fde2f77f73b44a046750c02e8ed9d716d05d0d7cf9927ddd73a5"
+}

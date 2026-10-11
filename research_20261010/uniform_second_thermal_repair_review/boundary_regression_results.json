@@ -1,0 +1,50 @@
+{
+  "status": "PASS independent actual-process boundary regression",
+  "old_shrinking_allowance": {
+    "records": [
+      {
+        "cap_seconds": 4,
+        "returncode": 0,
+        "CPU_seconds": 1.3320269999999999,
+        "stdout": "completed fixed batch\n"
+      },
+      {
+        "cap_seconds": 2,
+        "returncode": 0,
+        "CPU_seconds": 1.3217430000000001,
+        "stdout": "completed fixed batch\n"
+      },
+      {
+        "cap_seconds": 1,
+        "returncode": -9,
+        "CPU_seconds": 1.1382970000000003,
+        "stdout": ""
+      }
+    ],
+    "yielded": false,
+    "used": 3.7920670000000003,
+    "remaining": 1
+  },
+  "fixed_allowance_graceful_yield": {
+    "records": [
+      {
+        "cap_seconds": 2,
+        "returncode": 0,
+        "CPU_seconds": 1.3253469999999994,
+        "stdout": "completed fixed batch\n"
+      },
+      {
+        "cap_seconds": 2,
+        "returncode": 0,
+        "CPU_seconds": 1.322663,
+        "stdout": "completed fixed batch\n"
+      }
+    ],
+    "yielded": true,
+    "used": 2.6480099999999993,
+    "remaining": 1
+  },
+  "no_thermal_commands": true,
+  "CPU_affinity": 5,
+  "total_waited_child_CPU_seconds": 6.453785
+}

@@ -1,0 +1,125 @@
+{
+  "status": "PASS design-only extension/short-boundary tests",
+  "production_ledger_unchanged": true,
+  "historical_attempt_prefix_preserved": true,
+  "original_terminal_bytes_preserved": true,
+  "old_charge": 16207,
+  "new_cap": 43200,
+  "remaining_after_extension": 26993,
+  "duplicate_extension_rejected": true,
+  "old_refund_mutation_rejected": true,
+  "unsafe_scaled_sequence": [
+    {
+      "index": 0,
+      "remaining": 6,
+      "allowance": 3,
+      "exitcode": 0,
+      "cpu": 2.224675
+    },
+    {
+      "index": 1,
+      "remaining": 3,
+      "allowance": 3,
+      "exitcode": 0,
+      "cpu": 2.239832
+    },
+    {
+      "index": 2,
+      "remaining": 1,
+      "allowance": 1,
+      "exitcode": -9,
+      "cpu": 1.4592219999999996
+    }
+  ],
+  "safe_bounded_sequence": [
+    {
+      "index": 0,
+      "remaining": 29,
+      "allowance": 3,
+      "exitcode": 0,
+      "cpu": 2.495989
+    },
+    {
+      "index": 1,
+      "remaining": 26,
+      "allowance": 3,
+      "exitcode": 0,
+      "cpu": 2.3526169999999995
+    },
+    {
+      "index": 2,
+      "remaining": 23,
+      "allowance": 3,
+      "exitcode": 0,
+      "cpu": 2.2872070000000004
+    }
+  ],
+  "configuration_invariant": {
+    "internal_allowance": 600,
+    "maximum_phase_charge_including_slack": 333,
+    "full_legacy_request": 120,
+    "strict_safe": true
+  },
+  "reservations": {
+    "4": {
+      "prepare": 214,
+      "run": 440,
+      "validate": 144
+    },
+    "5": {
+      "prepare": 242,
+      "run": 454,
+      "validate": 158
+    },
+    "6": {
+      "prepare": 270,
+      "run": 468,
+      "validate": 172
+    },
+    "7": {
+      "prepare": 298,
+      "run": 482,
+      "validate": 186
+    },
+    "8": {
+      "prepare": 326,
+      "run": 496,
+      "validate": 200
+    },
+    "9": {
+      "prepare": 354,
+      "run": 510,
+      "validate": 214
+    },
+    "10": {
+      "prepare": 382,
+      "run": 524,
+      "validate": 228
+    },
+    "11": {
+      "prepare": 410,
+      "run": 538,
+      "validate": 242
+    },
+    "12": {
+      "prepare": 438,
+      "run": 552,
+      "validate": 256
+    }
+  },
+  "metadata_integration_cpu": 0.309327,
+  "no_thermal_jobs": true,
+  "resources": {
+    "self_cpu": 0.9402280000000001,
+    "children_cpu": 13.368870000000001
+  },
+  "source_sha256": {
+    "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_extension_gate/supervisor.py": "6e84bde2bd5b8b1b1f29e58c57fc7e4c7aa056d70b8dc325252a53aa3eced1a5",
+    "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_extension_gate/hooks/sitecustomize.py": "2fa63c012c501949af9bc1fdfd658b2edc34d1f91811de1e0bffcc4182866c21",
+    "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b",
+    "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+    "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+    "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+    "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/MANIFEST_SHA256.json": "4a282841f56100a6ea99d20d9ce63a79309afe0d1ecdec12f39dee4f94013b68"
+  }
+}

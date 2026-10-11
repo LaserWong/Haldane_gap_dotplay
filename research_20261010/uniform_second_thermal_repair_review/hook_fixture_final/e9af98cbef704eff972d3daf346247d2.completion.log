@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+AssertionError
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', '-c', "import os,resource,sys;mode=sys.argv[-1];assert os.sched_getaffinity(0)=={5};assert resource.getrlimit(resource.RLIMIT_AS)==(96*1024**2,96*1024**2);assert resource.getrlimit(resource.RLIMIT_CPU)==((5,5) if mode in ('list','matrix') else (35,35));print(mode,flush=True)", 'list']' returned non-zero exit status 1.

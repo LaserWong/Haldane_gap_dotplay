@@ -1,0 +1,31 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 2000,
+    "deadline": 1791677690.2974393,
+    "bindings": {
+      "fixture": "mode-caps"
+    },
+    "test_mode": true,
+    "attempts": [
+      {
+        "id": "e9af98cbef704eff972d3daf346247d2",
+        "kind": "worker",
+        "details": {},
+        "reservation": 552,
+        "charge": 552,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791677675.2978663,
+        "identity": {
+          "pid": 6,
+          "start_ticks": 3759304,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 9
+      }
+    ],
+    "events": [],
+    "terminal_state": "READY"
+  },
+  "sha256": "6b1dd0cb25633fd77f3fcbcd17ddf83504782cca260baad99eeb6d72ff49eb31"
+}

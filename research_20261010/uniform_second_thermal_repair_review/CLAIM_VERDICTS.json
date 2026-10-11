@@ -1,0 +1,23 @@
+{
+  "status": "PASS extension design/fixture gate; root launch decision required",
+  "producer_manifest_sha256": "c97bbaba6236265d86770be29c7bc9a35e9c28d1bb1de0cf1e16f5f029ae83fd",
+  "old_cap_CPU_seconds": 21600,
+  "new_cumulative_cap_CPU_seconds": 43200,
+  "retained_charge_CPU_seconds": 16207,
+  "remaining_before_new_work_CPU_seconds": 26993,
+  "max_run_reservation_CPU_seconds": 552,
+  "max_new_batches": 8,
+  "internal_allowance_CPU_seconds": 600,
+  "compute_child_cap_CPU_seconds": 35,
+  "metadata_child_cap_CPU_seconds": 5,
+  "fixed_state_path": "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_run",
+  "deadline_utc": "2026-10-11T06:00:00Z",
+  "max_workers": 2,
+  "worker_tree_MiB": 256,
+  "production_ledger_unchanged": true,
+  "thermal_commands_executed": 0,
+  "extension_tests_passed": 19,
+  "actual_boundary_regression_passed": true,
+  "scientific_code_and_case_pins_unchanged": true,
+  "full_thermal_input_acceptance": false
+}

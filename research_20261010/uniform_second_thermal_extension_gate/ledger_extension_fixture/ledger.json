@@ -1,0 +1,2254 @@
+{
+  "payload": {
+    "version": 1,
+    "limit": 43200,
+    "deadline": 1791698400,
+    "bindings": {
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_supervisor/supervisor.py": "41952a7efb226277c0287c911198506d6d1c25173a38d148b45e5f6dadcf1eff",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_supervisor/hooks/sitecustomize.py": "657f761fa0752e6bac8f7f8fcf5f889384e8d95a0669b2724aa07fb895e66972",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/MANIFEST_SHA256.json": "4a282841f56100a6ea99d20d9ce63a79309afe0d1ecdec12f39dee4f94013b68"
+    },
+    "test_mode": false,
+    "attempts": [
+      {
+        "id": "81244924f1844254968ebd32c87aa9ba",
+        "kind": "supervisor",
+        "details": {},
+        "reservation": 122,
+        "charge": 122,
+        "status": "OVERHEAD",
+        "reserved_utc": 1791675903.408001,
+        "identity": null
+      },
+      {
+        "id": "8f2b866569e9467d94ef641e7209f73b",
+        "kind": "worker",
+        "details": {
+          "n": 4,
+          "twist": "I",
+          "action": "prepare",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 2684,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675903.4097252,
+        "identity": {
+          "pid": 7,
+          "start_ticks": 3582115,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "8f2b866569e9467d94ef641e7209f73b",
+          "identity": {
+            "pid": 7,
+            "start_ticks": 3582115,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.330015,
+          "watchdog_cpu": 0.011172999999999999,
+          "maxrss_kib": 12928,
+          "finished_utc": 1791675903.835145
+        },
+        "terminal_wait4_cpu": 0.342017,
+        "completed_utc": 1791675903.8520093
+      },
+      {
+        "id": "6d354a2866a9437f99a541cc2d846c6e",
+        "kind": "worker",
+        "details": {
+          "n": 4,
+          "twist": "P",
+          "action": "prepare",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 2684,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675903.432375,
+        "identity": {
+          "pid": 9,
+          "start_ticks": 3582118,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "6d354a2866a9437f99a541cc2d846c6e",
+          "identity": {
+            "pid": 9,
+            "start_ticks": 3582118,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.326539,
+          "watchdog_cpu": 0.014476,
+          "maxrss_kib": 12928,
+          "finished_utc": 1791675903.8192909
+        },
+        "terminal_wait4_cpu": 0.342275,
+        "completed_utc": 1791675903.856316
+      },
+      {
+        "id": "cb7eee89d6f0440d950dbdcf1982c529",
+        "kind": "worker",
+        "details": {
+          "n": 4,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 5368,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675903.8575494,
+        "identity": {
+          "pid": 51,
+          "start_ticks": 3582160,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "cb7eee89d6f0440d950dbdcf1982c529",
+          "identity": {
+            "pid": 51,
+            "start_ticks": 3582160,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.258658,
+          "watchdog_cpu": 0.004912999999999999,
+          "maxrss_kib": 14208,
+          "finished_utc": 1791675904.1695743
+        },
+        "terminal_wait4_cpu": 0.264441,
+        "completed_utc": 1791675904.1764946
+      },
+      {
+        "id": "c0214c1510114f389bee28b5320c4d70",
+        "kind": "worker",
+        "details": {
+          "n": 4,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 5368,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675903.862743,
+        "identity": {
+          "pid": 53,
+          "start_ticks": 3582161,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "c0214c1510114f389bee28b5320c4d70",
+          "identity": {
+            "pid": 53,
+            "start_ticks": 3582161,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.24101899999999998,
+          "watchdog_cpu": 0.0060799999999999995,
+          "maxrss_kib": 14208,
+          "finished_utc": 1791675904.179109
+        },
+        "terminal_wait4_cpu": 0.249191,
+        "completed_utc": 1791675904.2388484
+      },
+      {
+        "id": "74e280717675444f9418d9c2abc40682",
+        "kind": "worker",
+        "details": {
+          "n": 5,
+          "twist": "I",
+          "action": "prepare",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 3172,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675904.1795173,
+        "identity": {
+          "pid": 85,
+          "start_ticks": 3582193,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "74e280717675444f9418d9c2abc40682",
+          "identity": {
+            "pid": 85,
+            "start_ticks": 3582193,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.276217,
+          "watchdog_cpu": 0.007291,
+          "maxrss_kib": 12928,
+          "finished_utc": 1791675904.5467637
+        },
+        "terminal_wait4_cpu": 0.28472699999999995,
+        "completed_utc": 1791675904.5553434
+      },
+      {
+        "id": "70b3188d08f541ec811e5f73fbe83bfe",
+        "kind": "worker",
+        "details": {
+          "n": 5,
+          "twist": "P",
+          "action": "prepare",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 3172,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675904.2396302,
+        "identity": {
+          "pid": 87,
+          "start_ticks": 3582199,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "70b3188d08f541ec811e5f73fbe83bfe",
+          "identity": {
+            "pid": 87,
+            "start_ticks": 3582199,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.256006,
+          "watchdog_cpu": 0.005542,
+          "maxrss_kib": 12928,
+          "finished_utc": 1791675904.5567873
+        },
+        "terminal_wait4_cpu": 0.262888,
+        "completed_utc": 1791675904.618145
+      },
+      {
+        "id": "55247e4ccc6b481b90f40f11673c6108",
+        "kind": "worker",
+        "details": {
+          "n": 5,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 5612,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675904.5587273,
+        "identity": {
+          "pid": 137,
+          "start_ticks": 3582230,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "55247e4ccc6b481b90f40f11673c6108",
+          "identity": {
+            "pid": 137,
+            "start_ticks": 3582230,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.253621,
+          "watchdog_cpu": 0.004357,
+          "maxrss_kib": 14208,
+          "finished_utc": 1791675904.8734846
+        },
+        "terminal_wait4_cpu": 0.258862,
+        "completed_utc": 1791675904.8849669
+      },
+      {
+        "id": "f61f101553084a75af3e8f840e5af690",
+        "kind": "worker",
+        "details": {
+          "n": 5,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 5612,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675904.6216142,
+        "identity": {
+          "pid": 139,
+          "start_ticks": 3582237,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "f61f101553084a75af3e8f840e5af690",
+          "identity": {
+            "pid": 139,
+            "start_ticks": 3582237,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.252797,
+          "watchdog_cpu": 0.005233,
+          "maxrss_kib": 14208,
+          "finished_utc": 1791675904.9383337
+        },
+        "terminal_wait4_cpu": 0.258897,
+        "completed_utc": 1791675904.9526768
+      },
+      {
+        "id": "283127fe3b054774bf29afa79df4743a",
+        "kind": "worker",
+        "details": {
+          "n": 6,
+          "twist": "I",
+          "action": "prepare",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 3660,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675904.8875937,
+        "identity": {
+          "pid": 177,
+          "start_ticks": 3582263,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "283127fe3b054774bf29afa79df4743a",
+          "identity": {
+            "pid": 177,
+            "start_ticks": 3582263,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.303458,
+          "watchdog_cpu": 0.00604,
+          "maxrss_kib": 12928,
+          "finished_utc": 1791675905.2514572
+        },
+        "terminal_wait4_cpu": 0.310369,
+        "completed_utc": 1791675905.2760103
+      },
+      {
+        "id": "fccecea9740048be8602760a04c24f05",
+        "kind": "worker",
+        "details": {
+          "n": 6,
+          "twist": "P",
+          "action": "prepare",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 3660,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675904.9584143,
+        "identity": {
+          "pid": 179,
+          "start_ticks": 3582271,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "fccecea9740048be8602760a04c24f05",
+          "identity": {
+            "pid": 179,
+            "start_ticks": 3582271,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.313658,
+          "watchdog_cpu": 0.0048839999999999995,
+          "maxrss_kib": 12928,
+          "finished_utc": 1791675905.3254642
+        },
+        "terminal_wait4_cpu": 0.319523,
+        "completed_utc": 1791675905.3382566
+      },
+      {
+        "id": "1026a0c9e7264f0c937c86737bdce8ae",
+        "kind": "worker",
+        "details": {
+          "n": 6,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 5856,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675905.2774167,
+        "identity": {
+          "pid": 236,
+          "start_ticks": 3582302,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "1026a0c9e7264f0c937c86737bdce8ae",
+          "identity": {
+            "pid": 236,
+            "start_ticks": 3582302,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.289168,
+          "watchdog_cpu": 0.004654,
+          "maxrss_kib": 14208,
+          "finished_utc": 1791675905.6419477
+        },
+        "terminal_wait4_cpu": 0.294872,
+        "completed_utc": 1791675905.6547415
+      },
+      {
+        "id": "d454ea67184a4a979ea70ae4208629bc",
+        "kind": "worker",
+        "details": {
+          "n": 6,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 5856,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675905.339776,
+        "identity": {
+          "pid": 239,
+          "start_ticks": 3582309,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "d454ea67184a4a979ea70ae4208629bc",
+          "identity": {
+            "pid": 239,
+            "start_ticks": 3582309,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.269549,
+          "watchdog_cpu": 0.006124999999999999,
+          "maxrss_kib": 14208,
+          "finished_utc": 1791675905.660182
+        },
+        "terminal_wait4_cpu": 0.27698,
+        "completed_utc": 1791675905.7164745
+      },
+      {
+        "id": "55683b7dc2d341e7b62b8cc321653c02",
+        "kind": "worker",
+        "details": {
+          "n": 7,
+          "twist": "I",
+          "action": "prepare",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 4148,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675905.656459,
+        "identity": {
+          "pid": 283,
+          "start_ticks": 3582340,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "55683b7dc2d341e7b62b8cc321653c02",
+          "identity": {
+            "pid": 283,
+            "start_ticks": 3582340,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.35609999999999997,
+          "watchdog_cpu": 0.007189999999999999,
+          "maxrss_kib": 12928,
+          "finished_utc": 1791675906.077402
+        },
+        "terminal_wait4_cpu": 0.364738,
+        "completed_utc": 1791675906.0856621
+      },
+      {
+        "id": "3f8520d83a1d4198a89d5e08c0159958",
+        "kind": "worker",
+        "details": {
+          "n": 7,
+          "twist": "P",
+          "action": "prepare",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 4148,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675905.7243776,
+        "identity": {
+          "pid": 285,
+          "start_ticks": 3582347,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "3f8520d83a1d4198a89d5e08c0159958",
+          "identity": {
+            "pid": 285,
+            "start_ticks": 3582347,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.33909599999999995,
+          "watchdog_cpu": 0.005826,
+          "maxrss_kib": 12928,
+          "finished_utc": 1791675906.1390696
+        },
+        "terminal_wait4_cpu": 0.34604199999999996,
+        "completed_utc": 1791675906.1478693
+      },
+      {
+        "id": "df594d7747944449bbf56fd7b152f6a3",
+        "kind": "worker",
+        "details": {
+          "n": 7,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6100,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675906.0884466,
+        "identity": {
+          "pid": 351,
+          "start_ticks": 3582383,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "df594d7747944449bbf56fd7b152f6a3",
+          "identity": {
+            "pid": 351,
+            "start_ticks": 3582383,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.392397,
+          "watchdog_cpu": 0.005881,
+          "maxrss_kib": 14208,
+          "finished_utc": 1791675906.5564985
+        },
+        "terminal_wait4_cpu": 0.39931,
+        "completed_utc": 1791675906.573437
+      },
+      {
+        "id": "4de9234f996d4126ac236904c2c13771",
+        "kind": "worker",
+        "details": {
+          "n": 7,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6100,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675906.1527734,
+        "identity": {
+          "pid": 353,
+          "start_ticks": 3582390,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "4de9234f996d4126ac236904c2c13771",
+          "identity": {
+            "pid": 353,
+            "start_ticks": 3582390,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.392229,
+          "watchdog_cpu": 0.006447,
+          "maxrss_kib": 14208,
+          "finished_utc": 1791675906.6277428
+        },
+        "terminal_wait4_cpu": 0.39975499999999997,
+        "completed_utc": 1791675906.6438525
+      },
+      {
+        "id": "3b5531134db54f7283e44de9081191be",
+        "kind": "worker",
+        "details": {
+          "n": 8,
+          "twist": "I",
+          "action": "prepare",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 4636,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675906.576926,
+        "identity": {
+          "pid": 409,
+          "start_ticks": 3582432,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "3b5531134db54f7283e44de9081191be",
+          "identity": {
+            "pid": 409,
+            "start_ticks": 3582432,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.46487399999999995,
+          "watchdog_cpu": 0.008636,
+          "maxrss_kib": 13056,
+          "finished_utc": 1791675907.1473837
+        },
+        "terminal_wait4_cpu": 0.474742,
+        "completed_utc": 1791675907.177999
+      },
+      {
+        "id": "b43e068e93ef4f459d35308a795326e0",
+        "kind": "worker",
+        "details": {
+          "n": 8,
+          "twist": "P",
+          "action": "prepare",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 4636,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675906.648291,
+        "identity": {
+          "pid": 411,
+          "start_ticks": 3582440,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "b43e068e93ef4f459d35308a795326e0",
+          "identity": {
+            "pid": 411,
+            "start_ticks": 3582440,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.48805,
+          "watchdog_cpu": 0.008576,
+          "maxrss_kib": 13056,
+          "finished_utc": 1791675907.2288668
+        },
+        "terminal_wait4_cpu": 0.49909099999999995,
+        "completed_utc": 1791675907.2409732
+      },
+      {
+        "id": "4ed76df0be0e4054a06f410f81613812",
+        "kind": "worker",
+        "details": {
+          "n": 8,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6344,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675907.181055,
+        "identity": {
+          "pid": 485,
+          "start_ticks": 3582493,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "4ed76df0be0e4054a06f410f81613812",
+          "identity": {
+            "pid": 485,
+            "start_ticks": 3582493,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.947629,
+          "watchdog_cpu": 0.012608,
+          "maxrss_kib": 14336,
+          "finished_utc": 1791675908.2102225
+        },
+        "terminal_wait4_cpu": 0.961175,
+        "completed_utc": 1791675908.220317
+      },
+      {
+        "id": "8a0af4f3c7d447ecbcf1440e2df21065",
+        "kind": "worker",
+        "details": {
+          "n": 8,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6344,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675907.24267,
+        "identity": {
+          "pid": 487,
+          "start_ticks": 3582499,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "8a0af4f3c7d447ecbcf1440e2df21065",
+          "identity": {
+            "pid": 487,
+            "start_ticks": 3582499,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.977915,
+          "watchdog_cpu": 0.012074999999999999,
+          "maxrss_kib": 14336,
+          "finished_utc": 1791675908.3350928
+        },
+        "terminal_wait4_cpu": 0.9912549999999999,
+        "completed_utc": 1791675908.3875067
+      },
+      {
+        "id": "68016e7ec0244026a6ead4e171a0ea37",
+        "kind": "worker",
+        "details": {
+          "n": 9,
+          "twist": "I",
+          "action": "prepare",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 5124,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675908.2248852,
+        "identity": {
+          "pid": 567,
+          "start_ticks": 3582597,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "68016e7ec0244026a6ead4e171a0ea37",
+          "identity": {
+            "pid": 567,
+            "start_ticks": 3582597,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.916913,
+          "watchdog_cpu": 0.012604,
+          "maxrss_kib": 13184,
+          "finished_utc": 1791675909.2636163
+        },
+        "terminal_wait4_cpu": 0.932387,
+        "completed_utc": 1791675909.3482277
+      },
+      {
+        "id": "0179bf1e90ef46399d89940951024b3d",
+        "kind": "worker",
+        "details": {
+          "n": 9,
+          "twist": "P",
+          "action": "prepare",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 5124,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675908.389974,
+        "identity": {
+          "pid": 573,
+          "start_ticks": 3582614,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "0179bf1e90ef46399d89940951024b3d",
+          "identity": {
+            "pid": 573,
+            "start_ticks": 3582614,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.759452,
+          "watchdog_cpu": 0.008176,
+          "maxrss_kib": 13184,
+          "finished_utc": 1791675909.2245462
+        },
+        "terminal_wait4_cpu": 0.769716,
+        "completed_utc": 1791675909.2684858
+      },
+      {
+        "id": "2b03f54504704647af6d6fb014c42069",
+        "kind": "worker",
+        "details": {
+          "n": 9,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6588,
+        "charge": 7,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675909.2749624,
+        "identity": {
+          "pid": 653,
+          "start_ticks": 3582702,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "2b03f54504704647af6d6fb014c42069",
+          "identity": {
+            "pid": 653,
+            "start_ticks": 3582702,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 4.734490999999999,
+          "watchdog_cpu": 0.047211,
+          "maxrss_kib": 13184,
+          "finished_utc": 1791675914.1783922
+        },
+        "terminal_wait4_cpu": 4.783232,
+        "completed_utc": 1791675914.1954887
+      },
+      {
+        "id": "16507edb568c4294a5f44ead5cfba522",
+        "kind": "worker",
+        "details": {
+          "n": 9,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6588,
+        "charge": 9,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675909.3514738,
+        "identity": {
+          "pid": 655,
+          "start_ticks": 3582710,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "16507edb568c4294a5f44ead5cfba522",
+          "identity": {
+            "pid": 655,
+            "start_ticks": 3582710,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 6.4941580000000005,
+          "watchdog_cpu": 0.104104,
+          "maxrss_kib": 13184,
+          "finished_utc": 1791675916.1252718
+        },
+        "terminal_wait4_cpu": 6.5999490000000005,
+        "completed_utc": 1791675916.1309173
+      },
+      {
+        "id": "19879f5c7c144963a65d52c12733dcb9",
+        "kind": "worker",
+        "details": {
+          "n": 9,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6588,
+        "charge": 3,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675914.2021449,
+        "identity": {
+          "pid": 747,
+          "start_ticks": 3583195,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "19879f5c7c144963a65d52c12733dcb9",
+          "identity": {
+            "pid": 747,
+            "start_ticks": 3583195,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 0.9400299999999999,
+          "watchdog_cpu": 0.011901,
+          "maxrss_kib": 14592,
+          "finished_utc": 1791675915.2378907
+        },
+        "terminal_wait4_cpu": 0.9553759999999999,
+        "completed_utc": 1791675915.281009
+      },
+      {
+        "id": "c437b3d630804fbf82082c9475d44d07",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "I",
+          "action": "prepare",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 5612,
+        "charge": 5,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675915.2835364,
+        "identity": {
+          "pid": 791,
+          "start_ticks": 3583303,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "c437b3d630804fbf82082c9475d44d07",
+          "identity": {
+            "pid": 791,
+            "start_ticks": 3583303,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 2.239172,
+          "watchdog_cpu": 0.128486,
+          "maxrss_kib": 13680,
+          "finished_utc": 1791675917.7601998
+        },
+        "terminal_wait4_cpu": 2.369112,
+        "completed_utc": 1791675917.7971027
+      },
+      {
+        "id": "07316dd72a8d4921a54de33bfa72feff",
+        "kind": "worker",
+        "details": {
+          "n": 9,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6588,
+        "charge": 4,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675916.134354,
+        "identity": {
+          "pid": 808,
+          "start_ticks": 3583388,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "07316dd72a8d4921a54de33bfa72feff",
+          "identity": {
+            "pid": 808,
+            "start_ticks": 3583388,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 1.4016220000000001,
+          "watchdog_cpu": 0.02285,
+          "maxrss_kib": 14592,
+          "finished_utc": 1791675917.641449
+        },
+        "terminal_wait4_cpu": 1.426313,
+        "completed_utc": 1791675917.675124
+      },
+      {
+        "id": "8fc58c323caa49808cdbc77ae5bd338e",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "P",
+          "action": "prepare",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 5612,
+        "charge": 5,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675917.6780398,
+        "identity": {
+          "pid": 879,
+          "start_ticks": 3583542,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "8fc58c323caa49808cdbc77ae5bd338e",
+          "identity": {
+            "pid": 879,
+            "start_ticks": 3583542,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 2.3664519999999998,
+          "watchdog_cpu": 0.06708599999999999,
+          "maxrss_kib": 13568,
+          "finished_utc": 1791675920.3740222
+        },
+        "terminal_wait4_cpu": 2.447002,
+        "completed_utc": 1791675920.4842556
+      },
+      {
+        "id": "228563c58ff647d8a0f47d45464fa7ee",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "I",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6832,
+        "charge": 48,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675917.8047965,
+        "identity": {
+          "pid": 882,
+          "start_ticks": 3583556,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "228563c58ff647d8a0f47d45464fa7ee",
+          "identity": {
+            "pid": 882,
+            "start_ticks": 3583556,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 43.525431,
+          "watchdog_cpu": 2.058439,
+          "maxrss_kib": 13312,
+          "finished_utc": 1791675963.5537648
+        },
+        "terminal_wait4_cpu": 45.589051000000005,
+        "completed_utc": 1791675963.6116524
+      },
+      {
+        "id": "d4c655edfb614987a02ed6c82401398e",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "P",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6832,
+        "charge": 36,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675920.4880292,
+        "identity": {
+          "pid": 950,
+          "start_ticks": 3583824,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "d4c655edfb614987a02ed6c82401398e",
+          "identity": {
+            "pid": 950,
+            "start_ticks": 3583824,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 32.341382,
+          "watchdog_cpu": 0.861475,
+          "maxrss_kib": 13312,
+          "finished_utc": 1791675954.7201104
+        },
+        "terminal_wait4_cpu": 33.207849,
+        "completed_utc": 1791675954.7471309
+      },
+      {
+        "id": "2badbed4fa784fd1a26121ddabd8bc01",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "P",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6832,
+        "charge": 24,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675954.754575,
+        "identity": {
+          "pid": 1027,
+          "start_ticks": 3587251,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "2badbed4fa784fd1a26121ddabd8bc01",
+          "identity": {
+            "pid": 1027,
+            "start_ticks": 3587251,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 21.705677,
+          "watchdog_cpu": 0.252,
+          "maxrss_kib": 13568,
+          "finished_utc": 1791675977.0733972
+        },
+        "terminal_wait4_cpu": 21.959455,
+        "completed_utc": 1791675977.1117601
+      },
+      {
+        "id": "41ecec343ea943649e17375dca3a84b4",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "I",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6832,
+        "charge": 24,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675963.64194,
+        "identity": {
+          "pid": 1071,
+          "start_ticks": 3588140,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "41ecec343ea943649e17375dca3a84b4",
+          "identity": {
+            "pid": 1071,
+            "start_ticks": 3588140,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 21.266772,
+          "watchdog_cpu": 0.28087799999999996,
+          "maxrss_kib": 13696,
+          "finished_utc": 1791675985.30698
+        },
+        "terminal_wait4_cpu": 21.550057,
+        "completed_utc": 1791675985.3497086
+      },
+      {
+        "id": "66f120b98294450986cdc308c929f7b3",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "P",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6832,
+        "charge": 12,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675977.1142533,
+        "identity": {
+          "pid": 1134,
+          "start_ticks": 3589486,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "66f120b98294450986cdc308c929f7b3",
+          "identity": {
+            "pid": 1134,
+            "start_ticks": 3589486,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 9.476332,
+          "watchdog_cpu": 0.072175,
+          "maxrss_kib": 13824,
+          "finished_utc": 1791675986.8476331
+        },
+        "terminal_wait4_cpu": 9.550576999999999,
+        "completed_utc": 1791675986.888343
+      },
+      {
+        "id": "39a318fa93684a4d90b44e9cf5747c7c",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "I",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6832,
+        "charge": 13,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675985.35172,
+        "identity": {
+          "pid": 1196,
+          "start_ticks": 3590311,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "39a318fa93684a4d90b44e9cf5747c7c",
+          "identity": {
+            "pid": 1196,
+            "start_ticks": 3590311,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 10.653893,
+          "watchdog_cpu": 0.12131,
+          "maxrss_kib": 13952,
+          "finished_utc": 1791675996.2401042
+        },
+        "terminal_wait4_cpu": 10.777517999999999,
+        "completed_utc": 1791675996.2688396
+      },
+      {
+        "id": "09ad6917fbe44615b80341155ae32bd3",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "P",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6832,
+        "charge": 4,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675986.8910198,
+        "identity": {
+          "pid": 1230,
+          "start_ticks": 3590464,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "09ad6917fbe44615b80341155ae32bd3",
+          "identity": {
+            "pid": 1230,
+            "start_ticks": 3590464,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 1.3300260000000002,
+          "watchdog_cpu": 0.011104,
+          "maxrss_kib": 15360,
+          "finished_utc": 1791675988.320588
+        },
+        "terminal_wait4_cpu": 1.343332,
+        "completed_utc": 1791675988.3631938
+      },
+      {
+        "id": "b13668851d944c3282599ea28eb07be9",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "prepare",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6100,
+        "charge": 6,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675988.3657393,
+        "identity": {
+          "pid": 1271,
+          "start_ticks": 3590611,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "b13668851d944c3282599ea28eb07be9",
+          "identity": {
+            "pid": 1271,
+            "start_ticks": 3590611,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 3.773894,
+          "watchdog_cpu": 0.039959999999999996,
+          "maxrss_kib": 15468,
+          "finished_utc": 1791675992.3103862
+        },
+        "terminal_wait4_cpu": 3.814836,
+        "completed_utc": 1791675992.3269634
+      },
+      {
+        "id": "5d7af27ae3cf43c1996bdb8a30b30b2e",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 99,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675992.3380156,
+        "identity": {
+          "pid": 1332,
+          "start_ticks": 3591009,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "5d7af27ae3cf43c1996bdb8a30b30b2e",
+          "identity": {
+            "pid": 1332,
+            "start_ticks": 3591009,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 94.72833499999999,
+          "watchdog_cpu": 2.225379,
+          "maxrss_kib": 15472,
+          "finished_utc": 1791676091.027947
+        },
+        "terminal_wait4_cpu": 96.95514899999999,
+        "completed_utc": 1791676091.068496
+      },
+      {
+        "id": "2b88e3b544574525b9075247d90c63ab",
+        "kind": "worker",
+        "details": {
+          "n": 10,
+          "twist": "I",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6832,
+        "charge": 4,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675996.2766812,
+        "identity": {
+          "pid": 1376,
+          "start_ticks": 3591403,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "2b88e3b544574525b9075247d90c63ab",
+          "identity": {
+            "pid": 1376,
+            "start_ticks": 3591403,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 1.833844,
+          "watchdog_cpu": 0.023584,
+          "maxrss_kib": 15360,
+          "finished_utc": 1791675998.2475877
+        },
+        "terminal_wait4_cpu": 1.8618819999999998,
+        "completed_utc": 1791675998.278182
+      },
+      {
+        "id": "7c3025a6d8b149eea561eeb62f0c3e3a",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "prepare",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6100,
+        "charge": 9,
+        "status": "COMPLETE",
+        "reserved_utc": 1791675998.2848248,
+        "identity": {
+          "pid": 1415,
+          "start_ticks": 3591604,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "7c3025a6d8b149eea561eeb62f0c3e3a",
+          "identity": {
+            "pid": 1415,
+            "start_ticks": 3591604,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 6.4129570000000005,
+          "watchdog_cpu": 0.39951499999999995,
+          "maxrss_kib": 15472,
+          "finished_utc": 1791676005.5264745
+        },
+        "terminal_wait4_cpu": 6.815649,
+        "completed_utc": 1791676005.5419705
+      },
+      {
+        "id": "15e2330ee9684063af7e3e12b6d53a94",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 129,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676005.5519533,
+        "identity": {
+          "pid": 1468,
+          "start_ticks": 3592331,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "15e2330ee9684063af7e3e12b6d53a94",
+          "identity": {
+            "pid": 1468,
+            "start_ticks": 3592331,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 122.407209,
+          "watchdog_cpu": 3.590913,
+          "maxrss_kib": 15476,
+          "finished_utc": 1791676131.8923116
+        },
+        "terminal_wait4_cpu": 126.000087,
+        "completed_utc": 1791676131.9362504
+      },
+      {
+        "id": "826f89855db743519f6c5bd1749e86af",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 85,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676091.0795846,
+        "identity": {
+          "pid": 1542,
+          "start_ticks": 3600883,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "826f89855db743519f6c5bd1749e86af",
+          "identity": {
+            "pid": 1542,
+            "start_ticks": 3600883,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 80.91914799999999,
+          "watchdog_cpu": 1.1401029999999999,
+          "maxrss_kib": 15472,
+          "finished_utc": 1791676173.7217498
+        },
+        "terminal_wait4_cpu": 82.060775,
+        "completed_utc": 1791676173.7362447
+      },
+      {
+        "id": "5e4e399dd29d49e88e771168b074985b",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 99,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676131.945502,
+        "identity": {
+          "pid": 1594,
+          "start_ticks": 3604971,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "5e4e399dd29d49e88e771168b074985b",
+          "identity": {
+            "pid": 1594,
+            "start_ticks": 3604971,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 95.04249800000001,
+          "watchdog_cpu": 1.545479,
+          "maxrss_kib": 15488,
+          "finished_utc": 1791676229.0496304
+        },
+        "terminal_wait4_cpu": 96.592788,
+        "completed_utc": 1791676229.1269927
+      },
+      {
+        "id": "7cbeeb7edc544e559663c184d673a312",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 86,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676173.741218,
+        "identity": {
+          "pid": 1648,
+          "start_ticks": 3609149,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "7cbeeb7edc544e559663c184d673a312",
+          "identity": {
+            "pid": 1648,
+            "start_ticks": 3609149,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 82.610673,
+          "watchdog_cpu": 0.94547,
+          "maxrss_kib": 15468,
+          "finished_utc": 1791676257.8237388
+        },
+        "terminal_wait4_cpu": 83.562032,
+        "completed_utc": 1791676257.8490665
+      },
+      {
+        "id": "6b539f8fd97b4e4faf003f15417ca63e",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 97,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676229.148002,
+        "identity": {
+          "pid": 1716,
+          "start_ticks": 3614691,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "6b539f8fd97b4e4faf003f15417ca63e",
+          "identity": {
+            "pid": 1716,
+            "start_ticks": 3614691,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 92.583939,
+          "watchdog_cpu": 2.068439,
+          "maxrss_kib": 15468,
+          "finished_utc": 1791676324.500116
+        },
+        "terminal_wait4_cpu": 94.65551500000001,
+        "completed_utc": 1791676324.5543578
+      },
+      {
+        "id": "1d52218b28554bdeb1db17feb1fcd007",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 78,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676257.8547003,
+        "identity": {
+          "pid": 1762,
+          "start_ticks": 3617560,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "1d52218b28554bdeb1db17feb1fcd007",
+          "identity": {
+            "pid": 1762,
+            "start_ticks": 3617560,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 73.999084,
+          "watchdog_cpu": 1.152127,
+          "maxrss_kib": 15472,
+          "finished_utc": 1791676333.459007
+        },
+        "terminal_wait4_cpu": 75.15651,
+        "completed_utc": 1791676333.5185995
+      },
+      {
+        "id": "c829396d28eb42b197fc59868cd18f5c",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 91,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676324.569974,
+        "identity": {
+          "pid": 1839,
+          "start_ticks": 3624232,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "c829396d28eb42b197fc59868cd18f5c",
+          "identity": {
+            "pid": 1839,
+            "start_ticks": 3624232,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 87.665452,
+          "watchdog_cpu": 1.330042,
+          "maxrss_kib": 15468,
+          "finished_utc": 1791676414.029553
+        },
+        "terminal_wait4_cpu": 88.998006,
+        "completed_utc": 1791676414.04804
+      },
+      {
+        "id": "6b7cd81d52144b0ba7282091112637b4",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 66,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676333.5249953,
+        "identity": {
+          "pid": 1870,
+          "start_ticks": 3625127,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "6b7cd81d52144b0ba7282091112637b4",
+          "identity": {
+            "pid": 1870,
+            "start_ticks": 3625127,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 62.809382,
+          "watchdog_cpu": 0.6299349999999999,
+          "maxrss_kib": 15472,
+          "finished_utc": 1791676397.2829237
+        },
+        "terminal_wait4_cpu": 63.440799999999996,
+        "completed_utc": 1791676397.312961
+      },
+      {
+        "id": "b75773b49c904182b1abd6f2a2b539cd",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 53,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676397.3186526,
+        "identity": {
+          "pid": 1951,
+          "start_ticks": 3631507,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "b75773b49c904182b1abd6f2a2b539cd",
+          "identity": {
+            "pid": 1951,
+            "start_ticks": 3631507,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 50.355866,
+          "watchdog_cpu": 0.47819999999999996,
+          "maxrss_kib": 15468,
+          "finished_utc": 1791676448.4550722
+        },
+        "terminal_wait4_cpu": 50.836639999999996,
+        "completed_utc": 1791676448.4804392
+      },
+      {
+        "id": "92e75b2ebeb74b69952cc1cb0a6bd6f2",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 71,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676414.0623827,
+        "identity": {
+          "pid": 1991,
+          "start_ticks": 3633183,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "92e75b2ebeb74b69952cc1cb0a6bd6f2",
+          "identity": {
+            "pid": 1991,
+            "start_ticks": 3633183,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 67.710261,
+          "watchdog_cpu": 0.7772410000000001,
+          "maxrss_kib": 15468,
+          "finished_utc": 1791676482.8206954
+        },
+        "terminal_wait4_cpu": 68.489525,
+        "completed_utc": 1791676482.852343
+      },
+      {
+        "id": "f3cc9bc67701468da734e7d5ee05a50a",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 40,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676448.4856548,
+        "identity": {
+          "pid": 2058,
+          "start_ticks": 3636623,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "f3cc9bc67701468da734e7d5ee05a50a",
+          "identity": {
+            "pid": 2058,
+            "start_ticks": 3636623,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 36.727573,
+          "watchdog_cpu": 0.352354,
+          "maxrss_kib": 15472,
+          "finished_utc": 1791676485.8028877
+        },
+        "terminal_wait4_cpu": 37.081803,
+        "completed_utc": 1791676485.8121924
+      },
+      {
+        "id": "54e8fb3841f74ed1b91463ddc5339c6a",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 45,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676482.8681715,
+        "identity": {
+          "pid": 2128,
+          "start_ticks": 3640062,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "54e8fb3841f74ed1b91463ddc5339c6a",
+          "identity": {
+            "pid": 2128,
+            "start_ticks": 3640062,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 41.660961,
+          "watchdog_cpu": 0.379544,
+          "maxrss_kib": 15472,
+          "finished_utc": 1791676525.004102
+        },
+        "terminal_wait4_cpu": 42.042584,
+        "completed_utc": 1791676525.0377812
+      },
+      {
+        "id": "70a114f1d1624ff593c815076467b254",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 20,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676485.8177056,
+        "identity": {
+          "pid": 2159,
+          "start_ticks": 3640357,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "70a114f1d1624ff593c815076467b254",
+          "identity": {
+            "pid": 2159,
+            "start_ticks": 3640357,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 17.751485,
+          "watchdog_cpu": 0.151527,
+          "maxrss_kib": 15684,
+          "finished_utc": 1791676503.857508
+        },
+        "terminal_wait4_cpu": 17.904792,
+        "completed_utc": 1791676503.8915899
+      },
+      {
+        "id": "51fb4b913eca4028b4b4680744722df5",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 6,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676503.9013727,
+        "identity": {
+          "pid": 2228,
+          "start_ticks": 3642165,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "51fb4b913eca4028b4b4680744722df5",
+          "identity": {
+            "pid": 2228,
+            "start_ticks": 3642165,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 3.7462340000000003,
+          "watchdog_cpu": 0.030414,
+          "maxrss_kib": 17096,
+          "finished_utc": 1791676507.7827327
+        },
+        "terminal_wait4_cpu": 3.778332,
+        "completed_utc": 1791676507.8022003
+      },
+      {
+        "id": "28a2bcfab3184876912a520c13dcc0bf",
+        "kind": "worker",
+        "details": {
+          "n": 12,
+          "twist": "I",
+          "action": "prepare",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 6588,
+        "charge": 16,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676507.806201,
+        "identity": {
+          "pid": 2275,
+          "start_ticks": 3642555,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "28a2bcfab3184876912a520c13dcc0bf",
+          "identity": {
+            "pid": 2275,
+            "start_ticks": 3642555,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 13.703596,
+          "watchdog_cpu": 0.108432,
+          "maxrss_kib": 47864,
+          "finished_utc": 1791676521.7343047
+        },
+        "terminal_wait4_cpu": 13.813558,
+        "completed_utc": 1791676521.756493
+      },
+      {
+        "id": "42c340703b89456bb17690aa738ed015",
+        "kind": "worker",
+        "details": {
+          "n": 12,
+          "twist": "I",
+          "action": "run",
+          "cpu": 0,
+          "max_new_batches": 32
+        },
+        "reservation": 7320,
+        "charge": 7320,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791676521.7597332,
+        "identity": {
+          "pid": 2343,
+          "start_ticks": 3643951,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 9
+      },
+      {
+        "id": "65def719660e461fbb4dfd741eaaaf13",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 37,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676525.0454788,
+        "identity": {
+          "pid": 2353,
+          "start_ticks": 3644280,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "65def719660e461fbb4dfd741eaaaf13",
+          "identity": {
+            "pid": 2353,
+            "start_ticks": 3644280,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 33.94484,
+          "watchdog_cpu": 0.329434,
+          "maxrss_kib": 15472,
+          "finished_utc": 1791676559.4707482
+        },
+        "terminal_wait4_cpu": 34.27641199999999,
+        "completed_utc": 1791676559.507066
+      },
+      {
+        "id": "5e3f72f3b19f4aca9335298d7766a659",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 21,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676559.5146747,
+        "identity": {
+          "pid": 2437,
+          "start_ticks": 3647727,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "5e3f72f3b19f4aca9335298d7766a659",
+          "identity": {
+            "pid": 2437,
+            "start_ticks": 3647727,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 18.687643,
+          "watchdog_cpu": 0.219461,
+          "maxrss_kib": 15684,
+          "finished_utc": 1791676578.539143
+        },
+        "terminal_wait4_cpu": 18.909764999999997,
+        "completed_utc": 1791676578.5718582
+      },
+      {
+        "id": "7448a98463af45c59b65f56dd8c8ae30",
+        "kind": "worker",
+        "details": {
+          "n": 11,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7076,
+        "charge": 8,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676578.5809686,
+        "identity": {
+          "pid": 2497,
+          "start_ticks": 3649634,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "7448a98463af45c59b65f56dd8c8ae30",
+          "identity": {
+            "pid": 2497,
+            "start_ticks": 3649634,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 4.935824,
+          "watchdog_cpu": 0.064244,
+          "maxrss_kib": 17092,
+          "finished_utc": 1791676583.6871884
+        },
+        "terminal_wait4_cpu": 5.0014959999999995,
+        "completed_utc": 1791676583.7151575
+      },
+      {
+        "id": "a6297a8a5a2f44da98358ea26bb71a2a",
+        "kind": "worker",
+        "details": {
+          "n": 12,
+          "twist": "P",
+          "action": "prepare",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 6588,
+        "charge": 19,
+        "status": "COMPLETE",
+        "reserved_utc": 1791676583.7230952,
+        "identity": {
+          "pid": 2543,
+          "start_ticks": 3650148,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "result": {
+          "attempt_id": "a6297a8a5a2f44da98358ea26bb71a2a",
+          "identity": {
+            "pid": 2543,
+            "start_ticks": 3650148,
+            "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+          },
+          "runner_reaped": true,
+          "verified_wait4": true,
+          "wait_status": 0,
+          "child_cpu": 16.356038,
+          "watchdog_cpu": 0.182911,
+          "maxrss_kib": 47868,
+          "finished_utc": 1791676600.3550365
+        },
+        "terminal_wait4_cpu": 16.541789,
+        "completed_utc": 1791676600.3884795
+      },
+      {
+        "id": "7764ed460eda4473b9258faa94b14284",
+        "kind": "worker",
+        "details": {
+          "n": 12,
+          "twist": "P",
+          "action": "run",
+          "cpu": 1,
+          "max_new_batches": 32
+        },
+        "reservation": 7320,
+        "charge": 7320,
+        "status": "UNKNOWN_CHARGED",
+        "reserved_utc": 1791676600.4011254,
+        "identity": {
+          "pid": 2599,
+          "start_ticks": 3651815,
+          "boot_id": "d96d9ce7-a2de-4563-8bcf-9105f913462a"
+        },
+        "wait_status": 9
+      }
+    ],
+    "events": [],
+    "terminal_state": "EXTENSION_READY",
+    "extensions": [
+      {
+        "authorization_id": "root-20261011-cap-extension-21600-to-43200",
+        "old_limit": 21600,
+        "additional_budget": 21600,
+        "new_limit": 43200,
+        "retained_charge": 16207,
+        "old_terminal_state": "BUDGET_RESERVATION_EXHAUSTED",
+        "original_terminal_sha256": "9a6b8fe6944c06544247c07b04344e2258784cbfc722f902b3cc2b979d57f288",
+        "original_attempt_count": 61,
+        "original_attempts_sha256": "c560c2db41fe49eb7280708ac48b6830c370cb9b4168209132e8d3b2c748f21d",
+        "original_bindings_sha256": "cb531d0592eb43edcafa0089dcab10202206189b98102263f7740d078e598c46",
+        "new_bindings": {
+          "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_extension_gate/supervisor.py": "3d9cb0d7448a179fb0f5c7ea0e51e52dccf094977ac3134af6bea07bee80105f",
+          "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_extension_gate/hooks/sitecustomize.py": "2fa63c012c501949af9bc1fdfd658b2edc34d1f91811de1e0bffcc4182866c21",
+          "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b",
+          "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+          "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+          "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+          "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/MANIFEST_SHA256.json": "4a282841f56100a6ea99d20d9ce63a79309afe0d1ecdec12f39dee4f94013b68"
+        },
+        "deadline": 1791698400,
+        "recorded_utc": 1791677395.4723878
+      }
+    ],
+    "active_extension_bindings": {
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_extension_gate/supervisor.py": "3d9cb0d7448a179fb0f5c7ea0e51e52dccf094977ac3134af6bea07bee80105f",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_extension_gate/hooks/sitecustomize.py": "2fa63c012c501949af9bc1fdfd658b2edc34d1f91811de1e0bffcc4182866c21",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/campaign.py": "7f02d976b3766da8c26655fc535fbad54a8499f7e9d1794dee579475c4123d0b",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/kernel": "71f031051462d01924aa208fb8c345107b8fb54819d8532ae69b9920c5e26653",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/kernel.cpp": "d3b373d8623070ac526e1ae577f5b8e647650403a2b582545f00e1030f5cdde2",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/coefficients.txt": "9831df07e389a883e6ae6d3c85adddb4054ea1cca7d565afd4cf27f2a18c9474",
+      "/workspace/shared/haldane_active/research_20261010/uniform_second_thermal_campaign_gate/MANIFEST_SHA256.json": "4a282841f56100a6ea99d20d9ce63a79309afe0d1ecdec12f39dee4f94013b68"
+    }
+  },
+  "sha256": "1c70cbb5fff0924d283ebc134974eaab34c956f1344aea9ca5d82a6762bd280c"
+}
