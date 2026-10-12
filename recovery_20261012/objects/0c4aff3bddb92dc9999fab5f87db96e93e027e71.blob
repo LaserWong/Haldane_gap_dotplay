@@ -1,0 +1,5811 @@
+{
+  "status": "PASS",
+  "overview_data_sha256": "185b12c2912dbf62daea327ea027b546aa43fa8ffc4b8a448221b84db3133c7a",
+  "corruptions_rejected": 1451,
+  "cases": [
+    {
+      "test": "scope status",
+      "rejected": true
+    },
+    {
+      "test": "scope previous_stage35_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "scope new_gap_rows",
+      "rejected": true
+    },
+    {
+      "test": "scope total_main_gap_rows",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_combined_interval_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_combined_gap_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_combined_pieces_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_nested_interval_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_nested_gap_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_nested_pieces_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope physical_model",
+      "rejected": true
+    },
+    {
+      "test": "scope N64_rungs",
+      "rejected": true
+    },
+    {
+      "test": "scope N64_physical_spins",
+      "rejected": true
+    },
+    {
+      "test": "scope N64_Hilbert_dimension",
+      "rejected": true
+    },
+    {
+      "test": "scope preparation_dimension",
+      "rejected": true
+    },
+    {
+      "test": "scope retained_numerator_states",
+      "rejected": true
+    },
+    {
+      "test": "scope new_full_N64_H3",
+      "rejected": true
+    },
+    {
+      "test": "scope new_N64_Ritz",
+      "rejected": true
+    },
+    {
+      "test": "scope new_gap",
+      "rejected": true
+    },
+    {
+      "test": "scope physical_gap_exclusion",
+      "rejected": true
+    },
+    {
+      "test": "scope independent_Cartesian_operator_implementation",
+      "rejected": true
+    },
+    {
+      "test": "scope independent_Cartesian_physical_Gram",
+      "rejected": true
+    },
+    {
+      "test": "scope common_physical_inputs_and_pair_convention",
+      "rejected": true
+    },
+    {
+      "test": "scope source_review_is_not_numerical_execution",
+      "rejected": true
+    },
+    {
+      "test": "scope postcalibration_audits_reexecuted_native",
+      "rejected": true
+    },
+    {
+      "test": "scope small_complete_physical_rungs",
+      "rejected": true
+    },
+    {
+      "test": "scope small_complete_stream_rungs",
+      "rejected": true
+    },
+    {
+      "test": "scope small_physical_q4_counts",
+      "rejected": true
+    },
+    {
+      "test": "scope small_physical_q6_counts",
+      "rejected": true
+    },
+    {
+      "test": "scope small_origin_q4_counts",
+      "rejected": true
+    },
+    {
+      "test": "scope small_origin_q6_counts",
+      "rejected": true
+    },
+    {
+      "test": "scope localized_scalar_comparisons",
+      "rejected": true
+    },
+    {
+      "test": "scope producer_translation_comparisons",
+      "rejected": true
+    },
+    {
+      "test": "scope N32_sample_q4",
+      "rejected": true
+    },
+    {
+      "test": "scope N32_sample_q6",
+      "rejected": true
+    },
+    {
+      "test": "scope N64_sample_q4",
+      "rejected": true
+    },
+    {
+      "test": "scope N64_sample_q6",
+      "rejected": true
+    },
+    {
+      "test": "scope total_crossimplementation_targets",
+      "rejected": true
+    },
+    {
+      "test": "scope fields_per_target",
+      "rejected": true
+    },
+    {
+      "test": "scope controls_per_target",
+      "rejected": true
+    },
+    {
+      "test": "scope fifth_control_signed",
+      "rejected": true
+    },
+    {
+      "test": "scope only_m_bra_term_may_skip_zero_m",
+      "rejected": true
+    },
+    {
+      "test": "scope N32_legacy_reference_Tnorm_only",
+      "rejected": true
+    },
+    {
+      "test": "scope selected4x2_control_only",
+      "rejected": true
+    },
+    {
+      "test": "scope complete4x2_matrix_independently_accepted",
+      "rejected": true
+    },
+    {
+      "test": "scope distinct4x4_physical16_matrix_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope denominator",
+      "rejected": true
+    },
+    {
+      "test": "scope scalar_denominator_power",
+      "rejected": true
+    },
+    {
+      "test": "scope A3_Hprime_coefficient",
+      "rejected": true
+    },
+    {
+      "test": "scope full_N64_origin_counts",
+      "rejected": true
+    },
+    {
+      "test": "scope full_N64_schedule_intervals",
+      "rejected": true
+    },
+    {
+      "test": "scope full_schedule_executed",
+      "rejected": true
+    },
+    {
+      "test": "scope future_producer_chunk_controls_only_Tnorm",
+      "rejected": true
+    },
+    {
+      "test": "scope future_checker_chunk_controls_all6",
+      "rejected": true
+    },
+    {
+      "test": "scope full_stream_record_count",
+      "rejected": true
+    },
+    {
+      "test": "scope calibration_parser_limit",
+      "rejected": true
+    },
+    {
+      "test": "scope colex_unique_coverage_source_proved",
+      "rejected": true
+    },
+    {
+      "test": "scope full_runtime_coverage_not_established",
+      "rejected": true
+    },
+    {
+      "test": "scope ten_jobs_PASS",
+      "rejected": true
+    },
+    {
+      "test": "scope individual_resource_receipts_PASS",
+      "rejected": true
+    },
+    {
+      "test": "scope all_recorded_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "scope terminal_state",
+      "rejected": true
+    },
+    {
+      "test": "scope terminal_cost_gate_PASS",
+      "rejected": true
+    },
+    {
+      "test": "scope terminal_unconditional_resource_PASS",
+      "rejected": true
+    },
+    {
+      "test": "scope terminal_failure",
+      "rejected": true
+    },
+    {
+      "test": "scope recorded_numerical_retries",
+      "rejected": true
+    },
+    {
+      "test": "scope stage36_retained_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope worker_charge",
+      "rejected": true
+    },
+    {
+      "test": "scope guards_charge",
+      "rejected": true
+    },
+    {
+      "test": "scope coordinator_charge",
+      "rejected": true
+    },
+    {
+      "test": "scope coordinator_reservation_state",
+      "rejected": true
+    },
+    {
+      "test": "scope coordinator_prepaid_is_live_job",
+      "rejected": true
+    },
+    {
+      "test": "scope historical_pilot_charge_separate",
+      "rejected": true
+    },
+    {
+      "test": "scope combined_retained_H3_charges",
+      "rejected": true
+    },
+    {
+      "test": "scope workers_measured_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope guards_measured_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope coordinator_prewrite_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope measured_components_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope reserved_final_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope measured_plus_reserved_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope exact_terminal_CPU_known",
+      "rejected": true
+    },
+    {
+      "test": "scope measured_plus_tail_is_strict_upper_bound",
+      "rejected": true
+    },
+    {
+      "test": "scope failure_save_check_false",
+      "rejected": true
+    },
+    {
+      "test": "scope traceback_teardown_unmetered",
+      "rejected": true
+    },
+    {
+      "test": "scope final_global_monotonic_timestamp_persisted",
+      "rejected": true
+    },
+    {
+      "test": "scope global_host_process_inspection_claim",
+      "rejected": true
+    },
+    {
+      "test": "scope comprehensive_end_to_end_CPU_meter",
+      "rejected": true
+    },
+    {
+      "test": "scope producer_cost_allowance",
+      "rejected": true
+    },
+    {
+      "test": "scope checker_cost_allowance",
+      "rejected": true
+    },
+    {
+      "test": "scope producer_forecast_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope checker_forecast_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope both_forecasts_reject",
+      "rejected": true
+    },
+    {
+      "test": "scope phase_forecast_multiplier",
+      "rejected": true
+    },
+    {
+      "test": "scope forecasts_are_runtime_bounds",
+      "rejected": true
+    },
+    {
+      "test": "scope forecasts_are_scientific_moments",
+      "rejected": true
+    },
+    {
+      "test": "scope unused_calibration_allowance_reusable",
+      "rejected": true
+    },
+    {
+      "test": "scope source_members",
+      "rejected": true
+    },
+    {
+      "test": "scope packet_members",
+      "rejected": true
+    },
+    {
+      "test": "scope compiler_structural_roles",
+      "rejected": true
+    },
+    {
+      "test": "scope compiler_structural_with_controls_MiB",
+      "rejected": true
+    },
+    {
+      "test": "scope native_AS_MiB",
+      "rejected": true
+    },
+    {
+      "test": "scope combined_MiB",
+      "rejected": true
+    },
+    {
+      "test": "scope producer_N64_peak_RSS_KiB",
+      "rejected": true
+    },
+    {
+      "test": "scope checker_N64_peak_RSS_KiB",
+      "rejected": true
+    },
+    {
+      "test": "scope scientific_stop_utc",
+      "rejected": true
+    },
+    {
+      "test": "scope hard_stop_utc",
+      "rejected": true
+    },
+    {
+      "test": "scope terminal_42000_restart_allowed",
+      "rejected": true
+    },
+    {
+      "test": "scope successor59000_separately_authorized_parent_report",
+      "rejected": true
+    },
+    {
+      "test": "scope successor59000_authorization_parent_report_utc_minute",
+      "rejected": true
+    },
+    {
+      "test": "scope successor59000_outputs_excluded",
+      "rejected": true
+    },
+    {
+      "test": "scope successor59000_latest_parent_report_utc_minute",
+      "rejected": true
+    },
+    {
+      "test": "scope successor59000_parent_report_status",
+      "rejected": true
+    },
+    {
+      "test": "scope successor59000_failure_packet_excluded",
+      "rejected": true
+    },
+    {
+      "test": "scope new_implementation_and_assembly_outside_boundary",
+      "rejected": true
+    },
+    {
+      "test": "scope origin32_m4_resource_status",
+      "rejected": true
+    },
+    {
+      "test": "scope origin32_m4_failure_repaired",
+      "rejected": true
+    },
+    {
+      "test": "scope all_old_seals_and_exceptions_preserved",
+      "rejected": true
+    },
+    {
+      "test": "scope new_scientific_computations_by_overview",
+      "rejected": true
+    },
+    {
+      "test": "scope latest_verified_remote_main",
+      "rejected": true
+    },
+    {
+      "test": "scope latest_remote_readcheck_UTC",
+      "rejected": true
+    },
+    {
+      "test": "scope remote_publication",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row0 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row1 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row2 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row3 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row4 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row5 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row6 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row7 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row8 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 name",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 worker_CPU_cap",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 worker_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 terminal_guard_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 guard_tail_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 wall_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 wait4_peak_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 conservative_combined_RSS_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 observed_max_processes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 all_children_reaped",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 survivors",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_jobs row9 resource_source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row0 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row0 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row0 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row1 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row1 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row1 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row2 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row2 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row2 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row3 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row3 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row3 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row4 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row4 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row4 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row5 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row5 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row5 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row6 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row6 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row6 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row7 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row7 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row7 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row8 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row8 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row8 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row9 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row9 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row9 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row10 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row10 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row10 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row11 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row11 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row11 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row12 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row12 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row12 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row13 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row13 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row13 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row14 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row14 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row14 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row15 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row15 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row15 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row16 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row16 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row16 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row17 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row17 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row17 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row18 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row18 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row18 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row19 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row19 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row19 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row20 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row20 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row20 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row21 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row21 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row21 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row22 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row22 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row22 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row23 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row23 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row23 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row24 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row24 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row24 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row25 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row25 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row25 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row26 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row26 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row26 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row27 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row27 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row27 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row28 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row28 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row28 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row29 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row29 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row29 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row30 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row30 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row30 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row31 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row31 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row31 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row32 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row32 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row32 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row33 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row33 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row33 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row34 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row34 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row34 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row35 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row35 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row35 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row36 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row36 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row36 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row37 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row37 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row37 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row38 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row38 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row38 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row39 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row39 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row39 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row40 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row40 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row40 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row41 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row41 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row41 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row42 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row42 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row42 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row43 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row43 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row43 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row44 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row44 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row44 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row45 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row45 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row45 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row46 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row46 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row46 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row47 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row47 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row47 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row48 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row48 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row48 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row49 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row49 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row49 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row50 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row50 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row50 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row51 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row51 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row51 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row52 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row52 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row52 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row53 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row53 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row53 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row54 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row54 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row54 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row55 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row55 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row55 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row56 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row56 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row56 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row57 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row57 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row57 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row58 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row58 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row58 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row59 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row59 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row59 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row60 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row60 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row60 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row61 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row61 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row61 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row62 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row62 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row62 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row63 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row63 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row63 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row64 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row64 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row64 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row65 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row65 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row65 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row66 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row66 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row66 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row67 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row67 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row67 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row68 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row68 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row68 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row69 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row69 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row69 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row70 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row70 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row70 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row71 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row71 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row71 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row72 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row72 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row72 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row73 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row73 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row73 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row74 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row74 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row74 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row75 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row75 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row75 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row76 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row76 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row76 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row77 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row77 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row77 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row78 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row78 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row78 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row79 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row79 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row79 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row80 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row80 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row80 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row81 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row81 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row81 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row82 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row82 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row82 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row83 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row83 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row83 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row84 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row84 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row84 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row85 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row85 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row85 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row86 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row86 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row86 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row87 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row87 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row87 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row88 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row88 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row88 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row89 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row89 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row89 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row90 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row90 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row90 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row91 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row91 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row91 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row92 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row92 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row92 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row93 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row93 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row93 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row94 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row94 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row94 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row95 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row95 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row95 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row96 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row96 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row96 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row97 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row97 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row97 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row98 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row98 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row98 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row99 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row99 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row99 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row100 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row100 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row100 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row101 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row101 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row101 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row102 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row102 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row102 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row103 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row103 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row103 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row104 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row104 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row104 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row105 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row105 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row105 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row106 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row106 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row106 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row107 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row107 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row107 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row108 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row108 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row108 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row109 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row109 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row109 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row110 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row110 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row110 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row111 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row111 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row111 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row112 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row112 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row112 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row113 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row113 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row113 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row114 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row114 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row114 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row115 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row115 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row115 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row116 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row116 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row116 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row117 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row117 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row117 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row118 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row118 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row118 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row119 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row119 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row119 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row120 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row120 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row120 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row121 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row121 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row121 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row122 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row122 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row122 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row123 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row123 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row123 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row124 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row124 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row124 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row125 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row125 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row125 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row126 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row126 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row126 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row127 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row127 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row127 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row128 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row128 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row128 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row129 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row129 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row129 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row130 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row130 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row130 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row131 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row131 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row131 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row132 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row132 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row132 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row133 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row133 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row133 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row134 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row134 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row134 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row135 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row135 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row135 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row136 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row136 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row136 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row137 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row137 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row137 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row138 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row138 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row138 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row139 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row139 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row139 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row140 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row140 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row140 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row141 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row141 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row141 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row142 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row142 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row142 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row143 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row143 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row143 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row144 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row144 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row144 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row145 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row145 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row145 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row146 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row146 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row146 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row147 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row147 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row147 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row148 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row148 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row148 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row149 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row149 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row149 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row150 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row150 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row150 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row151 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row151 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row151 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row152 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row152 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row152 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row153 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row153 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row153 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row154 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row154 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row154 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row155 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row155 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row155 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row156 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row156 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row156 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row157 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row157 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row157 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row158 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row158 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row158 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row159 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row159 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row159 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row160 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row160 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row160 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row161 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row161 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row161 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row162 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row162 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row162 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row163 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row163 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row163 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row164 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row164 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row164 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row165 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row165 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row165 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row166 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row166 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row166 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row167 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row167 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row167 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row168 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row168 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row168 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row169 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row169 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row169 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row170 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row170 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row170 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row171 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row171 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row171 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row172 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row172 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row172 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row173 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row173 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row173 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row174 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row174 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row174 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row175 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row175 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row175 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row176 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row176 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row176 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row177 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row177 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row177 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row178 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row178 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row178 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row179 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row179 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row179 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row180 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row180 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row180 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row181 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row181 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row181 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row182 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row182 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row182 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row183 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row183 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row183 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row184 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row184 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row184 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row185 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row185 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row185 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row186 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row186 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row186 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row187 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row187 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row187 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row188 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row188 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row188 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row189 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row189 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row189 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row190 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row190 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row190 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row191 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row191 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row191 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row192 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row192 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row192 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row193 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row193 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row193 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row194 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row194 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row194 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row195 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row195 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row195 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row196 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row196 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row196 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row197 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row197 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row197 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row198 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row198 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row198 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row199 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row199 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row199 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row200 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row200 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row200 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row201 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row201 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row201 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row202 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row202 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row202 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row203 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row203 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row203 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row204 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row204 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row204 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row205 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row205 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row205 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row206 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row206 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row206 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row207 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row207 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row207 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row208 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row208 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row208 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row209 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row209 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row209 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row210 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row210 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row210 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row211 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row211 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row211 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row212 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row212 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row212 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row213 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row213 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row213 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row214 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row214 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row214 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row215 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row215 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row215 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row216 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row216 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row216 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row217 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row217 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row217 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row218 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row218 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row218 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row219 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row219 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row219 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row220 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row220 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row220 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row221 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row221 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row221 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row222 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row222 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row222 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row223 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row223 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row223 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row224 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row224 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row224 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row225 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row225 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row225 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row226 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row226 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row226 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row227 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row227 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row227 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row228 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row228 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row228 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row229 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row229 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row229 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row230 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row230 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row230 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row231 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row231 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row231 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row232 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row232 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row232 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row233 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row233 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row233 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row234 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row234 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row234 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row235 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row235 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row235 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row236 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row236 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row236 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row237 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row237 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row237 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row238 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row238 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row238 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row239 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row239 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row239 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row240 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row240 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row240 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row241 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row241 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row241 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row242 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row242 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row242 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row243 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row243 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row243 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row244 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row244 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row244 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row245 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row245 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row245 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row246 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row246 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row246 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row247 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row247 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row247 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row248 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row248 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row248 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row249 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row249 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row249 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row250 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row250 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row250 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row251 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row251 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row251 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row252 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row252 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row252 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row253 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row253 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row253 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row254 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row254 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row254 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row255 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row255 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row255 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row256 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row256 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row256 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row257 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row257 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row257 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row258 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row258 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row258 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row259 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row259 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row259 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row260 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row260 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row260 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row261 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row261 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row261 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row262 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row262 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row262 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row263 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row263 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row263 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row264 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row264 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row264 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row265 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row265 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row265 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row266 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row266 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row266 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row267 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row267 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row267 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row268 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row268 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row268 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row269 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row269 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row269 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row270 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row270 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row270 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row271 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row271 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row271 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row272 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row272 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row272 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row273 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row273 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row273 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row274 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row274 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row274 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row275 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row275 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row275 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row276 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row276 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row276 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row277 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row277 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row277 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row278 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row278 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row278 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row279 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row279 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row279 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row280 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row280 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row280 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row281 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row281 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row281 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row282 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row282 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row282 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row283 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row283 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row283 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row284 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row284 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row284 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row285 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row285 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row285 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row286 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row286 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row286 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row287 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row287 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row287 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row288 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row288 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row288 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row289 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row289 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row289 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row290 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row290 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row290 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row291 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row291 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row291 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row292 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row292 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row292 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row293 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row293 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row293 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row294 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row294 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row294 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row295 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row295 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row295 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row296 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row296 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row296 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row297 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row297 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row297 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row298 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row298 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row298 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row299 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row299 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row299 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row300 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row300 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row300 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row301 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row301 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row301 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row302 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row302 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row302 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row303 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row303 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row303 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row304 eight_fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row304 controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_samples row304 sites",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row0 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row0 N",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row0 fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row0 controls",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row0 bnorm",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row0 bottom_norm",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row0 A2",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row1 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row1 N",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row1 fields",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row1 controls",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row1 bnorm",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row1 bottom_norm",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row1 A2",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_controls row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row0 fixture_rungs",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row0 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row0 full",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row0 q4_total",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row0 q6_total",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 fixture_rungs",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 q",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 rank_start_inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 target_count",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 rank_end_exclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 chunk_size",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 cumulative_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 chunk_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 T_norm_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 fixture_rungs",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 q",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 rank_start_inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 target_count",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 rank_end_exclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 chunk_size",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 cumulative_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 chunk_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 T_norm_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 fixture_rungs",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 full",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 T_norm_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 norm_controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 nop_apply_calls",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 nop_apply_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 translation_fixture_checks",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 nop_metadata",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 target_partials",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 N",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 d",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 partial",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 q4_processed",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 q6_processed",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 q4_scale",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 q6_scale",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 q4_cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 lookups",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 T_nonzero_M_zero_supports",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 scalar_cache_bytes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 R_cache_bytes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 q4_cache_bytes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 ready_bytes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 setup_cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 r_cache_cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 q4_cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 q6_cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 peak_rss_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row3 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row4 fixture_rungs",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row4 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row4 full",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row4 q4_total",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row4 q6_total",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row4 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 fixture_rungs",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 q",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 rank_start_inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 target_count",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 rank_end_exclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 chunk_size",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 cumulative_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 chunk_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 T_norm_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row5 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 fixture_rungs",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 q",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 rank_start_inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 target_count",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 rank_end_exclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 chunk_size",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 cumulative_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 chunk_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 T_norm_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row6 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 fixture_rungs",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 full",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 T_norm_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 norm_controls_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 nop_apply_calls",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 nop_apply_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 translation_fixture_checks",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 nop_metadata",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 target_partials",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 N",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 d",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 partial",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 q4_processed",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 q6_processed",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 q4_scale",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 q6_scale",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 q4_cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 lookups",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 T_nonzero_M_zero_supports",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 scalar_cache_bytes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 R_cache_bytes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 q4_cache_bytes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 ready_bytes",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 setup_cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 r_cache_cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 q4_cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 q6_cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 cpu_seconds",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 peak_rss_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage36_small_streams row7 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row0 role",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row0 planning_total_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row0 allowance_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row0 excess_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row0 ratio_to_allowance",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row0 passed",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row1 role",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row1 planning_total_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row1 allowance_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row1 excess_CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row1 ratio_to_allowance",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row1 passed",
+      "rejected": true
+    },
+    {
+      "test": "stage36_forecasts row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row0 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row0 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row1 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row1 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row2 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row2 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row3 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row3 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row3 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row4 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row4 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row4 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row5 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row5 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row5 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row6 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row6 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row6 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row7 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row7 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row7 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row8 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row8 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row8 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row9 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row9 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row9 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row10 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row10 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row10 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row11 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row11 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row11 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row12 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row12 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row12 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row13 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row13 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row13 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row14 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row14 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row14 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row15 component",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row15 value",
+      "rejected": true
+    },
+    {
+      "test": "stage36_accounting row15 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row0 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row0 status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row0 CPU_charge",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row0 charged_here",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row1 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row1 status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row1 CPU_charge",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row1 charged_here",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row2 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row2 status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row2 CPU_charge",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row2 charged_here",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row3 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row3 status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row3 CPU_charge",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row3 charged_here",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row3 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row4 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row4 status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row4 CPU_charge",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row4 charged_here",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row4 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row5 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row5 status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row5 CPU_charge",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row5 charged_here",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row5 source",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row6 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row6 status",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row6 CPU_charge",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row6 charged_here",
+      "rejected": true
+    },
+    {
+      "test": "stage36_history row6 source",
+      "rejected": true
+    },
+    {
+      "test": "historical root alias 0",
+      "rejected": true
+    },
+    {
+      "test": "historical root alias 1",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 0 member_base_path",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 0 canonical_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 0 copied_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 1 member_base_path",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 1 canonical_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 1 copied_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 2 member_base_path",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 2 canonical_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 2 copied_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "old claim changed",
+      "rejected": true
+    },
+    {
+      "test": "invented cubic gap",
+      "rejected": true
+    },
+    {
+      "test": "cost rejection reversed",
+      "rejected": true
+    },
+    {
+      "test": "full H3 falsely accepted",
+      "rejected": true
+    },
+    {
+      "test": "omitted source",
+      "rejected": true
+    },
+    {
+      "test": "changed source",
+      "rejected": true
+    },
+    {
+      "test": "changed package",
+      "rejected": true
+    },
+    {
+      "test": "packet namespace moved",
+      "rejected": true
+    },
+    {
+      "test": "archive dropped",
+      "rejected": true
+    },
+    {
+      "test": "transport lost",
+      "rejected": true
+    },
+    {
+      "test": "external tools misbound",
+      "rejected": true
+    }
+  ]
+}

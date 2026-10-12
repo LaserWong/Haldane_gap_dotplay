@@ -1,0 +1,420 @@
+# Research restart — 10 October 2026
+
+## Authorization and scope
+The user resumed research from GitHub and requested ongoing main updates and reports every five hours. The confirmed stop time is 13 October 2026, 20:00 America/New_York (14 October 00:00 UTC). A later pause supersedes this schedule.
+
+Baseline: main commit 6be889a30f642bde77fb89af75b3a7379615bed1. GitHub AGENTS.md, README and historical pause records were read. The exported working tree passed all 1,149 original manifest hashes. Historical checkpoint files remain unchanged.
+
+## Initial work queue (historical; current priorities are in the latest milestone) 
+1. Independently reconstruct stronger alternating spin-1 chain certificates at g=0.1, 0.125, 0.15. Verify exact local forms, full sparse residuals, completeness and finite-size bridges.
+2. Independently reconstruct optimized ordinary-bilayer g=0.01 and g=0.02 inputs and recursion, including finite-size interpolation and short-size bounds.
+3. Independently certify the fully frustrated J=0.3 reference with unequal straight/cross couplings, initially epsilon=0.005. Check occupancy counting, star inequalities, exact residuals and all-size scope.
+4. Prove and numerically validate a full-low-band residual/completeness method, targeting the ordinary-bilayer g=0.03 ground-only-tail obstruction.
+
+Save new scripts, exact results and reviews in the corresponding subdirectories. Keep rigorous proofs, exact arithmetic, independent checks, floating benchmarks and unverified candidates explicitly separate.
+
+## Resource and verification policy
+Use the available cloud filesystem and computation environment. There is no authorized desktop executor or saved cloud coding environment in the current environment catalog. Limit each numerical lane to two CPU cores and about 2 GB RAM, BLAS threads one. Avoid duplicate long runs. Estimate cost and retain checkpoints before extending calculations.
+
+Each published result must state Hamiltonian, normalization, parameters, boundary multiplicities, integer-size scope, full Hilbert dimension, trial dimension, residual/tail certification, executable reproduction command and independent audit status. Do not call a sufficient tested parameter value a maximum.
+
+## Reports and end checkpoint
+Regular reports begin 10 October 18:15 EDT and recur every five hours through 13 October 16:15 EDT. At 20:00 EDT on 13 October stop computations, save reproducible results and partial work, update main and report remaining tasks. New work after this deadline requires a further user request.
+
+## Milestone update — 13:46 EDT / 17:46 UTC
+
+The initial three independent audits and all-size bridges are complete. The ordinary bilayer g=.03 now passes the new full-low-band and number-sector-tail route, with independently reviewed all-size gap .009195338283. Stronger chain points through g=.16125 and the specified-method obstruction at .1615 are audited. The FF one-product-state interval through epsilon=.00475 is certified.
+
+Current priorities: larger-seed exact ground moments and translated low band; independent verification of later scalar improvements; interval certificates beyond the existing FF continuum range; bounded spin2 heat benchmarks and error proof. Completed physical audits should be reused rather than rerun without a change. Progress and caveats remain in each result directory and CURRENT_STATUS.json.
+
+## Milestone update — 14:10 EDT / 18:10 UTC
+
+The larger-seed 4x4/8x4/8x8 ordinary-bilayer certificates at g=.03/.04/.05 and all-size bridges passed independent reconstruction. The complete 193-state low band and 29-dimensional ground search fit the 128-spin largest seed without full diagonalization. The FF continuous interval now reaches epsilon=.00855 with independent exact endpoint, residual, tail and finite-window verification.
+
+Spin2 kernels passed independent L3/L4 and exact-error audits, but full L10 traces cost roughly 847–1034 core-hours and the current scalar startup screen is unsuccessful. Do not start that campaign before obtaining a viable scalar route and an explicit affordable budget.
+
+The simplified inverse-moment/sector-Temple variant has also passed independent all-size review, yielding .282017228092/.180632156388/.104475599844.
+
+Next: derive practical trial-size/seed-size acceptance and exclusion criteria, independently audit small-seed all-temperature obstructions, and test g=.06 with reused moments before planning a second dressed triplet layer. Keep new work in separate directories from frozen inputs.
+
+## Milestone update — 14:24 EDT / 18:24 UTC
+
+The g=.06 temperature-first bootstrap, rigorously transported to the canonical staircase, passes independent physical, exact arithmetic and all-size review with gap .099555868340. No larger search space was needed. Practical trial-size budgets and fixed-six-vector residual floors are independently accepted. At .04/.05 the fixed canonical small-seed ladder is independently excluded at every beta, even with exact physical traces.
+
+Next: independently verify the new bosonic pair-creation tail estimate, test all-order extensions of the small-seed obstruction, and verify the spin2 finite-moment counterexample before considering any expensive heat inputs. Second dressed-triplet support expansion remains deferred while cheaper exact improvements are assessed.
+
+## Milestone update — 14:40 EDT / 18:40 UTC
+
+Bosonic pair-creation and stable quadratic-reference proofs passed independent audit. The global recombination review verifies 36 patch records and 35 successful certificates, yielding .318085460990/.235117964607/.171822115684/.103487228301 at g=.03/.04/.05/.06 for every integer L>=2. The same-order baseline comparison isolates the effect of tail tightening from order transport. All six fixed small-seed orders are now independently excluded at every beta for .04/.05.
+
+Next priorities: prove and independently verify the reduced-input txy implementation in which the largest trace is numerator-only and needs only a Rayleigh lower trace certificate; compare its one-state numerator with the existing full band; test temperature-first chain candidates with saved physical inputs; perform bounded .07/.08/.10 bilayer tests. Spin2 full traces remain deferred while ratio startup is unresolved.
+
+## Milestone update — 15:10 EDT / 19:10 UTC
+
+The ordinary-bilayer entire interval 0<=g<=.07 passed independent exact physical-moment, polynomial, tail, scalar and all-integer-size review, with uniform gap .001945771244. The chain temperature-first method now covers g=.175 with gap .006791087005 for all M>=2. The reduced-largest-input proof passed strict minimal-data and poisoned-extra-file tests: the earlier one-ground-numerator version only needs largest G/K, with no largest residual or completeness calculation.
+
+Next: finish independent full-ground-pencil and combined filtered-numerator scalar reviews; the combined .08 point is a candidate until its all-size seal. Extend the continuous interval with fixed polynomial moment witnesses. Inspect analogous chain filters using saved inputs before any large support expansion. Preserve the cheaper G/K-only path separately because the optional filter consumes existing higher moments. Spin2 full traces and second dressed-triplet large supports remain deferred.
+
+## Stage 6 independent acceptance
+
+Full-ground moment pencils, implicit Rayleigh filters and all-size recombination have passed independent reviews. The discrete ordinary-bilayer certificate reaches g=.08 with gap .023243965748; dropping largest odd numerator terms gives .023241913957. The continuous interval reaches .078 with uniform .001945771244. All producer snapshots remain immutable; the separate review reports determine the accepted status.
+
+Next: exploit rigorously preserved joint trace ratios when transporting direction orders, compare repeated time-first cycles, and test .09 using analytically justified coupling-polynomial moments. The analogous chain joint-ratio extension is under exact verification. Retain the previously certified results while these proposals are reviewed. No expensive full spin2 heat-trace campaign or second dressed-triplet support expansion has begun.
+
+## Milestone update — 2026-10-10 17:08 EDT / 2026-10-10 21:08 UTC
+
+Stage 6 is published and remotely verified at commit 00593ba445c26b1da625c9afe618e85a2550f70e. All 1,435 snapshot entries match, with 3,390 outside files preserved. The following newer inputs have independently passed review and are being prepared for the next publication.
+
+The ordinary bilayer now has an entire [0,.085] certificate with gap .001945771244 for every integer L≥2. The ground-only part reaches .082. The final pieces add 49/97 denominator low states with total trial dimensions 59/125. The largest physical seed remains 128 spins with one retained numerator and search dimension at most 30. The discrete .085 point gives .027887084487 after repeated time-first cycles, with every earlier size window kept.
+
+The alternating spin-1 chain reaches g=.2 with gap .043446395688 for every integer M≥2. A 13-dimensional bare small-patch comparison and full residual Gram avoid requiring an isolated entire low band. The weighted dimer complement includes quintets at energy 3.
+
+The independently checked nonperturbative assessment separates the uniform-Heisenberg D26 recipe limitations from the AKLT parent reference. AKLT has a D=2 exact state and local 81-dimensional positivity certificate, yielding gap≥.1 at every periodic L≥5 under its projector normalization. Its current thermal-transfer sufficient condition fails, so this reference is not presented as a thermal-bootstrap extension.
+
+Next priorities are the exact higher numerator moment and 43-dimensional search at g=.09, refined smallest-seed joint-constraint obstructions, and few-state seed-size screens for uniform spin-1 at n=10,12. Each has a separate producer and independent review. No full spin-2 campaign or q≥8 physical expansion is scheduled. Ordinary authorized main synchronization continues without asking again for each batch.
+
+## Milestone update — 2026-10-10 17:28 EDT / 21:28 UTC
+
+Stage 7 is remotely verified at fb38f57548c86d9dda19450e68cbbedbafd6765a. All 805 new or changed entries match and 4,822 pre-existing paths outside the inventory are preserved.
+
+Exact third-moment contraction and a 43-dimensional largest search with one retained numerator state certify g=.09 with gap .027330086079 for all integer L≥2. Seven new closed pieces extend the whole continuous interval to [0,.09], preserving uniform gap .001945771244. The physical contractions, counted denominator spectra, directed scalar replay and all finite-size windows have separate independent seals.
+
+Uniform-chain fixed D26 screens now have independently accepted all-temperature obstructions at n=6,8,10,12,14,16,20 under their explicitly specified recipes. Compact exact excited-state contractions avoid full physical support expansion at n=24. The three-state n=24 screen leaves the closed temperature window [13/2,45/4]; this is not a successful seed certificate. A longitudinal fourth state and displacement-resolved momentum states are under separate investigation. The alternating-chain 67-dimensional small reference gives new candidates above g=.2, pending independent scalar review.
+
+Next: publish the stable stage 8 scope, finish independent review of the stronger chain comparison, tighten the n=24 necessary screen with more orthogonal low-energy witnesses, and identify the trace-upper information required for a successful nonperturbative seed. Do not substitute a bounded numerical scan for an all-temperature exclusion. No full spin-2 spectral campaign is scheduled.
+
+## Milestone update — 2026-10-10 17:46 EDT / 21:46 UTC
+
+Stage 8 is published and verified at 609894b496a4deb519eaa2df1507e69f3aec6b67. All 425 snapshot files match remote hashes and 5,624 outside paths remain unchanged. The 1D-to-2D explanation is published with explicit startup, transfer, partial-data and omitted-spectrum conditions.
+
+The alternating-chain 67-dimensional small reference has independent all-size certificates at g=.21/.22/.225, with bounds .101607534008/.065580452251/.045509923956. The maximum physical seed remains M=8 and its numerator input is unchanged. Larger-reference g=.25 diagnostics have separate pending review and are not a new gap certificate.
+
+At n=24 in the uniform spin-1 chain, exact displacement contractions and certified Fourier algebra give 70 orthogonal trial states with bond dimension at most 52. Total-spin singlet structure is proved at this finite size from an exact zero norm, and normalized lowering supplies all spin components. The strongest accepted fixed-recipe necessary screen still leaves beta in [539/64,339/32]. A compact two-vector current-operator extension is being benchmarked independently of these frozen results.
+
+The g=.1 bilayer diagnostic is independently accepted as a scoped input-sensitivity analysis. Available moments sharpen ground lower endpoints without reaching startup on the tested grid. The 8×4 denominator remains the tested bottleneck. An exact hard-core pair commutator may supply the complete new residual without enumerating q=8 supports; its local fixtures have passed and the separate physical producer/reviewer are active. This is not yet a g=.1 certificate.
+
+## Milestone update — 2026-10-10 18:00 EDT / 22:00 UTC
+
+Stage 9 is published at 46f6c7348d7fb1bc67ba05991f10988bee7dd155; all 391 entries verified and 6046 outside paths preserved. New independently accepted bilayer residual data give the g=.1 point bound .038976038275 for all integer L≥2. A complete q=8 norm is obtained exactly from q≤6 contractions using the signed hard-core commutator. No term is discarded. The new 8×4 ground search is 43-dimensional; total denominator trial dimensions are 59/139 and retained bands remain 49/97.
+
+Ten independently reviewed closed intervals extend the full range to [0,.1], preserving uniform gap .001945771244 over 66 pieces. Final interval review manifest is d6eb3e4ce912086fe66dc1eb2917c3ae7381bc6a527a939b99229b97b863f3e5.
+
+The chain rank 195 comparison and denominator-independent obstruction at g=.25 are independently accepted within the specified old M8 span and first-window recipe. Its exact necessary numerator target guides new finite-dimensional searches; it is not a general minimum-size or gaplessness theorem. Uniform-chain pi-current contractions are checkpointed and under independent algebra/fixture review, with a measured one-core computational cap.
+
+Next: publish the stable stage 10 scope and scheduled 22:15 UTC report, continue the two pending numerator/current refinements, and independently audit each new claim before inclusion. The research stopping time remains 2026-10-13 20:00 New York.
+
+## Stage 11 milestone — 2026-10-10 18:25 EDT / 2026-10-10 22:25 UTC
+
+Stage 10 is remotely verified at f89164be50de9b5e868d08b80bd178eaca4b9a1a. The scheduled report was sent at 18:15:12 EDT / 22:15:12 UTC; the next is 23:15 EDT / 03:15 UTC on October 11. This is a local stage11 preparation record, not a remote publication claim.
+
+The [direct integer-window audit](integer_window_refinement_review/PROOF.md) accepts alternating-chain g=.21/.22/.225 gaps .107424972/.071581253/.051807500 for all integer M>=2. At g=.25 the accepted .01 gap covers only M=2..16. Its exact lemma uses even n, a<=T(n,beta), b<=S(n,2beta), b>1/2, and w=(1+sqrt(2b-1))/2: odd M uses a^(M/n)[w^(M/n)-(1-w)^(M/n)], even M uses (aw)^(M/n), giving a²sqrt(2b-1) on n<=M<=2n. It requires the reviewed self-adjoint Hilbert–Schmidt transfer and positivity of all integer physical traces; no size-purity monotonicity or time/space relabeling. The [producer prose erratum](integer_window_refinement_review/PRODUCER_PROSE_ERRATUM.json) changes the stated purity from >.542 to >.54167130 without changing numerical certificates or frozen files.
+
+The [prior rank4](chain_m8_numerator_review/README.md) and [new rank9/13/17 numerator audits](chain_numerator_pair_block_review/README.md) accept exact physical Rayleigh/rank calculations and only their scoped old-route exclusions. Inherited rounded psi/u are not exact singlets or translation/reflection eigenvectors. Exact symmetry applies only to the five added pair/vacuum directions and pair-derived H descendants. The explicit [scope erratum](chain_numerator_pair_block_review/SYMMETRY_SCOPE_ERRATUM.md) confirms that existing full-space denominator and arbitrary-vector Rayleigh certificates remain valid.
+
+[Uniform transfer moments](uniform_transfer_moment_review/README.md) at beta=21/2 and energy shift a=700741/500000, conditional on inherited physical heat certificates and self-adjoint transfer identification, improve the normalized trace caps to 1.238492320537 and 1.131484383792, with no new gap. The [current MPS review](mps_commutator_review/REVIEW.md) is fully PASS, including all 74 independently contracted integers and trial-energy difference .4238202243082572. This is not a physical excitation gap. Its 70/73-state old-recipe exclusions, [n18/n22 completion](mps_seed_even_completion_review/REVIEW.md), and [direct-window relaxed continuation audit](mps_direct_window_review/REVIEW.md) supersede old n24 unresolved windows. Every even n6..24 is individually covered for the specified G initialization, whole-cycle delays and same-base sufficient closure or joint-aware canonical continuation, even with finite bridges granted free. No exact physical-purity bound, arbitrary adaptive switching exclusion, all-method minimum seed, or physical gaplessness is claimed.
+
+The ordinary-bilayer entire [0,.1] bound .001945771244 and discrete .1 bound .038976038275 are unchanged. Earlier g=.1 diagnostic failure records are historical and superseded by those accepted proofs; original files remain untouched.
+
+Next priorities:
+1. The [cooled uniform-chain audit](uniform_cooled_seed_review/REVIEW.md) has now reached final independent acceptance (18:27 EDT / 22:27 UTC): n60 gap .0102 for every integer L>=60, n56 gap .0068 for L>=56, n54 gap .0025 for L>=54, each with a unique ground state. Review manifest: a5b5f3b35d67f69f555455143e8e5c70beaff46aba2469705c3e22eb7c00a5d7. The nine heat traces and self-adjoint transfer identity are inherited audited inputs, not freshly recomputed. D26 matrices and exact contractions at 104/108/112/120 were independently reconstructed; all finite integer windows and asymptotic closures pass. n60 improves the existing size, n56 uses original quadratic-tail structure, n54 adds generalized sector powers. Further work must separately review any smaller-size bridge; no claim below L54 or of a minimum seed, and no no-go theorem from failed n52 floating tests.
+2. Test the certified rank17 chain numerator with the new direct integer-window route, within bounded computation. A g=.25 all-size result still needs every subsequent integer window and asymptotic closure.
+3. Reuse accepted bilayer inputs for scoped stronger-coupling diagnostics. Keep spin2 full traces and large physical-support expansion deferred without a viable affordable route.
+4. Prepare the stage11 overview and publication, retaining all previous rows and clearly separating finite-size results, exact trial calculations, recipe exclusions and unaccepted candidates.
+
+Strict stop: 2026-10-13 20:00 America/New_York (EDT), 2026-10-14 00:00 UTC. Stop research computation and save final reproducible/partial checkpoints then; a later pause takes precedence.
+
+Stage 11 reproduction transport: [lossless evidence materialization](../reproducibility/stage11_exact_evidence/README.md) maps 18 raw paths/nine unique contents to 21 gzip parts. From the repository root run `python3 reproducibility/stage11_exact_evidence/materialize.py --repo-root .` before original sealed-source checks or reproduction. The transport restores original bytes, paths and modes; producer/review seals remain unchanged. Clean hydration, original-seal replay, idempotence and corruption/safety tests passed.
+
+Stage 11 overview frozen at 22:32:43 UTC: [overview_stage11](overview_stage11/README.md), manifest 46691981a4e687d26cb5cff86b63c1355dd695f2c8957394d7b842b01576be7a. All 225 prior all-size rows are preserved within 228 rows; the finite g=.25 record and three uniform-chain large-size ranges remain separate. Final root status refresh: 2026-10-10 18:34 EDT / 2026-10-10 22:34 UTC. This is local preparation; remote publication is not asserted.
+
+The stage11 post-freeze read-only reproduction completed successfully at 22:34 UTC with its manifest unchanged. Root files are ready for publication QA; no remote publication is claimed here.
+
+## Stage 12 milestone — 2026-10-10 18:44 EDT / 22:44 UTC
+
+Stage 11 was published and remotely verified at commit 897e07867c612bd3222e8f71d3b15122cd7c733e, tree fb670620513109ec4d61a6dea06b52460c20269d. The user was notified at 22:43:20 UTC; the next regular report remains 03:15 UTC on October 11. This stage 12 section is local preparation, not a publication claim.
+
+The [n52 uniform-chain review](uniform_seed_frontier_review/REVIEW.md), manifest b71dfa41a851c509ec5bad6382f458ad6f51531934bbd90143ee9162779cbaf2, accepts gap>=.0038 and a unique ground state for every integer L>=52 under unit Heisenberg coupling. Exact Hermite majorants improve the envelope while reusing the same nine certified thermal inputs, accepted MPS104 and self-adjoint transfer premises; no new heat-trace job or physical contraction is implied. All early signed-integer windows and asymptotic closure pass. Preserve the stronger .0068 at L>=56 and .0102 at L>=60; .0025 at L>=54 remains a weaker historical result. No below52 or minimum-seed conclusion.
+
+The [2D direct-window review](bilayer_direct_window_review/PROOF.md), manifest 8e2726b4925b752fed9789dc43b3486229a626e4d7d07b45c1d6b5171d23f8c7, improves the ordinary-bilayer g=.1 point to .055807148827 for all integer square L>=2. The proper staircase a<=T(n,m;beta), b<=Sx(n,m;2beta), c<=Sy(2n,m;2beta) yields the gated rectangle lower bound a^4(2b sqrt(c)-1)sqrt(2b²sqrt(2c-1)-1). Both transfer directions, odd transverse widths, every preceding finite box, short sides and asymptotic closure are checked. It neither swaps temperature labels nor asserts all aspect ratios from dyadic boxes.
+
+The [66-piece continuation](bilayer_direct_window_continuation_review/README.md), manifest c9dadb17430a3523cda109599f3025ff62c7b9ebebacc2b9eb48acce2381e977, improves the whole [0,.1] lower bound to .004499695659. The [new frontier-point audit](bilayer_frontier_above_010_review/README.md), manifest d101b554ea00c044e148031ec4d073d10f6f757b78a019e5bc6502a67e086d05, certifies .1001/.1005/.101/.1015/.102 with gaps .054499712024/.049244008353/.040917096762/.029199965244/.016509932002. Frozen fixed_center metadata has an explicit erratum: the actual exact reconstruction is at z=.1. These point claims alone do not certify a continuous interval or the wider physical legality domain.
+
+The final [eight-piece interval extension](bilayer_frontier_interval_0102_review/README.md), manifest 45d651b0f68b840ed2c7a42978acd975d7789b69ad75acd3b4c21a9b74d2a7ed, accepts every real g in [.1,.102] with gap>=.013574634391 and the combined 74-piece range [0,.102] with gap>=.004499695659, for every integer square L>=2, unique ground state. Its 16 endpoints, 384 odd-mode checks, 68 finite windows, all short-size bounds and asymptotic witnesses pass. Explicit interior convexity/concavity replaces any gap-monotonicity assumption.
+
+[Original-source scope](uniform_source_scope_review/SOURCE_SCOPE.md) and [license/attribution](uniform_source_license_supplement/README.md) are published supplements. The original paper proves gap>(4/105)log(80/79) for even L>=60 and gap>log(20)/784 for even L>=2304. The new .0102 lower bound is about 21.2858 and 2.6694 times those constants on the respective common even scopes, not a ratio of physical gaps. Its transfer identity covers every integer n>=4, permitting the separately proved signed odd extension; do not attribute an odd-length gap theorem or n=2,3 transfer assertion to that source. The later archived .005908566393 for L>=1920 is not the original theorem.
+
+Next: prepare and verify overview_stage 12, then publication QA; keep the new stronger ranges and inherited source boundaries explicit. Further smaller-seed or stronger-coupling proposals need separate exact review. Do not rerun accepted physical inputs without a reason. Strict research stop remains October 13 20:00 EDT / October 14 00:00 UTC; next regular report remains October 11 03:15UTC.
+
+Stage 12 [overview](overview_stage12/README.md) frozen at 22:48:34 UTC, manifest 39c5b539217441e82c36186411f6604cb2ff260a9ebac47962fb4a0b8c203803, with 61 files. It preserves the prior 228 all-size records within 311 records, with four separate uniform-chain large-size records and one finite-chain record. The current coupling cover has 74 closed pieces through .102. Post-freeze read-only replay passed at 22:50:31 UTC with all sealed files unchanged; no remote publication is claimed.
+
+Stage 12 root files finalized at 2026-10-10 18:50 EDT / 2026-10-10 22:50 UTC, after successful overview replay, for publication QA.
+
+## Stage 13 milestone — 2026-10-10 19:11 EDT / 23:11 UTC
+
+Stage 12 is remotely verified at 340bef8be2de4649e8e6271bdbe6d70c063dcdae. The latest publication notice was 22:59:06 UTC; the scheduled report remains October 11 03:15 UTC. Stage 13 is local preparation until separately published.
+
+The [actual g=.105 point review](bilayer_g0105_actual_point_review/PROOF.md), manifest 02cdd689b9bf4608b540a95316672708eb4691b56057ad8fb23082a930185c12, accepts gap>=.031673112867 and a unique ground state for all integer periodic squares L>=2. Its [16D 4×4](bilayer_16d_4x4_residual_g0105_review/PROOF.md) and [optimized 43D 8×4](bilayer_optimized_residual_g0105_review/PROOF.md) physical audits independently reconstruct complete residuals. Ground search dimensions 16/43, total trial dimensions 64/139 and retained low-band counts 49/97 differ; the largest 43D search retains one numerator term in physical dimension 2^128. These physical reviews alone do not prove an all-size gap; the actual point replay closes every window and uses no assumed target residual.
+
+[Seed-error budgets](bilayer_seed_error_budget_review/PROOF.md) concern chosen sufficient allocations and precise saved-subspace/Temple restrictions. They are not necessary conditions or universal obstructions. The actual 8×4 variance exceeds its selected component target yet the complete path succeeds. The selected g=.11 joint allocation is physically inconsistent and discarded.
+
+[Uniform moment optimality](uniform_moment_optimality_review/REVIEW.md) gives abstract fixed-moment information limits and integer-count spectra satisfying the input intervals and seam positivity; it does not provide quantum or cross-temperature realization, a physical gap or seed impossibility theorem. [MPS96/100 anchors](uniform_anchor96_100_review/REVIEW.md) separately accept exact negative shifted total Rayleigh quotients only, not thermal upper bounds or startup.
+
+[Fixed n48/n50 grammar exclusions](uniform_seed_recipe_minimum_review/REVIEW.md), manifest ff6500e7dacf713d601053c1abcaa0bf1d974bce1c895e96f1c1f2e62d923c56, cover only those two sizes, all 41 allowed even bases and all real cooling ratios r>=1. Fixed nodes/moments/caps, Hermite/packing and one fixed accepted MPS anchor feed canonical staggered sequential-G continuation. All 332 closed boxes fail by a genuine nonpositive update; analytic cold rays and ideal unrounded evaluation are included. No alternative initialization, time-first delay, adaptive permutation, reinitialization or smaller n<48 is included. Failure at 48/50 plus success at 52 does not prove 52 minimal, even in this grammar. Distinguish finite-size coverage onset from bootstrap initialization seed.
+
+The user clarified at 23:00:56 UTC that the original paper already uses certified matrix-polynomial thermal traces, not a full-ED premise. Keep that explicit in comparisons: these refinements reuse the same nine certified heat inputs and improve envelopes, anchors, recurrence or bridges. Ongoing adaptive initialization and D26 tensor feasibility are outside this stage's accepted scope.
+
+Next: the six-interval extension is now finally accepted as recorded below; finish stage 13 overview/reproduction and publication QA. Any new lower-size finite bridge requires an independent seal and must not be mislabeled as a new bootstrap initialization. Deadline remains October 13 20:00 America/New_York / October 14 00:00 UTC; regular report remains October 11 03:15 UTC.
+
+The final [six-interval extension review](bilayer_interval_0102_0105_review/PROOF.md), manifest 0c19177fdb91be54ba1892e5e3960e18a90e0ace9f11018018445368333eea9d, passed clean reproduction. Every real g in [.102,.105] has gap>=.017785998829; the combined 80-piece interval [0,.105] has gap>=.004499695659, for every integer square L>=2 with a unique ground state. Complete variance polynomials, 12 physical endpoints, 288 odd-mode checks and 50 finite windows are independently verified, without physical-gap monotonicity. Counts remain 16/43 ground searches, 64/139 total trial dimensions, retained 49/97, and one largest numerator in physical dimension 2^128.
+
+Final [uniform direct 48–96 window review](uniform_n48_direct_window_review/REVIEW.md), manifest 1f94ecf80d9674416d07b5ed47b2aa28642b62c8f235ec0a792c96c499c5ae17, accepts gap>=.0053 with a unique ground state for every integer 48<=L<=96. Together with the accepted n52 theorem this gives gap>=.0038 for every integer L>=48. The coverage onset is now 48, but bootstrap initialization remains 52; fixed n48/n50 canonical-startup exclusions remain valid. Direct inputs are T(48,21/2) and S(48,21), not the length96 thermal coordinate of canonical startup. Nine archived thermal certifications, analytic transfer identities and accepted MPS48/96 anchors remain inherited premises. No fresh contraction, provisional MPS50, adaptive startup, below48 or minimum-seed claim enters acceptance.
+
+Original-startup comparison correction (user clarification 23:19:41 UTC): [the original initialization proof](https://github.com/openai/math/blob/main/preprints/The-periodic-spin-one-Haldane-gap-September-24-2026/build/initialization.tex) already has a second route starting at n=36, beta=49/4, with 18 I/P thermal entries at lengths 4..12, reaching n=2304, beta=784 after six rounds. The n52 startup-size improvement is relative to the original first nine-input n60 route only, not all original recipes. The stronger .0102 certified bound and current coverage onset 48 remain valid and distinct claims. Original second-input totals are available, but those thermal columns were not independently rerun for this stage; new work on them is outside this publication.
+
+[Stage 13 overview](overview_stage13/README.md) is locally frozen with 67 files and manifest 25c5663d046405f58899a205df1edaa1bd5b3a42b327919b8c9475294a4944fa. It includes all 80 bilayer intervals, the separate finite 48–96 uniform window and composed L>=48 coverage, while retaining initialization 52. Post-freeze read-only reproduction passed at 23:21:17 UTC with all sealed files unchanged; no remote publication is asserted.
+
+Stage 13 root files finalized at 2026-10-10 19:21 EDT / 2026-10-10 23:21 UTC after successful overview replay. No further scientific additions enter this freeze.
+
+
+## Stage 14 milestone — 2026-10-10 19:46 EDT / 23:46 UTC
+
+Stage13 was published and remotely verified at 23:26:33.300 UTC: commit 0639f9d93a79d5ed521033383c135861fa925916, tree ec2eec712f4d5ba5107aac9a398d15c805fa28dc. The preceding local-preparation statements are historical snapshots, not current publication status. Stage14 remains local preparation until separate remote verification.
+
+The [stage14 overview](overview_stage14/README.md) is sealed with manifest 873769e3e99bf338a9b32548df20d89ecf7ce614aa3e68fad10035f91bf0d41e. It preserves every stage13 main result and separates conditional uniform results from locally accepted physical-input results. Independent scalar reviews derive .0046 and .0214 for every integer L>=36, unique ground, conditional on the eighteen published beta49/4 I/P integer-total/error certificates at lengths4..12 and the accepted72-site D26 anchor. Rational conversion of published totals, small fixtures and engineering kernel tests do not discharge a full local physical rerun. Keep locally accepted .0038 for L>=48, .0068 for L>=56 and .0102 for L>=60, with bootstrap initialization52. The original second route already initialized36; n52 is smaller only than the original first route60. Original certified matrix-polynomial thermal traces never required full ED; retain original attribution and license.
+
+New [bilayer short-size bounds](bilayer_short_bridge_refinement_review/PROOF.md) cover only integer square L2..7: [0,.15]/[0,.1525]/[0,.1528] give .050426624396/.006136044669/.000696608341. All-size[0,.105] and gap.004499695659 remain unchanged. The [complete4x4 H2 fixture](bilayer_residual_pencil_review/PROOF.md) is accepted; projected K G^-1 K is insufficient, sector pencil needs global ground identification and a full even-singlet cutoff. Full8x4 independent review is ongoing, outside stage14, with no new pencil gap.
+
+Campaign launch was authorized at 23:44 UTC. The verified producer snapshot at 23:45:56 UTC confirms running: 12/18 cases complete (L4 through9, both I/P seams), 222 batches saved, L10 I/P active on CPU1/0, 221 CPU seconds committed plus live conservative reservations within the 21600-second budget. This timestamped operational snapshot is not full physical validation. The sole state path is uniform_second_thermal_campaign_run. Enforce21600 aggregate CPU seconds including charged supervisor overhead, at most two single-core workers on CPU0/1,256MiB per worker tree, and stop no later than2026-10-11T06:00:00Z. Never reset the ledger, use an alternate state directory or start a second instance. The frozen supervisor PASS records zero thermal jobs; subsequent operational state belongs in root status and must not alter the sealed overview. Full physical acceptance remains pending.
+
+Next priorities: monitor resource/checkpoint evidence; finish full8x4 independent review separately; complete stage14 root/publication QA without merging evidence categories; retain bounded alternative-chain direct-window work. Next regular report remains2026-10-11T03:15:00Z. Entire research stops2026-10-14T00:00:00Z (October13 20:00 EDT), with final and partial checkpoints preserved.
+
+
+## Stage 15 milestone — 2026-10-10 20:10 EDT / 2026-10-11 00:10 UTC
+
+Stage 14 is remotely verified at commit e49d3e16bfab0ae7c9235f0edd4520106af49a1f, tree f118612ea2484dc9042f00db7ce628b8b5980c23 (2026-10-10 23:51:24.008 UTC). Prior local-preparation and running statements above are historical snapshots. The [stage15 overview](overview_stage15/README.md) is frozen at 00:08:41 UTC with 80 files, manifest 2313a7d3eac7852710a24bec3547e1fe3595d281c2e93ee03c16465ebdd1be5f; stage15 publication was subsequently verified at 00:21:42 UTC, as recorded in the publication update below.
+
+Independent reviews now accept full physical 43D and 57D 8×4 H′² matrices and the 21D 4×4 split fixture. The 8×4 physical Hilbert space is 2^64; trial-basis dimensions are not physical or MPS bond dimensions. Complete zero-M/nonzero-image terms, signed q8 and oriented cross blocks remain. Six exact shifted-ground lower endpoints at .11/.12 are accepted: 4×4 16D −.154352817352/−.184847038308; 8×4 43D −.308345263165/−.369360273562; 8×4 57D −.308343916563/−.369357992306 (display rounded downward). Separate global ground identification and full even-singlet r2 cutoff are required. Two target exclusions are scoped to fixed 43D/57D spans and fixed cutoff, not necessary startup conditions or general no-go results. Seven-temperature floating diagnostics are not exact all-temperature proofs. No new bilayer gap: all-size [0,.105] and gap .004499695659 remain unchanged.
+
+The [independent partial thermal audit](uniform_second_thermal_partial_review/OUTCOME_REVIEW.md), manifest 3cfb6832485aa051ca37cf7e4a10dcda54f5bb3bcaeb4597ae65a33f0eee4dc3, accepts all 16 complete L4–11 I/P cases and 990 saved batches (962 complete-case batches plus 28 incomplete L12 batches). Both L12 columns remain incomplete. Conditional .0046/.0214 for all integer L>=36 remain conditional; accepted .0038 for L>=48 and .0102 for L>=60 are unchanged. Preserve original second initialization36, first-input improvement60→52, and matrix-polynomial rather than full-ED premise.
+
+At this historical stage15 freeze, the campaign was TERMINAL, not running or resumed. Its historical 2026-10-10 23:59 UTC snapshot records BUDGET_RESERVATION_EXHAUSTED, 16207 CPU seconds charged and 5393 left, insufficient for the next 7320-second reservation. Failed/unknown charges of 14640 remain included. The runner120-second invocation boundary strongly explains observed SIGKILL; the review records no per-kill kernel diagnosis. Budget safety accounting held. Only design of an append-only total extension21600→43200 and boundary repair is authorized, preserving all charges/history. Independent repair review is pending; neither applying the extension nor resuming is authorized. Existing effective budget remains21600. Same fixed uniform_second_thermal_campaign_run path, two single-core workers on CPU0/1,256MiB per tree and2026-10-11 06:00 UTC deadline remain mandatory. No reset, refund, alternate directory or duplicate instance. Mutable outputs and pending repair work do not enter the sealed overview.
+
+Next: independently review repair and extension design before any separately authorized continuation; complete stage15 publication QA; investigate further bilayer closure only as bounded work with separate exact proofs. Keep archived stage14 and stage15 snapshots unchanged. Next regular report remains2026-10-11 03:15 UTC. Entire research stops2026-10-14 00:00 UTC / October13 20:00 EDT, with final and partial checkpoints saved.
+
+Stage15 post-freeze read-only replay passed at 2026-10-11 00:09:27 UTC: 66 seals, 4877 source entries, 194 corruption tests and 32 byte-identical exports. Root status finalized at 2026-10-10 20:11 EDT / 2026-10-11 00:11 UTC; no remote publication performed by this documentation update.
+
+
+## Post-stage15 operational update — 2026-10-10 20:20 EDT / 2026-10-11 00:20 UTC
+
+Stage15 publication uses its immutable snapshot captured at 00:13 UTC, including the old terminal root status; that snapshot and its seals are unchanged. Stage15 was subsequently published and verified at 00:21:42 UTC. This later operational update and repaired code/review remain separate publication work.
+
+The [independent repair gate](uniform_second_thermal_repair_review/REVIEW.md), manifest 74e56ac805d5f9f6e23c93171dcf1224b9c2ace62de05defbf5115101b64200c, passed. Application and resume were authorized at 00:16:28 UTC; execution resumed at 00:17 UTC. [Frozen repair code](uniform_second_thermal_extension_gate/README.md) uses at most eight batches with internal600 allowance, fixed metadata/compute caps5/35, and full L12 invocation reservation552. Its design-only source statement is a historical review status; this later authorization is separate. Scientific runner/kernel/checkpoint identities remain unchanged.
+
+Append-only total budget43200 preserves the original61 attempts and16207 chargedCPU seconds and all history in the same uniform_second_thermal_campaign_run directory. No old charge was reset or refunded. Keep two single-core CPU0/1 workers,256MiB per tree and2026-10-11 06:00 UTC wallstop. A subsequent terminal failure/exhaustion/deadline requires a new decision, not an automatic further extension.
+
+Verified producer snapshot at00:18:49UTC:16/18 complete cases remain; L12 I/P have28/21 saved batches;16543 CPU seconds committed, no new failures. First resumed I/P invocations ended normally at about71/84 CPU seconds. These are operational counts, not independent full-column acceptance. The historical990-batch partial audit and stage14/stage15 overview seals remain unchanged. Both L12 full physical certificates still require completion and independent audit, so conditional.0046/.0214 remain conditional.
+
+Next: monitor existing execution and exact checkpoints, publish this operational correction with repair review/code now that stage15 remote verification is complete, and independently review final physical outputs when available. Regular report remains03:15UTC; entire research stopsOctober14 00:00UTC / October13 20:00EDT.
+
+
+### Publication verification — 2026-10-10 20:25 EDT / 2026-10-11 00:25 UTC
+
+Stage15 main is verified at e2f2f536c4f7facdbf478ca6815c6ed88fcecab6, tree f92ccbce3c41ebe3c2bc8d15cc9a7b43ecfecf05, at2026-10-11 00:21:42.394 UTC. All1560 snapshot files match;5559 dependency entries were checked with one explicit published exception for the excluded empty operational campaign.lock (reproducibility/stage15_dependency_exceptions.json). All9166 outside files and27 original evidence-transport files are preserved. No GitHub Actions run exists for this commit; no CI pass is claimed. Immutable snapshots and earlier freeze receipts remain unchanged. The repaired producer/review and present operational root update are the next separate publication; no new physical completion or conditional-theorem promotion is implied.
+
+
+## Stage 16 milestone — 2026-10-10 20:59 EDT / 2026-10-11 00:59 UTC
+
+Latest verified main is the repair/resume commit852f5105c581ec45f5eab6b3a5301d23913e7e22, treed35bd40fdea67b2103c752f5e49e5101eefb273c, verified00:27:04.999UTC. The65-file/70-dependency snapshot preserved10723 outside files and27 transport files. [Stage16 overview](overview_stage16/README.md) is locally frozen with manifest 911fce0e47b5bff696187ac31524fbcb75096068ef2846e40472f5228ac36a7e; publication remains separate.
+
+Exact isotropic square-window and recurrence reviews strengthen the2D route without swapping purities on a fixed nonsquare rectangle. The [.105,.106] interval accepts gap.020881493369; [.106,.1065] accepts .019955613868. The combined82 closed pieces cover[0,.1065] with gap.004499695659 for every integer periodic squareL>=2 and unique full-Hilbert ground. Point.106/.1065 bounds are .020945510446/.021451810876. Exact gates, all preceding integer windows and asymptotic closure are verified; no physical-gap monotonicity is assumed.
+
+Dimensions are route-specific: .106 uses16/43 denominator searches and43 numerator, embedded within21/57 ambient matrices. The new .1065 route uses21/57 denominator searches and43 numerator. Retained counts stay49/97/1; largest physical dimension2^128 is unchanged. Finite g=.11 uses16/57 denominators and57 numerator, and certifies only2<=L<=32 with gap.020227124817. Two hypothetical ground32 improvements are not physical all-size certificates.
+
+Small4x2/5x2 m3/m4 fixtures and signed normal-ordering/scoped envelope limitations are independently accepted. Full8x4 m4 production remains cost-blocked:29230129152 raw tuple/support visits are counts, not a measured timing prediction. Do not run full production before compact-rule and sampled-cost gates; no new ground endpoint or gap follows from fixture acceptance.
+
+Thermal execution remains separately monitored in CURRENT_STATUS: cumulative43200CPU-second cap retains historical16207 charges, two workers onCPU0/1,256MiB per tree and06:00UTC wallstop. Only16/18 complete physical columns are independently accepted; bothL12 final certificates remain pending. Conditional.0046/.0214 for all integerL>=36 remain unchanged; locally accepted.0038 atL>=48 and.0102 atL>=60 remain separate. Preserve original second startup36, first-route60-to52 qualification and matrix-polynomial rather than full-ED premise.
+
+Next: complete stage16 publication QA; monitor existing thermal checkpoints and independently review final columns when available; test stronger bilayer closure only with exact physical inputs and full integer coverage; keep fullm4 cost gate. Next regular report03:15UTC; full research hardstop2026-10-14 00:00UTC / October13 20:00EDT. All historical overview/partial snapshots remain immutable.
+
+Read-only producer operational snapshot2026-10-11 00:55:28.946432 UTC confirms RUNNING:16/18 full cases complete; L12I301/733 andL12P222/733 batches;21037 CPU seconds committed plus1104 in two active552 reservations, within43200. Historical16207 charges retained, no post-extension failures. This snapshot does not independently certify the unfinished physical columns or promote conditional.0214.
+
+Stage16 post-freeze read-only replay PASS at2026-10-11 00:59:32 UTC:85 sealed files,76 review seals/5849 source entries,222 corruption tests,34 byte-identical exports. Root docs finalized after this verification; no remote publication performed by this documentation update.
+
+
+## Stage 17 milestone — 2026-10-10 21:27 EDT / 2026-10-11 01:27 UTC
+
+Stage16 is remotely verified at commit 5d799b8cdd3fa343030d394d20f8b56007b7944e, tree 3acf20ff8f0c906676d4e164ef5dbacbae5bb59b, verified 2026-10-11T01:27:31.124Z. Earlier local-preparation wording is historical. The [stage17 overview](overview_stage17/README.md) is frozen with manifest f4e281b0b923aca9996366f8d56730f88477bf0351e46282b8ea10e0ae4ceac0,90 files; post-freeze replay PASS01:16:21UTC,81seals/6656source entries,233corruption rejections,36identicalexports. Stage17 remote publication is pending.
+
+Two nested all-size bilayer certificates remain simultaneously valid: [0,.108] gap.004499695659 over86closed pieces, and[0,.10825] gap.000586405978 over88pieces, each unique full-Hilbert ground for every integer squareL>=2. Four new pieces[.1065,.108] give .005329481750; two[.108,.10825] give .000586405978. New points .10675/.107/.1075/.108/.10825 give .018514632200/.015448308603/.012576432653/.006236941481/.001585809758. No physical-gap monotonicity or interpolation from points is assumed.
+
+New searches use21/57 denominator and43 numerator dimensions, retained49/97/1, full physical2^32/2^64/2^128 unchanged. The g=.1085 saved-vector beta19/2 path fails atn128; finite floating beta-grid misses are not all-temperature or physical no-go results. g=.109 remains untested. Fixedz=-g/4 nearest-neighbor pair-product atg=.11 has independent variance floor.005461937241, not all-z/family exclusion or newgap. General8x4m4 remains cost-blocked;58Dq6 fixture production evidence awaits independent review, and full production is not started.
+
+Thermal snapshot01:16UTC:16 complete cases; L12I452/733,P338/733,23552CPU seconds committed including unchanged16207 historical charges. Total cap43200 leaves19648 before live reservations. Same ledger/two workers/256MiB/06UTC deadline. Partial progress does not promote conditional.0214 forL>=36; all18 physical certificates need independent final acceptance.
+
+Next: stage17 publication QA; monitor existing thermal execution and final physical review; independently audit low-cost58Dq6 fixture before any broader computation. Keep historical overviews immutable, original secondn36/first-route60-to52 qualification, and thermal-polynomial notfullED premise. Next regular report03:15UTC; entire research ends2026-10-14 00UTC / October13 20EDT.
+
+Stage16 remote verification used225 untruncated subtree reads and169 identical inherited subtree SHAs after the full recursive-tree transport closed; all1131 snapshot files,2952 dependencies and10785 outside files were still checked/preserved. This is verified remote data integrity, not a GitHub Actions result.
+
+
+## Stage 18 milestone — 2026-10-10 22:14 EDT / 2026-10-11 02:14 UTC
+
+Latest verified main is stage17 929eb6ba75cac14a53dab65a48a5aacc561c4f31, tree 72b3ef848ff231b89b84fe45bb9bdc554f0f27fc, verified01:37:30.681UTC. Stage18 overview is locally sealed 9bee857d7ffd20440048adef790f9b564b3a81d76673c206ed3ef80d1d4475c1; remote publication remains separate. Historical conditional records are not rewritten.
+
+Final [full thermal review](uniform_second_thermal_full_review/PROOF.md), seal792127565ad16526eeaa61add62bcc15db499578fc9d2157f11df27848867b94, accepts all18 physical inputs and2428 checkpoints, exact matrices/orbit coverage/integers/error intervals, both coarse and refined signed-moment mappings, and the separate72-site MPS anchor. Thus .0046 and strongest.0214 are now fully independently reproduced gaps for every integerL>=36, unique ground. The prior conditional thermal premises are discharged, without changing old scalar proofs. Original second seed36 and framework remain attributed to the original paper; no full-ED premise or smaller/minimum-seed novelty is claimed. On shared even scopes .0214 is about44.7times original first.0004791917031 and5.6times original asymptotic.003821087084, comparisons of proved bounds only. User notified02:06:54UTC.
+
+Campaign DONE: producer terminal01:57UTC,18/18cases,2428checkpoints,259attempts,27543/43200charged including unchanged16207 historical charges; no active attempts and no postrepair failures. Producer export17110955acc17821025bab5c1609706273510de6c8c2a31eb7184d693a9b9156 and terminal ledger remain immutable. Final review resolves the ledger's review-required label without modifying it. No ongoing thermal monitor or automatic restart is needed. Original two-worker256MiB,06UTC deadline and history are retained.
+
+Full58D physical row and [exact endpoint review](bilayer_residual_direction_58d_algebra_review/PROOF.md), seal917c9c32ff4d7ca045153de2778bddfb65684335c6a0549b2682251a09f9e90b, mathematically PASS. Finite8x4 ground endpoints atg=.1085/.11 gain only about5.775e-6/6.439e-6 over checked57D witnesses; four fixed-target exclusions are scoped. No new all-size bilayer gap. Producer algebra runtime compliance remains UNVERIFIED: a resumed child reported33.13448CPU seconds despite25cap and trustworthy whole-task upper bound is absent. Preserve its explicit resource addendum; mathematical acceptance and previous physical-runtime gate do not certify that optimization runtime. Active compiler work is excluded from stage18 accepted results.
+
+Bilayer[0,.108] gap.004499695659/86pieces and[0,.10825] gap.000586405978/88pieces remain intact. Next: publish stage18 with immutable full physical evidence; continue separately authorized compiler/higher-moment work under independent mathematical and runtime gates; avoid rerunning completed thermal inputs. Regular report03:15UTC; entire research stops2026-10-14 00UTC / October13 20EDT, saving complete and partial checkpoints.
+
+Stage18 post-freeze replay PASS2026-10-11 02:14:28 UTC:97files,87seals/7058review entries,2979thermal ZIP entries,250corruption tests and40byte-identicalexports. Root docs finalized after final replay; no remote writes from this update.
+
+
+## Stage 19 milestone — 2026-10-10 23:03 EDT / 2026-10-11 03:03 UTC
+
+Stage18 verified main 0bdca79b9f0ff24159d030b2e4e32ced08a60a16, tree 48c9916e7ca3871c6d7322810799a4a9e8a9937b,02:24:13.749UTC;834snapshot files,14002dependency checks,12870outside files and27transport preserved. Stage19 local overview manifest c3a433da85b34129895f86618e29c37e872f1ae8402521c2b329bda3f6109012; no remote publication yet.
+
+Accepted genuine second-input starts34/.0248,32/.0245,30/.0179 cover every integerL>=their start with uniqueground. D26 anchors68/64/60 use totalH0/N0+aL, no extraL factor; trialspan1,bond26,normtransfer676,physical3^L distinct. Finite28..56 gives coverage>=28/.0179, individual24..27 plus tail gives>=24/.0023. Final analyticL2gap2,L3gap1 and20directL4..23 certificates now compose gap.0023 and uniqueground for every integerL>=2. Actual bootstrap start stays30; no minimum-seed theorem. Stronger nested .0245>=32/.0248>=34 stay valid. User notified02:50:18UTC of allsize.0023, stronger nested bounds and true startup30; notification is not publication.
+
+Direct25 mathematics is accepted, but its reviewer resource compliance is NOT ACCEPTED:25.9614 processCPU seconds versus15authorized, no post-exec limit/externalwait4 evidence, cause unresolved. Do not relabel as wall time or suppress it. Prior58D producer algebra resource UNVERIFIED also persists. Finite-prefix guarded resource evidence is separate, not retroactive repair of direct25.
+
+Connected-rule and indexed-action reviews accept scoped local algebra/smallfixtures; empirical2716.66CPU-second action projection fails the180-second production target without proving universal infeasibility. Stronger26..33 work and300CPU whole-m4 fixture/sample gate remain active outside this accepted snapshot; full production is unapproved. Bilayer86piece[0,.108]/.004499695659 and88piece[0,.10825]/.000586405978 unchanged. Thermal18-input campaign is DONE, no rerun/restart.
+
+Next: stage19 publication QA; independently finish stronger finite-window certificates; run only approved fixture/sample gate with mathematical/resource acceptance kept separate. Preserve source attribution, original n36 second route, noED novelty, historical snapshots and resource anomalies. Regular report03:15UTC; strict research stop2026-10-14 00UTC / October13 20EDT with complete/partial checkpoints.
+
+
+### Stage19 final strengthening, superseding the preparatory scope above
+
+Final uniform_gap_0248_all_sizes_review seal5407745b521a61a310d89857da94c14a73fcc2093a80d467dc8f72e9fd31deaf accepts .0248 for every integerL>=2 with uniqueground: analytic2/3, strengthened4..25 using existing physical inputs, new independently contracted26..33 and the n34 tail. The strongest proof uses initialization34; smallest successful initialization30 still gives.0179 and is a separate claim. No minimum-seed theorem. The prior weaker.0023 global and nested records remain archived and valid. L26..33 is now accepted, not pending. Original-first/asymptotic bound comparisons are51.7538/6.49030 on common applicable scopes, with original framework/seed-design attribution and noED novelty. User notified02:57:05UTC, not a stage19 publication claim. Active300CPU m4fixture/sample gate and new self-contained proof guide remain outside stage19, full m4production unapproved.
+
+Stage19 final post-freeze replay PASS2026-10-11 03:04:04UTC,103sealed files,manifest c3a433da85b34129895f86618e29c37e872f1ae8402521c2b329bda3f6109012. Root docs finalized after final strong all-size acceptance and this replay; stage19 remote publication remains pending.
+
+
+## Stage20 milestone — 2026-10-10 23:43 EDT / 2026-10-11 03:43 UTC
+
+Latest stage19 verified main 3ec8d89e05676fffb0db54f09e59594fa4de4bd9,tree 3b8af211301a74666770f48a0186e4d8f1fafdc1,03:10:12.426UTC;560files/4047dependencies,13701outside files/27transport preserved. Stage20 checkpoint overview manifest de1e346d56f73dc638dba23e97845b8767ed9c6d3b85fe2f609642551e28b853; at document freeze the latest completed remote verification is stage19. Subsequent commit and verification receipt establish publication. Parent sent03:10:39UTC publication/progress report, covering scheduled03:15; next08:15UTC /04:15EDT. No later notification is asserted.
+
+Accepted proof guide78514331ec4e434bc633dc2c16520e371bace16e1559e32520aa08ceb095dfd1 and independent review566994b0b5b93324b53c4e1d1dc4e6b71e347dfe1be4f01da101140877ecfdf2 explain existing uniform.0248 allintegerL>=2 with unique finite-volume ground. No new input/gap or infinite-volume uniqueness theorem. Strongest n34tail, smaller n30/.0179, L24 parity/MPS48, original attribution and thermal-polynomial rather thanED premise remain explicit. Initial guide selfcheck30.21035921CPU vs30limit is not strict-compliance PASS; final60limit record25.746380744 is separate and no externalwait4/postexec-limit record is claimed. Earlier direct25/58D anomalies preserved.
+
+Near-uniform alternating review7c819d4758ee43bedba3298a15735d981f7b42ffeeabff40be8dd6a9e4e8bdf0 accepts exact closed[19999/20001,20001/19999] gap.015 and wider[12499/12501,12501/12499] gap.005 for everyintegercellM>=2,physicalL=2M,Hilbert9^M,unique finite-volume ground. Bond coefficients remain1,g includingg>1. Independent self-adjoint physicalcell kernel/comparison/scalar composition, no claimM1 or maximal interval. These near-g1 results are separate from old weak-dimerg<=.225 certificates and do not close the intervening range.
+
+Bilayer nested all-size gaps unchanged. Whole-m4 fixtures/sample await final independent scope;120CPU checkpoint hardening and PSD-cell strengthening hypothesis are active but unaccepted, fullproduction NOT APPROVED. Keep mathematical, runtime, checkpoint and cost claims separate. Thermal campaign completed; no restart.
+
+Next: finalize stage20 publication; review only authorized local/sample/hardening work, promote no PSD hypothesis without review. Next report08:15UTC; full research stops2026-10-14 00UTC /October13 20EDT, saving complete/partial evidence. Preserve every archival record.
+
+
+Stage20 final scope supersedes preparatory pending wording: positive-cell numerical reviewe80440ac87f53460f52c14535e2eb649388cfd3fae72fdff424a14fcf521dfa9 accepts8rows. Main closed intervals[19999/20001,20001/19999]/.020,[99993/100007,100007/99993]/.015,[199983/200017,200017/199983]/.010,[99991/100009,100009/99991]/.005 hold for everyintegerM>=2 with unit1,g and unique finite-volume ground. Cell16/physical32/MPS64 main seeds and oddcell15/17 ownMPS60/68 are distinguished;70windows/finiteWeyl bridges and120digit closure checked. Structuralpositive-transfer reviewabb8e04fa7478e939d18c831a3a4b201c0ec6baf9b8e3e494b5b867a4347f872 usesAA* across distinct history spaces, not self-adjoint products. Original two intervals remain valid.
+
+Whole-m4 reviewda9d659b68317702eec8db66beaa5ff3b21ffdb623ee3aa6b63663e86834f810 accepts complete algebra/six smallphysical fixtures/limited sample provenance, not full8x4moments. Independent64q6checkpoint reproduced; soft-stop prevented independent repeated-phase/finalq4total completion. Producer descendant detection/compileCPU/earlyhash gaps remain; independent repaired observer tests do not repair producer history. Review90/90reserved,49.784555 actualCPU, no refunds. Coldplanning~15065>10800 budget; fullproduction BLOCKED. Partial22read-only finding20c733a6af3bfa8592a30be064493c9b99080ed4511c7abaa3a84f4ac4c46f35 preserves missing adoption digests/controller-death reconciliation/aggregate-deadline-reservation forecasting and CAP-2 margin/variableg issues. Active24field/control hardening excluded; no new production authorization.
+
+Stage20 post-freeze replay PASS2026-10-11 03:43:27UTC:111sealed files,103reviewseals/7580entries,321guards,46byte-identicalexports. Active24/control and B² work remain excluded. At this document freeze, latest completed remote verification remains stage19; stage20 publication will be established by its commit and receipt.
+
+
+## Stage21 milestone — 2026-10-11 00:41 EDT / 2026-10-11 04:41 UTC
+
+As of freeze latest verified main is stage20 47a0c919d8c32f65e564ff7a5453a6eca3efd60c, tree ac73119766c9207bb92df0272bc3e862fe29f166,03:52:34.622UTC;832files3690dependencies,14257outside files27transport preserved. This checkpoint contains stage21 overview manifest 36e427dd2105465d40adf8b3d8c36cd76bff079b31a995bef1efa9837d847da4; subsequent commit/receipt establishes publication. Last user report04:00:12UTC; nextregular08:15UTC. No later notification claimed.
+
+FinalB² finite-bridge review4700be5942eac716532d52c82aef89e8508334e61da511b26f2dd75a7a2272c3 accepts four closed intervals[9998709/10001291,10001291/9998709]/.020,[1249773/1250227,1250227/1249773]/.015,[9997841/10002159,10002159/9997841]/.010,[156213/156287,156287/156213]/.005, allintegercellsM>=2,unit1,g,physicalL2M,unique finite-volume ground.39windows56finitebridges4tails independently checked; normalizedbeta/physicalbeta/c and ownMPS64 preserved. L24bridge is parity/MPS48, no ownMPS24. Earlier4B²rows and allstage20rows preserved, no optimal-radius or physicalodd-ring conclusion.
+
+PhysicalB² review independently reconstructs eleven D26 chargeblocks at32/64 and tinyphysical fixtures; trueGibbs normalized caps κ32<=17/125,κ64<=157/1000. This is not MPS=Gibbs or spectral truncation. Initial162→130 producerwrapper change/stoppedrun/corrected authorized retry remain preserved.
+
+Numerical24/control review3dc84b1b0909403e3555f19b5ae2035219bdc579c0f039043d07ee94b7f2355e COMPONENT_PASS: sixphysicalfixtures24fields/30KJpairs,2945syntheticrestart and one realvacuumchunk/controlfaults. Fullproduction remainsBLOCKED: externally pinned guard from processstart and accepted57D EXPECTED_M012 independently verified, plus explicit resourceauthority/jobidentity required. Active launchpackage excluded. No full8x4moments,gap or production run.106reviewreservedCPU preserved with all failed attempts.
+
+Restricted-cell proposal is producer-only, cell15/16/17 recipe did notclose; target.835 unachieved/counterfactual, no physicalg.9 seed/gap/no-go. Child30.397826CPU,charged30.697826 exceed30authorized,resourceNOT_ACCEPTED and stopped. All previous resourceexceptions and snapshots preserved. Uniform.0248/bilayernestedbounds/thermalDONE unchanged.
+
+Next: stage21publication QA; independent launchguard/exact57Dcontrolreview without assuming production permission. Nextreport08:15UTC; strict entiretaskstop2026-10-14 00UTC /October13 20EDT with complete/partial evidence saved.
+
+Root verification confirms122 stage21 sealed files match manifest36e427dd2105465d40adf8b3d8c36cd76bff079b31a995bef1efa9837d847da4. Frozen QA includes108reviewseals/8049entries,360guards,48exports. Active outer-launch and H²64 work remain excluded. No unverified post-freeze replay timestamp is asserted by this root update.
+
+
+## Stage22 milestone — 2026-10-11 02:01 EDT / 2026-10-11 06:01 UTC
+
+Latestverifiedstage21main 2d31755efbf0637cb15579ae52d4138b19326ab4,tree 26918c06761c3662552728f5b3cbc9755fd32524,05:01:48.711UTC;1188files8540dependencies15086outside27transport. Threehistoricalpin-path mappings explicit, no unverified postfreeze-render replay claim. Stage22overview a4babfd30903bdb8d6bfc14d19cfc05c88af5b792d37b7416b3be402fe8bf4a3,134files/117reviews11063entries/423guards/50renders. Publication follows commit/receipt. Lastuserreport05:02:17UTC,next08:15UTC.
+
+H²exact32/64variance acceptance improves trueGibbsκ32<=.0969,κ64<=.119. Intervalreview9df6aaa425575c48a02c01db41ab7f40e85817aa2e152b3d9b2d6e839b2d29df accepts closed[4999249/5000751,5000751/4999249]/.020,[9997911/10002089,10002089/9997911]/.015,[399901/400099,400099/399901]/.010,[399891/400109,400109/399891]/.005,allintegercellsM>=2 unique finiteground,unit1,g.37windows56bridges4tails,physicaltemperature/ownMPS64 preserved, nooddphysicalring/optimalradiusclaim. Oldintervals/uniform.0248/bilayernestedbounds unchanged.
+
+Bilayer100partial accepted coverageq0=1,q2=496,q4=1456,q6=0; fullm3/m4 andq6cost unknown. Rootapproved100to400token encountered emptyargv identity observation on nextsupervisor startup, before newcontroller/worker/innerreservation. Terminalreview968bd67feeaa98267d732816b43039ff275952cb8965d86122351c2f81059f39 accepts1036exportfiles and1021unchangedscience/checkpointfiles; correctPython/resource tuple with twoemptyargv samples, actual cause unestablished. No400checkpoint. Retainedcharges1208=716control+492worker, alloldfailed reservations kept. Scopedlaunch/watchdog/stableobserver/partialreview successes do not erase failures or imply completedmoments.
+
+Global21600resourceplan approved repartition16800standard/1800control/3000retry,carry716controls+retire492workers,retryremaining2508; forecast1626controls leaves174. Old1383forecast omittedfresh220launcher and1603exceedsold1600pool. Newarithmetic is not accepted newsource or newlaunchauthority. Boundedidentityrepairpending/outsidefreeze; the selected c2c9 snapshot was terminal at that review boundary; later authorization is recorded below. Completecoverage must still pass exact57Dcontrols/raw24/fullindependentphysicalreview.
+
+Next: stage22publication; reviewboundedrepair without resettingcharges or auto-launch. Thermal18inputcampaignDONE,no restart. Preserveallhistoricalseals/failures/resourcecaveats. Nextreport08:15UTC; strict entiretaskcutoff2026-10-14 00UTC/October13 20EDT with complete/partialcheckpoints.
+
+Operational correction at root freeze: c2c9 terminal gateFAIL is the Stage22 historical selected snapshot, not current launch authority. Successord43e was authorized2026-10-11 06:00:08UTC; producerfirst100 completed06:01:23UTC, independent checkpoint audit pending. Subsequent identityrepair acceptance/successor are excluded from the immutable Stage22 science snapshot. No production count is promoted to independent physical acceptance. Next: review the successor checkpoint with unchanged historical charges; no400 or fullmoments claim.
+
+
+## Stage23 checkpoint — 2026-10-11 04:39:37 EDT / 2026-10-11 08:39:37 UTC
+
+Stage22 main d17eadfb655c35eb325245d8660737b761db6b28, tree faebf2327efd955fbe212d65bced3c975f9ed782 was verified06:14:45.173UTC:3324 snapshot files,14996 dependencies,16271 outside files and27 transport files preserved. Stage23 is locally frozen at f8d730002f9c535733e3537351a4ac6c1386832f3d13cbcd6c22e615e3818c6b, not yet claimed remotely published. Last report08:20:01UTC; next regular13:15UTC.
+
+The selected boundary includes independent SUP10 composite gate50709 (source103aaf), all2263 recursive imported chains (852 original+1411 later native), failed6 and all no-refund history. It also preserves producer-only terminal2339 export 9c31acd97da5d6350dab0c810815c7f18d84dc46236364d4ee72ac0713ff71de with correction 287eca43e357f5590c93777b52bf177c1153a1a07f910995e283158a91ef8474. Original erroneous688c raw base1974 is retained; corrected688c/25dec1968,61338=1974,prospective wall1201980 do not change data or charges. Row2339 failed with reason worker_wall_or_absolute_deadline under configured wall22 while measured CPU was3.5534<6; actual wall elapsed is unrecorded and host-delay cause unproven. It has no adoptable successful commit. Supervisor5.76025<10, but session55 lacks controller SELF_CPU; last observed8.65 is not a complete receipt. Terminal charges3051 controls+15144 workers=18195; complete2945 moments and final170 scientific review are still missing. No new bilayer ground endpoint, gap or coupling interval follows.
+
+Approved internal cap24000=16800 standard+4200 control+3000 retry remains explicit. The subsequent60CPU wall120 metadata-only repair is outside this snapshot, with expected control carry3111 and no launch/result acceptance claimed here. Keep failed/partial attempts and nested original execution identities; do not relabel imports as physical reruns. All data ZIP member sets and nested ancestry are hash-bound; code and original manifests stay normal repository files. No mutable run tree is a publication dependency.
+
+Conditional Krylov design/exporter and corrected hypothetical all-size gaps .000094038987/.000131518777 are accepted as design only. Larger old prose values are terminal finite-window components; prior seals remain unchanged. Existing uniform .0248, four Stage22 alternating intervals and nested bilayer[0,.108]/[0,.10825] certificates are unchanged.
+
+Next: root final review and verified main publication of this partial checkpoint; separately review only authorized metadata repair, obtain exact new launch authority if warranted, and require complete immutable2945 export before the170CPU scientific audit. No automatic restart or gap promotion. Entire research stops2026-10-14 00UTC /October13 20EDT; save complete and partial evidence.
+
+
+## Stage24 point checkpoint — 2026-10-11 06:11:30 EDT / 2026-10-11 10:11:30 UTC
+
+Stage24 is locally frozen at 1b0d5a3f01ddbb0bad08b8f0f79bfd4249208a044a4482a9446d71bddb56641e. These root documents are separate prepared copies; original Stage23 root pins remain unchanged while publication authorization is unresolved. Latest verified main remains Stage22d17eadfb655c35eb325245d8660737b761db6b28 at06:14:45.173UTC. Last report10:02:57UTC; next fixed13:15UTC.
+
+Independent full-moment sealcf2c21 accepts all2945 rows,24 signed fields,m0–m4,full fixed-column polynomial pencil,6 independent small fixtures and19 same-kernel large samples. Independent C12seal6071a728 accepts actual shifted8×4 ground lower−.308038650784 and ordinaryg=.11 all-integer-squareL≥2 unique-ground gap.000131518777, alternate.000094038987. Finaltrial2D/preparation57D/physical2^64 remain distinct. All25 finite windows,two tails,L2–7bridge and48 odd modes were checked. No continuous interval follows.
+
+Production FAILED_ACCOUNTING_TERMINAL, unrecorded exception, missing outer57/session60 receipts and unknown watchdog63CPU persist. Production4197+18786=22983 retained; scientific review204 and downstreamA12+B24+failedC24+C12=72 are separate charged authorizations. The failed C24 serialization record5bf85bf7 is immutable; C12 changes no mathematics.
+
+Next: root review/seal and authorized verified publication. The separate continuous[.10825,.11] pilot must prove full coupling-uniform spectral/Temple premises, exact interval coverage, every finite bridge and tail; its mutable results are excluded here. Keep every old interval and failure. Stop all research2026-10-14 00UTC/October13 20EDT and save complete/partial evidence.
+
+
+## Stage25 continuous checkpoint — 2026-10-11 06:36:11 EDT / 2026-10-11 10:36:11 UTC
+
+Stage25 is locally frozen at 2c45819d10f530456ef62aabc826bfd4c43e75b4f86c9be04dd9fbec04e03d92. Separate copies only: Stage24 prepared copies and liveStage23 root pins stay unchanged. Latest remotely verified main remains Stage22d17eadfb655c35eb325245d8660737b761db6b28; GitHub blob approval is unresolved. Last user report10:23:47UTC; next fixed13:15UTC.
+
+Independentreviewde3f9129 resolves the Stage24 open continuous bridge: all realg∈[0,.11], all integer squareL≥2, unique ground and gap.0001. Fourteen exact adjacent closed pieces of width1/8000 join the prior88 pieces for102. Fifty variance coefficientPSD forms,48 odd families,79 finite windows,14tails andL2–7bridge pass. Analytic convexity/concavity and uniform full-sector/trace-tail bounds justify whole-piece extrema; point endpoints are not interpolated. Stronger nested intervals andg=.11point remain.
+
+Producerpilot24+cover36+failedreview60+authorizedrepair40=160 retained; proposed16 replacement unstarted/uncharged. Earlierpoint72 separate. ProductionFAILED_ACCOUNTING_TERMINAL and unknown/missing measurements persist. No new physical contraction or hidden enlarged basis.
+
+Next: root review/seal and separately authorized verified publication. Any>.11frontier diagnostic is excluded from this snapshot and has no accepted scientific claim here. Preserve all successes/failures and stop all research2026-10-14 00UTC/October13 20EDT.
+
+
+## Stage26 diagnostic checkpoint — 2026-10-11 07:22:08 EDT / 2026-10-11 11:22:08 UTC
+
+Stage26 is locally frozen at 39c5b54f1769ba203703e850d21423e252512604126d20cea9d6df784382f1e9. All357 positive gap records are unchanged; widest accepted real interval remains[0,.11]/.0001 for all integer squareL>=2. New accepted statements are scoped fixed-family/recipe exclusions and conditional targets, not physical gap closures or interval extensions.
+
+Frontier16 pairs at fourg/fourbeta; numerator16 conditional target brackets; independent57D rank and necessary-failure-threshold PD at fourbeta10 points; independent joint upper replay excludes simultaneous fixed2D r2-Temple denominator and57D Rayleigh numerator coefficient retuning, gamma>=1e-6 through<=24 cycles with remaining seed inputs fixed. Four joint failure-window indices are virtual scalar indices. No full ED, physical contraction, all-temperature or minimum-dimension theorem is claimed.
+
+Reservations48+48+24+24+40+40+12+12=248, no refunds. Frontier lookup failure and57D schema failure remain within their original review reservations. Producer scalar-target worker20.407048/20 failure remains despite aggregate20.730588/24; physicalFAILED_ACCOUNTING_TERMINAL and22983 charges remain separate. All stronger nested positive-gap certificates and source seals are preserved.
+
+The newvariance/lower-filter q8prototype and all its active outputs/failures are outside this boundary. Next: root final review/freeze and separately authorized publication. Prepared copies do not overwrite liveStage23 orStage24/25 copies. Latest remotely verifiedmainStage22d17eadfb655c35eb325245d8660737b761db6b28 at06:14:45UTC; GitHub blob approval unresolved. Last user report10:23:47UTC; next fixed13:15UTC. Stop all research2026-10-14 00UTC/October13 20EDT.
+
+
+## Stage27 filtered bridge checkpoint — 2026-10-11 08:08:58 EDT / 2026-10-11 12:08:58 UTC
+
+Stage27 is locally frozen at e1e9f4ec27a426609427b53de6f149646a6b895e19b6ba4fde19fe89f3b59f8f. Independent reviews24fa3538 and2487fe07 accept all realg∈[.108,.112]/.01 and joined[0,.112]/.004499695659, all integer squareL≥2 with unique ground.32 new exact closed leaves join86 strong old pieces for118;53+67 finite windows32 tails andL2–7bridge. Three.01 points and their10^-6 baselines remain separate records. There is no claim beyond.112.
+
+Physical filtering uses an exact lower bound on unknown full variance, with true filtered normalization retained. Fixed-g implicit plane≤2D, old57D family plus residual≤58D, one retained numerator state on128spins/2^128. Uniform q8-only lower bound, nonnegative Jacobi entrywise domination rather than Loewner order,52variancePSD forms,48odd modes and complete tails justify whole-leaf bounds. No complete64-rungm2 or full-support kernels ran.
+
+Failed20+20+20 startups all retained, attempts2/3 actualCPU unknown; producer24+review24→108, strongerpoint12+12→132, forward24+36+60→252, backward36+24→312. Oldinterval160, oldpoint72, diagnostics248 and production22983 remain separate. Target-worker overrun and FAILED_ACCOUNTING_TERMINAL persist. Direct historical source pins do not manufacture whole-directory failure seals.
+
+The earlier weaker[0,.112]/.0001 join uses102+16=118; the strong join uses86+16+16=118. Both histories are retained. New3DKrylov source-only work is excluded. Next: root final review/freeze, then separately authorized publication. Keep liveStage23 andStage24–26 copies unchanged. Latest remoteverifiedmainStage22d17eadfb655c35eb325245d8660737b761db6b28 at06:14:45UTC; GitHub blob approval unresolved. Last user report11:55:41UTC, next fixed13:15UTC. Stop all research2026-10-14T00UTC/October13 20EDT.
+
+
+## Stage28 diagnostic checkpoint — 2026-10-11 08:53:36 EDT / 2026-10-11 12:53:36 UTC
+
+Stage28 is locally frozen at a87cc4fed9be3a4e71d06d2eefa7c7ea94f52933d9a79b95744c8e2058b84bfe. It accepts the mixed-X cached package, four robust-completion3D brackets, fresh.113/.114 beta10 comparisons and18 additional temperature paths. No new gap rows: all400 Stage27 rows unchanged, including[0,.112]/.004499695659 and[.108,.112]/.01 for all integerL≥2 with unique ground.
+
+Four enclosures of one fixedX, not four physical moments.20 prescribed trials:12 improvements,4equal,4worse.3D robust upper only bounds the worst-completion surrogate, not trueX physical optimization. Total23 selected lower paths, not24; .115filtered2D beta10 absent. No all-beta/family/physical exclusion. .115robust beta10 firstn8 passes allfive levels; subsequentadvance-c fails, separately sealed erratum preserves originalincorrectprose. Physical64spin/full2^64/preparation57/final3D; numerator128spin/full2^128/implicitplane≤2/retained1, truevariance/normunknown.
+
+Retained mixed84+robust48+newpoints48+temperature48=228. Newpoint review failedleading./ lookup before science; corrected23 allowance insideoriginal24, incremental0. Allolderresourcefailures, missingactuals, production22983/FAILED_ACCOUNTING_TERMINAL retained. NewN64 exactvariance cost/16Doptimization proposals and later outputs excluded. No scientific programs run by overview. Root reviews beforefreeze; publication separate. Keep liveStage23 and everypriorrootcopy unchanged. LatestverifiedremoteStage22d17eadfb655c35eb325245d8660737b761db6b28 at06:14:45UTC. Lastscientificreport11:55:41UTC,nextfixed13:15UTC; hardstop2026-10-14T00UTC/October13 20EDT.
+
+
+## Stage29 consolidated checkpoint — 2026-10-11 10:20:42 EDT / 2026-10-11 14:20:42 UTC
+
+Stage29 is locally frozen at 067e316fef88ecaa497738bb99381b01c482929861821c3a4ef156773dec7e3e. New accepted intervals: all realg∈[0,.115]/.004499695659 and[.108,.115]/.01, every integerL≥2 uniqueground. New24leaf bridge[.112,.115]/.01 has105finitewindows24tails; ancestry86+16+16+24=142, nested16+16+24=56. Three optimized points separately accepted. All400 inherited mainrows plus30new=430; no positiveclaim beyond.115.
+
+Positive optimized/continuous certificates use universal cachedJlo≤J and sharper physical filterμ−s/(R−μ), not new completeN64H2. ComparisonRG−K is not physicalGram; transformed family≤57D, fixedvectorplane≤2, retained1. Wholeleaf quadratic minima include interiorvertices1,9,16; fixedwitness polynomials,48odd forms,complete tails/short-sizebridge. FullN64 campaign separately accepts seven physical blocks across39711q4/7028847q6 origin supports, signedq8 and complete57D matrix on128spins/full2^128. Its resource statusPASS does not repair old32rung m3/m4 FAILED_ACCOUNTING_TERMINAL.
+
+Fixedoldψ exactvariance comparisons are unresolved; small16 obstruction is only oldfrozen .113/beta10/gamma1e−6 ground16-only repair. Coarse .12 two rationalcandidates/64robustdecisions/two next-c-failingpaths; .125/.13 retainedodd prerequisites stop beforeproposals. No physical/all-beta/family exclusion. Retain allinitialseals, schemafailures, exactgain/AS/RSSreportingerrata. Chargespilot120+full3000+small16 48+Jlo48+fixed48+interval120+coarse72=3456. Algebra50 included3000, completionincrements0; measuredCPU snapshots not all-inclusive preparation/sealingmeters.
+
+Use explicit copied-manifest namespace alias and individually pinned noncircular SEAL_RECEIPT files. Allprioroverview/rootpins unchanged, liveStage23 preserved. Root reviews beforefreeze; postfreeze complete REPRODUCE required; GitHub publication separate and blockedpendingapproval. LatestremoteStage22d17eadfb655c35eb325245d8660737b761db6b28 at06:14:45UTC. Lastscheduledreport13:14:42UTC, latestsignificantuserupdate13:49:58UTC, nextfixed18:15UTC. Laterunselectedwork excluded. Hardstop2026-10-14T00UTC/October13 20EDT.

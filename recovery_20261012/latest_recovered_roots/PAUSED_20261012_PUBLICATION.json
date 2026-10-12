@@ -1,0 +1,49 @@
+{
+  "status": "PAUSED",
+  "user_instruction_utc": "2026-10-12T02:38:54Z",
+  "user_instruction": "上传完成后，先暂停研究这个Haldane gap的问题。",
+  "updated_at_utc": "2026-10-12T02:49:00.019029+00:00",
+  "updated_at_local": "2026-10-11T22:49:00.019029-04:00",
+  "research_launches_allowed": false,
+  "remaining_authorized_work": "Finish current repository upload, lossless transport checks, and remote verification only.",
+  "automatic_resume": false,
+  "resume_requires": "Explicit new user instruction; previous deadlines and reporting schedules do not resume research.",
+  "automatic_research_reports_enabled": false,
+  "publication_status": "PREPARING_UPLOAD_REMOTE_COMMIT_VERIFICATION_PENDING",
+  "last_verified_main": "d17eadfb655c35eb325245d8660737b761db6b28",
+  "frozen_science_overview": "research_20261010/overview_stage38",
+  "stage38_manifest_sha256": "6c28e29bab9f203adbaeadd960da44a9af048f12cc496b870ada4b21d37a2604",
+  "post_stage38_handoff": {
+    "handoff": "research_20261010/bilayer_haldane_poststage38_pause_handoff/PAUSED_HANDOFF.md",
+    "handoff_sha256": "d78ec3e2b44afb3a405430d473469a1685449d50e5a9efb8ab82d99c8e41dda3",
+    "manifest": "research_20261010/bilayer_haldane_poststage38_pause_handoff/POST_STAGE38_APPEND_MANIFEST.json",
+    "manifest_sha256": "61a7ff4a8a5dce9d4d050824ecd49043ea08a0aa175bd00a9db7a8ec25fe6fb2",
+    "assembly_receipt_manifest_sha256": "7221a22158a9d0651492a5c4b487f4b212aa7eacf79bea543fec862e80d50c01",
+    "scientific_review_manifest_sha256": "3bbb0d6b8da58f97bc31151139c546b61ee1105c672ae02cf6b57a86034cc2ed",
+    "resource_review_manifest_sha256": "7adfb1a674d61652aec8993c1d7be44a9dc02bdf5d5a9026b810696922ef7a46",
+    "status": "COMPLETE_FIXED_PREPARATION_H3_AND_RITZ_ACCEPTED_NO_NEW_GAP",
+    "bootstrap_g012_replay": "SOURCE_ONLY_NOTRUN_PAUSED_INCOMPLETE_CONTROLS_ENTRYPOINT_ADMISSION",
+    "retained_CPU": 75748,
+    "historical_pilot_CPU_separate": 240,
+    "measured_assembly_CPU_components": "3.033131",
+    "coordinator_terminal_CPU_tail": "unmeasured",
+    "new_gap": false,
+    "research_resumed": false
+  },
+  "transport": "python reproducibility/current_complete_transport/materialize.py",
+  "transport_verify": "python reproducibility/current_complete_transport/materialize.py --verify-only",
+  "excluded_regenerable_python_bytecode_files": 186,
+  "prior_pause_file_preserved": "PAUSED.json",
+  "old_stage38_roots": "research_20261010/publication_root_history/stage38/ROOT_SHA256.json",
+  "research_automations": {
+    "status": "disabled",
+    "count": 2,
+    "disabled_at_utc": [
+      "2026-10-12T02:44:24Z",
+      "2026-10-12T02:44:25Z"
+    ],
+    "is_enabled": false,
+    "next_run_time": null,
+    "verified_by": "root readback"
+  }
+}

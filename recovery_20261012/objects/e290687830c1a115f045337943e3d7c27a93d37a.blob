@@ -1,0 +1,3163 @@
+{
+  "status": "PASS",
+  "overview_data_sha256": "3e9b41349862cbb545837e599e49d6e1b5e1c02ef0ea18fbad2c81a8580684a8",
+  "corruptions_rejected": 789,
+  "cases": [
+    {
+      "test": "scope status",
+      "rejected": true
+    },
+    {
+      "test": "scope previous_stage36_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "scope new_gap_rows",
+      "rejected": true
+    },
+    {
+      "test": "scope total_main_gap_rows",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_combined_interval_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_combined_gap_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_combined_pieces_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_nested_interval_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_nested_gap_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope positive_nested_pieces_unchanged",
+      "rejected": true
+    },
+    {
+      "test": "scope physical_model",
+      "rejected": true
+    },
+    {
+      "test": "scope N64_rungs",
+      "rejected": true
+    },
+    {
+      "test": "scope N64_physical_spins",
+      "rejected": true
+    },
+    {
+      "test": "scope N64_Hilbert_dimension",
+      "rejected": true
+    },
+    {
+      "test": "scope preparation_dimension",
+      "rejected": true
+    },
+    {
+      "test": "scope retained_numerator_states",
+      "rejected": true
+    },
+    {
+      "test": "scope new_full_N64_H3",
+      "rejected": true
+    },
+    {
+      "test": "scope new_N64_Ritz",
+      "rejected": true
+    },
+    {
+      "test": "scope new_gap",
+      "rejected": true
+    },
+    {
+      "test": "scope physical_gap_exclusion",
+      "rejected": true
+    },
+    {
+      "test": "scope failed_native_terminal",
+      "rejected": true
+    },
+    {
+      "test": "scope failed_native_scientific_acceptance",
+      "rejected": true
+    },
+    {
+      "test": "scope unaccepted_q4_rank_intervals",
+      "rejected": true
+    },
+    {
+      "test": "scope unaccepted_q4_count",
+      "rejected": true
+    },
+    {
+      "test": "scope q4_total",
+      "rejected": true
+    },
+    {
+      "test": "scope q6_count",
+      "rejected": true
+    },
+    {
+      "test": "scope q6_total",
+      "rejected": true
+    },
+    {
+      "test": "scope checker_launched",
+      "rejected": true
+    },
+    {
+      "test": "scope assembly_launched",
+      "rejected": true
+    },
+    {
+      "test": "scope guard_receipt_status",
+      "rejected": true
+    },
+    {
+      "test": "scope coordinator_prewrite_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope coordinator_reserved_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope minimum_observed_overrun",
+      "rejected": true
+    },
+    {
+      "test": "scope coordinator_terminal_CPU_known",
+      "rejected": true
+    },
+    {
+      "test": "scope guard_fallback_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope producer_fallback_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope measured_failed_attempt_components",
+      "rejected": true
+    },
+    {
+      "test": "scope fallback_killed_and_reaped",
+      "rejected": true
+    },
+    {
+      "test": "scope survivors",
+      "rejected": true
+    },
+    {
+      "test": "scope measured_guard_native_resource_PASS",
+      "rejected": true
+    },
+    {
+      "test": "scope failed_attempt_new_charge",
+      "rejected": true
+    },
+    {
+      "test": "scope failed_native_cumulative_charge_including852",
+      "rejected": true
+    },
+    {
+      "test": "scope prior_calibration852_already_counted",
+      "rejected": true
+    },
+    {
+      "test": "scope old_pilot_separate_charge",
+      "rejected": true
+    },
+    {
+      "test": "scope control_benchmark_charge",
+      "rejected": true
+    },
+    {
+      "test": "scope stage37_new_charge",
+      "rejected": true
+    },
+    {
+      "test": "scope closed_H3_total_including_pilot",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_stages",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_sleep_cells",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_cell_seconds",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_unique_roles",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_normal_descendants_reaped",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_descendants_terminal_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_recorder_prewrite_CPU",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_measured_components",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_recorder_terminal_tail_unknown",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_external_exit_code",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_external_exit_is_wait4_CPU_receipt",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_stage_resource_receipts_PASS",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_role_reservations_total",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_nonspendable_headroom",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_AS_per_role_MiB",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_max_simultaneous_roles",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_structural_AS_MiB",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_max_observed_role_RSS_KiB",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_whole_tree_RSS_measured",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_wall_seconds_from_arming",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_whole_invocation_wall_600_claim",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_unmeasured_shell_prologue",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_original_clock_preserved",
+      "rejected": true
+    },
+    {
+      "test": "scope phase_pairs",
+      "rejected": true
+    },
+    {
+      "test": "scope phase_counters_nonatomic",
+      "rejected": true
+    },
+    {
+      "test": "scope nested_phases_may_be_added",
+      "rejected": true
+    },
+    {
+      "test": "scope CPU_budget_reconciliation_tolerance",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_Python_wait_entries_each",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_Python_try_wait_entries_each",
+      "rejected": true
+    },
+    {
+      "test": "scope Python_timeout_poll_loop_observed",
+      "rejected": true
+    },
+    {
+      "test": "scope kernel_wait_restarts_observed",
+      "rejected": true
+    },
+    {
+      "test": "scope old_exact_failure_cause_proven",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_native_contention_reproduced",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_rates_are_long_run_upper_bounds",
+      "rejected": true
+    },
+    {
+      "test": "scope benchmark_source_rejections_preserved",
+      "rejected": true
+    },
+    {
+      "test": "scope source_review_is_not_execution",
+      "rejected": true
+    },
+    {
+      "test": "scope source_proposed_full_coverage_records",
+      "rejected": true
+    },
+    {
+      "test": "scope source_proposed_full_schedule_intervals",
+      "rejected": true
+    },
+    {
+      "test": "scope source_complete_coverage_executed",
+      "rejected": true
+    },
+    {
+      "test": "scope source_cached_algebra_deferred",
+      "rejected": true
+    },
+    {
+      "test": "scope source_target_pass_measured",
+      "rejected": true
+    },
+    {
+      "test": "scope numerical_retry_within_selected_stages",
+      "rejected": true
+    },
+    {
+      "test": "scope successor75076_parent_report",
+      "rejected": true
+    },
+    {
+      "test": "scope successor75076_files_and_processes_inspected",
+      "rejected": true
+    },
+    {
+      "test": "scope successor75076_outputs_excluded",
+      "rejected": true
+    },
+    {
+      "test": "scope origin32_m4_resource_status",
+      "rejected": true
+    },
+    {
+      "test": "scope all_old_seals_and_exceptions_preserved",
+      "rejected": true
+    },
+    {
+      "test": "scope new_scientific_computations_by_overview",
+      "rejected": true
+    },
+    {
+      "test": "scope latest_verified_remote_main",
+      "rejected": true
+    },
+    {
+      "test": "scope latest_remote_readcheck_UTC",
+      "rejected": true
+    },
+    {
+      "test": "scope last_scheduled_report_UTC",
+      "rejected": true
+    },
+    {
+      "test": "scope last_scheduled_report_message",
+      "rejected": true
+    },
+    {
+      "test": "scope next_scheduled_report_UTC",
+      "rejected": true
+    },
+    {
+      "test": "scope hard_stop_UTC",
+      "rejected": true
+    },
+    {
+      "test": "scope remote_publication",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row0 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row0 pid",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row0 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row0 peak_rss_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row0 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row0 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row1 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row1 pid",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row1 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row1 peak_rss_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row1 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row1 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row2 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row2 pid",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row2 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row2 peak_rss_kib",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row2 exit_code",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row2 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_failed_roles row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 q",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 rank_start_inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 target_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 rank_end_exclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 chunk_size",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 cumulative_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 chunk_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 T_norm_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 independently_accepted",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 q",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 rank_start_inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 target_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 rank_end_exclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 chunk_size",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 cumulative_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 chunk_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 T_norm_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 independently_accepted",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 kind",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 q",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 rank_start_inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 target_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 rank_end_exclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 chunk_size",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 cumulative_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 chunk_fields_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 T_norm_unscaled",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 cache_fills",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 CPU",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 independently_accepted",
+      "rejected": true
+    },
+    {
+      "test": "stage37_partial_records row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row3 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row4 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row5 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row6 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row7 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row8 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row9 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row10 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row11 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row12 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row13 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row14 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row15 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row16 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row17 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row18 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 remaining_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 tail_user",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 tail_system",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row19 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row20 name",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row20 cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row20 cap",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row20 measurement",
+      "rejected": true
+    },
+    {
+      "test": "stage37_benchmark_roles row20 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 mode",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 process_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 user_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 system_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 wall",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 mode",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 process_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 user_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 system_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 wall",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 mode",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 process_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 user_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 system_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 wall",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 mode",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 process_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 user_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 system_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 wall",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row3 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 mode",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 process_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 user_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 system_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 wall",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row4 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 mode",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 process_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 user_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 system_cpu",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 wall",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 inclusive",
+      "rejected": true
+    },
+    {
+      "test": "stage37_wait_phases row5 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row0 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row0 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row0 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row0 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row1 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row1 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row1 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row1 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row2 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row2 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row2 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row2 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row3 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row3 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row3 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row3 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row3 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row4 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row4 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row4 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row4 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row4 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row5 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row5 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row5 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row5 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row5 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row6 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row6 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row6 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row6 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row6 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row7 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row7 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row7 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row7 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row7 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row8 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row8 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row8 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row8 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row8 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row9 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row9 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row9 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row9 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row9 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row10 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row10 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row10 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row10 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row10 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row11 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row11 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row11 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row11 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row11 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row12 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row12 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row12 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row12 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row12 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row13 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row13 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row13 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row13 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row13 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row14 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row14 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row14 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row14 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row14 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row15 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row15 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row15 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row15 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row15 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row16 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row16 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row16 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row16 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row16 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row17 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row17 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row17 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row17 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row17 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row18 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row18 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row18 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row18 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row18 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row19 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row19 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row19 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row19 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row19 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row20 role",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row20 counts",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row20 trace_event_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row20 balanced_exception_free_phase_count",
+      "rejected": true
+    },
+    {
+      "test": "stage37_trace_counts row20 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row0 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row0 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row1 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row1 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row2 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row2 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row3 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row3 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row3 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row4 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row4 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row4 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row5 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row5 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row5 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row6 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row6 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row6 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row7 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row7 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row7 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row8 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row8 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row8 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row9 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row9 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row9 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row10 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row10 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row10 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row11 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row11 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row11 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row12 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row12 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row12 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row13 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row13 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row13 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row14 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row14 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row14 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row15 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row15 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row15 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row16 component",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row16 value",
+      "rejected": true
+    },
+    {
+      "test": "stage37_accounting row16 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row0 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row0 status",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row0 charge",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row0 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row1 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row1 status",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row1 charge",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row1 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row2 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row2 status",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row2 charge",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row2 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row3 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row3 status",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row3 charge",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row3 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row4 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row4 status",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row4 charge",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row4 source",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row5 stage",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row5 status",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row5 charge",
+      "rejected": true
+    },
+    {
+      "test": "stage37_history row5 source",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 0 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 0 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 0 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 1 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 1 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 1 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 2 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 2 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 2 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 3 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 3 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 3 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 4 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 4 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 4 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 5 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 5 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 5 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 6 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 6 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 6 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 7 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 7 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 7 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 8 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 8 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 8 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 9 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 9 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 9 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 10 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 10 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 10 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 11 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 11 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 11 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 12 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 12 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 12 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 13 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 13 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 13 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 14 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 14 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 14 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 15 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 15 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 15 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 16 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 16 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 16 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 17 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 17 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 17 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 18 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 18 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 18 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 19 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 19 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 19 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 20 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 20 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 20 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 21 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 21 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 21 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 22 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 22 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 22 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 23 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 23 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 23 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 24 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 24 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 24 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 25 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 25 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 25 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 26 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 26 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 26 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 27 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 27 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 27 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 28 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 28 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 28 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 29 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 29 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 29 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 30 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 30 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 30 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 31 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 31 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 31 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 32 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 32 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 32 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 33 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 33 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 33 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 34 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 34 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 34 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 35 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 35 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 35 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 36 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 36 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 36 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 37 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 37 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 37 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 38 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 38 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 38 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 39 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 39 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 39 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 40 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 40 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 40 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 41 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 41 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 41 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 42 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 42 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 42 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 43 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 43 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 43 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 44 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 44 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 44 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 45 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 45 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 45 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 46 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 46 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 46 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 47 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 47 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 47 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 48 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 48 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 48 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 49 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 49 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 49 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 50 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 50 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 50 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 51 resolved_path",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 51 expected_sha256",
+      "rejected": true
+    },
+    {
+      "test": "historical alias 51 manifest_path",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 0 member_base_path",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 0 canonical_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 0 copied_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 1 member_base_path",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 1 canonical_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 1 copied_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 2 member_base_path",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 2 canonical_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 2 copied_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 3 member_base_path",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 3 canonical_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 3 copied_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 4 member_base_path",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 4 canonical_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "copied namespace 4 copied_manifest_sha256",
+      "rejected": true
+    },
+    {
+      "test": "old claim changed",
+      "rejected": true
+    },
+    {
+      "test": "invented cubic gap",
+      "rejected": true
+    },
+    {
+      "test": "failure overrun erased",
+      "rejected": true
+    },
+    {
+      "test": "unknown recorder tail erased",
+      "rejected": true
+    },
+    {
+      "test": "omitted source",
+      "rejected": true
+    },
+    {
+      "test": "changed source",
+      "rejected": true
+    },
+    {
+      "test": "changed package",
+      "rejected": true
+    },
+    {
+      "test": "packet namespace moved",
+      "rejected": true
+    },
+    {
+      "test": "archive dropped",
+      "rejected": true
+    },
+    {
+      "test": "transport lost",
+      "rejected": true
+    },
+    {
+      "test": "external tools misbound",
+      "rejected": true
+    }
+  ]
+}

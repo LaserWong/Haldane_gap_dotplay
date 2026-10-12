@@ -1,0 +1,489 @@
+更新时间：2026-10-11 06:11:30 EDT（纽约，UTC−4） / 2026-10-11 10:11:30 UTC
+
+# Haldane_gap_dotplay
+
+this is for gpt dot play with Haldane gap project
+
+Haldane gap bootstrap 的研究检查点与任务状态。
+
+模型的完整公式、能量归一化及周期小尺寸约定见 [Hamiltonians and normalization](research_20261010/MODELS_AND_NORMALIZATION.md)。
+
+[1D→2D 的 bootstrap 推广与实际所需数据](research_20261010/BOOTSTRAP_1D_TO_2D.md)说明启动条件、遗漏谱控制及当前 49/97 态与 43 维搜索的区别。
+
+**当前任务：研究已按用户 2026-10-10 13:14 EDT 的指示恢复。** 从 main 提交 `6be889a30f642bde77fb89af75b3a7379615bed1` 接续，当前推进低阶矩、相关热迹比和完整耦合区间证书，并独立核验全部整数尺寸桥接。用户确认截止时间为 **2026-10-13 20:00 America/New_York（EDT） / 2026-10-14 00:00 UTC**，届时保存检查点并停止科研计算。
+
+**完成进度：** 均匀周期 spin-1 Heisenberg 链现已对所有整数 L≥2 独立认证唯一基态及 gap≥.0248；L2/L3 解析结果、L4–25 的强化有限证书、全新 L26–33 证书与 n34 尾部完整拼接。此前 .0023 全尺寸及 .0179/.0245 嵌套记录保留为有效历史较弱界。真正 bootstrap 初始化已降至 n30（.0179），n32/n34 分别给 .0245/.0248；全尺寸覆盖起点 2 不等于初始化 2，也不证明最小种子。Stage 18 的完整 18 列输入及 L≥36/.0214 和历史第一输入路线保持可审计。普通二维双层的整个 0≤g≤.108 区间已独立认证，所有整数边长 L≥2 的统一下界为 .004499695659（86 段）；更宽的整个 [0,.10825] 区间下界为 .000586405978（88 段）。两条嵌套结论同时保留。单独 g=0.085 的更强下界为 0.027887084487。g=0.09 的严格下界为 0.027330086079，g=0.10 的单点下界提高为 0.055807148827，g=0.102 的单点下界为 0.016509932002，新增 g=.105 的已验收单点下界为 .031673112867。现另已独立认证 g=.11 单点对所有整数正方形边长 L≥2 的唯一基态及 gap≥.000131518777（另一有效路线 .000094038987）；该单点不填补 (.10825,.11) 的耦合区间。Spin-1 交替链已推进至 g=0.225，所有整数元胞数 M≥2 的下界为 0.051807500；g=0.25 目前仅认证 2≤M≤16 的下界 0.01，不是全尺寸结果。最大二维种子仍为 128 个自旋，完整 Hilbert 空间 2^128，到 g=0.085 的最大种子过滤基态搜索至多 30 维，新增 g=0.09 使用 43 维搜索并仍仅保留一个分子试探态。0≤g≤0.082 的路线每个种子仅保留基态贡献，继续到 0.085 时两个较小分母种子增加低激发带，到 g=0.09 的总试探维数分别为 59、125；g=0.10 的新路线将 8×4 分母基态搜索增至 43 维，总试探维数为 59、139，低带计数仍为 49、97。g=.105 的新分母基态搜索为 16/43 维，总试探维数为 64/139，保留低态仍为 49/97；最大种子仍只保留一个分子态。非微扰参考点附近整个 0≤ε≤0.00855 区间仍已认证。
+
+最近已完成远端验收的是 Stage 22（2026-10-11 06:14:45 UTC）：[提交 `d17eadfb655c35eb325245d8660737b761db6b28`](https://github.com/LaserWong/Haldane_gap_dotplay/commit/d17eadfb655c35eb325245d8660737b761db6b28)，树 `faebf2327efd955fbe212d65bced3c975f9ed782`。3,324 个快照文件、14,996 项依赖一致，保留 16,271 个快照外文件与 27 个证据传输文件。外部 OS 工具另作哈希核验，不宣称已随仓库自包含；没有 GitHub Actions 通过声明。Stage 23 已本地封存；远端发布仍由后续提交与验收回执确认。
+
+**Stage 24 当前科学进展：普通双层 g=.11 单点已独立认证，所有整数正方形边长 L≥2 均有唯一有限体积基态，gap≥.000131518777。** 另一条独立路线给 .000094038987。边界为周期正向边及 L2 平行边重数，包含奇数边长，不宣称任意长宽比矩形。原 [0,.108] 与 [0,.10825] 区间及全部历史证书不变；(.10825,.11) 内部仍未由该单点证明覆盖。Stage24 已本地封存，概览 seal `1b0d5a3f01ddbb0bad08b8f0f79bfd4249208a044a4482a9446d71bddb56641e`，材料见[概览](research_20261010/overview_stage24/README.md)与[独立点证书](research_20261010/bilayer_g011_krylov_all_size_review_c12/PROOF.md)。Stage23 的远端发布仍受 GitHub blob 写入授权阻塞；最新已核验 main 仍为 Stage22 d17eadfb655c35eb325245d8660737b761db6b28，不把本地封存当作远端提交。
+
+**完整数据、试探空间与谱前提：** 完整2,945 chunks/每行24个带符号字段的 m0–m4 和固定列变耦合矩阵束通过独立科学复核 `cf2c21e44399de0aab23a2983f2a5b7e98294589741d7ea5e0a976eeb9d1fab3`，生产导出 `b6c4db560e28daaa9a4e21fd9256b8179f5cea4287934756bb56fc50e9a6e777`。6个独立小系统物理 fixture 与19个同内核大系统样本通过；没有第二套独立完整8×4收缩。8×4有64个物理自旋，完整维数2^64；ψ准备57维，最终span{ψ,T0ψ}仅2维，T0=200H′(.11)，H′=H+24。独立下端点 E0(H′)≥−.308038650784 使用完整偶单态 sector 的第二能级门槛、全局97级计数和96个正交奇态，并非完整 Hilbert 空间第二能级门槛，也不把 Ritz 下根当物理基态下界。8×8分子仍128自旋、完整2^128、只保留一个态；分母保留计数49/97不变。
+
+**独立点验收与保留的失败：** A `e36a4a2281740e18e5aea7044fbaf1e65ec5caa65a57650d6b20aff38fa91edb`、B `0c45c47e7110189c6f67b7f7fadf6ec796b3b813f29aaa7690fae050be708d1e` 经 C12 `6071a728f2da4d5c2a76e8180bb81c4cb44f379881e86c64ff69b1087c867fea` 验收。独立重算25个有限窗口、2条无限尾、L2–7桥接和48个奇动量模式。初次 C24 因可信大整数序列化限制失败，seal `5bf85bf7dc59bbbfc48998cacc13e577cc5845d60ee8aaf852074d648ec2c4e9` 与24秒预留保留；获准 C12 仅修正序列化，数学代码不变。下游 A12+B24+C24+C12 共72秒全部计入，无退款。
+
+**生产资源门槛仍 FAILED_ACCOUNTING_TERMINAL。** 最终controller68成功产生完整数据并pending0，但supervisor记录accounting_failure、wrapper退出1；具体异常未保存，不能断言 race 原因。早期outer57/session60终止回执和watchdog63最终CPU仍未知。所有失败/弃用预留均保留，最终control4197+worker18786=22983，内部获准总额24000；另有独立完整科学复核204秒和下游72秒的独立账本。科学与点证书通过不修复这个资源失败，不产生自动继续权限。另行获准的连续区间 pilot 及其可变源码/输出均在本次Stage24快照之外。
+
+**Stage 23 封存历史边界：SUP10 后继终止于 2,339/2,945 个生产侧已提交 chunks，完整 m3/m4 和新增二维 gap 均未成立。** [概览](research_20261010/overview_stage23/README.md)保留 Stage 22 的全部科学证书及图表。独立复核至 SUP10 的 2,263 条递归导入链和控制门槛，source `103aaf4dffb99f4bd89abb2ce13fad6d48220ec341c36e9d3add3793fbfbb366`，composite review `50709bb16c7b14380d0cc150a7eca8dcebdde1547babe0cc431430db30892cca`。其后的 [2,339 终止导出](research_20261010/bilayer_sup10_terminal2339/README.md)，seal `9c31acd97da5d6350dab0c810815c7f18d84dc46236364d4ee72ac0713ff71de`，仅收录为生产侧不可变部分证据；没有单独独立终止审计，更不是完整高阶矩验收。原 summary 将688c raw base误标为1974；[另行封存的生产更正](research_20261010/bilayer_sup10_terminal2339_correction/README.md)（seal `287eca43e357f5590c93777b52bf177c1153a1a07f910995e283158a91ef8474`）明确688c/25dec为1968、61338为1974、prospective wall120为1980。原 seal与错误字段保留，数值/档案/收费未改。
+
+**停止原因与收费：** row 2339 的已配置 native wall22 / absolute-deadline guard 触发（原始 reason 字符串保留），记录 CPU 3.5534秒，小于6秒 CPU cap；实际 wall elapsed 未保存，host-delay 原因未证实，不能写成 CPU 超限或物理校验失败；该行没有可采纳的成功 commit，其6秒预留保留。Supervisor 为5.76025<10秒；session55 没有 controller SELF_CPU 回执，末次观察值8.65不能替代完整计量。终止导出收费为 control3051 + worker15144 =18195，全部历史失败/退役预留和嵌套来源保留。全预算24000=16800 standard+4200 control+3000 retry 已获明确内部资源授权。随后 wall120 候选的60CPU元数据验证获准，计划控制结转3111；后续可变修复源码、测试结果和任何新启动均在本快照之外，不能从此文档推导恢复权限。
+
+**Stage 23 当时的科学范围：** 均匀链所有整数 L≥2 的 .0248、交替链 Stage22 四个近均匀闭区间及双层嵌套 [0,.108]/.004499695659、[0,.10825]/.000586405978 保持原样。Krylov 两向量设计与精确导出器独立通过，但没有实际新物理端点/g=.11 全尺寸 gap；旧条件性 prose 的全尺寸值应为 .000094038987/.000131518777，较大的 .000137393606/.000212810132 只是终端有限窗口分量。旧 seals 不改写。该历史快照当时尚需完整2,945链及最终科学审计；后续由Stage24的独立完整数据与A/B/C验收解决，原Stage23 seals不变。
+
+本地概览封存 seal：`f8d730002f9c535733e3537351a4ac6c1386832f3d13cbcd6c22e615e3818c6b`；实际封存时间见文首及 `overview_stage23/FROZEN_STATUS.json`。
+
+**Stage 22 进度与边界：** L32/L64 的精确 H²/总能量方差独立验收，真实 Gibbs observable 上界收紧至 κ32≤.0969、κ64≤.119。四个新闭区间 [4999249/5000751,5000751/4999249]、[9997911/10002089,10002089/9997911]、[399901/400099,400099/399901]、[399891/400109,400109/399891] 分别认证 gap≥.020/.015/.010/.005，单位交替键 1,g，所有整数元胞 M≥2、物理 L=2M、唯一有限体积基态。旧区间、均匀 .0248 和双层嵌套界不变。
+
+**Stage 22 所选双层 m4 历史快照：c2c9 边界终止，snapshot gate FAIL。** 已独立接受 100 个 partial chunks，覆盖 q0=1、q2=496、q4=1456、q6=0；没有完整 m3/m4 或 q6 成本证据。获准的 100→400 continuation 在下一次 supervisor startup 的空 argv 身份观察处失败，未启动新的 controller/worker/scientific attempt，仍无 400 checkpoint。终止审计保留完整元组：正确 pinned Python 与资源设置、两个空 command-line samples；原因未确定，不能说观测到非法 executable。累计收费 1208 CPU 秒=716 control+492 worker 全部保留。总预算 21600 的重分配方案（16800 standard/1800 control/3000 retry）获准作为资源规划，携带全部 716+492 收费；它不批准新实现或自动恢复。此为旧 c2c9 快照的边界状态，不是后续运行的当前权限。后继 d43e 已于 2026-10-11 06:00:08 UTC 获准，生产侧于 06:01:23 UTC 完成其首 100 chunks；该后继及 bounded identity repair 的后续接受记录不纳入 Stage 22 封存科学快照，此为当时的历史待审状态，后续独立 checkpoint、失败与 SUP10 复核现由 Stage23 分别收录。生产完成本身仍不等于独立接受。
+
+**热迹 campaign 当前状态：完成并通过独立审计，无活动任务。** 2026-10-11 01:57 UTC 生产终止，18/18 完整 case、2,428 个 checkpoint。最终累计收费 27543/43200 CPU 秒，含保留的原 16207 秒；共 259 次尝试，无活动预留、修复后无新失败。生产账本原始终止标签 ALL_CASES_COMPLETE_PRODUCER_REVIEW_REQUIRED 原样保存；[最终独立审计](research_20261010/uniform_second_thermal_full_review/PROOF.md)已解决待审状态，清单 `792127565ad16526eeaa61add62bcc15db499578fc9d2157f11df27848867b94`。审计读取不可变完整导出，生产导出 seal 为 `17110955acc17821025bab5c1609706273510de6c8c2a31eb7184d693a9b9156`，不改写旧终止账本。两 worker/256 MiB、原 06:00 UTC 截止和追加式收费历史均保留，不再安排此 campaign 的运行监测或自动重启。
+
+**原文比较与署名：** 当前全尺寸下界 .0248 在共同适用的偶数范围约为原第一结论 .0004791917031 的 51.7538 倍、原渐近结论 .003821087084 的 6.49030 倍；这是已证下界比较，不是真实能隙比值。原始 bootstrap 框架及 n36 第二初始化设计归原论文；原文已用经认证矩阵多项式热迹，无完整 ED 前提。历史 first-input n60→n52 改进只针对原第一路线。本轮在完整物理复现基础上增加真正较小初始化和有限尺寸全覆盖。2026-10-11 02:57:05 UTC 已向用户通知最终全尺寸 .0248 及比较。
+
+
+
+
+
+**汇报安排：** 最近用户汇报为2026-10-11 06:02:57 EDT /10:02:57 UTC；下一轮固定汇报仍为09:15 EDT /13:15 UTC。最后常规汇报为10月13日16:15 EDT，20:00 EDT严格停止科研并保存最终检查点。机器状态见[CURRENT_STATUS.json](CURRENT_STATUS.json)，计划见[PLAN](research_20261010/PLAN.md)。
+
+## 本轮新增核验结果（2026-10-10 19:21 EDT）
+
+以下数值是能隙的严格下界，采用各证明指定的单位耦合与周期多重边约定。每一项均有唯一有限体积基态。
+
+| 模型 | 参数 | 已独立核验的能隙下界 | 尺寸范围 |
+| --- | --- | --- | --- |
+| 均匀周期 spin-1 Heisenberg 链，强化有限前缀与 n34 尾部 | 最强证明尾部初始化 34；较弱路线最小成功初始化 30 | .0248 | 所有整数 L≥2，唯一基态 |
+| 同上，保留前一较弱全尺寸证书 | 旧有限前缀与尾部拼接 | .0023 | 所有整数 L≥2，唯一基态 |
+| 同上，较强嵌套覆盖 | 有限 28–56 与 n30 尾部 | .0179 | 所有整数 L≥28，唯一基态 |
+| 同上，真正初始化 n32 | β=49/4，MPS64 anchor | .0245 | 所有整数 L≥32，唯一基态 |
+| 同上，真正初始化 n34 | β=49/4，MPS68 anchor | .0248 | 所有整数 L≥34，唯一基态 |
+| 均匀周期 spin-1 Heisenberg 链，全部 18 个第二组输入完整独立复现 | 精细带符号矩及原 n36 第二初始化，全部物理前提验收 | .0214 | 所有整数 L≥36，唯一基态 |
+| 同上，保留较弱原过滤方案 | 同一完整复现输入 | .0046 | 所有整数 L≥36，唯一基态 |
+| 均匀周期 spin-1 Heisenberg 链，单位双线性交换 | 直接有限窗口与 n52 定理拼接，初始化仍为 52 | .0038 | 所有整数 L≥48 |
+| 同上，直接有限窗口 | β=21/2 | .0053 | 仅整数 48≤L≤96 |
+| 同上，保留原启动证书 | n52，精确 Hermite 包络 | 0.0038 | 所有整数 L≥52 |
+| 同上，历史较弱下界保留 | n54，广义 sector powers | 0.0025 | 所有整数 L≥54 |
+| 同上，原 quadratic-tail 冷却结构 | n56 | 0.0068 | 所有整数 L≥56 |
+| 同上，改进原 n60 路线 | n60 | 0.0102 | 所有整数 L≥60 |
+| Spin-1 近均匀交替链，H²/方差收紧 | [4999249/5000751,5000751/4999249] | .020 | 所有整数元胞 M≥2，物理 L=2M |
+| 同上 | [9997911/10002089,10002089/9997911] | .015 | 所有整数元胞 M≥2 |
+| 同上 | [399901/400099,400099/399901] | .010 | 所有整数元胞 M≥2 |
+| 同上 | [399891/400109,400109/399891] | .005 | 所有整数元胞 M≥2 |
+| Spin-1 近均匀交替链，B² 与精确 finite bridge | [9998709/10001291,10001291/9998709] | .020 | 所有整数元胞 M≥2，物理 L=2M |
+| 同上 | [1249773/1250227,1250227/1249773] | .015 | 所有整数元胞 M≥2 |
+| 同上 | [9997841/10002159,10002159/9997841] | .010 | 所有整数元胞 M≥2 |
+| 同上 | [156213/156287,156287/156213] | .005 | 所有整数元胞 M≥2 |
+| Spin-1 近均匀交替链，正 cell-transfer 主证书 | [19999/20001,20001/19999] | .020 | 所有整数元胞 M≥2，物理 L=2M |
+| 同上 | [99993/100007,100007/99993] | .015 | 所有整数元胞 M≥2 |
+| 同上 | [199983/200017,200017/199983] | .010 | 所有整数元胞 M≥2 |
+| 同上 | [99991/100009,100009/99991] | .005 | 所有整数元胞 M≥2 |
+| Spin-1 近均匀交替链，键系数 1,g | 整个 [19999/20001,20001/19999] | .015 | 所有整数元胞 M≥2，物理 L=2M |
+| 同上，较宽闭区间 | 整个 [12499/12501,12501/12499] | .005 | 所有整数元胞 M≥2，物理 L=2M |
+| Spin-1 交替二聚体链 | g=0.1 | 0.118954972866 | 所有整数元胞数 M≥2 |
+| 同上 | g=0.125 | 0.068202652189 | 所有整数 M≥2 |
+| 同上 | g=0.15，深度 4 | 0.017013326349 | 所有整数 M≥2 |
+| 同上 | g=0.16 | 0.004358246531 | 所有整数 M≥2 |
+| 同上 | g=0.161 | 0.001952374069 | 所有整数 M≥2 |
+| 同上 | g=0.16125 | 0.001075806295 | 所有整数 M≥2 |
+| 同上，温度优先 | g=0.1615 | 0.039815121561 | 所有整数 M≥2 |
+| 同上，温度优先 | g=0.1625 | 0.037716426713 | 所有整数 M≥2 |
+| 同上，联合热迹比 | g=0.175 | 0.026579108896 | 所有整数 M≥2 |
+| 同上，小种子的计数低带 | g=0.18 | 0.112949677804 | 所有整数 M≥2 |
+| 同上，小种子的计数低带 | g=0.185 | 0.096048414952 | 所有整数 M≥2 |
+| 同上，小种子的计数低带 | g=0.19 | 0.078956697835 | 所有整数 M≥2 |
+| 同上，小种子的计数低带 | g=0.195 | 0.061526095375 | 所有整数 M≥2 |
+| 同上，小种子的计数低带 | g=0.2 | 0.043446395688 | 所有整数 M≥2 |
+| 同上，67 维小种子参考空间与直接整数窗口 | g=0.21 | 0.107424972 | 所有整数 M≥2 |
+| 同上，67 维小种子参考空间与直接整数窗口 | g=0.22 | 0.071581253 | 所有整数 M≥2 |
+| 同上，67 维小种子参考空间与直接整数窗口 | g=0.225 | 0.051807500 | 所有整数 M≥2 |
+| 同上，直接整数窗口、有限尺寸 | g=0.25 | 0.01 | 仅整数 2≤M≤16；无全尺寸结论 |
+| 普通 spin-1/2 方格双层，实际二向量矩证书 | g=0.11，单点 | .000131518777 | 所有整数正方形边长 L≥2，唯一基态；不扩展连续区间 |
+| 同上，保留另一条有效路线 | g=0.11，β0=47/5 | .000094038987 | 同上 |
+| 普通 spin-1/2 方格双层 | g=0.01 | 0.168921021674 | 所有整数正方形边长 L≥2 |
+| 同上 | g=0.02 | 0.057308457817 | 所有整数 L≥2 |
+| 同上 | g=0.03，4×4 / 8×4 / 8×8 rung 种子 | 0.341601445704 | 所有整数 L≥2 |
+| 同上 | g=0.04，同一组种子 | 0.272402896810 | 所有整数 L≥2 |
+| 同上 | g=0.05，同一组种子 | 0.203655275044 | 所有整数 L≥2 |
+| 同上 | g=0.06，先温度后空间并转换至标准递推 | 0.164746706191 | 所有整数 L≥2 |
+| 同上，温度优先 | g=0.07 | 0.093479385120 | 所有整数 L≥2 |
+| 同上，完整矩与隐式过滤向量 | g=0.08 | 0.023243965748 | 所有整数 L≥2 |
+| 同上，保留联合热迹比与重复温度优先循环 | g=0.085 | 0.027887084487 | 所有整数 L≥2 |
+| 同上，精确三阶矩与 43 维搜索、单个分子态 | g=0.09 | 0.027330086079 | 所有整数 L≥2 |
+| 同上，完整残差输入与二维直接整数窗口 | g=0.10 | 0.055807148827 | 所有整数 L≥2 |
+| 同上，固定 z=.1 物理重建与直接窗口 | g=.1001 | .054499712024 | 所有整数 L≥2 |
+| 同上，固定 z=.1 物理重建与直接窗口 | g=.1005 | .049244008353 | 所有整数 L≥2 |
+| 同上，固定 z=.1 物理重建与直接窗口 | g=.101 | .040917096762 | 所有整数 L≥2 |
+| 同上，固定 z=.1 物理重建与直接窗口 | g=.1015 | .029199965244 | 所有整数 L≥2 |
+| 同上，固定 z=.1 物理重建与直接窗口 | g=.102 | .016509932002 | 所有整数 L≥2 |
+| 同上，新 16/43 维分母基态搜索与完整残差 | g=.105 | .031673112867 | 所有整数正方形 L≥2 |
+| 同上，每个种子仅保留基态贡献 | 整个区间 0≤g≤0.082 | 0.001945771244 | 所有整数 L≥2 |
+| 同上，小分母种子增加低激发带 | 整个区间 0≤g≤0.085 | 0.001945771244 | 所有整数 L≥2 |
+| 同上，固定 43 维分子试探态的连续延拓 | 整个区间 0≤g≤0.09 | 0.001945771244 | 所有整数 L≥2 |
+| 同上，66 段物理区间的直接窗口重放 | 整个区间 0≤g≤0.10 | 0.004499695659 | 所有整数 L≥2 |
+| 同上，新增八段闭区间 | 整个区间 0.10≤g≤0.102 | 0.013574634391 | 所有整数 L≥2 |
+| 同上，完整 74 段闭覆盖 | 整个区间 0≤g≤0.102 | 0.004499695659 | 所有整数 L≥2 |
+| 同上，新完整残差的六段闭延拓 | 整个区间 .102≤g≤.105 | .017785998829 | 所有整数正方形 L≥2 |
+| 同上，完整 80 段闭覆盖 | 整个区间 0≤g≤.105 | .004499695659 | 所有整数正方形 L≥2 |
+| 完全受挫双层附近 | J=0.3，直连 J+0.005，交叉 J | 0.038983227177 | 所有整数 L≥2 |
+| 同上，单一乘积试探态 | 整个区间 0≤ε≤0.00475，直连 J+ε | 0.008090283176 | 所有整数 L≥2 |
+| 同上，分段固定试探态 | 整个区间 0≤ε≤0.0085 | >0.001703099464 | 所有整数 L≥2 |
+| 同上，分段固定试探态 | 整个区间 0≤ε≤0.00855 | >0.000768515509 | 所有整数 L≥2 |
+
+
+### Stage 22：H² 方差收紧与独立部分运行证据
+
+- [Stage 22 封存图集](research_20261010/overview_stage22/README.md)，清单 `a4babfd30903bdb8d6bfc14d19cfc05c88af5b792d37b7416b3be402fe8bf4a3`，134 文件、117 审计清单/11,063 源项、423 guard 测试与 50 导出，历史科学行和失败记录保持。
+- [H² 独立审查](research_20261010/uniform_alternating_h2_review/PROOF.md)：全部 22 个物理 L32/L64 charge-sector checkpoint（132 个整数）重建通过；总能量方差约 .0002629779063020885/.0004964120744254386，不是每站点方差或标准差。H² 相邻正项与 staggered B² 负项区分。先以能量判定 F>1/2，再由方差选正确的小 infidelity 分支，不能凭小方差独自控制遗漏低态。κ32≤969/10000、κ64≤119/1000 为真实 Gibbs observable 上界，不把 MPS 当作 Gibbs 态。
+- [更强交替区间审查](research_20261010/uniform_alternating_variance_refined_robustness_review/PROOF.md)，seal `9df6aaa425575c48a02c01db41ab7f40e85817aa2e152b3d9b2d6e839b2d29df`：上述四个闭区间经 37 个整数 cell 窗口、56 个有限桥接及四个无限尾部独立核验。cell16=physical32、own MPS64、物理 β/c 与总能量规范保留；L24 桥接仍是 parity/MPS48。没有最佳半径、物理奇数环、真实 gap 或相边界结论。
+- [launch controls](research_20261010/bilayer_full_m4_launch_review/REVIEW.md)、watchdog/startup/stable-observer 审查仅各自接受限定控制证据；后续实际失败及所有原收费不被新控制 PASS 抹去。所有 active repair 包与最终科学验收分开。
+- [initial100 独立审计](research_20261010/bilayer_m4_checkpoint100_review/README.md)核查 1,033 个导出文件及 100 条完整 attempt→receipt→payload→commit 链，24 signed accumulators 与 15-term assemblies 通过。它只接受部分覆盖，不是完整 accepted57D m0/m1/m2 gate，也不能外推 q6 成本。跨 namespace 不作“所有进程为空”断言。
+- [100→400 终止审计](research_20261010/bilayer_m4_checkpoint100_terminal_review/README.md)，seal `968bd67feeaa98267d732816b43039ff275952cb8965d86122351c2f81059f39`：1,036 个导出文件通过，1,021 个科学/checkpoint 文件与已接受 100 快照相同；启动失败发生在任何新 inner reservation/worker 前。716 control/492 worker=1208 收费保留；新增 5 control 来自终止导出，不是科学 worker。
+- 旧 control 预测 1383 漏计 fresh launcher220，实际1603超旧1600 pool，不能以旧源直接重启。新的21600总额分区为16800/1800/3000，携带716controls并退休492workers、retry余2508；clean-generation control预测1626、余174只是规划。资源重分配不等于身份修复接受或新启动授权。
+
+### Stage 21：物理 B² 输入与更强近均匀邻域
+
+- [Stage 21 封存图集](research_20261010/overview_stage21/README.md)，清单 `36e427dd2105465d40adf8b3d8c36cd76bff079b31a995bef1efa9837d847da4`。122 个封存文件的 SHA-256 校验通过，冻结 QA 记录包含 108 个审计清单/8,049 项源检查、360 个 guard 测试及 48 个导出。所有旧科学行、图集与失败/资源记录保持可追溯。
+- [物理 B² 审计](research_20261010/uniform_alternating_b2_fixture_review/PROOF.md)：独立重建 D26 insertions、完整 L4/L6 fixture 及 L32/L64 的全部 11 个精确 charge blocks。真实均匀 Gibbs 状态 β=49/4 下 κ32=Tr(ρ B32²/48²)≤17/125=.136，κ64=Tr(ρ B64²/96²)≤157/1000=.157。不是把 MPS 当作 Gibbs/基态，不是物理谱截断；physical3^L、MPS26、norm-transfer676 分别记录。最初 L32 wrapper 的 162→130 改动被停止，纠正重试经授权并保存原始历史。
+- [最终有限桥接区间审计](research_20261010/uniform_alternating_second_moment_finite_bridge_review/PROOF.md)，seal `4700be5942eac716532d52c82aef89e8508334e61da511b26f2dd75a7a2272c3`：上述四个闭区间对所有整数 M≥2 成立。39 个 cell 窗口、56 个 finite bridges、4 个无限尾部和独立 1600-bit enclosure 核验通过。cell16=physical32，own MPS64；温度为 β/c、c=(1+g)/2，能量分子已是总能量。物理 L24 桥接来自 parity-resolved/MPS48，不使用 own-length MPS24。终端非零纯度缺陷不舍入成 1。
+- [较早 B² 标量审计](research_20261010/uniform_alternating_second_moment_robustness_review/PROOF.md)的四行保留。新范围不声明最优半径、真实能隙、相边界或与旧弱二聚体 g≤.225 结果之间的连续连接；交替 cell 结果不覆盖奇数物理环。
+- [numerical24/control 最终组件审查](research_20261010/bilayer_variable_g_control_review/FINAL_REVIEW.md)，seal `3dc84b1b0909403e3555f19b5ae2035219bdc579c0f039043d07ee94b7f2355e`：六个 spin-derived 小 fixture 验证 24 个 fields 与 30 组 variable-g K/J，独立 2,945 条 synthetic 组装/restart、一次真实 vacuum dispatcher/commit、故障和清理测试通过。synthetic 数据及单个物理 chunk 不等于 full8×4 moments；no-refund 审查预留共 106 CPU 秒，既有 reviewer/producer failures 原样保留。
+- **完整生产仍 BLOCKED。** 需从 process start 覆盖 imports/哈希/全部进程树/自身记账的外部 launch guard，以及由已接受物理矩阵单独重建并固定 hash 的 EXPECTED_M012 控制；还需明确资源授权与固定 job identity。24-field/control 组件 PASS 不能替代这两项或完整 2,945 chunks 后的 exact57D 检查。活动 launch package 排除在本阶段之外。
+- [受限 cell 生产提案](research_20261010/alternating_restricted_cell_seed_proposal/README.md)无独立接受；cell15/16/17 指定方案未闭合，.835 是未实现的反事实热迹目标，不是物理证书或必要阈值。无 g=.9 seed/new gap/no-go。child 30.397826 CPU 秒、含 reserves 的收费 30.697826 超过授权 30 秒，资源 NOT_ACCEPTED，已停止并保留。
+
+### Stage 20：近均匀交替链与已审查证明指南
+
+- [Stage 20 封存图集](research_20261010/overview_stage20/README.md)，清单 `de1e346d56f73dc638dba23e97845b8767ed9c6d3b85fe2f609642551e28b853`；111 个封存文件于 2026-10-11 03:43:27 UTC 重放通过：103 审计清单/7,580 源项、321 破坏测试及 46 个逐字节一致导出。完整保留既有科学行及历史资源异常。
+- [正 cell-transfer 结构](research_20261010/uniform_alternating_positive_cell_review/PROOF.md)与[八个最终数值证书](research_20261010/uniform_alternating_positive_transfer_review/PROOF.md)，数值 seal `e80440ac87f53460f52c14535e2eb649388cfd3fae72fdff424a14fcf521dfa9`：正 trace-class 分解为 A A*，不同 history-measure 空间之间的 adjoint 明确，不是自伴算子乘积推理。四个主区间/下界分别为 [19999/20001,20001/19999]/.020、[99993/100007,100007/99993]/.015、[199983/200017,200017/199983]/.010、[99991/100009,100009/99991]/.005，均所有整数元胞 M≥2。使用 cell16/物理32 和独立 MPS64；另有 cell17/MPS68 与 cell15/MPS60 四行成功证书，精确范围见图集。70 个整数窗口、有限 Weyl 桥接、温度/耦合 rescaling 与后期 120 位闭合已检查。没有新物理计算或最优区间宣称。
+- 正 cell 结构允许奇数元胞启动及更强有限窗口，但不把交替链的物理偶数长度 2M 误写成所有物理长度；均匀链的全整数 .0248 定理保持原范围。较早 robustness 两行保留为有效历史较弱界。
+- [均匀链自包含证明指南](research_20261010/uniform_proof_guide/PROOF_GUIDE.md)与[独立审查](research_20261010/uniform_proof_guide_review/REVIEW.md)：guide seal `78514331ec4e434bc633dc2c16520e371bace16e1559e32520aa08ceb095dfd1`，review seal `566994b0b5b93324b53c4e1d1dc4e6b71e347dfe1be4f01da101140877ecfdf2`。解释 18 个已物理复现输入、有限前缀、n34 尾部和 .0248 全尺寸结论；较小 n30 仍只是 .0179 初始化，L24 用 parity-resolved S24/T48 与 MPS48。有限体积唯一性不自动证明全部无限体积基态唯一。原框架、n36 设计与矩阵多项式热迹归属保留，无 ED 创新宣称。
+- [近均匀交替链独立审计](research_20261010/uniform_alternating_robustness_review/PROOF.md)，seal `7c819d4758ee43bedba3298a15735d981f7b42ffeeabff40be8dd6a9e4e8bdf0`：H=sum[S_(2j−1)·S_(2j)+g S_(2j)·S_(2j+1)]，周期元胞 M≥2，第一类键严格归一为 1，含 g>1 侧。窄区间 [19999/20001,20001/19999] 的统一下界 .015；包含它的宽区间 [12499/12501,12501/12499] 为 .005。物理 Hilbert 维数 9^M，无 M1、最大区间、相标签或最优下界宣称。
+- 该推广独立重建 self-adjoint cell-history kernel 与解析比较，不能靠“两个自伴算子的乘积自伴”来证明。均匀 I/P 输入仍只用于已验收均匀 seed，不能把无扭转平移对称直接套到扭转迹。已有弱二聚体路线与近 g1 路线分开，不用离散点或两端成功填补中间区间。
+- 指南最初自检记录 30.21035921 process CPU 秒，严格 30 秒合规不接受；最终 60 秒自检记录 25.746380744 秒。独立数学审查不宣称存在外部 wait4/post-exec 限额证据。Direct25 的资源 NOT ACCEPTED 与 58D 生产优化资源 UNVERIFIED 均保留，不被新指南抹去。
+
+- [whole-m4 pipeline 审计](research_20261010/bilayer_whole_m4_pipeline_review/REVIEW.md)，seal `da9d659b68317702eec8db66beaa5ff3b21ffdb623ee3aa6b63663e86834f810`，接受完整 m0–m4 代数、15 个带符号项及 4×2/5×2 六个全物理 fixture；512q6/128q4 冷/重复样本为生产 provenance，独立仅精确重放一个 64q6 checkpoint。独立样本到 soft stop 后未完成 repeated phase 或最终 q4 总量，不能宣称全重放。没有 full8×4 moment、能量端点或能隙。
+- full-m4 生产仍 BLOCKED：冷态十倍规划 envelope 约 15065 CPU 秒，超过 10800；较小 repeated 估计不能替代已验证 cache/setup schedule。生产 guard 依赖的 proc children 路径不存在，通用后代进程监控未核实；生产编译 CPU 未记录、早期 fixture source/hash 缺失。独立审查已修复 observer 并通过后代/清理测试，90/90 秒预留全部保留、实际 wait4 49.784555 秒，不追溯修复生产历史。
+- [22-field 只读 hardening finding](research_20261010/bilayer_lazy_chunk_hardening_review/PARTIAL22_FINDING.md)，seal `20c733a6af3bfa8592a30be064493c9b99080ed4511c7abaa3a84f4ac4c46f35`：采用 receipt 时未校验输出摘要，controller death 后可能遗留 worker，缺 aggregate/deadline/reservation 预测，仍有固定 CAP−2 边界，且无 variable-g fields。此封存 finding 不含运行重放，不是生产许可。活动 24-field/control package 不在本阶段接受范围。
+
+### Stage 19：实际更小初始化与完整整数覆盖
+
+- [Stage 19 封存图集](research_20261010/overview_stage19/README.md)，清单 `c3a433da85b34129895f86618e29c37e872f1ae8402521c2b329bda3f6109012`；103 个封存文件于 2026-10-11 03:04:04 UTC 封存后重放通过。保留所有旧图集、历史条件状态及资源异常。
+- [最终 .0248 全尺寸审计](research_20261010/uniform_gap_0248_all_sizes_review/PROOF.md)，seal `5407745b521a61a310d89857da94c14a73fcc2093a80d467dc8f72e9fd31deaf`：L4–25 的既有物理 purity 下界用 .0248 重新核验，其中 L24 采用 parity-resolved purity/MPS48，own-length direct trials 则覆盖 L4–23 与 L25–33；L26–33 新独立物理 anchor 与直接证书补齐到 n34 尾部，另保留解析 L2/L3，故每个整数 L≥2 唯一基态、gap≥.0248。最强证明的尾部初始化是 34；较弱 n30 初始化成功不被改写成 .0248 的 n30 启动。
+- 在共同适用的偶数范围，.0248 约为原第一定理下界的 51.7538 倍、原渐近下界的 6.49030 倍；是证明下界的比较，不是物理真实能隙比值。原 bootstrap 框架、第二组热迹设计与原 n36 初始化归原论文；没有 full-ED 创新或最小 seed 宣称。
+- [真正 n34/n32/n30 初始化](research_20261010/uniform_smaller_second_initialization_review/PROOF.md)：全部整数 L≥34/.0248、L≥32/.0245、L≥30/.0179，唯一基态，β=49/4。新独立物理 D26 anchor 长度分别为 68/64/60。原第二输入物理 18 列已在 Stage 18 完整验收；此处没有新热迹计算，也不用 full ED。
+- [28–56 有限桥接](research_20261010/uniform_n28_second_initialization_review/PROOF.md)、[26/27 个别证书](research_20261010/uniform_n26_second_coverage_review/PROOF.md)、[24 证书](research_20261010/uniform_n24_second_coverage_review/PROOF.md)与[直接 25 审计](research_20261010/uniform_direct25_coverage_review/PROOF.md)给出 L≥28/.0179、L≥24/.0023 的嵌套覆盖。正的 L25 trial energy 使用小于 1 的经认证指数分子，不能替换为 1 或假设负能量。覆盖改进不更改初始化 30。
+- [完整小尺寸审计](research_20261010/uniform_small_lengths_completion_review/PROOF.md)：L2 gap2、L3 gap1 的解析结果与 L4–23 全部直接热迹证书、L≥24 尾部拼接，得到单位双线性交换周期均匀链每个整数 L≥2 的唯一基态及 gap≥.0023。没有最小初始化定理。
+- [Direct25 资源异常](research_20261010/uniform_direct25_coverage_review/RESOURCE_ANOMALY.json)明确记录预算合规 NOT ACCEPTED，独立数学正确性不掩盖运行异常；[58D 端点审计](research_20261010/bilayer_residual_direction_58d_algebra_review/PROOF.md)的生产资源 UNVERIFIED 同样保留。
+- [connected-rule 审计](research_20261010/bilayer_connected_rule_compiler_review/REVIEW.md)和[Cartesian indexed-action 审计](research_20261010/bilayer_cartesian_indexed_review/REVIEW.md)仅接受局部代数与小 fixture。样本投影约 2716.66 CPU 秒未通过指定 180 秒生产门槛；它不是严格最坏时间界或普适不可行定理。新的 300 CPU 秒 fixture/sample 工作另行管理，完整 8×4 m4 生产未批准；双层两条嵌套全尺寸界不变。
+
+### Stage 18：完整热迹物理输入与 58D 数学验收
+
+- [Stage 18 封存图集](research_20261010/overview_stage18/README.md)，清单 `9bee857d7ffd20440048adef790f9b564b3a81d76673c206ed3ef80d1d4475c1`。97 个封存文件于 2026-10-11 02:14:28 UTC 重放通过：87 审计清单/7,058 源项、2,979 个热迹 ZIP 条目、250 个破坏测试、40 个逐字节一致导出。新的完整复现记录与历史条件记录分开保存，不覆写任何旧图集。
+- [18 列最终物理审计](research_20261010/uniform_second_thermal_full_review/PROOF.md)：独立重建 L4–12、I/P 两 seam 的物理矩阵、轨道与覆盖，核查全部 2,428 个 checkpoint、整数 W 及有理误差区间；整数总量相符不代替物理与误差认证。粗区间支撑原 .0046；逐项 10^-18 向外舍入并重建带符号 J/N 矩，匹配 .0214 的精细输入。MPS72 使用既有独立物理收缩并重新检查精确映射，不宣称新收缩。最终得到单位双线性交换、无扭转周期 spin-1 链所有整数 L≥36 的唯一基态及 gap≥.0214。
+- [58D 完整矩阵审计](research_20261010/bilayer_complete_residual_direction_58d_review/PROOF.md)：完整 q4/q6 物理支持独立重建，保留 q8、有符号对易子和 zero-M/nonzero-T 项；完整物理 Hilbert 空间仍为 2^64。其矩阵 PASS 与[端点/指定目标审计](research_20261010/bilayer_residual_direction_58d_algebra_review/PROOF.md)的数学 PASS 分别记录，后者 seal `917c9c32ff4d7ca045153de2778bddfb65684335c6a0549b2682251a09f9e90b`。
+- 新 8×4 shifted-ground 下端点在 g=.1085/.11 约为 −.29970312163017/−.30833747799085，较已核对 57D witness 提高约 5.775×10^-6/6.439×10^-6；精确有理式是证书，近似显示值不是替代。四个固定阈值的正定 pencil 仅排除该 58D 空间/固定 cutoff 下的指定 witness，没有全尺寸能隙、连续区间或普适 no-go。当前全尺寸路线仍为分母 21D/57D、分子 43D，保留 49/97/1。
+- 生产侧资源附录保留未核实限制：首次 LDL 超时，后续 child 报告 33.13448 CPU 秒而配置 cap 为 25 秒，可靠全任务上界未保存。独立数学审计的有界运行与之不同；不能将旧物理生产 gate 的合规结论外推到该代数优化。活动 compiler/进一步 m4 工作仍需单独授权与审计，不进入 Stage 18 接受范围。
+
+### Stage 17：嵌套连续区间、五个前沿点与固定参数限制
+
+- [Stage 17 封存图集](research_20261010/overview_stage17/README.md)，清单 `f4e281b0b923aca9996366f8d56730f88477bf0351e46282b8ea10e0ae4ceac0`；90 文件、81 审计清单/6,656 源项、233 个破坏测试及 36 个逐字节一致导出，2026-10-11 01:16:21 UTC 封存后重放通过。保留所有既有科学记录及历史图集。
+- [四个新点](research_20261010/bilayer_symmetry_frontier_010675_0108_review/PROOF.md)：g=.10675/.107/.1075/.108 的下界分别 .018514632200/.015448308603/.012576432653/.006236941481；[g=.10825 点](research_20261010/bilayer_symmetry_frontier_010825_review/PROOF.md)为 .001585809758，均对所有整数正方形 L≥2 成立。
+- [四段延拓](research_20261010/bilayer_symmetry_interval_0108_review/PROOF.md)在 [.1065,.108] 的统一下界为 .005329481750；[最后两段](research_20261010/bilayer_symmetry_interval_010825_review/PROOF.md)在 [.108,.10825] 为 .000586405978。拼接后 [0,.108] 保持 .004499695659/86 段，[0,.10825] 为 .000586405978/88 段。两者都为全尺寸唯一基态结论，不从离散点插值，也不假设物理能隙单调。
+- 新路线统一使用 21D/57D 分母搜索、43D 分子搜索，保留态数 49/97/1；物理 Hilbert 空间仍为 2^32、2^64、2^128。历史 .106 路线的 16D/43D 不能倒改为新搜索维数。g=.1085 的一条 β=19/2 保存向量路径在 n128 失败；生产侧有限浮点温度扫描不等于全温度精确排除，g=.109 尚未测试。
+- [固定参数最近邻 pair-product 审计](research_20261010/bilayer_pair_product_review/REVIEW.md)：周期 8×4、g=.11、z=−11/400 的方差≥.005461937241（向下截取），来自完整物理残差的指定分量。只针对该参数，不排除所有 z、优化族或 dressed states，不产生新基态端点或能隙。一般 m4 及新 58D q6 生产准备不纳入本阶段已接受物理结果。
+
+### Stage 16：精确方形对称路线与扩大后的闭区间
+
+- [Stage 16 封存图集](research_20261010/overview_stage16/README.md)，清单 SHA-256 `911fce0e47b5bff696187ac31524fbcb75096068ef2846e40472f5228ac36a7e`；85 个封存文件的只读重放于 2026-10-11 00:59:32 UTC 通过：76 个审计清单/5,849 项源检查、222 个破坏测试、34 个逐字节一致导出。旧图集及其所有历史记录保持不变。
+- [各向同性直接窗口](research_20261010/bilayer_square_symmetry_window_review/PROOF.md)与[改进递推](research_20261010/bilayer_square_symmetry_recurrence_review/PROOF.md)：用原始 txy 坐标 a≤T(n,n;β)、b≤Sx(n,n;2β)、c≤Sy(2n,n;2β)，在精确正性门内得到 a⁴(2b−1)√(2b²√(2c−1)−1)，覆盖 n≤L,W≤2n 的所有整数矩形。方形物理反射不等于任意非正方形的同基点 x/y 纯度交换。递推及有限窗口必须分别核验，不凭浮点正性宣称能隙。
+- [g=.106 全尺寸点](research_20261010/bilayer_g0106_symmetry_point_review/PROOF.md)与[.105–.106 区间](research_20261010/bilayer_symmetry_interval_0106_review/PROOF.md)：下界分别 .020945510446/.020881493369；[g=.1065 全尺寸点](research_20261010/bilayer_g01065_optimized_point_review/PROOF.md)与[.106–.1065 区间](research_20261010/bilayer_symmetry_interval_01065_review/PROOF.md)：下界分别 .021451810876/.019955613868。全部为单位 rung 耦合普通各向同性周期双层、每个整数正方形 L≥2、唯一完整 Hilbert 基态；拼成 [0,.1065] 的 82 段闭覆盖，统一下界 .004499695659，不假设物理能隙随 g 单调。
+- 路线维数分开记录：g=.106 及前一延拓用 16D/43D 分母搜索、43D 分子；g=.1065 及后一延拓用 21D/57D 分母搜索、43D 分子。保留态数始终 49/97/1，最大物理空间仍为 2^128；嵌入较大矩阵不自动改变实际搜索维数，不与 MPS bond dimension 混淆。
+- [g=.11 有限窗口审计](research_20261010/bilayer_g011_symmetry_scalar_review/PROOF.md)：gap≥.020227124817 仅对 2≤L≤32；分母搜索 16D/57D、分子搜索 57D。假设进一步改善 ground32 的两个全尺寸推论仍是假设，不加入物理能隙数据。
+- [小尺寸 m3/m4 fixture](research_20261010/bilayer_krylov_m4_fixture_review/PROOF.md)及[正规序与指定包络限制](research_20261010/bilayer_next_residual_direction_review/PROOF.md)已验收；[完整 m4 实现计划](research_20261010/bilayer_exact_m4_implementation_plan/README.md)仍是规划。4×2/5×2 的物理校验不等于 8×4 完整 m4；29230129152 原始 tuple/support 访问是粗计数而非测得运行时间。完整生产计算需先通过紧凑规则和成本门槛，不新增基态端点或能隙。
+
+### Stage 15：完整物理矩阵、基态端点与部分热迹验收
+
+- [Stage 15 封存图集](research_20261010/overview_stage15/README.md)：清单 SHA-256 `2313a7d3eac7852710a24bec3547e1fe3595d281c2e93ee03c16465ebdd1be5f`，80 个封存文件；2026-10-11 00:09:27 UTC 的封存后只读重放通过，66 个审计清单/4,877 项源文件检查、194 项破坏测试及 32 个逐字节一致导出全部通过。保留全部已有能隙记录，将六个基态下端点与矩阵维数单列。
+- [43D 完整 8×4 H′² 审计](research_20261010/bilayer_complete_H2_8x4_review/PROOF.md)与[57D split 完整审计](research_20261010/bilayer_complete_split_H2_8x4_review/PROOF.md)：完整物理 Hilbert 空间为 2^64，43/57 仅为试探基维数；保留 zero-M/nonzero-image 支撑及带符号 q8 项，交叉块不可擅自对称化，cR=cM 压缩精确恢复原 43D。另有[21D 4×4 split fixture](research_20261010/bilayer_split_H2_fixture_review/PROOF.md)。这些新矩阵不改变原能隙流程的 49/97 个保留态、64/139 总试探维数和 2^128 中最大分子的单个 Rayleigh 项。
+- [16D/43D 基态端点审计](research_20261010/bilayer_residual_pencil_optimization_review/PROOF.md)与[57D 端点审计](research_20261010/bilayer_split_pencil_optimization_review/PROOF.md)：g=.11/.12 时，4×4 的 H′ 基态下界分别为 −.154352817352/−.184847038308，8×4 的 43D 下界为 −.308345263165/−.369360273562，57D 提升至 −.308343916563/−.369357992306；展示值向下舍入，精确分数见图集。须先独立识别全局基态，再使用完整 even-singlet sector 的 r2 截断，不能把它当作全 Hilbert 第二本征值。两个目标的正 LDL 排除只针对固定 43D/57D 空间与固定 r2，不是启动必要条件、全温度排除或物理无隙结论。有限七温度浮点失败不构成证书。
+- [部分热迹物理审计](research_20261010/uniform_second_thermal_partial_review/OUTCOME_REVIEW.md)：清单 `3cfb6832485aa051ca37cf7e4a10dcda54f5bb3bcaeb4597ae65a33f0eee4dc3`。L=4,…,11 的 I/P 16 列精确重现原文整数 W，990 个 batch 独立核验；L12 I/P 都未完成。此处不消除条件 .0214 定理的全部物理前提，不授权恢复或改动预算。
+
+### Stage 14：条件定理、有限尺寸工具与热迹工程
+
+- [Stage 14 封存图集](research_20261010/overview_stage14/README.md)，清单 SHA-256 `873769e3e99bf338a9b32548df20d89ecf7ce614aa3e68fad10035f91bf0d41e`。保留 Stage 13 的全部 320 条主记录；两条条件均匀链结论与三条短尺寸双层结论单列，不改写历史封存数据。
+- [第二初始化审计](research_20261010/uniform_second_initialization_review/REVIEW.md)与[带符号矩审计](research_20261010/uniform_second_moment_review/REVIEW.md)：在 18 个已发表物理热迹证书前提下，单位双线性交换周期 spin-1 均匀链对每个整数 L≥36 有唯一基态及 gap≥.0046 / .0214。转换已发表整数总量为有理区间不是重新计算物理列；九个 β=21/2 本地已审计输入与小 fixture 不能代替这 18 个前提。原文第二路线本已从 36 启动；不声称新最小种子。原文经认证的矩阵多项式方法无需完整 ED。
+- [双层短桥接审计](research_20261010/bilayer_short_bridge_refinement_review/PROOF.md)：仅整数正方形 L=2,…,7，闭区间 [0,.15] / [0,.1525] / [0,.1528] 对应下界 .050426624396 / .006136044669 / .000696608341。二维试探空间不等于完整 Hilbert 空间；物理自旋数为 8、18、32、50、72、98。所有尺寸结论仍停在 [0,.105]，统一下界 .004499695659。
+- [完整 4×4 H′² 与 sector pencil 审计](research_20261010/bilayer_residual_pencil_review/PROOF.md)：接受 16 维 4×4 的完整二阶矩多项式，保留 q8 带符号对易子及全部缺失 Gram/mixed blocks。投影 K G⁻¹ K 不能替代完整 H′²；sector pencil 仍需独立全局基态识别和完整 even-singlet sector 截断。本审计不新增能隙，也不接受完整 8×4 矩阵。
+- [热迹核](research_20261010/uniform_second_thermal_kernel_review/REVIEW.md)、[数据与检查点](research_20261010/uniform_second_thermal_campaign_review/REVIEW.md)、[最终监督器审计](research_20261010/uniform_second_thermal_supervisor_review/REVIEW.md)分别通过其限定工程范围。冻结监督器审计执行了 15 项运行测试，未执行完整热迹任务；后来获准的真实 campaign 状态仅记在本页和 CURRENT_STATUS，不修改封存图集。
+
+### Stage 13：新完整残差与明确的方案边界
+
+- [均匀链 48–96 直接有限窗口的最终审计](research_20261010/uniform_n48_direct_window_review/REVIEW.md)：每个整数 48≤L≤96 有唯一基态及 gap≥.0053；与已验收的 L≥52、gap≥.0038 定理拼接，得到所有整数 L≥48 的 .0038 下界。覆盖起点降到 48，但 bootstrap 初始化仍是 52，不是 n48 初始化成功，与 n48/n50 的固定规范方案排除不矛盾。直接坐标是 T(48,21/2) 与 S(48,21)，不替换成规范启动的长度 96 热坐标。继承九个原始热迹证书及已验收 MPS48/96 anchor，没有新物理收缩、临时 MPS50 数据、L<48 或最小种子结论。
+
+- [g=.105 实际输入点证书](research_20261010/bilayer_g0105_actual_point_review/PROOF.md)：普通单位 rung 耦合的周期 spin-1/2 方格双层，对所有整数正方形 L≥2 有唯一基态及 gap≥.031673112867。采用真正已审计的两个完整残差输入，不假设误差预算的理想目标已经实现。
+- [4×4 的 16 维完整残差审计](research_20261010/bilayer_16d_4x4_residual_g0105_review/PROOF.md)和[8×4 的优化 43 维完整残差审计](research_20261010/bilayer_optimized_residual_g0105_review/PROOF.md)：完整方差分别约 .000022505420524742475 和 .0005240758184406096，含 q0/q2/q4/q6/q8 全部图像范数、带符号对易子及 M-zero 项。各物理审计本身不构成全尺寸能隙证书。分母 ground search 16/43 维、ground-plus-odd 总空间 64/139 维、保留低态 49/97 分别记录；最大分子仍是 43 维搜索中的一个 Rayleigh 项，物理 Hilbert 维数 2^128。
+- [六段连续延拓的最终审计](research_20261010/bilayer_interval_0102_0105_review/PROOF.md)：整个 [.102,.105] 下界为 .017785998829；拼接后 80 段覆盖整个 [0,.105]，统一下界为 .004499695659，对所有整数正方形 L≥2 有唯一基态。独立重建完整方差多项式，检查 12 个物理端点、288 项奇族区间检查与 50 个有限窗口；不假设物理能隙单调。
+- [种子误差预算审计](research_20261010/bilayer_seed_error_budget_review/PROOF.md)：认证所选择的充分目标与指定子空间/固定 Temple 公式限制，不把它们当作启动的必要条件或普适 no-go。8×4 实际完整方差未达到该研究选取的单分量目标，但上面的实际全路径仍成功，二者不矛盾。g=.11 的指定联合分配物理上不一致，已明确舍弃。
+- [均匀链矩包络最优性审计](research_20261010/uniform_moment_optimality_review/REVIEW.md)：在固定矩约束的抽象谱问题中证明 Radau 松弛的锐性、整数计数谱及很小的可改进量上限。构造满足九个原始区间与 A4 seam 正性；不声称它们实现了某个量子 Hamiltonian、真实热转移或跨温度族，也不推出物理能隙、n48/n50 障碍或最小种子。
+- [MPS96/100 独立 anchor 审计](research_20261010/uniform_anchor96_100_review/REVIEW.md)：精确重建 D26 与独立顺序收缩仅认证负的平移后总 Rayleigh 商，分别约 −1.01012119004×10^-5 与 −1.05193667415×10^-5。不单独证明热迹上界、n48/n50 启动或任何能隙。
+- [n48/n50 固定方案全冷却比例排除](research_20261010/uniform_seed_recipe_minimum_review/REVIEW.md)：仅覆盖 n=48、50，全部 41 个允许偶基点和每个实 r≥1；固定节点 Hermite/packing、既定矩/支撑界、单个固定 MPS anchor，以及规范 staggered sequential-G 递推。332 个闭区间与解析冷尾给出真正非正更新；包括理想未舍入包络，未将迭代超时算作失败。不包含其他节点、初始化、重初始化、time-first 延迟或自适应次序。此处不排除 n<48，不证明 n52 最小，即便在该方案内也不能这样推断；有限尺寸覆盖起点与 bootstrap 初始化种子必须区分。
+- 原论文本来就用经认证的矩阵多项式方法计算热迹；完整 ED 不是其前提，也不是这里比较的新旧方法分界。均匀链当前结果继承同一组九个认证热迹，新增工作针对包络、MPS anchor、递推与整数桥接。原文偶数能隙定理、所有整数 n≥4 的转移恒等式及许可说明见下方原来源记录。
+- 启动尺寸比较还须区分原论文的两条路线：[原始初始化证明](https://github.com/openai/math/blob/main/preprints/The-periodic-spin-one-Haldane-gap-September-24-2026/build/initialization.tex)的第二条路线已从 n=36、β=49/4 启动，使用长度 4,…,12 的 I/P 共 18 个热迹输入，六轮后到 n=2304、β=784。因此这里 n52 的启动尺寸改进只相对于原第一组九输入的 n60 路线，不能说小于原论文所有方案。新的 .0102 下界提升及覆盖起点降至 48 的结论仍成立；原第二组热迹列没有在本轮独立重跑。
+
+### Stage 12 历史验收：精确包络、二维直接窗口与耦合延拓
+
+- [均匀链 n52 独立审计](research_20261010/uniform_seed_frontier_review/REVIEW.md)：单位双线性交换的周期 spin-1 Heisenberg 链对每个整数 L≥52 有唯一基态及 gap≥19/5000=.0038。新增的是精确 Hermite 上包络、标量路径与带符号整数桥接；复用原九个已认证热迹、热转移表示及已验收 MPS104，不启动新热迹或物理收缩。L≥56/.0068 与 L≥60/.0102 的更强下界分别保留；n54/.0025 是仍有效的历史较弱界。未证明 L<52、最小 seed 或精确物理能隙。
+- [二维直接窗口点证书](research_20261010/bilayer_direct_window_review/PROOF.md)：普通 spin-1/2 周期方格双层 g=.1 的全部整数边长 L≥2 下界提高到 .055807148827。输入仍为单位 rung 耦合、边长二的周期多重边、49/97 个分母低态、一个最大种子分子态、完整 Hilbert 维数 2^128；新证明复用完整残差物理输入，没有扩大物理计算。所有早期方框、奇边长、L=2,…,7 及渐近闭合均独立检查。
+- 二维引理使用正确的 time-first 梯级 a≤T(n,m;β)、b≤Sx(n,m;2β)、c≤Sy(2n,m;2β)，偶 n,m≥2。若 c>1/2、b√c>1/2、b²√(2c−1)>1/2，则 n≤L≤2n、m≤W≤2m 的每个整数方框有 T(L,W;β)≥a⁴(2b√c−1)√(2b²√(2c−1)−1)。须有两个方向、含奇横向周长的自伴 Hilbert–Schmidt 物理转移；不把三条梯级边当作同基点纯度，不由方框覆盖声称任意长宽比全尺寸结果。
+- [66 段连续区间审计](research_20261010/bilayer_direct_window_continuation_review/README.md)：整个 [0,.1] 的统一下界提高为 .004499695659，共检查 517 个有限窗口，限制段为 [.0845,.08475]。这一步本身不扩大耦合范围。
+- [更强离散耦合审计](research_20261010/bilayer_frontier_above_010_review/README.md)：g=.1001/.1005/.101/.1015/.102 对应下界 .054499712024/.049244008353/.040917096762/.029199965244/.016509932002，均覆盖全部整数正方形 L≥2。精确重建使用固定 z=.1 的奇族；冻结生产数据的 fixed_center 标签错误有单独勘误。物理合法域约 .120382423 不等于该处已获能隙证书。
+- [八段新区间的最终审计](research_20261010/bilayer_frontier_interval_0102_review/README.md)：整个 [.1,.102] 的下界为 .013574634391；与先前 66 段拼成 74 段闭覆盖，整个 [0,.102] 下界为 .004499695659，均对每个整数正方形 L≥2 有唯一基态。16 个物理端点、384 项奇族检查、68 个有限窗口及全部短尺寸/渐近见证通过；内部覆盖使用明确凸凹性，不假设物理能隙随 g 单调。
+- [原论文范围与精确比较](research_20261010/uniform_source_scope_review/SOURCE_SCOPE.md)及[许可和署名](research_20261010/uniform_source_license_supplement/README.md)：原论文的能隙定理针对偶数 L≥60 给出 (4/105)log(80/79)≈.0004791917031，偶数 L≥2304 给出 log(20)/784≈.003821087084。新的 .0102 在相同偶数范围分别约为原下界的 21.2858 和 2.6694 倍，这是严格下界的比较，不是真实能隙的比值。原转移命题的物理迹恒等式覆盖每个整数 n≥4；奇数能隙范围来自后续带符号插值，不归因于原论文的能隙定理。历史 .005908566393（L≥1920）为后来的强化复算，不是原论文比较基准。九个热迹证书仍为明确继承依赖；原文 n≥4 足以支持全部新范围，不借原文声称 n=2,3。
+
+### Stage 11 历史验收、适用范围与勘误
+
+Stage 10 已远端核验的提交为 `f89164be50de9b5e868d08b80bd178eaca4b9a1a`。以下新增验收保留原证明与历史快照；该阶段现已由上方 Stage 11 发布记录接续。
+
+- [直接整数窗口的独立证明](research_20261010/integer_window_refinement_review/PROOF.md)：交替链 g=.21/.22/.225 的全部整数 M≥2 下界提高为 .107424972/.071581253/.051807500。g=.25 仅有 2≤M≤16 的 .01 下界。旧指定首窗障碍未排除这条新路线，也不能由新路线的有限扫描失败推出一般不可能性。
+- 精确引理：设偶数 n≥2、β>0，A=T(n,β)=Z_n(2β)/Z_n(β)²≥a>0，B=S(n,2β)=Z_(2n)(2β)/Z_n(2β)²≥b>1/2，a,b≤1；置 w=(1+√(2b−1))/2、p=M/n。若每个温度的历史转移是实自伴 Hilbert–Schmidt 算子且所有整数 M≥2 的物理迹为正，则奇 M 有 T(M,β)≥a^p[w^p−(1−w)^p]，偶 M 有 T(M,β)≥(aw)^p。在 n≤M≤2n 内统一得到 T(M,β)≥a²√(2b−1)。不假设物理纯度随尺寸单调，也不互换时空算子。原生产证明中“纯度超过 .542”应为“超过 .54167130”；[显式勘误](research_20261010/integer_window_refinement_review/PRODUCER_PROSE_ERRATUM.json)保留原字节，数值证书不变。
+- [M8 四维分子空间](research_20261010/chain_m8_numerator_review/README.md)与[9/13/17 维 pair/block 审计](research_20261010/chain_numerator_pair_block_review/README.md)均已通过。它们认证任意物理向量的 Rayleigh 分子、精确秩与指定旧路线的全空间阈值障碍，不给出新的全尺寸 g=.25 能隙。继承的舍入 ψ/u 并非精确 singlet 或平移/反射本征态；只有新增的五个裸 pair/vacuum 方向及其 pair-derived 精确 H 后继具有这些精确对称性。[对称性范围勘误](research_20261010/chain_numerator_pair_block_review/SYMMETRY_SCOPE_ERRATUM.md)核查了既有证明依赖，任意向量的 Rayleigh 用法仍有效。
+- [均匀链转移矩审计](research_20261010/uniform_transfer_moment_review/README.md)：在 β=21/2、能量平移 a=700741/500000 的审计归一化及继承的物理热迹/自伴转移假设下，改进上界至 Z24≤1.238492320537、Z48≤1.131484383792，并核验八条指定 cooling-only 失败记录；没有新增能隙或更小种子定理。
+- [局域自旋流 MPS 审计](research_20261010/mps_commutator_review/REVIEW.md)全部通过，包括 n24 的 74 个独立精确整数。改进的试探能量差为 .4238202243082572，不是物理激发能隙；70/73 个正交方向、二维局域优化空间、MPS 键维数上界 156、完整 Hilbert 维数 3^24 互不混同。指定旧单 Rayleigh 分子与延迟/规范续接方案均已全温度排除。
+- [n18/n22 补齐审计](research_20261010/mps_seed_even_completion_review/REVIEW.md)与[直接窗口放宽路径审计](research_20261010/mps_direct_window_review/REVIEW.md)均已通过。后者逐个覆盖每个偶数 n=6,…,24，在授予所有有限窗口的情况下，排除指定 G 初始化、任意完整 time-first 周期延迟、同基点 P≥99/100 充分闭合或既定 joint-aware canonical 续接。它不排除任意中途自适应切换、其他初始化/分子/闭合，也不声称精确物理纯度受此上界、普适最小种子或模型无隙。旧 n24 未排除窗口现已被这些更强的指定方案筛查接续。
+- [均匀链冷却种子的独立审计](research_20261010/uniform_cooled_seed_review/REVIEW.md)已最终通过：n60 的 .0102（所有整数 L≥60）、n56 的 .0068（L≥56）、n54 的 .0025（L≥54），各自有唯一基态。继承九个已审计热迹与自伴转移表示，不声称重新计算热迹；D26 物理矩阵与 104/108/112/120 长度的精确收缩已独立重建，每个有限整数窗口和渐近闭合均核验。n54 额外使用广义 sector powers；n60 改进原尺寸路线、n56 使用原 quadratic-tail 结构。无 L<54 或最小种子结论。
+
+- [Spin-1 链完整证明与审计](research_20261010/chain_audit/CHAIN_CERTIFICATE_PROOF.md)：补齐 g=0.15 曾缺少的短尺寸范围，独立重建完整残差、局域正性、全谱尾及递推。
+- [普通双层完整证明与审计](research_20261010/bilayer_audit/PROOF.md)：核验六组基态输入、24 个优化热迹节点与六条递推路径，补齐 g=0.02 的 L<16 范围。
+- [非微扰参考点扰动完整证明与审计](research_20261010/nonperturbative_audit/BASELINE_PROOF.md)：核验占据数计数、加权星形界、局域正性、完整残差、热迹与所有短尺寸。
+- [完整低激发带的独立核验](research_20261010/low_band_review/README.md)：普通双层 g=0.03 已通过。最大 32-spin 种子完整 Hilbert 维数为 2^32，认证保留基态及 48 个单 triplet 低态。基态采用 11 维对称试探空间，激发态使用分扇区稀疏表示。所有遗漏态由 triplet 数目压缩的精确 Jacobi 矩阵界计数，未求多体全谱。
+- [更强链耦合及方法边界](research_20261010/chain_frontier_review/FRONTIER_PROOF.md)：g=0.16125 成功。g=0.1615 的特定空间优先 ground-only/dimer-tail 方法即使继续提高基态精度仍受阻。下述温度优先路线已通过该耦合，两个结论对应不同递推方案。
+- [非微扰参考点的连续扰动区间](research_20261010/nonperturbative_audit/EPSILON_FRONTIER.md)：一个乘积试探向量、完整非零残差与完整谱尾即可认证整个 ε 区间。[后续有限尺寸桥接](research_20261010/root_review/FF_FRONTIER_BRIDGE.md) 还补齐 ε=0.008 与 0.0085 的所有整数尺寸。
+- [更强有限窗口插值](research_20261010/root_review/FINITE_WINDOW_INTERPOLATION.md)：用精确主谱权重界补齐递推到达小缺陷区之前的整数尺寸，已独立复核并用于上述 g=0.03 证明。
+- [二维全部整数插值域扩展](research_20261010/root_review/INTERPOLATION_DOMAIN.md)：共同缺陷允许到 1/200，常数 32 保持不变，已获第二份独立复核。
+
+- [更简洁的逆矩与 Temple 认证](research_20261010/temple_variant_review/REVIEW.md)：同一批物理数据的分扇区 rank-one Temple 界给出可复用的低带端点，全部整数尺寸已独立核验。表中最新下界还结合下述全谱尾与次序比较。
+- [更大二维种子的完整独立核验](research_20261010/large_seed_review/REVIEW.md)：精确重建所有几何矩、完整残差、平移低激发带、全空间计数与谱尾、热迹及所有整数尺寸桥接。最大种子 64 个 rung，含 128 个自旋。29 维基态搜索保留一个基态，193 态低带包含该基态及 192 个 triplet 态。单个平移生成向量支持 373 个配置，完整一次 H 作用支持 67,755 个配置，这两个数与低带维数不同。
+- [连续区间扩展独立核验](research_20261010/epsilon_interval_review/INDEPENDENT_REVIEW.md)：七个首尾相接闭区间覆盖 0≤ε≤0.00855，端点正性与完整多项式残差给出区间内统一证书。
+- [小种子的八轮标量改进](research_20261010/root_review/large_seed_bridges/PROOF.md)：原 g=0.03、32-spin 种子不增加物理数据即可将全尺寸下界提高至 0.011205710127059。更大种子的更强结果见上表。
+- [Spin-2 热迹优化](research_20261010/spin2_heat/README.md)及[独立核验](research_20261010/spin2_heat_review/README.md)：255 个 L=3、4 对称代表、完整 L=4 热迹和误差预算通过。匹配编译条件的 I/C 列加速约 8.1/3.0 倍。L=10 全 I/P/C 仍预计 847–1034 core-hours，现有标量启动筛查未通过，因此没有启动全迹计算。
+- [整个 0≤g≤0.10 区间的独立核验](research_20261010/interval_range_010_review/REVIEW.md)：新增十段闭区间覆盖 0.09≤g≤0.10，延拓部分统一下界为 0.008761649092，全区间共 66 段。完整残差多项式、46 个有限窗口、60 项短尺寸检查与 81 个扰动拒绝测试均已核验。
+- [g=0.10 完整残差证书的独立核验](research_20261010/bilayer_complete_residual_8x4_review/REVIEW.md)：用精确 hard-core 对易子在 q≤6 支持上恢复 q=8 完整范数，核验所有符号、交叉项与非零 q6 图像，得到更强 8×4 Temple 下界。随后重放全部热迹、有限尺寸窗口与渐近桥接。单次新增残差收缩为 3.52 秒，不能等同于整个推导与审核的成本。
+- [交替链 g=0.25 的指定方案障碍](research_20261010/chain_frontier_rank195_review/PROOF.md)：即使小分母热迹精确，旧 M8 两维分子空间与指定首个 [8,16] 窗口仍对所有温度受阻。必要的分子改善量及其严格有理阈值已核验，其他分子空间和桥接需另行研究。
+- [整个 0≤g≤0.09 区间的独立核验](research_20261010/interval_range_009_review/REVIEW.md)：新增七段闭区间覆盖 0.085≤g≤0.09，延拓部分统一下界为 0.005788366954。与已证区间拼接后共 56 段，不使用物理能隙随耦合单调的假设。
+- [精确三阶矩与 g=0.09 独立核验](research_20261010/third_moment_review/REVIEW.md)：最大 8×8-rung 种子使用 43 维搜索、一个分子试探态。较小种子的分母低带保持 49/97 态，完整物理矩与全部整数尺寸桥接已复算。两向量替代方案也给出 0.001111944974。
+- [交替链 g=0.21、0.22、0.225 的独立核验](research_20261010/chain_frontier_above_02_review/README.md)：仅将 M=4 小种子的计数参考空间扩大至 67 维，最大 M=8 种子的分子输入保持不变。全部遗漏态、quintet 耦合和整数尺寸均已覆盖。
+- [均匀链动量分辨 MPS 试探态的独立核验](research_20261010/mps_excited_seed_review/momentum_extension/REVIEW.md)：n=24 的精确零模证明该有限链试探态为总自旋 singlet，经归一化下降算符构造 70 个正交态，最大 MPS 键维数上界 52。该历史筛查曾留下 β∈[539/64,339/32]；现已由上述 current 与直接窗口指定方案的全温度审计接续。
+- [普通双层 g=0.1 的输入瓶颈](research_20261010/bilayer_g010_diagnostics_review/README.md)：这是历史输入诊断：当时测试网格未启动，指向 8×4 分母不确定度。其“无证书”状态已由完整残差的 g=.1 单点及整个 [0,.1] 区间证书接续；原诊断文件保持不变。
+- [紧凑 MPS 激发态及 seed 筛查的独立核验](research_20261010/mps_excited_seed_review/REVIEW.md)：精确收缩低能试探态至 n=24，无需展开 3^24 个物理配置。n=14、16、20 的指定方案已获全温度障碍证明，n=24 当时留下的未排除温度窗已被上述更强的指定方案审计接续。
+- [均匀 Spin-1 链固定 MPS 种子判据](research_20261010/uniform_seed_size_review/README.md)：n=6、8、10、12 的指定 D26 单分子态方案通过全温度障碍核验。结论限定于已定义的试探态和递推方案。
+- [自适应混合立方递推的独立核验](research_20261010/joint_small_seed_review/PROOF.md)：普通双层 g=0.04、0.05 的指定同步混合立方算法对所有有限温度受阻，允许保留部分路径和联合乘积界。
+- [结果与维数图集](research_20261010/overview_stage22/README.md)：区分离散已证参数、整个连续区间、完整 Hilbert 维数与不同试探空间维数。
+
+- [不同递推顺序的独立核验](research_20261010/alternative_order_review/REVIEW.md)：g=0.06 先温度、再两个空间方向得到更好的起始界，随后用已证明的相邻方向交换不等式转换至标准递推。最大试探空间与前述大种子相同，全部整数尺寸已覆盖。
+- [试探空间与种子尺寸判据](research_20261010/trial_size_criteria/PROOF.md)：完整残差控制能级区间宽度，保留态数与谱尾计数控制热迹误差，实际几何与递推控制能隙证书能否启动。给出可直接检查的误差预算。
+- [固定试探空间的严格精度下限](research_20261010/trial_residual_review/REVIEW.md)：在指定低能 Rayleigh 区间，g=0.02、0.03、0.04、0.05 的固定 6 维 q≤2 对称空间无法达到指定残差目标，11 维扩展可以。在 g=0.03，前者残差平方 >1.77756×10^-4，后者为 5.31537×10^-7。该结论仅针对明确的固定子空间。
+- [固定小种子的全部温度障碍](research_20261010/small_seed_exclusion_review/REVIEW.md)：g=0.04 与 0.05 下，即使提供精确物理热迹，2×2→4×2→4×4 的指定空间-空间-温度递推也对所有 β≥0 产生非正上界。提高同一路线的试探态数量或计算精度不能解除该障碍。其他方向顺序、几何或不等式需另行验证。
+
+- [Bosonic pair-creation 界](research_20261010/bosonic_tail_review/PROOF.md)与[稳定二次玻色比较](research_20261010/quadratic_boson_review/PROOF.md)：严格 hard-core 压缩与 min-max 计数给出更强全谱尾，无需增加物理试探态。二次比较的玻色参考重数与物理 triplet 壳层重数分别处理。
+- [全谱尾与递推顺序的独立对照](research_20261010/tail_comparison_review/README.md)：比较旧尾、Bosonic Jacobi 尾和二次玻色尾，在相同次序下核验增益。表中最新四个普通双层下界通过完整重算及所有整数尺寸桥接。
+- [全部六种固定次序的种子障碍](research_20261010/small_seed_order_exclusions/README.md)：g=0.04、0.05 的 2×2→4×2→4×4 种子对所有 β≥0、六种固定方向次序均受阻。该结果针对指定递推，仍不排除自适应中途重排、改进不等式或其他几何。
+- [Spin-2 有限矩诊断](research_20261010/spin2_moment_review/README.md)：有理谱反例通过指定 I/P 区间，但具有超单位主谱点，严格说明这组有限矩与“分子取 1”的热纯度估计不足。9/10 阶区间围绕未认证 Ritz 值设置，现有 C 矩不由该反例满足，不能外推为原始模型或全部标量方法的障碍。
+
+- [Spin-2 全长度正性与主谱点定位](research_20261010/spin2_positivity_review/README.md)：在继承的原始有限输入验证假设下，证明正的平凡扇区谱点实现完整空间谱半径，并从现有 L=8 热迹与 D124 MPS 证书严格定位主谱点。该步骤不证明主谱点唯一、分离或热纯度启动。完整复算依赖按哈希分块保存，无需额外求大尺寸全谱。
+
+- [最大种子输入压缩的独立核验](research_20261010/reduced_input_review/README.md)：先温度、再空间的相关热迹比使最大种子仅出现在分子。单个归一化试探态的 Rayleigh 上界即可给出所需热迹下界，最大种子不需完整残差或遗漏态计数。g=0.03/0.04/0.05/0.06 的单基态版本与完整带版本下界之差均小于 4.1×10^-6。这个输入边界已通过独立最小数据重建和禁止读取额外文件的测试。
+- [Spin-1 温度优先路线](research_20261010/chain_temperature_review/README.md)：保存的输入给出 g=0.1615、0.1625、0.175 的全部整数尺寸证书。最大链种子也仅需 Rayleigh 输入。g=0.2 的当前扫描失败仅为有限扫描诊断。
+- [普通双层连续耦合区间](research_20261010/ordinary_interval_review/README.md)：16 个相接闭区间、48 个固定试探向量和完整多项式残差认证整个 0≤g≤0.07。每个尺寸仅保留一个基态贡献。基态搜索维数依次为 11/29/29，与保留态数不同。偶宇称谱尾和全空间唯一基态的识别分别证明。
+- [普通双层较强耦合的独立核验](research_20261010/bilayer_frontier_review/README.md)：g=0.07 的完整离散证书通过。g=0.08 与 0.10 的原始路线扫描失败不构成全部温度的排除结论。
+
+- [完整基态矩的独立核验](research_20261010/ground_moment_review/REVIEW.md)：已有 G/A/B 给出 21 个更强基态下端点。显式有理负方向见证与完整空间的谱计数共同认证，没有把压缩本征值当作物理谱下界。
+- [隐式 Rayleigh 过滤的独立核验](research_20261010/variational_filter_review/REVIEW.md)：原始试探态及其一次 H 作用张成的两向量空间给出更低 Rayleigh 上界，使用已有二阶矩与分占据数残差质量，无需三、四阶矩。若并入原搜索空间，维数上限为 12/30/30，隐式向量支持 q≤6。
+- [组合证书及所有尺寸的独立核验](research_20261010/combined_ground_review/README.md)：完整矩下端点与过滤上端点组合，使 g=0.08 的全部整数尺寸能隙下界达到 0.023243965748。最大种子只保留一个基态分子项也得到 0.023241913957，但过滤认证仍读取原始二阶矩，不具有早期 G/K-only 路线的最小输入性质。其他离散参数的最新值见上表。g=0.10 的有限网格失败不代表物理无隙或所有温度均失败。
+- [完整连续区间延伸至 0.078](research_20261010/interval_extension_review/README.md)：15 个新增闭区间覆盖 [0.07,0.078]，区间内下界至少 0.002006633957。与原 16 个区间合并，整个 [0,0.078] 统一保持 0.001945771244。每个热迹仅保留一个基态贡献，新增过滤使用既有完整二阶矩。
+
+- [联合热迹比的独立证明](research_20261010/joint_ratio_review/GENERAL_LEMMA.md)：方向次序改变时，同时保留单个纯度与其精确乘积关系，减少分别放宽各比值的损失。重复温度优先循环后的全部中间尺寸窗口也逐项认证。
+- [Spin-1 链的小种子计数低带](research_20261010/chain_low_band_review/README.md)：M=4 的新输入包含 13 个 bare 试探向量、172 个 shifted-H 作用配置及完整残差 Gram 矩阵。计数 Schur 比较允许部分 Ritz 值超过补空间门槛，不要求事先把全部低带隔离。g=0.18 至 0.2 的五个离散点、153 条标量路径和 801 个窗口检查通过，M=2、3 的短尺寸桥接另行核验。最大 M=8 种子未重新展开。
+- [二维耦合多项式与 g=0.085 点的独立核验](research_20261010/bilayer_polynomial_frontier_review/PROOF.md)：显式 affine 试探向量给出 2/3/4 次矩多项式，1,008 个额外耦合检查和全部物理端点通过。初始相关循环后额外进行八个 txy 循环，保留全部早期窗口，得到表中单点下界。g=0.09 的已测失败只表示有限扫描结果。
+- [整个二维 0≤g≤0.085 区间](research_20261010/interval_range_0085_review/README.md)：49 个相接闭区间、精确物理多项式、完整残差和遗漏态计数给出统一下界。新增部分的 100 个联合状态/窗口、96 个短尺寸条目及 61 个破坏性回归测试通过。0.082 以上两个分母种子保留 49、97 个态，搜索空间合计为 59、125 维；最大 8×8 rung 分子仍只用一个过滤基态贡献，其搜索维数至多 30。
+- [非微扰 MPS 与 AKLT 参照的独立核验](research_20261010/nonperturbative_mps_review/README.md)：AKLT 归一化 H=ΣP₂ 下，D=2 的精确纠缠基态加四站点 81 维局域正性证书给出所有周期 L≥5 的 gap≥1/10，并严格计数全部 3^L−1 个遗漏态。该参照使用有限尺寸投影算符判据，当前热传递矩阵的充分条件在此模型上未通过。均匀 spin-1 链的固定 D26 单 Rayleigh 初始化在 n=6、8 的指定递推中存在已核验的全温度障碍，其他种子、分子态或不等式仍可研究。
+
+这些结果不依赖最大种子的完整谱对角化。它们是指定模型与参数上的充分证书，不表示最大可认证耦合或实际能隙。后续扫描、低激发带及压缩基底结果在完成各自核验前保持候选状态。
+
+## 直接浏览与继续工作
+
+通常直接在 `main` 中阅读和使用本项目，无需先下载 ZIP。
+
+- [检查点说明](README_先读.md)：完整科学状态、已核验结果与候选工作的边界
+- [后续工作约定](AGENTS.md)：继续工作前先阅读，并结合本页任务队列与各目录暂停记录
+- [独立审计](audit/)、[热迹计算](heat_trace/)、[低能试探空间](low_energy/)
+- [二维理论](two_d_theory/)、[二维数值](two_d_numerics/)、[seed 分析](seed_size/)、[额外复核](root_review/)
+- [暂停状态](PAUSED.json)、[原始文件哈希清单](MANIFEST_SHA256.json)、[运行环境记录](COMPUTE_ENVIRONMENT.json)
+
+## 固定检查点备份
+
+Release ZIP 保存本次暂停时的固定快照，便于归档与按 SHA-256 核对。本仓库中的展开文件是日常浏览和继续开发的主要入口。
+
+- 文件：`Haldane_bootstrap_checkpoint_20261010.zip`
+- 大小：6,073,351 字节
+- SHA-256：`c4cced00e75e1f778ad1ff43e32d58c383aa1a821725794039ce2bdae61c1ea5`
+- Release 标签：`checkpoint-2026-10-10`
+- [Release 页面](https://github.com/LaserWong/Haldane_gap_dotplay/releases/tag/checkpoint-2026-10-10)
+- [下载检查点 ZIP](https://github.com/LaserWong/Haldane_gap_dotplay/releases/download/checkpoint-2026-10-10/Haldane_bootstrap_checkpoint_20261010.zip)
+- 发布于 2026-10-10 12:49:18 EDT / 16:49:18 UTC。私有仓库下载需使用已获授权的 GitHub 账号。
+
+本页是该检查点的状态索引。以下技术结果和核验状态均依据 [README_先读.md](README_先读.md)，未因归档发布、源码导入或启动配置整理新增或升级结论。下文路径相对于仓库根目录，也对应 ZIP 解压后的检查点根目录。
+
+## 固定检查点中的已完成结果
+
+### 1. Spin-1 交替二聚体链：低能 seed
+
+强键为 1，弱键为 0.05。仅保留一个最低态，结合精确残差与完整谱尾界，得到所有周期元胞数 **M≥2** 的能隙下界 **0.116303868802**。
+
+证据入口：[low_energy/](low_energy/)、[audit/independent/certificate_s1_W1_g1d20_k0_audit.json](audit/independent/certificate_s1_W1_g1d20_k0_audit.json)。
+
+### 2. 普通 spin-1/2 方格双层：真正二维的例子
+
+竖直耦合为 1，两个面内方向的耦合均为 0.01。所有周期正方形边长 **L≥2** 的能隙下界为 **0.072950533962**。最大 seed 含 32 个自旋，完整 Hilbert 空间维数为 4,294,967,296，试探空间为 377 维。
+
+证据入口：[audit/independent/bilayer_g001_audit.json](audit/independent/bilayer_g001_audit.json)。
+
+### 3. 二维 spin-1 大 D 模型
+
+D=1，两个方向的 Heisenberg 耦合均为 0.01。所有整数 **L≥2** 的正方形环面能隙下界为 **0.086452285325**。最大 seed 含 16 个 spin-1，完整 Hilbert 空间维数为 43,046,721，试探空间为 241 维。
+
+证据入口：[audit/independent/largeD_g001_audit.json](audit/independent/largeD_g001_audit.json)。
+
+### 4. 完全受挫双层：非微扰的一态例子
+
+竖直耦合为 1，直连与交叉耦合均为 J。精确 singlet 乘积态只需一个试探态，残差为零。对全部周期矩形 **nx,ny≥2**，在 **0≤J<1/3** 时，最优族统一能隙为 **min(1,4−12J)**。
+
+J=0.3 时，该族统一值为 **0.4**。正方形 **L≥3** 的实际能隙为 **1**。解析论证与独立小尺寸检验已完成，同一三纯度 bootstrap 也保存了可复算证书。
+
+本模型含交叉耦合。其参数区间与能隙结论不可直接移用于第 2 项普通双层模型。
+
+证据入口：[two_d_theory/NONPERTURBATIVE_MODELS.md](two_d_theory/NONPERTURBATIVE_MODELS.md)、[two_d_numerics/results/fully_frustrated_checks.json](two_d_numerics/results/fully_frustrated_checks.json)。
+
+### 5. 原始均匀 spin-1 路线：复现与计算优化
+
+已补齐并重新认证 Appendix A 的九个有限热迹输入，重建 D=26 MPS 的精确整数收缩，并复核矩、滤波、降温与 bootstrap 链。对周期链每个整数 **L≥1920**，得到能隙下界 **0.005908566393**。
+
+标准计算 replay 保留原有偶数尺寸表述，覆盖全部整数尺寸的插值由独立审计文档补齐。此处复现的是已有档案中的路线及相应扩展，没有声称直接阅读缺失的原始 PDF。
+
+证据入口：[heat_trace/appendix_a_replay.json](heat_trace/appendix_a_replay.json)、[heat_trace/PROOF.md](heat_trace/PROOF.md)、[audit/APPENDIX_A_BRIDGE.md](audit/APPENDIX_A_BRIDGE.md)。
+
+### 6. 普通双层 g=0.03：当前认证方法的限制
+
+在 g=0.03 时，当前指定的 **ground-only numerator 与独立二聚体谱尾界组合**，对所有温度与局域比较参数均无法通过现用递推。进一步收紧现有基态区间也不能解除这一障碍。
+
+该结论限定上述认证方法的组合与递推，不能解释为物理相变边界。
+
+证据入口：[audit/independent/majorant_g003_audit.json](audit/independent/majorant_g003_audit.json)。
+
+## 三个新增问题的进展
+
+1. **可认证耦合上限。** 已区分物理相变、试探态精度、完整谱尾估计与 seed 的空间纯度。完全受挫双层给出了可精确回答的非微扰区间，普通双层 g=0.03 的结果则定位了当前谱尾认证的限制。
+2. **试探空间大小。** 完整激发壳层的线性维数为 Σ(j=0…q) C(M,j)[(2s+1)²−1]ʲ。已保存自适应支撑深度、残差与认证精度的比较。[root_review/trial_dimension_toy.json](root_review/trial_dimension_toy.json) 中的精确二项分布截断示例只说明可解模型的表示复杂度，不作为相互作用模型的证据。
+3. **紧凑表示与完整认证。** 小线性空间、MPS 虚拟键维数与完整 Hilbert 空间维数分别计量不同对象。均匀 spin-1 路线中的 D=26 MPS 是紧凑变分态，其能量证书仍需与完整热迹认证结合。
+
+## 已保存、待全面独立核验或继续研究
+
+本轮核验已完成的条目在上方列明。以下区分已升级条目和仍在进行的工作。
+
+- **Spin-1 二聚体链：** g=0.1 至 0.16125 的已列参数点已完成独立核验与所有整数尺寸桥接。方法边界与试探空间需求见新报告。
+- **普通双层：** 优化后的 g=0.01、g=0.02 已完成独立核验与所有整数尺寸桥接。g=0.03 已通过完整低激发带及改进谱尾认证。g=0.04、0.05 当前小种子的有限温度网格未通过，保持诊断状态。
+- **完全受挫双层附近的鲁棒性：** J=0.3、ε=0.005 及若干更大参数点已完成独立核验，整个 0≤ε≤0.00475 区间也已认证。连续区间与离散成功点分别记录。
+- **其他方法工作：** 一般 d 维原推广已独立复核，二维常数 K=26 另有精确证明与第二次复核。更强一般 d 维常数、较大种子的压缩基底与 spin-2 Chebyshev 优化分别保留其具体核验状态。
+- **Spin-2 计算：** 单列基准在暂停时中断，没有启动整夜或完整大系统计算。
+
+各目录的 `PAUSE` / `PAUSED` 文件记录更细的完成状态、未核验部分与恢复入口。
+
+## 仓库与任务状态
+
+默认分支为 `main`。完整检查点已按原路径导入，原检查点文件与 `MANIFEST_SHA256.json` 保留。仓库另提供 `README.md`、`AGENTS.md`、`.gitignore` 与 `requirements.txt` 作为导航和继续工作的配置。检查点 Release 已发布，附件状态为 uploaded，大小和 GitHub 返回的 SHA-256 均与本地归档一致。
+
+- [x] 保存截至暂停时的结果、源代码、检查点与所需参考依赖
+- [x] 在归档说明中区分已独立核验结果、候选证书与未完成工作
+- [x] 保存运行环境、文件哈希清单与可移植性修改记录
+- [x] 发布仓库首页与 Release 说明
+- [x] 将完整 ZIP 按原路径展开至 `main`，保留检查点文件与原始哈希清单
+- [x] 提供 `AGENTS.md` 连续工作入口与最小 Python 启动配置
+- [x] 发布 `checkpoint-2026-10-10` Release，上传 ZIP 并核验远端大小与 SHA-256
+- [x] 完成上述三组已保存候选的独立核验及短尺寸桥接
+- [ ] 扩大耦合、改进低激发带或谱尾认证，进行中
+- [ ] spin-2 误差证明与成本评估后决定是否启动长计算，尚未启动
+
+用户已明确恢复研究，授权持续计算与 GitHub 更新，截止 10 月 13 日纽约时间 20:00。任何后续暂停指示优先。
+
+## 历史任务队列（保留接续记录）
+
+以下为早期队列快照；当前优先级见文末“下一步任务记录”，避免重复已完成的物理计算。
+
+1. **已完成并发布。** 普通双层至 g=0.06 的完整低带、精确谱尾、不同次序转换与全部整数尺寸桥接；FF 连续区间至 ε=0.00855；固定 6 维试探空间的残差下限与 11 维改进；指定小种子标准递推的全部温度障碍。
+2. **更强全谱尾界。** Bosonic pair-creation Jacobi 界与二次玻色比较已分别独立核验。现在比较它们在同一物理输入、同一递推次序下的实际增益，新的全尺寸数值需单独复核后升级。
+3. **最小种子诊断。** 六种固定次序的小种子全温度障碍已独立复核并保存。该结论只针对指定几何与递推，未排除自适应中途重排、其他不等式或其他形状。更大种子成功用于形成明确的充分/排除区间。
+4. **较强耦合。** 在保留现有精确几何矩与低带表示的条件下，先做有界参数测试与截止能量检查，再决定是否需要更深试探空间。8×8 的二阶稀疏带计算暂缓，优先使用较便宜的已证明改进。
+5. **Spin-2 标量启动。** 热迹内核优化与独立误差核验完成。有限 I/P 矩反例已获独立核验，正性控制主谱点的新引理及四个具体定位界已通过独立复核。热纯度启动仍未闭合，暂不启动预计 847–1034 core-hours 的 L=10 全迹计算。
+6. **保存与汇报。** 持续更新证明、结果、独立审计、状态与来源哈希，每 5 小时汇报，10 月 13 日纽约时间 20:00 保存最终检查点并停止。
+
+一般 d 维顺序旋转与整数尺寸桥接已有独立复核。改进常数及任何新使用方式保留各自的验收范围。
+
+## 仓库文件结构
+
+| 路径 | 内容 |
+| --- | --- |
+| [audit/](audit/) | 独立复核、物理假设、完整证明衔接与精确核验输出 |
+| [heat_trace/](heat_trace/) | 流式整数热迹代码、检查点、九项热迹输入与原始路线 replay |
+| [low_energy/](low_energy/) | 稀疏试探态、精确残差、局域比较、谱尾与候选证书 |
+| [two_d_theory/](two_d_theory/) | 二维定理、整数尺寸插值、非微扰模型与文献 |
+| [two_d_numerics/](two_d_numerics/) | 独立 Hamiltonian、精确交叉检查与浮点基准 |
+| [seed_size/](seed_size/) | seed 排除、温度窗口、参数优化与谱尾上限 |
+| [root_review/](root_review/) | 额外独立局域矩阵验证与试探空间复杂度示例 |
+| [original/](original/)、[input/](input/) | 最初上传的扩展包与原样解压内容 |
+| [upstream/extracted/](upstream/extracted/) | 复算所需的原始参考代码、标量程序与 spin-2 局域证书依赖 |
+
+本检查点及其仓库展开内容没有再次复制约 196 MB 的完整历史档案 `HaldaneConjecture.zip`，也未复制其中无关的历史服务器日志。当前新计算结果、源代码、检查点与所需参考依赖均已保存。原始 ZIP 的 SHA-256 为 `f55ab851502759d863673f627bce28de1d040750f18f747a7814e866153425c8`。
+
+## 环境准备
+
+归档运行环境是 **Python 3.12.14**，详见 [COMPUTE_ENVIRONMENT.json](COMPUTE_ENVIRONMENT.json)。新增的 [requirements.txt](requirements.txt) 固定了该环境记录中的 NumPy 2.3.5、SciPy 1.17.0 和 SymPy 1.14.0，可在 Python 3.12 环境中作为最小启动配置使用：
+
+```bash
+python3.12 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+`.gitignore` 仅排除常见缓存、虚拟环境和临时工作目录，不排除科学数据、结果或检查点。此处新增的是环境准备入口，原有科学审计状态保持不变。
+
+整数 C++ 程序还需要 **C++ 编译器与 GMP**，它们不由 `requirements.txt` 安装。随包 Linux 二进制仅记录归档时环境，换平台时应从源代码编译，并参照对应目录 README。
+
+## 完整性检查与复算入口
+
+Stage 11 的部分大型精确证据使用无损、去重的 gzip 分块运输。先按 [精确证据还原说明](reproducibility/stage11_exact_evidence/README.md)在仓库根目录执行以下命令，再运行各目录原始 seal/manifest 检查与复算；还原过程恢复原路径、字节与权限，不改写原证书或清单。
+
+```bash
+python3 reproducibility/stage11_exact_evidence/materialize.py --repo-root .
+```
+
+在仓库根目录或 ZIP 解压后的检查点根目录执行：
+
+```bash
+python verify_archive.py
+```
+
+该命令检查原始 `MANIFEST_SHA256.json` 中列出的归档文件哈希。仓库新增的首页、工作约定与启动配置未加入或改写这份原始清单。哈希一致只验证文件完整性，数学结论的依据见对应证明与审计文件。
+
+已有原始路线证书的重放入口为：
+
+```bash
+python heat_trace/replay_appendix_a.py
+```
+
+部分审计脚本中的原执行环境绝对路径已改为包内相对路径，清单见 [PORTABILITY_PATCHES.json](PORTABILITY_PATCHES.json)。归档说明记录这些修改没有改变数学逻辑。各目录 README 提供重新计算与单项核验命令。本轮恢复后的新增材料放在 research_20261010/，固定检查点文件保留以便核对。
+
+## 下一步任务记录（按优先级）
+
+1. 完成 Stage 22 出版核验，保存完整 H²/κ/区间与所有 partial/terminal export，旧科学和失败收费不修改。
+2. 独立审查已获准 d43e 后继的首100 checkpoint，保持新21600分区及全部历史收费；其生产完成不等于独立验收。旧 c2c9 snapshot gate FAIL 与后续已授权运行分开，不能宣称400checkpoint或完整高阶矩。
+3. 未来若准许运行，完整覆盖后仍须 exact57D m0/m1/m2 gate、全部 raw24 fields 与独立最终物理审查；partial/control PASS 不替代科学证书。
+4. 所有既有资源异常、受限cell未接受状态、均匀.0248与双层嵌套界保留。18列热迹campaign已完成，不重启。
+5. 下一轮常规汇报2026-10-11 04:15 EDT /08:15 UTC；全部科研于2026-10-13 20:00 EDT /2026-10-14 00:00 UTC停止，保存完整和部分证据。
