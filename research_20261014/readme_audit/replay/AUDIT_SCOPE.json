@@ -1,0 +1,76 @@
+{
+  "utc": "2026-10-14T17:40:18.093623+00:00",
+  "status": "PASS",
+  "preserved_manifest_files_after_replay": 1149,
+  "fresh_checks": {
+    "archive_crc": "Both ZIP archives pass",
+    "checkpoint_manifest_entries": 1149,
+    "extensions_checksum_entries": 59,
+    "baseline": {
+      "Casimir_dimension": 625,
+      "integer_moments": "0 through 200 match",
+      "inertia_counts": [
+        0,
+        1,
+        4,
+        9,
+        9
+      ],
+      "heat_trace_betas": [
+        1,
+        2
+      ],
+      "universal_gap_lower": "0.055688426272"
+    },
+    "spin1_dimer": {
+      "g": "1/20",
+      "strong_coupling": "1",
+      "boundary": "periodic cells",
+      "M": [
+        2,
+        4
+      ],
+      "full_dimensions": [
+        81,
+        6561
+      ],
+      "retained_vectors": 1,
+      "betas": [
+        6,
+        8,
+        10,
+        12,
+        16,
+        20
+      ],
+      "best_gap_lower": "0.116303868802",
+      "best_beta": 10,
+      "checks": [
+        "exact Hamiltonian action and residual",
+        "full-space Weyl completeness bound",
+        "Temple enclosure",
+        "full spectral tail bound",
+        "saved scalar bootstrap replay"
+      ]
+    }
+  },
+  "interpretation": "Fresh execution of archived independently constructed verifier sources. This is a reproduction of existing certificate, not a new result or newly authored independent verifier. No full dense spectrum was enumerated for spin1; matrix action is in conserved magnetization sector and Weyl bound addresses full-space completeness.",
+  "not_freshly_verified": [
+    "hand-derived physical transfer hypotheses",
+    "all-integer-size interpolation and small-size bridges",
+    "ordinary bilayer",
+    "fully frustrated bilayer",
+    "large-D",
+    "uniform spin1 Appendix A",
+    "Stage38 and g=.12 bootstrap",
+    "missing original full archive"
+  ],
+  "evidence_files": [
+    "fresh_results/baseline_and_spin1.log",
+    "fresh_results/baseline_verification.json",
+    "fresh_results/certificate_s1_W1_g1d20_k0_audit.json",
+    "fresh_results/checksum_verification.json",
+    "fresh_results/reproducible_replay.log",
+    "fresh_results/run_environment.json"
+  ]
+}

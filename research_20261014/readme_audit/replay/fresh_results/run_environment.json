@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-14T17:40:04.247665+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "seconds": 9.804355233000024,
+  "verifiers": [
+    {
+      "path": "/workspace/shared/haldane_readme_audit_20261014/replay/Haldane_bootstrap_checkpoint_20261010/Haldane_bootstrap_checkpoint_20261010/audit/independent/verify_baseline.py",
+      "sha256": "c6c88c91d78c1e7f2b4cc59a80ea5a0592bd9180d2baa55eb626b6d4877a1b9a"
+    },
+    {
+      "path": "/workspace/shared/haldane_readme_audit_20261014/replay/Haldane_bootstrap_checkpoint_20261010/Haldane_bootstrap_checkpoint_20261010/audit/independent/verify_ground_only.py",
+      "sha256": "8cdc9a16407ad325c39f2a2ca76451a957cfed3e3277348a64ee3d539becdcea"
+    }
+  ],
+  "scope": "fresh replay of existing exact arithmetic certificate; no claim of new theorem or all archived computations"
+}

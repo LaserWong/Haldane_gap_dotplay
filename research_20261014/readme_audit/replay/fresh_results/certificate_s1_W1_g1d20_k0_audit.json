@@ -1,0 +1,79 @@
+{
+  "source": "/workspace/shared/haldane_readme_audit_20261014/replay/Haldane_bootstrap_checkpoint_20261010/Haldane_bootstrap_checkpoint_20261010/low_energy/certificate_s1_W1_g1d20_k0.json",
+  "source_sha256": "d6980e732c54ac2f169e019be88cddd0162a9c4b85b727b95e2d1d7773161ec6",
+  "grounds": [
+    {
+      "M": 2,
+      "W": 1,
+      "dimension": 81,
+      "retained_vectors": 1,
+      "vector_sha256": "bba90e5250e08051cb7122a10d1f040b943e32a61b06006452cfe1361be05be1",
+      "exact_residual_squared_matches": true,
+      "Temple_ground_enclosure_matches": true,
+      "full_space_second_energy_bound": "-16/5",
+      "product_trial_has_zero_weak_expectation": true
+    },
+    {
+      "M": 4,
+      "W": 1,
+      "dimension": 6561,
+      "retained_vectors": 1,
+      "vector_sha256": "133b97aaa278fbc923cf87e2e345d61afb06f1bd3b8373fbbec3b9e140054c74",
+      "exact_residual_squared_matches": true,
+      "Temple_ground_enclosure_matches": true,
+      "full_space_second_energy_bound": "-37/5",
+      "product_trial_has_zero_weak_expectation": true
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "6",
+      "S_lower": "87441940959/100000000000",
+      "T_lower": "575328109627/1000000000000",
+      "recorded_replay_matches": true,
+      "accepted": false,
+      "gap_lower": null
+    },
+    {
+      "beta": "8",
+      "S_lower": "928873034549/1000000000000",
+      "T_lower": "835995525447/1000000000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "21095266381/1000000000000"
+    },
+    {
+      "beta": "10",
+      "S_lower": "930080341751/1000000000000",
+      "T_lower": "473311790423/500000000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "58151934401/500000000000"
+    },
+    {
+      "beta": "12",
+      "S_lower": "36805891899/40000000000",
+      "T_lower": "61480004821/62500000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "27983078501/250000000000"
+    },
+    {
+      "beta": "16",
+      "S_lower": "55990005511/62500000000",
+      "T_lower": "99854273843/100000000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "71082691147/1000000000000"
+    },
+    {
+      "beta": "20",
+      "S_lower": "174314585081/200000000000",
+      "T_lower": "499935599301/500000000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "21880445069/500000000000"
+    }
+  ],
+  "status": "PASS: exact matrix action, full-spectrum Weyl completeness, Temple, tails, and scalar replay"
+}

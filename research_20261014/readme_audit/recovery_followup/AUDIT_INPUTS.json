@@ -1,0 +1,22 @@
+{
+  "primary_inputs": [
+    {
+      "repository_path": "recovery_20261012/OBJECT_PROVENANCE.json",
+      "git_blob_sha1": "999170a9f30032afc1d0eacda84e26675a2a0978",
+      "sha256": "fd1ba37fea11487f98dcaa4131dfa86a7425a7af0201ac763175bfe3c4205abd",
+      "size": 331189
+    },
+    {
+      "repository_path": "recovery_20261012/RECOVERED_UPLOAD_LEDGERS.json",
+      "git_blob_sha1": "bc1718601cafe130c99b95f1434d9be26cb5b212",
+      "sha256": "06d5d273dfab3c6e528f6f66163124b4bd20efacdace9715851cbe7a4fdbeb37",
+      "size": 76946
+    },
+    {
+      "repository_path": "recovery_20261012/KNOWN_BLOB_PATHS.json",
+      "git_blob_sha1": "657d5f02b8b3b89f4bcb2bf131a342f4cdc46069"
+    }
+  ],
+  "recovered_object_inputs": "EXACT_RECOVERED_FILES.json",
+  "historical_absolute_paths_note": "Exact recovered original bytes retain their original absolute paths; newly written maps use repository-relative paths."
+}

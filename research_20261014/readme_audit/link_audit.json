@@ -1,0 +1,148 @@
+{
+  "readme_sha256": "21618dd6c7861c611140aaf3878be16eb812ebb46202084b24e8caabe0a38b6a",
+  "checked_at_utc": "2026-10-14T17:46:50.384960+00:00",
+  "base_commit": "d2d7666c4dd18509eb9dc1d7fa0e8d959b94d396",
+  "inline_link_occurrences": 21,
+  "reference_definitions": 0,
+  "html_links": 0,
+  "unique_link_targets": 19,
+  "raw_external_url_occurrences": 0,
+  "anchor_target_count": 0,
+  "checks": [
+    {
+      "target": "AGENTS.md",
+      "ok": true,
+      "issue": null,
+      "verification": "publish overlay",
+      "sha": "43d581c7b7aaf946b0347cd49ab8ed1ec38af345"
+    },
+    {
+      "target": "CURRENT_STATUS.json",
+      "ok": true,
+      "issue": null,
+      "verification": "publish overlay",
+      "sha": "dcfaa42734cceaf918e2c20ff6853e49d0314a40"
+    },
+    {
+      "target": "audit/APPENDIX_A_BRIDGE.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "35ddda10bf5eaf6f4f603e3cf03d1e5b7fa301ed"
+    },
+    {
+      "target": "heat_trace/PROOF.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "37c749e11509ef29259ede3dfc75c034d233f417"
+    },
+    {
+      "target": "recovery_20261012/KNOWN_BLOB_PATHS.json",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "657d5f02b8b3b89f4bcb2bf131a342f4cdc46069"
+    },
+    {
+      "target": "recovery_20261012/README.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "0a280a0bc85f62222e275a6123806f2b3982c77f"
+    },
+    {
+      "target": "recovery_20261012/baseline_stage22_roots/README.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "57231f6cb1504ae3966ea83941d30a8efe431618"
+    },
+    {
+      "target": "recovery_20261012/latest_recovered_roots/CURRENT_STATUS.json",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "3a2e158f971262450c26be7dd39b68e4a1b6e969"
+    },
+    {
+      "target": "recovery_20261012/latest_recovered_roots/README.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "1fef7e70b74bdf07d3bdc0f0d1d5ce5b8c5e5e36"
+    },
+    {
+      "target": "research_20261010/BOOTSTRAP_1D_TO_2D.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "961a7d506debe255b98af6b2aab7a9cf757fae14"
+    },
+    {
+      "target": "research_20261010/MODELS_AND_NORMALIZATION.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "68784facd381d88133bb37691eb1132ebe804ace"
+    },
+    {
+      "target": "research_20261010/overview_stage22/README.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "a5ae82210d70caa3b4c53491062a1445a66f0370"
+    },
+    {
+      "target": "research_20261010/uniform_gap_0248_all_sizes_review/PROOF.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "0b3efb24b8f6df4dce6bae593b7ab2f426473c31"
+    },
+    {
+      "target": "research_20261014/readme_audit/baseline_audit.md",
+      "ok": true,
+      "issue": null,
+      "verification": "publish overlay",
+      "sha": null
+    },
+    {
+      "target": "research_20261014/readme_audit/recovered_audit.md",
+      "ok": true,
+      "issue": null,
+      "verification": "publish overlay",
+      "sha": null
+    },
+    {
+      "target": "research_20261014/readme_audit/recovery_followup/RECOVERY_COMPLETENESS.md",
+      "ok": true,
+      "issue": null,
+      "verification": "publish overlay",
+      "sha": null
+    },
+    {
+      "target": "research_20261014/readme_audit/replay/AUDIT_SCOPE.json",
+      "ok": true,
+      "issue": null,
+      "verification": "publish overlay",
+      "sha": null
+    },
+    {
+      "target": "research_20261014/readme_audit/replay/README.md",
+      "ok": true,
+      "issue": null,
+      "verification": "publish overlay",
+      "sha": null
+    },
+    {
+      "target": "two_d_theory/NONPERTURBATIVE_MODELS.md",
+      "ok": true,
+      "issue": null,
+      "verification": "pinned Git tree entry",
+      "sha": "02bec11792b10c363ae98ddce06738623fc9d7c9"
+    }
+  ],
+  "passed": true,
+  "scope": "README.proposed.md only; resolved against pinned main immediate Git trees and local publish overlay, no remote writes"
+}

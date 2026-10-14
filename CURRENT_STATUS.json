@@ -1,6 +1,6 @@
 {
-  "status": "PAUSED",
-  "updated_at_utc": "2026-10-12T03:31:18.396258+00:00",
+  "status": "ACTIVE_AUDIT_AND_RECOVERY",
+  "updated_at_utc": "2026-10-14T17:46:50.348761+00:00",
   "updated_at_local": "2026-10-11T23:31:18.396258-04:00",
   "user_pause_utc": "2026-10-12T02:38:54Z",
   "publication_scope": "Latest currently recoverable project files and confirmed uploaded objects only",
@@ -18,9 +18,8 @@
   "materializer_source_recovered_exactly": true,
   "complete_Stage38_source_reproducibility_verified": false,
   "g012_bootstrap_replay": "NOTRUN_NO_NEW_GAP_CERTIFICATE",
-  "research_paused": true,
+  "research_paused": false,
   "automatic_resume": false,
-  "resume_requires": "Explicit new user instruction",
   "research_automations": {
     "count": 2,
     "is_enabled": false,
@@ -32,5 +31,35 @@
   },
   "recovery_index": "recovery_20261012/README.md",
   "original_frozen_delta_inventory_sha256": "87133c39de8f30526cea4d50138599c1db2d21e36a97640125241b48debe6a07",
-  "original_frozen_root_receipt_sha256": "b7f52d87aebc5fd37635e3168ef9c2ad7d6dc671b9734e39c40cd50b2722ce49"
+  "original_frozen_root_receipt_sha256": "b7f52d87aebc5fd37635e3168ef9c2ad7d6dc671b9734e39c40cd50b2722ce49",
+  "resumed_at_utc": "2026-10-14T17:36:22Z",
+  "resume_basis": "Explicit user instruction to resume Haldane work and report all existing results in README",
+  "current_task": "Restore comprehensive scientific progress in README, audit evidence and resume bounded verified work",
+  "readme_external_links_allowed": false,
+  "current_audit": "research_20261014/readme_audit/",
+  "fresh_replay": {
+    "checkpoint_manifest_matches": 1149,
+    "extension_checksum_matches": 59,
+    "archived_independent_verifiers": "PASS",
+    "spin1_dimer_g": "1/20",
+    "spin1_replayed_gap_lower": "0.116303868802",
+    "new_gap_theorem": false,
+    "full_stage38_reproducibility_verified": false
+  },
+  "next_tasks": [
+    "Map recovered late-stage objects to missing reproducibility paths",
+    "Reproduce late-stage certificates when input completeness is established",
+    "Check fixed-preparation H3/Ritz input completeness before any g=.12 bootstrap attempt"
+  ],
+  "previous_resume_requires": "Explicit new user instruction",
+  "updated_at_new_york": "2026-10-14T13:46:50.348761-04:00",
+  "progress_report_restored": true,
+  "bounded_recovery_audit": {
+    "known_path_records": 92,
+    "reachable_objects": 700,
+    "external_history_entries": 599,
+    "exact_source_json_identities_verified": 6,
+    "stage32_33_complete_proof_restored": false,
+    "key_result_standalone_candidates_found": false
+  }
 }

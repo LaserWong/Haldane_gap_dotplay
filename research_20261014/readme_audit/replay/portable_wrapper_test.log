@@ -1,0 +1,269 @@
+{
+  "checksums_checked": 59,
+  "casimir_dimension": 625,
+  "integer_moments_0_through_200_match": true,
+  "exact_levels": [
+    [
+      -20,
+      1
+    ],
+    [
+      -19,
+      3
+    ],
+    [
+      -17,
+      5
+    ],
+    [
+      -15,
+      6
+    ],
+    [
+      -14,
+      7
+    ],
+    [
+      -13,
+      10
+    ],
+    [
+      -12,
+      1
+    ],
+    [
+      -11,
+      3
+    ],
+    [
+      -10,
+      33
+    ],
+    [
+      -9,
+      5
+    ],
+    [
+      -8,
+      6
+    ],
+    [
+      -7,
+      14
+    ],
+    [
+      -6,
+      36
+    ],
+    [
+      -5,
+      28
+    ],
+    [
+      -4,
+      10
+    ],
+    [
+      -3,
+      43
+    ],
+    [
+      -2,
+      10
+    ],
+    [
+      -1,
+      67
+    ],
+    [
+      0,
+      56
+    ],
+    [
+      1,
+      36
+    ],
+    [
+      2,
+      36
+    ],
+    [
+      3,
+      29
+    ],
+    [
+      4,
+      31
+    ],
+    [
+      5,
+      26
+    ],
+    [
+      6,
+      22
+    ],
+    [
+      8,
+      41
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      12,
+      30
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "inertia_counts_match_Casimir": [
+    0,
+    1,
+    4,
+    9,
+    9
+  ],
+  "heat_traces": [
+    {
+      "beta": 1,
+      "Z_display": 1175006755.8835309,
+      "independent_enclosure_overlaps_packaged": true,
+      "independent_interval_contained": true
+    },
+    {
+      "beta": 2,
+      "Z_display": 3.339466244233213e+17,
+      "independent_enclosure_overlaps_packaged": true,
+      "independent_interval_contained": true
+    }
+  ],
+  "seed": {
+    "S": "242029814229/250000000000",
+    "T": "25871539959/31250000000",
+    "updates": [
+      {
+        "p_upper": "1667577373/40000000000",
+        "q_upper": "13648829851/100000000000"
+      },
+      {
+        "p_upper": "34063632591/1000000000000",
+        "q_upper": "75427805607/1000000000000"
+      },
+      {
+        "p_upper": "12673919571/1000000000000",
+        "q_upper": "17081917749/1000000000000"
+      },
+      {
+        "p_upper": "19067031/20000000000",
+        "q_upper": "649703941/1000000000000"
+      }
+    ],
+    "final_n_cells": 32,
+    "final_beta": 96,
+    "final_u": "19067031/20000000000",
+    "gap_lower": "1740263321/31250000000",
+    "independent_exp_check_of_log_gap": true
+  },
+  "constants": {
+    "spatial_quadratic": true,
+    "thermal_quadratic": true,
+    "integer_interpolation": true,
+    "gap_conversion": true,
+    "short_chain_Weyl": true
+  },
+  "status": "PASS; hand-derived physical/transfer hypotheses still needed"
+}
+{
+  "source": "/workspace/shared/haldane_readme_audit_20261014/replay/Haldane_bootstrap_checkpoint_20261010/Haldane_bootstrap_checkpoint_20261010/low_energy/certificate_s1_W1_g1d20_k0.json",
+  "source_sha256": "d6980e732c54ac2f169e019be88cddd0162a9c4b85b727b95e2d1d7773161ec6",
+  "grounds": [
+    {
+      "M": 2,
+      "W": 1,
+      "dimension": 81,
+      "retained_vectors": 1,
+      "vector_sha256": "bba90e5250e08051cb7122a10d1f040b943e32a61b06006452cfe1361be05be1",
+      "exact_residual_squared_matches": true,
+      "Temple_ground_enclosure_matches": true,
+      "full_space_second_energy_bound": "-16/5",
+      "product_trial_has_zero_weak_expectation": true
+    },
+    {
+      "M": 4,
+      "W": 1,
+      "dimension": 6561,
+      "retained_vectors": 1,
+      "vector_sha256": "133b97aaa278fbc923cf87e2e345d61afb06f1bd3b8373fbbec3b9e140054c74",
+      "exact_residual_squared_matches": true,
+      "Temple_ground_enclosure_matches": true,
+      "full_space_second_energy_bound": "-37/5",
+      "product_trial_has_zero_weak_expectation": true
+    }
+  ],
+  "seeds": [
+    {
+      "beta": "6",
+      "S_lower": "87441940959/100000000000",
+      "T_lower": "575328109627/1000000000000",
+      "recorded_replay_matches": true,
+      "accepted": false,
+      "gap_lower": null
+    },
+    {
+      "beta": "8",
+      "S_lower": "928873034549/1000000000000",
+      "T_lower": "835995525447/1000000000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "21095266381/1000000000000"
+    },
+    {
+      "beta": "10",
+      "S_lower": "930080341751/1000000000000",
+      "T_lower": "473311790423/500000000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "58151934401/500000000000"
+    },
+    {
+      "beta": "12",
+      "S_lower": "36805891899/40000000000",
+      "T_lower": "61480004821/62500000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "27983078501/250000000000"
+    },
+    {
+      "beta": "16",
+      "S_lower": "55990005511/62500000000",
+      "T_lower": "99854273843/100000000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "71082691147/1000000000000"
+    },
+    {
+      "beta": "20",
+      "S_lower": "174314585081/200000000000",
+      "T_lower": "499935599301/500000000000",
+      "recorded_replay_matches": true,
+      "accepted": true,
+      "gap_lower": "21880445069/500000000000"
+    }
+  ],
+  "status": "PASS: exact matrix action, full-spectrum Weyl completeness, Temple, tails, and scalar replay"
+}
+{
+  "utc": "2026-10-14T17:43:54.893317+00:00",
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "seconds": 9.042507195001235,
+  "verified_input_count": 65,
+  "repo_root": "/workspace/shared/haldane_readme_audit_20261014/replay/Haldane_bootstrap_checkpoint_20261010/Haldane_bootstrap_checkpoint_20261010",
+  "output_dir": "/workspace/shared/haldane_readme_audit_20261014/portable_replay_test",
+  "scope": "Fresh replay of existing exact arithmetic certificates; not a new theorem or full-project replay."
+}

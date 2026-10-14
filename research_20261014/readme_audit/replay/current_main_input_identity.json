@@ -1,0 +1,460 @@
+{
+  "ref": "main",
+  "checks": [
+    {
+      "path": "low_energy/s1_M2_W1_g1d20_k0_ritz.npz",
+      "expected_git_blob": "783b4a25977bcc57a59c58aaea027a3fba95e728",
+      "observed_git_blob": "783b4a25977bcc57a59c58aaea027a3fba95e728",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/SHA256SUMS.txt",
+      "expected_git_blob": "ea23ba2351f9703a5aea86e0b2bfc516a7afbc2d",
+      "observed_git_blob": "ea23ba2351f9703a5aea86e0b2bfc516a7afbc2d",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/README.md",
+      "expected_git_blob": "bea6ed9f4b50091c2ac26689849564822f956c35",
+      "observed_git_blob": "bea6ed9f4b50091c2ac26689849564822f956c35",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "audit/independent/verify_baseline.py",
+      "expected_git_blob": "f918f389d27a95cc0ea3ec1a4cdd3c5e6d55c556",
+      "observed_git_blob": "f918f389d27a95cc0ea3ec1a4cdd3c5e6d55c556",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/REPORT.md",
+      "expected_git_blob": "b595bacfa75d3595df599f2c0d70321e5d8c3010",
+      "observed_git_blob": "b595bacfa75d3595df599f2c0d70321e5d8c3010",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/code/aklt_low_spectrum.py",
+      "expected_git_blob": "4d4e6bb197341170fe3a6aa6891f1ebd121afe17",
+      "observed_git_blob": "4d4e6bb197341170fe3a6aa6891f1ebd121afe17",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "audit/independent/verify_ground_only.py",
+      "expected_git_blob": "b77e5516d5070b345f1da46712f8dd18d483e25c",
+      "observed_git_blob": "b77e5516d5070b345f1da46712f8dd18d483e25c",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "low_energy/certificate_s1_W1_g1d20_k0.json",
+      "expected_git_blob": "2ab4dbf229c4a50a63ec2478e5cf20782378a582",
+      "observed_git_blob": "2ab4dbf229c4a50a63ec2478e5cf20782378a582",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "low_energy/s1_M4_W1_g1d20_k0_ritz.npz",
+      "expected_git_blob": "ad3a19d8b4bc99ef23c24d8b231085b65c5f387d",
+      "observed_git_blob": "ad3a19d8b4bc99ef23c24d8b231085b65c5f387d",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/code/analytic_certificates.py",
+      "expected_git_blob": "0b1af084f4057d3860eacb214e3d779c8278dbc6",
+      "observed_git_blob": "0b1af084f4057d3860eacb214e3d779c8278dbc6",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/aklt_s2_L3.json",
+      "expected_git_blob": "086047d9fc6a2ddded7560005da53b7e37272285",
+      "observed_git_blob": "086047d9fc6a2ddded7560005da53b7e37272285",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/code/bootstrap_scalar.py",
+      "expected_git_blob": "47c58987de2dc5963485ec3af3c979a78c0a216f",
+      "observed_git_blob": "47c58987de2dc5963485ec3af3c979a78c0a216f",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/aklt_s2_L5.json",
+      "expected_git_blob": "22af7843b59d9d2252b499a5d65217b7c0d0dc5a",
+      "observed_git_blob": "22af7843b59d9d2252b499a5d65217b7c0d0dc5a",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/requirements.txt",
+      "expected_git_blob": "51ae2917f7030c798f92353a432f380ed01eaff8",
+      "observed_git_blob": "51ae2917f7030c798f92353a432f380ed01eaff8",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/code/inertia_trace.py",
+      "expected_git_blob": "14afa2f13553dce31d17b56b88ce4b0ff3af7ad9",
+      "observed_git_blob": "14afa2f13553dce31d17b56b88ce4b0ff3af7ad9",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/code/dimer_biquadratic.py",
+      "expected_git_blob": "4b60c9ca9c8dc6f7ab5d7a83af02576d23b4004e",
+      "observed_git_blob": "4b60c9ca9c8dc6f7ab5d7a83af02576d23b4004e",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/code/numerics.py",
+      "expected_git_blob": "965b5eed8e331dbe741a4ec087ca063cb43965c0",
+      "observed_git_blob": "965b5eed8e331dbe741a4ec087ca063cb43965c0",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/aklt_s2_L6.json",
+      "expected_git_blob": "b5bbc1153388b4bf433a3e126a9f52d6b3647d95",
+      "observed_git_blob": "b5bbc1153388b4bf433a3e126a9f52d6b3647d95",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/code/exact_heat_trace.py",
+      "expected_git_blob": "0ee8bf7c9b7c1c4c0caf3776f0bb56154fa36fbf",
+      "observed_git_blob": "0ee8bf7c9b7c1c4c0caf3776f0bb56154fa36fbf",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/aklt_s2_L4.json",
+      "expected_git_blob": "e0438759d9fe549679a4da875dd79259e37837d4",
+      "observed_git_blob": "e0438759d9fe549679a4da875dd79259e37837d4",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/aklt_s3_L6.json",
+      "expected_git_blob": "a4df4be7a5984d76e07a915275a49bc44e7c1e2c",
+      "observed_git_blob": "a4df4be7a5984d76e07a915275a49bc44e7c1e2c",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/aklt_s3_L5.json",
+      "expected_git_blob": "4f39a7c1a5fe9a2256c3a46ead5ca05f26059161",
+      "observed_git_blob": "4f39a7c1a5fe9a2256c3a46ead5ca05f26059161",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/archived_spin2_L6.npz",
+      "expected_git_blob": "8541098bef55b1bf372cc4242559308d8fe208ff",
+      "observed_git_blob": "8541098bef55b1bf372cc4242559308d8fe208ff",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/aklt_s2_L7.json",
+      "expected_git_blob": "d3c0489289625af81f5e6eddda3fb18dbd740041",
+      "observed_git_blob": "d3c0489289625af81f5e6eddda3fb18dbd740041",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/archived_spin2_L4.npz",
+      "expected_git_blob": "38e3422d0429e61f1041399f8e1a5464517e55fc",
+      "observed_git_blob": "38e3422d0429e61f1041399f8e1a5464517e55fc",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/aklt_s3_L4.json",
+      "expected_git_blob": "e53931d70a95234f320d228b16702ec99268ae52",
+      "observed_git_blob": "e53931d70a95234f320d228b16702ec99268ae52",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/dimer_biquadratic_diagnostics.json",
+      "expected_git_blob": "ae4eb5c827b74a9e3027a863a2ae1cd6e5926333",
+      "observed_git_blob": "ae4eb5c827b74a9e3027a863a2ae1cd6e5926333",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/analytic_dimer_certificates.json",
+      "expected_git_blob": "4c3932f28b1e8871e6af6682bdccb655066ebd0c",
+      "observed_git_blob": "4c3932f28b1e8871e6af6682bdccb655066ebd0c",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/aklt_s3_L3.json",
+      "expected_git_blob": "cedd21d24f7bab6b9e0d314e639dbf252ef32d72",
+      "observed_git_blob": "cedd21d24f7bab6b9e0d314e639dbf252ef32d72",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/archived_spin2_L8.npz",
+      "expected_git_blob": "31f1bd6db715053047933092ce5d0beb13ad42c2",
+      "observed_git_blob": "31f1bd6db715053047933092ce5d0beb13ad42c2",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/purity_scan.json",
+      "expected_git_blob": "bf6a1f301d79bd451f4f3dc3cdeb989c2e9eeafb",
+      "observed_git_blob": "bf6a1f301d79bd451f4f3dc3cdeb989c2e9eeafb",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/exact_heat_trace_certificate.json",
+      "expected_git_blob": "7e547a3467b43dde649943517a871f6f0b160418",
+      "observed_git_blob": "7e547a3467b43dde649943517a871f6f0b160418",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/purity_scan.csv",
+      "expected_git_blob": "34f2e21c3e2bf71c015d2e34d5c46b9bdf18b65c",
+      "observed_git_blob": "34f2e21c3e2bf71c015d2e34d5c46b9bdf18b65c",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/independent_archive_crosscheck.json",
+      "expected_git_blob": "0a91d43a63d11911ced3e0e7df3ba6dc1f27225e",
+      "observed_git_blob": "0a91d43a63d11911ced3e0e7df3ba6dc1f27225e",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/dimer_transfer_sanity.json",
+      "expected_git_blob": "b06b19ebe62812221123c6bc996a48bd55f75ac2",
+      "observed_git_blob": "b06b19ebe62812221123c6bc996a48bd55f75ac2",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/finite_chain_diagnostics.json",
+      "expected_git_blob": "5387f54491bab49c3fe3a98531ebe9eac6ae8121",
+      "observed_git_blob": "5387f54491bab49c3fe3a98531ebe9eac6ae8121",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/finite_chain_diagnostics.csv",
+      "expected_git_blob": "3d082b78b34faa248d3554c34aa8e912542aba7f",
+      "observed_git_blob": "3d082b78b34faa248d3554c34aa8e912542aba7f",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/purity_curves.npz",
+      "expected_git_blob": "39925309ebcf144d7ac83e90e1f12da8288ec7b1",
+      "observed_git_blob": "39925309ebcf144d7ac83e90e1f12da8288ec7b1",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/inertia_tail_certificate.json",
+      "expected_git_blob": "dbdabed01a6702cedbadda8eb226772f668cfedf",
+      "observed_git_blob": "dbdabed01a6702cedbadda8eb226772f668cfedf",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/integer_heat_trace_moments.json",
+      "expected_git_blob": "893aad90fb2a9b52c458d781c31f679f075c1ca4",
+      "observed_git_blob": "893aad90fb2a9b52c458d781c31f679f075c1ca4",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_dimer_s0.5_L10.npz",
+      "expected_git_blob": "64bd8269d4feda44dc9242cf5936d2386ddee595",
+      "observed_git_blob": "64bd8269d4feda44dc9242cf5936d2386ddee595",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_dimer_s1.5_L4.npz",
+      "expected_git_blob": "0322d9a3712a251459ee5e013bab38b5800e2654",
+      "observed_git_blob": "0322d9a3712a251459ee5e013bab38b5800e2654",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_dimer_s0.5_L8.npz",
+      "expected_git_blob": "6d6da9b008bcc2fd8b5db1de7ce09941c5ba8fcc",
+      "observed_git_blob": "6d6da9b008bcc2fd8b5db1de7ce09941c5ba8fcc",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/size_temperature_diagnostics.json",
+      "expected_git_blob": "8bc499631cd2e3513b75cf26f78dd53604c45cba",
+      "observed_git_blob": "8bc499631cd2e3513b75cf26f78dd53604c45cba",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_dimer_s1.5_L6.npz",
+      "expected_git_blob": "ebfa25ca46ffb5af0d85f144acc434d01c4edc1e",
+      "observed_git_blob": "ebfa25ca46ffb5af0d85f144acc434d01c4edc1e",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_biquad_dimer_s1.5_L4.npz",
+      "expected_git_blob": "575365b8a0b7d401cc11b329de486feb56fa8e94",
+      "observed_git_blob": "575365b8a0b7d401cc11b329de486feb56fa8e94",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_heis_s1_L2.npz",
+      "expected_git_blob": "0e88ab4ff4b662f3e5419ac570e20e1da6cb5a25",
+      "observed_git_blob": "0e88ab4ff4b662f3e5419ac570e20e1da6cb5a25",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_biquad_dimer_s1.5_L6.npz",
+      "expected_git_blob": "9912438f98285d95385c75476674e33125f24a37",
+      "observed_git_blob": "9912438f98285d95385c75476674e33125f24a37",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_dimer_s0.5_L4.npz",
+      "expected_git_blob": "9d25e6dd3fc532f8b1b79547a5e200b43e4bc2dc",
+      "observed_git_blob": "9d25e6dd3fc532f8b1b79547a5e200b43e4bc2dc",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_dimer_s2.5_L4.npz",
+      "expected_git_blob": "3e2f4815fe51ea4fb4944cf0d88d1134959e65c3",
+      "observed_git_blob": "3e2f4815fe51ea4fb4944cf0d88d1134959e65c3",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_heis_s2_L2.npz",
+      "expected_git_blob": "eb67cb74be40ca6fca42b0cd2b8e52dfaea7c334",
+      "observed_git_blob": "eb67cb74be40ca6fca42b0cd2b8e52dfaea7c334",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_penU128_s2_L6.npz",
+      "expected_git_blob": "20bf5099a151af3832950f95200446aaec30126f",
+      "observed_git_blob": "20bf5099a151af3832950f95200446aaec30126f",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_heis_s2_L4.npz",
+      "expected_git_blob": "f6240da6e46a3c2a05aa4d30bb0e96b5c628f3c9",
+      "observed_git_blob": "f6240da6e46a3c2a05aa4d30bb0e96b5c628f3c9",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_penU128_s2_L4.npz",
+      "expected_git_blob": "f860094e8effdb04c6617d05c58fbb0b7633a80b",
+      "observed_git_blob": "f860094e8effdb04c6617d05c58fbb0b7633a80b",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_heis_s1_L6.npz",
+      "expected_git_blob": "6322f2408ec43ed955e2b5ef61495729c4a9bc29",
+      "observed_git_blob": "6322f2408ec43ed955e2b5ef61495729c4a9bc29",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_heis_s3_L2.npz",
+      "expected_git_blob": "1be44f0fe39d264081752f753c95bbc4630deea2",
+      "observed_git_blob": "1be44f0fe39d264081752f753c95bbc4630deea2",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_heis_s3_L4.npz",
+      "expected_git_blob": "3ce98d327ddf28b61b2685874baf1aa0bc9f261a",
+      "observed_git_blob": "3ce98d327ddf28b61b2685874baf1aa0bc9f261a",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_heis_s1_L4.npz",
+      "expected_git_blob": "5a0a5f047aeba67cabbfb6e9b3a5abfbc1b8d235",
+      "observed_git_blob": "5a0a5f047aeba67cabbfb6e9b3a5abfbc1b8d235",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_heis_s1_L8.npz",
+      "expected_git_blob": "baae9201e246b53c6b99d48181ec4ce8bc855c78",
+      "observed_git_blob": "baae9201e246b53c6b99d48181ec4ce8bc855c78",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_heis_s2_L6.npz",
+      "expected_git_blob": "867f9f8cb395ad40c869d9966fc19c3d2e4a4105",
+      "observed_git_blob": "867f9f8cb395ad40c869d9966fc19c3d2e4a4105",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_penU8_s2_L4.npz",
+      "expected_git_blob": "ff74dafa426230f946c225191f987a64522e1c90",
+      "observed_git_blob": "ff74dafa426230f946c225191f987a64522e1c90",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/sources/archive_provenance.json",
+      "expected_git_blob": "39468c5c5574ee79c3ee7e228ade3c63da9da144",
+      "observed_git_blob": "39468c5c5574ee79c3ee7e228ade3c63da9da144",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_penU32_s2_L4.npz",
+      "expected_git_blob": "a2b444f41a60305992bbaab0af9fc5c347e08c09",
+      "observed_git_blob": "a2b444f41a60305992bbaab0af9fc5c347e08c09",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_penU8_s2_L6.npz",
+      "expected_git_blob": "b4150c94ad56c85eb9caf4d26b9b07f7fde27991",
+      "observed_git_blob": "b4150c94ad56c85eb9caf4d26b9b07f7fde27991",
+      "matches": true,
+      "error": false
+    },
+    {
+      "path": "original/Haldane_extensions/results/spec_penU32_s2_L6.npz",
+      "expected_git_blob": "61889d9cfc2cbb640890d544da0bbee5e38848ea",
+      "observed_git_blob": "61889d9cfc2cbb640890d544da0bbee5e38848ea",
+      "matches": true,
+      "error": false
+    }
+  ]
+}
