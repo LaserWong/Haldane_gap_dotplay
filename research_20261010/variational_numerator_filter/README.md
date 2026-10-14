@@ -2,13 +2,13 @@
 
 Updated 2026-10-10 15:00 America/New_York (EDT, UTC−4) / 19:00 UTC.
 
-Exact producer candidates; independent review pending. Proof: `PROOF.md`.
+Exact producer candidates. Independent review pending. The proof is in `PROOF.md`.
 
 This optional route lowers an existing ground trial's Rayleigh upper endpoint using G/H/H² and a rigorous upper expectation on its residual. It constructs no production physical residual and does not use H³/H⁴. The existing first-moment-only route is untouched.
 
-The sharper variant resolves residual norm among q=0,2,4,6 using existing F/S/V/W geometry. All 21 residual norm sums equal the stored complete variance exactly.
+The sharper variant resolves the residual norm among q=0,2,4,6 using existing F/S/V/W geometry. All 21 residual norm sums equal the stored complete variance exactly.
 
-For the largest 8×8 rung patch:
+The table gives results for the largest 8×8 rung patch.
 
 | g | Global-upper gain | Sector-resolved gain |
 |---|---:|---:|
@@ -20,10 +20,10 @@ For the largest 8×8 rung patch:
 | 0.08 | 0.00200680758131 | 0.00217391024282 |
 | 0.10 | 0.00608024794650 | 0.00676318139512 |
 
-These are energy-upper-endpoint improvements, not gap lower bounds. Input trial dimensions are 11/29/29 on 4×4/8×4/8×8. The filter uses an at-most-two-dimensional plane and retains one implicit normalized state with q≤6 support; adjoining its residual direction to the original space would give dimension at most 12/30/30. The largest physical Hilbert dimension is 4^64=2^128. No new residual claim is made for the filtered state.
+These are energy-upper-endpoint improvements, not gap lower bounds. Input trial dimensions are 11/29/29 on 4×4/8×4/8×8. The filter uses an at-most-two-dimensional plane and retains one implicit normalized state with q≤6 support. Adjoining its residual direction to the original space would give dimension at most 12/30/30. The largest physical Hilbert dimension is 4^64=2^128. No new residual claim is made for the filtered state.
 
-Consumer interface: read `filtered_<nx>x<ny>_g<p>d<q>.json`, use `shifted_rayleigh_upper` (H′=H+3N/4) or `energy_rayleigh_upper` (H). `filter` is the sharper certified variant; `global_upper_filter` preserves the simpler variant. Both have exact rational data. Treat status as candidate until independent review and complete scalar/bridge replay.
+For the consumer interface, read `filtered_<nx>x<ny>_g<p>d<q>.json`, use `shifted_rayleigh_upper` (H′=H+3N/4) or `energy_rayleigh_upper` (H). `filter` is the sharper certified variant. `global_upper_filter` preserves the simpler variant. Both have exact rational data. Treat status as candidate until independent review and complete scalar/bridge replay.
 
-Reproduce with `bash REPRODUCE.sh`. Scope: ≤1 CPU, 1 GiB address space, BLAS/OpenMP threads one. Run time is seconds. Files are only written in this directory. Upstream inputs are referenced by exact hashes; no physical-state computation or external publication is performed.
+Reproduce with `bash REPRODUCE.sh`. The scope is ≤1 CPU and 1 GiB address space, with BLAS/OpenMP threads set to one. Run time is seconds. Files are only written in this directory. Upstream inputs are referenced by exact hashes. No physical-state computation or external publication is performed.
 
-Next action: independent review of local upper normalization, residual-sector formulas, and all exact endpoints; then combine with independently reviewed denominator lower endpoints and complete thermal/finite-size checks. Parent owns updates to the main README and final publication.
+The next action is independent review of local upper normalization, residual-sector formulas, and all exact endpoints. Then combine with independently reviewed denominator lower endpoints and complete thermal/finite-size checks. Parent owns updates to the main README and final publication.

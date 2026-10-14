@@ -18,7 +18,7 @@ The best initial inverse temperatures remain 32 and 65/2. The exact final gaps a
 - 1445972708809357228759498140402530393 / 170141183460469231731687303715884105728
 - 675427740767930538083603620537361547 / 340282366920938463463374607431768211456
 
-Every inverse-purity margin, rational square-root enclosure, finite-temperature gap and input hash is stored in `ff_frontier_finite_windows.json`. The root calculation uses exact fractions and independent outward exponential tests. The interpolation lemma itself was independently reconstructed by the low-band reviewer. This size extension reuses the existing physical-seed audit and does not rerun an eigensolver.
+Every inverse-purity margin, rational square-root enclosure, finite-temperature gap and input hash is stored in `ff_frontier_finite_windows.json`. The calculation uses exact fractions and independent outward exponential tests. The interpolation lemma itself was independently reconstructed by the low-band reviewer. This size extension reuses the existing physical-seed audit and does not rerun an eigensolver.
 
 Reproduce from the repository root:
 
@@ -26,4 +26,4 @@ Reproduce from the repository root:
 python research_20261010/root_review/bridge_ff_frontier.py
 ```
 
-The older worker checkpoint correctly records the scope before this new bridge. This document supplies the later scope extension without changing the underlying seed records.
+The older checkpoint correctly records the scope before this new bridge. This document supplies the later scope extension without changing the underlying seed records.

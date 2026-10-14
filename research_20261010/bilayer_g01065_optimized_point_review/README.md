@@ -1,3 +1,5 @@
-# Exactg=.1065 all-integer point review
+# Exact g=.1065 point certificate
 
-Accepted unique ground and gap≥.021451810876 for every integer squareL≥2 atg=213/2000. New21D/57D ground and43D numerator vectors are verified by exact complete-matrix contractions, independent of optimizer numerics. This is a point theorem only. See PROOF.md; run `sh REPRODUCE.sh` for a clean exact audit, observed under3CPU seconds/21MiB.
+The review accepted a unique ground state and gap≥.021451810876 for every integer square L≥2 at g=213/2000. Exact complete-matrix contractions verify the new 21D/57D ground-state vectors and 43D numerator vector independently of the optimizer's floating-point results.
+
+This theorem applies to the isolated coupling point. PROOF.md gives the proof. `sh REPRODUCE.sh` runs a clean exact audit, observed to use under 3 CPU seconds and 21 MiB.

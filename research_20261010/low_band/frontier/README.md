@@ -8,7 +8,7 @@ This directory is separate from the frozen, independently reviewed g=0.03 certif
 
 Complete low bands were certified on the same 2×2, 4×2 and 4×4 periodic patches at both g=1/25 and g=1/20. The band ranks remain 13, 25 and 49. The number-sector cutoff still separates the complete trial band from all omitted states. These new coupling-specific numerical certificates have not been independently audited.
 
-The symmetry-compressed ground sources use one block-Krylov extension and have at most 11 trial vectors. Their full expanded support and leaked residual are retained. Ground source artifacts are under `symmetry/` and the additional exact check residual_squared_bound >= exact r² is enforced when integrating them.
+The symmetry-compressed ground sources use one block-Krylov extension and have at most 11 trial vectors. Their full expanded support and full residual outside the trial space are retained. Ground source artifacts are under `symmetry/` and the additional exact check residual_squared_bound >= exact r² is enforced when integrating them.
 
 The exact shifted 50th-eigenvalue cutoffs on 4×4 are
 

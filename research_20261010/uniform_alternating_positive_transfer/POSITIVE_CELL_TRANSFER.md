@@ -1,6 +1,6 @@
 # Positive cell transfer for the alternating spin-one Heisenberg chain
 
-2026-10-11 03:26 UTC. The positive-transfer and finite-window lemmas have independent structural acceptance in uniform_alternating_positive_cell_review (manifest abb8e04fa7478e939d18c831a3a4b201c0ec6baf9b8e3e494b5b867a4347f872). New scalar certificates are documented separately and await their own review; the accepted robustness producer and review packages remain unchanged.
+2026-10-11 03:26 UTC. The positive-transfer and finite-window lemmas have independent structural acceptance in uniform_alternating_positive_cell_review (manifest abb8e04fa7478e939d18c831a3a4b201c0ec6baf9b8e3e494b5b867a4347f872). New scalar certificates are documented separately and await their own review. The accepted robustness producer and review packages remain unchanged.
 
 ## 1. Scope and model
 
@@ -13,7 +13,7 @@ Choose the identical Cartesian spin-one basis at every site. Then G_alpha=i S^al
 
     -h_ab=sum_alpha G_alpha^(a) tensor G_alpha^(b).
 
-The same G_alpha occurs on both endpoints; the orientation of a bond changes neither its Hamiltonian nor this factorization. Reality at a SINGLE spin-one site is important here. This proof is not claimed for an arbitrary exchange/time-reversal-invariant cell perturbation v, or for a half-integer single-site representation.
+The same G_alpha occurs on both endpoints. The orientation of a bond changes neither its Hamiltonian nor this factorization. Reality at a SINGLE spin-one site is important here. This proof is not claimed for an arbitrary exchange/time-reversal-invariant cell perturbation v, or for a half-integer single-site representation.
 
 ## 2. History measures with coupling carried in the measure
 
@@ -31,7 +31,7 @@ For two histories x,u, merge their event lists in chronological order and put
 
     k_tau(x,u)=tr_(C^3)[product of the corresponding G_alpha matrices in that chronological order].
 
-Choose either convention that later events multiply on the left or on the right and use it at EVERY site; both reproduce the same consistently time-ordered exponential. Coincident events between independent nonempty histories form a measure-zero set, so any fixed tie convention is harmless.
+Choose either convention that later events multiply on the left or on the right and use it at EVERY site. Both reproduce the same consistently time-ordered exponential. Coincident events between independent nonempty histories form a measure-zero set, so any fixed tie convention is harmless.
 
 The kernel is real, |k_tau(x,u)|<=3, and k_tau(x,u)=k_tau(u,x). The last identity only exchanges the ownership of the same merged events. It does not reverse the chronological product, transpose a noncommuting product, or require the G_alpha matrices to commute.
 
@@ -42,12 +42,12 @@ Let H_1=L2(Omega,mu_1) and H_g=L2(Omega,mu_g), considered as complex Hilbert spa
     A_g:H_g -> H_1,
     (A_g f)(x)=integral k_tau(x,u) f(u) dmu_g(u).
 
-Its Hilbert–Schmidt norm is finite:
+Its Hilbert–Schmidt norm is finite, with the following bound.
 
     ||A_g||_HS^2 = integral |k_tau(x,u)|^2 dmu_1(x)dmu_g(u)
                   <=9 exp[3(1+g)tau].
 
-The adjoint is determined by the two distinct measures:
+The adjoint is determined by the two distinct measures and has the following form.
 
     (A_g* v)(u)=integral overline{k_tau(x,u)} v(x) dmu_1(x).
 
@@ -56,7 +56,7 @@ Consequently C_g=A_g A_g* is a positive TRACE-CLASS operator on H_1, with kernel
     C_g(x,y)=integral k_tau(x,u) k_tau(y,u) dmu_g(u)
             =integral k_tau(x,u) k_tau(u,y) dmu_g(u).              (1)
 
-In particular <v,C_g v>=||A_g* v||^2>=0. This is an actual Gram factorization between two possibly different Hilbert spaces. It is NOT the invalid claim that a product of two self-adjoint operators must be self-adjoint or positive. The single-site kernel can take either sign; positivity occurs after contracting the internal bond.
+In particular <v,C_g v>=||A_g* v||^2>=0. This is an actual Gram factorization between two possibly different Hilbert spaces. Positivity follows from this Gram factorization rather than from a general product of self-adjoint operators. The single-site kernel can take either sign. Positivity occurs after contracting the internal bond.
 
 ## 4. Physical cell identity, orientation, and time ordering
 
@@ -66,7 +66,7 @@ Expand the finite-dimensional physical exponential in ordered bond events. Assig
 
     k_tau(x_(j-1),u_j)  and  k_tau(u_j,x_j).
 
-Both local products use forward chronological ordering inherited from the SAME global ordering. Internal history u_j carries the same label and time on its two endpoints. The fact that operators at distinct physical sites commute allows the full trace to factor into these single-site traces; it does not reorder two noncommuting matrices at any one site.
+Both local products use forward chronological ordering inherited from the SAME global ordering. Internal history u_j carries the same label and time on its two endpoints. The fact that operators at distinct physical sites commute allows the full trace to factor into these single-site traces. It does not reorder two noncommuting matrices at any one site.
 
 At total event number k, an absolute bound is
 
@@ -85,7 +85,7 @@ An added constant a_g per PHYSICAL site is represented by
     X_g,tau = exp[-2 tau a_g] C_g,
     Tr exp[-tau(H_M(g)+2M a_g I)] = Tr X_g,tau^M.                 (3)
 
-The scalar multiplier is positive, hence X_g,tau remains positive trace class. In the accepted near-uniform normalization, c=(1+g)/2, a_g=c*(700741/500000), and tau=beta/c. Then the per-cell scalar is exp[-2 beta*(700741/500000)], exactly the square of the uniform per-site shift at normalized beta; the physical history measures themselves still use tau and couplings 1,g.
+The scalar multiplier is positive, hence X_g,tau remains positive trace class. In the accepted near-uniform normalization, c=(1+g)/2, a_g=c*(700741/500000), and tau=beta/c. Then the per-cell scalar is exp[-2 beta*(700741/500000)], exactly the square of the uniform per-site shift at normalized beta. The physical history measures themselves still use tau and couplings 1,g.
 
 ### Consistency limits
 
@@ -109,7 +109,7 @@ likewise lies in (0,1]. Thus the exact exchange identities and same-direction pu
 
 ## 6. A stronger all-integer finite window
 
-Fix integer n>=2 and n<=M<=2n, and write q=M/n in [1,2]. Put
+Fix an integer n>=2 and n<=M<=2n, and write q=M/n in [1,2]. Put
 
     S=S(n,tau),  T=T(2n,tau).
 
@@ -132,7 +132,7 @@ Division of (4) by the square of (5), with strictly positive physical traces, pr
 
 The last expression is the minimum of the endpoint values of the log-linear expression in q. It holds for every integer M in the entire window, at odd or even n and M. Neither a dominant-eigenvalue argument, K=S^2T>1/2, a signed-tail subtraction, nor the factor 1/(1+rho^2) is needed for (6).
 
-Given lower endpoints s<=S,t<=T in (0,1], the rational-root implementation may safely use C=min(s sqrt(t),t). A physical gap D follows on that window whenever C>1/2 and C-exp(tau D)(1-C)>0. Positivity of the transfer alone is not a gap proof; numerical lower purity information is still necessary.
+Given lower endpoints s<=S,t<=T in (0,1], the rational-root implementation may safely use C=min(s sqrt(t),t). A physical gap D follows on that window whenever C>1/2 and C-exp(tau D)(1-C)>0. Positivity of the transfer alone is not a gap proof. Numerical lower purity information is still necessary.
 
 ## 7. Bootstrap and tail closure with unchanged conservative constants
 
@@ -154,15 +154,15 @@ On the j-th window, (6) gives C_j >=(1-u_j)^(3/2)>=1-(3/2)u_j. Its largest physi
 
     (1-C_j)/C_j <= 2u_j <= (2/5)(5u)^(2^j),
 
-where the middle inequality follows from u_j<=.01. Consequently every integer cell M>=n has unique ground state and gap at least
+where the middle inequality follows from u_j<=.01. Consequently every integer cell M>=n has a unique ground state and gap at least
 
     log[1/(5u)]/tau.
 
-Therefore the same conservative exact terminal test 5u exp(tau D)<1 is sufficient. If the initial cell n is odd, the proof still holds; alternatively every later doubled base is even, so only the first finite positive window needs the parity extension.
+Therefore the same conservative exact terminal test 5u exp(tau D)<1 is sufficient. If the initial cell n is odd, the proof still holds. Alternatively every later doubled base is even, so only the first finite positive window needs the parity extension.
 
 ## 8. Consequences and next numerical scope
 
-The already accepted untwisted finite trace perturbation comparison remains unchanged:
+The already accepted untwisted finite trace perturbation comparison remains unchanged and reads
 
     1<=Z_eta,L(beta)/Z_0,L(beta)<=exp[(9/8)(beta r L)^2], |eta|<=r.
 
@@ -170,6 +170,6 @@ A uniform physical seed (L,beta,s0,t0) transfers to cell n=L/2 with
 
     s>=s0 exp(-2A),  t>=t0 exp(-8A),  A=(9/8)(beta L r)^2.
 
-The positive transfer makes physical starts L30 and L34 newly eligible; L32 and L36 remain eligible. The finite-window lower bound improves to min(s sqrt(t),t). All use the existing physical thermal inputs and their own already accepted MPS anchors. No new physical contraction or thermal data is needed to TEST these improved sufficient conditions.
+The positive transfer makes physical starts L30 and L34 newly eligible. L32 and L36 remain eligible. The finite-window lower bound improves to min(s sqrt(t),t). All use the existing physical thermal inputs and their own already accepted MPS anchors. No new physical contraction or thermal data is needed to TEST these improved sufficient conditions.
 
 This analytic note alone asserts no wider numerical interval. CERTIFICATE_PROOF.md and certificate.json give separate new producer-certified intervals, requiring independent numerical composition review before promotion. The previous accepted explicit neighborhoods and their seals remain unchanged.

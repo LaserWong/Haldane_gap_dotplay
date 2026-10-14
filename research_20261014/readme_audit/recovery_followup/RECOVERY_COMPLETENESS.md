@@ -1,16 +1,16 @@
-# Bounded Stage32/33 and post38 recovery audit
+# Stage32/33 and post38 recovery status
 
-Date: 2026-10-14. Read-only remote inspection; no scientific replay or remote changes.
+The remote records were inspected on 2026-10-14 without scientific replay or remote changes.
 
-## Result
+## Recovered files
 
-Six exact original JSON files were recovered from reachable Git objects. Byte length, SHA256 and Git blob SHA1 were verified against known original metadata. `EXACT_RECOVERED_FILES.json` maps each original repository path to its already-present repository object. They are the post38 scientific SOURCE_PINS, three resource-review inventories/hash bindings, DOCUMENTARY_CHECKS, and EXTERNAL_HISTORY_SOURCE_MAP. These are useful provenance evidence, not replacements for the missing underlying proofs or scalar-output files.
+Six exact original JSON files were recovered from reachable Git objects. Byte length, SHA256 and Git blob SHA1 were verified against known original metadata. `EXACT_RECOVERED_FILES.json` maps each original repository path to its already-present repository object. They are the post38 scientific SOURCE_PINS, three resource-review inventories/hash bindings, DOCUMENTARY_CHECKS, and EXTERNAL_HISTORY_SOURCE_MAP. These records establish provenance. The underlying proofs and scalar-output files are still needed.
 
 The direct inventory contains no mapped Stage32/33 certificate proof or actual replay output. The mapped Stage32/33/38 PDFs are overviews. The key post38 assembly results have path, byte length and SHA256 metadata, but no equal-sized candidate among the 700 listed reachable objects, after using both ledger sizes and known-path sizes. Consequently their exact standalone bytes could not be recovered from this known-object inventory.
 
-This does not exclude their presence inside an unresolved compressed transport object. The known inventory does not establish a complete path-to-transport-member mapping. No claim of global absence is made.
+This does not exclude their presence inside an unresolved compressed transport object. The known inventory does not establish a complete path-to-transport-member mapping. Their presence elsewhere remains unresolved.
 
-## Files actually retrieved and verified
+## Verified identities
 
 See `EXACT_RECOVERED_FILES.json` for all six exact byte identities. Original paths are:
 
@@ -21,9 +21,9 @@ See `EXACT_RECOVERED_FILES.json` for all six exact byte identities. Original pat
 - `research_20261010/bilayer_numerator64_h3_assembly75748_resource_review/bindings/DOCUMENTARY_CHECKS.json`
 - `reproducibility/current_complete_transport/EXTERNAL_HISTORY_SOURCE_MAP.json`
 
-The raw originals were recovered and verified locally; publication avoids duplicating them and links the existing exact repository objects. Those exact originals preserve historical absolute paths and all source bytes. The mapping reports use repository-relative paths. SOURCE_PINS and inventory records corroborate expected dependencies; a documentary PASS only reports the earlier review, not a fresh replay of those dependencies.
+The originals were recovered and verified locally. The mapping references existing repository objects rather than duplicating their bytes. Those exact originals preserve historical absolute paths and all source bytes. The mapping reports use repository-relative paths. SOURCE_PINS and inventory records corroborate expected dependencies. A documentary PASS only reports the earlier review, not a fresh replay of those dependencies.
 
-## Highest-impact missing proof paths
+## Missing proofs
 
 Direct current-main reads returned NOT_FOUND for:
 
@@ -32,7 +32,7 @@ Direct current-main reads returned NOT_FOUND for:
 
 Neither appears as a direct original-path entry in KNOWN_BLOB_PATHS. The recovered status supplies their accepted historical summaries and seals but not full proof-file bytes. Thus ordinary-bilayer [0,.118] cannot yet be upgraded to a currently fully reconstructed certificate chain.
 
-## Exact result identity gaps
+## Missing result files
 
 `KEY_RESULT_PATH_MAP.json` lists eight relevant file paths, expected SHA256 values and sizes, each with no direct equal-size object candidate. In particular:
 
@@ -43,10 +43,12 @@ Neither appears as a direct original-path entry in KNOWN_BLOB_PATHS. The recover
 
 Duplicate state/receipt paths have the same expected hashes. A hash alone cannot reconstruct their bytes, and an arbitrary reserialization of a summary would not be exact recovery.
 
-## Mapped binary summaries and retrieval limitation
+## Overview PDFs and compressed catalog
 
-`KNOWN_HIGH_IMPACT_PATH_MAP.json` includes the three directly mapped overview PDFs and five post38 metadata files. Stage33 PDF object `83892297f52130ffcafce07314e5e72af2211c21` is reachable through the repository recovery path, but both file/blob connector reads attempt UTF-8 decoding and fail on binary PDF bytes. The GitHub user-content downloader accepts only its dedicated image domain and is not a binary repository-blob download route. No PDF content or PDF hash revalidation is claimed in this pass.
+`KNOWN_HIGH_IMPACT_PATH_MAP.json` includes the three directly mapped overview PDFs and five post38 metadata files. A subsequent explicit base64 file read successfully recovered the Stage33 PDF and verified its exact size, SHA256 and Git blob SHA1. Its extracted text corroborates the historical interval summary. The full proof remains missing. See `BASE64_RETRIEVAL_ADDENDUM.md` and `PDF_VERIFICATION.json`.
 
-## Scope exhausted / next dependency
+The larger compressed path catalog still returns empty content from the explicit-base64 file route. The blob route fails UTF-8 decoding, and a final generic fetch rejects the binary content rather than exposing raw API JSON. Thus the remaining blocker is large compressed-catalog retrieval via these connector representations, not binary files generally.
 
-All92 known original-path metadata records and700-object provenance entries, upload ledgers,599 external-history source-map entries, and the recovered post38 inventory/hash metadata were inspected for this bounded task. Direct proof/result mappings were not found. The next distinct recovery task would be binary-capable retrieval and decoding of SNAPSHOT_NORMAL_PATHS.jsonl.gz and transport catalogs, followed by an explicit completeness check before extracting any members. That deeper transport reconstruction was not performed here; none of the present findings establishes a complete transport package.
+## Search coverage and remaining work
+
+The search covered all 92 known original-path metadata records, the 700-object provenance inventory, upload ledgers, 599 external-history source-map entries, and the recovered post38 inventory/hash metadata. Direct proof/result mappings were not found. Further reconstruction requires the bytes of `SNAPSHOT_NORMAL_PATHS.jsonl.gz` and the transport catalogs, followed by a completeness check before member extraction. Those steps remain unfinished, so a complete transport package has not been established.

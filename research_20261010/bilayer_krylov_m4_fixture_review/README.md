@@ -1,3 +1,5 @@
-# Independent small physical fourth-moment review
+# Independent fourth-moment checks on small physical systems
 
-The4×2 and5×2 exact physical fixtures pass in a separate Cartesian rung implementation. Read PROOF.md and ACCEPTANCE.json. Run `sh REPRODUCE.sh` for a clean independent replay, approximately2 CPU seconds and18MiB RSS. All15 oriented normal-order terms, sector norms, m3 and m4 agree with the frozen magnetic-basis producer.5×2 has nonzeroq10. This does not certify a large-system motif engine or production cost.
+A separate Cartesian rung implementation reproduces the exact 4×2 and 5×2 physical fixtures. All 15 oriented normal-order terms, sector norms, m3, and m4 agree with the frozen magnetic-basis calculation. The 5×2 system has a nonzero q10 contribution.
+
+`PROOF.md` and `ACCEPTANCE.json` give the derivation and review result. Run `sh REPRODUCE.sh` for a fresh independent replay, requiring approximately 2 CPU seconds and 18 MiB RSS. These fixtures do not certify the large-system motif engine or its production cost.

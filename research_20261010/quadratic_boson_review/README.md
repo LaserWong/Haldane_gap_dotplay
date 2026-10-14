@@ -2,7 +2,7 @@
 
 Updated 2026-10-10 14:32 America/New_York (EDT) / 18:32 UTC.
 
-PASS. The stable quadratic-boson theorem, hard-core min-max compression, rational frequency directions, and finite reference-tail overcount are independently verified for finite ordinary periodic bilayers with 0≤g<1/4.
+The independent review verifies the stable quadratic-boson comparison for finite ordinary periodic bilayers with 0≤g<1/4. It includes hard-core min-max compression, directed rational frequency bounds, and the finite reference-tail overcount.
 
 - Complete proof and implementation cautions: [PROOF.md](PROOF.md)
 - Acceptance summary: [results/summary.json](results/summary.json)

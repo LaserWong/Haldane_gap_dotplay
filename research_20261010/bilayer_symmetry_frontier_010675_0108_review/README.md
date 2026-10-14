@@ -1,3 +1,12 @@
-# Four exact all-size points
+# Four certified bilayer coupling points
 
-g=.10675/.107/.1075/.108 have independently certified all-integerL≥2 gaps .018514632200/.015448308603/.012576432653/.006236941481, respectively, and unique grounds. These are point statements. All new rational21D/57D/43D vectors, physical counts/tails and scalar paths are freshly checked. Read PROOF.md; `sh REPRODUCE.sh` runs the exact batch in about5CPU seconds/20MiB.
+The independent review establishes unique finite-volume ground states and gap bounds for every integer square side L≥2 at four couplings.
+
+| g | Gap lower bound |
+| --- | --- |
+| .10675 | .018514632200 |
+| .107 | .015448308603 |
+| .1075 | .012576432653 |
+| .108 | .006236941481 |
+
+These are isolated-point results. The new rational 21D/57D/43D vectors, physical counts and tails, and scalar paths were checked afresh. `PROOF.md` gives the argument. Run `sh REPRODUCE.sh` to repeat the exact batch, using approximately 5 CPU seconds and 20 MiB.

@@ -1,5 +1,5 @@
-# Physical64 B² pilot
+# Physical 64-site B² pilot
 
-Producer result, independent review required. The unchanged D26 trial has q64=<B64²>/96²=.007521781460785803... . Exact norm and total energy match the independently accepted64-site anchor. Existing finite thermal bounds plus energy-only fidelity and the sharper effect inequality give Gibbs kappa64<=157/1000 at beta49/4.
+This producer result requires independent review. The unchanged D26 trial gives q64=<B64²>/96²=.007521781460785803... . Its exact norm and total energy match the independently accepted 64-site anchor. The existing finite thermal bounds, energy-only fidelity bound and sharper effect inequality give Gibbs kappa64<=157/1000 at beta49/4.
 
-All11 block checkpoints are complete. Physical CPU17.185815seconds/35636KiB, compile separately6.886386seconds/203976KiB. No32/H² production, no new robust interval, no retry. PROOF.md documents the derivation, normalization, fidelity and historical fixture mutation-label erratum; all prior seals stay unchanged.
+All 11 block checkpoints are complete. The physical computation used 17.185815 CPU seconds and 35636 KiB. Compilation was charged separately at 6.886386 seconds and 203976 KiB. No 32-site or H² production run, new robust interval or retry was undertaken. PROOF.md records the derivation, normalization, fidelity argument and historical fixture mutation-label erratum. All prior seals remain unchanged.

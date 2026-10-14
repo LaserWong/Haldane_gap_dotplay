@@ -2,7 +2,7 @@
 
 Updated 2026-10-10 15:15 America/New_York (EDT, UTC−4) / 19:15 UTC.
 
-PASS: ordinary spin-1/2 periodic square bilayer, unit rung exchange. All 42 patch recombinations, 42 selected orders, 30 successful full-band certificates and 11 largest-ground-only certificates are independently checked. Every successful result covers every integer square side L≥2.
+The review checks the ordinary periodic spin-1/2 square bilayer with unit rung exchange. It independently verifies 42 patch recombinations, 42 selected orders, 30 successful full-band certificates, and 11 largest-ground-only certificates. Each successful result covers every integer square side L≥2.
 
 The newly accepted g=0.08 bound is 0.023243965748 at initial β=197/20, using time–x–y followed by canonical transport. Its largest-ground-only numerator gives 0.023241913957. The latter still uses original second-moment data to certify the filter.
 

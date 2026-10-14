@@ -1,4 +1,4 @@
-# Exact all-size candidates and .10 screen
+# Exact all-size candidates and the .10 scan
 
 Updated 2026-10-10 17:10 EDT / 21:10 UTC. Independent acceptance is required.
 
@@ -8,15 +8,15 @@ numerator state and the unchanged smaller-seed denominator input.
 - Exact two-vector upper: candidate all-integer-L≥2 gap 0.001111944974
 - Exact 43-dimensional-search upper: candidate gap 0.027330086079
 
-The retained numerator-state count is one in both variants. The 43-dimensional
-search does not retain 43 physical low-band states. No new trial residual,
+Both variants retain one numerator state. The 43-dimensional search space
+is distinct from a retained band of 43 physical states. No new trial residual,
 ground lower endpoint, denominator bound, or omitted-state count is asserted.
 
 The denominator snapshots are byte-for-byte copies of the old combined input.
 The input_* files retain the old 4×4 and 8×4 objects. Their 8×8 object replaces
 the ground upper endpoint with the exact rational trial upper and omits all
 old excited numerator contributions. In the txy route the 8×8 seed enters
-only the numerator; its computed upper trace is not used.
+only the numerator. Its computed upper trace is not used.
 
 Every exact candidate stores its initial rational partition-function ratio
 bounds, each repeated raw txy and canonical ladder, the common physical

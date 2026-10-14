@@ -10,13 +10,13 @@ independent exact replay is complete. No physical vector was regenerated.
 The model is the ordinary periodic spin-1/2 square bilayer, unit rung coupling
 and equal straight in-layer coupling g. The maximum seed is 8x8 rungs, with full
 Hilbert dimension 4^64, a 29-dimensional ground trial and a complete retained
-low band of dimension 193. This comparison does not claim an optimal physical
-gap, optimal coupling, or minimum seed among arbitrary geometries.
+low band of dimension 193. This comparison does not determine the optimal physical gap, the largest
+certifiable coupling or the minimum seed among arbitrary geometries.
 
-## Best all-integer candidate from the same bounded temperature grid
+## All-size candidates on a common temperature grid
 
 All listed best choices use a time,x,y cycle followed by exact transport to the
-canonical x,y,time staircase; the code labels the original order txy. Time is
+canonical x,y,time staircase. The code labels the original order txy. Time is
 never relabeled as a spatial direction.
 
 | g | original number tail | bosonic Jacobi tail | quadratic boson reference |
@@ -48,8 +48,8 @@ separates that gain from the smaller like-for-like tail improvement.
   proved overcount of the ordered finite physical spectrum.
 
 The code does not take pointwise maxima of endpoints with different ordered
-index breakpoints. All three methods agree on the first retained count 1+3N;
-that counted cutoff is used in the sector-Temple intervals for the same frozen
+index breakpoints. All three methods agree on the first retained count 1+3N.
+That counted cutoff is used in the sector-Temple intervals for the same frozen
 physical moments. New cutoff, lower interval, trace and bootstrap data are
 saved separately for each variant.
 

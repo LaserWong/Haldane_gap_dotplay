@@ -1,12 +1,16 @@
-# Assess moment-envelope sharpness
+# Sharpness of the moment envelope
 
-Producer exact assessment; independent review pending.
+This exact assessment was awaiting independent review at the recorded checkpoint.
 
-- Hermite/Radau bound is exactly optimal for fixed moments in the positive-weight relaxation.
-- Explicit integer-count spectra fit all nine raw intervals and have positive seam traces at every integer length.
-- These constrain further moment-only improvement to7.17e-5 atL26 and3.05e-5 atL100.
-- A strict integer-count correction is proved, but only~1.50e-14 in the exhibited case.
+The Hermite/Radau bound is optimal for fixed moments in the positive-weight relaxation.
+Explicit integer-count spectra fit all nine raw intervals and have positive seam traces at every integer length.
+They limit further improvement based on these moments alone to 7.17e-5 at L = 26 and 3.05e-5 at L = 100.
+A strict integer-count correction is proved, but is only about 1.50e-14 in the example.
 
-These are abstract single-temperature transfer witnesses, not Heisenberg Hamiltonians or cross-temperature counterexamples. They do not prove n50/n48 failure or n52 minimality.
+These examples are abstract transfer spectra at a single temperature.
+They are neither Heisenberg Hamiltonians nor counterexamples relating several temperatures.
+They do not prove failure at n = 50 or 48, or minimality at n = 52.
 
-Read PROOF.md. Reproduce exact claims with python verify.py and python integer_correction.py. Auxiliary96/100 D26 outputs are not used in these claims.
+`PROOF.md` gives the argument.
+Run `python verify.py` and `python integer_correction.py` to reproduce the exact claims.
+The auxiliary D = 26 outputs at lengths 96 and 100 are not used in these claims.

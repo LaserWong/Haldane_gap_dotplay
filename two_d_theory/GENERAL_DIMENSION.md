@@ -1,121 +1,158 @@
-# 多维阶梯纯度与全部整数超立方体插值
+# Staircase purities and integer hypercube interpolation in arbitrary dimension
 
-2026-10-10。此文给出 THEORY.md 的一般维数推广。二维数值应用仍使用其中更强的常数 32，本文件的常数仅用于清楚而保守的一般定理。
+October 10, 2026.
+This note extends `THEORY.md` to general dimension.
+The two-dimensional applications retain the sharper constant 32 proved there.
+The constants below provide a conservative general theorem.
 
-## 1. 设定
+## 1. Transfer assumptions and staircase purities
 
-设有限周期 d 维模型的 Z(L₁,…,L_d;β)>0，在任一空间方向、任意固定的其他整数边长至少为 2 时，均有精确的实自伴 Hilbert–Schmidt 转移表示，且表示对该方向全部整数长度至少为 2 成立。每个启动 n_i 为偶数。逆温度作为第 k=d+1 个坐标。
+Consider a finite periodic d-dimensional model with Z(L₁,…,L_d;β)>0.
+For each spatial direction and every fixed choice of the other integer side lengths at least 2, assume an exact real selfadjoint Hilbert–Schmidt transfer representation valid for every integer length at least 2 in that direction.
+Each seed length n_i is even.
+Inverse temperature is the k=d+1 coordinate.
 
-令 D_i 将第 i 个坐标倍增。定义 P_i(v)=Z(D_iv)/Z(v)²。所有需要的基点上的空间指数均为偶数，故 0<P_i≤1。时间方向同样是 Gibbs 纯度。任一自身倍增满足缺陷平方界 f(u)=u²/[2(1−u)²]。
+Let D_i double coordinate i and define P_i(v)=Z(D_iv)/Z(v)².
+The spatial powers at every required base point are even, so 0<P_i≤1.
+The temporal ratio is the Gibbs purity.
+Doubling a coordinate in its own direction obeys the defect-squaring bound f(u)=u²/[2(1−u)²].
+For a coordinate ordering (π₁,…,π_k), define the staircase inputs by
 
-取一个坐标排列 (π₁,…,π_k)，并沿它的阶梯路径定义
-
-\[
+$$
 Q_j=P_{\pi_j}(D_{\pi_{j-1}}\cdots D_{\pi_1}v).
-\]
+$$
 
-## 2. 一般顺序递推
+## 2. Sequential recurrence
 
-交换恒等式
+The exchange identity
 
-\[
+$$
 P_i(D_jv)P_j(v)^2=P_j(D_iv)P_i(v)^2
-\]
+$$
 
-使第一步可以逐次穿过其余 k−1 步。所得下界为
+allows the first step to pass successively through the remaining k−1 steps.
+The resulting lower bound is
 
-\[
+$$
 P_{\pi_1}(D_{\pi_k}\cdots D_{\pi_2}v)
 \ge\prod_{j=1}^{k}Q_j^{2^{k-j}}.
-\]
+$$
 
-右边也可直接压缩为一个角点比值
+The product also reduces to a single corner ratio,
 
-\[
+$$
 \prod_{j=1}^{k}Q_j^{2^{k-j}}
 =\frac{Z(D_{\pi_k}\cdots D_{\pi_1}v)}{Z(v)^{2^k}}.
-\]
+$$
 
-然后在 π₁ 方向平方。把更新后的 Q₁ 移到队尾，对其余方向逐次重复。一次完整循环后，所有空间边长及 β 都倍增。每一步必须使用当前队列，不能并行使用旧值。
+We then square in direction π₁, move the updated Q₁ to the end of the queue, and repeat for the remaining directions.
+A complete cycle doubles all spatial lengths and β.
+Each step uses the current queue, so the updates cannot be performed in parallel using the old values.
 
-令 c_k=2^k−1。如果全部输入缺陷不超过 u，则乘积的损失不超过 c_k u。若 u≤1/(4c_k²)，有
+Set c_k=2^k−1.
+If every input defect is at most u, the product loses at most c_k u.
+For u≤1/(4c_k²),
 
-\[
+$$
 f(c_k u)\le c_k^2 u^2.
-\]
+$$
 
-所以取 K≥c_k² 且 Ku≤1/4 时，仍可用 u'≤Ku²，并且
+Thus K≥c_k² and Ku≤1/4 give u'≤Ku² and
 
-\[
+$$
 u_j\le\frac{(Ku_*)^{2^j}}{K}.
-\]
+$$
 
-该结论对任意阶梯方向排列成立，但 Q_j 的基点由其位置决定，因此不能只把已有的数值置换。
+This recurrence holds for every coordinate ordering.
+The base point of Q_j depends on its position, however, so reordering the coordinates requires new staircase inputs rather than a permutation of existing numerical values.
 
-## 3. 补齐所有整数边长
+## 3. Interpolation to every integer side length
 
-下面固定标准顺序 (x₁,…,x_d,β)。定义
+Fix the standard order (x₁,…,x_d,β) and define
 
-\[
+$$
 F_d=4\,8^{d-1}.
-\]
+$$
 
-若各阶梯纯度缺陷不超过 u，且 u≤1/[100·8^(d−1)]，则对于所有整数 L_i∈[n_i,2n_i]，
+If every staircase purity defect is at most u and u≤1/[100·8^(d−1)], then every integer L_i∈[n_i,2n_i] satisfies
 
-\[
+$$
 T(L_1,\ldots,L_d;\beta)\ge1-F_du.
-\]
+$$
 
-对 d 作归纳。d=1 是 THEORY.md 第 4 节的一维全部整数尺寸插值。设 d≥2，先把最后一个空间边长改成任意 W∈[n_d,2n_d]。
+We prove this by induction on d.
+For d=1, the statement is the all-integer interpolation lemma in Section 4 of `THEORY.md`.
+For d≥2, first replace the final spatial length by an arbitrary W∈[n_d,2n_d].
+The last-direction transfer purity must be controlled at each spatial staircase prefix.
+When adjacent steps with purities (a,b) are exchanged, the new first edge has purity at least a√b.
+Move the dth spatial direction successively to the left.
+Each spatial edge not yet crossed is an original staircase edge and has purity at least 1−u.
+If the moving edge has lower bound (1−u)^r, its bound after the next exchange is (1−u)^(1+r/2).
+Starting from r=1 gives r<2 throughout.
+The last-direction purity is therefore at least (1−u)²≥1−2u at every required prefix.
 
-需要控制最后一向转移在不同空间阶梯前缀处的纯度。相邻步骤 (a,b) 交换后，前一条新边至少为 a√b。将第 d 个空间方向从右向左冒泡，每一次尚未跨过的空间边仍为原始阶梯边，纯度至少为 1−u。若当前移动边的下界为 (1−u)^r，交换后它的下界为 (1−u)^(1+r/2)。从 r=1 开始，全部 r<2。因此最后方向的纯度在每个所需前缀处均至少为 (1−u)²≥1−2u。
+For each earlier spatial edge, the positive dominant eigenvalue and the spectral tail bound the numerator after the final length is changed.
+Monotonicity of the absolute-spectrum ℓ^p norm bounds the denominator from above.
+With t=W/n_d∈[1,2], these estimates give
 
-对任一前面的空间阶梯边，改变最后边长后的分子可用该方向的最大正特征值和尾谱控制。分母用绝对谱 ℓ^p 范数单调性上界。记 t=W/n_d∈[1,2]，得到
-
-\[
+$$
 P_i^{(W)}\ge(1-u)^t(1-2u)^t
 \left(1-\frac{2u}{1-2u}\right)
 \ge(1-u)^2(1-2u)(1-4u)\ge1-8u.
-\]
+$$
 
-末式也由有限个非负损失因子的 Bernoulli 乘积界直接得到。终端物理纯度则由原来的第 d 个空间纯度和时间纯度通过一维引理给出 T≥1−4u。这样，固定 W 后得到一个 d−1 维阶梯，其所有缺陷不超过 8u。归纳假设给出 T≥1−8F_(d−1)u，即 F_d=8F_(d−1)。条件 u≤1/[100·8^(d−1)] 保证归纳每一步均在一维插值的适用域。
+The final inequality follows from the Bernoulli product bound for finitely many nonnegative loss factors.
+The one-dimensional lemma applied to the original dth spatial purity and temporal purity gives the terminal physical purity T≥1−4u.
+At fixed W, the remaining d−1 dimensional staircase thus has all defects bounded by 8u.
+The induction hypothesis yields T≥1−8F_(d−1)u, which gives F_d=8F_(d−1).
+The condition u≤1/[100·8^(d−1)] keeps every induction step within the domain of the one-dimensional lemma.
 
-该证明同时处理奇数边长。最大绝对值特征值为正，来自精确转移恒等式对任意大奇数幂的正配分函数，而不是来自未假设的正核。
+The same proof includes odd side lengths.
+Positivity of the dominant eigenvalue in absolute value follows from the exact transfer identity and the positive partition function at arbitrarily large odd powers.
+No positive-kernel assumption is used.
 
-## 4. 一般维数统一能隙
+## 4. Uniform gap in general dimension
 
-定义
+Define
 
-\[
+$$
 K_d=\max\{(2^{d+1}-1)^2,\,2F_d\}.
-\]
+$$
 
-若一个标准阶梯启动点满足
+Suppose a standard staircase seed satisfies
 
-\[
-0<u_*\le\min\left\{\frac1{4K_d},\frac1{100\,8^{d-1}}\right\},
-\]
+$$
+0<u_*\le\min\left\{\frac1{4K_d},\frac1{100\,8^{d-1}}\right\}.
+$$
 
-则每个共同尺度方框 2^j n_i≤L_i≤2^(j+1)n_i 中的整数周期 Hamiltonian 都有唯一基态，且
+Every integer periodic Hamiltonian in each common-scale box 2^j n_i≤L_i≤2^(j+1)n_i then has a unique ground state and obeys
 
-\[
+$$
 \Delta_{L_1,\ldots,L_d}
 \ge\frac{\log[1/(K_du_*)]}{\beta_*}.
-\]
+$$
 
-事实上 F_du_j≤1/2，故 Gibbs 的激发/基态概率之比至多
+Indeed, F_du_j≤1/2, so the ratio of excited-state to ground-state Gibbs probabilities is at most
 
-\[
+$$
 \frac{F_du_j}{1-F_du_j}\le2F_du_j\le K_du_j
 \le(K_du_*)^{2^j}.
-\]
+$$
 
-再用 β_j=2^jβ_* 即得结论。若所有 n_i 相同，覆盖每一个充分大整数边长的超立方体。一个这样的启动点没有证明任意长宽比长方体的统一能隙。
+Using β_j=2^jβ_* gives the stated gap.
+If all n_i are equal, the boxes cover every sufficiently large integer hypercube.
+A single such seed does not establish a uniform gap for rectangles of arbitrary aspect ratio.
 
-例如 d=2 的保守一般常数是 K₂=64，而专项二维证明给出 K₂=32 以及更宽的 u≤1/500 插值域。因此本文件的泛化不替换已有二维证书中的数值常数。
+For d=2, the conservative general constant is K₂=64.
+The dedicated two-dimensional proof gives K₂=32 and the wider interpolation domain u≤1/500.
+The general result therefore leaves the numerical constants of the existing two-dimensional certificates unchanged.
 
-## 5. 对更一般空间结构的限制
+## 5. Scope of the transfer assumptions
 
-精确转移结构是定理假设。有限程相互作用可尝试通过有限阻塞变成最近邻，但阻塞后仍须验证实结构及合适的同因子或交换对称分解。一般 PEPS 边界转移、非自伴转移、近似 Trotter 展开与无误差控制的张量截断均不自动满足假设。
+The exact transfer structure is a hypothesis of the theorem.
+Finite-range interactions may be converted to nearest-neighbor interactions by finite blocking, but the real structure and an appropriate identical-factor or exchange-symmetric decomposition must still be checked after blocking.
+General PEPS boundary transfers, nonselfadjoint transfers, approximate Trotter expansions, and uncontrolled tensor truncations do not automatically satisfy these assumptions.
 
-各方向递推共享同一个 β 倍增，缺陷收缩速率按线性尺度的 2^j 指数提高，而物理体积按 2^(dj) 增长。能隙提取仍依赖逆温度，而非把体积误代入温度。
+All spatial recurrences share the same doubling of β.
+The defect contracts with an exponent proportional to the linear scale 2^j, while the physical volume grows as 2^(dj).
+The gap is extracted using inverse temperature, not volume.

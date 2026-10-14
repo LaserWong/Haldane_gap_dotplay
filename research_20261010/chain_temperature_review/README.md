@@ -1,15 +1,24 @@
 # Independently verified temperature-first chain certificates
 
-Updated 10 October 2026, 14:46 America/New_York (EDT) / 18:46 UTC.
+Updated October 10, 2026, at 14:46 America/New_York (EDT) / 18:46 UTC.
 
-Passed all-integer M>=2 bounds for the periodic spin-one alternating chain, strong exchange 1:
+The periodic spin-1 alternating chain with strong exchange 1 has the following independently verified gap bounds for every integer cell count M >= 2.
 
-- g=.1615: gap >= .039815121561
-- g=.1625: gap >= .037716426713
-- g=.175: gap >= .006791087005
+- At g = .1615, the gap is at least .039815121561.
+- At g = .1625, the gap is at least .037716426713.
+- At g = .175, the gap is at least .006791087005.
 
-Every row includes a unique finite-volume ground state, exact short-size bridges, and signed-transfer windows covering odd as well as even cell counts. The largest M=8 input is truly Rayleigh-only; its full dimension is 43,046,721 and its one trial vector has support dimension 43,294. The M=4 full residual and complete trace-tail premise remain necessary and were independently verified or reused by sealed hash.
+Each result includes a unique finite-volume ground state, exact short-size bounds, and signed-transfer windows covering both odd and even cell counts.
+The largest input, at M = 8, uses only a Rayleigh quotient.
+Its full Hilbert-space dimension is 43,046,721, and its single trial vector has support dimension 43,294.
+The M = 4 full residual and complete trace-tail bound remain necessary.
+They were checked independently or reused after verification against sealed hashes.
 
-[Full independent proof and provenance](REVIEW.md). Exact results are in [SUMMARY.json](SUMMARY.json). Run `REPRODUCE.sh` for a complete one-CPU, BLAS=1, 1 GiB replay without an eigensolver.
+[REVIEW.md](REVIEW.md) gives the independent proof and provenance.
+[SUMMARY.json](SUMMARY.json) records the exact results.
+Run `REPRODUCE.sh` for the complete replay with one CPU, BLAS=1, and 1 GiB of address space.
+No eigensolver is required.
 
-Previous space-first obstructions remain recipe-specific and valid. The g=.2 finite failed scan is not an all-beta obstruction or a physical gaplessness result. The shared snapshot has no Git metadata; no remote change was made.
+The earlier space-first exclusions remain valid for their specified method.
+The unsuccessful finite scan at g = .2 excludes neither all temperatures nor a physical gap.
+The shared snapshot has no Git metadata, and no remote change was made.

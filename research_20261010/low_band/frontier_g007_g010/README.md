@@ -8,7 +8,7 @@ quadratic-boson comparison, sector-Temple, order-transport and interpolation
 theorems are independently reviewed upstream. Existing frozen results are not
 changed.
 
-## Outcome
+## Candidate bounds
 
 The ordinary spin-1/2 periodic square bilayer has unit rung coupling and equal
 straight in-layer couplings g. All nine new 4x4,8x4,8x8 patch records pass the
@@ -16,7 +16,7 @@ exact complete-band cutoff and residual checks.
 
 At g=.07, the time,x,y route, explicitly transported to the canonical staircase,
 gives an exact candidate gap 0.024790852531 for every integer square side L>=2.
-Its initial beta is 49/5. Canonical asymptotic acceptance begins at L>=64; the
+Its initial beta is 49/5. Canonical asymptotic acceptance begins at L>=64. The
 intermediate windows give .087252183109 on 8–16, .054169796249 on 16–32, and
 .040154192241 on 32–64. A common quadratic-boson short-size comparison gives
 at least .307810466553 on L=2,...,7. The x,time,y route also succeeds, giving
@@ -26,8 +26,8 @@ At g=.08 and .10, no successful scalar certificate was found on the bounded grid
 beta=5,...,30 with step .05 in any of the three inequivalent order placements.
 Selected best-stage failures were replayed exactly. This is not an all-beta
 exclusion, a claim of physical gaplessness, or an obstruction to other trial
-families or seed geometries. The failed scalar tests must not be confused with
-failed physical completeness: every physical low-band cutoff still passes.
+families or seed geometries. Every physical low-band cutoff still passes, despite failure of the scalar
+certificate tests.
 
 | g | 8x8 counted cutoff minus max Ritz | 8x8 ground Temple width |
 |---|---:|---:|
@@ -65,13 +65,13 @@ square sums 16,18,32,50,72,98 are recorded explicitly. The singlet product has
 shifted energy zero, giving the stated gap. This does not assume monotonicity of
 the physical gap.
 
-## Reproduction and status boundaries
+## Reproduction and scope
 
 From the repository root:
 
     PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python research_20261010/low_band/frontier_g007_g010/prepare_frontier.py
     PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python research_20261010/low_band/frontier_g007_g010/scan_frontier.py
 
-These commands overwrite only this new directory. Preserve the freeze for audit
-and publication. Continuous-coupling interval work has not begun. No 8x8 H²W
+These commands overwrite files only in this directory. Use a separate copy to
+preserve the frozen records for audit and publication. Continuous-coupling interval work has not begun. No 8x8 H²W
 second-order-band construction has been launched.

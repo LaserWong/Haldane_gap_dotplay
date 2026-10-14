@@ -1,7 +1,7 @@
-# Complete58D physical residual-direction review
+# Complete 58D residual-direction review
 
-PASS: all174 new physical row entries and290 coupling-polynomial coefficients verified independently. Gram rank58;116D residual block-Gram PSD atg=.11. Full q8 and M-zero contributions retained.
+The independent review verified all 174 new physical row entries and 290 coupling-polynomial coefficients. The Gram rank is 58, and the 116D residual block-Gram matrix is positive semidefinite at g=.11. Full q8 and M-zero contributions are retained.
 
-This is a complete physical matrix certificate. It does not claim a new ground endpoint or spectral gap. See PROOF.md and audit.json.
+This certifies the complete physical matrix. It establishes no new ground-energy endpoint or spectral gap. The proof and results are in PROOF.md and audit.json.
 
-Default `./REPRODUCE.sh` checks seals and repeats cached algebra only. `FULL_REPLAY.sh` requires a separate authorization for another physical contraction.
+`./REPRODUCE.sh` checks the seals and repeats cached algebra. `FULL_REPLAY.sh` performs another physical contraction and requires a separate authorization.

@@ -1,391 +1,529 @@
-# 从条带到二维的三纯度能隙证书
+# A three-purity gap certificate from strips to two dimensions
 
-日期：2026-10-10。状态：解析推导与有理数复算已经完成，并由独立审计复核递推及全部整数正方形尺寸插值。尚未进行证明助理形式化。本文的二维结论不是从固定宽度条带外推得到。
+October 10, 2026.
+The analytic derivation and rational recomputation are complete.
+An independent audit checked the recurrence and interpolation to all integer square sizes.
+The proof has not been formalized in a proof assistant.
+The two-dimensional result below follows from simultaneous control of both spatial directions.
 
-## 1. 结果及范围
+## 1. Result and scope
 
-设二维周期模型在两个空间方向均有精确自伴热转移表示。一次启动使用三个比值，而非一个方向的空间纯度和一个物理纯度。三个比值对应横向、纵向和逆温度三个倍增操作。它们满足闭合的顺序二次递推。因此，有限的矩形热迹输入可以给出对所有充分大整数正方形环面统一的能隙下界。
+Consider a two-dimensional periodic model with exact selfadjoint thermal-transfer representations in both spatial directions.
+A seed consists of three ratios associated with doubling the horizontal length, vertical length, and inverse temperature.
+They obey a closed sequential quadratic recurrence.
+Finite rectangular heat-trace inputs can therefore give a uniform gap bound for every sufficiently large integer square torus.
 
-这里给出两个非对易例子。第一个是每个二维元胞放两个 spin-1/2 的强反铁磁梯级双层模型。第二个是具有正单离子各向异性 D 的 spin-1 正方晶格。两者的横向和纵向相互作用均可严格大于零。它们不是彼此解耦的链，也不是仅靠一个固定宽度条带证书作出的二维推断。
+Two noncommuting examples illustrate the construction.
+The first is a bilayer with two spin-1/2 degrees of freedom per cell and a strong antiferromagnetic rung coupling.
+The second is a square-lattice spin-1 model with positive single-ion anisotropy D.
+Both horizontal and vertical interactions may be strictly positive.
+Conservative analytic heat-trace bounds establish the following results.
 
-用保守的解析热迹界即可得到以下明确结果。
+- For the bilayer with rung coupling 1 and intralayer Heisenberg coupling g in both directions, 0≤g≤1/4000 gives a unique ground state and Δ_L≥0.151171228506 on every integer square torus L≥2.
+- For the spin-1 model with D=1 and Heisenberg coupling g in both directions, 0≤g≤1/6000 gives a unique ground state and Δ_L≥0.152901911246 on every integer square torus L≥2.
 
-- 双层模型的梯级耦合为 1，两层内的横纵 Heisenberg 耦合均为 g，且 0≤g≤1/4000。每个整数边长 L≥2 的正方形环面均有唯一基态及 Δ_L≥0.151171228506。
-- spin-1 模型取 D=1，横纵 Heisenberg 耦合均为 g，且 0≤g≤1/6000。每个整数边长 L≥2 的正方形环面均有唯一基态及 Δ_L≥0.152901911246。
+These numbers are downward-rounded rational consequences of the sufficient criterion proved here, not estimates of the actual gaps.
+No full many-body spectrum is used.
+Certified low-energy spectra and tail bounds may replace the analytic seed inputs without changing the recurrence or interpolation proof.
 
-这些数值是本文件所证充分条件的有理数向下舍入值，不是实际能隙的估计。它们没有使用完整多体谱。后续可用经认证的低能谱与尾界替换启动热迹，而不改变二维递推及插值证明。
+A square seed also covers the common-scale rectangles specified in Section 5.
+It does not cover rectangles of arbitrary aspect ratio.
+Local weak limits on the infinite plane inherit the corresponding GNS gap inequality.
+Finite periodic ground-state uniqueness alone does not establish uniqueness for all infinite-volume boundary conditions.
 
-一个正方形启动点给出的矩形范围是第 5 节中的共同尺度方框。本文不将其表述为所有任意长宽比矩形的统一结论。无限平面的局域弱极限继承相应的 GNS 能隙不等式，但这里没有单凭有限周期基态唯一性推断所有无限体积边界条件下基态均唯一。
+## 2. Selfadjoint thermal transfers in both directions
 
-## 2. 两个方向的自伴热转移条件
+### 2.1 A sufficient local structure
 
-### 2.1 可直接检验的充分条件
+Choose a real structure on each finite-dimensional cell such that the intracell term v is real symmetric.
+Assume that the intercell interaction in each spatial direction admits the decomposition
 
-在每个有限维元胞上选择一个实结构，使元胞内项 v 为实对称矩阵。设沿任一空间方向的跨元胞相互作用可写成
-
-\[
+$$
 -h=\sum_\alpha c_\alpha A_\alpha\otimes A_\alpha,
 \quad c_\alpha\ge0,
-\]
+$$
 
-其中 A_α 为实矩阵，并且所得物理 h 是 Hermitian。重要特例是 A_α 为实反对称矩阵。将有限宽度 W 的一整列作为元胞，列内 Hamiltonian 仍为实对称矩阵，跨列项仍有同因子分解。
+where A_α is real and the physical h is Hermitian.
+Real antisymmetric A_α provide an important special case.
+After a whole column of finite width W is treated as one cell, its Hamiltonian remains real symmetric and the intercolumn terms retain an identical-factor decomposition.
 
-对每条列间键建立连续时间历史 ξ={(t_j,α_j)}。将 ||A_α|| 吸收到事件的非负强度，将插入算符归一化到范数不超过 1。历史测度总质量有限。给定左右历史 ξ、ζ，按时间合并它们，在连续事件之间插入 exp(−τv_W)，然后取列内迹。所得核 k_β,W(ξ,ζ) 是实数。左右两类事件在列内插入相同算符，因此交换 ξ、ζ 不改变合并后的有序乘积，除去零测度的同时事件。于是
+Assign a continuous-time history ξ={(t_j,α_j)} to each intercolumn bond.
+Absorb the norms ||A_α|| into nonnegative event intensities and normalize the inserted operators to have norm at most 1.
+The history measure then has finite total mass.
+For left and right histories ξ and ζ, merge their events in time order, insert exp(−τv_W) between consecutive events, and take the column trace.
+The resulting kernel k_β,W(ξ,ζ) is real.
+Both histories insert the same column operators, so exchanging ξ and ζ leaves the ordered product unchanged except on the measure-zero set of simultaneous events.
+Hence
 
-\[
+$$
 k_{\beta,W}(\xi,\zeta)=k_{\beta,W}(\zeta,\xi).
-\]
+$$
 
-归一化插入算符的范数界给出
+The normalized insertion bounds give
 
-\[
+$$
 |k_{\beta,W}(\xi,\zeta)|\le d_W e^{\beta\|v_W\|}.
-\]
+$$
 
-有限历史测度使对应算符 X_β,W 为实自伴 Hilbert–Schmidt 算符。逐键 Dyson–Duhamel 展开并逐列收缩，得到精确恒等式
+Together with the finite history measure, this makes X_β,W a real selfadjoint Hilbert–Schmidt operator.
+The bondwise Dyson–Duhamel expansion followed by columnwise contraction yields the exact identity
 
-\[
+$$
 Z(L,W;\beta)=\operatorname{Tr}X_{\beta,W}^{L},\quad L\ge2.
-\]
+$$
 
-同一条件沿另一个方向成立，便得到两个方向的精确表示。X 本身无需半正定，也无需逐点正核。偶数次幂提供非负谱，正配分函数提供奇数尺寸插值中所需的最大特征值符号。
+Applying the same construction in the other direction gives the second transfer representation.
+Neither positive semidefiniteness of X nor pointwise positivity of its kernel is required.
+Even powers give a nonnegative spectrum, while positivity of the partition function determines the sign of the dominant eigenvalue needed for odd-length interpolation.
 
-周期长度为 2 时，必须保留两个不同的周期邻接项。若把它们去重成一条简单图边，有限 Hamiltonian 已改变，以上同一转移矩阵的二次幂恒等式一般不再成立。本文所有小尺寸环面均使用这一周期多重边约定。长度 1 不包含在转移定理中。
+A periodic direction of length 2 retains two distinct periodic adjacency terms.
+Replacing them by a single simple-graph edge changes the finite Hamiltonian and generally invalidates its identification with the square of the same transfer operator.
+All small tori here use this periodic multiedge convention.
+Length 1 is outside the transfer theorem.
 
-### 2.2 双层与大 D 模型
+### 2.2 Bilayer and large-D models
 
-对一对任意相同自旋 s，联合时间反演满足 (Θ_s⊗Θ_s)^2=1。因此存在联合时间反演为复共轭的正交基。在这个基中，每层自旋均可写成 S_a^α=iA_a^α，A_a^α 为实反对称矩阵。梯级内 S_1·S_2 为实对称矩阵。正的层内 Heisenberg 键满足
+For two identical spins s, joint time reversal satisfies (Θ_s⊗Θ_s)^2=1.
+An orthonormal basis therefore exists in which joint time reversal is complex conjugation.
+Each layer spin takes the form S_a^α=iA_a^α, with A_a^α real antisymmetric, while the rung term S_1·S_2 is real symmetric.
+A positive intralayer Heisenberg coupling satisfies
 
-\[
+$$
 -g\,\mathbf S_{r,a}\cdot\mathbf S_{r+e,a}
 =g\sum_\alpha A_{r,a}^\alpha\otimes A_{r+e,a}^\alpha.
-\]
+$$
 
-所以双层模型满足两个方向的充分条件。
+The bilayer thus satisfies the sufficient conditions in both directions.
 
-单个 spin-1 也有 Θ^2=1。D(S^z)^2 在时间反演实基中为实对称矩阵。正的横纵 Heisenberg 键同样满足条件。因此 D>0 的 spin-1 正方模型也适用。
+A single spin-1 also has Θ²=1.
+Its D(S^z)^2 term is real symmetric in the time-reversal real basis, and positive horizontal and vertical Heisenberg bonds have the same required decomposition.
+The square-lattice spin-1 model with D>0 therefore also admits both transfers.
 
-这些条件是充分条件，不能把它们误说成所有二维量子自旋 Hamiltonian 自动具有的结构。半奇整数单格点的 Θ^2=−1 不能原样采用该实结构，需例如双层或偶数自旋阻塞。一般张量网络的转移算符、CP 转移映射或数值 Trotter 近似也不能自动替代这里精确自伴的标量热转移表示。
+These are sufficient structural conditions for a restricted class of models.
+A single half-odd-integer spin has Θ²=−1 and cannot use this real structure directly, although a bilayer or an even-spin block may do so.
+A generic tensor-network transfer operator, a completely positive transfer map, or a numerical Trotter approximation cannot be substituted for the exact selfadjoint scalar thermal transfer used here.
 
-### 2.3 交替二聚体条带
+### 2.3 Alternating-dimer strips
 
-对固定宽度 W 的列 (y,L/R)，令强键为 R(x,y)·L(x+1,y)，列内项含弱 L·R 键及两侧相同的纵向耦合。列内时间反演平方为 +1。设 F 同时交换所有 L/R。若 Fv_WF=v_W，则 F 将入射 A_L 历史与出射 A_R 历史交换。因此核仍然自伴。该构造给出每个固定 W 的全部整数轴向长度结论。它本身不提供 W→∞ 的统一常数。
+For a column (y,L/R) of fixed width W, take strong bonds R(x,y)·L(x+1,y), weak intracolumn L·R bonds, and identical vertical couplings on the two sides.
+Column time reversal squares to +1.
+Let F exchange all L/R pairs simultaneously.
+If Fv_WF=v_W, it exchanges the incoming A_L histories with the outgoing A_R histories, and the kernel remains selfadjoint.
+This gives a result for every integer axial length at each fixed W.
+It supplies no width-uniform constant as W→∞.
 
-## 3. 三个纯度及精确顺序递推
+## 3. Three purities and their sequential recurrence
 
-写 Z(x,y;b) 为物理配分函数。n、m 为偶数且至少为 2。定义
+Write Z(x,y;b) for the physical partition function.
+For even n,m≥2, define
 
-\[
+$$
 A=\frac{Z(2n,m;\beta)}{Z(n,m;\beta)^2},\quad
 B=\frac{Z(2n,2m;\beta)}{Z(2n,m;\beta)^2},\quad
 C=\frac{Z(2n,2m;2\beta)}{Z(2n,2m;\beta)^2}.
-\]
+$$
 
-A、B 是两个空间方向上的辅助密度算子纯度，C 是物理 Gibbs 态纯度。令缺陷为 a=1−A、b=1−B、c=1−C，并写
+The ratios A and B are auxiliary density-operator purities in the two spatial directions.
+The ratio C is the physical Gibbs purity.
+Their defects are a=1−A, b=1−B, and c=1−C.
+Define
 
-\[
+$$
 f(t)=\frac{t^2}{2(1-t)^2}.
-\]
+$$
 
-归一化非负谱经平方并再次归一化后，其纯度缺陷不超过 f(t)。这对三个方向分别成立。
+Squaring a normalized nonnegative spectrum and renormalizing bounds its purity defect by f(t).
+This bound applies separately in all three directions.
 
-为跟踪倍增，令 D_i 分别把 x、y 或 β 倍增，并定义
+Let D_i double x, y, or β and set
 
-\[
+$$
 P_i(v)=\frac{Z(D_iv)}{Z(v)^2}.
-\]
+$$
 
-不同倍增操作可交换，直接约分给出
+The doubling operations commute.
+Cancellation of their partition functions gives
 
-\[
+$$
 P_i(D_jv)P_j(v)^2=P_j(D_iv)P_i(v)^2.
-\]
+$$
 
-由于 P_j(v)≤1，得到交叉下界
+Since P_j(v)≤1,
 
-\[
+$$
 P_i(D_jv)\ge P_j(D_iv)P_i(v)^2.
-\]
+$$
 
-沿 x、y、β 的阶梯路径输入分别为 A、B、C。把第一条 x 边先跨过 y 再跨过 β，得到该边在另外两个坐标倍增后的下界 A^4 B^2 C。然后将 x 本身平方。旋转阶梯路径并依次处理其余两条边，得到
+The staircase inputs in the order x,y,β are A,B,C.
+Moving the first x edge past y and then β bounds that edge, after the other two coordinates are doubled, by A⁴B²C.
+Squaring in x and rotating the staircase repeats the argument for the other edges.
+The resulting updates are
 
-\[
+$$
 a'\le f\!\left(1-(1-a)^4(1-b)^2(1-c)\right),
-\]
+$$
 
-\[
+$$
 b'\le f\!\left(1-(1-b)^4(1-c)^2(1-a')\right),
-\]
+$$
 
-\[
+$$
 c'\le f\!\left(1-(1-c)^4(1-a')^2(1-b')\right).
-\]
+$$
 
-第二行和第三行必须使用已经更新的缺陷。新状态的参数是 (2n,2m,2β)。具体地，a' 控制 S_x(2n,2m;2β)，b' 控制 S_y(4n,2m;2β)，c' 控制 T(4n,4m;2β)。
+The second and third lines use the already updated defects.
+The new parameters are (2n,2m,2β).
+Specifically, a' controls S_x(2n,2m;2β), b' controls S_y(4n,2m;2β), and c' controls T(4n,4m;2β).
 
-若三个输入缺陷均不超过 u≤1/100，则每个括号内的损失不超过 7u，并且
+If the three input defects are at most u≤1/100, each product loses at most 7u and
 
-\[
+$$
 f(7u)\le\frac{49}{2(1-7u)^2}u^2<32u^2\le u.
-\]
+$$
 
-这也保证更新后的值可用于同一共同界。因此
+Each updated defect remains within the same common bound, so the subsequent steps are valid.
+Iteration gives
 
-\[
+$$
 u_j\le\frac{(32u_*)^{2^j}}{32},\quad
 (n_j,m_j,\beta_j)=2^j(n_*,m_*,\beta_*).
-\]
+$$
 
-只把一个条带的 n 与 β 倍增不会产生该三变量结论。第三个纯度正是控制新增横向尺寸所需的信息。
+Doubling only n and β on one strip cannot establish this three-coordinate result.
+The third purity supplies the information required to control the growing transverse size.
 
-## 4. 一维全部整数尺寸插值引理
+## 4. One-dimensional interpolation to every integer length
 
-为使二维结论自足，记录所用的一维引理。设 Z_L(t)=Tr X_t^L 对所有整数 L≥2 成立，X_t 为实自伴 Hilbert–Schmidt。令 n 为偶数。若 S(n,β)≥1−v、T(2n,β)≥1−v，且 v≤1/100，则
+Assume Z_L(t)=Tr X_t^L for every integer L≥2, with X_t real selfadjoint and Hilbert–Schmidt.
+For even n, suppose S(n,β)≥1−v and T(2n,β)≥1−v, where v≤1/100.
+Then
 
-\[
+$$
 T(L,\beta)\ge1-4v,\quad n\le L\le2n,
-\]
+$$
 
-包括奇数 L。
+including odd L.
 
-证明如下。由 T(n,β)≤1，得到 S(n,2β)≥(1−v)^3。X_2β^n 的归一化谱具有唯一最大权重。对应的最大绝对值特征值 μ_0 必须为正，否则足够大的奇数次幂迹为负。这里用到纯度的逆估计。对最大概率 w≥1/2，纯度不超过 w²+(1−w)²。若 w≤1−2v，则纯度至多为 1−4v+8v²，严格小于 (1−v)³，因为两者之差为 v−5v²−v³>0。因此最大权重超过 1−2v。v=0 时密度算子已为秩一，结论直接成立。于是其 n 次幂尾比满足 r≤2v/(1−2v)。一次空间平方还给出 S(2n,2β)≥1−5v²。记 t=L/(2n)∈[1/2,1]，最大特征值下界和尾比给出
+To prove the bound, use T(n,β)≤1 to obtain S(n,2β)≥(1−v)³.
+The normalized spectrum of X_2β^n has a unique largest weight.
+Its corresponding eigenvalue μ_0 of largest absolute value must be positive, since otherwise the traces of sufficiently large odd powers would be negative.
+For a largest probability w≥1/2, purity is at most w²+(1−w)².
+If w≤1−2v, this is at most 1−4v+8v², which is strictly below (1−v)³ because the difference is v−5v²−v³>0.
+Thus the largest weight exceeds 1−2v.
+At v=0 the density operator has rank one and the result is immediate.
+The tail ratio at power n consequently satisfies r≤2v/(1−2v).
+One spatial squaring also gives S(2n,2β)≥1−5v².
+For t=L/(2n)∈[1/2,1], the dominant-eigenvalue estimate and tail ratio yield
 
-\[
+$$
 Z_L(2\beta)\ge[(1-5v^2)Z_{2n}(2\beta)]^t(1-r).
-\]
+$$
 
-对 X_β 的绝对谱作 Hölder 插值，得到
+Hölder interpolation on the absolute spectrum of X_β gives
 
-\[
+$$
 Z_L(\beta)\le Z_n(\beta)^{2-2t}Z_{2n}(\beta)^{2t-1}.
-\]
+$$
 
-因此
+Their ratio therefore satisfies
 
-\[
+$$
 T(L,\beta)\ge S(n,\beta)^{2-2t}T(2n,\beta)^t
 (1-5v^2)^t\left(1-\frac{2v}{1-2v}\right)\ge1-4v.
-\]
+$$
 
-末步由 t∈[1/2,1] 和 3/2+5v+2/(1−2v)<4 得出。此引理只对一个有限长度选取一个有限温度，没有交换热力学极限与低温极限。
+The last step uses t∈[1/2,1] and 3/2+5v+2/(1−2v)<4.
+The lemma selects a finite temperature for a finite length.
+It does not exchange thermodynamic and low-temperature limits.
 
-## 5. 真正二维的全部整数正方形能隙定理
+## 5. Two-dimensional gap theorem for all integer squares
 
-### 定理
+### Theorem
 
-假设第 2 节的两个方向精确转移恒等式对全部整数尺寸至少为 2 的矩形成立。若某偶数 n_*,m_* 及 β_*>0 的三纯度缺陷均不超过 0<u_*≤1/500，则每一个 j≥0 以及
+Assume the exact transfer identities of Section 2 hold in both directions for every rectangle whose integer side lengths are at least 2.
+Suppose even n_*,m_* and β_*>0 give three purity defects at most 0<u_*≤1/500.
+For every j≥0, each integer rectangular Hamiltonian in
 
-\[
+$$
 2^j n_*\le L_x\le2^{j+1}n_*,\quad
 2^j m_*\le L_y\le2^{j+1}m_*
-\]
+$$
 
-中的整数矩形 Hamiltonian 均具有唯一基态，并满足
+has a unique ground state and obeys
 
-\[
+$$
 \Delta_{L_x,L_y}\ge
 \frac{\log[1/(32u_*)]}{\beta_*}.
-\]
+$$
 
-特别地，n_*=m_* 时，这个下界覆盖每个整数正方形边长 L≥n_*，而非仅覆盖 L=2^j n_*。
+When n_*=m_*, this covers every integer square side L≥n_*, including lengths between successive doublings.
 
-### 证明
+### Proof
 
-首先固定一个启动尺度并写 u=u_*。取 m≤W≤2m，记 t=W/m∈[1,2]。在固定 x=2n 的 y 向转移中，B≥1−u 保证唯一最大绝对值特征值为正，其 m 次幂归一化权重至少为 1−u，尾比至多 u/(1−u)。于是
+Fix one seed scale and write u=u_*.
+Choose an integer m≤W≤2m and set t=W/m∈[1,2].
+For the y transfer at x=2n, the bound B≥1−u gives a unique positive eigenvalue of largest absolute value.
+Its normalized weight at power m is at least 1−u and its tail ratio is at most u/(1−u).
+Hence
 
-\[
+$$
 Z(2n,W;\beta)\ge Z(2n,m;\beta)^t
 (1-u)^t\left(1-\frac{u}{1-u}\right).
-\]
+$$
 
-在固定 x=n 的 y 向转移中，对绝对谱使用 ℓ^p 范数单调性。由于 m 为偶数，即使 W 为奇数，也有
+For the y transfer at x=n, monotonicity of the absolute-spectrum ℓ^p norm gives
 
-\[
+$$
 Z(n,W;\beta)\le Z(n,m;\beta)^t.
-\]
+$$
 
-相除得到
+The evenness of m makes this valid even when W is odd.
+Dividing gives
 
-\[
+$$
 S_x(n,W;\beta)\ge A^t(1-u)^t\left(1-\frac{u}{1-u}\right)
 \ge(1-u)^3(1-2u)\ge1-5u.
-\]
+$$
 
-最后一个多项式差为 u²(9−7u+2u²)≥0。
+The final polynomial difference is u²(9−7u+2u²)≥0.
+Apply Section 4 to the y-direction inputs B,C at x=2n to obtain T(2n,W;β)≥1−4u.
+At this arbitrary fixed integer W, apply the lemma again in x with common defect v=5u≤1/100.
+It follows that
 
-在固定 x=2n 的 y 向，对输入 B、C 应用第 4 节引理，得到 T(2n,W;β)≥1−4u。现在固定这个任意整数 W，并在 x 向用共同缺陷上界 v=5u≤1/100 再应用引理，得到
-
-\[
+$$
 T(L,W;\beta)\ge1-20u,\quad n\le L\le2n.
-\]
+$$
 
-Gibbs 态最大概率至少为其纯度，因此最大概率超过 1/2，基态唯一。第一激发态与基态的 Gibbs 概率之比满足
+The largest Gibbs probability is at least the purity and therefore exceeds 1/2.
+The ground state is unique, and the probability ratio of the first excited state to the ground state satisfies
 
-\[
+$$
 e^{-\beta\Delta_{L,W}}\le\frac{20u}{1-20u}\le32u.
-\]
+$$
 
-第 3 节递推给出各尺度的 u_j。把 u_j 和 β_j 代入最后一个不等式，便得到定理中与 j 无关的下界。
+Substitute u_j and β_j from Section 3 to obtain the stated j-independent bound.
+Both spatial sizes grow together, and interpolation covers every integer side length within each scale.
+The bound is consequently uniform as the width increases.
 
-这里同时增大了两个空间尺寸，并在每个尺度内补齐全部整数边长。因此证明中的下界确实对宽度增长一致。
+## 6. Analytic seeds without full diagonalization
 
-## 6. 不计算完整谱的解析启动
+Let H_0 be a sum of N identical cell Hamiltonians with unique ground states.
+Shift each cell ground energy to zero and denote its partition function by z(β).
+Suppose V satisfies
 
-令 H_0 为 N 个相同元胞 Hamiltonian 的和，每个元胞有唯一基态。平移元胞基态能至零，记元胞配分函数为 z(β)。设扰动 V 满足
-
-\[
+$$
 \operatorname{Tr}(\rho_{0,\beta}V)=0,\quad
 \operatorname{width}(V)\le bN.
-\]
+$$
 
-Gibbs 变分原理给出 Z/Z_0≥1。Golden–Thompson 与 V 在 ρ_0 中的谱概率测度上的 Hoeffding 引理给出
+The Gibbs variational principle gives Z/Z_0≥1.
+Golden–Thompson and Hoeffding's lemma for the spectral probability measure of V in ρ_0 give
 
-\[
+$$
 1\le Z/Z_0\le\exp[(\beta bN)^2/8].
-\]
+$$
 
-这一证明不需要 V 与 H_0 对易，也不需要把非对易的不同弱键当作独立经典变量。特别地，不能在没有进一步证明的情况下把 N² 的全局宽度界直接换成 N 的独立项界。
+This argument allows V to fail to commute with H_0.
+It does not treat different noncommuting weak bonds as independent classical variables.
+In particular, replacing the global N² width estimate by an N estimate requires an additional argument.
+For N=nm, the seed bounds are
 
-取 N=nm，三纯度启动下界为
-
-\[
+$$
 A\ge e^{-(\beta bN)^2/4},\quad
 B\ge e^{-(2\beta bN)^2/4},
-\]
+$$
 
-\[
+$$
 C\ge e^{-(4\beta bN)^2/4}z(\beta)^{-8N}.
-\]
+$$
 
-最后一个式子把正的分子 z(2β)^{4N} 降为 1，故较保守。
+The last bound conservatively replaces the positive numerator z(2β)^{4N} by 1.
 
-### 6.1 Spin-1/2 双层
+### 6.1 Spin-1/2 bilayer
 
-Hamiltonian 为
+The Hamiltonian is
 
-\[
+$$
 H=\sum_r\mathbf S_{r,1}\cdot\mathbf S_{r,2}
 +g\sum_{r,e\in\{e_x,e_y\},a\in\{1,2\}}
 \mathbf S_{r,a}\cdot\mathbf S_{r+e,a}.
-\]
+$$
 
-单位梯级的 singlet–triplet 间隙为 1，z(β)=1+3e^{-β}。未扰动 Gibbs 态是梯级的张量积，每个单层自旋的约化态为 I/2，因此所有层内弱键的平均值为零。每个弱键的谱宽为 g，周期 N 元胞有 4N 个弱键，故 b=4g。
+A unit rung has singlet–triplet gap 1 and z(β)=1+3e^{-β}.
+The unperturbed Gibbs state factors over rungs, and each individual layer spin has reduced state I/2.
+Every weak intralayer bond therefore has zero mean.
+Each weak bond has spectral width g, and a periodic N-cell system has 4N weak bonds, giving b=4g.
 
-取 n=m=2、β=12、g≤1/4000。有理数指数区间给出
+For n=m=2, β=12, and g≤1/4000, rational exponential intervals give
 
-\[
+$$
 A\ge0.999424165856154089,\quad
 B\ge0.997698652170741851,\quad
 C\ge0.990242081527557809.
-\]
+$$
 
-一次精确有理顺序递推后，n=m=4、β=24，三个缺陷上界为
+One exact rational sequential update reaches n=m=4 and β=24, with defect upper bounds
 
-\[
+$$
 0.000142102218698764,\quad
 0.000431988810898762,\quad
 0.000830198784090236.
-\]
+$$
 
-因此第 5 节定理给出所有整数 L≥4 的下界 0.151171228506。L=2、3 时，Weyl 宽度扰动界直接给出 Δ_L≥1−4L²g≥0.991，完成所有 L≥2 的结论。
+Section 5 then gives Δ_L≥0.151171228506 for every integer L≥4.
+For L=2,3, the Weyl spectral-width perturbation bound gives Δ_L≥1−4L²g≥0.991, completing the result for L≥2.
 
-### 6.2 单格点 Spin-1 大 D 模型
+### 6.2 Single-site spin-1 large-D model
 
-取
+Take
 
-\[
+$$
 H=\sum_r(S_r^z)^2+g\sum_{r,e\in\{e_x,e_y\}}
 \mathbf S_r\cdot\mathbf S_{r+e}.
-\]
+$$
 
-未扰动元胞基态为 m_z=0，激发为 m_z=±1，z(β)=1+2e^{-β}。每个自旋的三个分量平均值均为零。每条 spin-1 Heisenberg 键谱为 −2,−1,1，谱宽为 3。每个元胞有两条正向周期键，因此 b=6g。
+The unperturbed cell ground state is m_z=0 and its excitations are m_z=±1, so z(β)=1+2e^{-β}.
+All three spin components have zero mean.
+A spin-1 Heisenberg bond has spectrum −2,−1,1 and width 3.
+There are two forward periodic bonds per cell, giving b=6g.
 
-取 g≤1/6000、β=12、n=m=2。A、B 与双层例子相同，而 C≥0.990436793921877631。一次递推后共同缺陷不超过 0.000796421672766419。故所有整数 L≥4 上 Δ_L≥0.152901911246。L=2、3 的 Weyl 下界同样至少为 0.991。
+For g≤1/6000, β=12, and n=m=2, A and B equal the bilayer bounds, while C≥0.990436793921877631.
+After one update, the common defect is at most 0.000796421672766419.
+Thus Δ_L≥0.152901911246 for every integer L≥4.
+The Weyl bound for L=2,3 is again at least 0.991.
 
-两例在 g>0 时均有非对易的局域项。它们的未扰动乘积基态通常不是扰动后的精确基态，因此不是仅把一个可对易控制模型重新命名。
+Both examples have noncommuting local terms when g>0.
+Their unperturbed product ground states are generally not exact ground states after the perturbation is introduced.
 
-## 7. 为什么固定宽度不是二维证明
+## 7. Limits of fixed-width strip arguments
 
-### 7.1 量词反例
+### 7.1 Positive gaps at each width need not be uniform
 
-给二维 spin-1/2 硬核算符 b_i=σ_i^- 和 n_i=b_i†b_i，考虑长方向周期、宽方向 Dirichlet 的矩形，单粒子矩阵 K 为方格 Dirichlet Laplacian。令
+Let b_i=σ_i^- and n_i=b_i†b_i be spin-1/2 hard-core operators on a rectangle, periodic in its long direction and Dirichlet in its transverse direction.
+Let K be the square-lattice Dirichlet Laplacian and define
 
-\[
+$$
 H=\sum_{i,j}b_i^\dagger K_{ij}b_j.
-\]
+$$
 
-这是有限程的二维非对易 Hamiltonian。它也可写成每条最近邻边的 (b_i−b_j)†(b_i−b_j) 之和，加宽方向边界数算符。若宽度为 W，K≥λ_W I，其中
+This finite-range two-dimensional Hamiltonian has noncommuting terms.
+It is also a sum of nearest-neighbor terms (b_i−b_j)†(b_i−b_j) and transverse-boundary number operators.
+At width W, K≥λ_W I, where
 
-\[
+$$
 \lambda_W=2-2\cos\!\left(\frac{\pi}{W+1}\right)>0.
-\]
+$$
 
-由于 K−λ_W I 半正定，将它分解为矩阵平方可知 H≥λ_WΣ_i n_i。真空为唯一基态，一粒子态达到 λ_W，因此每个固定 W 的能隙恰为 λ_W，并且与周期轴向长度无关。但 λ_W→0。无限平面具有趋于零的一粒子能量。因此“对每个 W 都有一个正的条带能隙”不蕴含二维统一能隙。
+Factorizing the positive matrix K−λ_W I as a matrix square gives H≥λ_WΣ_i n_i.
+The vacuum is the unique ground state and a one-particle state attains λ_W.
+Each fixed-width gap is therefore exactly λ_W, independently of the periodic axial length.
+But λ_W→0, and the infinite plane has one-particle energies approaching zero.
+A positive strip gap at every fixed W thus does not imply a uniform two-dimensional gap.
 
-### 7.2 边界纯度的精确障碍
+### 7.2 An exact boundary-purity obstruction
 
-取 W 条相互独立但各自有非平凡有限温转移谱的相同有隙链。二维条带转移是 X^{⊗W}，故
+Take W independent identical gapped chains, each with a nontrivial finite-temperature transfer spectrum.
+The strip transfer is X^{⊗W}, so
 
-\[
+$$
 S_x(n,W;\beta)=S_{1\mathrm D}(n;\beta)^W.
-\]
+$$
 
-若固定 n、β 时 S_1D<1，则该空间纯度随 W 指数趋零，即使物理条带能隙对 W 完全一致。因此不能期待固定 n、β 的两纯度启动阈值对任意宽度自动成立。这个事实不是二维无隙定理，而是这种固定启动几何的限制。
+If S_1D<1 at fixed n and β, this spatial purity decays exponentially in W even though the physical gap is uniform in W.
+A two-purity seed threshold at fixed n,β therefore need not hold at arbitrary width.
+This is a limitation of the fixed seed geometry, not a theorem of two-dimensional gaplessness.
 
-同样，对独立有隙元胞，物理纯度为 [z(2β)/z(β)^2]^N，在固定 β 下随体积指数衰减。纯度接近 1 要求足够低温，而空间纯度还受有限尺寸基态能量曲率影响。因此降温和扩大启动体积必须联合选择。
+For independent gapped cells, the physical purity similarly equals [z(2β)/z(β)^2]^N and decays exponentially with volume at fixed β.
+Purity near one requires sufficiently low temperature.
+Spatial purity also depends on the finite-size curvature of the ground energy, so temperature and seed volume must be chosen together.
 
-三纯度方案并未消除热迹输入的计算困难，但它将新增方向的纯度作为独立可检验输入，并在证明内部同时增长宽度、长度和 β。可先阻塞有限 b_x×b_y 元胞以改善局域实结构或有限尺寸曲率，再应用同一定理。代价是更大的元胞维数以及需要重新验证跨块相互作用的同因子结构。
+The three-purity method still requires computable heat-trace inputs.
+It treats the new-direction purity as a separate testable input and grows width, length, and β within the proof.
+Finite b_x×b_y blocking may improve the local real structure or finite-size curvature before the same theorem is applied.
+The cost is a larger cell dimension and a new check of the identical-factor structure across blocks.
 
-## 8. 与其他二维能隙方法的边界
+## 8. Relation to other gap methods
 
-相关原始文献的精确比较另见 PRIMARY_LITERATURE.md。这里只列方法选择。
+`PRIMARY_LITERATURE.md` gives the detailed primary-source comparison.
+For frustration-free two-dimensional projector Hamiltonians, local positive gaps and Knabe-type finite-size criteria are natural first tests.
+They allow ground-state degeneracy, unlike a criterion requiring purity to approach one.
 
-- Frustration-free 的二维投影 Hamiltonian 宜优先测试局域正能隙和 Knabe 型有限尺寸判据。其输出允许基态简并，条件与本文的纯度趋一并不相同。
-- 局域正算符分解或 SDP 证书可避免完整大系统对角化。必须核验输出矩阵的严格半正定性、局域恒等式以及模型的 frustration-free/基态能量条件。
-- 本文两个非对易例子不是 frustration-free 的自然局域项分解，不能把 FF 判据中的局域能隙直接代入。本文只需要物理热迹和两个自伴转移结构，因此覆盖另一类输入。
-- 非 FF 的有限体积 SDP 收敛不自动给出大小无关的二维热力学证书。反过来，三纯度证书给出统一能隙，但要求很特殊且必须明确检查的精确热转移结构。
+Local positive-operator decompositions and semidefinite-programming certificates can avoid full large-system diagonalization.
+Their outputs require certified positive semidefiniteness, verified local identities, and the appropriate frustration-free or ground-energy assumptions.
+The two noncommuting examples here are not frustration-free in their natural local decompositions, so their local gaps cannot simply be inserted into an FF criterion.
+The present method instead uses physical heat traces and two selfadjoint transfers.
 
-## 9. 复算文件
+Convergence of a non-FF finite-volume SDP hierarchy alone does not establish a size-independent two-dimensional thermodynamic certificate.
+The three-purity argument provides such a uniform gap under its specific exact-transfer assumptions, which must be checked for each proposed model.
 
-three_purity_certificate.py 使用 Python 标准库 Fraction。指数界使用正 Taylor 级数及严格几何尾项，负指数通过倒数形成区间。所有启动纯度均向下舍入，所有递推缺陷均向上舍入。对数下界使用正的 atanh 级数，最终能隙向下舍入。
+## 9. Recomputing the certificates
 
-运行该脚本即可重建 bilayer_seed_certificate.json。参数 --model square_spin_one_large_D --g 1/6000 重建 spin_one_seed_certificate.json。JSON 中的浮点 display 字段仅供阅读，验收完全使用有理数字段。
+`three_purity_certificate.py` uses the Python standard-library `Fraction` type.
+Positive Taylor series with rigorous geometric remainders bound exponentials, and reciprocation produces negative-exponential intervals.
+Seed purities are rounded downward and recurrence defects upward.
+A positive atanh series bounds the logarithm from below, and the final gap is rounded downward.
 
-低能输入可以直接调用 replay(A,B,C,n,m,beta)。成功标记只保证给定数值和本文件的数学前提一起构成证书，不能把任意未经认证的浮点热迹输入变成证明。
+Running the script rebuilds `bilayer_seed_certificate.json`.
+The arguments `--model square_spin_one_large_D --g 1/6000` rebuild `spin_one_seed_certificate.json`.
+Floating-point `display` fields in the JSON files are for readability.
+Acceptance uses only the rational fields.
 
-## 10. 轴向顺序的可优化自由度
+Low-energy inputs may call `replay(A,B,C,n,m,beta)` directly.
+A success flag certifies the supplied values only together with the mathematical assumptions in this note.
+Uncertified floating-point heat traces are not converted into proof by passing this numerical test.
 
-第 3 节的交换恒等式与单轴平方界对三个坐标完全对称。因此任一排列 π=(π₁,π₂,π₃) 都可定义合法的阶梯输入，依次在基点、D_π₁ 基点及 D_π₂D_π₁ 基点取对应纯度。对这一重新定义的输入，同一个循环顺序递推成立。不能只把已有 A、B、C 三个数字交换位置，因为它们对应的基点不同。
+## 10. Choosing the coordinate order
 
-若需把成功证书重新排列为第 5 节使用的 x、y、β 顺序，可以逐次交换相邻两步。设原来的相邻纯度下界为 a=P_i(v)、b=P_j(D_iv)，则交换后的两个真值满足
+The exchange identity and single-coordinate squaring bound of Section 3 are symmetric in the three coordinates.
+Any ordering π=(π₁,π₂,π₃) therefore defines valid staircase inputs at the base point, D_π₁ applied to that point, and D_π₂D_π₁ applied to it.
+The same cyclic sequential recurrence holds for these redefined inputs.
+The existing numbers A,B,C cannot simply be permuted because their base points differ.
 
-\[
+A successful certificate can be converted to the x,y,β order of Section 5 by exchanging adjacent steps.
+If the original adjacent purity lower bounds are a=P_i(v) and b=P_j(D_iv), the exchanged true values satisfy
+
+$$
 P_j(v)\ge a\sqrt b\ge ab,\quad
 P_i(D_jv)\ge a^2b.
-\]
+$$
 
-这给出完全有理的保守转换规则 (a,b)↦(ab,a²b)。三坐标最多需要三次相邻交换。共同缺陷因此最多放大 27 倍，随后可用更多成功的二次递推使其降至 1/500 以下。转换时必须同时保存轴标签和基点，不能把它误作原始三缺陷的任意置换。
+The conservative conversion (a,b)↦(ab,a²b) is entirely rational.
+At most three adjacent exchanges are required for three coordinates, amplifying the common defect by at most 27.
+Additional successful quadratic iterations can then reduce it below 1/500.
+Axis labels and base points must be retained throughout the conversion.
 
-对第 6 节的解析模型，设初始元胞数为 N、E=(βbN)²/4。阶梯的第 k 步，k=0,1,2，均有扰动因子 exp(−4^k E)，因为无论此前倍增空间体积还是 β，βN 都倍增。若该步是时间方向，还需乘以 z(β)^(−2N·2^r)，其中 r 为此前已经倍增的空间方向数。这允许比较时间方向放在第一、第二或第三步时的启动效率。
+For the analytic models of Section 6, let N be the initial cell count and E=(βbN)²/4.
+Staircase step k=0,1,2 has perturbation factor exp(−4^k E), since every previous doubling of either spatial volume or β doubles βN.
+A temporal step also carries z(β)^(−2N·2^r), where r counts the spatial directions already doubled.
+These expressions allow comparison of seeds with the temporal step first, second, or third.
 
-## 11. 无限体积解释
+## 11. Infinite-volume interpretation
 
-设正方形周期基态沿一个子序列局域弱收敛到 ω。有限体积统一能隙 δ 给每个局域算符 A 一个有限体积不等式
+Suppose a subsequence of square periodic ground states converges locally weakly to ω.
+A uniform finite-volume gap δ gives, for each local operator A,
 
-\[
+$$
 \omega_L(A^*[H_L,A])\ge\delta\bigl(\omega_L(A^*A)-|\omega_L(A)|^2\bigr).
-\]
+$$
 
-由于作用范围有限，当周期边界远离 A 时，[H_L,A] 已等于固定的局域导子表达式。逐项取局域弱极限，得到
+Finite interaction range makes [H_L,A] equal to a fixed local derivation expression once the periodic boundary lies sufficiently far from A.
+Taking the local weak limit term by term gives
 
-\[
+$$
 \omega(A^*\delta_H(A))\ge\delta\bigl(\omega(A^*A)-|\omega(A)|^2\bigr).
-\]
+$$
 
-因此该极限态的 GNS Hamiltonian 在循环基态向量的正交补上具有至少 δ 的谱隙。这里的正交补和局域算符稠密性是在此特定 GNS 表示内理解的。该推导没有宣称所有不同边界条件的无限体积基态都属于同一个表示，也不单凭有限周期基态唯一性断言无限体积基态的全局唯一性。
+The GNS Hamiltonian of this limit state consequently has a gap of at least δ on the orthogonal complement of its cyclic ground-state vector.
+Both this orthogonal complement and density of local-operator vectors are understood within this particular GNS representation.
+The argument does not place all infinite-volume ground states from different boundary conditions in the same representation or establish global ground-state uniqueness from finite periodic uniqueness alone.
 
-## 12. 两个障碍的可复算小检验
+## 12. Small reproducible diagnostics for the obstructions
 
-文件 toy_checks.py 构造第 7.1 节的 3×W 硬核 Dirichlet Laplacian，W=1,2,3，并检查小矩阵最低两本征值与 2−2cos[π/(W+1)] 一致。它还对一个有唯一全向上基态的经典 Ising 链显式构造 2×2 对称转移矩阵，展示 W 个独立行的空间纯度恰按 s^W 衰减。生成结果保存在 toy_checks.json。
+`toy_checks.py` constructs the 3×W hard-core Dirichlet Laplacian of Section 7.1 for W=1,2,3.
+It checks that the two lowest small-matrix eigenvalues reproduce the gap 2−2cos[π/(W+1)].
+It also constructs an explicit 2×2 symmetric transfer matrix for a classical Ising chain with a unique all-up ground state and demonstrates the exact s^W spatial-purity dependence for W independent rows.
+The generated results are stored in `toy_checks.json`.
 
-这些浮点计算只作公式与实现的诊断。解析障碍的证明在第 7 节，三纯度能隙证书的验收不使用这些浮点值。
+These floating-point computations diagnose the formulas and their implementation.
+Section 7 provides the analytic proofs of the obstructions.
+Acceptance of the three-purity gap certificates does not use the diagnostic floating-point values.

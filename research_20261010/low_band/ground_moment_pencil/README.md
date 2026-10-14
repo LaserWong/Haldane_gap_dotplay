@@ -1,10 +1,10 @@
 # Stronger ground lower bounds from the existing full moment space
 
 Checkpoint: 2026-10-10 15:02 America/New_York (EDT) / 2026-10-10 19:02 UTC.
-Status: exact candidates, independent review pending. Existing frozen inputs
+The exact candidates await independent review. Existing frozen inputs
 and earlier accepted results are unchanged.
 
-## Outcome
+## Candidate bounds
 
 All 21 patches (N=16,32,64 at g=.03,.04,.05,.06,.07,.08,.10) pass exact rational
 G positivity, S positivity, indefinite K inertia, lower-endpoint inertia, and
@@ -13,8 +13,8 @@ an explicit integer negative-direction witness. The trial dimensions stay
 higher moments are computed.
 
 The generalized theorem allows more trial directions than externally counted
-low levels. In the ground case, negative inertia at least one of
-B-(a+l)A+alG certifies l<lambda_ground. A-aG is indefinite; requiring it to be
+low levels. In the ground case, a negative inertia of at least one for
+B-(a+l)A+alG certifies l<lambda_ground. A-aG is indefinite. Requiring it to be
 negative definite would wrongly discard these useful directions. See PROOF.md.
 
 | g | Best newly replayed all-integer L>=2 gap | order | beta |
@@ -24,8 +24,8 @@ negative definite would wrongly discard these useful directions. See PROOF.md.
 | 0.05 | 0.171026464125 | txy | 99/10 |
 | 0.06 | 0.107275412881 | txy | 51/5 |
 | 0.07 | 0.032948924929 | txy | 49/5 |
-| 0.08 | no accepted point on the bounded grid | — | — |
-| 0.10 | no accepted point on the bounded grid | — | — |
+| 0.08 | no accepted point on the bounded grid | not available | not available |
+| 0.10 | no accepted point on the bounded grid | not available | not available |
 
 At g=.05 the existing .171822115684 certificate remains valid. Sharper inputs
 can cause the scalar implementation to stop one round earlier and report a
@@ -36,8 +36,8 @@ These producer checks do not replace independent review.
 
 The .08/.10 failures concern beta=5,...,30 in increments .05 and three properly
 transported orders. They are not all-beta exclusions or physical gaplessness
-claims. The root workstream is separately recombining these stronger lowers
-with improved Rayleigh numerators; those combined results are not claimed here.
+claims. A separate calculation recombines these stronger lower endpoints
+with improved Rayleigh numerators. Its results are outside this package.
 
 At .08, the 4x4/8x4/8x8 ground widths decrease to
 .0001116790231/.0009872224688/.0065690332174. At .10 they decrease to
@@ -50,7 +50,7 @@ MPS bond dimensions.
 - `PROOF.md`: invariant-sector count, general k theorem, cutoff equality,
   direct polynomial proof, and domination of scalar Temple.
 - `ground_*.json`: complete rational lower endpoint certificates and explicit
-  integer negative-direction witnesses; every physical source is hashed.
+  integer negative-direction witnesses, with a hash for every physical source.
 - `temple_*.json`: complete-band records with only the ground lower replaced.
 - `ground_summary.json`, `scalar_summary.json`: machine-readable candidates.
 - `validation.json`: 34 synthetic exact tests, singular-cutoff rejection and

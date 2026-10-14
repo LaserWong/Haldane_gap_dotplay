@@ -1,4 +1,4 @@
-# Independent rank-195 frontier and numerator-span obstruction review
+# Rank-195 chain inputs and a fixed-space obstruction
 
 Updated 2026-10-10 17:57 EDT (America/New_York) / 21:57 UTC.
 
@@ -8,7 +8,7 @@ This package reviews the periodic spin-one alternating chain at g=.25, with unit
 
 1. Exact rank-195 small-seed physics: the M=4 reference is the complete weighted-energy space E<4. It contains one vacuum, twelve single triplets, fifty-four two-triplet states, 108 three-triplet states and all twenty single quintets. Q has dimension 6,366 and energy E≥4. Every full compression and residual matrix entry, local positivity and all 42 counted Schur endpoints are checked independently.
 2. Fixed rank-195 recipe obstruction: for all temperatures the recipe cannot certify its mandatory first [8,16] window. This is stronger than the bounded floating scan's failure.
-3. Denominator-independent obstruction: the same early-window recipe fails even with exact M=4 trace, for every one-term Rayleigh numerator drawn from the saved two-dimensional M=8 span. Exact spin-one trial vectors give a physical small-trace lower bound; an exact positive 2×2 form bounds every Rayleigh quotient in the saved largest-seed span from below.
+3. Denominator-independent obstruction: the same early-window recipe fails even with the exact M=4 trace, for every one-term Rayleigh numerator drawn from the saved two-dimensional M=8 span. Exact spin-one trial vectors give a physical small-trace lower bound. An exact positive 2×2 form bounds every Rayleigh quotient in the saved largest-seed span from below.
 4. Necessary numerator target: a one-term numerator for this same route must have ρ8<2ρ4+.0152≈−16.3544559234426, an improvement greater than .000426143856861 (exact threshold approximately .000426143856861833) over the saved value. This is necessary, not sufficient, and does not establish that such a state exists.
 
 The obstruction is about computed certificate outputs. It does not upper-bound physical purities or prove absence of a physical gap. It does not exclude sufficiently improved numerator states outside the span, multiple certified numerator terms, other inequalities or orders, different seed geometry, or independent early-size bridges.
@@ -17,12 +17,12 @@ The obstruction is about computed certificate outputs. It does not upper-bound p
 
 - Explicit spin-one physical matrices and orthogonal rational Clebsch–Gordan columns reconstruct all 195 reference columns.
 - All 38,025 entries of each K, full J and full residual Gram are checked. The residual is constructed directly from leaked configurations and cross-checked with J−KG⁻¹K.
-- Weak-action union 1,898; residual union 1,703, including 1,624 configurations containing quintets. Magnetic blocks have dimensions 4, 22, 44, 55, 44, 22, 4. These are dimer-basis support and linear-reference dimensions, not MPS bond dimensions.
+- The weak-action union contains 1,898 configurations. The residual union contains 1,703, including 1,624 configurations with quintets. Magnetic blocks have dimensions 4, 22, 44, 55, 44, 22, 4. These are dimer-basis support and linear-reference dimensions, not MPS bond dimensions.
 - Fresh rational symmetric congruence verifies all 42 spectral threshold inertias without producer mathematical imports, isolated-Ritz-band assumptions, or floating degeneracy counts.
 - Exact total-spin ladder identities verify the genuine triplet, with equal positive norms, equal full-action energies and orthogonality. The M_z=1 raising map has rank 22 in dimension 44, and the saved 22-dimensional kernel is independently checked.
 - Sylvester's exact leading-minor/determinant criterion proves the saved two-dimensional largest-seed quotient bound for every real or complex coefficient vector. This is not a full-space M=8 ground lower bound.
 - Three all-temperature claims each have 1,200 closed rational intervals covering β∈[0,12], plus an analytic tail for β≥12. Exponentials are replayed using separate 110-term Taylor enclosures and directed 384-bit arithmetic.
-- The first-window formula and its exact domain are derived in PROOF.md. Its ideal output is I(P)=(sqrt(2P−1)+2P−1)/2 only when P>1/2; a positive gap requires P>(5−sqrt5)/4.
+- The first-window formula and its exact domain are derived in PROOF.md. Its ideal output is I(P)=(sqrt(2P−1)+2P−1)/2 only when P>1/2. A positive gap requires P>(5−sqrt5)/4.
 
 ## Files
 
@@ -42,6 +42,6 @@ The three independently replayed maximal post-cycle product ceilings are .611883
 
 All 42 exact physical endpoint checks passed. The initial physical replay took 446.23 wall seconds (including time sharing CPU4 with interval checks) and peaked at 44.03 MiB RSS. The verified rank-195 complement cutoff is 2.184511611252.
 
-Presentation correction: the frozen producer prose uses “exceeding .000426143856862” for the necessary improvement. That decimal is rounded upward. The exact rational certificate remains valid; use the exact threshold in obstruction_review.json, the safe strict decimal >.000426143856861, or label .000426143856862 as approximate. DECIMAL_DISPLAY_CHECK.json verifies both rounding directions. Producer bytes remain unchanged.
+The producer's displayed strict threshold .000426143856862 was rounded upward. The exact rational certificate remains valid. For a rigorous statement, use the threshold in `obstruction_review.json` or the safe strict decimal >.000426143856861. The value .000426143856862 may be used only as an approximation. DECIMAL_DISPLAY_CHECK.json verifies both rounding directions. Producer bytes remain unchanged.
 
-Final status: accepted exact results with the decimal presentation correction above. Clean sibling reproduction passed all physics, triplet, span, interval and adversarial checks. Both producer and the completed rank67 review seals were rechecked unchanged after replay. See ACCEPTANCE.json.
+The exact results are accepted with the decimal correction above. Clean sibling reproduction passed all physics, triplet, span, interval and adversarial checks. Both producer and the completed rank67 review seals were rechecked unchanged after replay. See ACCEPTANCE.json.

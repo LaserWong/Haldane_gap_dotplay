@@ -1,326 +1,146 @@
-更新时间：2026-10-14 13:46 EDT（America/New_York，UTC−4） / 2026-10-14 17:46 UTC
+# Spectral-gap bounds for spin chains and square bilayers
 
-# Haldane_gap_dotplay：研究结果、证据与续接状态
+Updated 2026-10-14 15:16 EDT (America/New_York, UTC−4) / 2026-10-14 19:16 UTC.
 
-**当前任务：已按用户 2026-10-14 17:36:22 UTC 的明确指示恢复工作，正在全面整理 README、核对已有证据并进行有界复算。** 本次恢复不等于重启旧长计算或旧定时报告；两项历史研究自动任务未重新启用。当前操作状态以 [CURRENT_STATUS.json](CURRENT_STATUS.json) 与本次明确恢复请求为准；根目录历史 `PAUSED.json` 及归档内暂停记录保留原字节，不构成新的暂停指示。旧文件中的暂停、运行中状态和截止时间属于对应历史边界，不作为今天的运行状态。
+Documentation is maintained in English at its original paths. Code, numerical data, and certificates are unchanged. The next research task is to recover missing late-stage proof inputs. See [current status](CURRENT_STATUS.json), the [documentation index](docs/INDEX.md), and [Getting started](GETTING_STARTED.md).
 
-**完成进度：** 已重新读取项目规则、模型归一化、Stage22 基线和恢复的后续历史，交叉核对主要证明文件；已完成全成果汇总及下文列明的有界复算记录。没有新增长时间数值生产，没有新增 g=.12 能隙证书。以下下界首先是仓库既有成果，不冒充今天重新证明的定理；不使用没有可核验分母的“总完成百分比”。
+## Research question and main results
 
-## 先看结论
+Can information from a small set of low-energy trial states establish a positive spectral gap at every system size, including genuinely two-dimensional systems? This project studies that question for periodic spin chains and square bilayers. The method combines certified low-energy information with bounds on the omitted spectrum, then propagates heat-trace inequalities through temperature and spatial scales. Finite-size bridges cover the sizes below the asymptotic recurrence.
 
-| 模型 / 问题 | 当前可以准确报告的结果 | 证据状态与边界 |
+| Model | Result | Scope and available evidence |
 | --- | --- | --- |
-| 均匀周期 spin-1 Heisenberg 链 | 每个整数 L≥2 唯一有限体积基态，gap≥.0248 | 全尺寸证明在现存 Stage22 基线内；最强尾部初始化 n34，较弱 n30 得 .0179，覆盖起点 L=2 不等于 seed=2 |
-| 普通二维 spin-1/2 双层，现存基线 | 整个 [0,.108]：gap≥.004499695659；整个 [0,.10825]：gap≥.000586405978 | 每个整数正方形边长 L≥2；连续区间证书，包含奇数 L 和 L=2 平行边 |
-| 普通双层，恢复的后续历史 | 整个 [0,.118]：gap≥.004499695659；嵌套 [.108,.118]：gap≥.005 | 历史记录为独立验收；Stage23–38 完整证明依赖尚未恢复，今天未重新完成全链复核 |
-| 普通双层，更强的历史局部结果 | [.108,.115]：gap≥.01；单点 g=.116：gap≥.01 | 连续区间和单点分开；不把两个端点的成功作插值 |
-| 普通双层 g=.12 | 固定准备的完整 H³ / Ritz 在暂停交接中记为已接受 | bootstrap 为 SOURCE_ONLY / NOTRUN，控制和入口未完成；没有正 gap 结论 |
-| 交替 spin-1 链，弱二聚体侧 | 单点 g=.225：gap≥.051807500，所有元胞 M≥2 | g=.25 只有 2≤M≤16 的 gap≥.01；成功离散点不构成连续区间 |
-| 交替 spin-1 链，近均匀侧 | g=1 两侧四个严格闭区间，分别有 .020/.015/.010/.005 下界 | 所有元胞 M≥2，物理长度 2M；完整有理端点见下文，不覆盖奇数物理长度 |
-| 完全受挫双层 | 0≤J<1/3 的所有周期矩形边长≥2，族统一 gap 为 min(1,4−12J) | 直接解析结果；含交叉键，与普通双层不同。J=.3 时该族统一值 .4 |
-| 完全受挫参考点附近 | J=.3，整个 0≤ε≤.00855：gap>.000768515509 | 所有整数正方形 L≥2；直连 J+ε、交叉 J |
-| 二维 spin-1 大 D | D=1、g=.01，所有正方形 L≥2：gap≥.086452285325 | 现存独立证书；不是普通 spin-1/2 双层 |
-| AKLT 参照 | H=ΣP₂，周期 L≥5：gap≥1/10；L≥3 唯一基态 | D=2 精确 MPS 与局域投影判据；并非已成功的同一热 bootstrap |
-| Spin-2 | 有限热迹、压缩和误差控制有进展 | 没有全尺寸正能隙新证书；没有启动全大系统热迹计算 |
+| Uniform spin-1 Heisenberg chain | gap≥0.0248 | Every integer L≥2. The full-size proof survives in the Stage22 baseline. |
+| Ordinary spin-1/2 square bilayer | gap≥0.004499695659 on [0,0.108], and gap≥0.000586405978 on [0,0.10825] | Every integer square side L≥2. Continuous-interval certificates survive in the baseline. |
+| Ordinary bilayer, later history | gap≥0.004499695659 on [0,0.118], and gap≥0.005 on [0.108,0.118] | Recorded as independently accepted at Stage33. The recovered overview PDF confirms 166 and 80 interval pieces. The complete certificate dependencies have not been reconstructed. |
+| Ordinary bilayer, stronger local bounds | gap≥0.01 on [0.108,0.115], and at the isolated point g=0.116 | Recorded in the later history. The isolated point does not extend the interval bound. |
+| Alternating spin-1 chain | gap≥0.051807500 at g=0.225 | Every integer number of two-site cells M≥2. At g=0.25, only 2≤M≤16 is covered, with gap≥0.01. |
+| Near-uniform alternating spin-1 chain | Four closed intervals around g=1 with bounds 0.020, 0.015, 0.010, and 0.005 | Every M≥2, with physical length 2M. Exact rational endpoints appear below. |
+| Fully frustrated bilayer | Family-uniform gap min(1,4−12J), for 0≤J<1/3 | All periodic rectangles with both sides at least 2. This analytic result gives 0.4 at J=0.3. |
+| Perturbed fully frustrated bilayer | gap>0.000768515509 for 0≤ε≤0.00855 at J=0.3 | Every square L≥2, with direct bonds J+ε and crossed bonds J. |
+| Spin-1 square lattice with large single-ion anisotropy | gap≥0.086452285325 at D=1 and g=0.01 | Every square L≥2. An independent certificate survives. |
+| AKLT reference model | gap≥1/10 for periodic L≥5, with a unique ground state for L≥3 | Normalization H=ΣP₂. The proof uses a local-projector criterion. |
 
-能隙下界不是实际能隙、临界耦合或最大可认证范围。唯一性均指所述有限体积完整 Hilbert 空间，不能自动改写成所有无限体积基态唯一。精确有理数/区间证书也不等于证明助理中的形式化证明。
+Unless stated otherwise, each bound applies above a unique ground state in the full finite-volume Hilbert space. It does not establish infinite-volume ground-state uniqueness or locate a critical coupling.
 
-## 证据分层与可恢复性
+At g=0.12, the recovered handoff records acceptance of the complete H³ calculation and Ritz calculation for a fixed preparation. The gap bootstrap remained `SOURCE_ONLY/NOTRUN`, with controls, entry checks, and resource admission unfinished. There is no positive gap certificate at this coupling. Spin-2 work has established finite heat-trace and error-control results, but no new all-size positive gap bound.
 
-1. **现存基线证据。** 原 Stage22 提交为 `d17eadfb655c35eb325245d8660737b761db6b28`，树为 `faebf2327efd955fbe212d65bced3c975f9ed782`。本仓库仍保留对应科学文件、证明、数据和审计入口。[Stage22 历史根说明](recovery_20261012/baseline_stage22_roots/README.md)用于追溯；下面已将核心结果展开，不要求读者依靠外站查找结论。
-2. **恢复的后续历史。** [最新恢复 README](recovery_20261012/latest_recovered_roots/README.md)与[恢复状态](recovery_20261012/latest_recovered_roots/CURRENT_STATUS.json)记载 Stage23–38 及暂停交接中的验收。其原文有未恢复的依赖路径；“当时已验收”和“今天完整证据可重跑”是两回事。
-3. **本次核对。** 文档/数据交叉核对、字节哈希检查和有界重放各自单列；没有以哈希一致代替数学正确性，也没有把读到 ACCEPTED 字段称作今天独立重证全部结果。
-4. **完整性缺口。** [恢复说明](recovery_20261012/README.md)保存 700 个已确认上传对象，最终相关子集原为 693 个，其完整映射尚未恢复。已知路径索引有 92 条元数据、对应 90 个确认对象。原待上传 6,617 个文本/532 个批次是历史数字，不是当前缺失文件精确数量。materializer 源码存在不代表其配套清单和全部依赖存在。
+## Models and normalization
 
-恢复 README 的 SHA-256 为 `e022c6e8aa6292a8c2b7c0e5f5ee0ab9ba24330d29af1e250fcf6602627240f8`，132,695 字节；恢复状态为 `234be47d8c379ae4a4ec3ba3a276eb56302bfe21bf439ae95fa4f2f6394533ad`，1,151,776 字节。超大文件的文件接口曾返回空内容，随后以对象接口读取完整 JSON；这不意味着原文件为空。
+### Spin-1 chains
 
-**一个已澄清的时间线问题：** .0248 的全整数 L≥2 证明已存在于 Stage22 中的 Stage19 记录和 `research_20261010/uniform_gap_0248_all_sizes_review/PROOF.md`（2026-10-11 02:56 UTC）。后续恢复 README 在 Stage23 概述中再次提到它，不能因此把现存基线结论降格为仅 L≥34，或误称它只在尚未恢复的后续阶段出现。
+The uniform chain has periodic Hamiltonian
 
-## 模型、归一化和尺寸约定
+$$
+H_L=\sum_{i=1}^{L}\mathbf S_i\cdot\mathbf S_{i+1},
+$$
 
-完整共同约定见[模型说明](research_20261010/MODELS_AND_NORMALIZATION.md)。本节直接给出理解结果所需的定义。
+with $\mathbf S_{L+1}=\mathbf S_1$, unit antiferromagnetic bilinear exchange, S²=2, and Hilbert-space dimension 3^L. There is no biquadratic term, magnetic field, or single-ion anisotropy. The periodic convention counts parallel bonds at L=2, where the exact gap is 2. The exact L=3 gap is 1.
 
-### 均匀及交替 spin-1 链
+The alternating chain contains M two-site cells and 2M physical spins,
 
-均匀链为周期 H_L=Σᵢ Sᵢ·Sᵢ₊₁，单位反铁磁双线性交换，S²=2，完整 Hilbert 维数 3^L。L=2 使用周期平行键约定，精确 gap=2；L=3 精确 gap=1。无双二次项、磁场或单离子各向异性。
+$$
+H_M=\sum_{j=1}^{M}\left(\mathbf S_{2j-1}\cdot\mathbf S_{2j}
++g\,\mathbf S_{2j}\cdot\mathbf S_{2j+1}\right).
+$$
 
-交替链有 M 个二站点元胞、2M 个物理自旋，M≥2：
+Here $\mathbf S_{2M+1}=\mathbf S_1$. Its Hilbert-space dimension is 9^M. The energy shift is H′=H+2M I. A shifted isolated dimer has energies 0, 1, and 3, with multiplicities 1, 3, and 5. The quintet therefore carries energy 3. At g=0, the singlet-product ground state is unique and the gap is 1. The uniform chain is recovered at g=1. Intervals extending above g=1 keep the first bond coefficient fixed at 1 and retain the required energy and temperature rescaling.
 
-H_M=Σⱼ[S₂ⱼ₋₁·S₂ⱼ+g S₂ⱼ·S₂ⱼ₊₁]，S₂M₊₁=S₁。
+The strongest near-uniform certificates use the full H² variance bounds and give
 
-强键为 1、弱键为 g，完整维数 9^M，H′=H+2M I。单二聚体平移后能量为 0、1、3，重数为 1、3、5；quintet 能量权重是 3，不能当作单位 triplet。g=0 的 singlet 乘积基态唯一、gap=1；g=1 才是均匀链。g=.2 或 .225 的交替链证书不能替代均匀链证明。近均匀区间含 g>1 侧，第一类键仍固定为 1，必须保留能量/温度 rescaling。
+| Closed interval in g | Gap lower bound |
+| --- | --- |
+| [4999249/5000751,5000751/4999249] | 0.020 |
+| [9997911/10002089,10002089/9997911] | 0.015 |
+| [399901/400099,400099/399901] | 0.010 |
+| [399891/400109,400109/399891] | 0.005 |
 
-### 普通 spin-1/2 方格双层
+Each row covers every M≥2. These alternating-chain statements concern even physical lengths. The uniform-chain certificate separately covers odd lengths as well.
 
-每层 L×L、周期边界，S=σ/2、S²=3/4：
+### Ordinary spin-1/2 square bilayer
 
-H_L=Σᵣ Sᵣ,₁·Sᵣ,₂ + g Σᵣ Σμ=x,y [Sᵣ,₁·Sᵣ₊eμ,₁+Sᵣ,₂·Sᵣ₊eμ,₂]。
+Each layer is a periodic L×L square lattice, with S=σ/2 and S²=3/4. The Hamiltonian is
 
-竖直 rung 耦合 1，两层面内最近邻耦合 g，无交叉层间键、无磁场。物理自旋数 2L²，维数 2^(2L²)，H′=H+3L²/4 I。正方向求和在 L=2 给出平行双边，L≥3 等于通常每条无向键计一次。矩形种子在各方向保持同样约定。全部尺寸定理指正方形环面每个整数 L≥2，不是任意长宽比定理。g>0 的 rung-singlet 乘积态只是参考态，不宣称仍为精确基态。
+$$
+H_L=\sum_{\mathbf r}\mathbf S_{\mathbf r,1}\cdot\mathbf S_{\mathbf r,2}
++g\sum_{\mathbf r}\sum_{\mu=x,y}\sum_{a=1}^{2}
+\mathbf S_{\mathbf r,a}\cdot\mathbf S_{\mathbf r+\mathbf e_\mu,a}.
+$$
 
-### 完全受挫双层及其扰动
+Here $\mathbf r$ runs over the periodic square lattice, $a$ labels the layer, and $\mathbf e_x,\mathbf e_y$ are the positive lattice unit vectors.
 
-设 Tᵣ=Sᵣ,₁+Sᵣ,₂、Dᵣ=Sᵣ,₁−Sᵣ,₂、Q 为 rung triplet 数。平移后 H′=Q+JΣ边 Tᵣ·Tₛ，每条 rung 邻边包含两条直连及两条交叉键。扰动的直连为 J+ε、交叉为 J，对应 (J+ε/2)Tᵣ·Tₛ+(ε/2)Dᵣ·Dₛ；不是 J±ε 约定。
+Rung exchange is 1, and both layers have nearest-neighbor exchange g. There are no crossed interlayer bonds or magnetic fields. The system contains 2L² spins, its Hilbert-space dimension is 2^(2L²), and H′=H+3L² I/4. The positive-direction bond sum gives parallel double edges at L=2 and counts each undirected edge once for L≥3. Rectangular seeds use the same convention in each direction.
 
-无扰动时一维精确 singlet-ground span、残差零，不意味着激发扇区可交换或完整谱一维。所有矩形边长≥3 在 0≤J<2/5 有 gap≥1−5J/2；0≤J≤.3 时实际 gap=1。纳入边长 2 后统一范围为 J<1/3，最优族下确界 min(1,4−12J)。同一三纯度 bootstrap 的较弱证书在 J=.3 给出正方形 L≥2 的 .033085166891，以及 L≥4 的 .132295274293；直接解析界更强，但不抹掉这两条方法验证结果。
+The all-size results cover every integer square side L≥2, including odd L. They do not assert uniformity over arbitrary aspect ratios. At g>0, the rung-singlet product is a reference state rather than an assumed exact ground state.
 
-### 大 D 与 AKLT
+### Fully frustrated bilayer
 
-大 D 方格模型 H=Σᵢ(Sᶻᵢ)²+gΣ边 Sᵢ·Sⱼ，spin-1、D=1；具有 U(1)/自旋反转结构，不是完整 SU(2) 模型。AKLT 的归一化是 H=ΣP₂，其中 P₂ 为相邻两自旋总自旋 2 投影；其 1/10 不能移植到单位 Heisenberg 链。
+Let $\mathbf T_{\mathbf r}=\mathbf S_{\mathbf r,1}+\mathbf S_{\mathbf r,2}$ and $\mathbf D_{\mathbf r}=\mathbf S_{\mathbf r,1}-\mathbf S_{\mathbf r,2}$, and let $Q$ count rung triplets.
+The shifted Hamiltonian is
 
-## 用户研究问题的直接回答
+$$
+H'=Q+J\sum_{\langle\mathbf r,\mathbf s\rangle}
+\mathbf T_{\mathbf r}\cdot\mathbf T_{\mathbf s},
+$$
 
-### 只算低能 seed，能否严格推广到真正二维？
+where the sum follows the same periodic bond-counting convention as the ordinary bilayer.
 
-**可以，已经有普通方格双层和大 D 方格的全整数正方形尺寸证书。** 不需要最大种子的完整精确对角化，但需要完整物理 Hamiltonian 的作用、保留低态的有效能量/残差认证、所有遗漏态的计数与谱尾界、所用转移/纯度不等式、每个有限整数窗口以及无限尺寸尾部。
+Each neighboring rung pair has two direct and two crossed bonds. Changing the direct exchange to J+ε while retaining crossed exchange J gives the interaction
 
-普通双层种子 4×4、8×4、8×8 个 rung 对应 32、64、128 个自旋，完整维数分别为 2^32、2^64、2^128。两个小种子的分母热迹必须保守覆盖遗漏态；某些相关热迹比把最大种子只放在分子，一个归一化向量的 Rayleigh 上界即可提供需要的热迹下界。该最小输入结论有严格适用路线，不能泛化成所有过滤方案都不需要高阶矩。
+$$
+(J+\varepsilon/2)\mathbf T_{\mathbf r}\cdot\mathbf T_{\mathbf s}
++(\varepsilon/2)\mathbf D_{\mathbf r}\cdot\mathbf D_{\mathbf s}.
+$$
 
-二维要分别控制温度及两个空间方向，方向次序、矩形种子与正方形对称性影响启动；不是把一维公式的长度机械平方。一般 d 维推广、二维 K=26、有限整数插值、共同缺陷域及方向交换/联合比值已有审计。种子热迹成功也仍须桥接短尺寸和全部整数尺寸。
+The unperturbed singlet ground space is one-dimensional with zero residual. Excited sectors still have nontrivial structure. For rectangles with both sides at least 3, the analytic bound is gap≥1−5J/2 for 0≤J<2/5, and the actual gap is 1 for 0≤J≤0.3. Including side length 2 changes the uniform range to J<1/3 and the optimal family infimum to min(1,4−12J).
 
-### 试探空间到底多大？能否证明足够小、甚至最小？
+At J=0.3, the three-purity bootstrap also gives the weaker bounds 0.033085166891 for squares L≥2 and 0.132295274293 for L≥4. These remain useful checks of the method. Under the ε perturbation, the trial-state preparations have linear dimensions 23, 93, and 377, even when only one state contributes to a heat trace.
 
-- 完整 Hilbert 维数描述物理问题；线性搜索维数描述优化空间；保留态数描述热迹项；稀疏配置/一次 H 作用支持描述表示成本；MPS D 描述虚拟键。它们不可互换。
-- 双层早期大种子搜索 29D，过滤后至多 30D；g=.09/.10 的最大分子搜索 43D，只保留 1 态。小分母保留 49/97，分别为 1 个 even ground 项与 3N 个 odd levels，不保证是全谱按能量排序的前 49/97 态。g=.09 的小种子总搜索空间 59/125，g=.10 为 59/139；后来基态准备 16/58/57D 仍对应完整空间 2^32/2^64/2^128。
-- 后续固定起始向量的过滤平面至多 2D，或分母最终 3D，并不抹掉构造所用的 57D/58D 准备，也不意味着只认证了物理二维/三维子空间。
-- 均匀链 D26 MPS、norm-transfer 676、某些局域改进 MPS 上界 D52/D156、线性 rank 与物理 3^L 是不同数。n30/.0179、n32/.0245、n34/.0248 是成功初始化；全尺寸 L≥2 由短尺寸拼接得到，没有最小种子定理。
-- 固定 6D 试探空间的残差目标可被严格排除，11D 有建设性改进：g=.03 时残差平方下限 >1.77756×10^-4，而保存的 11D 值约 5.31537×10^-7。这只比较指定空间和 Rayleigh 范围，不证明所有可行 ansatz 必须≥11D。
-
-**停止扩维的正确标准是证书余量全部通过：** 保留能级、完整残差、遗漏谱尾、热迹、有限窗口和无限尾部均通过，而不是凭“维数已经很大”或“残差很小”猜测。完整激发壳层线性维数 Σⱼ₌₀^q C(M,j)[(2s+1)²−1]^j 可用于成本估计，不能替代完整认证。
-
-### 非微扰路线做到了什么？
-
-完全受挫双层 J=.3 的精确一态 ground 是真正非微扰示例；改变成普通双层会改变模型，不能套用其 J 范围。参考点附近的 ε 闭区间已用完整非零残差及谱尾认证至 .00855；一个保留态不等于一维搜索，扰动准备线性维数为 23/93/377。
-
-AKLT 给出精确纠缠 MPS 与全遗漏态 3^L−1 的控制，但通过的是局域投影判据，当前同一热传递充分条件未通过。均匀 spin-1 链自身有 .0248 的全尺寸证书；小 n 的固定 D26/单 Rayleigh/指定递推障碍不否定该结果，也不否定所有非微扰算法。
-
-## 现存证据中的额外历史结果及诊断
-
-以下仍值得保存，不能因主结果更强而消失：
-
-- 交替链早期 g=.05：所有 M≥2 的 gap≥.116303868802。g=.21/.22/.225 早期下界 .101607534008/.065580452251/.045509923956，后来直接窗口提高为 .107424972/.071581253/.051807500。M4 的 67D 计数参考含 vacuum、12 个单 triplet、54 个双 triplet；20 个单 quintet 全在补空间，不能省略。
-- 普通双层早期 g=.01：gap≥.072950533962，最大 32-spin/full 2^32、377D 搜索；后来 g=.01 更强界 .168921021674。小种子 g=.03 八轮标量改进 .011205710127059 是历史有效界；更大种子的 .341601445704 更强。旧解释文件 g=.10 的 .038976038275 已由 .055807148827 接续。
-- Stage22 的 g=.11 普通双层仅有 L2–32 的 .020227124817；L8–16 的 .066142574905 与 L16–32 的 .020227124817 分开。旧 .000137393606/.000212810132 全尺寸值依赖未证明的 ground-lower 改进 .0002743/.0002847，必须保留为条件目标；后续 Stage24 是另一条实际已接受历史路线。
-- 原均匀链九项 Appendix A 输入、D26 精确整数收缩与全整数插值给出 L≥1920 的 .005908566393。第二组全部 18 输入的物理矩、误差和带符号矩独立复现给出 L≥36 的 .0214，不能只靠整数总量一致代替物理认证。
-- 通用不交叠元胞扰动宽度 w=.03：全部 M≥2 的 .1535504099，相关路线 .1667512861；w=.04 经短桥为 .0968387421。w 是谱宽参数，不自动等于 Heisenberg 的 g。w=.047846 标量 seed 没有完整短尺寸桥。
-- 均匀 spin-1、spin-2、spin-3 的 n2 指定顺序全温度障碍、一般一维缺陷域 u≤1/40 的入口常数 5，均不构成普适最小 seed 结论。
-- 大 D g=.015 的旧相关标量输出约 .0187550008 只到 L≥32，且旧目录说明本身不足以确认独立验收；spin-1 双层 g=.005 成功扫描、g=.01 采样失败也不能升级为已独立接受全尺寸证书。
-
-**浮点控制与未通过搜索：** 普通单层 spin-1/2 4×4 的 gap≈.578598335765 仍不通过指定小种子纯度测试，不证明热力学无隙。大 D 固定宽 2×2→4×2 在采样 g=.05/β5.75–11 通过、g=.1 失败，不是二维全尺寸证明；64-site g=.02 的 34,881 配置、3,224,129 一次作用支持实验未得到接受 seed。可交换 spin-1 方格控制模型有精确 gap=1，但模型结构不同。
-
-完全受挫浮点检查：J=.3 的 2×2/4×2 gap≈.4/.8，J=.32 的 2×2≈.16；J=1/3 基态简并 2，JSON 中约 .6666667 是简并基态带上方间隔，不能写成唯一基态 gap；J=.35 singlet 乘积态仍零残差，却已经是激发态。扰动 ε=.005/.01/.02 的 2×2 gap≈.369984020939/.340040407779/.281030177572，4×2≈.789973866547/.779851413466/.759030103134；这些浮点数不认证连续参数或更大尺寸。
-
-## 失败记录意味着什么
-
-1. 指定 ground-only/dimer-tail 在普通双层 g=.03 全温度失败；完整低带和新尾界后来成功。两者没有矛盾。
-2. g=.04/.05 的 2×2→4×2→4×4 种子及六个固定方向次序有全温度障碍，但不排除其他几何、自适应重排或改进不等式；较大种子已有成功证书。
-3. 交替链 g=.1615 的旧空间优先方案失败，温度优先后来成功；g=.25 的旧 M8 两维分子/首窗障碍不排除新的试探空间或桥接。有限 M2–16 的成功不能作全尺寸证明。
-4. 双层 g=.1105–.115 的固定 2D/57D 配方排除后来由离开原族的物理过滤态突破。固定证书族 no-go 不等于物理相变。
-5. 小残差可以属于激发态；必须认证正确的基态/低谱分支。近均匀链的 H² 方差收紧先以能量确认 F>1/2，再选 infidelity 小分支；不能将 MPS 直接当 Gibbs 态。
-6. 资源验收和数学验收不同。FAILED_ACCOUNTING_TERMINAL、缺失回执、未知 terminal tail、worker 超额、源码拒绝及重试均保留。后来的科学 PASS 不追溯修复早期资源失败；预留/收费不能写成实测 CPU。
-
-
-## 现存基线的逐项正结果表
-
-以下为现存独立验收记录中的数值，今天没有重跑整张表。各行均沿用本 README 模型定义；有限范围和连续区间单独标记。保留较弱历史界便于复算对照。
-
-| 模型 | 参数 | 已独立核验的能隙下界 | 尺寸范围 |
-| --- | --- | --- | --- |
-| 均匀周期 spin-1 Heisenberg 链，强化有限前缀与 n34 尾部 | 最强证明尾部初始化 34；较弱路线最小成功初始化 30 | .0248 | 所有整数 L≥2，唯一基态 |
-| 同上，保留前一较弱全尺寸证书 | 旧有限前缀与尾部拼接 | .0023 | 所有整数 L≥2，唯一基态 |
-| 同上，较强嵌套覆盖 | 有限 28–56 与 n30 尾部 | .0179 | 所有整数 L≥28，唯一基态 |
-| 同上，真正初始化 n32 | β=49/4，MPS64 anchor | .0245 | 所有整数 L≥32，唯一基态 |
-| 同上，真正初始化 n34 | β=49/4，MPS68 anchor | .0248 | 所有整数 L≥34，唯一基态 |
-| 均匀周期 spin-1 Heisenberg 链，全部 18 个第二组输入完整独立复现 | 精细带符号矩及原 n36 第二初始化，全部物理前提验收 | .0214 | 所有整数 L≥36，唯一基态 |
-| 同上，保留较弱原过滤方案 | 同一完整复现输入 | .0046 | 所有整数 L≥36，唯一基态 |
-| 均匀周期 spin-1 Heisenberg 链，单位双线性交换 | 直接有限窗口与 n52 定理拼接，初始化仍为 52 | .0038 | 所有整数 L≥48 |
-| 同上，直接有限窗口 | β=21/2 | .0053 | 仅整数 48≤L≤96 |
-| 同上，保留原启动证书 | n52，精确 Hermite 包络 | 0.0038 | 所有整数 L≥52 |
-| 同上，历史较弱下界保留 | n54，广义 sector powers | 0.0025 | 所有整数 L≥54 |
-| 同上，原 quadratic-tail 冷却结构 | n56 | 0.0068 | 所有整数 L≥56 |
-| 同上，改进原 n60 路线 | n60 | 0.0102 | 所有整数 L≥60 |
-| Spin-1 近均匀交替链，H²/方差收紧 | [4999249/5000751,5000751/4999249] | .020 | 所有整数元胞 M≥2，物理 L=2M |
-| 同上 | [9997911/10002089,10002089/9997911] | .015 | 所有整数元胞 M≥2 |
-| 同上 | [399901/400099,400099/399901] | .010 | 所有整数元胞 M≥2 |
-| 同上 | [399891/400109,400109/399891] | .005 | 所有整数元胞 M≥2 |
-| Spin-1 近均匀交替链，B² 与精确 finite bridge | [9998709/10001291,10001291/9998709] | .020 | 所有整数元胞 M≥2，物理 L=2M |
-| 同上 | [1249773/1250227,1250227/1249773] | .015 | 所有整数元胞 M≥2 |
-| 同上 | [9997841/10002159,10002159/9997841] | .010 | 所有整数元胞 M≥2 |
-| 同上 | [156213/156287,156287/156213] | .005 | 所有整数元胞 M≥2 |
-| Spin-1 近均匀交替链，正 cell-transfer 主证书 | [19999/20001,20001/19999] | .020 | 所有整数元胞 M≥2，物理 L=2M |
-| 同上 | [99993/100007,100007/99993] | .015 | 所有整数元胞 M≥2 |
-| 同上 | [199983/200017,200017/199983] | .010 | 所有整数元胞 M≥2 |
-| 同上 | [99991/100009,100009/99991] | .005 | 所有整数元胞 M≥2 |
-| Spin-1 近均匀交替链，键系数 1,g | 整个 [19999/20001,20001/19999] | .015 | 所有整数元胞 M≥2，物理 L=2M |
-| 同上，较宽闭区间 | 整个 [12499/12501,12501/12499] | .005 | 所有整数元胞 M≥2，物理 L=2M |
-| Spin-1 交替二聚体链 | g=0.1 | 0.118954972866 | 所有整数元胞数 M≥2 |
-| 同上 | g=0.125 | 0.068202652189 | 所有整数 M≥2 |
-| 同上 | g=0.15，深度 4 | 0.017013326349 | 所有整数 M≥2 |
-| 同上 | g=0.16 | 0.004358246531 | 所有整数 M≥2 |
-| 同上 | g=0.161 | 0.001952374069 | 所有整数 M≥2 |
-| 同上 | g=0.16125 | 0.001075806295 | 所有整数 M≥2 |
-| 同上，温度优先 | g=0.1615 | 0.039815121561 | 所有整数 M≥2 |
-| 同上，温度优先 | g=0.1625 | 0.037716426713 | 所有整数 M≥2 |
-| 同上，联合热迹比 | g=0.175 | 0.026579108896 | 所有整数 M≥2 |
-| 同上，小种子的计数低带 | g=0.18 | 0.112949677804 | 所有整数 M≥2 |
-| 同上，小种子的计数低带 | g=0.185 | 0.096048414952 | 所有整数 M≥2 |
-| 同上，小种子的计数低带 | g=0.19 | 0.078956697835 | 所有整数 M≥2 |
-| 同上，小种子的计数低带 | g=0.195 | 0.061526095375 | 所有整数 M≥2 |
-| 同上，小种子的计数低带 | g=0.2 | 0.043446395688 | 所有整数 M≥2 |
-| 同上，67 维小种子参考空间与直接整数窗口 | g=0.21 | 0.107424972 | 所有整数 M≥2 |
-| 同上，67 维小种子参考空间与直接整数窗口 | g=0.22 | 0.071581253 | 所有整数 M≥2 |
-| 同上，67 维小种子参考空间与直接整数窗口 | g=0.225 | 0.051807500 | 所有整数 M≥2 |
-| 同上，直接整数窗口、有限尺寸 | g=0.25 | 0.01 | 仅整数 2≤M≤16；无全尺寸结论 |
-| 普通 spin-1/2 方格双层 | g=0.01 | 0.168921021674 | 所有整数正方形边长 L≥2 |
-| 同上 | g=0.02 | 0.057308457817 | 所有整数 L≥2 |
-| 同上 | g=0.03，4×4 / 8×4 / 8×8 rung 种子 | 0.341601445704 | 所有整数 L≥2 |
-| 同上 | g=0.04，同一组种子 | 0.272402896810 | 所有整数 L≥2 |
-| 同上 | g=0.05，同一组种子 | 0.203655275044 | 所有整数 L≥2 |
-| 同上 | g=0.06，先温度后空间并转换至标准递推 | 0.164746706191 | 所有整数 L≥2 |
-| 同上，温度优先 | g=0.07 | 0.093479385120 | 所有整数 L≥2 |
-| 同上，完整矩与隐式过滤向量 | g=0.08 | 0.023243965748 | 所有整数 L≥2 |
-| 同上，保留联合热迹比与重复温度优先循环 | g=0.085 | 0.027887084487 | 所有整数 L≥2 |
-| 同上，精确三阶矩与 43 维搜索、单个分子态 | g=0.09 | 0.027330086079 | 所有整数 L≥2 |
-| 同上，完整残差输入与二维直接整数窗口 | g=0.10 | 0.055807148827 | 所有整数 L≥2 |
-| 同上，固定 z=.1 物理重建与直接窗口 | g=.1001 | .054499712024 | 所有整数 L≥2 |
-| 同上，固定 z=.1 物理重建与直接窗口 | g=.1005 | .049244008353 | 所有整数 L≥2 |
-| 同上，固定 z=.1 物理重建与直接窗口 | g=.101 | .040917096762 | 所有整数 L≥2 |
-| 同上，固定 z=.1 物理重建与直接窗口 | g=.1015 | .029199965244 | 所有整数 L≥2 |
-| 同上，固定 z=.1 物理重建与直接窗口 | g=.102 | .016509932002 | 所有整数 L≥2 |
-| 同上，新 16/43 维分母基态搜索与完整残差 | g=.105 | .031673112867 | 所有整数正方形 L≥2 |
-| 同上，每个种子仅保留基态贡献 | 整个区间 0≤g≤0.082 | 0.001945771244 | 所有整数 L≥2 |
-| 同上，小分母种子增加低激发带 | 整个区间 0≤g≤0.085 | 0.001945771244 | 所有整数 L≥2 |
-| 同上，固定 43 维分子试探态的连续延拓 | 整个区间 0≤g≤0.09 | 0.001945771244 | 所有整数 L≥2 |
-| 同上，66 段物理区间的直接窗口重放 | 整个区间 0≤g≤0.10 | 0.004499695659 | 所有整数 L≥2 |
-| 同上，新增八段闭区间 | 整个区间 0.10≤g≤0.102 | 0.013574634391 | 所有整数 L≥2 |
-| 同上，完整 74 段闭覆盖 | 整个区间 0≤g≤0.102 | 0.004499695659 | 所有整数 L≥2 |
-| 同上，新完整残差的六段闭延拓 | 整个区间 .102≤g≤.105 | .017785998829 | 所有整数正方形 L≥2 |
-| 同上，完整 80 段闭覆盖 | 整个区间 0≤g≤.105 | .004499695659 | 所有整数正方形 L≥2 |
-| 完全受挫双层附近 | J=0.3，直连 J+0.005，交叉 J | 0.038983227177 | 所有整数 L≥2 |
-| 同上，单一乘积试探态 | 整个区间 0≤ε≤0.00475，直连 J+ε | 0.008090283176 | 所有整数 L≥2 |
-| 同上，分段固定试探态 | 整个区间 0≤ε≤0.0085 | >0.001703099464 | 所有整数 L≥2 |
-| 同上，分段固定试探态 | 整个区间 0≤ε≤0.00855 | >0.000768515509 | 所有整数 L≥2 |
-
-
-
-### 表中未重复展开的前沿点与区间
-
-普通双层现存基线另有全部整数正方形 L≥2 的独立结果：
-
-| 参数 / 闭区间 | gap 下界 | 类型 |
-| --- | --- | --- |
-| .106 | .020945510446 | 单点 |
-| .1065 | .021451810876 | 单点 |
-| .10675 | .018514632200 | 单点 |
-| .107 | .015448308603 | 单点 |
-| .1075 | .012576432653 | 单点 |
-| .108 | .006236941481 | 单点 |
-| .10825 | .001585809758 | 单点 |
-| [.105,.106] | .020881493369 | 连续闭区间 |
-| [.106,.1065] | .019955613868 | 连续闭区间 |
-| [.1065,.108] | .005329481750 | 连续闭区间 |
-| [.108,.10825] | .000586405978 | 连续闭区间 |
-| [0,.108] | .004499695659 | 86 段连续闭覆盖 |
-| [0,.10825] | .000586405978 | 88 段连续闭覆盖 |
-
-早期拼接区间保留：[0,.078]/.001945771244；新增 [.07,.078]/.002006633957；新增 [.085,.09]/.005788366954；新增 [.09,.10]/.008761649092。不同配方的下界可以随 g 非单调，不据此推断实际谱隙变化。
-
-## Stage23–38：恢复历史中的后续进展
-
-本节“接受”均指恢复历史当时记录的独立验收，**不是今天在完整恢复证据上的新验收**。普通双层所有正结果均沿用上述 Hamiltonian、归一化、每个整数正方形 L≥2 与唯一有限体积基态范围。历史内的完整证明路径多未恢复，因此不提供不可打开的链接，也不以概览 PDF 替代证明依赖。
-
-| 阶段 | 科学进展 | 范围、依赖与限制 |
-| --- | --- | --- |
-| 23 | 保留均匀链 .0248、双层 [0,.108] 与 [0,.10825]、近均匀交替区间 | 均匀链成果已存在基线；Krylov/exporter 当时尚无新 g=.11 gap |
-| 24 | g=.11：.000131518777；另一有效路线 .000094038987 | 实际端点、25 有限窗口、2 尾部、L2–7 桥；N32 m0–m4 共 2,945×24 带符号字段独立重新组装 G/K/J。六个独立小物理 fixture、19 个同核大样本，不是第二套独立完整 N32 收缩 |
-| 25 | 整个 [0,.11]：.0001 | 新 [.10825,.11] 14 段，与旧 88 段组成 102 段；保留更强子区间，不是端点插值 |
-| 26 | 无新增正 gap；限定配方精确排除 | g=.1105/.111/.112/.115、β10、目标 10^-6、≤24 次 square cycles、固定 2D 分母/57D 分子。只排除该方案 |
-| 27 | [0,.112]：.004499695659；[.108,.112]：.01 | 强拼接 118 段；分子 ψ−τ(H′−μ)ψ 离开原 57D 族，使用完整方差严格下界而非真实方差/norm，单向量平面≤2D、扩展族≤58D；仅保留 1 个分子态 |
-| 28 | mixed-X、保守 3D 与温度诊断；无新正 gap | 同一未知 X 的四种包围不等于恢复精确 X。robust upper 是固定 worst-completion Temple surrogate，不是物理 3D 最优值上界；23 条指定路径失败不排除全部温度/试探族 |
-| 29 | [0,.115]：.004499695659；[.108,.115]：.01 | 142/56 段；.113/.114/.115 单点均 .01。完整 N64 H² 七块独立通过，q8 以带符号代数保留；本阶段正 Jlo 桥未使用新完整 H² |
-| 30 | [0,.116]：.004499695659；[.108,.116]：.005；单点 .116：.01 | 150/64 段，新桥 8 段、46 窗口、8 尾部，实际使用完整 N64 H²。r3/parity 及 .12/.125/.13 诊断不产生新 gap |
-| 31 | .118 固定方案条件目标和排除；无新正 gap | 58D 增广分母改善但固定分子/β10 的 ground-only 修复仍不够，不是一般不可能性；保留失败 review、等值小数 schema 修正与资源例外 |
-| 32 | 单点 g=.118：gap≥1/200=.005 | complete16 物理方差含 q8；16 列准备嵌入 21 mixed-q 列。先条件转移、后独立实际 β10 replay：6 窗口、tail256、L2–7。此时仍没有连续延拓 |
-| 33 | 整个 [0,.118]：.004499695659；[.108,.118]：.005 | 新 [.116,.118] 16 闭叶、83 窗口、16 尾部、L2–7；拼接 166/80 段，13 尾部从 128、3 尾部从 256 开始。区间内部界与端点衔接均为证书前提 |
-| 34 | .12 物理界、48 odd 低态、H³/Ritz 条件目标改善 | 四条 β10 lower paths 在 32 耗尽。必要分子增益严格 >15739173/53687091200，充分增益 7869587/26843545600；不是已实现的增益/新 gap。条件 T≤约 .288818450706901697 或归一 H′³≤约 −.145765369881870095 仅限固定准备 |
-| 35 | H³ pilot240 的小物理控制与样本通过 | N64 只算 32 个 q4、128 个 q6 支持，不能当作完整 39,711/7,028,847；N32 旧 norm 仅 16/129 样本；4×2 单个向量测试不等于整个 16D 矩阵独立接受 |
-| 36 | calibration 科学控制通过，最终成本 gate 失败 | 305 样本、8 字段、6 controls、37,800 局部检查；十个 job 通过但预测超过 13k/26k，FAILED_NO_RETRY。不是物理不一致，也不等于完整 H³ |
-| 37 | 首个 full-native 尝试资源失败，另 control112 七阶段/20 后代诊断通过 | q4[0,12288) 只是未接受 partial log，无 q6/checker/full H³。terminal tail 未知；保留首次失败而非用控制 PASS 替换 |
-| 38 冻结 | 完整 native 字段接受；scalar assembly 两次失败 | 两实现的全部 39,711 q4、7,028,847 q6 origins、440 chunks、8 signed fields、6 controls 一致。首次 worker 前 MemoryError，第二次 H² assertion 找到错误默认右向量；修正源接受但在冻结时未运行 |
-| Stage38 后暂停交接 | 固定准备完整 H³ 与 Ritz 接受 | assembly75748 另行完成科学及带限定资源审查；.12 bootstrap 仍 SOURCE_ONLY/NOTRUN，控制、入口及 admission 未完成，没有新能隙证书 |
-
-Stage38 的早期“无 scalar/Ritz”与后交接“已接受 H³/Ritz”是两个不同时间边界，不是抹改旧记录。交接摘要未完整给出所有精确 scalar，不在 README 猜写。ground16 方差完整精确；ground32 使用含 q10 对角项的保守完整二阶矩上界，不应写成精确完整 H² 矩阵；N64 完整 H²/sector 输入是固定准备的完整物理量，不是完整 2^128 谱。
-
-历史资源记录保留：32-rung m3/m4 为 FAILED_ACCOUNTING_TERMINAL，收费 22,983；Stage26 target worker 20.407048>20 即使总额低于 24 也属组件超额。post38 累计保留收费 75,748，加单列旧 pilot240；assembly 实测组件 3.033131 CPU 秒不含未知 coordinator terminal tail。预留 .25 不能充当实测值或已证全流程上界。
-
-### 明确的恢复缺口
-
-本次进一步核对 92 条已知路径、700 个对象与 599 条历史映射，恢复六份来源绑定 JSON 的原始身份，尚未补齐关键证明或 H³/Ritz 结果字节；八个关键结果路径在已知对象清单中没有同字节数候选。此检查不证明其内容不在压缩对象内部。具体范围与结果见[恢复完整性核对](research_20261014/readme_audit/recovery_followup/RECOVERY_COMPLETENESS.md)。
-
-2026-10-14 直接读取以下原路径均未找到，故这里只列恢复目标，不将其伪装成可打开链接：
-
-- `research_20261010/overview_stage24/README.md`
-- `research_20261010/overview_stage33/README.md`
-- `research_20261010/overview_stage38/README.md`
-- `research_20261010/bilayer_g011_krylov_all_size_review_c12/PROOF.md`
-- `research_20261010/bilayer_filtered_backward_bridge_review24/PROOF.md`
-- `research_20261010/bilayer_sharp_filter_continuous_review_completion/PROOF.md`
-- `research_20261010/bilayer_haldane_poststage38_pause_handoff/PAUSED_HANDOFF.md`
-
-原路径缺失不证明其字节在全部未识别对象中均不存在。已知 Stage33 概览 PDF 对应对象 `83892297f52130ffcafce07314e5e72af2211c21`，但概览与 SOURCE_PINS/清单不能替代完整证明、CSV、精确输入和复核回执。两个现有原始检查点 ZIP 分别有 1,150/60 项，不包含 `research_20261010` 或 Stage23–38 目录，不能用旧包填补后续证据缺口。
-
-## 基线 Stage11–22 的方法进展账本
-
-本节说明何时取得何种进展；这里的生产阻塞/运行信息为阶段历史，不是当前正在运行的进程。
-
-| 阶段 | 已保存的科学进展 | 必须保留的边界 |
-| --- | --- | --- |
-| 11 | 直接整数窗口；交替链 .21/.22/.225 强界；M8 的 4D、9/13/17D pair/block；均匀链 n54/n56/n60 冷却；MPS 自旋流与小 seed 障碍 | .25 仅有限尺寸；继承舍入向量非精确 singlet/平移态；.4238202243 是试探能量改善而非 gap；完整 time-first 等指定族排除不是普适最小 seed |
-| 12 | 精确 Hermite 包络、均匀链 n52、二维 .10 完整区间和 .102 延拓 | 九个热迹仍为继承依赖；n52 启动给出 L≥52/.0038；不把原论文偶数能隙范围改称原文已证奇数 |
-| 13 | 新完整残差、均匀链直接有限窗口与固定方案诊断 | L48–96/.0053 是有限窗口，L≥48/.0038 需拼接 n52 尾部；完整 q8 范数/交叉项不能以截断 Ritz 代替；方案失败不等于物理无隙 |
-| 14 | 条件定理、有限尺寸工具与热迹工程 | 条件前提未满足时不列为无条件全尺寸 gap；数值网格失败保持诊断 |
-| 15 | 完整物理矩阵、基态端点与部分热迹验收 | 部分覆盖、端点改善与完整 bootstrap 成功分别记录 |
-| 16 | 方形对称直接窗口/递推，.106/.1065 单点与连续延拓 | 正方形反射不等于任意矩形 x/y 纯度交换；正性门需精确核验 |
-| 17 | .10675/.107/.1075/.108/.10825 点与 [0,.10825]；固定 pair-product 方差下限 | β=19/2 的 .1085 失败不是全部温度 no-go；.11、z=−11/400 的方差下限只针对固定参数 |
-| 18 | 第二组 18 个热迹输入完整物理复现，均匀链 L≥36/.0214；58D 完整矩阵数学验收 | 2,428 checkpoints 的总量一致不替代误差/物理验收；58D 端点资源 UNVERIFIED 和旧超限保留 |
-| 19 | n30/.0179、n32/.0245、n34/.0248 真初始化；短尺寸拼接至全部 L≥2/.0248 | n30 不是 .0248 初始化；L24 使用 parity/MPS48；Direct25 资源 NOT ACCEPTED，不由数学 PASS 抹去 |
-| 20 | 正 cell-transfer 与近均匀交替闭区间；均匀链自包含证明指南；whole-m4 小物理与局部重放 | A A* 正性不能替换为“自伴乘积自伴”；partial kernel 重放不是完整 8×4 高矩；g=.9 无证书 |
-| 21 | 独立 B² 物理输入、Gibbs κ 界、更强近均匀区间；variable-g 小 fixture/control | MPS 不是 Gibbs 态；κ32≤.136、κ64≤.157；控制组件 PASS 不等于完整生产，受限 cell 提案资源未接受 |
-| 22 | H² 完整方差与更强四个闭区间；initial100 部分链和终止审计 | 总方差约 .0002629779063/.0004964120744；κ32≤.0969、κ64≤.119；100 条部分 checkpoint 不等于完整 m0/m1/m2 或 m4；1208 历史收费保留 |
-
-Spin-2 热迹工程另行保存：255 个 L3/L4 对称代表、完整 L4 热迹及误差预算通过，匹配编译条件的 I/C 列约加速 8.1/3.0 倍；L10 全 I/P/C 仍预计 847–1034 core-hours，标量启动筛查未过，未启动完整计算。有限矩的有理谱反例只否定指定 I/P 信息与“分子取 1”的组合；未满足 C 矩，不是原模型无隙证明。全长度正性及主谱点定位仍依赖继承输入，不证明主谱点唯一、分离或热纯度已启动。
-
-## 2026-10-14 本次实际复算
-
-本次在原始检查点的工作副本执行已有独立核验器，原封存证据保持不变：
-
-- 两个 ZIP 的 CRC 通过；检查点 1,149 项和扩展包 59 项哈希通过。重放后再次核对原 1,149 个清单文件，保持不变。
-- 原始 625D 基准的 0–200 阶整数矩匹配，inertia counts 为 0/1/4/9/9，β=1、2 热迹检查通过，保存的通用标量 gap 下界 .055688426272。它是独立基准，不将此数赋给均匀 spin-1 主模型。
-- 交替 spin-1 链 g=1/20，M=2/4、完整物理维数 81/6561、各保留 1 向量；精确 Hamiltonian 作用/残差、全空间 Weyl 完备界、Temple 包围、完整谱尾与保存的标量 bootstrap 通过。β=6/8/10/12/16/20 六温度中最佳 β=10，重现 .116303868802。
-- 这是既有独立核验器的重新执行，不是新写的第二套验证器，也不是新能隙发现。spin-1 的矩阵作用利用守恒磁化扇区，完整空间由 Weyl 界控制，未枚举完整多体谱。
-- 本次没有重新证明手推转移假设、全整数插值和所有短尺寸桥；没有重新跑普通双层、完全受挫双层、大 D、均匀链 Appendix A、Stage38 或 .12 bootstrap。它们的状态分别由现存证据或明确标记的恢复历史支持。
-
-本次核对的详细逐项记录：[基线成果核对](research_20261014/readme_audit/baseline_audit.md)、[后续恢复历史核对](research_20261014/readme_audit/recovered_audit.md)、[复算范围与排除项](research_20261014/readme_audit/replay/AUDIT_SCOPE.json)。
-
-## 下一步任务记录
-
-1. 维护本页作为科研进度入口，每次新结果均同步记录参数、尺寸、归一化、单点/区间和证据等级，保留仓库内部证据链接及失败记录。冻结历史文件不改。
-2. 优先恢复 Stage23–38 的证明、精确输入、CSV、manifest 和 review receipts 的完整依赖闭包，先从已知对象映射及 .118 区间证书开始；逐字节核验。找到概览不等于完成恢复。
-3. 依赖闭合后，先在副本做有界、小规模、可恢复的回归检查；保留输出、环境、命令和失败日志。不得以“source gate PASS”替代实际执行，不重复已通过且无需重跑的昂贵计算。
-4. g=.12 的下一科学步骤是恢复/核对已接受固定准备 H³/Ritz 与 bootstrap 输入，完成入口、controls 和资源准入后才考虑 replay。当前不能直接宣布可启动、能闭合或得到新 gap；若缺失材料无法恢复，应先做受限重建计划。
-5. 长计算开始前记录明确资源预算、恢复点和停止条件。本次没有恢复旧自动报告安排；用户新的范围或暂停指示优先于历史计划。
-
-本次可直接执行的便携入口及输入哈希见[复算说明](research_20261014/readme_audit/replay/README.md)。
-
-### 仓库内阅读与复算入口
-
-- [项目续接规则](AGENTS.md)
-- [模型与归一化](research_20261010/MODELS_AND_NORMALIZATION.md)
-- [Stage22 成果概览](research_20261010/overview_stage22/README.md)
-- [均匀链 .0248 全尺寸证明](research_20261010/uniform_gap_0248_all_sizes_review/PROOF.md)
-- [一维到二维的输入说明](research_20261010/BOOTSTRAP_1D_TO_2D.md)：其中旧 g=.10 数值须按本 README 的后续强界理解
-- [原始热迹证明](heat_trace/PROOF.md)、[整数尺寸桥](audit/APPENDIX_A_BRIDGE.md)
-- [完全受挫模型解析证明](two_d_theory/NONPERTURBATIVE_MODELS.md)
-- [恢复目录](recovery_20261012/README.md)、[已知对象映射](recovery_20261012/KNOWN_BLOB_PATHS.json)
-
-原始归档入口为 `python verify_archive.py`、`python heat_trace/replay_appendix_a.py`；具体独立审查目录内提供 `REPRODUCE.sh` 或审计脚本。部分脚本会重写计时或结果 JSON，应在工作副本执行并保存新输出。缺少传输恢复依赖时不能直接运行历史 materializer 并假定成功。历史环境记录 Python 3.12.14、NumPy 2.3.5、SciPy 1.17.0、SymPy 1.14.0，部分精确 C++ 路线依赖 GMP/编译器；环境版本说明不意味着本次安装或执行了额外软件。文件哈希只验证完整性，数学复算范围仍须逐项说明。
+### Large-D and AKLT models
+
+The spin-1 large-D square-lattice Hamiltonian, with D=1, is
+
+$$
+H=\sum_i(S_i^z)^2+g\sum_{\langle i,j\rangle}\mathbf S_i\cdot\mathbf S_j.
+$$
+
+It has U(1) and spin-reversal structure rather than full SU(2) symmetry. The AKLT reference uses H=ΣP₂, where P₂ projects a neighboring spin pair onto total spin 2. Its gap bound therefore has a different normalization from the Heisenberg-chain result.
+
+Further conventions are given in [Models and normalization](research_20261010/MODELS_AND_NORMALIZATION.md).
+
+## How low-energy calculations reach all sizes
+
+A retained low-energy state contributes a controlled term to a heat trace. The omitted states require both a count and a spectral-tail bound. Together, these bounds supply the heat-trace or purity inequalities used to enlarge temperature and system size. Every successful certificate also includes finite integer windows and a bridge to the smaller systems.
+
+For the ordinary bilayer, the principal seeds contain 4×4, 8×4, and 8×8 rungs. Their 32, 64, and 128 spins span spaces of dimensions 2^32, 2^64, and 2^128. Full diagonalization of the largest seed is unnecessary in some correlated heat-trace ratios. When that seed enters only the numerator, a Rayleigh upper bound from one normalized vector supplies the required lower bound on its heat trace. The two denominator seeds still require conservative treatment of all omitted states. Other filtered constructions require higher moments.
+
+The two-dimensional argument controls temperature and both spatial directions. Rectangular seeds, the order of the operations, and square symmetry affect whether the recurrence starts. The project includes audits of the general d-dimensional extension, the two-dimensional constant K=26, finite-integer interpolation, a common defect domain, and direction exchange or joint ratios. These ingredients explain why a one-dimensional length cannot simply be squared to obtain a two-dimensional certificate.
+
+The size of a trial representation should be kept distinct from the physical Hilbert space. Early bilayer numerator searches used 29 dimensions, increasing to at most 30 after filtering. At g=0.09 and 0.10, the largest numerator search used 43 dimensions and retained one state. The smaller denominator seeds retained 49 and 97 contributions, consisting of one even ground contribution and 3N odd levels. These need not be the lowest 49 or 97 levels in global energy order. Their total search dimensions were 59/125 at g=0.09 and 59/139 at g=0.10. Later preparations used 16/58/57 dimensions. A final two-dimensional filtering plane or three-dimensional denominator does not remove the cost or role of those preparations.
+
+For the uniform chain, an MPS bond dimension of 26, a norm-transfer dimension of 676, local-improvement bounds of 52 or 156 on the MPS bond dimension, and the physical dimension 3^L describe different objects. Successful tail initializations include n=30 with gap≥0.0179, n=32 with gap≥0.0245, and n=34 with gap≥0.0248. Finite-size bridges extend the last bound down to L=2. No minimal-seed theorem has been established.
+
+A comparison of fixed ansatz spaces gives a more limited lower bound on their required flexibility. At g=0.03, a specified six-dimensional space has residual-square lower bound greater than 1.77756×10^-4, while a saved eleven-dimensional construction gives approximately 5.31537×10^-7. This comparison applies to the specified spaces and Rayleigh range. It does not impose an eleven-dimensional minimum on every possible ansatz. The full excitation-shell dimension $\sum_{j=0}^{q}\binom{M}{j}[(2s+1)^2-1]^j$ provides a cost estimate, while sufficiency is determined by the retained levels, full residuals, omitted-spectrum bounds, heat traces, and finite and infinite size windows.
+
+The fully frustrated model at J=0.3 supplies a nonperturbative example with an exact one-state ground space. The perturbed model uses certified nonzero residuals and spectral tails through ε=0.00855. AKLT supplies an exact entangled MPS with bond dimension 2 and control of the 3^L−1 omitted states, although the common thermal-transfer sufficient condition has not passed there. Its successful certificate instead uses the local-projector criterion.
+
+## Results, recovery, and reproduction
+
+The [complete progress record](docs/PROGRESS.md) preserves all previously reported bounds, rational endpoints, finite-size results, unsuccessful searches, and resource exceptions. It also separates the available Stage22 certificates from the later recovered history. Bounds obtained from different constructions can vary nonmonotonically with g without implying the same behavior for the physical gap.
+
+The uniform-chain [all-size proof](research_20261010/uniform_gap_0248_all_sizes_review/PROOF.md) dates to Stage19 and survives in the Stage22 baseline. The later bilayer extension rests on recovered records and a byte-verified Stage33 PDF. Its exact inputs, full proofs, interval data, and review receipts are not yet all available.
+
+On 2026-10-14, bounded reruns checked the archived inputs, a 625-dimensional integer-moment benchmark, and the alternating-chain certificate at g=1/20, reproducing gap≥0.116303868802. These reruns did not reprove every transfer assumption or reproduce other models or later stages. The [replay instructions](research_20261014/readme_audit/replay/README.md) and [scope record](research_20261014/readme_audit/replay/AUDIT_SCOPE.json) specify the checks and exclusions.
+
+Useful starting points are
+
+- [Project rules](AGENTS.md) and [Stage22 overview](research_20261010/overview_stage22/README.md)
+- [Heat-trace proof](heat_trace/PROOF.md) and [integer-size bridge](audit/APPENDIX_A_BRIDGE.md)
+- [One- to two-dimensional bootstrap](research_20261010/BOOTSTRAP_1D_TO_2D.md), whose older g=0.10 value is superseded by 0.055807148827
+- [Fully frustrated analytic proof](two_d_theory/NONPERTURBATIVE_MODELS.md)
+- [Recovery index](recovery_20261012/README.md) and [known object paths](recovery_20261012/KNOWN_BLOB_PATHS.json)
+- [Baseline audit](research_20261014/readme_audit/baseline_audit.md) and [recovered-history audit](research_20261014/readme_audit/recovered_audit.md)
+
+The original archive entry points are `python verify_archive.py` and `python heat_trace/replay_appendix_a.py`. Individual review directories also contain `REPRODUCE.sh` or audit scripts. Run them in a working copy because some rewrite timing or result JSON. Historical environments recorded Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0, and SymPy 1.14.0. Some exact C++ routes require GMP and a compiler. These records do not imply that new software was installed for the present checks.
+
+Recover the missing Stage32/33 proofs and post38 H³/Ritz outputs before attempting a bounded regression. Any new g=0.12 run also needs controls, entry checks, and an explicit resource budget. See the [next research steps](docs/PROGRESS.md#next-research-steps). This documentation work has produced no new gap certificate.

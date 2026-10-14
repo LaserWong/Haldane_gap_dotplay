@@ -1,3 +1,5 @@
-# Symbolic residual-direction and moment-budget review
+# Symbolic residual directions and moment requirements
 
-Read PROOF.md and ACCEPTANCE.json. Run `sh REPRODUCE.sh` for a clean exact symbolic/cached replay (<1 CPU second, <20 MiB observed). No physical supports or new gap claims. All inputs are pinned in snapshot. Producer cost erratum is included.
+The review checks the symbolic residual-direction calculation and its moment requirements using pinned inputs in `snapshot`. It includes the producer's cost erratum. The result uses cached and symbolic calculations, with no new physical-support contraction or gap bound.
+
+`PROOF.md` and `ACCEPTANCE.json` describe the scope. Run `sh REPRODUCE.sh` for a fresh exact replay. The observed cost was less than 1 CPU second and less than 20 MiB.

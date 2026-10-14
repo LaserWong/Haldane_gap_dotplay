@@ -2,4 +2,4 @@
 
 2026-10-10 18:41 EDT / 22:41 UTC. Complete.
 
-Include this directory alongside uniform_source_scope_review when distributing its verbatim TeX snapshots. LICENSE is the unchanged Apache2.0 upstream license; ATTRIBUTION.md identifies the original sources and unchanged status. NOTICE_CHECKS.json records relevant hierarchy checks with no NOTICE found. No previously sealed files changed.
+Distribute this directory with uniform_source_scope_review whenever its verbatim TeX snapshots are distributed. LICENSE preserves the unchanged upstream Apache2.0 license. ATTRIBUTION.md identifies the original sources and confirms their unchanged status. NOTICE_CHECKS.json records the relevant hierarchy checks, which found no NOTICE. No previously sealed files were changed.

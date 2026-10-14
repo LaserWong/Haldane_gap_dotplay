@@ -2,7 +2,7 @@
 
 Updated 2026-10-10 15:04 EDT / 19:04 UTC.
 
-**Status: exact producer candidates, awaiting independent recombination review.**
+The exact producer candidates await independent review of their recombination.
 The two physical endpoint packages are frozen and separately under independent
 review. See `PROOF.md` for the precise conditional chain and input distinctions.
 
@@ -23,23 +23,23 @@ The best scanned order is txy, transported to the canonical order.
 | .08 | .023243965748 | .023241913957 |
 
 At g=.08, β=197/20. Required finite-window gaps for n=8,16,32 are respectively
-.085694716373, .052551882633, .038596267315; the asymptotic bound is the minimum.
+.085694716373, .052551882633, .038596267315. The asymptotic bound is the minimum.
 The optional n=64 endpoint window is also recorded. The uniform short-size
 bound exceeds .3078. g=.10 has no successful proposal in the tested
-β=5,…,30 grid of step .05 across three orders; this is not an all-temperature
+β=5,…,30 grid of step .05 across three orders. This is not an all-temperature
 exclusion.
 
 `combined/` uses full-pencil ground lower endpoints plus filtered ground upper
 endpoints. `filter_only/` keeps the original ground lower endpoints, allowing
 the two improvements to be separated. All triplet and tail data are unchanged.
-The largest-ground-only result drops the optional odd numerator trial terms;
-it still uses original largest second-moment data to certify the filter. It is
+The largest-ground-only result drops the optional odd numerator trial terms.
+It still uses original largest second-moment data to certify the filter. It is
 therefore distinct from the strict first-moment-only `../reduced_input` route.
 
 ## Inputs, dimensions, and computation
 
 - Full physical spaces: 4^16, 4^32, 4^64.
-- Original ground trial dimensions: 11,29,29; retained ground states: one each.
+- Original ground trial dimensions: 11,29,29, with one retained ground state each.
 - The filtered state is implicit in span{ψ,Hψ}, generally outside that original
   ground trial family. No filtered sparse vector is constructed.
 - Existing exact G/K/J and geometry are reused. No new physical moments, higher
@@ -53,7 +53,7 @@ manifests are:
 - `../ground_moment_pencil/ENDPOINT_MANIFEST_SHA256.json`
 - `../../variational_numerator_filter/FROZEN_MANIFEST.json`
 
-The full pencil package also has `FROZEN_MANIFEST_SHA256.json`; the endpoint-only
+The full pencil package also has `FROZEN_MANIFEST_SHA256.json`. The endpoint-only
 manifest used here was frozen first and remains unchanged.
 
 From the repository root:
@@ -71,4 +71,4 @@ python research_20261010/low_band/combined_ground_bounds/recombine.py \
 ```
 
 These commands overwrite only their own candidate subdirectory. Do not rerun
-in place after the final freeze; copy this producer directory first if needed.
+in place after the final freeze. Copy this producer directory first if needed.

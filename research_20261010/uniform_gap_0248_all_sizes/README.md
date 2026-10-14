@@ -1,13 +1,21 @@
-# Strengthen the all-integer bound to .0248
+# Candidate gap bound of .0248 at every periodic length
 
-2026-10-10 22:52 EDT / 2026-10-11 02:52 UTC. Exact producer proof; independent review pending.
+Recorded October 10, 2026, at 22:52 EDT / October 11, 2026, at 02:52 UTC.
+The exact generated proof was awaiting independent review at this checkpoint.
 
-Gap >= .0248 and unique ground state for every integer periodic L >= 2:
-- analytic L2/L3;
-- cached L4..25 purity bounds rechecked at .0248;
-- fresh own-length direct thermal certificates L26..33;
-- independently accepted n34 tail.
+The candidate establishes a unique ground state and gap >= .0248 for every integer periodic L >= 2 through four inputs.
 
-This stronger proof uses initialization34. Smallest separately certified initialization remains30 at .0179; coverage beginning2 is not initialization2.
+- Analytic bounds at L = 2 and 3
+- Cached purity bounds at L = 4..25, rechecked at .0248
+- Fresh direct thermal certificates at each length L = 26..33
+- The independently accepted tail initialized at n = 34
 
-New batch:7.25026CPU seconds by wait4,11.67768wall seconds,15824KiB, all guarded limits checked before and after exec. No new thermal inputs, ED or tensor optimization. See PROOF.md and certificate.json. Scalar replay: python check_cached_prefix.py; python certify.py.
+This stronger proof uses initialization 34.
+The smallest separately certified initialization remains 30 at .0179.
+Coverage beginning at length 2 does not imply initialization at 2.
+
+The new batch used 7.25026 CPU seconds measured by wait4, 11.67768 elapsed seconds, and 15824 KiB.
+All guarded limits were checked before and after exec.
+It required no new thermal inputs, exact diagonalization, or tensor optimization.
+See `PROOF.md` and `certificate.json`.
+Replay the scalar calculations with `python check_cached_prefix.py` followed by `python certify.py`.

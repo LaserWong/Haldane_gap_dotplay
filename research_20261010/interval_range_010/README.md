@@ -1,10 +1,10 @@
 # Extend the continuous ordinary bilayer interval to .10
 
 Updated 2026-10-10 17:56 America/New_York (EDT) / 21:56 UTC.
-Exact producer result; independent interval review required.
+Exact producer result. Independent interval review required.
 
 Ten closed intervals cover every real g in [.09,.10] and every integer L>=2
-with unique ground state and gap >= .008761649092. Joining accepted [0,.09]
+with a unique ground state and gap >= .008761649092. Joining accepted [0,.09]
 preserves gap >= .001945771244 on [0,.10] (66 intervals total).
 
 The only strengthened physical input is the accepted complete 8x4-rung fixed
@@ -19,8 +19,8 @@ replay_result.json records exact eigensolver-free replay and eleven corruption
 tests. PHYSICAL_MANIFEST.json, SCALAR_MANIFEST.json and FROZEN_MANIFEST.json
 bind the immutable package, with explicit accepted input/review hashes.
 
-From the repository root: bash research_20261010/interval_range_010/REPRODUCE.sh
+From the repository root, run bash research_20261010/interval_range_010/REPRODUCE.sh
 This verifies hashes and recomputes all scalar certificates without overwriting
-frozen results. Generation and replay use CPU5, one numerical-library thread
-and a 1 GiB address-space cap; each takes roughly ten seconds and <90 MiB.
+frozen results. Generation and replay use CPU 5, one numerical-library thread
+and a 1 GiB address-space cap. Each takes roughly ten seconds and <90 MiB.
 All writes are confined here. Prior seals, root files and GitHub are untouched.

@@ -1,8 +1,6 @@
 # Bounded optimization plan
 
-The first cost projection uses the exact sum of representative count times
-stored sparse edge count over all magnetization sectors. It is not M0 worst-case
-timing multiplied by a full-space column count.
+The cost projection sums the representative count times the stored sparse-edge count over every magnetization sector. This accounts for sector-dependent work rather than applying the worst-case M0 timing to every column.
 
 1. Algebraic parity: a column at v has only ordinary/Eisenstein integer entries
 at rows with the same zero-parity g(w), and only sqrt(6)-scaled entries at the
@@ -17,7 +15,7 @@ coefficient product still uses signed128. Test bitwise against bigint and the
 uncompressed implementation before interpreting performance.
 3. Small fixed blocks of columns: stream 1/2/4 columns in row-major order,
 sharing CSR edge reads and retaining bounded per-column outputs. Chunk files
-identify every completed representative; graph construction is amortized over
+identify every completed representative, and graph construction is amortized over
 chunks. The maximum chunk size will be chosen from measured memory and speed,
 not from an assumption of unrestricted RAM.
 

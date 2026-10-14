@@ -1,12 +1,11 @@
 # Bosonic comparison for number-changing rung couplings
 
-2026-10-10 14:20 America/New_York / 18:20 UTC. New analytical lemma and internal
-exact checks; independent review is required before using it in a released gap.
+2026-10-10 14:20 America/New_York / 18:20 UTC. This lemma bounds number-changing rung interactions through a bosonic embedding. Internal exact checks are complete. Independent review is required before the bound enters a released gap certificate.
 
 ## Pair creation as a hard-core compression
 
 Use an orthonormal singlet/triplet basis on each spin-1/2 rung. Embed the physical
-basis into the bosonic Fock space of three modes per rung: a singlet is vacuum,
+basis into the bosonic Fock space of three modes per rung. A singlet is the vacuum,
 and each triplet is one boson of the corresponding color. Physical states have
 at most one boson per rung. Let P be this hard-core projection, and Q the total
 boson number, equal to the triplet count on the physical subspace.
@@ -29,7 +28,7 @@ There are no graph loops. The factor 1/2 cancels the two orientations of each
 edge. The exact physical creation operator is C_+=PBP restricted to the
 hard-core Hilbert space. Consequently its q-to-q+2 operator norm is no larger
 than that of B on the entire q-particle sector. This is an orthogonal physical
-embedding; no unnormalized coordinate norm is being substituted.
+embedding. No unnormalized coordinate norm is being substituted.
 
 ## A number-resolved bound for arbitrary bosonic pair creation
 
@@ -43,7 +42,7 @@ The canonical bosonic commutation relations give
     [B*,B] = a* K K* a + v I.
 
 For completeness this can be verified by expanding
-[a_u a_v,a_r* a_s*]: moving both annihilators to the right leaves the four
+[a_u a_v,a_r* a_s*]. Moving both annihilators to the right leaves the four
 single contractions, which sum to a*KK*a, and the two double contractions,
 which sum to Tr(K*K)/2. On the q-particle sector,
 
@@ -61,7 +60,7 @@ therefore gives the exact formula
 
     A_q <= (floor(q/2)+1) v + kappa^2 floor((q+1)^2/4).
 
-For even q=2s this is (s+1)v+kappa^2 s(s+1); for odd q=2s+1 it is
+For even q=2s this is (s+1)v+kappa^2 s(s+1). For odd q=2s+1 it is
 (s+1)v+kappa^2(s+1)^2. The bound is sharp for a single bosonic mode.
 
 ## Specialization to periodic square bilayers
@@ -73,7 +72,7 @@ kappa^2=4g^2. Since J*J=I_3,
 
 For a simple torus with both sides at least three, there are 2N edges and thus
 v=3Ng^2/2. Length-two periodic parallel edges are combined into w_e=2 before
-squaring; they must not be counted as separate orthogonal pair-creation images.
+squaring. They must not be counted as separate orthogonal pair-creation images.
 The implementation computes the weighted graph explicitly.
 
 Combine this bosonic upper bound with the previous safe occupancy bound by

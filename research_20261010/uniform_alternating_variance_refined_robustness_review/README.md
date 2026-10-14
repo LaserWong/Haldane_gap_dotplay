@@ -1,5 +1,9 @@
-# Variance-refined intervals: independently accepted
+# Independent certificates for variance-refined intervals
 
-Four wider closed intervals now certify gaps .020/.015/.010/.005 and unique ground state for every integer cell count M ≥ 2, physicalL = 2M. Exact endpoints,37 full windows,56 finite bridges and four asymptotic tails are in results.json and PROOF.md.
+Four wider closed intervals certify gaps of .020/.015/.010/.005 and a unique ground state for every integer cell count M ≥ 2, with physical length L = 2M.
+`results.json` and `PROOF.md` give the exact endpoints, 37 full windows, 56 finite-size bounds, and four asymptotic tails.
 
-Uses independently accepted κ32 ≤ .0969 and κ64 ≤ .119. No new physical computation, no optimality claim, and physical24 retains its parity/MPS48 provenance. Every prior seal and ledger is unchanged.
+The proof uses the independently accepted bounds κ32 ≤ .0969 and κ64 ≤ .119.
+It performs no new physical calculation and makes no optimality claim.
+The physical-length-24 input retains its parity-bound and MPS48 provenance.
+All earlier seals and records remain unchanged.

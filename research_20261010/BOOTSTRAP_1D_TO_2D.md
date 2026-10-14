@@ -1,8 +1,8 @@
-# From one to two spatial dimensions: bootstrap and required inputs
+# Heat-trace bootstraps in one and two dimensions
 
 Updated 2026-10-10 17:26 EDT / 21:26 UTC.
 
-This note answers the user's question about the structural difficulty of the two-dimensional extension and whether it requires full-spectrum diagonalization. The accepted model and boundary conventions are in [MODELS_AND_NORMALIZATION.md](MODELS_AND_NORMALIZATION.md).
+The two-dimensional bootstrap adds a spatial direction to the heat-trace recurrence. Its main additional demands are stronger seed bounds and control of both spatial interpolations, rather than full-spectrum diagonalization. This note describes the calculations available at the historical date above. Model and boundary conventions are in [MODELS_AND_NORMALIZATION.md](MODELS_AND_NORMALIZATION.md).
 
 ## 1. The same scalar mechanism with one additional axis
 
@@ -38,7 +38,7 @@ $$
 A'=G(A^4B^2C),\qquad B'=G(B^4C^2A'),\qquad C'=G(C^4(A')^2B').
 $$
 
-These are sufficient lower-bound updates. Positive first output requires the corresponding argument to exceed sqrt(2)-1. This is only the first necessary gate for this update, not a complete startup or all-size criterion. For illustration, setting every input to 0.85 gives 0.85^3=0.614125 in one dimension and 0.85^7=0.32057708828125 in two dimensions. The extra axis makes comparable input uncertainty more costly.
+These are sufficient lower-bound updates. Positive first output requires the corresponding argument to exceed sqrt(2)-1. This condition is necessary for the first update but does not ensure that the bootstrap starts or covers all sizes. For illustration, setting every input to 0.85 gives 0.85^3=0.614125 in one dimension and 0.85^7=0.32057708828125 in two dimensions. The extra axis makes comparable input uncertainty more costly.
 
 Once certified inputs enter the contracting regime, the larger-size continuation is scalar. No new many-body diagonalization is needed at each doubling. Retaining separately certified joint ratios improves over multiplying independently weakened edge bounds. See [the independent joint-ratio lemma](joint_ratio_review/GENERAL_LEMMA.md).
 
@@ -70,7 +70,7 @@ Every omitted eigenvalue must be accounted for, with correct multiplicity and in
 
 ## 4. Actual inputs at g=0.09
 
-The accepted point certificate uses the following seed geometries:
+The accepted point certificate uses the following seed geometries.
 
 | Rung patch | Physical spins | Full Hilbert dimension | Information used |
 |---|---:|---:|---|
@@ -78,7 +78,7 @@ The accepted point certificate uses the following seed geometries:
 | 8×4 | 64 | 2^64 | Certified low band of 97 states plus a complete omitted-spectrum bound |
 | 8×8 | 128 | 2^128 | One Rayleigh trial contribution, found in a 43-dimensional search |
 
-The smaller denominator ground searches remain 11 and 29 dimensional. Their total trial dimensions including the odd low-band directions are 59 and 125. The 49/97 counts are not dimensions of the full physical spaces, nor a requirement to obtain exact eigenvalues. The largest numerator requires only one retained state; 43 is its search dimension, not its number of retained levels.
+The smaller denominator ground searches remain 11 and 29 dimensional. Their total trial dimensions including the odd low-band directions are 59 and 125. The 49/97 counts are not dimensions of the full physical spaces, nor a requirement to obtain exact eigenvalues. The largest numerator requires only one retained state. The number 43 is its search dimension, not its number of retained levels.
 
 Exact moment construction still has a computational cost. In this implementation symmetry and local spin contractions avoid enumerating the full 2^128 physical basis. The independent reviewer also checked many intermediate support configurations, so small search dimension should not be equated with zero preparation cost or a general polynomial complexity guarantee.
 

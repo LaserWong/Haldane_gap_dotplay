@@ -6,6 +6,6 @@ Independent exact replay accepts all 21 new ground endpoints and 14 successful a
 
 for every integer square side L≥2, with unique finite-volume ground states. The g=.05 entry retains the preceding stronger accepted certificate. The independent g=.07 x–time–y route gives .020459331271. The .08/.10 failures remain finite-grid diagnostics.
 
-[REVIEW.md](REVIEW.md) contains the theorem, invariant-sector count, exact normalization, source provenance, transport and every integer-size bridge. [REVIEW_STATUS.json](REVIEW_STATUS.json) records accepted endpoints and scope. No new physical trial family or higher moment is used: the largest full space is 2^128, the ground trial space is 29-dimensional, and the complete retained band has 193 states.
+[REVIEW.md](REVIEW.md) contains the theorem, invariant-sector count, exact normalization, source provenance, transport and every integer-size bridge. [REVIEW_STATUS.json](REVIEW_STATUS.json) records accepted endpoints and scope. No new physical trial family or higher moment is used. The largest full space is 2^128, the ground trial space is 29-dimensional, and the complete retained band has 193 states.
 
-Run `bash REPRODUCE.sh` for full replay. The direct rational-witness acceptance alone is `python audit_direct.py`; it does not need inverse-pencil positivity assumptions. All writes stay in this review directory, with one CPU and a 1.5 GiB address-space ceiling.
+Run `bash REPRODUCE.sh` for full replay. The direct rational-witness acceptance alone is `python audit_direct.py`. It does not need inverse-pencil positivity assumptions. All writes stay in this review directory, with one CPU and a 1.5 GiB address-space ceiling.

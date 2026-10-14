@@ -1,3 +1,7 @@
-# Exactg=.10825 point and scoped failed path
+# The bilayer point g=.10825
 
-Accepted all-integerL≥2 gap.001585809758 and unique ground atg=.10825. The savedg=.1085,β0=9.5 path fails its computedc lower gate atside128; this is not a physical or universal no-go. No continuous interval or.109 result is claimed here. All new vectors, complete physical bounds and exact paths are independently checked. Read PROOF.md; run `sh REPRODUCE.sh` for the under4CPU-second/21MiB replay.
+The independent review establishes a unique ground state and gap≥.001585809758 at g=.10825 for every integer square side L≥2. It checks all new vectors, complete physical bounds, and exact scalar paths.
+
+The saved path at g=.1085 and β0=9.5 fails the computed c lower-bound condition at side 128. This failure applies to that path. It establishes neither physical gaplessness nor a general obstruction. This review gives no continuous-interval result or result at .109.
+
+The proof is in `PROOF.md`. Run `sh REPRODUCE.sh` for a replay requiring less than 4 CPU seconds and approximately 21 MiB.

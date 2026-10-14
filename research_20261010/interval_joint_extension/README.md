@@ -15,12 +15,12 @@ integer square sides L≥2. Together with the unchanged sealed earlier packages,
 - [Joint arithmetic diagnostics](joint_test_results.json)
 
 There is one ground contribution on each patch and no odd-band trial input.
-Original search dimensions are 11/29/29; the used augmented dimensions are
+Original search dimensions are 11/29/29. The augmented dimensions used are
 11/29/≤30, with q≤6 for the implicit largest filtered vector. Existing full
 second moments are used, with no H³/H⁴ or new physical contraction.
 The largest physical Hilbert space has dimension 2^128.
 
-Reproduce from the repository root:
+Reproduce from the repository root with the following command.
 
     bash research_20261010/interval_joint_extension/REPRODUCE.sh
 

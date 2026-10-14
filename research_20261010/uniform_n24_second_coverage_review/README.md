@@ -1,9 +1,15 @@
-# Accepted isolated L24 result
+# Independent certificate at length 24
 
-Updated2026-10-11 02:35UTC /2026-10-10 22:35 America/New_York.
+Updated October 11, 2026, at 02:35 UTC / October 10, 2026, at 22:35 America/New_York.
 
-Unique ground state and gap≥.0023 are independently certified at L24, unit-bilinear periodic spin-one Heisenberg chain. The particular parity bound fails at L25. This package does not lower contiguous coverage below26 or change bootstrap initialization30.
+The unit-bilinear periodic spin-1 Heisenberg chain at L = 24 has an independently certified unique ground state and gap≥.0023.
+The particular parity bound fails at L = 25.
+This isolated result does not extend contiguous coverage below 26 or change the bootstrap initialization of 30.
 
-The511 floating cooling misses remain bounded diagnostics, not a no-go or minimum theorem. Fresh physical MPS48 is inherited from the separately sealed independent batch; no new contraction or thermal run occurs here.
+The 511 unsuccessful floating-point cooling tests are bounded diagnostics.
+They do not prove impossibility or a minimum seed size.
+The physical MPS48 input is inherited from a separately sealed independent batch.
+No new contraction or thermal calculation is performed here.
 
-See PROOF.md/results.json. Replay in a disposable copy: python audit.py.
+See `PROOF.md` and `results.json`.
+Run `python audit.py` in a disposable copy to replay the review.

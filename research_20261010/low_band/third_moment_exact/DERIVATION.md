@@ -1,6 +1,6 @@
-# Exact additional numerator contraction
+# Third moments and an enlarged bilayer numerator space
 
-2026-10-10 17:06 EDT / 21:06 UTC. Producer derivation and checks, independent review pending.
+2026-10-10 17:06 EDT / 21:06 UTC. This derivation constructs the additional geometry matrices needed for an exact third moment and a larger numerator search. Producer checks are complete, with independent review pending.
 
 ## Model, convention, and support
 
@@ -8,7 +8,7 @@ The model is the ordinary spin-1/2 square bilayer with periodic rung graph,
 including multiplicity-two edges when a direction has length two. Strong
 rung coupling is one. Write H′=H+3N/4=Q+tA, t=g/2. The input B comprises the
 vacuum and all singlet pair-orbit sums. Its pairing vectors have reduced
-inner product 3 per closed loop; the common factor 2^N in the older rational
+inner product 3 per closed loop. The common factor 2^N in the older rational
 dimer convention is removed. L=A42 B_pair, R=A44 L, and M=A64 L have q=4,4,6.
 
 The matching action of A in a fixed occupied sector has two contributions.
@@ -36,8 +36,8 @@ Existing F=L*L, S=L*R, V=R*R, W=M*M are retained exactly. Compute
     X=R* A44 R,    Y=R* A46 M=(A64 R)*M,    Z=M* A66 M.
     T=X+Y+Yᵀ+Z.
 
-X and Z must be symmetric; Y need not be. The exact new reusable data can
-be reduced to the one symmetric n×n matrix T (n=14 on 8×8); X/Y/Z are kept
+X and Z must be symmetric. Y need not be. The exact new reusable data can
+be reduced to the one symmetric n×n matrix T (n=14 on 8×8). X/Y/Z are kept
 separately for independent checks. No q≥8 sector participates in these
 expectations. In particular no vector A86 M is constructed or claimed zero.
 
@@ -45,11 +45,11 @@ For every translation-invariant entry density f on q-site subsets,
 
     Σ_all S f(S) = (N/q) Σ_S containing site 0 f(S).
 
-This follows by summing over all N translations: each q-site subset contains
+This follows by summing over all N translations. Each q-site subset contains
 the origin after exactly q translations, with multiplicity, even for subsets
 with stabilizers. The coefficient/matching metric contraction is invariant,
 not just the count of sites. Both generating translations preserve every
-graph multiplicity and every pair-orbit label in all five geometry inputs;
+graph multiplicity and every pair-orbit label in all five geometry inputs.
 verify_fixtures.py checks this. Full and fixed-origin contractions coincide
 entry by entry on 2×2, 4×2, 4×4. The final N/q rescaling checks divisibility.
 
@@ -99,7 +99,7 @@ and S_e=[0;S], the exact matrices are
          [tF_eᵀ,4F+tS,4S+t(V+W)],
          [tS_eᵀ,4S+t(V+W),4V+6W+tT]].
 
-Exact Gram LDL selects independent columns; ranks are 16,43,43 on
+Exact Gram LDL selects independent columns. The ranks are 16,43,43 on
 4×4,8×4,8×8. A floating generalized eigensolver only proposes coefficients.
 Those coefficients are rounded to integers at 56-bit scale, and their
 Rayleigh quotient is recomputed as an exact rational number. The saved
@@ -109,18 +109,17 @@ as all applicable block-Hankel products, and the new integer M5 is exported.
 The separate sector formula for the original trial's H′³ agrees exactly
 with the enlarged matrix construction.
 
-This enlarges a search space; exactly one trial state is retained in the
-largest-seed numerator. It supplies no residual of that state, no base M6,
+The enlarged search still retains exactly one trial state in the largest-seed numerator. It supplies no residual of that state, no base M6,
 and no change to denominator ground lower bounds or omitted-state counts.
 
 ## Integer safety
 
-Pair multiplicities are at most two. A coarse component bound for L is four;
-for R it is below 500, for M below 24, for A44R below 100,000, for A64R
+Pair multiplicities are at most two. A coarse component bound for L is four.
+For R it is below 500, for M below 24, for A44R below 100,000, for A64R
 below 50,000, and for A66M below 50,000. These bounds follow by counting at
 most 4q directed occupied hops and q(q−1)/2 occupied-edge actions, each
 having at most two signed outputs per matching. Thus the int32 coefficient
 temporaries are safe for the fixed input limits N≤64, d≤14, q≤6. Geometry
 matrix accumulation uses checked signed 128-bit addition. Subsequent trial
-arithmetic uses Python arbitrary-precision integers and Fraction; large
+arithmetic uses Python arbitrary-precision integers and Fraction. Large
 rounded trial coefficients are never accumulated in 128-bit C++ scalars.

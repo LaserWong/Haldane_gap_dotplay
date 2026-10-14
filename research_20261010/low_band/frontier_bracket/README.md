@@ -1,11 +1,8 @@
-# Polynomial-input frontier bracket
+# A polynomial-input candidate at g=.085
 
 Updated 2026-10-10 15:28 EDT / 19:28 UTC.
 
-**Exact candidate, pending independent physical and scalar replay:** the
-ordinary spin-1/2 periodic square bilayer at g=17/200=.085 has all-integer
-L≥2 gap at least **.027887084487** with the saved inputs and scalar proof.
-The new point is not yet promoted to an independently accepted result.
+The saved physical inputs and exact scalar argument give a candidate gap bound of .027887084487 for the ordinary spin-1/2 periodic square bilayer at g=17/200=.085, covering every integer L≥2. Independent physical and scalar replay remained pending at this checkpoint.
 
 The corresponding .09 bounded failure evidence is frozen separately in
 `../frontier_g009`. Since .085 succeeds, the requested fallback .0825 point was
@@ -27,8 +24,7 @@ pencil gives ground lower endpoints, and the q-resolved variational filter
 gives improved even-trial upper endpoints. The filtered state has no claimed
 new residual. All original odd-triplet and oscillator-tail bounds are retained.
 
-The three physical dimensions are 4^16,4^32,4^64; original ground trial
-dimensions are 11,29,29; retained low-band counts are 49,97,193. One implicit
+The three physical dimensions are 4^16, 4^32, and 4^64. The original ground-trial dimensions are 11, 29, and 29, and the retained low-band counts are 49, 97, and 193. One implicit
 filtered ground state in span{ψ,Hψ} is used at each seed. At 8×8, the omitted
 cutoff margin is .34061217521649695. Peak input-producer RSS was below 97 MiB.
 Scripts pin one CPU and cap virtual memory at 1 GiB.
@@ -41,7 +37,7 @@ proposal in this grid. The best selected coupled route initially gives
 .019519229940 at β=177/20.
 
 `g17d200/extra_cycles_exact.json` then compares the same initial β and physical
-inputs with complete txy cycles before canonical conversion:
+inputs with complete txy cycles before canonical conversion, as shown below.
 
 | Cycles before transport | Exact all-L≥2 gap lower |
 |---:|---:|
@@ -51,7 +47,7 @@ inputs with complete txy cycles before canonical conversion:
 | 7 | .027276152074 |
 | 8 | .027887084487 |
 
-After eight cycles, canonical spatial base is 2048 and inverse temperature is
+After eight cycles, the canonical spatial base is 2048 and inverse temperature is
 4531.2. Every earlier window from spatial base 8 through 1024 is independently
 bridged using the reviewed joint-aware interpolation lemma. The L=2,…,7
 uniform comparison is also retained. The current-window diagnostic at 2048
@@ -66,7 +62,7 @@ its implementation are independently reviewed in `joint_ratio_review`.
 
 ## Reproduction
 
-From the repository root:
+From the repository root, run
 
 ```sh
 ulimit -v 1048576
@@ -78,4 +74,4 @@ python research_20261010/low_band/frontier_bracket/replay_extra_cycles.py
 
 These commands overwrite their own producer outputs. Do not rerun in place
 after the freeze. The separate `../third_moment_plan/ASSESSMENT.md` is a cost
-assessment only; no new third-moment contraction was launched.
+assessment only. No new third-moment contraction was launched.

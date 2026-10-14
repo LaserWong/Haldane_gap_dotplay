@@ -1,5 +1,7 @@
-# Conditional n36 initialization replay
+# Conditional n36 initialization
 
-Exact producer candidate: gap>=.0046 and unique ground state for every integerL>=36, CONDITIONED on all18 published beta49/4 thermal intervals. No full local physical acceptance claimed. All six original rounded updates reproduced, then stronger high-precision continuation and every signed integer bridge checked. Initialization36/beta49/4 uses accepted72-site D26 anchor. Asymptotic closure36864/beta12544. Cost~.076CPU seconds/10MiB.
+The exact producer candidate gives gap≥.0046 and a unique ground state for every integer L≥36, conditional on all 18 published thermal intervals at beta=49/4. Full local physical acceptance of those inputs is not claimed here.
 
-See PROOF.md, certificate.json, certify.py, and source-pinned official TeX snapshots. Independent review required. The thermal pilot is separate; it is not a replacement for the18 missing full thermal inputs.
+The replay reproduces all six original rounded updates, then checks a stronger high-precision continuation and every signed integer bridge. Initialization at 36 and beta=49/4 uses the accepted 72-site D26 anchor. Asymptotic closure occurs at 36864 and beta=12544. The calculation used approximately .076 CPU seconds and 10 MiB.
+
+`PROOF.md`, `certificate.json`, `certify.py`, and the source-pinned official TeX snapshots contain the argument and inputs. Independent review is required. The separate thermal pilot does not replace the 18 missing complete thermal inputs.

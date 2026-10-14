@@ -2,19 +2,19 @@
 
 Updated 2026-10-10 13:32 America/New_York / 17:32 UTC.
 
-## Current status
+## Results at this checkpoint
 
-The new exact-arithmetic method passes the ordinary spin-1/2 bilayer g=3/100 test on the 2×2, 4×2 and 4×4 periodic seed patches. These are new research certificates, distinct from the unchanged paused baseline. Independent review is in progress. No GitHub push has been made by this worker.
+The new exact-arithmetic method passes the ordinary spin-1/2 bilayer g=3/100 test on the 2×2, 4×2 and 4×4 periodic seed patches. These are new research certificates, distinct from the unchanged paused baseline. Independent review was in progress at this checkpoint. No GitHub push has been made by this worker.
 
 The complete ground-plus-first-band ranks are 13, 25 and 49, respectively. The largest full Hilbert space has dimension 4,294,967,296. Its retained variational supports are 361 even M=0 configurations, 3,936 odd M=0 configurations, and 3,376 odd M=+1 configurations. Spin reversal supplies the M=−1 block. These support sizes are neither full Hilbert dimensions nor MPS bond dimensions. The largest reached support has 168,368 configurations and the observed peak RSS was 208.4 MiB. All calculation processes used one BLAS thread, with a 2 GiB address-space cap on the larger runs.
 
 The original affine dimer tail still fails at this coupling even after certifying the complete low band. The new triplet-number Jacobi comparison raises the full-space lower bound for the 50th shifted eigenvalue of the 4×4 patch from 1.3300393706848 to 1.844298248746. This sharper entire-spectrum tail, together with the complete band and correlated trace cancellation, passes the exact three-purity bootstrap.
 
-The best completed basic-ground certificate uses initial β=911/100 and gives gap at least 0.004333053946 for integer square L≥256 under the already audited transfer/interpolation theorem. Its exact inputs and replay are the first entry in `refined_correlated_number_g003.json`.
+The best completed basic-ground certificate uses initial β=911/100 and gives a gap of at least 0.004333053946 for integer square L≥256 under the already audited transfer/interpolation theorem. Its exact inputs and replay are the first entry in `refined_correlated_number_g003.json`.
 
 The parent has also constructed a sharper finite-window interpolation bridge covering the missing sizes. See `../root_review/finite_window_2d.py` and `../root_review/finite_window_refined_correlated_number_g003.json`. Combined with that independently checked bridge, the same gap is a candidate for all integer square L≥2. This extension remains conditional on completion of the independent review of the new low-band/tail calculations and the bridge. Do not silently upgrade its status from this summary alone.
 
-Symmetry-compressed block-Krylov ground trials have now been integrated from `../symmetry/`. Their exact scalar moment contractions are in `integrate_symmetric_ground.py`, and the resulting stronger seed computation is running separately. The previous accepted certificates remain unchanged.
+At this checkpoint, symmetry-compressed block-Krylov ground trials had been integrated from `../symmetry/`. Their exact scalar moment contractions are in `integrate_symmetric_ground.py`, and the stronger seed computation was running separately. This is the historical run status, not a statement about a current process. The previous accepted certificates remain unchanged.
 
 ## Proof and audit boundaries
 
@@ -54,7 +54,7 @@ From the repository root, use single-thread BLAS and suppress bytecode creation 
 
 The first command reuses saved Gram files unless `--no-reuse` is given. Floating eigensolvers propose vectors and endpoints. Every accepted endpoint is checked with exact arithmetic. No full finite-system diagonalization enters the certificates.
 
-## Remaining work
+## Work remaining at the checkpoint
 
 - Finish independent review of the new number-sector tail, 4×4 moment maps and complete trace/replay chain.
 - Finish and independently review the deeper-ground candidate.

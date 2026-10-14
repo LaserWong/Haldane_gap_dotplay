@@ -4,7 +4,7 @@ Updated: 2026-10-10 13:27 EDT / 17:27 UTC.
 
 The model throughout is the periodic square spin-1/2 bilayer with rung exchange 1, straight exchanges J+epsilon, crossed exchanges J, and J=3/10. Directions of length 2 keep both periodic adjacency terms. This report supplements, and does not modify, the independently audited fixed epsilon=1/200 result in `BASELINE_PROOF.md`.
 
-## 1. A whole interval from one product trial
+## 1. A uniform interval certificate from one product trial
 
 A new exact-arithmetic construction certifies
 
@@ -36,7 +36,7 @@ epsilon_max v_ij + a(P_i+P_j)+bI,
 
 by exact positive rational LDL pivots, where v_ij is the sum of two straight exchanges. The matrix at every epsilon in [0,epsilon_max] is their convex combination and is therefore positive. The same occupancy reference D_a-B from the fixed-parameter audit is consequently a valid lower operator for the whole interval.
 
-The reference has one vacuum eigenvalue zero before subtracting B; its next value gives a uniform positive second-level shift d. All bin counts still sum to the full dimension. The perturbation need not conserve occupations for min-max to apply.
+The reference has one vacuum eigenvalue zero before subtracting B. Its next value gives a uniform positive second-level shift d. All bin counts still sum to the full dimension. The perturbation need not conserve occupations for min-max to apply.
 
 ### Exact full residual of the singlet product
 
@@ -60,7 +60,7 @@ These uniform endpoints and the uniform complete occupancy-bin reference bound e
 
 The short-size bridge in the fixed epsilon=.005 theorem already suffices for that theorem. Larger bootstrap entry sizes benefit from the following additional finite-volume comparison.
 
-For every square L>=4, the nearest-neighbour graph is simple, degree 4 and triangle-free. In an occupied set of size q, let E be the number of active edges. Degree counting gives E<=2q. Triangle-freeness gives E<=floor(q^2/4): for each edge ij, the active degrees obey d_i+d_j<=q; sum over edges and apply Cauchy-Schwarz to obtain 4E^2/q<=sum_i d_i^2<=qE. This also handles E=0 directly.
+For every square L>=4, the nearest-neighbour graph is simple, degree 4 and triangle-free. In an occupied set of size q, let E be the number of active edges. Degree counting gives E<=2q. Triangle-freeness gives E<=floor(q^2/4): for each edge ij, the active degrees obey d_i+d_j<=q. Sum over edges and apply Cauchy-Schwarz to obtain 4E^2/q<=sum_i d_i^2<=qE. This also handles E=0 directly.
 
 The weighted-star bound from the baseline proof, with all active weights equal to 1, therefore gives
 
@@ -93,8 +93,8 @@ The existing q<=2, total-Sz=0 trial spaces have dimensions 23, 93 and 377 for th
 | 0.005 | 0.038983227177 | Every L>=2 | 32 | 8 |
 | 0.006 | 0.028171615330 | Every L>=2 | 28 | 16 |
 | 0.0075 | 0.012626894873 | Every L>=2 | 31.5 | 16 |
-| 0.008 | 0.008498663753 | Every L>=32; smaller-size bridge open | 32 | 32 |
-| 0.0085 | 0.001984903734 | Every L>=128; smaller-size bridge open | 32.5 | 128 |
+| 0.008 | 0.008498663753 | Every L>=32. Smaller-size bridge open | 32 | 32 |
+| 0.0085 | 0.001984903734 | Every L>=128. Smaller-size bridge open | 32.5 | 128 |
 
 At epsilon=.0075, a slightly stronger bootstrap bound 0.013466260266 holds for L>=32, but its all-smaller-size bridge has not been closed. The all-L value displayed above uses the n=16 certificate instead.
 
@@ -126,4 +126,4 @@ From the repository root:
     PYTHONDONTWRITEBYTECODE=1 python research_20261010/nonperturbative_audit/trianglefree_bridge.py
     PYTHONDONTWRITEBYTECODE=1 python research_20261010/nonperturbative_audit/certify_vacuum_interval.py
 
-The first two commands produce proposals and then audit them; the last command uses an analytic product-state residual and no Ritz solve. Exact matrix and spectral assertions, not floating proposal values, determine certification. All saved files are new files in this audit directory; the original checkpoint was not edited. BLAS is limited to one thread per process; no more than two CPU processes were run concurrently and observed memory remained far below 2 GiB.
+The first two commands produce proposals and then audit them. The last command uses an analytic product-state residual and no Ritz solve. Exact matrix and spectral assertions, not floating proposal values, determine certification. All saved files are new files in this audit directory. The original checkpoint was not edited. BLAS is limited to one thread per process. No more than two CPU processes were run concurrently and observed memory remained far below 2 GiB.

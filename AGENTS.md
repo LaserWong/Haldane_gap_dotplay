@@ -1,39 +1,56 @@
-# Haldane 项目续接规则
+# Haldane project instructions
 
-本文件用于在新会话、重启或重新打开仓库后恢复项目上下文。它不创建自动运行计划，也不保证执行环境会自动加载本文件。
+These instructions apply when opening the repository, starting a new session, or returning after a restart.
+They do not schedule work or guarantee that an execution environment will load this file automatically.
 
-## 进入项目时
+## Starting or resuming work
 
-1. 先读本文件，再读 README 顶部的更新时间、当前状态、任务进度和“下一步任务记录”。
-2. 检查当前分支、提交和已有修改。保留尚未提交的工作，不根据旧会话印象覆盖现状。
-3. 按 README 指向的具体 Release 或检查点恢复材料。核对 ZIP 的 SHA-256 与包内 manifest，阅读对应目录的 PAUSE / PAUSED 记录。文件缺失、版本冲突或校验失败时明确记录，不静默替换。
-4. 以用户最新指示为准。若项目状态是暂停，只处理用户明确请求的查阅、整理或发布，不自行恢复研究和计算。重启、打开仓库或完成连接本身都不解除暂停。
-5. 若记录显示任务正在进行，且仍在用户已授权的目标、期限和操作范围内，从最高优先级未完成步骤续接，避免重复已通过核验的计算。授权或状态有歧义时先澄清。
+1. Read this file, then read the update time, current status, progress, and next tasks at the top of `README.md`.
+2. Check the branch, commit, and existing changes. Preserve uncommitted work and use the current files rather than recollections of an earlier session.
+3. Restore the specific release or checkpoint identified in the README. Check the ZIP SHA-256 and the archive manifest, then read the relevant `PAUSE` or `PAUSED` records. Report missing files, conflicting versions, and failed checksums without silently substituting other material.
+4. Follow the user's latest instructions. While research is paused, perform only the reading, organization, or publication that the user explicitly requests. A restart, an opened repository, or a restored connection does not lift a pause.
+5. If work is active and remains within the authorized goal, deadline, and actions, continue with the highest-priority unfinished task. Avoid repeating verified calculations. Clarify any uncertainty about authorization or status before proceeding.
 
-## 科研与核验
+## Research and verification
 
-- 严格区分解析证明、精确算术证书、独立复核、浮点基准和待验证候选。
-- 保留每个结论对应的 Hamiltonian、参数、边界条件、尺寸范围和归一化。普通双层与完全受挫双层的结果分别记录。
-- 分别报告完整 Hilbert 空间维数、线性试探空间维数与 MPS 键维数。
-- 小试探态残差不能单独替代完整谱尾或遗漏低能态的认证。
-- 先检查已有运行、日志和检查点，再重启耗时计算。启动长计算前确认环境、资源预算与恢复方式。
+- Distinguish analytic proofs, exact-arithmetic certificates, independent checks, floating-point benchmarks, and unverified candidates.
+- Preserve the Hamiltonian, parameters, boundary conditions, size range, and normalization for every result. Report the ordinary bilayer and the fully frustrated bilayer separately.
+- Distinguish the full Hilbert-space dimension, the linear trial-space dimension, and the MPS bond dimension.
+- A small trial-state residual does not by itself certify the full spectral tail or exclude omitted low-energy states.
+- Check existing runs, logs, and checkpoints before repeating a costly calculation. Establish the environment, resource budget, and recovery method before starting a long run.
 
-## 留下可恢复状态
+## Recording results and unfinished work
 
-在实质性进展、阻塞、完成或暂停时：
+After substantial progress, a blocker, completion, or a pause, update the time, current task, and progress at the top of `README.md`.
+Give both UTC and America/New_York local time, with the correct daylight-saving offset.
+Record the relevant code commit, data or release, file hashes, completed checks, unresolved questions, and next executable step.
+Save the code, data, dependencies, reproduction commands, and checkpoints needed to recover the work.
+Identify commands that take substantial time or change remote state.
+Do not include passwords, tokens, other credentials, or unrelated private information.
 
-- 更新 README 最上方的时间、当前任务和完成进度。时间同时注明 America/New_York 当地时间与 UTC，正确处理夏令时。
-- 记录相关代码提交、数据或 Release、文件哈希、已完成核验、未解决问题和下一条可执行步骤。
-- 保存必要的代码、数据、依赖、复算命令与检查点。明确哪些命令耗时较长或会改变远端状态。
-- 不写入密码、令牌、其他凭据或与项目无关的私人信息。
+Repository changes, release publication, and other external actions must remain within the user's authorization.
+These instructions grant no additional permissions and do not replace required confirmation.
 
-仓库写入、Release 发布和其他外部操作遵守用户授权范围。本文件不扩大权限，不替代需要的确认。
+## Resumption on October 14, 2026
 
+The user explicitly resumed this project on 2026-10-14 at 17:36:22 UTC, or 13:36:22 EDT in New York.
+Earlier pause and deadline records remain historical records.
+This resumption and any later user instructions determine the current scope.
 
-## 2026-10-14 恢复工作与报告要求
+The README must report the scientific results, parameter and size ranges, evidence, unfinished questions, and next tasks.
+Recovery instructions alone are insufficient.
+Use only repository-relative links or plain-text commit hashes in the README.
+Do not add external links or present missing paths as working evidence links.
+Preserve raw code, data, and numerical certificates. Documentation may be rewritten in place under the user’s instructions.
 
-- 用户于 2026-10-14 17:36:22 UTC（纽约 13:36:22 EDT）明确要求恢复本项目工作。此前暂停及截止记录保留为历史记录，以本次新指示和后续用户指示为准。
-- README 必须直接汇报已有科学结果、参数范围、尺寸范围、证据状态、未完成项和下一步，不能只保留文件恢复说明。
-- README 禁止外部链接，仅使用仓库内部相对路径或纯文本提交哈希。已有归档原件保持不变，缺失路径不包装为有效证据链接。
-- 历史独立验收、当前可复现证据和本次新鲜复算分别标明。不得将恢复文件或重放旧证书说成新的 gap 定理。
-- 本次恢复不自动重启此前禁用的定时任务。
+Distinguish historical independent checks, evidence that can currently be reproduced, and calculations newly rerun during the current work.
+Recovering files or replaying an existing certificate does not establish a new gap theorem.
+The resumption does not automatically restart previously disabled scheduled tasks.
+
+## Writing
+
+Follow `WRITING.md` for new or revised project documentation.
+
+## Documentation
+
+Maintain project documentation in English under `WRITING.md`. Update existing documents in place rather than adding duplicate reading editions. Keep raw code, data, and numerical certificates unchanged. Historical documentation hashes record historical versions and do not prohibit authorized prose edits. The root README uses repository-relative links only.

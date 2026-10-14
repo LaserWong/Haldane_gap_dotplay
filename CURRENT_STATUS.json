@@ -1,9 +1,9 @@
 {
   "status": "ACTIVE_AUDIT_AND_RECOVERY",
-  "updated_at_utc": "2026-10-14T17:46:50.348761+00:00",
-  "updated_at_local": "2026-10-11T23:31:18.396258-04:00",
+  "updated_at_utc": "2026-10-14T19:16:00Z",
+  "updated_at_local": "2026-10-14T15:16:00-04:00",
   "user_pause_utc": "2026-10-12T02:38:54Z",
-  "publication_scope": "Latest currently recoverable project files and confirmed uploaded objects only",
+  "publication_scope": "Only the latest recoverable project files and confirmed uploaded objects",
   "complete_original_Stage38_publication": false,
   "baseline_scientific_commit": "d17eadfb655c35eb325245d8660737b761db6b28",
   "confirmed_reachable_recovery_objects": 700,
@@ -11,7 +11,7 @@
   "exact_relevant_subset_mapping_available": false,
   "original_unuploaded_ordinary_text_content_count": 6617,
   "original_unavailable_inline_batches": 532,
-  "remaining_missing_exact_count": "Not established after partial recovery; original count6617 is not a current exact missing-file count.",
+  "remaining_missing_exact_count": "The exact number still missing after partial recovery has not been established. The original count of 6617 is not the current missing-file count.",
   "workspace_capture_unavailable": true,
   "latest_paused_root_triplet_recovered_exactly": true,
   "pause_record_reconstructed_exactly": true,
@@ -33,8 +33,8 @@
   "original_frozen_delta_inventory_sha256": "87133c39de8f30526cea4d50138599c1db2d21e36a97640125241b48debe6a07",
   "original_frozen_root_receipt_sha256": "b7f52d87aebc5fd37635e3168ef9c2ad7d6dc671b9734e39c40cd50b2722ce49",
   "resumed_at_utc": "2026-10-14T17:36:22Z",
-  "resume_basis": "Explicit user instruction to resume Haldane work and report all existing results in README",
-  "current_task": "Restore comprehensive scientific progress in README, audit evidence and resume bounded verified work",
+  "resume_basis": "The user explicitly requested that Haldane work resume and that the README report all existing results.",
+  "current_task": "English documentation revision complete. Recover missing late-stage proof inputs before further bootstrap calculations.",
   "readme_external_links_allowed": false,
   "current_audit": "research_20261014/readme_audit/",
   "fresh_replay": {
@@ -47,12 +47,12 @@
     "full_stage38_reproducibility_verified": false
   },
   "next_tasks": [
-    "Map recovered late-stage objects to missing reproducibility paths",
-    "Reproduce late-stage certificates when input completeness is established",
-    "Check fixed-preparation H3/Ritz input completeness before any g=.12 bootstrap attempt"
+    "Match recovered late-stage objects to the paths needed for reproducibility.",
+    "Reproduce late-stage certificates once all required inputs are available.",
+    "Check that the fixed-preparation H3/Ritz inputs are complete before attempting a bootstrap at g = .12."
   ],
-  "previous_resume_requires": "Explicit new user instruction",
-  "updated_at_new_york": "2026-10-14T13:46:50.348761-04:00",
+  "previous_resume_requires": "An explicit new instruction from the user",
+  "updated_at_new_york": "2026-10-14T14:20:18.340585-04:00",
   "progress_report_restored": true,
   "bounded_recovery_audit": {
     "known_path_records": 92,
@@ -61,5 +61,14 @@
     "exact_source_json_identities_verified": 6,
     "stage32_33_complete_proof_restored": false,
     "key_result_standalone_candidates_found": false
-  }
+  },
+  "previous_updated_at_local": "2026-10-11T23:31:18.396258-04:00",
+  "documentation_language": "English",
+  "documentation_original_records_preserved": false,
+  "documentation_guide_version": "4.0",
+  "documentation_guide_sha256": "e3aa17cc7a477e079354a727645ef8a6563b8f2a416232387f15574ef2d6acaa",
+  "documentation_index": "docs/INDEX.md",
+  "documentation_source_identities": "docs/DOCUMENTATION_SOURCES.json",
+  "documentation_update_policy": "English documentation replaces the existing prose in place. Raw code, data, and numerical certificates are unchanged.",
+  "documentation_documents_updated_in_place": 339
 }

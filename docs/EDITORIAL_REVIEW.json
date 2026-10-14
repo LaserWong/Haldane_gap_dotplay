@@ -1,0 +1,1280 @@
+{
+  "date_utc": "2026-10-14T18:22:29.071707+00:00",
+  "guide_version": "4.0",
+  "guide_sha256": "e3aa17cc7a477e079354a727645ef8a6563b8f2a416232387f15574ef2d6acaa",
+  "base_commit": "ac6fe2802d8dccd3e8b2cf3bfab1d77c843784c6",
+  "reading_editions": 339,
+  "research_documents_crossreviewed": 313,
+  "scope": "Language, scientific scope, historical status, numerical values, equations, code, source identity, and repository links.",
+  "numerical_computations_changed": false,
+  "original_scientific_records_changed": false,
+  "documented_source_correction": {
+    "source_path": "research_20261010/bilayer_whole_m4_implementation_proposal/PLAN.md",
+    "correction": "An 8 by 4 rung lattice has 32 rung edges and 64 rung-plane neighbor edges. The sealed source retains its original 64-rung-edge wording. The reader edition identifies and corrects that counting typo."
+  },
+  "math_rendering": "Legacy delimiters are normalized for GitHub Markdown only in reader editions. Mathematical bodies and protected code are unchanged.",
+  "reviewed_files": [
+    {
+      "source_relative_path": "research_20261010/BOOTSTRAP_1D_TO_2D.md",
+      "reviewed_english_sha256": "846871803c1e0d67a4da4e99ad24bcef6fe80ab1f22cdda96a8f41cdc284281c"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_16d_4x4_residual_g0105_review/README.md",
+      "reviewed_english_sha256": "38fe0515d16cd6434a97c1201ff577bb71c2d4a42d0865f74cdaca5053a0cf44"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_brauer_rule_compiler/README.md",
+      "reviewed_english_sha256": "5e5942ace59acde14407d35bca14817e26a073775cd727350aec235673ff81f4"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_complete_residual_8x4/README.md",
+      "reviewed_english_sha256": "f0a26e5416c660f907eca46dd1d697ffb53550b8b596aeb73310852dd8f4f6cf"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_control_memory_revision/README.md",
+      "reviewed_english_sha256": "389f37c2155cb7f170c0647ea4b6358ca274daca1b1769198ba8d865c02bcc88"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_direct_window_review/README.md",
+      "reviewed_english_sha256": "af5a19a8516d6d6a424d573418404527719ba2972960f95de71203efe57271fe"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_frontier_review/README.md",
+      "reviewed_english_sha256": "fd3fd6a8a23b0a6ad4c5c84a3af1744dc88f3ed2220bc9caa6452a6eceb6fe8d"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_g010_diagnostics/README.md",
+      "reviewed_english_sha256": "30f6201be7b95a1a639e1a3f7bab6f6a553330ee360ff95dc500fc4d4ec5e24e"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_incremental_control_receipt_fix/README.md",
+      "reviewed_english_sha256": "f2df8dfb456e0d97354a37b7dac0adc5869955c19f02ef9c8cd3aebe141472e6"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_interval_0102_0105_review/README.md",
+      "reviewed_english_sha256": "57d8b14dd8cf62b9b6ccc74c6a2b8d02ee31344cf1ab564032f165cdc4793312"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_krylov_local_fixture/README.md",
+      "reviewed_english_sha256": "5fdfc472a0b7102f7a004ab555186bddfcee4d64a1c25f1c6be862968d001035"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_krylov_m4_fixture_review/README.md",
+      "reviewed_english_sha256": "624b8dffa33f597ce3f99f5e50053b417245f3c1ea3d8e0d5ad8f4b4aafc5eaf"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_lazy_chunk_hardening/README.md",
+      "reviewed_english_sha256": "e48ec2f2426ba168a38e232c32a85844f8340715d207fd9b335fc22445cce504"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_next_residual_direction_review/README.md",
+      "reviewed_english_sha256": "278834cafe7150c216a31ea51d705178ba1746bff686bd4e48735bac4767f746"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_optimized_residual_g0105_review/README.md",
+      "reviewed_english_sha256": "960a075dc3d15d74d0c287985ae47a622aa37088bb318ed3ec26d779f80533e6"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_physical_dispatch_integration/PLAN.md",
+      "reviewed_english_sha256": "45415c275e1fc36aa64b15bf4a0ec8949679e8eff9a7b3ceab844eedadf92bb8"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_physical_dispatch_integration_retry/PLAN.md",
+      "reviewed_english_sha256": "720e91ba8396c51a187a0d7d50db36fb45992cf1758c2a1815a33f9631c21574"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_58d_algebra/README.md",
+      "reviewed_english_sha256": "35aa7fccc438abf38999d9730a7978261be1ea6dfe704caa2f8e19d845e2b201"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_outer_gate/README.md",
+      "reviewed_english_sha256": "7e48125402df285c104a27b0b2ac72b1bb78746d92d04299080a1936dbc961d7"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_pencil_review/README.md",
+      "reviewed_english_sha256": "e15bf8b2f92cc595a3c4c71c77261e5f62b08c0616d3863ddbe3e7bd9540810e"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_seed_error_budget_review/README.md",
+      "reviewed_english_sha256": "d3c71d147731afae4cd2f32fc42acf3a0fa60f6a3ba53a1df6599bcdbd830794"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_split_pencil_optimization_review/README.md",
+      "reviewed_english_sha256": "26b0abd2d78b6f612467d3f32ba41bf4c54a397e5c987953e08619f01f3473e8"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_stable_observer_review/README.md",
+      "reviewed_english_sha256": "f1f47e6115155e924061eb3c69c1f6b252115ab58a574c6395b7b96d7fd42580"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_frontier_010675_0108_review/README.md",
+      "reviewed_english_sha256": "bfe3c4dbbbd176d34889cbe5f00be7f78ed10037ba4b2779c0ed9e8c88dfc98c"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_frontier_010825_review/README.md",
+      "reviewed_english_sha256": "5e349988e103c07e97c14a3e5c0f2da1cbd674da36360faa59819e1a3b4e3868"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_interval_01065/DERIVATION.md",
+      "reviewed_english_sha256": "31357ba04ee18a33f1bfa016288d80206fbeabb5d4d07535e9a471d2ed13e351"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_interval_010825_review/README.md",
+      "reviewed_english_sha256": "2ba2aa41f1f6a3040e9ded79bc5f9e24ef06b2bdac07689287174d38f8a2e202"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_interval_0108_review/README.md",
+      "reviewed_english_sha256": "98f3b4ddc58706f7b4522e221d0788f7cea756103e08a2d77e761f9aa8e05689"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_scalar_pilot/DERIVATION.md",
+      "reviewed_english_sha256": "ce1ef3103d7d052303d4b1b4a7db0d409b526cf16c1f4002f6e3ac7529293da5"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_variable_g_control_review/source_memory_revision/README.md",
+      "reviewed_english_sha256": "389f37c2155cb7f170c0647ea4b6358ca274daca1b1769198ba8d865c02bcc88"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_whole_m4_implementation_proposal/PLAN.md",
+      "reviewed_english_sha256": "23071485366211b662247d24e1f42c547c6e7b9d570de88aaab8dbcaa817b9a3"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_frontier_rank195_review/README.md",
+      "reviewed_english_sha256": "9f6958f7c2b7405ee89004429b0d3be6713eb930b0840cf536416592b03f1aa5"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_numerator_krylov_025/README.md",
+      "reviewed_english_sha256": "510e5522aab0d2e7b78485903911f724effa6f7a8609164187645e7b36b4bf6f"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_numerator_pair_block_review/SYMMETRY_SCOPE_ERRATUM.md",
+      "reviewed_english_sha256": "2cf4a4591767c9d7e1356708ec94242667ad751056cde2796ca6a85df23653d5"
+    },
+    {
+      "source_relative_path": "research_20261010/combined_ground_review/README.md",
+      "reviewed_english_sha256": "2703061b137ee3f0f9c31dc77b55e6727d845b43f1e92975a0417bb67e87d65d"
+    },
+    {
+      "source_relative_path": "research_20261010/hardcore_pair_commutator/COST_PLAN.md",
+      "reviewed_english_sha256": "9a9c5f66ca845ce9a610ed33661d281d6a8d8f116c599f944ef8c77a99abfc28"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_range_0085_review/README.md",
+      "reviewed_english_sha256": "07b074bc0a0bdcc57cdbee78692dfb6d2f8d321ad8262eb37091fb83ead4a306"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_range_009_review/README.md",
+      "reviewed_english_sha256": "c4aa1d0f30f03dba9fa46a7b77340b139c8297dd3df87163b26c37087151808a"
+    },
+    {
+      "source_relative_path": "research_20261010/joint_small_seed_tests/README.md",
+      "reviewed_english_sha256": "7c1f8d1066af45e038635751086662482761e34b9e3b3227aca2326e1212b04c"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/STABLE_CHECKPOINT_1736.md",
+      "reviewed_english_sha256": "866ebcb4da5b7f1b293cd731288a06d8b15d6a046d31991f7e1d318f80965b68"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/bosonic_tail/BOSONIC_COMPARISON.md",
+      "reviewed_english_sha256": "679d76bc95d26111d027f5451a4dd2846ad4b6a42941cc52fff877217f33a74c"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/frontier_bracket/README.md",
+      "reviewed_english_sha256": "24d06602117e97401a20156e7250baa71c2cc41e903a9780bd2367da4f121d6f"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/frontier_g009/README.md",
+      "reviewed_english_sha256": "b9c6819835e5f2f5019bc1080703c84d55dc99caab8f198f1f37b89ec5feafc9"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/quadratic_boson/QUADRATIC_COMPARISON.md",
+      "reviewed_english_sha256": "01921c3d063baf872bc9f0c5ead1110535c9909158b16f06f51ad2f6207a9fb4"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/third_moment_exact/DERIVATION.md",
+      "reviewed_english_sha256": "9887ea9b2605e0055d0a16295c23983fe7e0f48dc20d690459823ff7e63a6c7e"
+    },
+    {
+      "source_relative_path": "research_20261010/mps_commutator_review/REPRODUCE.md",
+      "reviewed_english_sha256": "1074722623dac4148e4ec08e78528e2b0981764aaf2bcfaef9b017007c6e4f88"
+    },
+    {
+      "source_relative_path": "research_20261010/mps_direct_window_screen/README.md",
+      "reviewed_english_sha256": "95e9f1c055198b38d0f675052429aeb542c5f8dc478e60821d0f6976c2268367"
+    },
+    {
+      "source_relative_path": "research_20261010/mps_seed_even_completion/README.md",
+      "reviewed_english_sha256": "8cd67bec80be6566901559fdf7463f27b015294de90deb1bb3dab64eb4b093ee"
+    },
+    {
+      "source_relative_path": "research_20261010/nonperturbative_mps_assessment/README.md",
+      "reviewed_english_sha256": "842117007aa01cb8f3c31d190f6976d81cbaa43a6c71b573ab2b17740e7cee31"
+    },
+    {
+      "source_relative_path": "research_20261010/ordinary_interval/README.md",
+      "reviewed_english_sha256": "1bf044732323c8a884ff55217ba425c1c4a57fdb3b8fb087b10431bd3f8f6dec"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage11/README.md",
+      "reviewed_english_sha256": "b35c405e0456c01160f71889c1c80644427d1cb773ca58a2ab83356ace43893e"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage21/README.md",
+      "reviewed_english_sha256": "69b50b7f9ba75ec4b38161ace21a3cfb7b6c6cd449cbe316b344144c93bcfdb5"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage8/README.md",
+      "reviewed_english_sha256": "50948963cf768f3e342dca4756cbcf8ef58c0803f3c0a2ed89a8835979359049"
+    },
+    {
+      "source_relative_path": "research_20261010/quadratic_boson_review/README.md",
+      "reviewed_english_sha256": "b3697e8a257da19b7787ec18c64ae34a32ff903708c716cac3a56277324114f1"
+    },
+    {
+      "source_relative_path": "research_20261010/reduced_input_review/README.md",
+      "reviewed_english_sha256": "55419a0bd31045208d4f9ac477bdd33f22511425be92e1d507c48cc2f7d1faee"
+    },
+    {
+      "source_relative_path": "research_20261010/root_review/FINITE_WINDOW_INTERPOLATION.md",
+      "reviewed_english_sha256": "9678986086fb91b53a9dc806b5a7a348216bc0b4f5910b18c4cdbcec2b62907d"
+    },
+    {
+      "source_relative_path": "research_20261010/small_seed_order_exclusions/independent_review/README.md",
+      "reviewed_english_sha256": "388dec1e34d58b524acd354d64f4211dfe889c498f689500ad9f3222336409b8"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_heat/OPTIMIZATION_PLAN.md",
+      "reviewed_english_sha256": "0f1b2b30f98b39def18d41fe6ecdbf6b12e570d81ead2abf855ef7b7d5abf4f3"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_heat/README.md",
+      "reviewed_english_sha256": "03018af4c331f8db0a24298fcffdaba278391e0318b46da82c6fa5e3379eb1ff"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_scalar_improvement/POSITIVITY_DOMINANCE.md",
+      "reviewed_english_sha256": "f305771872cfa366a33712c8bfb0e0e1e8b2f300e0d615b046a81bc356c2d915"
+    },
+    {
+      "source_relative_path": "research_20261010/symmetry/README.md",
+      "reviewed_english_sha256": "505af7a5f7b7728958aa3e5638d758d3b95f29c575d3bc9465f2899403161848"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_b2_fixture/README.md",
+      "reviewed_english_sha256": "d0cc13f5f0e3b664d18809d0c731d71a981147d4119b299e2d8a65e835caccb0"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_h2_32_companion/README.md",
+      "reviewed_english_sha256": "a7dd665b02e9e9e1bbf03647137581e483a706a364c997eae8ae5052b4711c7a"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_h2_design/README.md",
+      "reviewed_english_sha256": "3093a2556a417842b72e6628d566d85fc34dbcc58c4feaf8ea71ffb6e490a456"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_positive_transfer/NEXT_SCALAR_DESIGN.md",
+      "reviewed_english_sha256": "f36428ffc4e1cf60713e28066493181cb81f77c71b8913c285e855395e3233cc"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_robustness_review/README.md",
+      "reviewed_english_sha256": "2e0edcf8b3373cf132c13d06081c9205ebd0800df17c2f94f02b111c52f47cb7"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_second_moment_design/README.md",
+      "reviewed_english_sha256": "c82531268127d96d72984b857172ea2640e0f8dabafe41e67529d1032b6bcbcc"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_second_moment_finite_bridge_retry1/README.md",
+      "reviewed_english_sha256": "2a76403c2d86014a746a0acb42b54560331c9f47617238c2c83795d3b8135c7d"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_second_moment_finite_bridge_review/README.md",
+      "reviewed_english_sha256": "ff30b5a919817694b8645b2cda5a74334381a90e9d0c23a2d965d8615689eb66"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_second_moment_robustness/README.md",
+      "reviewed_english_sha256": "babf5fe1e91fbc2fbf07fa0940e046183a7fcc46a3ca645fd68e61a49c23bff2"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_second_moment_robustness_review/README.md",
+      "reviewed_english_sha256": "7f4e0b5d4d5f3f9b599a7d99c6c86a0f4c7168eb2d0777ec3d80c6ceb8887005"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_variance_refined_robustness/README.md",
+      "reviewed_english_sha256": "6073f2a14fb3b1d9f5c1e56de9a1a1f7dbb1f4b027da30db15c7a4477d000bbb"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_cooled_seed_optimization/README.md",
+      "reviewed_english_sha256": "58d36b0c8dd5645482b8bb0c02c8eaf759fe2b3f6ac65946e554058abe960fe5"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_direct25_coverage/RESOURCE_PROJECTION.md",
+      "reviewed_english_sha256": "bedb053ac93019a46268f31c9022b13ec1a95ae5fd9dc8ad4e3bab7875519844"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_direct25_coverage_review/README.md",
+      "reviewed_english_sha256": "bbfd943f415b6c80735b2773bc6f4222ab4eaf10de47272a0374289751c21e24"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_moment_optimality_review/README.md",
+      "reviewed_english_sha256": "d86df2fd4813902c25572040210d7023e3851b052a16605f78e9588627476537"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n26_second_coverage/README.md",
+      "reviewed_english_sha256": "c6f750eb6b626d383300e7557bc26a2f31bdab8c8edbe39938ea399683c0684c"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n28_second_initialization_review/README.md",
+      "reviewed_english_sha256": "912b3eb2b90b31ddaf4c290f1a346fae2a6cdc805b6d7fa35ddd9a9fed62c26e"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_proof_guide_review/README.md",
+      "reviewed_english_sha256": "4fa37d93ae30a1cfa1f8b28fd6283018c8b585ffec3f638bb92b86b31f22532d"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_initialization_scalar/README.md",
+      "reviewed_english_sha256": "f895d5b97f11dda6299822c3e05202cfdd6fb6cbb2a929c3b03c168cb20b139e"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_moment_optimization/README.md",
+      "reviewed_english_sha256": "16d75cbf2df3e86ff707415c3a967ded7e027a566d6341bafb6c32d583f20b2a"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_campaign_complete/README.md",
+      "reviewed_english_sha256": "c500fe8113cbf2d5fd50b21c4bd26dfcd50b4c342902077a4317da8b7a2e50fe"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_campaign_partial_outcome/README.md",
+      "reviewed_english_sha256": "a98849008a239db71d80213a8ca918f9e1392a4ac3b3e9643d3aa0585ddad5ee"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_campaign_review/README.md",
+      "reviewed_english_sha256": "35b98386794667df9cea3c54f72c90001a41bf16b5a83ad9392c4e11287600cb"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_extension_gate/README.md",
+      "reviewed_english_sha256": "ee6cf6c9f773e940e7fb7c5939b5f0ea09363b0e38851a609ba790b53b5c751d"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_full_review/README.md",
+      "reviewed_english_sha256": "06a07ab8a1bc307e0ff950bfdd535e57c6336b69e1e64b88947f4061cfb4b50c"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_repair_review/README.md",
+      "reviewed_english_sha256": "1bbeae249287dce554ff75d2f6ea92fd09f3d6e45857cad206cffeebfa645276"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_supervisor_review/README.md",
+      "reviewed_english_sha256": "ff9ef1f6ce77e0febb63067c1d477d8b009c70d99cedcbc405c2f78a879f1b4c"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_seed_recipe_minimum_review/README.md",
+      "reviewed_english_sha256": "05a49598640f4cb1240259a5fe997394a524f96363b9d904bcd78c596905be2e"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_small_lengths_completion/RESOURCE_PROJECTION.md",
+      "reviewed_english_sha256": "fa37a2a13beaa8b7d718b36828a32e91fea07694cff4dc0b5c8b8d3ce860568d"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_smaller_second_initialization/README.md",
+      "reviewed_english_sha256": "022c24bf47502bba217a5f77f855287ef349b00f7ba78384e0633ad53d81f7cc"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_source_scope_review/SOURCE_SCOPE.md",
+      "reviewed_english_sha256": "1941517d3f67473f74e23b6410d2e0081638f650019301c0e123ea22ecd81a80"
+    },
+    {
+      "source_relative_path": "research_20261010/MODELS_AND_NORMALIZATION.md",
+      "reviewed_english_sha256": "ff26ba3cbb9752edbec89d471a1e5e879e4bb5ca70f6b3351684a7d40b6d95de"
+    },
+    {
+      "source_relative_path": "research_20261010/alternating_restricted_cell_seed_proposal/RESOURCE_REPORT.md",
+      "reviewed_english_sha256": "44ee23de1d79938ce1de96f820e83f902abda45f94e1df072fac613e867c3bc6"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_audit/README.md",
+      "reviewed_english_sha256": "db7b602bb7ba44a38d6a8eed411337ef38568d5e014e715f5903b0fe1c154c9f"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_complete_H2_8x4_review/README.md",
+      "reviewed_english_sha256": "4b10a62f8741e46b1bb9729c11132045df7682da1d151b41badbe70fc0ce32eb"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_complete_residual_8x4_review/README.md",
+      "reviewed_english_sha256": "5c64bdf70c5c3913c761db703feafd72a580e02d92d880420a3cc02a8ebbdd54"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_connected_rule_compiler/README.md",
+      "reviewed_english_sha256": "1ac6e920578fb00a9c309589d7f79d54e0a7ebfa9a4e01c99ef3c42811fb07d0"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_direct_window_continuation_review/README.md",
+      "reviewed_english_sha256": "c04777cc0a20e05cc1a8d0d35f9158d56895d834a5058d3bd1cb5e102e29fb99"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_frontier_above_010_review/README.md",
+      "reviewed_english_sha256": "8a900d1116fad1923442e82cb6cab49b99da7647b95748bdff3af2c1fc0c3743"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_full_m4_watchdog_gate/PROPOSAL.md",
+      "reviewed_english_sha256": "8adc85406d89aa311420dd6a1e9e2b730fe2224bc62c271adcf74d2f6b73a61d"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_lazy_chunk_hardening_review/PARTIAL22_FINDING.md",
+      "reviewed_english_sha256": "7ecfaa934692d59989ec798f2cc21d1462d97f80c15e3bb2f40bbf2555ffea9e"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_m4_checkpoint100_review/README.md",
+      "reviewed_english_sha256": "cc07d07123993ac34914432bfc9d93e9cb51daf255c15d5e1d24065e9b5d469a"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_physical_dispatch_integration/README.md",
+      "reviewed_english_sha256": "a44c9136f5c4ac8808152af5a501d3e3ffaa199274d752778ef78fd5ffe8a521"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_polynomial_frontier_review/README.md",
+      "reviewed_english_sha256": "f00821234004fd7809a96564913c30a9d7d5c68f7637c9b272d4684e529ddc03"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_58d_algebra/RESOURCE_CLARIFICATION.md",
+      "reviewed_english_sha256": "ff541b6a05b8f8c24027bf175187a5df327c30529e7044a433bf378f0f36f491"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_fixture_review/README.md",
+      "reviewed_english_sha256": "61a7d113b2a48505cdccfb9aa91f2cfcc9943c8e1b03d450c0ed888f2b5d3ea1"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_launcher_correction/README.md",
+      "reviewed_english_sha256": "076ffad136658fa408b2671821dd71aeb21031e2bb504f8c23375432650aba6a"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_production_gate_review/README.md",
+      "reviewed_english_sha256": "e488999037de52c5a1b7bcec3df0ea8fa4142b9e363517fff4629058cd64231d"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_pencil_optimization_review/README.md",
+      "reviewed_english_sha256": "2ad4398eb74ad0bebbb4cf5e826bae41283f5be871a1a7667ab201b0f980a1ad"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_pencil_plan/PLAN.md",
+      "reviewed_english_sha256": "41d4bf0d204738ed9c7b732912d23c5448d17073728c8fe6725ded30225af21f"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_streaming_startup_review/README.md",
+      "reviewed_english_sha256": "7e12354de6b0358a1db34e1bfc7e5e71d93da05ceb4c312bb3138f4630cece34"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_interval_01065_review/README.md",
+      "reviewed_english_sha256": "32e6d136648e76e8cd6a86712a5ca682f0378a6c560391833853f84ac30c6338"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_interval_0106_review/README.md",
+      "reviewed_english_sha256": "34d449065f8a7e509827d59b89aaa2bfd3dcb2e0d1e4ea5e0bf0625af7b54042"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_interval_010825/DERIVATION.md",
+      "reviewed_english_sha256": "08e8ebc94cad2389ab3da632f8b333c3654c7bf94cafa137bf462799adcca53f"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_variable_g_control_review/VARIABLE_G_DERIVATION.md",
+      "reviewed_english_sha256": "e5e6d05c57b9c35a9cd373e471ea3956d9cb0cc27ccf1303f5881ffeca799bd5"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_variable_g_control_review/source_receipt_fix/README.md",
+      "reviewed_english_sha256": "fd9798cf20503095476d7c8ffc3b05b5299312d4972344b7717e96ae4a9739cb"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_whole_m4_implementation_proposal/README.md",
+      "reviewed_english_sha256": "46019c780a2abb42a9a4745009f928227b2d22f3deb3863fe7c3762e2ccc80d6"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_whole_m4_pipeline/COST_AND_LIMITS.md",
+      "reviewed_english_sha256": "13514d97afd103351c5b9d2a9d41928ff67e93f605ff17aed43d9de89600f023"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_whole_m4_pipeline_review/ALGEBRA.md",
+      "reviewed_english_sha256": "37352421a76c3c0a59cf81340e797f4fe02a7cabb108dec287b44f1bb3661f1b"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_frontier/RESOURCE_PLAN.md",
+      "reviewed_english_sha256": "7c91686cc62f6379e2858e3053b67821cccb50e26ea50a6c13a1c4d19e9dfa2c"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_frontier_above_02/README.md",
+      "reviewed_english_sha256": "008bd0ccd3ffc8ea1b34ac4235893f62c330ce30dfdcffbe97f0f719741829d9"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_frontier_rank195/README.md",
+      "reviewed_english_sha256": "bb5f3bdab07dce97bd33bf63e3dbabe1054636b538fa8f81c79178fe7c1c4c3c"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_low_band_review/COUNTED_BLOCK_THEOREM.md",
+      "reviewed_english_sha256": "58512ab169ba8e86f614f8987b7c3e4f85b5d48652d7c841e89e638acfefbe12"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_numerator_pair_orbits_025/README.md",
+      "reviewed_english_sha256": "138d5c1d6c2833a1266b5ceb3885fb303a22fa79383702ed1d5693e93c2feea8"
+    },
+    {
+      "source_relative_path": "research_20261010/ground_moment_review/README.md",
+      "reviewed_english_sha256": "0f6dc73044a0fa0049889ddde374359ed47032669f7fc5a0e86b30aa57fa3061"
+    },
+    {
+      "source_relative_path": "research_20261010/integer_window_refinement/README.md",
+      "reviewed_english_sha256": "454757306a679ab388de46a8106bf466a33b74ebcaf8991ed45676319cff5ce5"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_extension/README.md",
+      "reviewed_english_sha256": "576a0f05e76f3442f6116cb7d2d91e8faba46b048ea804f8f7bc3e7f9dd80271"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_joint_extension/README.md",
+      "reviewed_english_sha256": "4595f3ee3615810f79924739e4aa1f715b233c4d0656839e15d38f5916b72db7"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_range_0085/README.md",
+      "reviewed_english_sha256": "854c628cfd4154f911833d6f53c4bb24e8f62540e0ad1add7792a8b439cd295c"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_range_010/README.md",
+      "reviewed_english_sha256": "1dbcbfcfb606acba59aa0128b4487ee3eee2df37bab6db56516b692dee479768"
+    },
+    {
+      "source_relative_path": "research_20261010/joint_small_seed_review/README.md",
+      "reviewed_english_sha256": "918dfb14f4a2a588ae5b5ae884d1f0d32f608ddde33ff4e1fc2d898af578e498"
+    },
+    {
+      "source_relative_path": "research_20261010/large_seed_review/README.md",
+      "reviewed_english_sha256": "be13a6a62797946c7089a8f7db4ce63730050f85bafa503229560b6c5bdc5d67"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/README.md",
+      "reviewed_english_sha256": "1487e22655544189f141fe12ef35d422db88d7285a4e479f38198afa46558fc1"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/frontier_diagnostics/README.md",
+      "reviewed_english_sha256": "5bb3a99ce39ea188a966ab78eebab67a5456bc2ce9d829b28b5861fab514286f"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/ground_moment_auxiliary/README.md",
+      "reviewed_english_sha256": "41770c67cc3a03f192fbaf5e1302e75fe9d3d02bd09ed678ce7e209a3c7cd696"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/reduced_input/REDUCED_INPUT_THEOREM.md",
+      "reviewed_english_sha256": "fb7ae1475add1b998ecb80be119f262325bb3418e9fd458d2aa33d75902b663e"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/translation_band/NEW_MOMENT_LEMMAS.md",
+      "reviewed_english_sha256": "8d399f5ea409a3e0c09dbcfe1355230f0065a217a1a346b403db6f320259bd0f"
+    },
+    {
+      "source_relative_path": "research_20261010/mps_commutator_assessment/README.md",
+      "reviewed_english_sha256": "35d4d8d26d35c8e38284b3a9d48056ff9555a775eedb2813a6fb7b3ae9b41a31"
+    },
+    {
+      "source_relative_path": "research_20261010/mps_excited_seed_review/momentum_extension/README.md",
+      "reviewed_english_sha256": "517f2ecb20071f0f008e7e475e03c31d7f157c062673785e5346d0d2b13b9e67"
+    },
+    {
+      "source_relative_path": "research_20261010/nonperturbative_audit/README.md",
+      "reviewed_english_sha256": "482e4fa3493418d12cfd40f26e47f7604793a50dd55d8951d2db3ff4fe2a7ff2"
+    },
+    {
+      "source_relative_path": "research_20261010/nonperturbative_mps_review/README.md",
+      "reviewed_english_sha256": "bd22109d1b13f120ba53b3a483c7e598918564b3bc9c5f32751827c6e6a084d6"
+    },
+    {
+      "source_relative_path": "research_20261010/overview/README.md",
+      "reviewed_english_sha256": "01a93cae0a4d626c8e26876a126d887c42d4759520a17cbfcdc9238c4b8f013d"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage13/README.md",
+      "reviewed_english_sha256": "b5e810d5075b2c3f3f54b5d76266f626957f31facc1c2d4ee4dd0c66a7f8aeb5"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage14/README.md",
+      "reviewed_english_sha256": "bffa8cdb6f69c26ae72a6b170a671a640482e8e63ea0662b1dea4df3658a3a10"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage17/README.md",
+      "reviewed_english_sha256": "c684a255975f1d3cd21c8ec8a068175c99d130133f8cd064f483f2ad126440d3"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage20/README.md",
+      "reviewed_english_sha256": "46d53e526545486978d69f243d2064b66a087d1afbc00afdde817e63caa4e457"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage7/README.md",
+      "reviewed_english_sha256": "8791c8f4f29f0bb9ad9310d8c2c34eb2206f2b732b70e51561c1315ec50a5729"
+    },
+    {
+      "source_relative_path": "research_20261010/root_review/INTERPOLATION_DOMAIN.md",
+      "reviewed_english_sha256": "79983d81538d0ba11ea10b6c3624d7c3897aa76b7a3560fd23118c6e439dc232"
+    },
+    {
+      "source_relative_path": "research_20261010/small_seed_order_exclusions/README.md",
+      "reviewed_english_sha256": "144373d47ffa8f80a94c6112682f9c7f4f1494c42f0f8a31c77050dc75bd649e"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_heat/seed_feasibility/README.md",
+      "reviewed_english_sha256": "3246515faf5c852292b98ec4e2eae9d429026134851616606051424fe646772f"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_positivity_review/README.md",
+      "reviewed_english_sha256": "ff631a5870bccce225a7e9eeac9749d1685e7068083394cd3f304ac249470082"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_h2_review/README.md",
+      "reviewed_english_sha256": "25c3547b9bb0e5ded8a2542831a6c4298f0c3f321d83363cafff6b448b2b9894"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_positive_transfer/POSITIVE_CELL_TRANSFER.md",
+      "reviewed_english_sha256": "d39589cf57d6de2244d48ff7682471595ad6471f2e2ea85075e5b5e6e98c8214"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_direct25_coverage/README.md",
+      "reviewed_english_sha256": "3d95a2effa253ca15449ca5f876d04143b577079ad8eb91f22a11ac521c4d43e"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_gap_0248_all_sizes/RESOURCE_PROJECTION.md",
+      "reviewed_english_sha256": "9d889fecdf1b5ae6f55c11ace13bf7c7eeccc6cbdc1b2b452acc5ecc177d7fc8"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_gap_0248_all_sizes_review/README.md",
+      "reviewed_english_sha256": "fc77ca607982d98a106682bc6d861cf9062ab02da27f653b60c197a2ee38e57b"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n24_second_coverage/RESOURCE_PROJECTION.md",
+      "reviewed_english_sha256": "255b7dfa63ee5aad80cb30dce69560d2937da777f521396946ff4d3f928a5cfa"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n26_second_coverage_review/README.md",
+      "reviewed_english_sha256": "d63eb95c4df52337d7542362a7dfad169b4d3ca6e7b27271be99d0b9804ed81d"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_proof_guide/DEPENDENCY_MAP.md",
+      "reviewed_english_sha256": "f975f0c3255b2ec32fef81d269de4bec766fc172672fb49a016865fb96db2e3e"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_kernel_review/README.md",
+      "reviewed_english_sha256": "dda184fb91b40f1cf1ed1edf60530d558161037d74fd038d3db838b360315b7f"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_pilot/README.md",
+      "reviewed_english_sha256": "3c00b6f1337b2a3abe8c50046a601857a4a30dbabb64b65adfd7831bc8061994"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_seed_size_diagnostics/README.md",
+      "reviewed_english_sha256": "3531d9086d872699de99a373401f50dc8c59d47f1788c820b2af275c18ca6f91"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_smaller_second_initialization_review/README.md",
+      "reviewed_english_sha256": "a10d2e3c08f5537b5408b31bff5472e84d38ada8f3f3a0db1b100c319f2b2d1c"
+    },
+    {
+      "source_relative_path": "research_20261010/variational_numerator_filter/README.md",
+      "reviewed_english_sha256": "ce75fe5fe73e8fe674aef601f88e3bd2c9a68feb9d105ff43dd916b36ef69631"
+    },
+    {
+      "source_relative_path": "research_20261010/PLAN.md",
+      "reviewed_english_sha256": "361934f96fc94783ac9cd13caac3a368ce6655b0550fed1aeb8af21e6f472400"
+    },
+    {
+      "source_relative_path": "research_20261010/alternating_restricted_cell_seed_proposal/README.md",
+      "reviewed_english_sha256": "5c7c8aff8144db8c415358e3c58f41aa73083ab105240ad54b9026b94f4a1441"
+    },
+    {
+      "source_relative_path": "research_20261010/alternating_restricted_cell_seed_proposal/SOURCES.md",
+      "reviewed_english_sha256": "2d33e461846aa932aa9d914e35d74bc3884086d5b48130503b661513f4cda3ae"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_cartesian_indexed_sample/README.md",
+      "reviewed_english_sha256": "034c2d039f8b29b20554439eaf35a8422ec188935d3d5cb23e5c0e50c15f09fe"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_complete_residual_direction_58d_review/README.md",
+      "reviewed_english_sha256": "291eda3229942e56d58e454fc26a4996befefed46801b0014aba220f6ef2911a"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_complete_split_H2_8x4_review/README.md",
+      "reviewed_english_sha256": "b9880dd0bd7b105ca6b71569c4d032d78fb73bbddba401e6375ac85662237765"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_connected_rule_compiler/NEXT_GATE.md",
+      "reviewed_english_sha256": "2b11923024de67ed0cab412357b24fcfdc74cb17778bc8450abdedada13e4ee9"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_exact_m4_implementation_plan/README.md",
+      "reviewed_english_sha256": "c5459b37aa2721fc34cdff566e8655644501e5dfd8b127984ae8797d3d8f4a86"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_frontier_interval_0102_review/README.md",
+      "reviewed_english_sha256": "99bb6ec95598b6b42a36fad83d978d0b252eaf49682ad59d6e03b57930fb0c36"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_g0105_actual_point_review/README.md",
+      "reviewed_english_sha256": "4a1e0971377488fc89be93b19cbd7e573eb371e78118a5ecbe49accad1907694"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_g01065_optimized_point_review/README.md",
+      "reviewed_english_sha256": "249ee429a6eb6bf7a1a5054fb0a5a04e1f3362c7d968fdb402ed0b572d46b7fa"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_g0106_symmetry_point_review/README.md",
+      "reviewed_english_sha256": "84d16689c9bf09fb9c9da7a4b1821e4de7838e20b72d9b709caaa98f71382dc9"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_g010_diagnostics_review/README.md",
+      "reviewed_english_sha256": "07ae0d76b17c042fe37244fcae4870f943c8d455ab12b582728b8e32af450507"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_g011_symmetry_scalar_review/README.md",
+      "reviewed_english_sha256": "23ad9765bcfe74bcc35cb9ed0187004d13c380fa28d03fdb07dd56b9b7a180b1"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_incremental_control_first_review/FINDING.md",
+      "reviewed_english_sha256": "a435175dd0956a44bd36a8fdfefe86bd95fbb267cd02093639485ef1de73b89b"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_incremental_control_gate/README.md",
+      "reviewed_english_sha256": "7cf58161baf9be4b70a504bd65cc00848e567fc629f0202cad0b46814d1226f7"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_m4_checkpoint100_terminal_review/README.md",
+      "reviewed_english_sha256": "93bdb59a1038f7537abcff9ba2d372fa37a2f842ada17420e390bc6dbff55175"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_physical_dispatch_integration_retry/README.md",
+      "reviewed_english_sha256": "4a011dd248842482d613d4afe8fe3717d6d4136bfe9af9a768dbe975e122ed7b"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_58d_algebra_review/README.md",
+      "reviewed_english_sha256": "86ad24123022d5da8abd78c0a40185529df302ad42f5369798a6762667efcdf5"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_fixture/BOUND_ERRATUM.md",
+      "reviewed_english_sha256": "debf504c749f14b4e2cae5f5812e3d868b318e68bec08089628f42728d54551b"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_fixture/README.md",
+      "reviewed_english_sha256": "5d96216ffdd8295f6abc687a5a5e0ffe9679ead383508a72d1f2963823198163"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_production_run/README.md",
+      "reviewed_english_sha256": "874e7bdd402184a1910762118d557661a525423006248203954acdc2097aa9d1"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_square_symmetry_window_review/README.md",
+      "reviewed_english_sha256": "eabb39bb35c192b5e23825f2b393dd31f03bcb0e6c79d13f79de2aa760806b16"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_streaming_hash_revision/README.md",
+      "reviewed_english_sha256": "f4c6a92bf2649a8f7ebaade5e6e730dfb587a973cb50cdd9b4d06a26468fc2df"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_streaming_observer_failure_review/README.md",
+      "reviewed_english_sha256": "355388265cfc7f1a913f6830423fcc7939d0e9a9450de0b1c978f243c21a4acb"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_interval_0106/DERIVATION.md",
+      "reviewed_english_sha256": "73cf2397056e119671f5ccd7d9ff6f37433421abe33ed18fef864736b14bdb46"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_symmetry_interval_0108/DERIVATION.md",
+      "reviewed_english_sha256": "81eb23395607b8a4bcfb47e3ac79248c381417e07e62172a2329ff19b2de106c"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_variable_g_control_review/VACUUM_DERIVATION.md",
+      "reviewed_english_sha256": "102c35762faa837ec400ad813453252dc5d85179952a125aa77621a3f64e40d4"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_variable_g_control_review/source_control/README.md",
+      "reviewed_english_sha256": "7cf58161baf9be4b70a504bd65cc00848e567fc629f0202cad0b46814d1226f7"
+    },
+    {
+      "source_relative_path": "research_20261010/bosonic_tail_review/README.md",
+      "reviewed_english_sha256": "fce9e3ae065ba631c21629b1e3cbf7276c81656fbaf821c2fb9786d3bd716e90"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_audit/README.md",
+      "reviewed_english_sha256": "1638c63d2368329cbedfe0c08d371d9f7fad29588e96c606975bdd16b0e66ca9"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_frontier/README.md",
+      "reviewed_english_sha256": "80b53e2cecbe74065f4c8ab248bb2f938808b6d759e559f6b363ba9a9444be1e"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_frontier_above_02/OBSTRUCTION.md",
+      "reviewed_english_sha256": "fedace4c18257c3caf19b316abb012f64788d760eee6bc3149485ecfb71a2741"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_frontier_above_02_review/README.md",
+      "reviewed_english_sha256": "4cef053c1b6e04db93ed324938a40d6b26e1a2ea5131e3cca0155c4c3426cfa5"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_frontier_review/README.md",
+      "reviewed_english_sha256": "e27b3428f43f6c334dfec1f0db268cb0b651682a97ad8a84b45cc662310cb0bb"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_m8_numerator_review/README.md",
+      "reviewed_english_sha256": "0ccefa22897eda432c78744c8dc105784f3e29c21542e5f14338eec473752fdf"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_numerator_pair_block_review/README.md",
+      "reviewed_english_sha256": "7b884bd9440c8afd80cc1e6aeabba195f0bc785c61240216de0cd427fd9786a2"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_small_low_band/README.md",
+      "reviewed_english_sha256": "00142e2d1412109aefbd87a9c86f0b8d38b796c692ae91f154a11fabd20c5291"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_temperature_first/README.md",
+      "reviewed_english_sha256": "13f8572cc0ca23eadd2181f6a83bd8477780c0f6a732d8cda99c469e28c363ba"
+    },
+    {
+      "source_relative_path": "research_20261010/epsilon_interval_extension/README.md",
+      "reviewed_english_sha256": "fc6794ca0ed055e73f11a4b70f61288f245c44c9e550fa2648c9426a1612b85d"
+    },
+    {
+      "source_relative_path": "research_20261010/hardcore_pair_commutator/README.md",
+      "reviewed_english_sha256": "f7701c95de17207cd2eee2e69ab2bf9c128e20e00aea279942c30a33e5809e61"
+    },
+    {
+      "source_relative_path": "research_20261010/integer_window_refinement_review/README.md",
+      "reviewed_english_sha256": "4b5485160070ed431037f4fdaf6e545e3d094f9d955d14b9790dd9ef7c55bbf5"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_extension_review/README.md",
+      "reviewed_english_sha256": "c6aede931c61bb2e467ccb8588fa2af4b4ca5fd3fe40ee96090c2c5a8d7b8d08"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_joint_review/README.md",
+      "reviewed_english_sha256": "2854319b035818362e441aad07ee3aa3791f616eceeca111d3a9b44c935cde7a"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_range_009/README.md",
+      "reviewed_english_sha256": "166ff53284ca75555fbf4b43d1d80e6107e2bd9fbf82df5f211d2ec6f2f48fce"
+    },
+    {
+      "source_relative_path": "research_20261010/joint_ratio_review/README.md",
+      "reviewed_english_sha256": "379e1ff59017710d06ad145011e3b56d1a0c08d3b68dfd0d9f4ec473f62a636d"
+    },
+    {
+      "source_relative_path": "research_20261010/large_seed_moments/README.md",
+      "reviewed_english_sha256": "74341f9080daafdb6a43c4237c11166c805961a4198d7efc229b2a99b52ecdfe"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/combined_ground_bounds/README.md",
+      "reviewed_english_sha256": "a776e06154b1eadad33d836720f711da3a403a485e186faf35c36e8b736551c5"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/frontier_g007_g010/README.md",
+      "reviewed_english_sha256": "f2d15b9a54e309b50409efb875ca6f6347924fb28d1f7d3dfed7cf002de9ff78"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/ground_moment_pencil/README.md",
+      "reviewed_english_sha256": "a21e7eba606469a8e4b62e8a3270719247f54b8eaccc8fc3fb39b95148c0c10d"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/tail_comparison/README.md",
+      "reviewed_english_sha256": "bac9d71bd3551b216612ca32ba66606919468088e471b152d0db9c607886f095"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/third_moment_exact/scalar_candidates/README.md",
+      "reviewed_english_sha256": "c138ccacbed36caec86040d605b1f159b03ecf6b1e3d7f3ec71858f5bcf738da"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band_review/README.md",
+      "reviewed_english_sha256": "908d08b6392538e9149d5c856724f1d9c97a907cd7d86c97ca80418e0d9cf8d4"
+    },
+    {
+      "source_relative_path": "research_20261010/mps_excited_seed_witnesses/README.md",
+      "reviewed_english_sha256": "4771638df3fa71388161df1bf16f13a430444a84aec2d5032ffb9a2f2fe17afd"
+    },
+    {
+      "source_relative_path": "research_20261010/ordinary_interval_review/README.md",
+      "reviewed_english_sha256": "f94870e89f09cf7f1b19f57f67cce6d03184343e8396fffa69da8d07e61a8b93"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage10/README.md",
+      "reviewed_english_sha256": "56dca9cb8c93ca2f3755fbfc164404471c76b1c456e02c3a2eb9479c0e621ae2"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage16/README.md",
+      "reviewed_english_sha256": "bee418e5e46628fc88e1e3ffe6ba85124434dce34e0417b270b5709de26a79c3"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage19/README.md",
+      "reviewed_english_sha256": "fa1844926539b7a7ca9b98ead7282e066b7ee2a56116914b381a4d03bf9e30ab"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage6/README.md",
+      "reviewed_english_sha256": "f5b028d38cbee616eda58113436607a2d97a0a7f129f81047675b5245dc95e5c"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage9/README.md",
+      "reviewed_english_sha256": "730d12ad28f734b3bec73638de029c91cfe198d2685c6ba227ecabe3656b5844"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_heat_review/README.md",
+      "reviewed_english_sha256": "ca0827b97b37c3ab696dfaa949110bd2123b1679f911d5b7e7e6a9971460b751"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_scalar_improvement/C_AND_MPS_NOTES.md",
+      "reviewed_english_sha256": "cbe1c6317cab4a7df41bb0607ba7c2efc5c2ebf758b58ca455538363e470e864"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_scalar_improvement/README.md",
+      "reviewed_english_sha256": "57bc3bea496fac5d35f463e42cd5ba488ae2e7fbdebfd61f0de98a2e6cfd61b3"
+    },
+    {
+      "source_relative_path": "research_20261010/trial_residual_review/README.md",
+      "reviewed_english_sha256": "a5626a0e8b20a88580c05b34e0fc1ad64c9bc1e5fd9393c6a3e8d5bf231acad2"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_b2_32_retry1/README.md",
+      "reviewed_english_sha256": "2d668457a057da6438b0f2ab9a2d4334ef87a1af5d67b2b5025cbef4f4116ed6"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_b2_64_pilot/README.md",
+      "reviewed_english_sha256": "ea27331326c1965185dd893a6c01d98ee0f5be832d0fcffefbebd04d519d359a"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_b2_fixture_review/README.md",
+      "reviewed_english_sha256": "c4300a079ec4c15b6310f7d829631825852ab25113179a590a18c63525cd1bc6"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_h2_64_pilot/README.md",
+      "reviewed_english_sha256": "de1380c61c26c3e484f6f6a9b1b79bdfdc14484b41d31d971258ea63f83ea626"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_positive_cell_review/README.md",
+      "reviewed_english_sha256": "22d974ee264dcd8de4916bc0c788684613b6af6c3c67b3aeef46980095d48e1d"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_positive_transfer/README.md",
+      "reviewed_english_sha256": "56622ab8c5c379675a6a570c71967e5344802eb91f7327494a4cfeff436e1673"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_positive_transfer_review/README.md",
+      "reviewed_english_sha256": "5229f0ec2a06eb9ee0d0fcd86ebbe06219ec7027c1e6274670cc27d0b24e9454"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_robustness_proposal/README.md",
+      "reviewed_english_sha256": "553e0b7bf0d16e14e031f786e3932d7b4b7023910e53fe5867df97fff428e9b9"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_second_moment_design/IMPLEMENTATION_GATE_PLAN.md",
+      "reviewed_english_sha256": "2e054a5c77312155dddd69214a781f14bab643ea70801a56126f0b018099f4aa"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n24_second_coverage/README.md",
+      "reviewed_english_sha256": "5c736d230cd7bdcccd77f7fa51931a87de66e9e4a479269c08230852739a10f4"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n26_second_coverage/RESOURCE_PROJECTION.md",
+      "reviewed_english_sha256": "ca6284f3ef966088e81f4877c04e0b61d48fd9a94e9170f31544a3d18abcdb7d"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n28_second_initialization/README.md",
+      "reviewed_english_sha256": "2d539cfe4ddb96163d74b184eaf78e012e6ae7724a210e3b1a33bd4ec45063b8"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n48_direct_window_review/README.md",
+      "reviewed_english_sha256": "7ca09425f2365acdb99e3eb3130a5745d2f383da0249a34c101844461052ca11"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_initialization_review/README.md",
+      "reviewed_english_sha256": "4115bcc1e1ffb17cf6e3494f5b43ea70904ca1c2811cba8d313c641538a78ca6"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_moment_review/README.md",
+      "reviewed_english_sha256": "af4107722cac386321023b6f54b4651680d2ecefca38547c441cc4d9b4fd5316"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_campaign_gate/README.md",
+      "reviewed_english_sha256": "4c75cf620ef9169e3af6e84e1dcd9fc237117090923f0e0c1dd5cb700ee93121"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_partial_review/README.md",
+      "reviewed_english_sha256": "59c52b89adf576dd88eadb73064463093c6ba43c2962dbe7ddfb61ee4e41da3a"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_supervisor/README.md",
+      "reviewed_english_sha256": "981377d5ba0ad6c6e58993421bb7d3f72474cdaa8d161fb6d1f5f0b2dcc6c2d4"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_seed_recipe_minimum/README.md",
+      "reviewed_english_sha256": "5b178c3a5c8afd2d55dee4af0becde9baae9a6ad2a055d5f6018bf0253183c04"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_small_lengths_completion/README.md",
+      "reviewed_english_sha256": "f87f291b98aef42d311099843073395a26c1e5d1b955fa0826df2d75f2fb2712"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_smaller_second_initialization/RESOURCE_PROJECTION.md",
+      "reviewed_english_sha256": "91b566804797b99d19f0f80aabc13585f1f5e8874bfbe297af997e91a71074be"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_source_license_supplement/README.md",
+      "reviewed_english_sha256": "ff2f6aea6d3bd72c26b8caf066b039cfa1097db3cc8e705abe84e7ec56d18146"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_transfer_moment_assessment/README.md",
+      "reviewed_english_sha256": "3aa6e221caf85a9fbefd918d65de400d03a1fbb2230b8500544c5387b7fb454f"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_transfer_moment_review/README.md",
+      "reviewed_english_sha256": "19a3f61cb47c1d3b4b40484558042072b341e3cd59737d01ba4b90e556daff6f"
+    },
+    {
+      "source_relative_path": "research_20261010/alternating_restricted_cell_seed_proposal/MINIMAL_PILOT_PLAN.md",
+      "reviewed_english_sha256": "1b90d18ca2c733f6444f9f3c3bfca06566cbeaf10ec0678e24d02a54b8622787"
+    },
+    {
+      "source_relative_path": "research_20261010/alternative_order_review/README.md",
+      "reviewed_english_sha256": "1dfc522af711558bc3154f97fd2d121f60b6df4e6acad5a6d10a1a4cc1874cb1"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_cartesian_indexed_sample/NEXT_PROPOSAL.md",
+      "reviewed_english_sha256": "0d4255cc594cadc81bdf5f635a7cf02edd701e72ca397396beeacd9f20f3850c"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_exact_m4_implementation_plan/PLAN.md",
+      "reviewed_english_sha256": "3b60a19dbdfcd1fe757516e80e1300ad25f36ed9b830f4b264796a2aad67d38b"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_memory_profile_gate/README.md",
+      "reviewed_english_sha256": "4519e8f2494f22b3d9b2c3bd5690594613e68322a8af653b29b10c99d263fbd4"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_next_residual_direction_plan/PLAN.md",
+      "reviewed_english_sha256": "d48b4f35e7e030b1720fc362aa92ac3a511cb3ec40e1fbd43f617c26b935274d"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_outer_gate_review/README.md",
+      "reviewed_english_sha256": "748bac55d2ffcc8bd29dc1fd7031078f6aa3d5baaca4227657ca5bfea3aacc8f"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_residual_direction_production_gate/README.md",
+      "reviewed_english_sha256": "9ec08333b3b31c351ff663f3fb72e5ae8e916586fdd8ffd5677475e6329c14a0"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_short_bridge_refinement_review/README.md",
+      "reviewed_english_sha256": "a83cd913cd50988c16ac027fe9a40e1634fb23d53e5f594b34f28f2ddf99f07a"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_split_H2_fixture_review/README.md",
+      "reviewed_english_sha256": "4aeb8573b006f3c732a2472e6bac7a9d8493868c20c9011b407228c3d0426951"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_square_symmetry_recurrence_review/README.md",
+      "reviewed_english_sha256": "93c475ac4aa50a22db3400d5f22527ac1346629aa4ee6839f1dc061f1f0eebc6"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_streaming_hash_revision/PROPOSAL.md",
+      "reviewed_english_sha256": "31009e84f10c6878bd13966792246a598ac7628120e9c0d9b0dc21a5bd4e2795"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_variable_g_control_gate/README.md",
+      "reviewed_english_sha256": "27f23b608f4767d33c3003827feb4593bc1f4bf5905b9fff52af0699ca878d1e"
+    },
+    {
+      "source_relative_path": "research_20261010/bilayer_whole_m4_pipeline/README.md",
+      "reviewed_english_sha256": "f797ea4393973e8e762c689848f5c5db8ddeb7a33fe2cdd35abf298c9b4f249e"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_filter_extension/README.md",
+      "reviewed_english_sha256": "48f9f2c8d4bdb5672cf33f2b6adcd102911aac71f64dd0027dcef692189612f0"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_frontier/FRONTIER_REPORT.md",
+      "reviewed_english_sha256": "9522c6e4211a768e45e99f5dbccc8c47208d972dabadc9a8610bafd5afad008e"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_low_band_review/README.md",
+      "reviewed_english_sha256": "fc700fdaa28639e707f070ab2907f88ea2dd017d2e13b8b8f3be48e1154240ba"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_numerator_pair_block_025/README.md",
+      "reviewed_english_sha256": "71b8e2e662b1fa89a26653e5bc2e7bf1ad4056e03527d5ae943402dd74b7e73e"
+    },
+    {
+      "source_relative_path": "research_20261010/chain_temperature_review/README.md",
+      "reviewed_english_sha256": "02b9a0cff1878ede8a49bf0ce70f06406c25009d52e344a36e2c1b9095680f83"
+    },
+    {
+      "source_relative_path": "research_20261010/epsilon_interval_review/README.md",
+      "reviewed_english_sha256": "5afc99e6ec6c89e2a3d3449be58b2cbf09f3e153a8fe4f2ce827a6cb451c719e"
+    },
+    {
+      "source_relative_path": "research_20261010/general_dimension_review/CONSTANT_IMPROVEMENTS.md",
+      "reviewed_english_sha256": "fb95e23379d60101744edd15f6189f76cb9bf48f547aa393e427ecc7cec3075a"
+    },
+    {
+      "source_relative_path": "research_20261010/interval_range_010_review/README.md",
+      "reviewed_english_sha256": "a2b0d466499d2bbc1eb8626fe1cb71284b354a0a00473bed98b4bfe504280857"
+    },
+    {
+      "source_relative_path": "research_20261010/joint_ratio_review/GENERAL_LEMMA.md",
+      "reviewed_english_sha256": "de63295b5b27d6e4d3533afd4d79193afadd4dac90b2774221611c716910f81e"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/frontier/README.md",
+      "reviewed_english_sha256": "c309ece115c5f9f6087c6886cc38b359b1ae31de6d3c1ac5be5101eaa85ebc3e"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/frontier_g009/POLYNOMIAL_INPUTS.md",
+      "reviewed_english_sha256": "f73bf57a2fc9ad2566478669035cd2b0625ed89accd82a4b129040556f11d871"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/moment_bounds/README.md",
+      "reviewed_english_sha256": "be36151a9c0db1d802407194ba7a3df71bb8f1268d131e5522ed0bd85b1f796b"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/third_moment_ceiling/README.md",
+      "reviewed_english_sha256": "88c50136a07610dcc276374ab607d8a6cc5de0d2ed600f9ef68d42fb9fad492d"
+    },
+    {
+      "source_relative_path": "research_20261010/low_band/third_moment_exact/README.md",
+      "reviewed_english_sha256": "c36fb03ad65150e9735f43fe629242bb0aa3818b0a5498a40fb12c2788d6c288"
+    },
+    {
+      "source_relative_path": "research_20261010/mps_commutator_assessment/fused_current/README.md",
+      "reviewed_english_sha256": "fe98b40aca52be76cad0295a37e624ebf32571b73be1f91860c2453b3f085ede"
+    },
+    {
+      "source_relative_path": "research_20261010/mps_excited_seed_review/README.md",
+      "reviewed_english_sha256": "07d6c34251c5016b24884baca13213005d0d678a2512a6484ebc7b3b320e1f82"
+    },
+    {
+      "source_relative_path": "research_20261010/nonperturbative_audit/EPSILON_FRONTIER.md",
+      "reviewed_english_sha256": "c90b006fa3088812fd174900034a20c889d977835becfb5165313463513a797a"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage12/README.md",
+      "reviewed_english_sha256": "70797c0a0c728516809e25e4ab29a037a5a4143df5935873aa4ad62345853d47"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage15/README.md",
+      "reviewed_english_sha256": "881f4a4f582a0abca268d543290e8a14ca350159845c81c6b6793915434001f1"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage18/README.md",
+      "reviewed_english_sha256": "95a81635baac0f2ddcf896550b64bc0eac2a83ab8701ca61c036b00368e22cca"
+    },
+    {
+      "source_relative_path": "research_20261010/overview_stage22/README.md",
+      "reviewed_english_sha256": "59d8851660129a31b60cfdd26c2bcee6d7a8c6d3248911e0da621080836dc318"
+    },
+    {
+      "source_relative_path": "research_20261010/root_review/FF_FRONTIER_BRIDGE.md",
+      "reviewed_english_sha256": "03620986feb52dc2cd0d270f495312850b8a0b4994de4754dfa798e577f18131"
+    },
+    {
+      "source_relative_path": "research_20261010/small_seed_exclusion_review/README.md",
+      "reviewed_english_sha256": "d1909385c46a0932b180b3b8b17d24b3ed6ebac76beb2e2c3ce41dfc24f8c842"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_heat/NEXT_STEPS.md",
+      "reviewed_english_sha256": "df7391bbbde74b00613c5412ad68316fc2f96fb9598d7e2f691ae1be6098b919"
+    },
+    {
+      "source_relative_path": "research_20261010/spin2_moment_review/README.md",
+      "reviewed_english_sha256": "c123c3387106580797b79d5601931e3dcc4e472f6177531fc8ef1292db93ce62"
+    },
+    {
+      "source_relative_path": "research_20261010/tail_comparison_review/README.md",
+      "reviewed_english_sha256": "0653ef03d4f7be395a810930b88a3134a2a98f938b820649af06ffe6b54bd9de"
+    },
+    {
+      "source_relative_path": "research_20261010/temple_variant_review/README.md",
+      "reviewed_english_sha256": "87b615a37b936795be275ea26dd73bae126f2b624a415b8a4cdc583fbdcbcd53"
+    },
+    {
+      "source_relative_path": "research_20261010/third_moment_review/README.md",
+      "reviewed_english_sha256": "be89ab5ae16cab08686c602a73b9033038fa03954c3161f0003761478d91f01e"
+    },
+    {
+      "source_relative_path": "research_20261010/trial_size_criteria/README.md",
+      "reviewed_english_sha256": "857d30096b4e9e23d9b4a1bbec085cec7210a1144e573fb275905c10ff038698"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_h2_design/DESIGN.md",
+      "reviewed_english_sha256": "918170183e5a9a3748f9c0bafa0a9346153cb342a17dc7cb1f6b5c530707fd6e"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_alternating_variance_refined_robustness_review/README.md",
+      "reviewed_english_sha256": "299e993647e1e3d1f01a2dbfd2ead0907ef39c74d814e8ca205da15014ac36f8"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_anchor96_100_review/README.md",
+      "reviewed_english_sha256": "b233943fda9915f5e3528b45d08d0ce1b3f7e4f3006662e5864dbaeede3f83db"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_cooled_seed_review/README.md",
+      "reviewed_english_sha256": "08a59e3fae199aaa3fddde3b2b1c193c6f9f336491e87456293bf6c750ae980e"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_gap_0248_all_sizes/README.md",
+      "reviewed_english_sha256": "d7848cca3014febf935d4a2fd5dacaaba9e85f8c003b4b6e13d9ef2b59492719"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_moment_optimality_assessment/README.md",
+      "reviewed_english_sha256": "1875c327832e2ad07b65bce6f3ebd7ebd2490d9f00f3d4dac288692c9c08238b"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n24_second_coverage_review/README.md",
+      "reviewed_english_sha256": "85fb6d3bff55971a41550e5f4cf75aa637fc34389ace70ebc6c71cf0f759d345"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n28_second_initialization/RESOURCE_PROJECTION.md",
+      "reviewed_english_sha256": "544d4ade57b4f8e42e1ba1334bdb9cf0df31dd224e2c322bc5601f92c6e99993"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_n48_direct_window/README.md",
+      "reviewed_english_sha256": "7fdb82b279c4c5f811c7e5595eff395deb7d91b8ee73ab932a94f4c5bb6501b6"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_proof_guide/README.md",
+      "reviewed_english_sha256": "2b6cd78db1c1ec096be1636fc83208d0d40d0a6251caa86ae3d42f02494e74f1"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_second_thermal_campaign_partial_outcome/DIAGNOSIS.md",
+      "reviewed_english_sha256": "3aecef847c4138c7c68ebd0e8f00e62e7464e2b0f733fe1ff58c069ec80e97aa"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_seed_frontier_optimization/README.md",
+      "reviewed_english_sha256": "9e10c3548769713a7df71d94fb2b5975f42a0d7a96b589f4bc092f0960789b24"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_seed_frontier_review/README.md",
+      "reviewed_english_sha256": "a0b46a18bd6a0c7291c3227a3b670f0298735f5b7cfbb896a2b6019bababc897"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_seed_size_review/README.md",
+      "reviewed_english_sha256": "e78ba95bb5cf9eacd43edb68b275cef024393e674a15808fb243046886a135f5"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_small_lengths_completion_review/README.md",
+      "reviewed_english_sha256": "204f75494d05c53d7ebab65292f496bb3ff6f7b107d87272f74a799831f6ad28"
+    },
+    {
+      "source_relative_path": "research_20261010/uniform_source_scope_review/README.md",
+      "reviewed_english_sha256": "3c307bd81d5bf2c1917120624e151988649444555529e0ec0b6f47d122ce32bb"
+    },
+    {
+      "source_relative_path": "research_20261010/variational_filter_review/README.md",
+      "reviewed_english_sha256": "5b4b037c613d02c9e552b4a1b3c3956b27e071c2d6d4b21b45d26bf9f3548261"
+    }
+  ],
+  "publication_link_cleanup": {
+    "files": [
+      "docs/research/uniform_proof_guide/PROOF_GUIDE.md",
+      "docs/modules/two_d_theory/PRIMARY_LITERATURE.md",
+      "docs/modules/two_d_theory/NONPERTURBATIVE_MODELS.md"
+    ],
+    "change": "External hyperlinks replaced by plain bibliographic references. Scientific text and numerical records are unchanged."
+  },
+  "documentation_updated_in_place": true,
+  "historical_document_hashes": "Reviewed intermediate English versions. Final publication file identities are checked separately."
+}

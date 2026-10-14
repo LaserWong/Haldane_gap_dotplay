@@ -15,7 +15,7 @@ $$
 
 There are 2L² physical spins and L² vertical rungs. The rung exchange is 1. Both layers have nearest-neighbor intralayer exchange g. There are no crossed interlayer bonds and no magnetic field.
 
-The positive-direction sum specifies the finite-size convention: at L=2, the two oriented steps around a periodic direction yield two parallel bonds between the same pair. At L≥3 it agrees with counting each ordinary undirected nearest-neighbor bond once. Rectangular seed patches use the same convention in each direction. The accepted all-size statements concern square tori with every integer L≥2, not arbitrary aspect ratios.
+The positive-direction sum specifies the finite-size convention. At L=2, the two oriented steps around a periodic direction yield two parallel bonds between the same pair. At L≥3 it agrees with counting each ordinary undirected nearest-neighbor bond once. Rectangular seed patches use the same convention in each direction. The accepted all-size statements concern square tori with every integer L≥2, not arbitrary aspect ratios.
 
 The product of rung singlets has energy expectation −3L²/4. Computations often use
 
@@ -23,7 +23,7 @@ $$
 H'_L=H_L+\frac{3L^2}{4}\,\mathbb I.
 $$
 
-At g=0 this product is the unique ground state and its gap is 1. At positive g it remains a reference state, not an asserted exact ground state. The term “ordinary bilayer” distinguishes this Hamiltonian from the separately studied fully frustrated model with crossed bonds.
+At g=0 this product is the unique ground state and its gap is 1. At positive g it remains a reference state, not an asserted exact ground state. The term ordinary bilayer distinguishes this Hamiltonian from the separately studied fully frustrated model with crossed bonds.
 
 ## Spin-1 alternating Heisenberg chain
 
@@ -35,7 +35,7 @@ H_M=\sum_{j=1}^{M}\left(
 +g\,\mathbf S_{2j}\cdot\mathbf S_{2j+1}\right).
 $$
 
-The strong bonds have exchange 1 and the alternating weak bonds have exchange g. There is no biquadratic term, single-ion anisotropy or magnetic field. A strong spin-1 dimer has total-spin 0, 1, 2 energies −2,−1,1. After shifting by 2, these become 0,1,3 with multiplicities 1, 3, 5. In particular, a quintet has excitation weight 3; it must not be counted as a unit-energy triplet.
+The strong bonds have exchange 1 and the alternating weak bonds have exchange g. There is no biquadratic term, single-ion anisotropy or magnetic field. A strong spin-1 dimer has total-spin 0, 1, 2 energies −2,−1,1. After shifting by 2, these become 0,1,3 with multiplicities 1, 3, 5. In particular, a quintet has excitation weight 3. It must not be counted as a unit-energy triplet.
 
 The reference singlet product has energy expectation −2M. The shifted Hamiltonian is
 

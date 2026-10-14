@@ -1,1 +1,10 @@
-Projected fresh unchanged D26 MPS56: <10CPU seconds, <35MiB based on fresh60=8.96s and64/68=15.91s. Prior producer total24.87201CPU seconds, so projected cumulative<35CPU seconds within original60CPU budget. CPU5 hard60CPU seconds/100MiB; scalarCPU2 120CPU seconds/256MiB. Authorized separately after n30 positive. No n26 run.
+# Resource projection for the MPS56 anchor
+
+A fresh contraction of the unchanged D = 26 MPS at length 56 is projected to need less than 10 CPU seconds and less than 35 MiB.
+This estimate uses the measured 8.96 s at length 60 and 15.91 s for lengths 64/68.
+The previous generating calculations used 24.87201 CPU seconds, so the projected cumulative total is below 35 CPU seconds within the original 60 CPU-second budget.
+
+The physical calculation is assigned CPU 5 with hard limits of 60 CPU seconds and 100 MiB.
+The scalar calculation is assigned CPU 2 with limits of 120 CPU seconds and 256 MiB.
+This work was authorized separately after the positive n = 30 result.
+No n = 26 run is included.

@@ -1,9 +1,8 @@
-# Global twist positivity locates a positive trivial-sector leading atom
+# Locating a positive leading transfer eigenvalue
 
 Updated: 2026-10-10 14:30 EDT / 18:30 UTC.
 
-This is an analytic improvement to the atom-location step. It is separate from
-the frozen counterexample. It does not supply thermal purity or a uniform gap.
+Positivity of twisted partition functions at all lengths identifies a positive leading atom in the trivial transfer sector. This analytic result is separate from the frozen counterexample and does not by itself bound thermal purity or establish a uniform gap.
 
 ## Hypotheses that must be retained
 
@@ -20,9 +19,9 @@ The physical twisted Hamiltonians are finite-dimensional and self-adjoint,
 so each of these physical partition functions is strictly positive for every
 integer length for which that representation applies. This uses all-length
 analytic positivity, not additional computed heat traces. One must check that
-the same transfer representation and sector identities hold for odd lengths;
-odd positivity is essential for concluding that the leading atom is positive.
-Finite fourth moment suffices for all limiting arguments below; an infinite
+the same transfer representation and sector identities hold for odd lengths.
+Odd positivity is essential for concluding that the leading atom is positive.
+Finite fourth moment suffices for all limiting arguments below. An infinite
 spectral list is allowed. This is not an inference from a finite sample of
 positive trace values.
 
@@ -30,7 +29,7 @@ positive trace values.
 
 J_k=(Z_identity(k)+3Z_P(k))/4>0 for all relevant odd k.
 Let p_J be the supremum of the positive J atoms. If a negative atom -x had
-x>p_J, then for large odd k>=5 its negative contribution would dominate:
+x>p_J, then for large odd k>=5 its negative contribution would dominate, giving
 
 J_k <= J_4 p_J^(k-4) - x^k < 0.
 
@@ -54,9 +53,9 @@ sup|N|<=sup|I| by the same fourth-moment comparison.
 Thus the largest modulus of the complete spatial spectrum is realized by a
 positive J atom, and by a positive I atom when the finer decomposition exists.
 In particular an assumption that there is no positive J atom above ell also
-bounds EVERY atom in all lists by ell. The analogous statement holds for I.
+bounds every atom in all lists by ell. The analogous statement holds for I.
 
-## 3. A cheap exact atom-location certificate
+## 3. An exact atom-location test
 
 For even L>q>=4, if every atom has modulus <=ell, then
 
@@ -75,7 +74,7 @@ only exact Fractions. No new finite trace or MPS contraction is needed.
 
 These are conditional certificates under the stated transfer hypotheses and
 inherited finite-input verification assumptions. The saved exact MPS tensor
-has a distinct physical bond dimension 124; the atom-location argument does
+has a distinct physical bond dimension 124. The atom-location argument does
 not enlarge it or diagonalize a many-body Hamiltonian.
 
 ## 4. What this does not settle

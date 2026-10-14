@@ -1,14 +1,14 @@
-# Uniform spin-one proof guide
+# Uniform spin-1 proof guide
 
 Start with [the complete proof guide](PROOF_GUIDE.md). It states and derives the accepted finite-periodic result, explains the physical and signed-transfer calculations, and compares the result with the original `openai/math` theorem without changing its attribution.
 
-Accepted scientific result at this checkpoint: unit-bilinear untwisted periodic spin-one Heisenberg chains have a unique ground state and gap at least **31/1250 = 0.0248 for every integer L >= 2**, with the doubled-bond convention at L = 2.
+Accepted scientific result at this checkpoint: unit-bilinear untwisted periodic spin-1 Heisenberg chains have a unique ground state and gap at least **31/1250 = 0.0248 for every integer L >= 2**, with the doubled-bond convention at L = 2.
 
 The strong infinite tail uses canonical initialization n = 34 and a 68-site physical trial. A separate n = 30 initialization is certified at 0.0179. Finite coverage down to 2 is not initialization at 2. No minimum-seed, optimal-gap or infinite-volume uniqueness statement is made.
 
 ## Contents
 
-- [PROOF_GUIDE.md](PROOF_GUIDE.md): end-to-end mathematical explanation, source references, original-paper comparison and concise Chinese summary
+- [PROOF_GUIDE.md](PROOF_GUIDE.md): end-to-end mathematical explanation, source references, original-paper comparison and a concise summary
 - [DEPENDENCY_MAP.md](DEPENDENCY_MAP.md): proof inputs, scopes and exact accepted-manifest identities
 - [EXACT_DATA.json](EXACT_DATA.json): source-preserving extraction of thermal totals, refined signed intervals, rational filters and majorants, physical trial quotients, finite purities and bootstrap states
 - [SOURCE_PINS.json](SOURCE_PINS.json): consumed-file SHA-256 identities, original source Git blobs and upstream links

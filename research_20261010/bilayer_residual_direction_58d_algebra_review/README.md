@@ -1,7 +1,7 @@
-# Independent58D endpoint review
+# Independent 58D endpoint review
 
-PASS: exact finite-patch ground-energy witnesses atg=.1085 and.11, complete sector/global-ground count gates, matrix integration and four scoped positive-definite target pencils.
+The review accepted exact finite-patch ground-energy witnesses at g=.1085 and .11, the complete sector and global-ground counting conditions, matrix integration, and four positive-definite target pencils within their stated scopes.
 
-No new all-size gap or coupling interval. The saved-vector temperature-grid failure is a producer-scoped diagnostic. Producer runtime compliance remains UNVERIFIED and is preserved separately from mathematical acceptance.
+The result establishes no new all-size gap or coupling interval. Failure of the saved-vector temperature grid remains a diagnostic of that producer calculation. Producer runtime compliance is recorded separately as UNVERIFIED.
 
-See ACCEPTANCE.json, audit.json and PROOF.md. Default `./REPRODUCE.sh` performs a short exact witness/count replay and verifies saved target certificates; another full target-elimination batch needs new resource authorization.
+ACCEPTANCE.json, audit.json and PROOF.md contain the conclusions and evidence. `./REPRODUCE.sh` runs a short exact witness and counting check and verifies the saved target certificates. Another full target-elimination batch requires new resource authorization.

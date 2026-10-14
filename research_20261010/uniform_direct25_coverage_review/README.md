@@ -1,11 +1,11 @@
-# Accepted direct25 proof; coverage from24
+# Direct length-25 proof and coverage from L24
 
-Updated2026-10-11 02:40UTC /2026-10-10 22:40 America/New_York.
+Updated 2026-10-11 02:40 UTC / 2026-10-10 22:40 America/New_York.
 
-Mathematical result accepted: unique ground state and gap≥.0023 for every integer periodic L≥24, unit bilinear spin-one Heisenberg chain. New direct thermal25 proof joins accepted isolated24 and the tail from26. Bootstrap initialization remains30; stronger nested bounds remain available.
+The mathematical review accepts a unique ground state and gap≥.0023 for every integer periodic length L≥24 in the unit-bilinear spin-1 Heisenberg chain. The direct thermal proof at 25 joins the accepted isolated length 24 and tail from 26. Bootstrap initialization remains 30, with stronger nested bounds still available.
 
-Fresh physical MPS25 has positive shifted trial energy; its exact exponential penalty is retained. Signed-transfer Cauchy–Schwarz bounds Z25² by Q24Q26. All18 locally reproduced thermal inputs are explicitly mapped to these denominator bounds.
+The new physical MPS25 trial has positive shifted energy, and the proof retains its exact exponential penalty. Signed-transfer Cauchy–Schwarz bounds Z25² by Q24Q26. All 18 locally reproduced thermal inputs are explicitly mapped to these denominator bounds.
 
-Resource exception: the independent contraction reported25.9614CPU seconds despite an asserted15-second limit. Compliance is NOT accepted; cause unresolved. Read RESOURCE_ANOMALY.json and PROOF.md. No further physical rerun was made. Mathematical acceptance must not be presented as a resource-gate PASS.
+Resource compliance is NOT accepted. The independent contraction reported 25.9614 CPU seconds despite a stated 15-second limit, and the cause remains unresolved. `RESOURCE_ANOMALY.json` and `PROOF.md` preserve this exception. No further physical rerun was made. Mathematical acceptance does not resolve the resource failure.
 
-Cheap replay in a disposable copy: python audit.py. Exact outputs, source pins and seven adversarial checks are included. No below24 or minimum-size claim.
+Run `python audit.py` in a disposable copy for the inexpensive replay. Exact outputs, source pins, and seven adversarial checks are included. The result makes no claim below 24 or about a minimum seed size.

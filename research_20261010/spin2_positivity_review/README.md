@@ -1,8 +1,8 @@
-Updated: 2026-10-10 14:41 EDT (America/New_York) / 18:41 UTC.
+Updated 2026-10-10 14:41 EDT (America/New_York) / 18:41 UTC.
 
-# Independent audit: spin-2 positive leading spatial atom
+# Independent audit. Spin-2 positive leading spatial atom
 
-## Verdict and exact scope
+## Accepted result and scope
 
 **PASS for the new analytic implication and four exact scalar exclusions, with
 the original finite heat-trace and MPS certificates retained as inherited
@@ -16,7 +16,7 @@ scalar comparisons were checked independently.
 At beta = 8 and shift a = 4.76121, the same spatial transfer operator has a
 positive maximal-modulus eigenvalue in its A4-trivial sector I, hence also in
 its D2-trivial sector J. The four witness lengths give the following lower
-bounds on that **same** eigenvalue:
+bounds on that **same** eigenvalue.
 
 | Physical witness length L | Positive atom is strictly above | U8 ell^(L-8) |
 | --- | --- | --- |
@@ -25,14 +25,14 @@ bounds on that **same** eigenvalue:
 | 512 | 0.993037 | 0.9995874464748997161941... |
 | 1024 | 0.996540 | 0.9997585749306789008175... |
 
-All inequalities are exact rational comparisons; the last column is a display.
+All inequalities are exact rational comparisons. The last column is a display.
 The strongest combined conclusion is the last lower bound. A4-trivial does
 not mean that the atom has been proved an SO(3) singlet. No simplicity,
 spectral separation, spatial purity, thermal startup, or uniform physical gap
 is established. The earlier I/P moment counterexample remains compatible.
 
-There is one wording clarification to the producer's general inequality:
-**both L and q must be even**. The actual application uses q = 8 and is valid.
+The producer's general inequality needs one wording clarification.
+**Both L and q must be even**. The actual application uses q = 8 and is valid.
 No numerical producer file or frozen I/P witness was edited.
 
 ## 1. Model and all-integer transfer construction
@@ -92,7 +92,7 @@ contraction applies that rotation on precisely one seam, so
     Z_g(L; beta,a) = Tr(U_g X^L),    every integer L >= 2,
 
 up to an inverse convention that has no effect here. Pi representatives are
-conjugate rotations; the two 2pi/3 inverse classes have identical physical
+conjugate rotations. The two 2pi/3 inverse classes have identical physical
 traces, also seen from the real structure of this representation.
 
 A4 has irreducibles 1, 1', 1'', 3. Write I, O, O-bar, N for their self-adjoint
@@ -111,7 +111,7 @@ I union O union O. Then J is the D2-trivial spectrum and
     Z_P(k)        = J_k - N_k.
 
 All sector spectra have finite second, hence finite fourth, absolute moments.
-These are actual compact-operator spectral lists; arbitrary rationally
+These are actual compact-operator spectral lists. Arbitrary rationally
 weighted moment measures must not be substituted in the attainment argument.
 
 ## 2. Positivity, compactness, and leading multiplicities
@@ -156,10 +156,10 @@ therefore attained by a positive I atom (or a positive J atom using I/P only).
 No assertion about leading multiplicity follows. At nonzero leading radius r,
 there are finitely many eigenvalues at +r and -r. Dominated convergence shows
 that an odd-sector trace divided by r^k tends to m_+ - m_-. Positivity forces
-m_+ >= m_-, but equality is possible: the leading odd terms may cancel while
+m_+ >= m_-, but equality is possible. The leading odd terms may cancel while
 smaller atoms keep the odd trace positive. For example J = {1,-1,1/2}, N empty
 has strictly positive I/P traces at all lengths, but both signs attain the
-norm. Nontrivial sectors may also tie: I = {1,1}, O = {1}, N = {1} gives
+norm. Nontrivial sectors may also tie. For example, I = {1,1}, O = {1}, N = {1} gives
 Z_identity = 7, Z_P = 3, Z_C = 1 at every length. Thus neither strict dominance
 over other sectors nor a unique leading atom may be inferred.
 
@@ -193,7 +193,7 @@ rho = exp(-41/12500), and multiplies its kth moment by rho^k. Therefore
 The old U8 is a conservative valid upper bound at the target normalization.
 The verifier additionally encloses both exponential factors by exact rational
 Taylor bounds. Those enclosures are not necessary for the conservative
-inequality; their purpose is to independently verify the normalization.
+inequality. Their purpose is to independently verify the normalization.
 
 The producer used a floating exponential/logarithm only to propose a rational
 millionth ell. This is harmless because acceptance is the exact Fraction
@@ -216,18 +216,18 @@ residual-validated enclosure, not an order-9/10 Ritz estimate.
 The original finite-spectrum validation assumptions are preserved in
 [ARCHIVE_VALIDATION.md](inputs/ARCHIVE_VALIDATION.md), including IEEE-754 and
 interval-inclusion assumptions. They were not replaced by a claim of an
-exact-integer heat-trace recomputation. This atom argument needs only L8 I;
-it does not use any unverified order-9/10 moments or a computed C trace.
+exact-integer heat-trace recomputation. This atom argument needs only L8 I. 
+It does not use any unverified order-9/10 moments or a computed C trace.
 
 ### D124 variational certificate
 
 The original D124 certificate and results summary agree exactly. Its integer
 tensor and block text match both the certificate hashes and original archive
-manifest:
+manifest, with the following identities.
 
-- Tensor: `f82ed6c2160a25fae642b4dcde05ed3fa4e841acc92b4e5f66293159890b54dd`
-- Exact block text: `cf79dc8f5723e180e49d506a2cfd00b8488be3f6f065e1f2e594b05391312c5d`
-- Original Arb certificate: `2b7632e1f8040a5e48db77af5c0051a93636d83d48cd6d57a327b99d775c5b3e`
+- Tensor hash is `f82ed6c2160a25fae642b4dcde05ed3fa4e841acc92b4e5f66293159890b54dd`
+- Exact block text hash is `cf79dc8f5723e180e49d506a2cfd00b8488be3f6f065e1f2e594b05391312c5d`
+- Original Arb certificate hash is `2b7632e1f8040a5e48db77af5c0051a93636d83d48cd6d57a327b99d775c5b3e`
 
 The witness is a single periodic MPS with virtual bond dimension D=124. Its
 norm transfer acts on D^2=15376 dimensions, split into highest-weight blocks
@@ -256,7 +256,7 @@ principle gives E0(L) <= L e_trial(L) <= L e_upper. Hence
 
 This conclusion needs only the exact positive exponent, not a rounded
 exponential. As an additional check the verifier constructs rational lower
-bounds on exp[beta L delta_L]; their displays are approximately 1.0479057126,
+bounds on exp[beta L delta_L]. Their displays are approximately 1.0479057126,
 1.0176351242, 1.0344928389, 1.0701753314 for L=128,256,512,1024. These stronger
 numbers are not used in the four producer exclusions.
 
@@ -266,8 +266,8 @@ provenance check, not an independent derivation of those numerical inputs.
 
 ## 5. Portable exact replay and optional original contraction
 
-The minimal review is entirely self-contained and requires Python 3.11+
-standard library only:
+The minimal review is entirely self-contained and requires only the Python 3.11+
+standard library. Run the following commands.
 
     cd research_20261010/spin2_positivity_review
     OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python independent_audit.py
@@ -277,7 +277,7 @@ CPU limit. The observed runtime was about 1.2 seconds. It imports no producer
 module, invokes no eigensolver, performs no new MPS matrix powers, and computes
 no new heat trace. Results are in [audit_results.json](audit_results.json) and
 [run.log](run.log). An optional `--archive /path/to/extracted/archive` rehashes
-the original files as well; the original-source run is preserved separately.
+the original files as well. The original-source run is preserved separately.
 
 The 54,961,019-byte block text is bundled as a deterministic gzip stream split
 into 12 ordered parts, each at most 2 MiB, in
@@ -289,20 +289,20 @@ The verifier checks every part and streams their concatenation through gzip,
 checking the decompressed SHA-256, byte count, integer entries, and block
 dimensions. It requires no external private path, reassembled gzip, or
 uncompressed copy. No duplicate full gzip or block file is shipped.
-To extract the block file explicitly:
+To extract the block file explicitly, run the following commands.
 
     cat inputs/blocks_gzip_parts/part-*.gzpart | gzip -dc > improved124_exact_blocks.txt
     sha256sum improved124_exact_blocks.txt
 
-Optional reassembly of the compressed stream itself:
+The compressed stream itself can optionally be reassembled with the following commands.
 
     cat inputs/blocks_gzip_parts/part-*.gzpart > improved124_exact_blocks.txt.gz
     sha256sum improved124_exact_blocks.txt.gz
 
 For a **fresh original Arb contraction**, which this review did not run, use a
 separate directory and the preserved original verifier. Python-flint/Arb is
-required; the archive used python-flint 0.9.0. This optional operation is larger
-than the scalar replay and should retain one numerical thread:
+required. The archive used python-flint 0.9.0. This optional operation is larger
+than the scalar replay and should retain one numerical thread, as in the following commands.
 
     mkdir -p /tmp/spin2_mps_replay
     cat inputs/blocks_gzip_parts/part-*.gzpart | gzip -dc > /tmp/spin2_mps_replay/improved124_exact_blocks.txt
@@ -315,7 +315,7 @@ certificate, and README are included. The original full archive manifest is
 also included, with SHA-256
 `92c2cb80c718e5daf5c6e78a0dcddd220b643b5b974c9924b2699d2ab6953e1a`.
 It authenticates the included original-file hashes relative to that recovered
-archive; a self-contained manifest is not external proof of authenticity.
+archive. A self-contained manifest is not external proof of authenticity.
 
 ## 6. What remains open
 
@@ -329,7 +329,7 @@ or cross-temperature information, or a demonstrably stronger scalar method,
 would be needed. This audit provides no reason to launch an expensive
 higher-order heat-trace campaign.
 
-The active tree is an exported workspace without `.git`; no branch or commit
+The active tree is an exported workspace without `.git`. No branch or commit
 was invented. The root README records the resumed source commit. All files
 written by this audit are confined to this review directory, and no frozen
 producer artifact was edited.

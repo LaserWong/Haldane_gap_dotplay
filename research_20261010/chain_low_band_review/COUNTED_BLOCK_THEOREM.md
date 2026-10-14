@@ -20,7 +20,7 @@ lambda_(r+1)(H)>=c.
 
 No assumption is made about a_j<c, lambda_j(H)<c, separation of an r-level physical band, or the accuracy of P as a trial subspace.
 
-Proof by Hermitian comparison. The exact off-diagonal block is retained:
+Proof by Hermitian comparison. The exact off-diagonal block is retained in the following comparison.
 
 H >= L := [[A, B*], [B, c I_Q]].
 
@@ -59,12 +59,12 @@ H'>=(1-g)sum_i h_i-4g I.
 
 For 0<=g<=1, therefore QH'Q>=(2-6g)I_Q. The producer conservatively uses b=g+10^-12 and a=g/2 in the local inequality, giving c=2-6g-4*10^-12. Its strict local positivity and all 81 LDL pivots are independently checked for every candidate.
 
-The orthonormal P-compression and full residual Gram B*B are simultaneously diagonal in the vacuum and triplet momentum basis. They are reconstructed from all 13 exact columns, including every H-applied state outside P. The eigenchannels are:
+The orthonormal P-compression and full residual Gram B*B are simultaneously diagonal in the vacuum and triplet momentum basis. They are reconstructed from all 13 exact columns, including every H-applied state outside P. The eigenchannels are listed below.
 
-- Vacuum: a=0, v=(16/3)g^2, multiplicity 1.
-- Triplet k=0: a=1-(4/3)g, v=6g^2, multiplicity 3.
-- Triplet k=+pi/2 or -pi/2: a=1, v=(32/9)g^2, total multiplicity 6.
-- Triplet k=pi: a=1+(4/3)g, v=(14/3)g^2, multiplicity 3.
+- For the vacuum, a=0, v=(16/3)g^2, multiplicity 1.
+- For the triplet k=0, a=1-(4/3)g, v=6g^2, multiplicity 3.
+- For the triplet k=+pi/2 or -pi/2, a=1, v=(32/9)g^2, total multiplicity 6.
+- For the triplet k=pi, a=1+(4/3)g, v=(14/3)g^2, multiplicity 3.
 
 The review reconstructs G, K=P*VP, J=P*V^2P and R=J-KG^-1K in the rational unnormalized dimer basis. All 169 entries in each full matrix are compared, so no off-diagonal residual term is dropped. The matrix R is converted with the exact Gram weights, rather than silently treating integer Clebsch-Gordan columns as normalized. The unit strong term preserves P, so it contributes no off-diagonal residual.
 
@@ -72,13 +72,13 @@ At the five discrete candidate couplings, exact arithmetic verifies the ordering
 
 ## 3. Counted thermal upper bound without overlap
 
-Let e_-<=E_0(H_4)<=rho be an independently certified full-space ground interval. The old local comparison and its full-space second-eigenvalue cutoff establish uniqueness and the validity of its Temple lower endpoint. The exact root ordering shows that the vacuum comparison root is the first ordered level. Its crude root is replaced by e_-+8; no other ordered level is removed or relabeled.
+Let e_-<=E_0(H_4)<=rho be an independently certified full-space ground interval. The old local comparison and its full-space second-eigenvalue cutoff establish uniqueness and the validity of its Temple lower endpoint. The exact root ordering shows that the vacuum comparison root is the first ordered level. Its crude root is replaced by e_-+8. No other ordered level is removed or relabeled.
 
 The complete weighted-reference multiplicities d_e are coefficients of
 
 (1+3x+5x^3)^4.
 
-They sum to 6561, with d_0=1 and d_1=12. For the producer local comparison, alpha=1-g and B=4(g+10^-12), the ordered full-space reference inequality gives lambda_j(H')>=alpha*e_j-B at every ordered index j. The first 13 indices have reference energies 0 or 1; every remaining index has e_j>=2. Therefore, for beta>0,
+They sum to 6561, with d_0=1 and d_1=12. For the producer local comparison, alpha=1-g and B=4(g+10^-12), the ordered full-space reference inequality gives lambda_j(H')>=alpha*e_j-B at every ordered index j. The first 13 indices have reference energies 0 or 1. Every remaining index has e_j>=2. Therefore, for beta>0,
 
 exp(beta*rho) Z_4(beta)
  <= exp[beta(rho-e_-)]
@@ -91,13 +91,13 @@ The lower roots are enclosed downward using a rational upper bound on each squar
 
 ## 4. Ground normalization and all-integer continuation
 
-The normalization uses the certified small-patch rho4 without changing the physical Hamiltonian. The M8 Rayleigh quotient rho8 is rebuilt as a rational evaluation of the previously independently certified two-vector Gram/strong/weak matrix. Thus only the M8 first moment is needed; no M8 residual or omitted-band completeness is inferred.
+The normalization uses the certified small-patch rho4 without changing the physical Hamiltonian. The M8 Rayleigh quotient rho8 is rebuilt as a rational evaluation of the previously independently certified two-vector Gram/strong/weak matrix. Thus only the M8 first moment is needed. No M8 residual or omitted-band completeness is inferred.
 
 For J=Z8(2beta)/Z4(beta)^4 and C=Z8(2beta)/Z4(2beta)^2, the numerator lower bound is exp[-2beta(rho8-2rho4)], divided by the appropriate fourth or second power of the new M4 upper trace. All shared energy shifts cancel exactly.
 
-At the initial basepoint (4,beta), J=S(4,beta)^2 T(8,beta). Since both actual purities are at most1 at the even spatial base, this gives simultaneously S>=sqrt(J_lower), T>=J_lower, and the retained joint lower bound S^2T>=J_lower. The already reviewed signed-transfer interpolation theorem therefore covers every integer 4<=M<=8, including odd sizes.
+At the initial basepoint (4,beta), J=S(4,beta)^2 T(8,beta). Since both actual purities are at most 1 at the even spatial base, this gives simultaneously S>=sqrt(J_lower), T>=J_lower, and the retained joint lower bound S^2T>=J_lower. The already reviewed signed-transfer interpolation theorem therefore covers every integer 4<=M<=8, including odd sizes.
 
-Subsequent time-first cycles, retained joint conversion, canonical cycles, all finite windows, and the final all-integer asymptotic theorem are reused from the sealed independent joint-ratio review. The new audit replays every saved path with the new trace. Consecutive windows start at 8 and end at the exact asymptotic onset; the additional [4,8] window bridges to them. Finally the product-singlet trial and the same local form comparison give
+Subsequent time-first cycles, retained joint conversion, canonical cycles, all finite windows, and the final all-integer asymptotic theorem are reused from the sealed independent joint-ratio review. The new audit replays every saved path with the new trace. Consecutive windows start at 8 and end at the exact asymptotic onset. The additional [4,8] window bridges to them. Finally the product-singlet trial and the same local form comparison give
 
 Delta_M >= 1-(M+1)g-M*10^-12, M=2,3.
 

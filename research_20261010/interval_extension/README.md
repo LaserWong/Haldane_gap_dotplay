@@ -13,16 +13,16 @@ at least .002006633957. Together with the sealed earlier result, this gives
 - [Reconstructed source provenance](source_validation.json)
 - [Filter algebra tests](test_results.json)
 
-Only one ground contribution is retained on each patch. Largest full Hilbert
-space: 2^128. Original trial dimensions: 11/29/29. The single implicit filtered
+Only one ground contribution is retained on each patch. The largest full Hilbert
+space has dimension 2^128. The original trial dimensions are 11/29/29. The single implicit filtered
 largest vector has q≤6 and lies in an enlarged space of dimension at most 30.
-The extension uses the existing largest full second moment; it does not retain
+The extension uses the existing largest full second moment. It does not retain
 the older first-moment-only input restriction. No higher moments, large state
 expansion, new geometry contraction, or full diagonalization were computed.
 
-Reproduce from the repository root:
+Reproduce from the repository root with the following command.
 
     bash research_20261010/interval_extension/REPRODUCE.sh
 
-Every old sealed file remains untouched. This is a local candidate package;
-no remote publication or claim of completed independent audit is made here.
+Every old sealed file remains untouched. This is a local candidate package. 
+No remote publication or claim of completed independent audit is made here.

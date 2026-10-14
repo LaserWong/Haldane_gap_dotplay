@@ -1,1 +1,8 @@
-Independent acceptance of the complete43D8x4 H² matrix and all coupling-polynomial coefficients. All784 missing-block entries checked by an independent full support pass. No new ground endpoint or all-size gap is claimed. See ACCEPTANCE.json and PROOF.md; REPRODUCE.sh rebuilds and repeats the independent complete pass.
+# Independent review of the complete second-moment matrix
+
+The review accepts the complete 43D 8x4 H² matrix and all coupling-polynomial coefficients.
+An independent full-support pass checked all 784 missing-block entries.
+This establishes no new ground endpoint or all-size gap.
+
+`ACCEPTANCE.json` records the verdict and `PROOF.md` gives the proof.
+`REPRODUCE.sh` rebuilds the result and repeats the independent complete pass.

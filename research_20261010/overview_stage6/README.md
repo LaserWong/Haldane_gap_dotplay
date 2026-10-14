@@ -1,6 +1,6 @@
-# Certified results and dimension accounting: stage6
+# Certified results and dimension accounting for stage 6
 
-Snapshot generated **2026-10-10T19:18:08.857188+00:00**. This new folder preserves the [earlier sealed overview](../overview/README.md) unchanged and adds only independently sealed reviews. It is an exact-data extraction and static visualization, not a new spectral audit or eigensolver run.
+This snapshot was generated at **2026-10-10T19:18:08.857188+00:00**. The folder preserves the [earlier sealed overview](../overview/README.md) unchanged and adds only independently sealed reviews. It provides an exact-data extraction and static visualization. No new spectral audit or eigensolver run was performed.
 
 ![Certified parameter points and intervals](certified_bounds.png)
 
@@ -69,7 +69,7 @@ The largest filtered numerator uses the existing **G/K/J full second-moment info
 
 ### Genuine continuous coupling coverage
 
-For **every 0≤g≤0.078** and **every integer L≥2**, the certified uniform gap is
+For **every 0≤g≤0.078** and **every integer L≥2**, the certified uniform gap obeys
 
 **Δ ≥ 0.001945771244**.
 
@@ -161,13 +161,13 @@ The chain and FF dimension records remain available alongside these bilayer reco
 
 This snapshot contains **164 exact certificate rows**, **80 dimension records**, **125 direct source hashes**, and **9 verified review manifests**. All original 62 certificate rows remain in the data. [Provenance](PROVENANCE.md) lists accepted manifest hashes. The main figure chooses the strongest accepted isolated certificate per parameter, not an inferred optimal certificate among all possible constructions.
 
-From the repository root:
+Run the following command from the repository root.
 
 ```sh
 bash research_20261010/overview_stage6/REPRODUCE.sh
 ```
 
-Replay first verifies the stage6 manifest, every selected source SHA-256, all selected independent review manifests, every exact primary-gap JSON pointer, decimal downward rounding, full Hilbert counts, all 31 exact adjacent closed pieces, and the uniform interval minimum. It renders the three figures to a temporary directory, compares all six PNG/PDF files byte for byte with the frozen outputs, and verifies the frozen manifest again. It writes no replacement into this overview, the earlier overview, or the review folders.
+Replay first verifies the stage 6 manifest, every selected source SHA-256, all selected independent review manifests, every exact primary-gap JSON pointer, decimal downward rounding, full Hilbert counts, all 31 exact adjacent closed pieces, and the uniform interval minimum. It renders the three figures to a temporary directory, compares all six PNG/PDF files byte for byte with the frozen outputs, and verifies the frozen manifest again. It writes no replacement into this overview, the earlier overview, or the review folders.
 
 The plotter pins itself to one allowed CPU, sets single-thread numerical-library variables, and caps address space at **1 GiB**. Python 3.12 and Matplotlib 3.10.8 were used. This is an integrity and extraction replay of existing independently reviewed results. It does not rerun each mathematical proof, full physical audit, or eigensolver. Those reviews retain their own reproduction scripts.
 

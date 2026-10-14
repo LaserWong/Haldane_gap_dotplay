@@ -1,7 +1,7 @@
-# Extend coverage to26
+# Uniform-chain coverage from L26
 
-2026-10-10 22:29 EDT / 2026-10-11 02:29 UTC. Exact producer result; review pending.
+2026-10-10 22:29 EDT / 2026-10-11 02:29 UTC. This exact producer result awaits review.
 
-Gap>=.0023 with unique ground state for EVERY integerL>=26. Exact parity-dependent certificates cover26 and27; the frozen n28 result covers the rest. Bootstrap initialization remains30. Stronger bounds from28/32/34 are retained.
+The length-resolved certificates give a unique ground state and gap≥.0023 for every integer L≥26. Parity-dependent checks cover 26 and 27, and the frozen n28 result covers larger lengths. Bootstrap initialization remains 30. Stronger bounds starting at 28/32/34 are retained.
 
-The full26..52 uniform-window attempt failed; the length-dependent refinement succeeds. See PROOF.md, certificate.json (failed uniform attempt), and length_resolved_certificate.json (positive result). Replay python certify.py; python certify_missing_lengths.py. No n24 run or minimum-seed claim.
+A uniform-window attempt over 26..52 failed before the length-dependent refinement succeeded. `PROOF.md` explains the distinction. `certificate.json` preserves the failed attempt, and `length_resolved_certificate.json` records the positive result. Replay with `python certify.py` followed by `python certify_missing_lengths.py`. No n24 calculation or minimum-seed claim is included.

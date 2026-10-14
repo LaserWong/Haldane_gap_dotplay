@@ -1,16 +1,16 @@
 # Certified coupling and trial-space overview
 
-Snapshot: **10 October 2026, 14:42 EDT / 18:42 UTC**. Static figures and exact data for the three active model families. This folder summarizes existing reviewed evidence; its extraction and plotting scripts do not run a new spectral audit or eigensolver.
+Snapshot dated **10 October 2026, 14:42 EDT / 18:42 UTC**. Static figures and exact data for the three active model families. This folder summarizes existing reviewed evidence. Its extraction and plotting scripts do not run a new spectral audit or eigensolver.
 
 ![Certified bounds](certified_bounds.png)
 
 [Vector PDF](certified_bounds.pdf) · [Exact bounds CSV](certified_bounds.csv) · [Complete JSON with source hashes](overview_data.json)
 
-## What is certified
+## Certified model families
 
-Strong bonds of the alternating spin-1 chain and rungs of both spin-1/2 bilayers have coupling **1**. Boundaries are periodic, retaining the specified positive-direction adjacency multiplicities at size two. Chain statements cover **every integer two-spin cell count M ≥ 2**; bilayer statements cover **every integer square side L ≥ 2**. Each certificate includes a unique finite-volume ground state.
+Strong bonds of the alternating spin-1 chain and rungs of both spin-1/2 bilayers have coupling **1**. Boundaries are periodic, retaining the specified positive-direction adjacency multiplicities at size two. Chain statements cover **every integer two-spin cell count M ≥ 2**. Bilayer statements cover **every integer square side L ≥ 2**. Each certificate includes a unique finite-volume ground state.
 
-Displayed numbers are rounded **down** to 12 decimal places. Full exact fractions are in the CSV/JSON. The gaps are sufficient lower bounds, not physical-gap estimates. The main chart shows the strongest reviewed point in this selected dataset at each coupling; older certified variants remain in the data. Each isolated point stands alone; no intervening parameter interval or physical phase boundary is inferred. Models and vertical plot scales are separate. Different certificate constructions across g can produce nonmonotone lower bounds; this does not establish an increase in the physical gap. The g = 0.01 and 0.02 points retain their existing certificates.
+Displayed numbers are rounded **down** to 12 decimal places. Full exact fractions are in the CSV/JSON. The gaps are sufficient lower bounds, not physical-gap estimates. The main chart shows the strongest reviewed point in this selected dataset at each coupling. Older certified variants remain in the data. Each isolated point stands alone. No intervening parameter interval or physical phase boundary is inferred. Models and vertical plot scales are separate. Different certificate constructions across g can produce nonmonotone lower bounds. This does not establish an increase in the physical gap. The g = 0.01 and 0.02 points retain their existing certificates.
 
 | Chain weak g | Gap lower bound |
 |---:|---:|
@@ -22,7 +22,7 @@ Displayed numbers are rounded **down** to 12 decimal places. Full exact fraction
 | 0.161 | 0.001952374069 |
 | 0.16125 | 0.001075806295 |
 
-Sources: [baseline audit](../../audit/independent/certificate_s1_W1_g1d20_k0_audit.json), [chain proof](../chain_audit/CHAIN_CERTIFICATE_PROOF.md), [independent frontier proof](../chain_frontier_review/FRONTIER_PROOF.md).
+The sources are [baseline audit](../../audit/independent/certificate_s1_W1_g1d20_k0_audit.json), [chain proof](../chain_audit/CHAIN_CERTIFICATE_PROOF.md), [independent frontier proof](../chain_frontier_review/FRONTIER_PROOF.md).
 
 | Ordinary bilayer in-layer g, no crossed exchanges | Gap lower bound |
 |---:|---:|
@@ -33,15 +33,15 @@ Sources: [baseline audit](../../audit/independent/certificate_s1_W1_g1d20_k0_aud
 | 0.05 | 0.171822115684 |
 | 0.06 | 0.103487228301 |
 
-Sources: [optimized baseline audit](../bilayer_audit/PROOF.md), [physical large-seed review](../large_seed_review/REVIEW.md), [sector-Temple review](../temple_variant_review/REVIEW.md), and the new [whole-spectrum-tail/order recombination review](../tail_comparison_review/REVIEW.md). All displayed g = 0.03 through 0.06 statements are **isolated parameter points**, with every integer L ≥ 2 covered by exact small-size and finite-window bridges.
+The sources are [optimized baseline audit](../bilayer_audit/PROOF.md), [physical large-seed review](../large_seed_review/REVIEW.md), [sector-Temple review](../temple_variant_review/REVIEW.md), and the new [whole-spectrum-tail/order recombination review](../tail_comparison_review/REVIEW.md). All displayed g = 0.03 through 0.06 statements are **isolated parameter points**, with every integer L ≥ 2 covered by exact small-size and finite-window bridges.
 
 The latest four points use the quadratic-boson reference tail and the **txy** update order, followed by exact transport to the canonical spatial/thermal staircase. Temperature is not relabeled as a spatial direction. The physical finite Hilbert count and oscillator reference overcount are kept separate. The same physical seed family remains 4×4, 8×4, and 8×8 rungs.
 
-All **35 independently accepted tail/order combinations** are preserved in CSV/JSON, with explicit `tail_variant`, `bootstrap_order`, exact inverse temperature, and all-size gap. Earlier angle-based and sector-Temple certificates also remain in the data. Main-figure selection uses the strongest accepted bound per coupling; it does not infer a continuous coupling interval or an optimal bound.
+All **35 independently accepted tail/order combinations** are preserved in CSV/JSON, with explicit `tail_variant`, `bootstrap_order`, exact inverse temperature, and all-size gap. Earlier angle-based and sector-Temple certificates also remain in the data. Main-figure selection uses the strongest accepted bound per coupling. It does not infer a continuous coupling interval or an optimal bound.
 
-[All three-order comparisons](tail_order_comparison.csv) and [fixed-order, fixed-temperature tail gains](fixed_order_tail_gains.csv) are also available. For each of the four best txy comparisons, all three tail families use the same initial temperature. The quadratic-reference gain over the original tail is respectively **0.000203996802, 0.000672444847, 0.001267273105, 0.003931359961**; larger gains relative to earlier canonical-only results also include the order change.
+[All three-order comparisons](tail_order_comparison.csv) and [fixed-order, fixed-temperature tail gains](fixed_order_tail_gains.csv) are also available. For each of the four best txy comparisons, all three tail families use the same initial temperature. The quadratic-reference gain over the original tail is respectively **0.000203996802, 0.000672444847, 0.001267273105, 0.003931359961**. Larger gains relative to earlier canonical-only results also include the order change.
 
-Two earlier g = 0.03 certificates remain in the data: **0.009195338283** from the [frozen small-seed review](../low_band_review/README.md), and **0.011205710127059** from its now [independently audited eight-round continuation and all-size bridge](../root_review/large_seed_bridges/PROOF.md). Neither is pending; both are superseded in the main chart.
+Two earlier g = 0.03 certificates remain in the data, namely **0.009195338283** from the [frozen small-seed review](../low_band_review/README.md), and **0.011205710127059** from its now [independently audited eight-round continuation and all-size bridge](../root_review/large_seed_bridges/PROOF.md). Neither is pending. Both are superseded in the main chart.
 
 For the near-fully-frustrated (FF) bilayer, **J = 0.3**, straight exchanges are **J + ε**, and crossed exchanges are **J**.
 
@@ -53,9 +53,9 @@ For the near-fully-frustrated (FF) bilayer, **J = 0.3**, straight exchanges are 
 | 0.008 | 0.008498663753 | Root scalar size bridge on audited physical inputs |
 | 0.0085 | 0.001984903734 | Root scalar size bridge on audited physical inputs |
 
-Sources: [FF point certificates](../nonperturbative_audit/EPSILON_FRONTIER.md), [later root size bridge](../root_review/FF_FRONTIER_BRIDGE.md). Orange triangles preserve the latter evidence distinction. At ε = 0, the separate [analytic reference theorem](../../two_d_theory/NONPERTURBATIVE_MODELS.md) gives the plotted uniform bound 2/5, even for all periodic rectangles nx, ny ≥ 2. The actual square gap for L ≥ 3 is 1; that stronger size-restricted value is not plotted.
+The sources are [FF point certificates](../nonperturbative_audit/EPSILON_FRONTIER.md), [later root size bridge](../root_review/FF_FRONTIER_BRIDGE.md). Orange triangles preserve the latter evidence distinction. At ε = 0, the separate [analytic reference theorem](../../two_d_theory/NONPERTURBATIVE_MODELS.md) gives the plotted uniform bound 2/5, even for all periodic rectangles nx, ny ≥ 2. The actual square gap for L ≥ 3 is 1. That stronger size-restricted value is not plotted.
 
-The horizontal green segments are **genuine independently reviewed uniform interval theorems**:
+The horizontal green segments are **genuine independently reviewed uniform interval theorems** listed below.
 
 | Entire ε interval | Uniform gap lower bound |
 |---|---:|
@@ -65,7 +65,7 @@ The horizontal green segments are **genuine independently reviewed uniform inter
 | [0, 0.0085] | 0.001703099464 |
 | [0, 0.00855] | 0.000768515509 |
 
-The first three use one product trial: [original interval review](../nonperturbative_audit/INTERVAL_INDEPENDENT_REVIEW.md). The extensions combine seven exactly adjacent closed pieces, using fixed rational Ritz vectors for the six new pieces: [continuous-extension independent review](../epsilon_interval_review/INDEPENDENT_REVIEW.md). The widest interval is **not** a one-product-trial theorem. Segment length denotes its proved continuum interval.
+The first three use one product trial, as established in the [original interval review](../nonperturbative_audit/INTERVAL_INDEPENDENT_REVIEW.md). The extensions combine seven exactly adjacent closed pieces, using fixed rational Ritz vectors for the six new pieces, as established in the [continuous-extension independent review](../epsilon_interval_review/INDEPENDENT_REVIEW.md). The widest interval is **not** a one-product-trial theorem. Segment length denotes its proved continuum interval.
 
 ## Trial-space accounting
 
@@ -73,30 +73,30 @@ The first three use one product trial: [original interval review](../nonperturba
 
 [Vector PDF](trial_space_counts.pdf) · [46 seed-level dimension records](trial_dimensions.csv)
 
-- Full Hilbert dimension counts every physical state: 9^M for the chain and 4^(nx ny) for a bilayer patch.
+- Full Hilbert dimension counts every physical state, giving 9^M for the chain and 4^(nx ny) for a bilayer patch.
 - Retained low-band count is the number of states whose enclosures enter the heat trace. The largest new ordinary-bilayer patch has **64 rungs, 128 physical spins, full dimension 2^128 = 340282366920938463463374607431768211456**, and a **193 = 1 + 3×64** state retained band.
-- Its compressed ground proposal has **29 vectors**. Each localized translated triplet column has **373 configurations**, reaching **67,755** under H; 64 translations and exact spin multiplicity three produce the 192 excited directions. These per-column support counts are separate from the ground basis and complete retained band. Distinct CSV/JSON fields preserve these meanings.
+- Its compressed ground proposal has **29 vectors**. Each localized translated triplet column has **373 configurations**, reaching **67,755** under H. 64 translations and exact spin multiplicity three produce the 192 excited directions. These per-column support counts are separate from the ground basis and complete retained band. Distinct CSV/JSON fields preserve these meanings.
 - The FF interval's largest patch has 32 physical spins, full dimension 4,294,967,296, and uses one retained vector from a **377-coordinate** proposal on each extension piece. The displayed final-piece vector has full-action support **21,345**. The old one-product construction through ε = 0.00475 remains separately recorded.
 - Coordinate-proposal rows use the selected coordinate-basis size as their expanded support capacity, not a count of nonzero coefficients. Unrecorded counts are null, never zero.
 - The chain's largest accepted M = 8 proposal grows from **453** coordinates at g = 0.10 to **5,205** at g = 0.125 and **43,294** at the sampled g = 0.15, 0.16, 0.161, and 0.16125. One vector is retained. These are successful tested constructions, not lower bounds on all possible ansätze.
 - None of these dimensions is an MPS bond dimension. The project's separate uniform spin-1-chain D = 26 route is not one of these three models and is not inserted into these counts.
 
-A small residual alone does not certify a complete band or exclude missing low states; the linked audits supply full-Hilbert counting and spectral-tail arguments.
+A small residual alone does not certify a complete band or exclude missing low states. The linked audits supply full-Hilbert counting and spectral-tail arguments.
 
 ## Pending results and failures remain separate
 
-[Unplotted status CSV](unplotted_status.csv) separates:
+[Unplotted status CSV](unplotted_status.csv) separates the following cases.
 
 - Independently reviewed **recipe obstructions** at chain g = 0.1615, 0.1625, and 0.175. They exclude the stated ground-only/dimer-bin-tail/G-recursion family for all β and allowed local comparison parameters, not physical gapped phases or every possible method.
 - FF failed finite grids at ε = 0.009, 0.01, 0.0125, 0.015, 0.02. A failed grid is not an all-temperature theorem.
-- The original-tail xyt proposal grid has no accepted g = 0.06 seed; the other reviewed orders/tails do certify this coupling. This grid result is not assigned gap zero.
+- The original-tail xyt proposal grid has no accepted g = 0.06 seed. The other reviewed orders/tails do certify this coupling. This grid result is not assigned gap zero.
 The eight-round scalar continuation, larger angle-based certificates, rank-one sector-Temple improvement, and the new tail/order recombinations are all independently accepted in this snapshot. Reduced-band experiments and unreviewed numerical variants are omitted.
 
 No failure is encoded or plotted as a zero physical gap. No optimal coupling or infinite-volume uniqueness claim is added.
 
 ## Reproduce and verify
 
-Python 3.12 and Matplotlib 3.10.8 were used. From the repository root:
+Python 3.12 and Matplotlib 3.10.8 were used. From the repository root, run the following commands.
 
 ```sh
 python research_20261010/overview/plot_overview.py --check-only
@@ -105,13 +105,13 @@ python research_20261010/overview/plot_overview.py
 
 The plotter verifies all selected source SHA-256 hashes and every exact primary-gap JSON pointer before rendering. It pins itself to one allowed CPU, sets single-thread BLAS variables, and caps address space at 1 GiB. It writes only the PNG/PDF files and `validation.json` in this folder, plus a temporary plotting cache. It does not recompute the mathematical proofs.
 
-To re-extract this explicitly selected claim set after reviewing source changes:
+To re-extract this explicitly selected claim set after reviewing source changes, run the following commands.
 
 ```sh
 python research_20261010/overview/build_overview.py
 python research_20261010/overview/plot_overview.py
 ```
 
-`build_overview.py` and `extend_overview.py` are transparent selectors, not automatic claim-promotion rules. Review their statuses and this README before refreshing a later snapshot. `requirements-plot.txt` records the plotting dependency. `review_acceptance_snapshot.json` records the independently checked large-seed, Temple, and recombination manifests at acceptance. `SHA256SUMS.json` fingerprints the deliverables; `VISUAL_QA.md` records rendered-image inspection.
+`build_overview.py` and `extend_overview.py` are transparent selectors, not automatic claim-promotion rules. Review their statuses and this README before refreshing a later snapshot. `requirements-plot.txt` records the plotting dependency. `review_acceptance_snapshot.json` records the independently checked large-seed, Temple, and recombination manifests at acceptance. `SHA256SUMS.json` fingerprints the deliverables. `VISUAL_QA.md` records rendered-image inspection.
 
 The supplied tree has no `.git` metadata. Project source commit `6be889a30f642bde77fb89af75b3a7379615bed1` is reported context, not a locally verified checkout identity. No GitHub write was performed.

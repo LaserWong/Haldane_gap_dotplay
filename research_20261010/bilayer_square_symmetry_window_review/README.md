@@ -1,3 +1,5 @@
-# Square-isotropic direct-window proof review
+# Square-isotropic direct-window proof
 
-The stronger window factor and basepoint-aware closure are accepted as mathematical statements. Read PROOF.md for all geometry/temperature labels, parity gates and full-cycle recurrence. This package makes no numericalg=.11 claim and performs no floating search or physical contraction. Run `sh REPRODUCE.sh` for exact symbolic/basepoint fixtures, under1 CPU second.
+The review accepted the stronger window factor and closure that accounts for the starting geometry. PROOF.md specifies the geometry and temperature labels, parity conditions and full-cycle recurrence.
+
+This package contains no numerical g=.11 result, floating-point search or physical contraction. `sh REPRODUCE.sh` runs the exact symbolic and starting-geometry fixtures in under 1 CPU second.

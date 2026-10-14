@@ -2,9 +2,7 @@
 
 2026-10-10 14:26 America/New_York / 18:26 UTC.
 
-This is a separate proposed theorem extending the hard-core embedding in
-`../bosonic_tail/BOSONIC_COMPARISON.md`. It does not modify any existing physical
-input or released certificate. Independent review is required.
+The hard-core embedding in `../bosonic_tail/BOSONIC_COMPARISON.md` leads to a proposed comparison for the entire ordered spectrum. The argument below leaves the existing physical inputs and released certificates unchanged and requires independent review.
 
 ## 1. Physical operator and compression
 
@@ -78,7 +76,7 @@ The full operator comparison after the Bogoliubov unitary is therefore
 Here Q_b is the ordinary total-number operator in the transformed oscillator
 basis. It is not the original physical triplet-number operator. In particular,
 this argument does not presume that the actual first D excited levels of L are
-all one-boson levels: varying frequencies can change their ordering. The
+all one-boson levels. Varying frequencies can change their ordering. The
 operator comparison with equal frequencies handles every ordered eigenvalue at
 once.
 
@@ -133,7 +131,7 @@ same physical omitted trace is bounded by the finite sum
 
     sum_(q=2)^N binomial(D+q-1,q) exp[-beta(E_b+q delta)].
 
-This finite truncation is justified by an ordered dimension count; it does not
+This finite truncation is justified by an ordered dimension count. It does not
 identify the physical subspace with q<=N after the Bogoliubov unitary. It may
 overcount some reference levels in its last bin, which only weakens the bound.
 The infinite formula remains valid and avoids any need for this truncation.
@@ -149,7 +147,7 @@ integer squares. Set E_b_lower=-v/(alpha+delta_lower). Then
 Consequently rational bins with these endpoints and the same bosonic
 multiplicities are rigorous. No floating diagonalization of K, no many-body
 spectrum, and no sparse-state construction are needed for these bins. Period-2
-normalization enters v through the squared combined edge weights; replacing
+normalization enters v through the squared combined edge weights. Replacing
 sum w_e^2 by sum w_e on such a graph would be wrong.
 
 For N=64, g=.06, alpha=.88, delta=sqrt(.76), v=.3456, this gives

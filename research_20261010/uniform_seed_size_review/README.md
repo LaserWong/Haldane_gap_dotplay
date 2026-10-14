@@ -1,7 +1,12 @@
-# Independent uniform-seed-size review
+# Independent review of uniform-chain seed-size exclusions
 
-Updated 2026-10-10 17:14 EDT / 21:14 UTC.
+Updated October 10, 2026, at 17:14 EDT / 21:14 UTC.
 
-**PASS for the fixed D26 one-Rayleigh recipe at tested n=6,8,10,12.** See [REVIEW.md](REVIEW.md) for scope, physical reconstruction, exact all-beta proof and provenance. These are certificate-input obstructions, not physical-purity or physical-gap bounds, and not an absolute minimum-seed theorem.
+The exclusions for the fixed D = 26 single-Rayleigh method passed independent review at n = 6, 8, 10, and 12.
+[REVIEW.md](REVIEW.md) gives the scope, physical reconstruction, exact all-temperature proof, and provenance.
+These exclusions concern the certificate inputs.
+They bound neither the physical purity nor the physical gap and do not establish an absolute minimum seed size.
 
-Run `bash REPRODUCE.sh` only in a disposable sibling copy if preserving the sealed timing metadata. The independent audit requires Python, C++ and GMP; it uses one CPU, at most 1 GiB address space, and no eigensolver.
+Run `bash REPRODUCE.sh` in a disposable sibling copy to preserve sealed timing metadata.
+The independent audit requires Python, C++, and GMP.
+It uses one CPU and at most 1 GiB of address space, without an eigensolver.

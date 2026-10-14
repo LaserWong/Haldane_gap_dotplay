@@ -1,34 +1,78 @@
-# 暂停检查点
+# Research checkpoint at the pause
 
-2026-10-10 16:25 UTC。按用户要求暂停，不再启动研究或计算。
+October 10, 2026, 16:25 UTC.
+Research and computation were paused at the user's request.
+The status recorded below refers to that checkpoint.
 
-## 已完成并可打包
+## Completed material
 
-- THEORY.md。二维三纯度递推、两个自伴转移结构、全部整数正方形尺寸插值、GNS 极限范围、解析双层及 spin-1 大 D 例子、两个条带推断障碍。
-- three_purity_certificate.py。纯 Python 标准库精确有理数指数、递推和能隙验收。
-- bilayer_seed_certificate.json、spin_one_seed_certificate.json。保守解析启动证书。
-- NONPERTURBATIVE_MODELS.md。全受挫双层 J=3/10 的一维精确试探空间及严格直接 gap，和同一三纯度框架的接入。
-- fully_frustrated_bilayer.py、fully_frustrated_one_trial_n2.json、fully_frustrated_one_trial_n4.json。零残差精确 ground trial 与包含全部未保留谱的二项式尾界。
-- PRIMARY_LITERATURE.md。已核验的原始 FF 和非 FF 方法对比。
-- GENERAL_DIMENSION.md。一般 d 维推导，已提交独立复核。比二维专用常数更保守。打包时需标记一般 d 维部分的独立审计状态，不能继承二维部分的已复核结论。
-- toy_checks.py、toy_checks.json。两个解析障碍的小尺寸浮点诊断。这些数值不参与能隙证明。
+- `THEORY.md` contains the two-dimensional three-purity recurrence, the two selfadjoint transfer constructions, interpolation to all integer square sizes, the scope of the GNS limit, analytic bilayer and spin-1 large-D examples, and two obstructions to strip-based inference.
+- `three_purity_certificate.py` implements exact rational exponential bounds, recurrence updates, and gap acceptance using only the Python standard library.
+- `bilayer_seed_certificate.json` and `spin_one_seed_certificate.json` contain conservative analytic seed certificates.
+- `NONPERTURBATIVE_MODELS.md` gives the exact one-dimensional trial space and rigorous direct gap for the fully frustrated bilayer at J=3/10, together with its use in the same three-purity framework.
+- `fully_frustrated_bilayer.py`, `fully_frustrated_one_trial_n2.json`, and `fully_frustrated_one_trial_n4.json` provide the exact zero-residual ground-state trial and a binomial tail bound covering the entire omitted spectrum.
+- `PRIMARY_LITERATURE.md` compares the checked primary sources for frustration-free and non-frustration-free methods.
+- `GENERAL_DIMENSION.md` derives the general d-dimensional extension, which had been submitted for independent review. Its constants are more conservative than the dedicated two-dimensional constants. A package must identify its independent-audit status separately from the reviewed two-dimensional result.
+- `toy_checks.py` and `toy_checks.json` provide small-system floating-point diagnostics for the two analytic obstructions. These values are not inputs to the gap proof.
 
-## 严格结论的必要条件
+## Conditions needed by the certificates
 
-1. 三纯度证书要求两个空间方向均有精确的实自伴 Hilbert–Schmidt 热转移表示，对该方向所有整数尺寸至少为 2 成立。
-2. 长度为 2 的周期方向使用重复周期键，不能去重为简单图。
-3. 标准阶梯为 A=Z(2n,m)/Z(n,m)^2、B=Z(2n,2m)/Z(2n,m)^2、C=T(2n,2m)。顺序更新必须使用新缺陷。
-4. 二维共同缺陷 u≤1/500 时，全部共同尺度矩形及全部整数正方形可用 gap≥log(1/(32u))/β。一个正方形种子未证明所有任意长宽比矩形。
-5. 全受挫双层 H=Q+JΣT_r·T_s 与普通双层是不同 Hamiltonian。前者有同层及交叉层四条同强度边。J=.3 时 L≥3 正方形实际 gap=1，L=2 的实际 gap=.4，所有 L≥2 下确界 .4。三纯度给出的较弱数值下界另列，不能混淆。
-6. 全受挫例子的试探维数 1 依赖精确 singlet 产品态及局域守恒。完整激发空间仍然指数大。
+The three-purity certificate assumes exact real selfadjoint Hilbert–Schmidt thermal transfers in both spatial directions.
+Each transfer identity must hold for every integer length at least 2 in that direction.
+A periodic direction of length 2 retains repeated periodic bonds and cannot be replaced by a simple graph.
 
-## 已推导、尚未实施的优化建议
+The standard staircase is A=Z(2n,m)/Z(n,m)^2, B=Z(2n,2m)/Z(2n,m)^2, and C=T(2n,2m).
+Sequential updates use the newly computed defects.
+For a common two-dimensional defect u≤1/500, the bound gap≥log(1/(32u))/β applies to the common-scale rectangles and all integer squares covered by the theorem.
+A square seed does not establish the result for every rectangle of arbitrary aspect ratio.
 
-以下内容仅为后续工作建议，不是本次可执行证书输入。
+The fully frustrated bilayer H=Q+JΣT_r·T_s differs from the ordinary bilayer.
+Each intercell edge in the fully frustrated model contains four equally coupled bonds, including intralayer and crossed bonds.
+At J=.3, the actual square-system gap is 1 for L≥3 and .4 for L=2, so its infimum over L≥2 is .4.
+The weaker numerical three-purity bound must be reported separately.
+Its trial dimension of 1 relies on the exact singlet product state and local conservation laws.
+The full excited-state space remains exponentially large.
 
-- 非对易弱键的匹配着色热迹界。通过 logTr exp 的凸性，若各颜色内部为产品元胞图上的匹配，可证明 logZ(H0+ΣV_c)≤χ^−1Σ_c logZ(H0+χV_c)。从而 D≤χβ²Σ_e width(v_e)²/8。双层可进一步使用精确四自旋匹配块的 partition function。尚未写入正式复算脚本或独立审计。
-- 全受挫结构破坏测试采用同层 J+ε、交叉层 J。vacuum 的完整残差平方推导为 (3ε²/4)Σ_unique_edges multiplicity²。2×2、4×2、4×4 分别为 12ε²、18ε²、24ε²。等待独立物理矩阵比较，不把它写成已经完成的数值核验。
-- SU(2) singlet 的至多两 triplet 试探空间维数为 1+binom(N,2)。普通 Mz=0 枚举会包含更多基向量。完整谱认证仍需要 residual 和尾界。
-- 给 low-energy worker 的候选压缩公式未实施和独立核验。使用非归一化 |ij>=Σ_a |t_a(i)t_a(j)>，其 norm²=3，写 trial=c0|vac>+Σcij|ij>。令 r_ij=(ε/2)m_ij、K=J+ε/2，候选投影作用为 (Hc)_vac=3Σr_ijcij，(Hc)_ij=r_ijc0+[2−2K m_ij]cij+Σ_(k≠i,j)(r_ik c_kj+r_jk c_ik)。四 triplet 泄漏的三个配对幅度为 a_(ij)(kl)=r_ijc_kl+r_klc_ij，其 Gram 矩阵候选为对角 9、非对角 3。需在一致的 Cartesian triplet 相位约定下核验符号，再用于验收。
+## Derived proposals awaiting implementation
 
-其他数值目录中的低能证书和结构破坏测试由相应工作分支负责，本文件不把它们的进行中结果当作已验收结果。
+The following proposals were not executable certificate inputs at this checkpoint.
+
+For noncommuting weak bonds, a matching-color heat-trace bound can be obtained from convexity of logTr exp.
+If each color forms a matching on the product-cell graph, then
+
+$$
+\log Z(H_0+\sum_cV_c)\le\chi^{-1}\sum_c\log Z(H_0+\chi V_c).
+$$
+
+This gives D≤χβ²Σ_e width(v_e)²/8.
+The bilayer could further use the exact partition function of a four-spin matching block.
+This proposal had not been incorporated into the formal recomputation script or independently audited.
+
+The structure-breaking test uses intralayer coupling J+ε and crossed coupling J.
+The derived full vacuum residual squared is (3ε²/4)Σ_unique_edges multiplicity².
+It equals 12ε², 18ε², and 24ε² on 2×2, 4×2, and 4×4 geometries, respectively.
+An independent comparison with physical matrices was still pending.
+
+The SU(2)-singlet trial space with at most two triplets has dimension 1+binom(N,2).
+An ordinary Mz=0 enumeration includes additional basis vectors.
+Certification of the full spectrum still requires both a residual bound and a tail bound.
+
+A candidate compressed action had been sent to the low-energy workstream but had not been implemented or independently checked.
+Use the unnormalized states |ij>=Σ_a |t_a(i)t_a(j)>, with norm²=3, and write trial=c0|vac>+Σcij|ij>.
+For r_ij=(ε/2)m_ij and K=J+ε/2, the proposed projected action is
+
+$$
+(Hc)_{\mathrm{vac}}=3\sum r_{ij}c_{ij},
+$$
+
+$$
+(Hc)_{ij}=r_{ij}c_0+[2-2K m_{ij}]c_{ij}
++\sum_{k\ne i,j}(r_{ik}c_{kj}+r_{jk}c_{ik}).
+$$
+
+The three pairing amplitudes in the four-triplet leakage are a_(ij)(kl)=r_ijc_kl+r_klc_ij.
+The proposed Gram matrix has diagonal entries 9 and off-diagonal entries 3.
+The signs require verification in a consistent Cartesian-triplet phase convention before these expressions can be used for acceptance.
+
+Low-energy certificates and structure-breaking tests in other numerical directories belong to their respective workstreams.
+Their in-progress results are not recorded here as accepted results.

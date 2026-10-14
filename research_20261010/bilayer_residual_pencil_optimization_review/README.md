@@ -1,1 +1,6 @@
-Accepted: four point-coupling physical ground lower endpoints and two scoped43D/fixed-r2 positive-pencil exclusions. No new all-size gap or universal no-go. Exact fractions and sector counts are in audit.json; see PROOF.md. REPRODUCE.sh performs a fresh exact replay with no physical support contraction.
+# Independent residual-pencil optimization review
+
+The review accepts four point-coupling physical ground lower endpoints and two exclusions scoped to the 43D trial space and fixed-r2 positive pencil.
+These results give neither a new all-size gap nor a universal obstruction.
+Exact fractions and sector counts are recorded in `audit.json`, with the proof in `PROOF.md`.
+`REPRODUCE.sh` performs a fresh exact replay without physical support contractions.

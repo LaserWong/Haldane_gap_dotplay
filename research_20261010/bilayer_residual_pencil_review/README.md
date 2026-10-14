@@ -1,1 +1,5 @@
-Independent complete4x4 H² matrix fixture and sector-pencil proof. All15 independent support polarizations and the entire16x16 coupling polynomial pass. This is not a new gap certificate or a complete8x4 matrix review. See ACCEPTANCE.json and PROOF.md. REPRODUCE.sh repeats the15 independent4x4 contractions under30CPU-second total/100MiB per-process limits, then exact matrix assembly.
+# Complete 4×4 H² matrix and sector-pencil review
+
+All 15 independent support polarizations and the entire 16×16 coupling polynomial pass the physical fixture and sector-pencil checks. This review does not establish a new gap or verify a complete 8×4 matrix.
+
+`ACCEPTANCE.json` and `PROOF.md` contain the result and argument. `REPRODUCE.sh` repeats the 15 independent 4×4 contractions with a total limit of 30 CPU seconds and a per-process limit of 100 MiB, then performs exact matrix assembly.

@@ -1,9 +1,9 @@
-# Probe individual sizes24 and25
+# Individual probes at sizes 24 and 25
 
-2026-10-10 22:32 EDT / 2026-10-11 02:32 UTC. Producer result; review pending.
+2026-10-10 22:32 EDT / 2026-10-11 02:32 UTC. These producer results await review.
 
-- L24: exact unique ground state and gap>=.0023
-- L25: current lower-purity bound.3734591 fails; no positive certificate
-- Contiguous coverage staysL>=26; bootstrap initialization stays30
+- L24 has an exactly certified unique ground state and gap>=.0023.
+- At L25, the current lower-purity bound .3734591 fails to give a positive certificate.
+- Contiguous coverage remains L>=26, and the bootstrap initialization remains 30.
 
-Finite cooled grid:511 legal candidates, no success. This is not a minimum-size/no-go theorem. Own freshMPS48; no n22 or new thermal work. See PROOF.md and length_resolved_certificate.json. Replay certify.py then certify_missing_lengths.py.
+A finite cooled grid tested 511 legal candidates without success. This is neither a minimum-size theorem nor a no-go theorem. The work used its own fresh MPS48 input, with no n22 calculation or new thermal work. PROOF.md and length_resolved_certificate.json give the details. Replay certify.py followed by certify_missing_lengths.py.

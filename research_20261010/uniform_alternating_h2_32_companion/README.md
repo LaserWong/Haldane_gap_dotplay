@@ -1,7 +1,7 @@
-# Physical32 variance companion
+# Physical-32 variance and Gibbs bound
 
-Exact producer result, independent review required. The unchanged D26 trial has total variance sigma²=.0002629779063020885..., with all11 per-block N/H/same/adjacent fields and final accepted N/H exactly matching.
+The unchanged D26 trial has exact total variance sigma²=.0002629779063020885..., with all 11 per-block N/H/same/adjacent fields and the final accepted N/H values agreeing exactly. This producer result requires independent review.
 
-Existing finite thermal bounds, Rayleigh/trace Gibbs weight and the pairwise variance inequality give infidelity<=.005322482587375599 and uniform Gibbs kappa32<=969/10000=.0969. The directed endpoint is.09685318612605492. Together with the separately frozen64 producer endpoint.119, this is a prospective improved input pair, not a new interval certificate.
+The existing finite thermal bounds, Rayleigh/trace Gibbs weight, and pairwise variance inequality give infidelity≤.005322482587375599 and uniform Gibbs kappa32≤969/10000=.0969. The directed endpoint is .09685318612605492. Combined with the separately frozen physical-64 endpoint .119, these provide candidate improved inputs rather than a new interval certificate.
 
-Physical+scalar cost8.250735999CPU seconds of20; no retry. This32 compile costs7.285807059CPU including its parent; the combined32/64 compile charge14.415698724 remains within the original separate30. All prior seals remain unchanged.
+The physical and scalar calculations used 8.250735999 CPU seconds of the 20-second allocation, with no retry. Compilation for physical 32 used 7.285807059 CPU seconds including its parent. The combined physical-32/64 compile charge is 14.415698724, within the original separate 30-second allocation. All prior seals remain unchanged.

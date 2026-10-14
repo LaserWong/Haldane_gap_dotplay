@@ -4,7 +4,7 @@ Updated 10 October 2026, 15:33 EDT (America/New_York) / 19:33 UTC.
 
 ## Accepted result
 
-For the periodic spin-one alternating chain, with unit strong exchange and M weak bonds including the two distinct links at M=2, the following lower bounds hold for every integer M>=2. Each finite volume has a unique ground state.
+For the periodic spin-1 alternating chain, with unit strong exchange and M weak bonds including the two distinct links at M=2, the following lower bounds hold for every integer M>=2. Each finite volume has a unique ground state.
 
 | g | Uniform gap lower bound | Initial beta | Time / canonical cycles | Asymptotic onset M |
 |---|---:|---:|---:|---:|
@@ -16,9 +16,9 @@ For the periodic spin-one alternating chain, with unit strong exchange and M wea
 
 These are five discrete sufficient certificates. No interval between the couplings, optimal coupling threshold, actual gap, phase boundary, or infinite-volume ground-state uniqueness is asserted. All five uniform values are limited by the integer window [8,16], rather than the final asymptotic estimate.
 
-## What changed and what was checked
+## Inputs and independent checks
 
-The M=4 denominator has a new counted Hermitian/Schur comparison, proved in `COUNTED_BLOCK_THEOREM.md`. It uses the exact bare vacuum-plus-single-triplet compression and full off-diagonal residual Gram, without assuming that thirteen physical eigenvalues lie below the complement cutoff. At g=.2, nine physical triplet states actually lie above that cutoff; the independent diagnostic explicitly tests this case.
+The M=4 denominator has a new counted Hermitian/Schur comparison, proved in `COUNTED_BLOCK_THEOREM.md`. It uses the exact bare vacuum-plus-single-triplet compression and full off-diagonal residual Gram, without assuming that thirteen physical eigenvalues lie below the complement cutoff. At g=.2, nine physical triplet states actually lie above that cutoff. The independent diagnostic explicitly tests this case.
 
 - P has dimension 13 and Q has dimension 6,548, in physical dimension 6,561.
 - The complement is selected by weighted strong-dimer energy, with local energies 0,1,3 and multiplicities 1,3,5. All twenty single-quintet states remain in Q at energy 3.
@@ -29,11 +29,11 @@ The M=4 denominator has a new counted Hermitian/Schur comparison, proved in `COU
 - All 153 saved scalar paths pass, with 801 finite-window checks including the new initial [4,8] window. M=2 and M=3 have direct local bridges. The later windows are contiguous to the all-integer asymptotic onset.
 - Nine deliberate corruptions are rejected: normalization, residual off-diagonal, second moment, magnetic degeneracy, quintet omission, tail count, complement cutoff, root direction and ground shift.
 
-The new reference space contains thirteen bare vectors. Their shifted-H action union has 172 configurations; unshifted-H and trial-plus-action union have 173; the residual union has 160. These counts are distinct from the existing 1,099-configuration ground search, its 1,107-configuration full action support, and the M=8 two-vector first-moment combination on 43,294 configurations. The largest full Hilbert space is still 9^8=43,046,721 for sixteen spin-one sites. None of these linear-space or support dimensions is an MPS bond dimension.
+The new reference space contains thirteen bare vectors. Their shifted-H action union has 172 configurations. Unshifted-H and trial-plus-action union have 173. The residual union has 160. These counts are distinct from the existing 1,099-configuration ground search, its 1,107-configuration full action support, and the M=8 two-vector first-moment combination on 43,294 configurations. The largest full Hilbert space is still 9^8=43,046,721 for sixteen spin-1 sites. None of these linear-space or support dimensions is an MPS bond dimension.
 
 ## Evidence and reproduction
 
-`audit_certificate.py` imports no producer mathematical module. It uses freshly reconstructed bare-band physics, copies scalar helpers from the sealed independent joint-ratio review, and encloses exponentials with a separate 110-term Taylor calculation at directed 384-bit dyadic precision. It checks the frozen producer package, prior accepted reviews, and external source hashes before acceptance.
+`audit_certificate.py` imports no mathematical module from the generating calculation. It uses freshly reconstructed bare-band physics, copies scalar helpers from the sealed independent joint-ratio review, and encloses exponentials with a separate 110-term Taylor calculation at directed 384-bit dyadic precision. It checks the frozen generating package, prior accepted reviews, and external source hashes before acceptance.
 
 - `SUMMARY.json`: all accepted bounds, exact scope, provenance and resource measurements
 - `review_g*.json`: complete candidate-path, short-bridge and window replay records
@@ -45,7 +45,7 @@ The new reference space contains thirteen bare vectors. Their shifted-H action u
 - `INPUT_SHA256SUMS.json`: inputs read by the independent full replay
 - `MANIFEST_SHA256.json`: sealed review artifacts, excluding itself and Python caches
 
-The reviewed producer manifest SHA-256 is
+The reviewed manifest of the generating package SHA-256 is
 
 `2fe7f6300a64381e25bf5d41f19cafec0506a739986ded95784029b40c42470e`.
 
@@ -57,4 +57,4 @@ Run `REPRODUCE.sh` from any directory. It first verifies the review seal if pres
 
 The initial full exact audit took 55.35 seconds and peaked at 27.48 MiB RSS. The standalone full M=4 floating diagnostic took 1.21 seconds and peaked at 66.82 MiB. Each process is pinned to one CPU and capped at 1 GiB address space. These are verification costs, not original search costs. Clean replay details are in `reproduce.log`.
 
-The workspace is an extracted tree without Git metadata; this review changes no predecessor freeze and implies no remote publication. This is an executable exact-arithmetic mathematical certificate, not a proof-assistant formalization.
+The workspace is an extracted tree without Git metadata. This review changes no predecessor freeze and implies no remote publication. This is an executable exact-arithmetic mathematical certificate, not a proof-assistant formalization.

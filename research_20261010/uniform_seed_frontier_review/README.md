@@ -1,13 +1,19 @@
-# Review uniform-chain n52 seed
+# Independent review of the n = 52 uniform-chain seed
 
-2026-10-10 18:36 EDT / 22:36 UTC. Independent PASS.
+Recorded October 10, 2026, at 18:36 EDT / 22:36 UTC.
+The independent review passed.
 
-Gap>=19/5000=0.0038 and a unique ground state for every integer periodic L>=52, unit-coupling uniform spin-1 Heisenberg chain. No below52/minimum claim.
+The unit-coupling uniform spin-1 Heisenberg chain has a unique ground state and gap>=19/5000=0.0038 for every integer periodic L>=52.
+No claim is made below 52 or about a minimum seed size.
 
-REVIEW.md distinguishes the new exact Hermite-majorant proof, scalar certificate, and inherited nine thermal certificates/MPS104/thermal-transfer premises. All early signed-integer windows and asymptotic coverage pass.
+`REVIEW.md` distinguishes the exact Hermite-majorant proof and scalar certificate from the inherited nine thermal certificates, MPS104 anchor, and thermal-transfer assumptions.
+All early signed-integer windows and the asymptotic coverage passed review.
 
-Reproduce in a disposable copy:
-`python independent_check.py > replay.log`
-`python adversarial.py > adversarial.log`
+Reproduce the checks in a disposable copy with the following commands.
 
-CPU5,700MiB ceiling, about2.7CPU seconds, no new contraction. No producer/root/GitHub edits. CLAIM_VERDICTS.json, scalar_results.json, INPUT_SHA256.json, MANIFEST_SHA256.json and SEAL.json provide exact scope/provenance.
+    python independent_check.py > replay.log
+    python adversarial.py > adversarial.log
+
+The recorded replay used CPU 5 with a 700 MiB limit and took about 2.7 CPU seconds.
+It performed no new contraction and changed neither the generating files, repository root, nor remote repository.
+`CLAIM_VERDICTS.json`, `scalar_results.json`, `INPUT_SHA256.json`, `MANIFEST_SHA256.json`, and `SEAL.json` give the exact scope and provenance.

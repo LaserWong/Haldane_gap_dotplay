@@ -1,50 +1,88 @@
-# Haldane bootstrap 优化：暂停快照
+# Haldane bootstrap results at the October 10 pause
 
-保存日期：2026-10-10。用户于纽约时间 12:24 要求暂停。所有研究和数值任务已停止。本包保存截至暂停时的结果，不会自动恢复原定持续至 10 月 13 日的计算。
+This document describes the snapshot saved on October 10, 2026.
+The user requested a pause at 12:24 New York time that day, and all research and numerical tasks stopped.
+The snapshot preserved the results available at the pause and did not automatically resume the calculations previously scheduled to continue through October 13.
+The user subsequently resumed the project on October 14, 2026, at 17:36:22 UTC, or 13:36:22 EDT.
+See [README.md](README.md) for current results, evidence availability, and tasks.
+The results and completion statements below describe the October 10 snapshot.
+Paths identify materials in that snapshot and do not by themselves establish that every file is currently recoverable.
 
-## 已完成且独立核验的主要结果
+## Completed results with independent checks
 
-1. **低能 seed**：spin-1 交替二聚体链，强键 1、弱键 0.05。仅保留一个最低态，结合精确残差与完整谱尾界，得到所有周期元胞数 M≥2 的能隙下界 0.116303868802。见 low_energy/ 与 audit/independent/certificate_s1_W1_g1d20_k0_audit.json。
-2. **真正二维的普通双层模型**：spin-1/2 方格双层，竖直耦合 1、两个面内方向均 0.01。所有周期正方形边长 L≥2 的能隙下界为 0.072950533962。最大 seed 为 32 个自旋，完整维数 4,294,967,296，试探空间 377 维。见 audit/independent/bilayer_g001_audit.json。
-3. **二维 spin-1 大 D 模型**：D=1、两个方向 Heisenberg 耦合 0.01。所有整数 L≥2 的正方形环面能隙下界为 0.086452285325。最大 seed 含 16 个 spin-1，完整维数 43,046,721，试探空间 241 维。见 audit/independent/largeD_g001_audit.json。
-4. **非微扰的一态例子**：完全受挫双层，竖直耦合 1，直连与交叉耦合均为 J。精确 singlet 乘积态只需一个试探态，残差为零。对全部周期矩形 nx,ny≥2，在 0≤J<1/3 时的最优族统一能隙为 min(1,4−12J)。J=0.3 时该值为 0.4，正方形 L≥3 的实际能隙为 1。解析论证与独立小尺寸检验已完成。同一三纯度 bootstrap 也有可复算的证书。见 two_d_theory/NONPERTURBATIVE_MODELS.md 与 two_d_numerics/results/fully_frustrated_checks.json。此模型含交叉耦合，与第 2 项普通双层模型不同。
-5. **原始均匀 spin-1 路线复现与计算优化**：补齐并重新认证 Appendix A 的九个有限热迹输入，重建 D=26 MPS 的精确整数收缩，复核矩、滤波、降温和 bootstrap 链。得到周期链每个整数 L≥1920 上的能隙下界 0.005908566393。标准计算 replay 保留原有偶数尺寸表述，独立审计文档补齐全部整数尺寸插值。这里只复现已给档案中的路线及相应扩展，没有声称直接阅读缺失的原始 PDF。见 heat_trace/appendix_a_replay.json、heat_trace/PROOF.md 与 audit/APPENDIX_A_BRIDGE.md。
-6. **适用范围的严格限制**：普通半自旋双层 g=0.03 时，当前指定的 ground-only numerator 与独立二聚体谱尾界组合，对所有温度和局域比较参数均无法通过现用递推。即使将现有基态区间进一步收紧也不能解除该障碍。这限定了当前认证方法，不是物理相变边界。见 audit/independent/majorant_g003_audit.json。
+1. **Low-energy seed for the spin-1 dimer chain.** The alternating chain has strong coupling 1 and weak coupling 0.05. A single lowest-energy trial state, its exact residual, and a full spectral-tail bound give a gap lower bound of 0.116303868802 for every periodic cell count M ≥ 2. The supporting materials are `low_energy/` and `audit/independent/certificate_s1_W1_g1d20_k0_audit.json`.
 
-## 三个新增问题的进展
+2. **Ordinary two-dimensional bilayer.** The spin-1/2 square bilayer has vertical coupling 1 and in-plane coupling 0.01 in both directions. Its gap is at least 0.072950533962 for every periodic square of side length L ≥ 2. The largest seed contains 32 spins, with full Hilbert-space dimension 4,294,967,296 and linear trial-space dimension 377. The independent check is recorded in `audit/independent/bilayer_g001_audit.json`.
 
-- 耦合上限必须区分物理相变、试探态精度、完整谱尾估计与 seed 的空间纯度。上述完全受挫模型给出一个可精确回答的非微扰参数区间。普通双层的 0.03 结果则明确定位了现用谱尾认证的限制。
-- 完整激发壳层的线性维数为 Σ(j=0…q) C(M,j)[(2s+1)^2−1]^j。已保存自适应支撑深度、残差和认证精度的比较。root_review/trial_dimension_toy.json 另给可解模型的精确二项分布截断示例，只用于说明表示复杂度，不作为相互作用模型证据。
-- 小线性空间、MPS 虚拟键维数与完整 Hilbert 空间维数是不同量。原始均匀 spin-1 的 D=26 MPS 是一个紧凑变分态，其能量证书仍需与完整热迹认证结合。
+3. **Two-dimensional spin-1 large-D model.** For D = 1 and Heisenberg coupling 0.01 in both directions, the gap is at least 0.086452285325 on every square torus of integer side length L ≥ 2. The largest seed contains 16 spin-1 sites, with full Hilbert-space dimension 43,046,721 and linear trial-space dimension 241. The independent check is recorded in `audit/independent/largeD_g001_audit.json`.
 
-## 已保存但尚未完成全面独立核验
+4. **A nonperturbative one-state example.** The fully frustrated bilayer has vertical coupling 1 and equal direct and crossed couplings J. Its exact singlet product state requires one trial state and has zero residual. For all periodic rectangles with nx, ny ≥ 2 and 0 ≤ J < 1/3, the optimal gap bound uniform over this family is min(1, 4 − 12J). At J = 0.3, this bound is 0.4, while the actual gap on squares with L ≥ 3 is 1. The analytic argument and independent small-system checks were completed. A reproducible certificate also implements the same three-purity bootstrap. The supporting materials are `two_d_theory/NONPERTURBATIVE_MODELS.md` and `two_d_numerics/results/fully_frustrated_checks.json`. The crossed couplings distinguish this model from the ordinary bilayer in item 2.
 
-- 更大弱键的 spin-1 二聚体链候选证书，包括 g=0.1、0.125、0.15 与不同支撑深度。具体尺寸范围和短尺寸桥接见 low_energy/ 状态文件。
-- 普通双层优化后的更强数值下界及 g=0.02 候选证书。不得把这些候选值与第 2 项已独立核验值混写。
-- 完全受挫 J=0.3 参考点附近，直连 J+ε、交叉 J 的鲁棒性测试。浮点基准与新精确候选证书分开保存。
-- 一般 d 维推广、部分改进常数、SU(2) 压缩基底、低激发带整体认证和 spin-2 Chebyshev 热迹优化。
-- spin-2 的单列基准在暂停时中断，没有启动整夜或完整大系统计算。
+5. **Reproduction and computational optimization of the uniform spin-1 calculation.** All nine finite heat-trace inputs in Appendix A were completed and recertified. Exact integer contractions of the D = 26 MPS were reconstructed, and the moments, filtering, cooling, and bootstrap were checked. The resulting gap lower bound is 0.005908566393 for periodic chains of every integer length L ≥ 1920. The standard replay retains the original even-size statement, while the independent audit supplies interpolation to all integer lengths. This work reproduces the calculation and extensions in the supplied archive. It does not claim direct access to the missing original PDF. The supporting materials are `heat_trace/appendix_a_replay.json`, `heat_trace/PROOF.md`, and `audit/APPENDIX_A_BRIDGE.md`.
 
-各目录的 PAUSE/PAUSED 文件给出更细的已完成、未核验和恢复入口。暂停后只整理和验证归档，没有继续参数扫描。
+6. **A rigorous limitation of the current certification method.** For the ordinary spin-1/2 bilayer at g = 0.03, the specified ground-only numerator combined with the independent-dimer spectral-tail bound fails the current recurrence at every temperature and every local comparison parameter. Tightening the existing ground-state interval cannot remove this obstruction. The result limits this certification method and does not locate a physical phase transition. The independent check is recorded in `audit/independent/majorant_g003_audit.json`.
 
-## 文件结构
+## Progress on three additional questions
 
-- audit/：独立复核、物理假设、完整证明衔接及精确核验输出。
-- heat_trace/：流式整数热迹代码、检查点、九项热迹输入和原始路线 replay。
-- low_energy/：稀疏试探态、精确残差、局域比较、谱尾及候选证书。
-- two_d_theory/：二维定理、整数尺寸插值、非微扰模型及文献。
-- two_d_numerics/：独立 Hamiltonian、精确交叉检查和浮点基准。
-- seed_size/：seed 排除、温度窗口、参数优化和谱尾上限。
-- root_review/：额外独立局域矩阵验证与试探空间复杂度示例。
-- original/、input/：最初上传的扩展包及原样解压内容。
-- upstream/extracted/：复算本快照所需的原始参考代码、标量程序与 spin-2 局域证书依赖。
+The upper coupling limit depends on several distinct issues, including the physical phase transition, trial-state accuracy, the full spectral-tail estimate, and the spatial purity of the seed.
+The fully frustrated model gives a nonperturbative parameter interval that can be treated exactly.
+The ordinary-bilayer result at g = 0.03 identifies a limitation of the current spectral-tail certificate.
 
-为避免重复附带约 196 MB 的历史档案，本包没有再次复制完整 HaldaneConjecture.zip，也没有复制其中无关的历史服务器日志。当前新计算结果、源代码、检查点以及所需参考依赖均已保存。原始 ZIP 的 SHA256 为 f55ab851502759d863673f627bce28de1d040750f18f747a7814e866153425c8。
+The linear dimension of the complete excitation-shell space is
 
-## 复算与恢复
+$$
+\sum_{j=0}^{q}\binom{M}{j}\left[(2s+1)^2-1\right]^j.
+$$
 
-首先运行 `python verify_archive.py` 检查全部归档文件哈希。Python 环境版本见 COMPUTE_ENVIRONMENT.json。一般数值代码使用 numpy、scipy、sympy，整数 C++ 程序需要 C++ 编译器与 GMP。随包 Linux 二进制只作当前环境记录，换平台时请从源代码编译。
+Comparisons of adaptive support depth, residuals, and certification accuracy were saved.
+The exact binomial-truncation example in `root_review/trial_dimension_toy.json` concerns a solvable model.
+It illustrates representation complexity and supplies no evidence for the interacting models.
 
-在包根目录运行 `python heat_trace/replay_appendix_a.py` 可重放已保存的原始路线证书。各目录 README 提供重新计算与单项核验命令。部分审计脚本的原执行环境绝对路径已改为包内相对路径，修改清单见 PORTABILITY_PATCHES.json，数学逻辑未改动。
+The linear trial-space dimension, MPS bond dimension, and full Hilbert-space dimension measure different resources.
+The D = 26 MPS used for the uniform spin-1 chain is a compact variational state.
+Its energy certificate must still be combined with the full heat-trace certificate.
 
-若未来恢复，优先阅读各目录暂停状态，再决定继续扩大耦合、改进低激发带/谱尾认证或运行 spin-2 长计算。当前没有自动恢复安排。
+## Saved work awaiting complete independent verification
+
+- Candidate spin-1 dimer-chain certificates at larger weak couplings, including g = 0.1, 0.125, and 0.15, with several support depths. The status files in `low_energy/` specify their size ranges and the arguments covering short chains.
+- Stronger optimized numerical lower bounds for the ordinary bilayer and candidate certificates at g = 0.02. These candidates remain distinct from the independently checked value in item 2.
+- Robustness tests near J = 0.3 in the fully frustrated bilayer, with direct coupling J + ε and crossed coupling J. Floating-point benchmarks and new exact candidate certificates were saved separately.
+- Extensions to general dimension d, some improved constants, SU(2)-compressed bases, certification of entire low-energy bands, and spin-2 Chebyshev heat-trace optimization.
+- A separately recorded spin-2 benchmark interrupted at the pause. No overnight run or complete large-system calculation was started.
+
+The `PAUSE` and `PAUSED` files in individual directories give more detailed results, unverified work, and restart instructions.
+After the October 10 pause, work on this snapshot was limited to archive organization and verification.
+Parameter scans did not continue during that pause.
+
+## Snapshot contents
+
+- `audit/` contains independent checks, physical assumptions, complete proof connections, and exact verification outputs.
+- `heat_trace/` contains streaming integer heat-trace code, checkpoints, the nine heat-trace inputs, and the replay of the original calculation.
+- `low_energy/` contains sparse trial states, exact residuals, local comparisons, spectral-tail bounds, and candidate certificates.
+- `two_d_theory/` contains two-dimensional theorems, interpolation between integer sizes, nonperturbative models, and references.
+- `two_d_numerics/` contains independent Hamiltonian implementations, exact cross-checks, and floating-point benchmarks.
+- `seed_size/` contains seed exclusions, temperature windows, parameter optimization, and spectral-tail limits.
+- `root_review/` contains additional independent local-matrix checks and examples of trial-space complexity.
+- `original/` and `input/` contain the initially uploaded extension package and its unchanged extracted contents.
+- `upstream/extracted/` contains the original reference code, scalar programs, and spin-2 local-certificate dependencies needed to reproduce this snapshot.
+
+The snapshot did not duplicate the approximately 196 MB historical `HaldaneConjecture.zip` archive or its unrelated historical server logs.
+Its new results, source code, checkpoints, and required reference dependencies were saved.
+The original ZIP has SHA-256 `f55ab851502759d863673f627bce28de1d040750f18f747a7814e866153425c8`.
+
+## Reproducing the snapshot
+
+Run `python verify_archive.py` first to check the archive file hashes.
+`COMPUTE_ENVIRONMENT.json` records the Python environment.
+The numerical code generally uses numpy, scipy, and sympy.
+The integer C++ programs require a C++ compiler and GMP.
+The supplied Linux binaries record the original environment and should be rebuilt from source on other platforms.
+
+From the snapshot root, run `python heat_trace/replay_appendix_a.py` to replay the saved certificate for the original calculation.
+Directory READMEs give the commands for recomputation and individual checks.
+Some audit scripts were changed from absolute paths in the original execution environment to package-relative paths.
+`PORTABILITY_PATCHES.json` records those changes, which did not alter the mathematical logic.
+
+The restart priorities recorded at the pause were to read the directory status files, then choose among larger couplings, improved low-energy-band or spectral-tail certification, and long spin-2 calculations.
+No automatic restart was scheduled for this snapshot.
+Current work follows the later instructions recorded in `README.md` and `AGENTS.md`.

@@ -1,11 +1,11 @@
-# Accepted parity-resolved coverage from26
+# Accepted parity-resolved coverage from 26
 
-Updated2026-10-11 02:32UTC /2026-10-10 22:32 America/New_York.
+Updated 2026-10-11 02:32 UTC /2026-10-10 22:32 America/New_York.
 
-ACCEPTED: unique ground state and gap≥.0023 for every integer periodic L≥26, unit bilinear spin-one Heisenberg chain. New exact proofs cover26 and27 individually; they join the accepted tail from28. Bootstrap initialization remains30.
+The unit-bilinear spin-one Heisenberg chain has a unique ground state and a certified gap≥.0023 for every integer periodic L≥26. New exact proofs cover 26 and 27 individually. They join the accepted tail from 28. Bootstrap initialization remains 30.
 
-Stronger bounds remain .0179 from28, .0245 from32 and .0248 from34. No minimum-size or below26 claim is made.
+Stronger bounds remain .0179 from 28, .0245 from 32 and .0248 from 34. No minimum-size claim or claim below 26 is made.
 
 See PROOF.md and results.json. The proof independently derives the parity-sensitive interpolation, validates the previously freshly rebuilt physical MPS52, and reproduces the failed simplified full-window bound without turning it into an obstruction.
 
-Replay in a disposable copy with the pinned sibling packages: python audit.py. CPU4,60CPU seconds/256MiB hard caps; actual.163CPU seconds/14.8MiB. No contractions or thermal jobs are launched.
+Replay in a disposable copy with the pinned sibling packages by running python audit.py. The hard caps are 60 CPU seconds and 256 MiB on CPU 4. Actual usage was .163 CPU seconds and 14.8 MiB. No contractions or thermal jobs are launched.

@@ -14,7 +14,7 @@ Hence G(x)≤x for x≤1/2. If W=S²T≤1/2, either a bound becomes nonpositive 
 
 The same argument applies to the cyclic three-purity map whose first argument is A⁴B²C. If it is at most 1/2, the subsequent pre-update arguments are at most the preceding updated purity, so all three decrease over a full cycle.
 
-The basin-boundary code uses DOWNWARD trajectories to prove acceptance and UPWARD trajectories to prove exclusion. Failure of a downward bound alone is never an exclusion proof. Monotonicity makes accepted and excluded endpoints valid boundary brackets.
+The basin-boundary code uses downward-rounded trajectories to prove acceptance and upward-rounded trajectories to prove exclusion. Failure of a downward bound alone is never an exclusion proof. Monotonicity makes accepted and excluded endpoints valid boundary brackets.
 
 ## 2. A larger one-dimensional entry region
 
@@ -70,7 +70,7 @@ is decreasing and supplies a necessary upper-beta cutoff. If the lower cutoff ex
 
 ## 5. Two-color dimer heat-trace improvement
 
-Consider the report's disjoint-cell perturbations v_i on an even cycle of M cells. Center them by their maximally mixed cell mean. The v_i mutually commute because cells are disjoint; their joint spectral projectors and the unperturbed product-dimer Gibbs state define an ordinary joint probability law. Even cells touch mutually disjoint strong dimers, as do odd cells. Within either color, the selected cell marginal factorizes into maximally mixed cell states.
+Consider the report's disjoint-cell perturbations v_i on an even cycle of M cells. Center them by their maximally mixed cell mean. The v_i mutually commute because cells are disjoint. Their joint spectral projectors and the unperturbed product-dimer Gibbs state define an ordinary joint probability law. Even cells touch mutually disjoint strong dimers, as do odd cells. Within either color, the selected cell marginal factorizes into maximally mixed cell states.
 
 Cauchy–Schwarz between the two color sums gives
 
@@ -80,13 +80,13 @@ Each color's expectation factorizes. Hoeffding's lemma for a mean-zero variable 
 
 0≤log Z_M−log Z_M^0≤M beta² w²/4.
 
-This improves the prior M² bound. Golden–Thompson supplies the upper quantum-to-classical reduction; no commutation between H0 and V is assumed. This coloring shortcut does NOT automatically apply to overlapping bilayer interaction terms, which need their separate local relative comparison.
+This improves the prior M² bound. Golden–Thompson supplies the upper quantum-to-classical reduction. No commutation between H0 and V is assumed. This coloring shortcut does not automatically apply to overlapping bilayer interaction terms, which need their separate local relative comparison.
 
-Primary sources for the general inequalities: W. Hoeffding, JASA 58 (1963), 13–30, https://doi.org/10.1080/01621459.1963.10500830; S. Janson, Random Structures & Algorithms 24 (2004), 234–248, https://doi.org/10.1002/rsa.20008 and author's full paper https://www2.math.uu.se/~svantejs/papers/sj150.pdf. The two-color application above is proved explicitly, rather than imported as a black box.
+Primary sources for the general inequalities: W. Hoeffding, JASA 58 (1963), 13–30, DOI 10.1080/01621459.1963.10500830. S. Janson, Random Structures & Algorithms 24 (2004), 234–248, DOI 10.1002/rsa.20008 and author's full paper the author's paper sj150 The two-color application above is proved explicitly, rather than imported as a black box.
 
 ## 6. Cancel correlated traces before interval arithmetic
 
-In 1D, W=S²T=Z_(2n)(2beta)/Z_n(beta)^4. Evaluating this cancelled ratio directly avoids applying the error of the common Z_(2n)(beta) twice. Set S1=G(W_lower), then T1=G(T_lower² S1); continue at doubled n,beta. This uses no new input partition functions.
+In 1D, W=S²T=Z_(2n)(2beta)/Z_n(beta)^4. Evaluating this cancelled ratio directly avoids applying the error of the common Z_(2n)(beta) twice. Set S1=G(W_lower), then T1=G(T_lower² S1). Continue at doubled n,beta. This uses no new input partition functions.
 
 In 2D, for the x,y,time staircase,
 
@@ -101,11 +101,11 @@ Use A1=G(J1_lower), B1=G(J2_lower A1), C1=G(C_lower⁴ A1² B1), then continue a
 
 ## 7. Legitimate axis orders
 
-For any permutation of x,y,time, rebuild the staircase of partition functions from its base point; do not merely permute three preexisting bounds. The coordinate-independent exchange identity and own-axis squaring yield the same cyclic map. To convert an accepted staircase to the canonical x,y,time interpolation theorem, an adjacent pair (a,b) may be swapped with bounds (a sqrt(b), a²b), or the weaker rational-only pair (ab,a²b). At most three adjacent swaps suffice. The implementation uses the weaker pair and continues iterations until the converted common defect is at most 1/500.
+For any permutation of x,y,time, rebuild the staircase of partition functions from its base point. Do not merely permute three preexisting bounds. The coordinate-independent exchange identity and own-axis squaring yield the same cyclic map. To convert an accepted staircase to the canonical x,y,time interpolation theorem, an adjacent pair (a,b) may be swapped with bounds (a sqrt(b), a²b), or the weaker rational-only pair (ab,a²b). At most three adjacent swaps suffice. The implementation uses the weaker pair and continues iterations until the converted common defect is at most 1/500.
 
-This preserves the documented square-gap formula log(1/(32u))/beta. The resulting theorem starts at the reported L0. Missing smaller square sizes need independent certificates; a stronger asymptotic number is not a full all-L improvement unless that bridge is proved.
+This preserves the documented square-gap formula log(1/(32u))/beta. The resulting theorem starts at the reported L0. Missing smaller square sizes need independent certificates. A stronger asymptotic number is not a full all-L improvement unless that bridge is proved.
 
-## 8. Rigorous ceiling of the current half-spin bilayer majorants
+## 8. Rigorous ceiling of the current spin-1/2 bilayer majorants
 
 For the exact local comparison from `root_review/BILAYER_LOCAL_ANALYTIC.md`,
 
@@ -120,11 +120,10 @@ Even if the unconstrained optimizer falls outside a<1/4, this expression remains
 
 exp[beta(B+U−E00)] ((1+3 exp(−beta alpha))^N−1).
 
-Its first term proves that EVERY allowed choice of a gives Q_upper at least
+Its first term proves that every allowed choice of a gives Q_upper at least
 
-1+3N exp(−beta delta_best),
-delta_best=1−2g−2g sqrt(3(N−1))+E00−U.
+1+3N exp(−beta delta_best), delta_best=1−2g−2g sqrt(3(N−1))+E00−U.
 
-Thus this expression gives an optimistic upper envelope on the lower purity bounds that the recipe can produce. It is NOT an upper bound on the true physical purity. To permit all future ground refinements, maximize delta_best by allowing U to fall as low as the currently certified ground lower endpoint. In energy-shift exponents, use the favorable endpoint independently for each coefficient sign. Also set the ground-enclosure width to zero. These changes can only make the optimistic envelope easier to pass.
+Thus this expression gives an optimistic upper envelope on the lower purity bounds that the recipe can produce. It is not an upper bound on the true physical purity. To permit all future ground refinements, maximize delta_best by allowing U to fall as low as the currently certified ground lower endpoint. In energy-shift exponents, use the favorable endpoint independently for each coefficient sign. Also set the ground-enclosure width to zero. These changes can only make the optimistic envelope easier to pass.
 
-The code encloses that optimistic envelope on every beta interval and propagates it UPWARD through the cancelled first update and cyclic scalar map. Reaching the invariant failure region proves impossibility for the whole interval. A positive lower corner curvature makes J1≤exp(−beta curvature), closing beta≥B. For g=.03 all three inequivalent axis orders are excluded with only 3–4 finite intervals plus the tail. Consequently ground-state digits alone cannot rescue this declared recipe at those sizes. Improved numerator levels, tighter excitation bins, a new comparison, larger/different seed geometry, or a different bootstrap method remain open.
+The code encloses that optimistic envelope on every beta interval and propagates it with upward rounding through the cancelled first update and cyclic scalar map. Reaching the invariant failure region proves impossibility for the whole interval. A positive lower corner curvature makes J1≤exp(−beta curvature), closing beta≥B. For g=.03 all three inequivalent axis orders are excluded with only 3–4 finite intervals plus the tail. Consequently ground-state digits alone cannot rescue this declared recipe at those sizes. Improved numerator levels, tighter excitation bins, a new comparison, larger/different seed geometry, or a different bootstrap method remain open.

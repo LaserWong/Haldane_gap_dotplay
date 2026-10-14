@@ -1,5 +1,5 @@
-# Staggered second-moment design
+# Staggered second moments as improved seed inputs
 
-Design-only: no new B^2 or H^2 physical contraction and no wider interval claim. The refined Gibbs chord bound is valid. Existing finite purities give finite gaps .21/.19 and energy-only ground infidelity bounds .024665/.037320 at physical32/64. Therefore a first material-improvement pilot may need only B^2, with H^2 optional.
+The refined Gibbs chord bound is valid using existing inputs. Finite purities give gaps .21/.19 and energy-only ground-infidelity bounds .024665/.037320 at physical lengths 32/64. These estimates suggest that an initial improvement may require only B², with H² optional. This design includes no new physical contraction or wider interval.
 
-If future D26 contractions show <B_L^2>/(3L/2)^2<=.05 at both lengths, the rigorous Gibbs kappa bounds would be .199073/.245218, roughly one quarter of the prior worst-case quadratic loss. See ASSESSMENT.md for proofs, exact separation tests, overlap-safe contraction formulas, and a proposed separately authorized bounded physical gate. The scalar check used .007CPU seconds and10MiB only.
+If future D26 contractions establish <B_L²>/(3L/2)²≤.05 at both lengths, the rigorous Gibbs bounds would be kappa≤.199073/.245218. This is approximately one quarter of the earlier worst-case quadratic loss. `ASSESSMENT.md` supplies the proofs, exact separation tests, overlap-safe contraction formulas, and a proposed physical test requiring separate authorization. The scalar check used .007 CPU seconds and 10 MiB.

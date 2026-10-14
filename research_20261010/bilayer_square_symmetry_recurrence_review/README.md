@@ -1,3 +1,8 @@
 # Stronger square-preserving scalar recurrence
 
-Exact theorem/proof review, separate from the earlier square-window seal. The middle update uses reflected rectangular geometry, time exchange and same-axis squaring. No numericalg=.11 result is claimed. `sh REPRODUCE.sh` checks exact labels/partition identities and rational dominance fixtures in under1 CPU second.
+This review checks the exact theorem and proof separately from the earlier square-window verification.
+The middle update uses reflected rectangular geometry, time exchange, and same-axis squaring.
+It does not establish a numerical result at g = .11.
+
+Run `sh REPRODUCE.sh` to check the exact labels, partition-function identities, and rational dominance examples.
+The tests take less than 1 CPU second.

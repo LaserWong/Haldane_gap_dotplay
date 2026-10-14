@@ -60,7 +60,7 @@ convexity gives
        <= <psi,exp(-tau H_max) psi>
        <= Tr exp(-tau H_max).
 
-Thus L=exp(-2beta rho), with rho=<psi,H_max psi>, is sufficient for Section1.
+Thus L=exp(-2beta rho), with rho=<psi,H_max psi>, is sufficient for Section 1.
 For an integer coefficient vector c in a nonorthogonal trial basis W, only
 
     G=W*W, A=W*H_max W, rho=(c*A c)/(c*G c)
@@ -107,7 +107,7 @@ never opens the optional largest translated file. Neither mode opens a largest
 full-band certificate, number-sector file, squared-Hamiltonian matrix, or
 residual record. Each input schema has an explicit allowed-field check, and
 each numerical file actually read is recorded with its SHA-256. Historical
-source hashes are provenance strings; the consumer does not dereference them.
+source hashes are provenance strings. The consumer does not dereference them.
 
 The only upper-trace inputs are the 4x4 and 8x4 quadratic-tail certificates. The
 largest physical seed is still 8x8, but the maximum seed requiring full residual
@@ -127,7 +127,7 @@ accepted 193-direction quadratic-tail txy record. Evaluate both numerator
 choices with directed exact arithmetic, transport both to the canonical
 staircase, and replay all finite-window and short-size bridges. No new
 optimization or changed denominator can explain a difference between the two
-reported bounds. The final records are separated by ground_only and trial193.
+reported bounds. The final records are separated by ground_only and trial 193.
 
 ## 6. Shared short-size comparison and output
 
@@ -146,7 +146,7 @@ positive short-size gap follows. This argument does not assume monotonicity of
 the physical gap. An equivalent proof observes that the minimum of the
 negative-off-diagonal scalar Jacobi form can be taken on nonnegative vectors.
 
-The exact reduced-input candidate comparison is:
+The table gives the exact reduced-input candidate comparison.
 
 | g | one-vector largest numerator | 193-direction largest numerator |
 |---|---:|---:|
@@ -158,5 +158,5 @@ The exact reduced-input candidate comparison is:
 Every entry includes all integer square sides L>=2. Independent numerical
 review is pending at this freeze. The greatest absolute loss from retaining
 only one largest-seed Rayleigh term is .000004089989. This says nothing about
-whether a single Rayleigh term would suffice in the denominator traces: those
+whether a single Rayleigh term would suffice in the denominator traces. Those
 still require complete upper-trace certificates on the smaller patches.

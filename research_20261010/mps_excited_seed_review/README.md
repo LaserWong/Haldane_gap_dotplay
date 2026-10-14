@@ -1,10 +1,13 @@
-# Independent compact excited-MPS review
+# Independent review of compact excited-MPS witnesses
 
-Three-state physical witnesses and fixed-recipe scalar exclusions passed independent review. See REVIEW.md for the proof and limitations, CLAIM_VERDICTS.json for the summary, and SEAL.json plus MANIFEST_SHA256.json for immutable provenance.
+The three-state physical witnesses and exclusions for the specified scalar method passed independent review.
+`REVIEW.md` gives the proof and limitations, and `CLAIM_VERDICTS.json` summarizes the conclusions.
+`SEAL.json` and `MANIFEST_SHA256.json` preserve their provenance.
 
-- n=14,16,20: every β≥0 is excluded for the specified one-Rayleigh numerator recipe and joint-aware delayed conversion.
-- n=24: the closed interval [13/2,45/4] remains unresolved by this necessary-condition screen. This is not a feasibility certificate.
-- Full physical spaces are 3^n and 3^(2n); the retained denominator span is three-dimensional. Bond dimensions are 26/52/52, with no physical expansion above n=6.
-- Independent exact source contraction through24 and ground contraction through48 match every producer integer. No many-body eigensolver is used.
+- At n = 14, 16, and 20, the specified single-Rayleigh numerator method with delayed conversion using joint ratios fails for every β≥0.
+- At n = 24, the necessary-condition test leaves [13/2,45/4] unresolved. This interval is not a feasibility certificate.
+- The full physical spaces have dimensions 3^n and 3^(2n). The retained denominator span has dimension three, and the MPS bond dimensions are 26/52/52. No physical-basis expansion is performed above n = 6.
+- Independent exact source contractions through 24 and ground-state contractions through 48 match every generated integer. No many-body eigensolver is used.
 
-Only this three-state core is covered by its seal. Any later longitudinal-extension review has a separate scope and seal.
+The seal covers only this three-state core.
+Any later review of a longitudinal extension has a separate scope and seal.

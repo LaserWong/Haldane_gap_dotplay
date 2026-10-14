@@ -2,14 +2,11 @@
 
 Updated 2026-10-10 15:19 EDT / 19:19 UTC.
 
-**Result: no successful scalar proposal in the tested finite grid.**
-This is not an all-temperature exclusion and says nothing about physical
-gaplessness. New physical inputs are exact producer candidates awaiting an
-independent point-specific replay.
+No scalar proposal succeeded on the tested finite temperature grid. The new exact physical inputs remained producer candidates awaiting independent point-specific replay. This finite-grid result does not exclude other temperatures or establish physical gaplessness.
 
 All three seed patches, 4×4, 8×4, 8×8 rungs, pass ground identification and full
 low-band separation. The largest omitted-band cutoff is 1.12 and the largest
-triplet Ritz upper is .839832551909, leaving margin .280167448091. Thus the
+triplet Ritz upper is .839832551909, leaving a margin of .280167448091. Thus the
 current failure is at the scalar/finite-temperature stage, not the certified
 band-count stage.
 
@@ -27,12 +24,12 @@ has a successful floating proposal. Selected strongest partial paths are
 replayed with exact directed arithmetic. The new joint scalar lemma is frozen
 separately in `../joint_trace_bootstrap` and is under independent review.
 
-Full spaces are 4^16,4^32,4^64; original ground trial dimensions are 11,29,29.
+Full spaces are 4^16, 4^32, and 4^64. The original ground trial dimensions are 11,29,29.
 The optional filtered ground vector lies in an implicit two-vector Krylov
 span. Retained full low-band counts are 49,97,193. These are different notions
-of dimension; none is a full-Hilbert diagonalization.
+of dimension. None is a full-Hilbert diagonalization.
 
-Reproduction from the repository root:
+To reproduce the calculation from the repository root, run
 
 ```sh
 ulimit -v 1048576
@@ -43,5 +40,5 @@ python research_20261010/low_band/frontier_g009/scan_joint.py
 
 These overwrite only this producer directory. Do not rerun in place after the
 freeze. The first development attempt had a harmless Python Fraction input
-type error before any polynomial result; its traceback is retained in
+type error before any polynomial result. Its traceback is retained in
 `first_attempt_type_error.log`. The corrected producer run completed all inputs.

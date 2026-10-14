@@ -24,6 +24,6 @@ and the optimum is
 
 1−2g−2g sqrt(3(N−1)).
 
-Use this optimum only when a*<1/4; otherwise enforce the required parameter constraint. Optimizing a full heat-tail enclosure is a different objective and may select a different a.
+Use this optimum only when a*<1/4. Otherwise enforce the required parameter constraint. Optimizing a full heat-tail enclosure is a different objective and may select a different a.
 
 Independent exact numerical check for g=1/50, a=17/400, b=2163649829/500000000000: all sixteen rational leading principal minors are strictly positive. Code and exact values are saved beside this note.

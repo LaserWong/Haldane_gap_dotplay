@@ -1,12 +1,12 @@
 # Independent whole-moment derivation and review scope
 
-This is a new review directory. Existing producer packages and prior seals are not modified. The initial authorization is a 90-process-CPU-second, CPU7, 256 MiB bounded review, with compilation capped separately at 512 MiB. The review launcher conservatively charges reservations without refund, includes compilation in the 90 seconds, uses an external process-tree CPU/RSS/wall guard, and records wait4 CPU. No complete 8×4 support sweep or cache build is authorized.
+This is a new review directory. Existing producer packages and prior seals are not modified. The initial authorization is a 90-process-CPU-second, CPU 7, 256 MiB bounded review, with compilation capped separately at 512 MiB. The review launcher conservatively charges reservations without refund, includes compilation in the 90 seconds, uses an external process-tree CPU/RSS/wall guard, and records wait4 CPU. No complete 8×4 support sweep or cache build is authorized.
 
 ## Physical normalization
 
-A rung uses the singlet and Cartesian triplet basis, with the explicit unnormalized columns (0,1,-1,0), (-1,0,0,1), (i,0,0,i), (0,1,1,0). The shifted rung interaction Q=(1+P12)/2 has eigenvalues 0,1,1,1. For adjacent rungs, 2(Sa1·Sb1+Sa2·Sb2)=Pa1,b1+Pa2,b2−I. Conjugating that operator by the two-rung basis, then dividing by four, gives C+C†+D with integer entries. C lowers the triplet count by two; C† raises by two; D preserves it. On two triplets, D is color permutation minus color contraction. Ed in the program is E†=[C,D], the lowering operator; E=[D,C†] raises.
+A rung uses the singlet and Cartesian triplet basis, with the explicit unnormalized columns (0,1,-1,0), (-1,0,0,1), (i,0,0,i), (0,1,1,0). The shifted rung interaction Q=(1+P12)/2 has eigenvalues 0,1,1,1. For adjacent rungs, 2(Sa1·Sb1+Sa2·Sb2)=Pa1,b1+Pa2,b2−I. Conjugating that operator by the two-rung basis, then dividing by four, gives C+C†+D with integer entries. C lowers the triplet count by two. C† raises it by two. D preserves it. On two triplets, D is color permutation minus color contraction. Ed in the program is E†=[C,D], the lowering operator. E=[D,C†] raises.
 
-For the ordinary bilayer H′=Q+(g/2)(C+C†+D), g=11/100, T=200H′=200Q+11(C+C†+D). Periodic positive-coordinate bonds are counted as a multigraph: 4×2 and 5×2 have doubled vertical bonds. The intended 8×4 geometry has 32 rungs, 32 rung edges, 64 undirected in-plane rung-neighbor edges, and physical dimension 4^32=2^64. It does not have 64 rung edges.
+For the ordinary bilayer H′=Q+(g/2)(C+C†+D), g=11/100, T=200H′=200Q+11(C+C†+D). Periodic positive-coordinate bonds are counted as a multigraph. Both 4×2 and 5×2 have doubled vertical bonds. The intended 8×4 geometry has 32 rungs, 32 rung edges, 64 undirected in-plane rung-neighbor edges, and physical dimension 4^32=2^64. It does not have 64 rung edges.
 
 Let d=200, h=11, m=ψ6, χ=Tψ, z=Tχ, cm=Cm, K=[C,C†], E=[D,C†], N=[C,E], F=[E†,E], L=[[C,K],C†]. All vectors here have real coefficients. In complex notation all cross bilinears below use the relevant real part. Different triplet-number sectors are orthogonal.
 
@@ -28,7 +28,7 @@ Using D C†=C†D+E and C E=E C+N,
 
 <C†m,D C†m>=2<cm,C Dm>−<cm,Dcm>+<Km,Dm>+<m,Nm> = d8.
 
-These are terms 1–4. The first term can be evaluated as 2<x,Dm>, without changing orientation. N need not be Hermitian; N→N† is not an allowed simplification in the v cross term below.
+These are terms 1–4. The first term can be evaluated as 2<x,Dm>, without changing orientation. N need not be Hermitian. N→N† is not an allowed simplification in the v cross term below.
 
 ## Complete quartic high sectors
 
@@ -50,6 +50,6 @@ These are terms 11–15. In particular the negative K4 term is essential, even t
 
 ## Translation normalization
 
-For any translation-invariant scalar density on q-element supports, each support contributes q incidences to the occupied-site-origin count, while each lattice site is equivalent. Therefore full support sum=(N/q) times the sum on supports containing the origin. This does not require a free translation action and remains valid for stabilized supports. At 8×4 the q4 factor is eight and the q6 factor is 16/3. Exact divisibility or rational accounting is mandatory. All ordered operator embeddings retain multiplicity; there is no additional 1/32 or stabilizer division.
+For any translation-invariant scalar density on q-element supports, each support contributes q incidences to the occupied-site-origin count, while each lattice site is equivalent. Therefore the full support sum=(N/q) times the sum on supports containing the origin. This does not require a free translation action and remains valid for stabilized supports. At 8×4 the q4 factor is eight and the q6 factor is 16/3. Exact divisibility or rational accounting is mandatory. All ordered operator embeddings retain multiplicity. There is no additional 1/32 or stabilizer division.
 
 This review must distinguish full small fixtures from sampled 8×4 scalar sums. A sample file marked complete refers only to its assigned sample, not to a completed physical moment.

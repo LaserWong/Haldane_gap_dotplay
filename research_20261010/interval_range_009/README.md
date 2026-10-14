@@ -1,7 +1,7 @@
-# Extend the continuous bilayer range to .09
+# Continuous bilayer extension to .09
 
 Updated 2026-10-10 17:19 America/New_York (EDT) / 21:19 UTC.
-Exact producer certificate; independent new-interval review still required.
+The exact producer certificate still requires independent review of the new intervals.
 
 Seven adjoining closed intervals certify every real g in [.085,.09] and every
 integer square side L >= 2 at gap >= .005788366954. Joining the unchanged,
@@ -10,7 +10,7 @@ and preserves its uniform gap >= .001945771244.
 
 - Largest seed: 128 physical spins, full Hilbert dimension 2^128
 - Largest numerator: one retained state from a 43-dimensional search
-- Smaller denominator retained states: 49 and 97; total available trial spaces 59 and 125
+- Smaller denominator retained states: 49 and 97, with total available trial spaces 59 and 125
 - Exact affine numerator and fixed-center denominator inputs throughout each interval
 - 41 finite windows, 42 short-size rows, analytic large-L tail, multiedge L=2 conventions preserved
 - No enlarged-state residual, q=8 support, physical-gap monotonicity, or point interpolation
@@ -25,8 +25,8 @@ Run from the repository root:
 
 Reproduction verifies immutable inputs and replays all saved vectors without
 an eigensolver. It does not overwrite the frozen package. Candidate generation
-is in certify.py; its bounded beta proposals and two subdivided coarse failures
+is in certify.py. Its bounded beta proposals and two subdivided coarse failures
 are recorded in coverage_summary.json. Generation took ~8.6 seconds, initial
 replay ~9.6 seconds, each under 85 MiB, with one CPU and a 1 GiB cap.
 All new work is confined here. Earlier certificates and repository root files
-are untouched; no GitHub changes are included.
+are unchanged. No GitHub changes are included.

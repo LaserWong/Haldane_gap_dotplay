@@ -1,14 +1,21 @@
-# Review cooled uniform-chain seeds
+# Independent review of cooled uniform-chain seeds
 
-2026-10-10 18:27 EDT / 22:27 UTC. Independent PASS, no pending work.
+Recorded October 10, 2026, at 18:27 EDT / 22:27 UTC.
+The review passed with no pending work.
 
-For the unit-coupling periodic uniform spin-1 Heisenberg chain:
-- gap >= 0.0102 for every integer L>=60;
-- gap >= 0.0068 for every integer L>=56;
-- gap >= 0.0025 for every integer L>=54.
+The unit-coupling periodic uniform spin-1 Heisenberg chain has a unique ground state and the following gap lower bounds.
 
-Each range includes a unique ground state. Read REVIEW.md for the complete argument, inherited physical dependencies, scope, and exclusions. No claim below54 or minimum-seed theorem.
+- 0.0102 for every integer L>=60
+- 0.0068 for every integer L>=56
+- 0.0025 for every integer L>=54
 
-The review independently rebuilt D26 physical blocks, contracted104/108/112/120 using sequential powers, and verified every scalar and signed-integer bridge. CPU5, oneCPU,700MiB; benchmark9.21CPU seconds, long contraction30.59CPU seconds, scalar0.18CPU seconds.
+`REVIEW.md` gives the argument, inherited physical inputs, scope, and exclusions.
+No claim is made below length 54 or about the minimum seed size.
 
-Reproduce in a disposable copy: `bash REPRODUCE.sh`. It writes only review files. No producer, root, old seals, or GitHub edits.
+The review independently rebuilt the D = 26 physical blocks and contracted lengths 104/108/112/120 using sequential powers.
+It verified every scalar comparison and signed-integer interpolation bound.
+The recorded run used one CPU on CPU 5 with a 700 MiB limit.
+The benchmark took 9.21 CPU seconds, the long contraction 30.59 CPU seconds, and the scalar calculation 0.18 CPU seconds.
+
+Run `bash REPRODUCE.sh` in a disposable copy.
+It writes only review files and leaves the generating files, repository root, earlier seals, and remote repository unchanged.

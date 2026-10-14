@@ -1,8 +1,8 @@
 # Variance-refined alternating-chain robustness
 
-Producer exact interval certificates, conditional on independent H²/scalar and interval review. Earlier accepted results remain unchanged.
+Refined variance bounds produce the four candidate intervals below. They require independent H², scalar, and interval review. Earlier accepted results remain unchanged.
 
-For periodic spin-one H_M(g)=sum_j[h_(2j−1,2j)+g h_(2j,2j+1)], designated exchange one, every integer M>=2 (physical L=2M), the new rows claim unique ground state and:
+For the periodic spin-one Hamiltonian H_M(g)=sum_j[h_(2j−1,2j)+g h_(2j,2j+1)] with designated exchange one, the new rows claim a unique ground state and the listed gap bounds for every integer M>=2 (physical L=2M).
 
 | Gap | Closed g interval | eta radius |
 |---|---|---|
@@ -11,6 +11,6 @@ For periodic spin-one H_M(g)=sum_j[h_(2j−1,2j)+g h_(2j,2j+1)], designated exch
 | .010 | [399901/400099,400099/399901] | 99/400000 |
 | .005 | [399891/400109,400109/399891] | 109/400000 |
 
-The widest interval is approximately[.9994551484720414,1.0005451485529806]. The only changed seed inputs are the variance-refined Gibbs effect bounds kappa32<=.0969 and kappa64<=.119. The same cell16 initialization, original uniform thermal data and accepted length-specific finite bridge are retained.
+The widest interval is approximately [.9994551484720414,1.0005451485529806]. The only changed seed inputs are the variance-refined Gibbs effect bounds kappa32<=.0969 and kappa64<=.119. The same cell-16 initialization, original uniform thermal data and accepted length-specific finite bridge are retained.
 
-All37 integer-cell windows, four infinite tails and56 finite bridges pass400-place directed checks.36 exact candidate checkpoints retain19 rejections; no floating-tail shortcut is used. This separately authorized scalar gate cost24.955691278CPU seconds including its parent, below30; no retry or physical computation.
+All 37 integer-cell windows, four infinite tails and 56 finite bridges pass 400-place directed checks. The 36 exact candidate checkpoints retain 19 rejections. No floating-tail shortcut is used. This separately authorized scalar gate cost 24.955691278 CPU seconds including its parent, below 30. There was no retry or physical computation.

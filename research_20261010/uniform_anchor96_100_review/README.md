@@ -1,9 +1,16 @@
-# Review MPS96/100 anchors
+# Independent review of the MPS96 and MPS100 energy anchors
 
-2026-10-10 18:58 EDT / 22:58 UTC. Independent anchor-only PASS.
+Recorded October 10, 2026, at 18:58 EDT / 22:58 UTC.
 
-Fresh D26 reconstruction and independent sequential contractions match all producer norm and energy integers. Shifted total Rayleigh quotients are strictly negative: about-1.01012119004e-5 at96 and-1.05193667415e-5 at100.
+The two energy anchors passed independent review.
+A fresh D = 26 reconstruction and independent sequential contractions match every generated norm and energy integer.
+The shifted total Rayleigh quotients are strictly negative, approximately -1.01012119004e-5 at length 96 and -1.05193667415e-5 at length 100.
 
-No gap, thermal upper trace, n48/n50 startup, or minimum-seed claim. The earlier optimality review remains unchanged; this separate supplement supplies the new physical-anchor acceptance.
+These anchors alone do not establish a gap, an upper thermal trace, initialization at n = 48 or 50, or a minimum seed size.
+The earlier optimality review remains unchanged.
+`REVIEW.md` and `results.json` give the separate acceptance of these physical anchors.
 
-See REVIEW.md and results.json. Reproduce in a disposable copy: `bash REPRODUCE.sh`. CPU5,100MiB hard ceiling, about33.45 scientific CPU seconds; no new compiler is needed. Producer/root/GitHub and prior seals untouched.
+Run `bash REPRODUCE.sh` in a disposable copy.
+The recorded run used CPU 5, a hard 100 MiB limit, and about 33.45 scientific CPU seconds.
+No new compiler is needed.
+The generating files, repository root, remote repository, and earlier seals remain unchanged.

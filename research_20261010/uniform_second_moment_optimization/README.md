@@ -1,7 +1,9 @@
+# Second-moment optimization of the uniform-chain bootstrap
+
 Updated 2026-10-10 19:32 EDT / 23:32 UTC.
 
-Conditional producer result, awaiting independent review: gap >= .0214 for every integer L>=36, with unique ground state. All18 beta49/4 thermal totals remain published premises rather than full local physical reruns.
+The conditional producer result gives gap≥.0214 and a unique ground state for every integer L≥36. It awaits independent review. All 18 beta=49/4 thermal totals remain published premises rather than complete local physical reruns.
 
-See PROOF.md for signed support caps, exact long-moment majorants, midpoint square-filter sharpness diagnosis, full scope, and replay commands. No finite transfer rank is assumed.
+`PROOF.md` gives the signed support bounds, exact long-moment majorants, midpoint square-filter sharpness analysis, scope, and replay commands. The argument assumes no finite transfer rank.
 
-Replay: python certify.py; python certify_long.py; python continue_seed.py; python fixtures.py. CPU6; one BLAS/OMP thread; 600CPU-second/700MiB cap per certification batch. Search scripts are optional.
+Replay with `python certify.py`, `python certify_long.py`, `python continue_seed.py`, and `python fixtures.py`. Each certification batch uses CPU6, one BLAS/OMP thread, and limits of 600 CPU seconds and 700 MiB. Search scripts are optional.

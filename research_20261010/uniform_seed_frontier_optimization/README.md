@@ -1,9 +1,14 @@
-# Refine the uniform spin-one seed frontier
+# Candidate refinement of the uniform spin-1 seed threshold
 
-Exact producer candidate, independent review pending:
+The exact generated candidate was awaiting independent review at the recorded checkpoint.
+It gives a unique ground state and gap >=0.0038 for every integer periodic L>=52.
 
-gap >=0.0038 for every integer periodic L>=52, with unique ground state.
+A quadratic Hermite majorant tightens the upper moment bounds using the same nine thermal inputs and the accepted MPS104 anchor.
+No new physical calculation is required.
+The seed inverse temperature is beta = 567/25.
+All early signed-transfer windows are checked, and the asymptotic bound begins at length 3328.
+The result makes no claim below 52 or about the minimum seed size.
 
-The new quadratic Hermite majorant tightens upper moments using the same nine thermal inputs and already accepted MPS104 anchor. No new physical computation. Seed beta567/25; all early signed-transfer windows checked; asymptotic onset3328. No minimum-size claim or result below52.
-
-Read PROOF.md. Run python certify.py, roughly0.8CPU seconds/12MiB. Previous accepted packages remain unchanged.
+`PROOF.md` gives the argument.
+Run `python certify.py`, which takes roughly 0.8 CPU seconds and 12 MiB.
+Earlier accepted packages remain unchanged.

@@ -1,3 +1,5 @@
-# g=.11 exact finite-size scalar review
+# Exact g=.11 finite-size result
 
-Accepted actual result: gap≥.020227124817 with a unique ground for every integer square side2≤L≤32. No actual all-size claim. Two stronger-ground targets are verified solely as conditional scalar implications. See PROOF.md and ACCEPTANCE.json. `sh REPRODUCE.sh` freshly reconstructs physical spectral inputs, numerator Rayleigh upper, full trace tails and every exact scalar state; observed under5 CPU seconds/19MiB.
+The review accepted gap≥.020227124817 and a unique ground state for every integer square side 2≤L≤32. Two targets with improved ground-energy bounds were verified as conditional scalar implications only. No all-size result was established.
+
+PROOF.md and ACCEPTANCE.json record the proof and conclusion. `sh REPRODUCE.sh` reconstructs the physical spectral inputs, numerator Rayleigh upper bound, complete trace tails and every exact scalar state. The replay used under 5 CPU seconds and 19 MiB in the recorded run.

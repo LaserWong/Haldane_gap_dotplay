@@ -4,15 +4,15 @@ Updated 2026-10-10 17:39 EDT / 21:39 UTC.
 
 The exact local current identity and tiny two-vector fixtures pass. At n6,
 an explicitly saved rational combination improves the trial excitation
-energy relative to the fixed psi from0.769079740737225 to0.7205939266054274.
+energy relative to the fixed psi from 0.769079740737225 to 0.7205939266054274.
 At n2 and n4 the two vectors are exactly dependent. These are finite trial
 Rayleigh results, not physical eigenvalues or large-n predictions.
 
 No n24 current contraction has been started. The straightforward route is
-projected at about1,780 CPU seconds, exceeding the600-second gate. It therefore
+projected at about 1,780 CPU seconds, exceeding the 600-second gate. It therefore
 fails the required low-cost screen. A carefully fused range-two source
-automaton could reuse work, but its runtime and memory have not been measured;
-it needs a separate small benchmark before any large run.
+automaton could reuse work, but its runtime and memory have not been measured. 
+It needs a separate small benchmark before any large run.
 
 ## Exact identity and local tensor
 
@@ -26,24 +26,24 @@ For z^n=1 and A_q=sum_j z^j R_j,
 
     [H,A_q]=(1-z) sum_j z^j J_j.
 
-At pi, z=-1 and the factor is2. If B_s=A_(s-1), B_-1=0, the physical
+At pi, z=-1 and the factor is 2. If B_s=A_(s-1), B_-1=0, the physical
 two-site word tensor for J is exactly
 
     Gamma_st=m_t B_s A_t-m_s A_s B_t.
 
-`current_two_site_tensors.json` saves all nine integer26-square word tensors.
-The verifier compares every tensor directly with the physical9-square J
+`current_two_site_tensors.json` saves all nine integer 26-square word tensors.
+The verifier compares every tensor directly with the physical 9-square J
 operator applied to the corresponding MPS words.
 
 For each n2,4,6, the verifier constructs the exact tiny physical state,
-v=A_pi psi, and w=[H,A_pi]psi in two independent ways: full H applications
+v=A_pi psi, and w=[H,A_pi]psi in two independent ways, using full H applications
 and the explicit current sum. It checks exact equality, momentum pi, Sz1,
 and annihilation by total raising. No assumption that psi is an H eigenvector
-is used. The2-square Gram and H-form matrices are saved in `tiny_results.json`.
+is used. The 2-square Gram and H-form matrices are saved in `tiny_results.json`.
 
 At n6 the Gram determinant is positive. The generalized minimum is enclosed
-using the exact quadratic discriminant and160-bit radical bounds. A rational
-mixing coefficient with denominator10^9 produces a bona fide fixed trial
+using the exact quadratic discriminant and 160-bit radical bounds. A rational
+mixing coefficient with denominator 10^9 produces a bona fide fixed trial
 state whose exact Rayleigh quotient is saved. Its improvement is certified
 directly, without treating a compressed eigenvalue as a physical spectral
 bound. The two-vector span may again be completed into spin components by
@@ -54,14 +54,14 @@ eventually contracted.
 
 One explicit representation of the open-chain current sum uses four source
 channels, giving bond4D=104. Two explicit periodic wrapping product terms
-add2D. This supplies a safe periodic bound6D=156 for one current vector;
-it is not asserted optimal. The proposed linear trial span still has at most
+add 2D. This supplies a safe periodic bound 6D=156 for one current vector. 
+It is not asserted optimal. The proposed linear trial span still has at most
 two vectors at one momentum. No new physical support beyond n6 was generated.
 
-A direct reuse of the measured fixed-source engine would need up to24 mixed
-displacements with two monomials each, plus13 current-current displacements
-with four monomials each:100 contractions. At the measured mean of
-231.4436/13 CPU seconds this is about1,780.34 CPU seconds, before extra source
+A direct reuse of the measured fixed-source engine would need up to 24 mixed
+displacements with two monomials each, plus 13 current-current displacements
+with four monomials each, giving 100 contractions. At the measured mean of
+231.4436/13 CPU seconds this is about 1,780.34 CPU seconds, before extra source
 building. Sequential peak memory would remain modest, but time exceeds the
 600-second budget. Nearest momenta are therefore not attempted either.
 
@@ -72,7 +72,7 @@ measure resource growth on one moderate auxiliary contraction. No claim is
 made that this unimplemented optimization fits the large-n gate.
 
 Run `python verify_tiny_commutator.py` in a disposable sibling copy to
-reproduce this assessment. It takes under one CPU second and about23MiB.
-The code pins one CPU and imposes700MiB address-space /600 CPU-second limits.
+reproduce this assessment. It takes under one CPU second and about 23 MiB.
+The code pins one CPU and imposes 700 MiB address-space /600 CPU-second limits.
 The archived witness deliverable and all its staged review inputs remain
 unchanged.

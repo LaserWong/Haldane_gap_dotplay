@@ -1,7 +1,7 @@
-# Partial campaign, safely stopped
+# Partial thermal campaign at the stop
 
-16/18 complete cases (L4–11 I/P),990 checkpoints. L12I256/11595 representatives andL12P192/11595 preserved. No L12 full trace, no discharge of all18 thermal premises.
+The campaign completed 16/18 cases, covering L4–11 with I/P seams, and saved 990 checkpoints. The partial L12I result contains 256/11595 representatives, and L12P contains 192/11595. Neither is a complete L12 trace, so the full set of 18 thermal premises remains unresolved.
 
-Terminal ledger16207charged/21600,5393remaining. Two L12 children were killed by the frozen runner's shrinking120-second invocation allowance; old full unknown charges retained. No restart, refund, reset or alternative ledger.
+The terminal ledger records 16207 charged out of 21600, leaving 5393. The frozen runner's shrinking 120-second invocation allowance killed two L12 children. Their full unknown charges are retained. No restart, refund, reset, or alternate ledger is used.
 
-See DIAGNOSIS.md and outcome.json. Host-estimated remaining CPU~8621seconds plus metadata, exceeding5393. A newly reviewed bounded-invocation repair could permit safe partial continuation, but is neither implemented nor authorized here. Fixed06:00UTC stop remains.
+`DIAGNOSIS.md` and `outcome.json` describe the failure. The host estimate of approximately 8621 remaining CPU seconds, plus metadata work, exceeds 5393. A separately reviewed repair to bounded invocations could allow partial continuation, but was neither implemented nor authorized here. The historical wall stop remained 06:00 UTC.
