@@ -1,0 +1,22 @@
+{
+  "budget": {
+    "exact_max_dimension": 32,
+    "max_dimension": 4096,
+    "max_iterations": 1000,
+    "memory_mb": 256,
+    "tolerance": 1e-09,
+    "trial_rank": 6,
+    "wall_seconds": 10
+  },
+  "model": {
+    "J": "10",
+    "family": "pinned_ferromagnetic_ising",
+    "h": "1",
+    "name": "Strong-coupling pinned Ising square family",
+    "shape": [
+      2,
+      2
+    ],
+    "target_gap": "1/2"
+  }
+}

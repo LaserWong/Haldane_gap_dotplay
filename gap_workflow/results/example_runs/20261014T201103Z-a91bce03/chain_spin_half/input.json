@@ -1,0 +1,29 @@
+{
+  "budget": {
+    "exact_max_dimension": 32,
+    "max_dimension": 4096,
+    "max_iterations": 1000,
+    "memory_mb": 512,
+    "tolerance": 1e-09,
+    "trial_rank": 6,
+    "wall_seconds": 30
+  },
+  "model": {
+    "geometry": {
+      "periodic": false,
+      "shape": [
+        4
+      ],
+      "type": "lattice"
+    },
+    "name": "Open four-site spin-half Heisenberg chain",
+    "schema_version": 1,
+    "spin": 0.5,
+    "terms": [
+      {
+        "J": "1",
+        "type": "heisenberg"
+      }
+    ]
+  }
+}

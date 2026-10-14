@@ -1,0 +1,19 @@
+{
+  "J": "1",
+  "boundary": "Periodic positive-direction multigraph; L=2 has two bonds",
+  "family": "ferromagnetic_spin_half_heisenberg_cycle",
+  "finite_size_gap_positive": true,
+  "gap_definition": "Smallest energy strictly above the entire ground eigenspace",
+  "gap_upper_bound": "J*(1-cos(2*pi/L)) <= 2*pi^2*J/L^2",
+  "general_gaplessness_algorithm": false,
+  "ground_energy": "0",
+  "ground_space_dimension": "L+1",
+  "hamiltonian": "H_L = J sum_i (1/4 - S_i dot S_(i+1))",
+  "physical_gaplessness": true,
+  "proof_kind": "Analytic projector-kernel and explicit orthogonal magnon proof",
+  "proof_reference": "theory/GAPLESS_CONTROL.md",
+  "reason": "An explicit excited eigenstate has positive energy tending to zero.",
+  "scope": "All integer L >= 2, fixed positive rational J, full Hilbert space",
+  "status": "CERTIFIED_GAPLESS_FAMILY",
+  "uniform_gap": "0"
+}

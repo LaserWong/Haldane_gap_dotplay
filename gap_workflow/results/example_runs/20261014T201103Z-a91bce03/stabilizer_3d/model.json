@@ -1,0 +1,12 @@
+{
+  "family": "graph_state_projector",
+  "h": "1",
+  "hamiltonian": "h/2 sum_i (I - X_i product_{j adjacent to i} Z_j)",
+  "normalization": "unit projector coefficient h",
+  "scope": "finite simple graphs; rectangular periodic bootstrap family",
+  "shape": [
+    2,
+    2,
+    2
+  ]
+}

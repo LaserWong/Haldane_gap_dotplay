@@ -1,0 +1,9 @@
+{
+  "J": "1",
+  "family": "quantum_ising_chain",
+  "ground_multiplicity_input": null,
+  "h": "3/2",
+  "hamiltonian": "H_L=-J sum_i Z_i Z_(i+1)-h sum_i X_i",
+  "normalization": "Pauli X/Z eigenvalues +/-1; periodic positive_direction_multigraph, doubled L=2 bond",
+  "parameter_range": "h>J>=0"
+}

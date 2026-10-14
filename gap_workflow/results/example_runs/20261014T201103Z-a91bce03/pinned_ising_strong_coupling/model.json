@@ -1,0 +1,12 @@
+{
+  "J": "10",
+  "family": "pinned_ferromagnetic_ising",
+  "h": "1",
+  "hamiltonian": "J/2 sum_edges (1-Z_i Z_j) + h/2 sum_i (1-Z_i)",
+  "normalization": "Z eigenvalues +/-1; positive_direction_multigraph",
+  "parameter_range": "J>=0 and h>0; no weak-coupling requirement",
+  "shape": [
+    2,
+    2
+  ]
+}

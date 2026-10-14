@@ -1,0 +1,548 @@
+{
+  "model": {
+    "formula": "-sum_i Z_i Z_(i+1) - (1/2)sum_i X_i",
+    "normalization": "Pauli eigenvalues +/-1",
+    "bond_convention": "periodic positive-direction; L=2 doubled bonds"
+  },
+  "evidence_class": "FLOATING_PARTIAL_SPECTRUM_AND_FLOATING_MODE_CROSSCHECK",
+  "exact_results_source": "theory/ORDERED_ISING_GAP_DEFINITIONS.md",
+  "floating_values_are_interval_certificates": false,
+  "full_spectrum_computed": false,
+  "memory_admission_bytes": 268435456,
+  "wall_admission_seconds": 20.0,
+  "total_seconds": 0.06928338099896791,
+  "process_peak_rss_bytes": 50982912,
+  "rows": [
+    {
+      "L": 4,
+      "full_dimension": 16,
+      "working_dimension": 16,
+      "computed_eigenpairs": 4,
+      "eigenvalues": [
+        -4.271558410139715,
+        -4.236067977499791,
+        -1.3243068937239129,
+        -1.0
+      ],
+      "ritz_residual_norms": [
+        2.7880541330005276e-15,
+        3.7380669885088125e-15,
+        1.5571595293943167e-15,
+        1.5005479633204426e-15
+      ],
+      "spin_flip_parity_expectations": [
+        1.0000000000000004,
+        -1.0,
+        1.0,
+        -1.0000000000000002
+      ],
+      "true_ground_gap_candidate": 0.03549043263992413,
+      "rank_two_band_width_candidate": 0.03549043263992413,
+      "complement_separation_from_band_top_candidate": 2.911761083775878,
+      "complement_separation_from_ground_candidate": 2.947251516415802,
+      "mode_sectors": [
+        {
+          "sector": "NS",
+          "vacuum": -4.271558410139714,
+          "lowest_even_occupation_levels": [
+            -4.271558410139714,
+            -1.3243068937239126,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "sector": "R",
+          "vacuum": -4.23606797749979,
+          "lowest_even_occupation_levels": [
+            -4.23606797749979,
+            -1.0000000000000004,
+            -1.0,
+            -0.2360679774997898
+          ]
+        }
+      ],
+      "mode_lowest_four": [
+        -4.271558410139714,
+        -4.23606797749979,
+        -1.3243068937239126,
+        -1.0000000000000004
+      ],
+      "max_eigsh_mode_discrepancy": 8.881784197001252e-16,
+      "estimated_incremental_bytes": 25088,
+      "elapsed_seconds": 0.0015360209981736261
+    },
+    {
+      "L": 5,
+      "full_dimension": 32,
+      "working_dimension": 32,
+      "computed_eigenpairs": 4,
+      "eigenvalues": [
+        -5.325343067060887,
+        -5.309940615606395,
+        -2.669081014852782,
+        -2.369855044684276
+      ],
+      "ritz_residual_norms": [
+        4.074543079488404e-15,
+        5.050861815679933e-15,
+        6.3242527100898336e-15,
+        8.512666367089498e-16
+      ],
+      "spin_flip_parity_expectations": [
+        1.0000000000000002,
+        -0.9999999999999999,
+        1.0,
+        -1.0
+      ],
+      "true_ground_gap_candidate": 0.015402451454491484,
+      "rank_two_band_width_candidate": 0.015402451454491484,
+      "complement_separation_from_band_top_candidate": 2.6408596007536134,
+      "complement_separation_from_ground_candidate": 2.656262052208105,
+      "mode_sectors": [
+        {
+          "sector": "NS",
+          "vacuum": -5.325343067060888,
+          "lowest_even_occupation_levels": [
+            -5.325343067060888,
+            -2.669081014852777,
+            -1.5,
+            -1.5
+          ]
+        },
+        {
+          "sector": "R",
+          "vacuum": -5.309940615606397,
+          "lowest_even_occupation_levels": [
+            -5.309940615606397,
+            -2.3698550446842765,
+            -2.369855044684276,
+            -1.4400855709221205
+          ]
+        }
+      ],
+      "mode_lowest_four": [
+        -5.325343067060888,
+        -5.309940615606397,
+        -2.669081014852777,
+        -2.3698550446842765
+      ],
+      "max_eigsh_mode_discrepancy": 4.884981308350689e-15,
+      "estimated_incremental_bytes": 50432,
+      "elapsed_seconds": 0.001382934999128338
+    },
+    {
+      "L": 6,
+      "full_dimension": 64,
+      "working_dimension": 64,
+      "computed_eigenpairs": 4,
+      "eigenvalues": [
+        -6.384694563603679,
+        -6.3778021186334675,
+        -3.9060672137487233,
+        -3.6457513110645885
+      ],
+      "ritz_residual_norms": [
+        8.897469594106431e-15,
+        4.5895008830612315e-15,
+        6.423272283394967e-15,
+        5.399244764503395e-15
+      ],
+      "spin_flip_parity_expectations": [
+        0.9999999999999992,
+        -0.9999999999999989,
+        1.0000000000000002,
+        -1.0
+      ],
+      "true_ground_gap_candidate": 0.006892444970211464,
+      "rank_two_band_width_candidate": 0.006892444970211464,
+      "complement_separation_from_band_top_candidate": 2.471734904884744,
+      "complement_separation_from_ground_candidate": 2.4786273498549556,
+      "mode_sectors": [
+        {
+          "sector": "NS",
+          "vacuum": -6.384694563603675,
+          "lowest_even_occupation_levels": [
+            -6.384694563603675,
+            -3.9060672137487233,
+            -2.90931291117641,
+            -2.9093129111764098
+          ]
+        },
+        {
+          "sector": "R",
+          "vacuum": -6.3778021186334675,
+          "lowest_even_occupation_levels": [
+            -6.3778021186334675,
+            -3.6457513110645903,
+            -3.6457513110645903,
+            -2.913700503495713
+          ]
+        }
+      ],
+      "mode_lowest_four": [
+        -6.384694563603675,
+        -6.3778021186334675,
+        -3.9060672137487233,
+        -3.6457513110645903
+      ],
+      "max_eigsh_mode_discrepancy": 3.552713678800501e-15,
+      "estimated_incremental_bytes": 101376,
+      "elapsed_seconds": 0.0015315809978346806
+    },
+    {
+      "L": 7,
+      "full_dimension": 128,
+      "working_dimension": 128,
+      "computed_eigenpairs": 4,
+      "eigenvalues": [
+        -7.446379649852239,
+        -7.443233762799742,
+        -5.083225377790989,
+        -4.86018581893794
+      ],
+      "ritz_residual_norms": [
+        1.0156237669571036e-14,
+        7.59546470139308e-15,
+        7.641350953009395e-14,
+        4.743967735318825e-12
+      ],
+      "spin_flip_parity_expectations": [
+        1.0000000000000013,
+        -1.0000000000000013,
+        1.0000000000000013,
+        -1.0000000000000013
+      ],
+      "true_ground_gap_candidate": 0.003145887052497187,
+      "rank_two_band_width_candidate": 0.003145887052497187,
+      "complement_separation_from_band_top_candidate": 2.3600083850087525,
+      "complement_separation_from_ground_candidate": 2.3631542720612497,
+      "mode_sectors": [
+        {
+          "sector": "NS",
+          "vacuum": -7.446379649852228,
+          "lowest_even_occupation_levels": [
+            -7.446379649852228,
+            -5.083225377790988,
+            -4.237509672573768,
+            -4.2375096725737675
+          ]
+        },
+        {
+          "sector": "R",
+          "vacuum": -7.443233762799739,
+          "lowest_even_occupation_levels": [
+            -7.443233762799739,
+            -4.860185818937941,
+            -4.860185818937941,
+            -4.277137875076143
+          ]
+        }
+      ],
+      "mode_lowest_four": [
+        -7.446379649852228,
+        -7.443233762799739,
+        -5.083225377790988,
+        -4.860185818937941
+      ],
+      "max_eigsh_mode_discrepancy": 1.0658141036401503e-14,
+      "estimated_incremental_bytes": 203776,
+      "elapsed_seconds": 0.0028299599980528
+    },
+    {
+      "L": 8,
+      "full_dimension": 256,
+      "working_dimension": 256,
+      "computed_eigenpairs": 4,
+      "eigenvalues": [
+        -8.509082235140278,
+        -8.507626387639485,
+        -6.224803907129562,
+        -6.034000629431601
+      ],
+      "ritz_residual_norms": [
+        6.321357696031351e-15,
+        2.235234462202514e-14,
+        9.414111598340476e-15,
+        8.566475354768802e-15
+      ],
+      "spin_flip_parity_expectations": [
+        1.0000000000000002,
+        -0.9999999999999976,
+        0.9999999999999989,
+        -1.0000000000000004
+      ],
+      "true_ground_gap_candidate": 0.0014558475007930838,
+      "rank_two_band_width_candidate": 0.0014558475007930838,
+      "complement_separation_from_band_top_candidate": 2.282822480509923,
+      "complement_separation_from_ground_candidate": 2.284278328010716,
+      "mode_sectors": [
+        {
+          "sector": "NS",
+          "vacuum": -8.509082235140278,
+          "lowest_even_occupation_levels": [
+            -8.509082235140278,
+            -6.224803907129566,
+            -5.504346423833193,
+            -5.504346423833193
+          ]
+        },
+        {
+          "sector": "R",
+          "vacuum": -8.507626387639503,
+          "lowest_even_occupation_levels": [
+            -8.507626387639503,
+            -6.034000629431603,
+            -6.034000629431602,
+            -5.5603748712237016
+          ]
+        }
+      ],
+      "mode_lowest_four": [
+        -8.509082235140278,
+        -8.507626387639503,
+        -6.224803907129566,
+        -6.034000629431603
+      ],
+      "max_eigsh_mode_discrepancy": 1.7763568394002505e-14,
+      "estimated_incremental_bytes": 409600,
+      "elapsed_seconds": 0.005554878000111785
+    },
+    {
+      "L": 9,
+      "full_dimension": 512,
+      "working_dimension": 512,
+      "computed_eigenpairs": 4,
+      "eigenvalues": [
+        -9.572239785939724,
+        -9.571559138991812,
+        -7.344030175641464,
+        -7.180220852476243
+      ],
+      "ritz_residual_norms": [
+        6.699146474653124e-15,
+        8.280743401443878e-15,
+        8.634530080554198e-13,
+        4.707054021957999e-12
+      ],
+      "spin_flip_parity_expectations": [
+        1.0000000000000002,
+        -1.0000000000000004,
+        1.0,
+        -1.0000000000000013
+      ],
+      "true_ground_gap_candidate": 0.0006806469479112565,
+      "rank_two_band_width_candidate": 0.0006806469479112565,
+      "complement_separation_from_band_top_candidate": 2.2275289633503483,
+      "complement_separation_from_ground_candidate": 2.2282096102982596,
+      "mode_sectors": [
+        {
+          "sector": "NS",
+          "vacuum": -9.57223978593972,
+          "lowest_even_occupation_levels": [
+            -9.57223978593972,
+            -7.344030175641473,
+            -6.72608417322172,
+            -6.72608417322172
+          ]
+        },
+        {
+          "sector": "R",
+          "vacuum": -9.57155913899182,
+          "lowest_even_occupation_levels": [
+            -9.57155913899182,
+            -7.180220852476248,
+            -7.180220852476247,
+            -6.788882565960675
+          ]
+        }
+      ],
+      "mode_lowest_four": [
+        -9.57223978593972,
+        -9.57155913899182,
+        -7.344030175641473,
+        -7.180220852476248
+      ],
+      "max_eigsh_mode_discrepancy": 8.881784197001252e-15,
+      "estimated_incremental_bytes": 823296,
+      "elapsed_seconds": 0.005771979002020089
+    },
+    {
+      "L": 10,
+      "full_dimension": 1024,
+      "working_dimension": 1024,
+      "computed_eigenpairs": 4,
+      "eigenvalues": [
+        -10.635604409347945,
+        -10.635283682667243,
+        -8.448575433939181,
+        -8.307152656563227
+      ],
+      "ritz_residual_norms": [
+        3.262442894941922e-14,
+        4.7899978812589286e-14,
+        1.6467237964667195e-14,
+        3.904701264080821e-14
+      ],
+      "spin_flip_parity_expectations": [
+        0.9999999999999973,
+        -0.9999999999999968,
+        0.9999999999999996,
+        -0.9999999999999978
+      ],
+      "true_ground_gap_candidate": 0.0003207266807017106,
+      "rank_two_band_width_candidate": 0.0003207266807017106,
+      "complement_separation_from_band_top_candidate": 2.1867082487280616,
+      "complement_separation_from_ground_candidate": 2.1870289754087633,
+      "mode_sectors": [
+        {
+          "sector": "NS",
+          "vacuum": -10.635604409347968,
+          "lowest_even_occupation_levels": [
+            -10.635604409347968,
+            -8.448575433939196,
+            -7.914558357946549,
+            -7.914558357946549
+          ]
+        },
+        {
+          "sector": "R",
+          "vacuum": -10.635283682667286,
+          "lowest_even_occupation_levels": [
+            -10.635283682667286,
+            -8.30715265656323,
+            -8.30715265656323,
+            -7.979021630459175
+          ]
+        }
+      ],
+      "mode_lowest_four": [
+        -10.635604409347968,
+        -10.635283682667286,
+        -8.448575433939196,
+        -8.30715265656323
+      ],
+      "max_eigsh_mode_discrepancy": 4.263256414560601e-14,
+      "estimated_incremental_bytes": 1654784,
+      "elapsed_seconds": 0.010856442000658717
+    },
+    {
+      "L": 11,
+      "full_dimension": 2048,
+      "working_dimension": 2048,
+      "computed_eigenpairs": 4,
+      "eigenvalues": [
+        -11.6990645326617,
+        -11.698912461210215,
+        -9.543116383431746,
+        -9.420246801752963
+      ],
+      "ritz_residual_norms": [
+        2.95112130692207e-14,
+        3.1366419561085426e-14,
+        2.0324117555065365e-14,
+        1.5605974999446906e-14
+      ],
+      "spin_flip_parity_expectations": [
+        0.9999999999999999,
+        -0.9999999999999993,
+        1.000000000000001,
+        -0.9999999999999998
+      ],
+      "true_ground_gap_candidate": 0.00015207145148465884,
+      "rank_two_band_width_candidate": 0.00015207145148465884,
+      "complement_separation_from_band_top_candidate": 2.1557960777784686,
+      "complement_separation_from_ground_candidate": 2.1559481492299533,
+      "mode_sectors": [
+        {
+          "sector": "NS",
+          "vacuum": -11.699064532661678,
+          "lowest_even_occupation_levels": [
+            -11.699064532661678,
+            -9.54311638343173,
+            -9.078185061005506,
+            -9.078185061005506
+          ]
+        },
+        {
+          "sector": "R",
+          "vacuum": -11.698912461210238,
+          "lowest_even_occupation_levels": [
+            -11.698912461210238,
+            -9.420246801752976,
+            -9.420246801752976,
+            -9.141581142295713
+          ]
+        }
+      ],
+      "mode_lowest_four": [
+        -11.699064532661678,
+        -11.698912461210238,
+        -9.54311638343173,
+        -9.420246801752976
+      ],
+      "max_eigsh_mode_discrepancy": 2.3092638912203256e-14,
+      "estimated_incremental_bytes": 3325952,
+      "elapsed_seconds": 0.014712983000208624
+    },
+    {
+      "L": 12,
+      "full_dimension": 4096,
+      "working_dimension": 4096,
+      "computed_eigenpairs": 4,
+      "eigenvalues": [
+        -12.76256915102403,
+        -12.762496682237114,
+        -10.630624785104747,
+        -10.523183007309653
+      ],
+      "ritz_residual_norms": [
+        1.7174813805288914e-14,
+        3.270467838772744e-14,
+        3.052311530733406e-14,
+        1.2030047182001533e-13
+      ],
+      "spin_flip_parity_expectations": [
+        0.9999999999999984,
+        -0.9999999999999967,
+        0.999999999999997,
+        -0.9999999999999987
+      ],
+      "true_ground_gap_candidate": 7.246878691624659e-05,
+      "rank_two_band_width_candidate": 7.246878691624659e-05,
+      "complement_separation_from_band_top_candidate": 2.131871897132367,
+      "complement_separation_from_ground_candidate": 2.131944365919283,
+      "mode_sectors": [
+        {
+          "sector": "NS",
+          "vacuum": -12.762569151024044,
+          "lowest_even_occupation_levels": [
+            -12.762569151024044,
+            -10.630624785104777,
+            -10.22297120985651,
+            -10.22297120985651
+          ]
+        },
+        {
+          "sector": "R",
+          "vacuum": -12.762496682237144,
+          "lowest_even_occupation_levels": [
+            -12.762496682237144,
+            -10.523183007309669,
+            -10.523183007309667,
+            -10.283869332382192
+          ]
+        }
+      ],
+      "mode_lowest_four": [
+        -12.762569151024044,
+        -12.762496682237144,
+        -10.630624785104777,
+        -10.523183007309669
+      ],
+      "max_eigsh_mode_discrepancy": 3.019806626980426e-14,
+      "estimated_incremental_bytes": 6684672,
+      "elapsed_seconds": 0.024882549998437753
+    }
+  ]
+}

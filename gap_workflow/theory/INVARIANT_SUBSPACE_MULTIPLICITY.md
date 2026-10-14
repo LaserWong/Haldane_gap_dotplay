@@ -1,6 +1,6 @@
 # Ground multiplicity from an exact invariant-subspace witness
 
-This note gives a sufficient finite-matrix criterion for inferring ground multiplicity without a full characteristic polynomial. The proposed witness verifier is not implemented in this milestone. The existing low-band, exact-inertia, Sturm and Kramers implementations remain unchanged.
+This note gives a sufficient finite-matrix criterion for inferring ground multiplicity without a full characteristic polynomial. A standalone verifier is implemented in gapflow/invariant_witness.py. Automatic witness discovery and CLI integration remain open. The existing low-band, exact-inertia, Sturm and Kramers implementations remain unchanged.
 
 ## Setting and sufficient criterion
 
@@ -14,7 +14,7 @@ Choose rational numbers a < b < t. Exact full-matrix inertia, or the sum over ev
 
 These conditions certify an isolated bottom cluster in [a,b), but do not by themselves establish degeneracy.
 
-A prospective additional witness consists of rational matrices V ∈ Q^(n×k) and T ∈ Q^(k×k), and a squarefree rational polynomial p. Verify the following exact statements.
+An additional witness consists of rational matrices V ∈ Q^(n×k) and T ∈ Q^(k×k), and a squarefree rational polynomial p. Verify the following exact statements.
 
 1. V has full column rank and AV = WVT.
 2. With G = VᵀWV and C = VᵀAV, the restricted pencil C−λG has exactly r eigenvalues in [a,b). This can be checked by its exact inertia at a and b, including endpoint nullities. Under the full-space conditions above it suffices to verify that C−bG has r negative eigenvalues and no zero eigenvalues.
@@ -70,4 +70,4 @@ Finding such a witness can be substantially harder than verifying it. A rounded 
 
 Rational invariant subspaces containing an irrational eigenvalue must also accommodate the appropriate algebraic conjugates. If the ground energy has irreducible degree d and the witness contains its entire multiplicity-r eigenspace, it can require at least rd rational dimensions. Thus a two-state bottom cluster need not admit a two-dimensional rational invariant witness. For a generic problem the necessary witness can grow to the full space.
 
-A useful next implementation would accept and verify structurally generated rational witnesses, report their dimension and exact polynomial evidence, and combine them with the already verified completeness certificate. It should not promise generic discovery of a small witness from floating low-energy candidates. All conclusions remain finite-model statements, with no thermodynamic extrapolation.
+The standalone verifier accepts exact rational witnesses, reports their dimension and polynomial evidence, and checks full-pencil completeness. Automatic construction of useful small witnesses remains a separate task. All conclusions remain finite-model statements, with no thermodynamic extrapolation.

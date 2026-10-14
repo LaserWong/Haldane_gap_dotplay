@@ -83,6 +83,14 @@ Diagnostics distinguish trial approximation, unresolved spectral tail, geometric
 
 Generic model runs save `catalog.json` and include `historical_catalog` in their results. The [historical catalog](workflow_docs/HISTORICAL_CATALOG.md) matches the exact periodic spin-one Heisenberg-chain convention to the recorded all-size bound 31/1250=0.0248. It reports available and missing evidence without replacing the fresh finite-size result or claiming a new independent replay.
 
+## Unknown-rank verification and gap definitions
+
+The callable [invariant-witness verifier](docs/INVARIANT_WITNESS_VERIFIER.md) checks exact rational invariance and a small annihilating polynomial, then matches its inferred multiplicity against full-pencil inertia. It avoids the full characteristic polynomial when a suitable witness exists. The CLI does not yet discover or consume these witnesses.
+
+The [ordered-Ising control](theory/ORDERED_ISING_GAP_DEFINITIONS.md) proves that a unique finite-volume ground state can have a first gap tending to zero while the lowest two states remain uniformly separated from all higher states. Reports must distinguish the exact-ground-space gap from low-band separation. Four-eigenpair calculations for L=4 through 12 are saved in [the benchmark](benchmarks/ordered_ising_low_band.json), with floating evidence separated from the analytic proof.
+
+The second milestone passes 175 tests and a fresh 14-example run. The [test log](audit/full_suite_milestone2_20261014_2010.log), [invariant-witness review](audit/INVARIANT_WITNESS_REVIEW.md), and [ordered-Ising review](audit/ORDERED_ISING_GAP_REVIEW.md) record the checks.
+
 ## Saved work
 
 Each run saves its normalized input, model, resource plan, candidates, certificate, validation, bootstrap decision, worker log, `results.json`, `report.md`, and `checkpoint.json` as stages become available. Exact decimal coefficient lexemes are preserved. Terminal resume verifies input, artifact hashes, solver source, and dependency versions before reusing results. A code or environment change during execution preserves artifacts but prevents acceptance. Interrupted artifacts remain available for inspection. Rerun in a fresh directory.

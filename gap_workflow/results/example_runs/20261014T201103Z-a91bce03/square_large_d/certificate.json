@@ -1,0 +1,238 @@
+{
+  "budget_note": "Time checked between blocks. External process limits enforce hard runtime and memory caps.",
+  "certified": true,
+  "coverage_complete": true,
+  "covered_dimension": 81,
+  "elapsed_seconds": 0.016222066999034723,
+  "evidence": "exact_rational_exhaustive_symmetry_pencil_inertia",
+  "full_hilbert_dimension": 81,
+  "gap_lower_bound": "232074808885703310725010897198563757177507386089/263096368506645047301962430192802109889194996990",
+  "ground_energy_upper": "-62886621582639534590228322285877397700222/156418768434390634543378377046850243691554695",
+  "ground_multiplicity": 1,
+  "has_excited_space": true,
+  "largest_sector_dimension": 19,
+  "max_sector_dimension": 32,
+  "model": {
+    "edge_count": 4,
+    "expanded_term_count": 8,
+    "geometry": {
+      "bond_convention": "positive_direction_multigraph",
+      "periodic": [
+        false,
+        false
+      ],
+      "shape": [
+        2,
+        2
+      ],
+      "type": "lattice"
+    },
+    "hilbert_dimension": 81,
+    "local_dimensions": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_sites": 4,
+    "name": "Open 2x2 spin-one large-D square",
+    "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+    "preserves_total_sz": true,
+    "spins": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "residual_squared": "11270858318885615894319246672900087368560732162684769479904099265251930851/4893366223706303992144439994002899701454045111111671314798232577123618099065933235308605000",
+  "scope": "full finite Hilbert space via every conserved total_m2 sector; no thermodynamic extrapolation",
+  "sector_dimensions": {
+    "-8": 1,
+    "-6": 4,
+    "-4": 10,
+    "-2": 16,
+    "0": 19,
+    "2": 16,
+    "4": 10,
+    "6": 4,
+    "8": 1
+  },
+  "sector_evidence": [
+    {
+      "dimension": 1,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 1,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": "101/25",
+      "thresholds": [
+        "1483/1682"
+      ],
+      "total_m2": -8
+    },
+    {
+      "dimension": 4,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 4,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "1483/1682"
+      ],
+      "total_m2": -6
+    },
+    {
+      "dimension": 10,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 10,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "1483/1682"
+      ],
+      "total_m2": -4
+    },
+    {
+      "dimension": 16,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 16,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "1483/1682"
+      ],
+      "total_m2": -2
+    },
+    {
+      "dimension": 19,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 1,
+          "positive": 18,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "1483/1682"
+      ],
+      "total_m2": 0
+    },
+    {
+      "dimension": 16,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 16,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "1483/1682"
+      ],
+      "total_m2": 2
+    },
+    {
+      "dimension": 10,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 10,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "1483/1682"
+      ],
+      "total_m2": 4
+    },
+    {
+      "dimension": 4,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 4,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "1483/1682"
+      ],
+      "total_m2": 6
+    },
+    {
+      "dimension": 1,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 1,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": "101/25",
+      "thresholds": [
+        "1483/1682"
+      ],
+      "total_m2": 8
+    }
+  ],
+  "status": "certified",
+  "threshold": "1483/1682",
+  "threshold_inertia": {
+    "evidence": "exact_rational_congruence",
+    "negative": 1,
+    "positive": 80,
+    "zero": 0
+  },
+  "trial_norm_squared": "6586053407763816191300142191446326050170724/6586053411029490087253876818207828661271275",
+  "trial_sector": 0,
+  "trial_vector": [
+    "-1/39805",
+    "-2/39809",
+    "96/38209",
+    "-1/39805",
+    "96/38209",
+    "-2/39407",
+    "96/38209",
+    "-2/39809",
+    "96/38209",
+    "-22268/89081",
+    "96/38209",
+    "-2/39809",
+    "96/38209",
+    "-2/39407",
+    "96/38209",
+    "-1/39805",
+    "96/38209",
+    "-2/39809",
+    "-1/39805"
+  ]
+}

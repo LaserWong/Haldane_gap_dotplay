@@ -1,0 +1,28 @@
+# Gap workflow report
+
+Status: certified_uniform_family
+
+Pinned ferromagnetic Ising family: analytic gap at least 1; thermal-bootstrap lower bound 1/2 verified.
+
+Reason: Nonnegative ferromagnetic bonds and positive pinning field; comparison bound valid beyond weak coupling.
+
+This family conclusion uses the registered analytic proof recorded in the certificate.
+
+## Diagnostics
+
+{
+  "analytic_gap_lower_bound": "1",
+  "full_hilbert_dimension_log2": 16,
+  "minimal_seed_size": "sufficient tested shape; minimality not established",
+  "numerical_low_energy_states_computed": 0,
+  "physical_gap_is_claimed_exact": false,
+  "physical_seed_shape": [
+    2,
+    2
+  ],
+  "seed_sites": 4,
+  "temporal_seed_sites": 16,
+  "trial_rank": 1,
+  "trial_rank_kind": "analytically retained ground state",
+  "weak_coupling_assumption": false
+}

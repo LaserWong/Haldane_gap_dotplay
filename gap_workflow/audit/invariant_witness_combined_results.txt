@@ -1,0 +1,23 @@
+test_all_space_one_energy_is_not_excitation_gap (test_invariant_witness.InvariantWitnessTests.test_all_space_one_energy_is_not_excitation_gap) ... ok
+test_budgets_and_float_rejection (test_invariant_witness.InvariantWitnessTests.test_budgets_and_float_rejection) ... ok
+test_dense_positive_metric (test_invariant_witness.InvariantWitnessTests.test_dense_positive_metric) ... ok
+test_nonpositive_metric_and_rank_deficiency (test_invariant_witness.InvariantWitnessTests.test_nonpositive_metric_and_rank_deficiency) ... ok
+test_omitted_lower_state (test_invariant_witness.InvariantWitnessTests.test_omitted_lower_state) ... ok
+test_proper_subspace_irrational_ground (test_invariant_witness.InvariantWitnessTests.test_proper_subspace_irrational_ground) ... ok
+test_rounded_noninvariant_witness (test_invariant_witness.InvariantWitnessTests.test_rounded_noninvariant_witness) ... ok
+test_small_split_is_not_degeneracy (test_invariant_witness.InvariantWitnessTests.test_small_split_is_not_degeneracy) ... ok
+test_wrong_and_nonsquarefree_polynomials (test_invariant_witness.InvariantWitnessTests.test_wrong_and_nonsquarefree_polynomials) ... ok
+test_nonminimal_annihilator_without_matrix_charpoly (test_invariant_witness.NoCharacteristicPolynomialTests.test_nonminimal_annihilator_without_matrix_charpoly) ... ok
+test_dense_indefinite_metric_and_nonsymmetric_energy_form_rejected (test_invariant_witness_audit.IndependentInvariantWitnessTests.test_dense_indefinite_metric_and_nonsymmetric_energy_form_rejected) ... ok
+test_dense_metric_nonorthogonal_coordinates_and_nonsymmetric_T (test_invariant_witness_audit.IndependentInvariantWitnessTests.test_dense_metric_nonorthogonal_coordinates_and_nonsymmetric_T) ... ok
+test_missing_equal_energy_ground_state_fails_completeness (test_invariant_witness_audit.IndependentInvariantWitnessTests.test_missing_equal_energy_ground_state_fails_completeness) ... ok
+test_missing_unequal_low_state_fails_completeness (test_invariant_witness_audit.IndependentInvariantWitnessTests.test_missing_unequal_low_state_fails_completeness) ... ok
+test_no_characteristic_polynomial_called (test_invariant_witness_audit.IndependentInvariantWitnessTests.test_no_characteristic_polynomial_called) ... ok
+test_orthogonality_is_not_assumed_and_gram_detects_dependence (test_invariant_witness_audit.IndependentInvariantWitnessTests.test_orthogonality_is_not_assumed_and_gram_detects_dependence) ... ok
+test_root_endpoint_and_extra_polynomial_roots (test_invariant_witness_audit.IndependentInvariantWitnessTests.test_root_endpoint_and_extra_polynomial_roots) ... ok
+test_zero_wrong_and_complex_polynomials_cannot_certify (test_invariant_witness_audit.IndependentInvariantWitnessTests.test_zero_wrong_and_complex_polynomials_cannot_certify) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.018s
+
+OK

@@ -1,0 +1,34 @@
+{
+  "edge_count": 2,
+  "expanded_term_count": 2,
+  "geometry": {
+    "bond_convention": "explicit_multigraph",
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "n_sites": 3,
+    "type": "graph"
+  },
+  "hilbert_dimension": 8,
+  "local_dimensions": [
+    2,
+    2,
+    2
+  ],
+  "n_sites": 3,
+  "name": "Unequal-coupling AF chain with initially unknown ground multiplicity",
+  "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+  "preserves_total_sz": true,
+  "spins": [
+    0.5,
+    0.5,
+    0.5
+  ]
+}

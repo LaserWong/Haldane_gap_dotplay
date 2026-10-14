@@ -1,0 +1,35 @@
+{
+  "budget": {
+    "exact_max_dimension": 16,
+    "max_dimension": 16,
+    "max_iterations": 1000,
+    "memory_mb": 512,
+    "tolerance": 1e-09,
+    "trial_rank": 3,
+    "wall_seconds": 20
+  },
+  "certificate": {
+    "gap_lower_bound": "1",
+    "ground_energy": "-3/4"
+  },
+  "model": {
+    "geometry": {
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "n_sites": 2,
+      "type": "graph"
+    },
+    "name": "spin-half dimer",
+    "spin": 0.5,
+    "terms": [
+      {
+        "J": "1",
+        "type": "heisenberg"
+      }
+    ]
+  }
+}

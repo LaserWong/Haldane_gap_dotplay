@@ -1,0 +1,299 @@
+{
+  "budget_note": "Time checked between blocks. External process limits enforce hard runtime and memory caps.",
+  "certified": true,
+  "coverage_complete": true,
+  "covered_dimension": 256,
+  "elapsed_seconds": 1.2589891460011131,
+  "evidence": "exact_rational_exhaustive_symmetry_pencil_inertia",
+  "full_hilbert_dimension": 256,
+  "gap_lower_bound": "5247173023625625600484265145630437118717390625273393991661/12758626649727536241481881626987035086852223198815120638278",
+  "ground_energy_upper": "-8031952475309137735613090815993551307007263646831576367/1397286896257533264864952538274782070622300207952592338",
+  "ground_multiplicity": 1,
+  "has_excited_space": true,
+  "largest_sector_dimension": 70,
+  "max_sector_dimension": 70,
+  "model": {
+    "edge_count": 12,
+    "expanded_term_count": 12,
+    "geometry": {
+      "bond_convention": "positive_direction_multigraph",
+      "periodic": [
+        false,
+        false,
+        false
+      ],
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "type": "lattice"
+    },
+    "hilbert_dimension": 256,
+    "local_dimensions": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "n_sites": 8,
+    "name": "Open 2x2x2 spin-half XXZ cube",
+    "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+    "preserves_total_sz": true,
+    "spins": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "residual_squared": "22603756224379200403689943738105722104869651071264432038013507444846310562212600983548415739/488102667613252632156528541324646166648673824110132959139359553750396573964363201455349747038865023604076561",
+  "scope": "full finite Hilbert space via every conserved total_m2 sector; no thermodynamic extrapolation",
+  "sector_dimensions": {
+    "-8": 1,
+    "-6": 8,
+    "-4": 28,
+    "-2": 56,
+    "0": 70,
+    "2": 56,
+    "4": 28,
+    "6": 8,
+    "8": 1
+  },
+  "sector_evidence": [
+    {
+      "dimension": 1,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 1,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": "9/2",
+      "thresholds": [
+        "-48732/9131"
+      ],
+      "total_m2": -8
+    },
+    {
+      "dimension": 8,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 8,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "-48732/9131"
+      ],
+      "total_m2": -6
+    },
+    {
+      "dimension": 28,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 28,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "-48732/9131"
+      ],
+      "total_m2": -4
+    },
+    {
+      "dimension": 56,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 56,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "-48732/9131"
+      ],
+      "total_m2": -2
+    },
+    {
+      "dimension": 70,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 1,
+          "positive": 69,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "-48732/9131"
+      ],
+      "total_m2": 0
+    },
+    {
+      "dimension": 56,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 56,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "-48732/9131"
+      ],
+      "total_m2": 2
+    },
+    {
+      "dimension": 28,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 28,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "-48732/9131"
+      ],
+      "total_m2": 4
+    },
+    {
+      "dimension": 8,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 8,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": null,
+      "thresholds": [
+        "-48732/9131"
+      ],
+      "total_m2": 6
+    },
+    {
+      "dimension": 1,
+      "inertias": [
+        {
+          "evidence": "exact_rational_congruence",
+          "negative": 0,
+          "positive": 1,
+          "zero": 0
+        }
+      ],
+      "scalar_energy": "9/2",
+      "thresholds": [
+        "-48732/9131"
+      ],
+      "total_m2": 8
+    }
+  ],
+  "status": "certified",
+  "threshold": "-48732/9131",
+  "threshold_inertia": {
+    "evidence": "exact_rational_congruence",
+    "negative": 1,
+    "positive": 255,
+    "zero": 0
+  },
+  "trial_norm_squared": "698643448128766632432476269137391035311150103976296169/698643448124234567404097580752265932383112946177480150",
+  "trial_sector": 0,
+  "trial_vector": [
+    "1609/52097",
+    "-1131/50594",
+    "3059/71417",
+    "3059/71417",
+    "-11087/99053",
+    "3059/71417",
+    "-1131/50594",
+    "-11087/99053",
+    "3059/71417",
+    "1609/52097",
+    "3059/71417",
+    "-11087/99053",
+    "-11087/99053",
+    "3059/71417",
+    "9191/87210",
+    "3059/71417",
+    "-11087/99053",
+    "-1131/50594",
+    "3059/71417",
+    "3059/71417",
+    "1609/52097",
+    "-11087/99053",
+    "-11087/99053",
+    "9191/87210",
+    "3059/71417",
+    "-11087/99053",
+    "-11087/99053",
+    "9191/87210",
+    "23032/42809",
+    "-11087/99053",
+    "-11087/99053",
+    "-1131/50594",
+    "3059/71417",
+    "3059/71417",
+    "-11087/99053",
+    "-11087/99053",
+    "3059/71417",
+    "3059/71417",
+    "-1131/50594",
+    "-11087/99053",
+    "-11087/99053",
+    "23032/42809",
+    "9191/87210",
+    "-11087/99053",
+    "-11087/99053",
+    "3059/71417",
+    "9191/87210",
+    "-11087/99053",
+    "-11087/99053",
+    "1609/52097",
+    "3059/71417",
+    "3059/71417",
+    "-1131/50594",
+    "-11087/99053",
+    "3059/71417",
+    "9191/87210",
+    "3059/71417",
+    "-11087/99053",
+    "-11087/99053",
+    "3059/71417",
+    "1609/52097",
+    "3059/71417",
+    "-11087/99053",
+    "-1131/50594",
+    "3059/71417",
+    "-11087/99053",
+    "3059/71417",
+    "3059/71417",
+    "-1131/50594",
+    "1609/52097"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "status": "ACTIVE_BUDGETED_GAP_WORKFLOW",
-  "updated_at_utc": "2026-10-14T20:00:00Z",
-  "updated_at_local": "2026-10-14T16:00:00-04:00",
+  "updated_at_utc": "2026-10-14T20:12:14.710553+00:00",
+  "updated_at_local": "2026-10-14T16:12:14.710553-04:00",
   "user_pause_utc": "2026-10-12T02:38:54Z",
   "publication_scope": "Existing project records plus new gap_workflow source, examples, numerical artifacts, and independent reviews.",
   "complete_original_Stage38_publication": false,
@@ -53,7 +53,7 @@
     "Recover missing historical late-stage certificate dependencies."
   ],
   "previous_resume_requires": "An explicit new instruction from the user",
-  "updated_at_new_york": "2026-10-14T16:00:00-04:00",
+  "updated_at_new_york": "2026-10-14T16:12:14.710553-04:00",
   "progress_report_restored": true,
   "bounded_recovery_audit": {
     "known_path_records": 92,
@@ -74,7 +74,7 @@
   "documentation_documents_updated_in_place": 339,
   "workflow_milestone": {
     "path": "gap_workflow/",
-    "tests_passed": 157,
+    "tests_passed": 175,
     "ground_multiplicity_input_required": false,
     "quantum_ising_uniform_bootstrap_lower": "121183565803/250000000000",
     "quantum_ising_parameters": {
@@ -85,6 +85,16 @@
     },
     "generic_finite_to_uniform_adapter": false,
     "minimum_size_forecasts": "heuristic, not proven minimal",
-    "new_haldane_heisenberg_gap_bound": false
+    "new_haldane_heisenberg_gap_bound": false,
+    "invariant_witness_verifier": "implemented callable API; no automatic discovery or CLI integration",
+    "ordered_ising_control": {
+      "J": "1",
+      "h": "1/2",
+      "finite_ground_rank": 1,
+      "uniform_exact_ground_gap": 0,
+      "uniform_two_state_band_separation_lower": 1,
+      "band_separation_limit": 2,
+      "numerical_evidence": "lowest four eigenpairs for L=4..12; floating checks"
+    }
   }
 }
