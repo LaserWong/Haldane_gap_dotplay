@@ -1,0 +1,19 @@
+{
+  "budget": {
+    "exact_max_dimension": 32,
+    "max_dimension": 4096,
+    "max_iterations": 1000,
+    "memory_mb": 256,
+    "tolerance": 1e-09,
+    "trial_rank": 6,
+    "wall_seconds": 30
+  },
+  "model": {
+    "J": "1",
+    "beta": "8",
+    "family": "quantum_ising_chain",
+    "h": "3/2",
+    "n": 16,
+    "name": "Strong-interaction paramagnetic quantum Ising chain"
+  }
+}

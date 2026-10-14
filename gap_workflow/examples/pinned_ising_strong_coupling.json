@@ -1,0 +1,11 @@
+{
+  "model": {
+    "family": "pinned_ferromagnetic_ising",
+    "name": "Strong-coupling pinned Ising square family",
+    "shape": [2, 2],
+    "J": "10",
+    "h": "1",
+    "target_gap": "1/2"
+  },
+  "budget": {"wall_seconds": 10, "memory_mb": 256}
+}

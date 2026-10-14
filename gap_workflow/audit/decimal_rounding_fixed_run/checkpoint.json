@@ -1,0 +1,19 @@
+{
+  "artifact_sha256": {
+    "bootstrap.json": "18f895c3673a4d3017c3cbda1a1e961f2f27639afbaaf4088d36969e5b96be3a",
+    "candidate.json": "b2afd7b924c72e94183a68ba82d63a2d0474f09c3643d95d15a3097ec2e8a7a9",
+    "certificate.json": "46f68a917b103c6420f0083163da3c0a9242764104ed5d043bd350c2123f8258",
+    "input.json": "6615a6f4c3516f734e3226ad1a619be9cf3419f3ecef506ae45fa1b22593387d",
+    "model.json": "1604d863897817fcaa651876b06db59e589ea494476ef5a32f34ce9830582c54",
+    "resources.json": "ee8bdbf33de70a2a630ced00bcbbd26b2c02a2fc1541ddd8a07a606581c1ded0",
+    "results.json": "06eddf19edb75ae6cb9a682c43694d2cbf2e7da9e17665d2b092713d4e1dee76",
+    "validation.json": "8c20691418e989a21d3222c722f9387dfc5673ad62ad17ac96a4a93d58143dca",
+    "worker.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "worker_result.json": "3eddd507bd59d39e5e44af209d069584dbacf8dcd603bf4dab2f67090c98a915"
+  },
+  "input_sha256": "03cff54180cddcb147fe96681886c4d49420a65cd432a938d12563490c42b288",
+  "resume_policy": "Verify input and artifact hashes; terminal runs are reused, never silently rerun.",
+  "schema_version": 1,
+  "state": "terminal",
+  "status": "candidate_only"
+}

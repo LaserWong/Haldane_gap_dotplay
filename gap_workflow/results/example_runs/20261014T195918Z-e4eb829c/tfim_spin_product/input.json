@@ -1,0 +1,58 @@
+{
+  "budget": {
+    "exact_max_dimension": 32,
+    "max_dimension": 64,
+    "max_iterations": 1000,
+    "memory_mb": 512,
+    "tolerance": 1e-09,
+    "trial_rank": 4,
+    "wall_seconds": 20
+  },
+  "model": {
+    "geometry": {
+      "shape": [
+        3
+      ],
+      "type": "lattice"
+    },
+    "name": "Transverse-field Ising open three-site chain",
+    "spin": 0.5,
+    "terms": [
+      {
+        "Jxy": "0",
+        "Jz": "-4",
+        "type": "xxz"
+      },
+      {
+        "coefficient": "-2",
+        "factors": [
+          {
+            "operator": "x",
+            "site": 0
+          }
+        ],
+        "type": "spin_product"
+      },
+      {
+        "coefficient": "-2",
+        "factors": [
+          {
+            "operator": "x",
+            "site": 1
+          }
+        ],
+        "type": "spin_product"
+      },
+      {
+        "coefficient": "-2",
+        "factors": [
+          {
+            "operator": "x",
+            "site": 2
+          }
+        ],
+        "type": "spin_product"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": {
+    "family": "graph_state_projector",
+    "shape": [
+      2,
+      2,
+      2
+    ],
+    "h": "1",
+    "target_gap": "1/2"
+  },
+  "budget": {
+    "memory_mb": 512,
+    "wall_seconds": 20
+  }
+}

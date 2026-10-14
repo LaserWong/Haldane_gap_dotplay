@@ -1,0 +1,22 @@
+{
+  "certified": true,
+  "evidence": "exact_rational_full_matrix_inertia",
+  "full_dimension": 27,
+  "gap_lower_bound": "9/10",
+  "gap_threshold_inertia": {
+    "evidence": "exact_rational_congruence",
+    "negative": 1,
+    "positive": 26,
+    "zero": 0
+  },
+  "ground_energy": "-3",
+  "ground_inertia": {
+    "evidence": "exact_rational_congruence",
+    "negative": 0,
+    "positive": 26,
+    "zero": 1
+  },
+  "ground_multiplicity": 1,
+  "scope": "finite input matrix only, no thermodynamic extrapolation",
+  "status": "certified"
+}

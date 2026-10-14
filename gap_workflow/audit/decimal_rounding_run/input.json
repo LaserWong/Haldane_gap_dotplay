@@ -1,0 +1,29 @@
+{
+  "budget": {
+    "exact_max_dimension": 32,
+    "max_dimension": 4096,
+    "max_iterations": 1000,
+    "memory_mb": 512,
+    "tolerance": 1e-09,
+    "trial_rank": 6,
+    "wall_seconds": 30
+  },
+  "certificate": {
+    "gap_lower_bound": "1",
+    "ground_energy": "-1/2"
+  },
+  "model": {
+    "geometry": {
+      "edges": [],
+      "n_sites": 1,
+      "type": "graph"
+    },
+    "spin": 0.5,
+    "terms": [
+      {
+        "h": 1.0,
+        "type": "field_z"
+      }
+    ]
+  }
+}

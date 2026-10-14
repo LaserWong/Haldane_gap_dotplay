@@ -1,0 +1,828 @@
+[
+  {
+    "input": "examples/chain_spin_half.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/chain_spin_half",
+    "status": "certified_finite_size",
+    "claim": "Exact finite-size gap lower bound 6339672620962740880056166469909/10690364699081705814150676321756 in the full space. No uniform-family conclusion.",
+    "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+    "elapsed_seconds": 0.43583430600119755,
+    "exit_code": 0,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_finite_size",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/chain_spin_half",
+      "claim": "Exact finite-size gap lower bound 6339672620962740880056166469909/10690364699081705814150676321756 in the full space. No uniform-family conclusion.",
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient."
+    },
+    "stdout": "{\n  \"status\": \"certified_finite_size\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/chain_spin_half\",\n  \"claim\": \"Exact finite-size gap lower bound 6339672620962740880056166469909/10690364699081705814150676321756 in the full space. No uniform-family conclusion.\",\n  \"reason\": \"No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/chain_spin_one_periodic.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/chain_spin_one_periodic",
+    "status": "certified_finite_size",
+    "claim": "Exact finite-size gap lower bound 9/10 in the full space. No uniform-family conclusion.",
+    "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+    "elapsed_seconds": 0.45004818300003535,
+    "exit_code": 0,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_finite_size",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/chain_spin_one_periodic",
+      "claim": "Exact finite-size gap lower bound 9/10 in the full space. No uniform-family conclusion.",
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient."
+    },
+    "stdout": "{\n  \"status\": \"certified_finite_size\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/chain_spin_one_periodic\",\n  \"claim\": \"Exact finite-size gap lower bound 9/10 in the full space. No uniform-family conclusion.\",\n  \"reason\": \"No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/cube_xxz.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/cube_xxz",
+    "status": "candidate_only",
+    "claim": "Floating-point finite-size candidates only; no certified gap.",
+    "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+    "elapsed_seconds": 0.8060418389977713,
+    "exit_code": 2,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "candidate_only",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/cube_xxz",
+      "claim": "Floating-point finite-size candidates only; no certified gap.",
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient."
+    },
+    "stdout": "{\n  \"status\": \"candidate_only\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/cube_xxz\",\n  \"claim\": \"Floating-point finite-size candidates only; no certified gap.\",\n  \"reason\": \"No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/cube_xxz_sectors70.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/cube_xxz_sectors70",
+    "status": "certified_finite_size",
+    "claim": "Exact finite-size gap lower bound 5247173023625625600484265145630437118717390625273393991661/12758626649727536241481881626987035086852223198815120638278 in the full space. No uniform-family conclusion.",
+    "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+    "elapsed_seconds": 7.346596456998668,
+    "exit_code": 0,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_finite_size",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/cube_xxz_sectors70",
+      "claim": "Exact finite-size gap lower bound 5247173023625625600484265145630437118717390625273393991661/12758626649727536241481881626987035086852223198815120638278 in the full space. No uniform-family conclusion.",
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient."
+    },
+    "stdout": "{\n  \"status\": \"certified_finite_size\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/cube_xxz_sectors70\",\n  \"claim\": \"Exact finite-size gap lower bound 5247173023625625600484265145630437118717390625273393991661/12758626649727536241481881626987035086852223198815120638278 in the full space. No uniform-family conclusion.\",\n  \"reason\": \"No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/dimer.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/dimer",
+    "status": "certified_finite_size",
+    "claim": "Exact finite-size gap lower bound 1 in the full space. No uniform-family conclusion.",
+    "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+    "elapsed_seconds": 0.4023757979994116,
+    "exit_code": 0,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_finite_size",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/dimer",
+      "claim": "Exact finite-size gap lower bound 1 in the full space. No uniform-family conclusion.",
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient."
+    },
+    "stdout": "{\n  \"status\": \"certified_finite_size\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/dimer\",\n  \"claim\": \"Exact finite-size gap lower bound 1 in the full space. No uniform-family conclusion.\",\n  \"reason\": \"No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/ferromagnetic_heisenberg_gapless.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/ferromagnetic_heisenberg_gapless",
+    "status": "certified_gapless_family",
+    "claim": "Periodic spin-half ferromagnetic Heisenberg family: uniform gap is zero; every finite ring has a positive gap above its full ground space.",
+    "reason": "An explicit excited eigenstate has positive energy tending to zero.",
+    "elapsed_seconds": 0.4002592739998363,
+    "exit_code": 0,
+    "uniform_family_claim": true,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_gapless_family",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/ferromagnetic_heisenberg_gapless",
+      "claim": "Periodic spin-half ferromagnetic Heisenberg family: uniform gap is zero; every finite ring has a positive gap above its full ground space.",
+      "reason": "An explicit excited eigenstate has positive energy tending to zero."
+    },
+    "stdout": "{\n  \"status\": \"certified_gapless_family\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/ferromagnetic_heisenberg_gapless\",\n  \"claim\": \"Periodic spin-half ferromagnetic Heisenberg family: uniform gap is zero; every finite ring has a positive gap above its full ground space.\",\n  \"reason\": \"An explicit excited eigenstate has positive energy tending to zero.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/graph_mixed_spin.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/graph_mixed_spin",
+    "status": "certified_finite_size",
+    "claim": "Exact finite-size gap lower bound 39002421386444964638171/51708234225273260040813 in the full space. No uniform-family conclusion.",
+    "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+    "elapsed_seconds": 0.40129057300146087,
+    "exit_code": 0,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_finite_size",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/graph_mixed_spin",
+      "claim": "Exact finite-size gap lower bound 39002421386444964638171/51708234225273260040813 in the full space. No uniform-family conclusion.",
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient."
+    },
+    "stdout": "{\n  \"status\": \"certified_finite_size\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/graph_mixed_spin\",\n  \"claim\": \"Exact finite-size gap lower bound 39002421386444964638171/51708234225273260040813 in the full space. No uniform-family conclusion.\",\n  \"reason\": \"No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/ising_obstruction.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/ising_obstruction",
+    "status": "certified_finite_size",
+    "claim": "Exact Ising gap above the two-dimensional ground space is 4. Near-one thermal-purity bootstrap is obstructed.",
+    "reason": "Change to a ground-space-aware criterion; increasing seed size, beta or trial rank cannot remove this obstruction",
+    "elapsed_seconds": 0.39915384099731455,
+    "exit_code": 0,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_finite_size",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/ising_obstruction",
+      "claim": "Exact Ising gap above the two-dimensional ground space is 4. Near-one thermal-purity bootstrap is obstructed.",
+      "reason": "Change to a ground-space-aware criterion; increasing seed size, beta or trial rank cannot remove this obstruction"
+    },
+    "stdout": "{\n  \"status\": \"certified_finite_size\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/ising_obstruction\",\n  \"claim\": \"Exact Ising gap above the two-dimensional ground space is 4. Near-one thermal-purity bootstrap is obstructed.\",\n  \"reason\": \"Change to a ground-space-aware criterion; increasing seed size, beta or trial rank cannot remove this obstruction\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/pinned_ising_strong_coupling.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/pinned_ising_strong_coupling",
+    "status": "certified_uniform_family",
+    "claim": "Pinned ferromagnetic Ising family: analytic gap at least 1; thermal-bootstrap lower bound 1/2 verified.",
+    "reason": "Nonnegative ferromagnetic bonds and positive pinning field; comparison bound valid beyond weak coupling.",
+    "elapsed_seconds": 0.15085582200117642,
+    "exit_code": 0,
+    "uniform_family_claim": true,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_uniform_family",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/pinned_ising_strong_coupling",
+      "claim": "Pinned ferromagnetic Ising family: analytic gap at least 1; thermal-bootstrap lower bound 1/2 verified.",
+      "reason": "Nonnegative ferromagnetic bonds and positive pinning field; comparison bound valid beyond weak coupling."
+    },
+    "stdout": "{\n  \"status\": \"certified_uniform_family\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/pinned_ising_strong_coupling\",\n  \"claim\": \"Pinned ferromagnetic Ising family: analytic gap at least 1; thermal-bootstrap lower bound 1/2 verified.\",\n  \"reason\": \"Nonnegative ferromagnetic bonds and positive pinning field; comparison bound valid beyond weak coupling.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/quantum_ising_interval.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/quantum_ising_interval",
+    "status": "certified_uniform_family",
+    "claim": "Periodic quantum Ising family: uniform gap at least 121183565803/250000000000.",
+    "reason": "Finite-size bridge composed with accepted scalar-bootstrap scope.",
+    "elapsed_seconds": 0.49822725299964077,
+    "exit_code": 0,
+    "uniform_family_claim": true,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_uniform_family",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/quantum_ising_interval",
+      "claim": "Periodic quantum Ising family: uniform gap at least 121183565803/250000000000.",
+      "reason": "Finite-size bridge composed with accepted scalar-bootstrap scope."
+    },
+    "stdout": "{\n  \"status\": \"certified_uniform_family\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/quantum_ising_interval\",\n  \"claim\": \"Periodic quantum Ising family: uniform gap at least 121183565803/250000000000.\",\n  \"reason\": \"Finite-size bridge composed with accepted scalar-bootstrap scope.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/square_large_d.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/square_large_d",
+    "status": "certified_finite_size",
+    "claim": "Exact finite-size gap lower bound 232074808885703310725010897198563757177507386089/263096368506645047301962430192802109889194996990 in the full space. No uniform-family conclusion.",
+    "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+    "elapsed_seconds": 0.6043871760011825,
+    "exit_code": 0,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_finite_size",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/square_large_d",
+      "claim": "Exact finite-size gap lower bound 232074808885703310725010897198563757177507386089/263096368506645047301962430192802109889194996990 in the full space. No uniform-family conclusion.",
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient."
+    },
+    "stdout": "{\n  \"status\": \"certified_finite_size\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/square_large_d\",\n  \"claim\": \"Exact finite-size gap lower bound 232074808885703310725010897198563757177507386089/263096368506645047301962430192802109889194996990 in the full space. No uniform-family conclusion.\",\n  \"reason\": \"No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/stabilizer_3d.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/stabilizer_3d",
+    "status": "certified_uniform_family",
+    "claim": "Graph-state projector family: exact analytic gap 1; thermal-bootstrap lower bound 1/2 verified.",
+    "reason": "Specific proved commuting-projector benchmark only; no extension to general spin models.",
+    "elapsed_seconds": 0.1512425090004399,
+    "exit_code": 0,
+    "uniform_family_claim": true,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_uniform_family",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/stabilizer_3d",
+      "claim": "Graph-state projector family: exact analytic gap 1; thermal-bootstrap lower bound 1/2 verified.",
+      "reason": "Specific proved commuting-projector benchmark only; no extension to general spin models."
+    },
+    "stdout": "{\n  \"status\": \"certified_uniform_family\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/stabilizer_3d\",\n  \"claim\": \"Graph-state projector family: exact analytic gap 1; thermal-bootstrap lower bound 1/2 verified.\",\n  \"reason\": \"Specific proved commuting-projector benchmark only; no extension to general spin models.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/tfim_spin_product.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/tfim_spin_product",
+    "status": "certified_finite_size",
+    "claim": "Exact finite-size gap lower bound 81308418205749291547/101499093726794312919 in the full space. No uniform-family conclusion.",
+    "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+    "elapsed_seconds": 0.3962471349987027,
+    "exit_code": 0,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_finite_size",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/tfim_spin_product",
+      "claim": "Exact finite-size gap lower bound 81308418205749291547/101499093726794312919 in the full space. No uniform-family conclusion.",
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient."
+    },
+    "stdout": "{\n  \"status\": \"certified_finite_size\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/tfim_spin_product\",\n  \"claim\": \"Exact finite-size gap lower bound 81308418205749291547/101499093726794312919 in the full space. No uniform-family conclusion.\",\n  \"reason\": \"No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  },
+  {
+    "input": "examples/unknown_degeneracy_chain.json",
+    "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/unknown_degeneracy_chain",
+    "status": "certified_finite_size",
+    "claim": "Exact finite-size gap lower bound 1249629697/2811899160 in the full space. No uniform-family conclusion.",
+    "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+    "elapsed_seconds": 0.6500589479983319,
+    "exit_code": 0,
+    "uniform_family_claim": false,
+    "artifact_accepted": true,
+    "cli_response": {
+      "status": "certified_finite_size",
+      "output": "/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/unknown_degeneracy_chain",
+      "claim": "Exact finite-size gap lower bound 1249629697/2811899160 in the full space. No uniform-family conclusion.",
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient."
+    },
+    "stdout": "{\n  \"status\": \"certified_finite_size\",\n  \"output\": \"/workspace/shared/haldane_workflow_20261014/results/example_runs/20261014T195918Z-e4eb829c/unknown_degeneracy_chain\",\n  \"claim\": \"Exact finite-size gap lower bound 1249629697/2811899160 in the full space. No uniform-family conclusion.\",\n  \"reason\": \"No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.\"\n}\n",
+    "stderr": "",
+    "execution_provenance": {
+      "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+      "dependencies": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "sympy": "1.14.0"
+      },
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "reviewed_physical_source_sha256": {
+        "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+        "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+        "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+        "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+      },
+      "source_sha256": {
+        "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+        "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+        "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+        "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+        "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+        "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+        "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+        "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+        "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+        "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+        "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+        "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+        "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+        "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+        "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+        "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+        "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+        "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+        "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+        "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+      }
+    }
+  }
+]

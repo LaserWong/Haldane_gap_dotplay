@@ -1,0 +1,58 @@
+{
+  "artifacts": [
+    "bootstrap.json",
+    "candidate.json",
+    "certificate.json",
+    "checkpoint.json",
+    "input.json",
+    "model.json",
+    "resources.json",
+    "validation.json",
+    "worker.log",
+    "worker_result.json"
+  ],
+  "certificate_status": "certified",
+  "claim": "Exact finite-size gap lower bound 1 in the full space. No uniform-family conclusion.",
+  "diagnostics": {
+    "bootstrap": {
+      "admission_requires": [
+        "Hamiltonian normalization and local interaction hypotheses",
+        "boundary and patch geometry",
+        "proved overlap constants and finite-size threshold",
+        "certified seed bounds at every required size",
+        "independently checked theorem hypotheses"
+      ],
+      "forecast_is_not_proof": true,
+      "minimal_seed_physical_size": null,
+      "minimal_trial_dimension": null,
+      "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+      "status": "criterion_unsupported",
+      "uniform_family_claim": false
+    },
+    "full_hilbert_dimension": 2,
+    "geometric_seed_failure": "not evaluated: general bootstrap adapter unavailable",
+    "minimal_seed_size": "unknown: requires an applicable geometric criterion and certified multi-size data",
+    "physical_seed_sites": 1,
+    "requested_trial_rank": 6,
+    "tail_completeness": "exact full-working-matrix inertia certificate",
+    "time_forecast": "uncalibrated; no guaranteed completion-time estimate",
+    "trial_approximation": "converged numerical candidate",
+    "working_dimension": 2
+  },
+  "elapsed_seconds": 0.31671125100183417,
+  "finished_at_utc": "2026-10-14T19:27:18.162719+00:00",
+  "input_sha256": "785721e87466c402e807d7e5fc730263c7b9ba8f41e06777e2528e7583250c21",
+  "memory_enforcement": "OS address-space hard limit",
+  "model_gapless": "not established",
+  "reason": "No general geometric bootstrap adapter is registered. Finite-size certification alone is insufficient.",
+  "status": "certified_finite_size",
+  "uniform_family_claim": false,
+  "validation_status": {
+    "exact_replay": true,
+    "independent_exact_implementation": false,
+    "independent_model_representation_check": "float matrix-free columns versus rational construction",
+    "limitation": "Independent representation crosscheck is numerical; exact verifier replays the same inertia implementation.",
+    "maximum_matrix_entry_error": 0.0,
+    "valid": true
+  }
+}

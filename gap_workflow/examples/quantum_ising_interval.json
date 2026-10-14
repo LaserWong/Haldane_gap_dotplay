@@ -1,0 +1,11 @@
+{
+  "model": {
+    "family": "quantum_ising_chain",
+    "name": "Strong-interaction paramagnetic quantum Ising chain",
+    "J": "1",
+    "h": "3/2",
+    "n": 16,
+    "beta": "8"
+  },
+  "budget": {"wall_seconds": 30, "memory_mb": 256}
+}

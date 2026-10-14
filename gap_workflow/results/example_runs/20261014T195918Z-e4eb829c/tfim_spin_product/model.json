@@ -1,0 +1,29 @@
+{
+  "edge_count": 2,
+  "expanded_term_count": 5,
+  "geometry": {
+    "bond_convention": "positive_direction_multigraph",
+    "periodic": [
+      false
+    ],
+    "shape": [
+      3
+    ],
+    "type": "lattice"
+  },
+  "hilbert_dimension": 8,
+  "local_dimensions": [
+    2,
+    2,
+    2
+  ],
+  "n_sites": 3,
+  "name": "Transverse-field Ising open three-site chain",
+  "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+  "preserves_total_sz": false,
+  "spins": [
+    0.5,
+    0.5,
+    0.5
+  ]
+}

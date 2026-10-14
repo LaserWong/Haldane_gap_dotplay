@@ -1,0 +1,6 @@
+# Optional runtime: exact squarefree-polynomial/Sturm multiplicity inference.
+# Without SymPy, certified low clusters and structural Kramers checks remain usable.
+sympy
+# Optional high-precision candidate calculations and independent numerical audits.
+# Exact rational quantum-Ising interval certificates do not depend on mpmath.
+mpmath

@@ -1,9 +1,9 @@
 {
-  "status": "ACTIVE_AUDIT_AND_RECOVERY",
-  "updated_at_utc": "2026-10-14T19:16:00Z",
-  "updated_at_local": "2026-10-14T15:16:00-04:00",
+  "status": "ACTIVE_BUDGETED_GAP_WORKFLOW",
+  "updated_at_utc": "2026-10-14T20:00:00Z",
+  "updated_at_local": "2026-10-14T16:00:00-04:00",
   "user_pause_utc": "2026-10-12T02:38:54Z",
-  "publication_scope": "Only the latest recoverable project files and confirmed uploaded objects",
+  "publication_scope": "Existing project records plus new gap_workflow source, examples, numerical artifacts, and independent reviews.",
   "complete_original_Stage38_publication": false,
   "baseline_scientific_commit": "d17eadfb655c35eb325245d8660737b761db6b28",
   "confirmed_reachable_recovery_objects": 700,
@@ -34,9 +34,9 @@
   "original_frozen_root_receipt_sha256": "b7f52d87aebc5fd37635e3168ef9c2ad7d6dc671b9734e39c40cd50b2722ce49",
   "resumed_at_utc": "2026-10-14T17:36:22Z",
   "resume_basis": "The user explicitly requested that Haldane work resume and that the README report all existing results.",
-  "current_task": "English documentation revision complete. Recover missing late-stage proof inputs before further bootstrap calculations.",
+  "current_task": "Model-input partial-spectrum gap workflow with initially unknown ground multiplicity.",
   "readme_external_links_allowed": false,
-  "current_audit": "research_20261014/readme_audit/",
+  "current_audit": "gap_workflow/audit/",
   "fresh_replay": {
     "checkpoint_manifest_matches": 1149,
     "extension_checksum_matches": 59,
@@ -47,12 +47,13 @@
     "full_stage38_reproducibility_verified": false
   },
   "next_tasks": [
-    "Match recovered late-stage objects to the paths needed for reproducibility.",
-    "Reproduce late-stage certificates once all required inputs are available.",
-    "Check that the fixed-preparation H3/Ritz inputs are complete before attempting a bootstrap at g = .12."
+    "Develop a spatial bootstrap compatible with unknown ground multiplicity or certified low bands.",
+    "Reduce exact multiplicity inference cost using structural witnesses and independently controlled complements.",
+    "Extend registered geometric seed adapters and calibrate model-specific resource forecasts.",
+    "Recover missing historical late-stage certificate dependencies."
   ],
   "previous_resume_requires": "An explicit new instruction from the user",
-  "updated_at_new_york": "2026-10-14T14:20:18.340585-04:00",
+  "updated_at_new_york": "2026-10-14T16:00:00-04:00",
   "progress_report_restored": true,
   "bounded_recovery_audit": {
     "known_path_records": 92,
@@ -70,5 +71,20 @@
   "documentation_index": "docs/INDEX.md",
   "documentation_source_identities": "docs/DOCUMENTATION_SOURCES.json",
   "documentation_update_policy": "English documentation replaces the existing prose in place. Raw code, data, and numerical certificates are unchanged.",
-  "documentation_documents_updated_in_place": 339
+  "documentation_documents_updated_in_place": 339,
+  "workflow_milestone": {
+    "path": "gap_workflow/",
+    "tests_passed": 157,
+    "ground_multiplicity_input_required": false,
+    "quantum_ising_uniform_bootstrap_lower": "121183565803/250000000000",
+    "quantum_ising_parameters": {
+      "J": "1",
+      "h": "3/2",
+      "n": 16,
+      "beta": "8"
+    },
+    "generic_finite_to_uniform_adapter": false,
+    "minimum_size_forecasts": "heuristic, not proven minimal",
+    "new_haldane_heisenberg_gap_bound": false
+  }
 }

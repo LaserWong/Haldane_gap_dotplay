@@ -1,0 +1,63 @@
+{
+  "certified": true,
+  "coverage_complete": true,
+  "distinct_ground_cluster_roots": 1,
+  "evidence": "exact_rational_inertia_low_cluster",
+  "full_dimension": 8,
+  "gap_above_cluster_lower": "1249629697/2811899160",
+  "gap_lower_bound": "1249629697/2811899160",
+  "ground_multiplicity": 2,
+  "ground_multiplicity_status": "certified_by_single_distinct_root",
+  "low_band_rank": 2,
+  "low_band_width_upper": "44643875383/11160968845735863",
+  "lower": "-414103490/476303091",
+  "lower_inertia": {
+    "evidence": "exact_rational_congruence",
+    "negative": 0,
+    "positive": 8,
+    "zero": 0
+  },
+  "metric_diagonal": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "multiplicity_evidence": {
+    "characteristic_degrees": [
+      8
+    ],
+    "distinct_roots_in_closed_bracket": 1,
+    "method": "exact_squarefree_characteristic_polynomial_Sturm_count",
+    "squarefree_union_coefficients": [
+      "1",
+      "17/40",
+      "-121/320",
+      "459/64000"
+    ],
+    "squarefree_union_degree": 3
+  },
+  "scope": "finite input only; cluster rank does not establish ground degeneracy",
+  "source_status": "CERTIFIED_GROUND_MULTIPLICITY",
+  "status": "certified",
+  "threshold": "-17/40",
+  "threshold_inertia": {
+    "evidence": "exact_rational_congruence",
+    "negative": 2,
+    "positive": 6,
+    "zero": 0
+  },
+  "true_ground_gap_lower": "1249629697/2811899160",
+  "true_ground_multiplicity": 2,
+  "upper": "-61117171/70297479",
+  "upper_inertia": {
+    "evidence": "exact_rational_congruence",
+    "negative": 2,
+    "positive": 6,
+    "zero": 0
+  }
+}

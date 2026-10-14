@@ -1,0 +1,29 @@
+{
+  "edge_count": 3,
+  "expanded_term_count": 3,
+  "geometry": {
+    "bond_convention": "positive_direction_multigraph",
+    "periodic": [
+      true
+    ],
+    "shape": [
+      3
+    ],
+    "type": "lattice"
+  },
+  "hilbert_dimension": 27,
+  "local_dimensions": [
+    3,
+    3,
+    3
+  ],
+  "n_sites": 3,
+  "name": "Periodic three-site spin-one chain",
+  "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+  "preserves_total_sz": true,
+  "spins": [
+    1.0,
+    1.0,
+    1.0
+  ]
+}

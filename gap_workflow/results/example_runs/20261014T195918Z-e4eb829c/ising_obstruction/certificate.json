@@ -1,0 +1,27 @@
+{
+  "U1_symmetry_present": true,
+  "algorithm": "Exact rational Stoer-Wagner; analytic Ising cut identity",
+  "entry_impossible": true,
+  "failed_assumption": "Unique ground state required by the near-one purity criterion",
+  "full_hilbert_dimension_log2": 4,
+  "gap_above_ground_space": "4",
+  "global_spin_flip_Z2": true,
+  "ground_degeneracy": 2,
+  "ground_energy": "-4",
+  "min_cut_side": [
+    3
+  ],
+  "model_gapless": false,
+  "n_sites": 4,
+  "normalization": "H=-sum J_ij Sz_i Sz_j; Sz eigenvalues +/-1/2",
+  "obstruction_origin": "Exact two-fold ground degeneracy prevents near-one Gibbs purity",
+  "purity_threshold": "99/100",
+  "recommended_action": "Change to a ground-space-aware criterion; increasing seed size, beta or trial rank cannot remove this obstruction",
+  "scope": "This connected finite weighted graph; no uniform-family cut bound asserted",
+  "status": "VERIFIED_METHOD_OBSTRUCTION",
+  "thermal_purity_upper_bound": "1/2",
+  "total_Sz_conserved": true,
+  "uniform_family_claim": false,
+  "weighted_min_cut": "8",
+  "zero_temperature_purity_limit": "1/2"
+}

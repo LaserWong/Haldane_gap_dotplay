@@ -1,0 +1,8 @@
+{
+  "exact_replay": true,
+  "independent_exact_implementation": false,
+  "limitation": "Replay checks rational arithmetic; the family conclusion also uses the documented analytic comparison and classical transfer proof.",
+  "model_to_seed_identity": "E(configuration)>=h*number_of_flipped_spins, giving Z<= (1+q)^N",
+  "proof_source": "theory/TRANSFER_ELIGIBILITY.md",
+  "valid": true
+}

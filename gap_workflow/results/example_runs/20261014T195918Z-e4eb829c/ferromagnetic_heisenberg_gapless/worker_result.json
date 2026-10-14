@@ -1,0 +1,17 @@
+{
+  "claim": "Periodic spin-half ferromagnetic Heisenberg family: uniform gap is zero; every finite ring has a positive gap above its full ground space.",
+  "diagnostics": {
+    "failure_class": "rigorous_physical_uniform_gaplessness",
+    "finite_size_gap_positive": true,
+    "gap_upper_bound": "J*(1-cos(2*pi/L)) <= 2*pi^2*J/L^2",
+    "general_gaplessness_algorithm": false,
+    "ground_space_dimension": "L+1",
+    "positive_uniform_target_possible": false,
+    "uniform_gap": "0"
+  },
+  "model_gapless": true,
+  "physical_gaplessness": true,
+  "reason": "An explicit excited eigenstate has positive energy tending to zero.",
+  "status": "certified_gapless_family",
+  "uniform_family_claim": true
+}

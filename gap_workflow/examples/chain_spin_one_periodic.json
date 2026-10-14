@@ -1,0 +1,28 @@
+{
+  "model": {
+    "name": "Periodic three-site spin-one chain",
+    "spin": 1,
+    "geometry": {
+      "type": "lattice",
+      "shape": [
+        3
+      ],
+      "periodic": true,
+      "bond_convention": "positive_direction_multigraph"
+    },
+    "terms": [
+      {
+        "type": "heisenberg",
+        "J": "1"
+      }
+    ],
+    "schema_version": 1
+  },
+  "budget": {
+    "wall_seconds": 30,
+    "memory_mb": 512,
+    "max_dimension": 4096,
+    "trial_rank": 6,
+    "exact_max_dimension": 32
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "budget": {
+    "exact_max_dimension": 16,
+    "max_dimension": 16,
+    "max_iterations": 1000,
+    "memory_mb": 512,
+    "tolerance": 1e-09,
+    "trial_rank": 6,
+    "wall_seconds": 30
+  },
+  "model": {
+    "geometry": {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "n_sites": 3,
+      "type": "graph"
+    },
+    "name": "Unequal-coupling AF chain with initially unknown ground multiplicity",
+    "spin": 0.5,
+    "terms": [
+      {
+        "J": "1",
+        "sites": [
+          0,
+          1
+        ],
+        "type": "heisenberg"
+      },
+      {
+        "J": "7/10",
+        "sites": [
+          1,
+          2
+        ],
+        "type": "heisenberg"
+      }
+    ]
+  }
+}

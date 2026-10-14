@@ -1,0 +1,31 @@
+{
+  "edge_count": 3,
+  "expanded_term_count": 3,
+  "geometry": {
+    "bond_convention": "positive_direction_multigraph",
+    "periodic": [
+      false
+    ],
+    "shape": [
+      4
+    ],
+    "type": "lattice"
+  },
+  "hilbert_dimension": 16,
+  "local_dimensions": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "n_sites": 4,
+  "name": "Open four-site spin-half Heisenberg chain",
+  "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+  "preserves_total_sz": true,
+  "spins": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "accepted_scalar_scope": {
+      "arbitrary_aspect_ratios": false,
+      "base_lengths": [
+        16
+      ],
+      "hypercubes_all_L_ge_seed": true,
+      "small_size_bridge_verified": false,
+      "type": "common_scale_integer_boxes"
+    },
+    "artifact": "seed_001.json",
+    "beta": "8",
+    "bootstrap_status": "VERIFIED_CONDITIONAL",
+    "distinct_single_particle_modes_enclosed": 96,
+    "elapsed_seconds": 0.36101817400049185,
+    "gap_lower": "121183565803/250000000000",
+    "many_body_eigenpairs_computed": 0,
+    "n": 16,
+    "physical_hilbert_dimension": "4294967296",
+    "physical_largest_seed_sites": 32,
+    "purity_intervals": [
+      {
+        "lower": "49793052266486928332740661787350476333084979323711/50000000000000000000000000000000000000000000000000",
+        "upper": "99586104532973856665481323574700952666169958650019/100000000000000000000000000000000000000000000000000"
+      },
+      {
+        "lower": "3120950724927491133522407757364423814536783091317/3125000000000000000000000000000000000000000000000",
+        "upper": "99870423197679716272717048235661562065177058927377/100000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "single_particle_mode_visits_partition": 160,
+    "state": "positive_conditional_replay"
+  }
+]

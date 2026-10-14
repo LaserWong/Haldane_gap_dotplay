@@ -1,0 +1,61 @@
+{
+  "artifact_sha256": {
+    "bootstrap.json": "18f895c3673a4d3017c3cbda1a1e961f2f27639afbaaf4088d36969e5b96be3a",
+    "candidate.json": "9ee00cfbe879ac7323c41c84dfffc6b013df1560ba759de90d05c1cdd2ee4350",
+    "catalog.json": "2320551e43f634b1653c18ededa04deec68dd4f237b95acfe4f557fc60fde070",
+    "certificate.json": "f9cf7b5d66e7974f1f238e8e856ddff458fa1e23f24270d067122f03b4d4fa5e",
+    "input.json": "1dfca769e88268d574a6996ee232c6de83d721246e75dfc2ff0e558039293f2a",
+    "low_band.json": "f9cf7b5d66e7974f1f238e8e856ddff458fa1e23f24270d067122f03b4d4fa5e",
+    "model.json": "04233b4422a7ed44ef32563051ef612fbeb28dd27c09120caddfd19ec3583203",
+    "resources.json": "097243160ad150966765ac42e9d872afd332c3e8eeff1a0ea402f226abf97cb3",
+    "results.json": "fc90ac5c20798f0139d54ceeb3b291fb7c78dc4da16c547c4a3b1814ff7660bc",
+    "validation.json": "1ef310b976c0d14d4526b1bfaa8170f3c84460083cf7de9e3a4ec2e89d684430",
+    "worker.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "worker_result.json": "b525bed850159d2030be0ceb5a4e73107a2d32cfdb8f6400d5746b36b5642ffe"
+  },
+  "execution_provenance": {
+    "code_sha256": "5c5a17729255cf7fb0ed0b8af428c3702aa807265c84fb172c4e17bfed69fba8",
+    "dependencies": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "sympy": "1.14.0"
+    },
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "reviewed_physical_source_sha256": {
+      "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+      "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+      "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+      "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+      "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+      "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+    },
+    "source_sha256": {
+      "__init__.py": "c0421eb5cc8bba4a14f27463fb17bb849bbd80eca46023592c3b5d5c781ab362",
+      "__main__.py": "28f471123d4b8dc34d49502222866fecb4cc748b2a91c35a27471eb6be89b36a",
+      "bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+      "catalog.py": "28d90d158d1e860382baed2b873ed4159739b9dde2c59539f32ee3fb0bd13183",
+      "certify.py": "1b4c7622d51b9283a19cd50fcf623058a382e980357f5af281d8f49ccff82576",
+      "classical_seed.py": "2b2f4e83c19ef1a946cf66a0dc4a67be5fa70b5e3ecf3e9dd943cb5f28f06432",
+      "degenerate.py": "1d1f49fee178389ad1a5b061c43ab3252d4b5163fc9aef6fcce53d05351a6851",
+      "forecast.py": "0289a04f2bce05080115a66e56e3da36d096cc3ce8eca414a11d39e0d7492025",
+      "gapless.py": "25c7c9a42c8306eada0f0e52303468de2e2199303bf24c556a701772f74fabf7",
+      "ising.py": "df5d3164dddea9aba21e08145599b75f8fd8b8c6e5b95f7e0d22b90e288c3129",
+      "low_band.py": "9b09be466f147455797da6b7b3317377b5a889873f79204a3fb47d4914399dd4",
+      "model.py": "023720a43421612ec666f8677e27e15d690b42686d00db9ba2ec7631187fa14f",
+      "quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+      "quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+      "resources.py": "9adb4ca14796f3c6b5470d67ceddef9f0371acfa37519e237f339b10bf089e4f",
+      "sectors.py": "eb90e245e94f45b348ce83098a2590e11a87b190d39aa25dd0f24d4fedfcebd2",
+      "seed_obstruction.py": "21e65ee29f88aeebfe79d9c47ce81fdb3f3e62b45673beeb9aa7f779b4f9bf71",
+      "stabilizer.py": "03fbb49e774131a32686616d46280b04b3b336e92e7292c2847f110759cd725c",
+      "transfer_eligibility.py": "d69253de2a696b141791f5364e4364199591d00a1c3d4ccc2c05ca558f2f7d2f",
+      "workflow.py": "1655277593fb91edea6257204b2c9a90dd375a313107cea56c3f0922e1580cd1"
+    }
+  },
+  "input_sha256": "e9a1e1b6d27756530c6891d61d2a6981e955d28ef9d4ae6f169091cc4ffc92b6",
+  "resume_policy": "Verify input and artifact hashes; terminal runs are reused, never silently rerun.",
+  "schema_version": 1,
+  "state": "terminal",
+  "status": "certified_finite_size"
+}

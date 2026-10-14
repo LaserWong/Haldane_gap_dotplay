@@ -1,0 +1,126 @@
+{
+  "family": "periodic_quantum_ising",
+  "n": 16,
+  "beta": "8",
+  "J": "1",
+  "h": "3/2",
+  "precision_digits": 50,
+  "shift_per_site": "3343852459711229934070936819270189893134394485977/2000000000000000000000000000000000000000000000000",
+  "shifted_partition_intervals": [
+    {
+      "lower": "20048016788877160737811755700830151790871804178359/20000000000000000000000000000000000000000000000000",
+      "upper": "100240083944385803689058778504150758954359020892423/100000000000000000000000000000000000000000000000000"
+    },
+    {
+      "lower": "50032429522958669159066677145869507376756786551759/50000000000000000000000000000000000000000000000000",
+      "upper": "100064859045917338318133354291739014753513573104871/100000000000000000000000000000000000000000000000000"
+    },
+    {
+      "lower": "5000000760870415811335067176057638408355191785169/5000000000000000000000000000000000000000000000000",
+      "upper": "50000007608704158113350671760576384083551917852957/50000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "purity_intervals": [
+    {
+      "lower": "49793052266486928332740661787350476333084979323711/50000000000000000000000000000000000000000000000000",
+      "upper": "99586104532973856665481323574700952666169958650019/100000000000000000000000000000000000000000000000000"
+    },
+    {
+      "lower": "3120950724927491133522407757364423814536783091317/3125000000000000000000000000000000000000000000000",
+      "upper": "99870423197679716272717048235661562065177058927377/100000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "edges": [
+    {
+      "axis": "x1",
+      "base_lengths": [
+        16
+      ],
+      "base_beta": "8",
+      "lower": "49793052266486928332740661787350476333084979323711/50000000000000000000000000000000000000000000000000"
+    },
+    {
+      "axis": "beta",
+      "base_lengths": [
+        32
+      ],
+      "base_beta": "8",
+      "lower": "3120950724927491133522407757364423814536783091317/3125000000000000000000000000000000000000000000000"
+    }
+  ],
+  "bootstrap": {
+    "status": "VERIFIED_CONDITIONAL",
+    "uniform_family_claim": false,
+    "physical_proof_verified": false,
+    "claim": "Scalar inequalities pass conditional on separately verified physical and coverage assumptions.",
+    "model_gapless": "not established",
+    "updates": [],
+    "proof_declaration": {
+      "verified": true,
+      "evidence": [
+        "theory/QUANTUM_ISING_INTERVAL.md",
+        "theory/TRANSFER_ELIGIBILITY.md"
+      ]
+    },
+    "proof_declaration_trusted": false,
+    "required_external_checks": [
+      "model-to-seed proof and artifact identity",
+      "exact transfer in every spatial direction",
+      "complete omitted-spectrum bounds",
+      "signed all-integer interpolation",
+      "all early windows and smallest-size bridge",
+      "independent physical and arithmetic verification"
+    ],
+    "mode": "dedicated",
+    "dimension": 1,
+    "contraction_constant": 5,
+    "entry_threshold": "1/100",
+    "arithmetic": "exact rational outward rounding",
+    "rounds": 0,
+    "lengths": [
+      16
+    ],
+    "beta": "8",
+    "edges": [
+      {
+        "axis": "x1",
+        "base_lengths": [
+          16
+        ],
+        "base_beta": "8",
+        "lower": "49793052266486928332740661787350476333084979323711/50000000000000000000000000000000000000000000000000"
+      },
+      {
+        "axis": "beta",
+        "base_lengths": [
+          32
+        ],
+        "base_beta": "8",
+        "lower": "3120950724927491133522407757364423814536783091317/3125000000000000000000000000000000000000000000000"
+      }
+    ],
+    "u": "206947733513071667259338212649523666915020676289/50000000000000000000000000000000000000000000000000",
+    "gap_lower": "121183565803/250000000000",
+    "gap_lower_display": 0.484734263212,
+    "reason": "Exact sequential recurrence entered its proved contraction region",
+    "scope": {
+      "type": "common_scale_integer_boxes",
+      "base_lengths": [
+        16
+      ],
+      "hypercubes_all_L_ge_seed": true,
+      "arbitrary_aspect_ratios": false,
+      "small_size_bridge_verified": false
+    }
+  },
+  "evidence_class": "EXACT_RATIONAL_PARTITION_SEED_ENCLOSURES",
+  "partition_formula_scope": "periodic positive-direction bonds, including doubled L=2 bond",
+  "physical_transfer_reference": "theory/TRANSFER_ELIGIBILITY.md",
+  "small_size_bridge_verified": false,
+  "uniform_family_claim": false,
+  "scope": "Certified finite partition seeds; scalar bootstrap conditional on independent physical proof review; no L<n bridge",
+  "many_body_eigenpairs_computed": 0,
+  "distinct_single_particle_modes_enclosed": 96,
+  "single_particle_mode_visits_partition": 160,
+  "elapsed_seconds": 0.3644417469986365
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "arithmetic": "Exact SymPy rational and symbolic square-root identities",
+  "single_spin_checks": [
+    {
+      "twice_spin": 1,
+      "dimension": 2,
+      "exact_algebra": "PASS"
+    },
+    {
+      "twice_spin": 2,
+      "dimension": 3,
+      "exact_algebra": "PASS"
+    },
+    {
+      "twice_spin": 3,
+      "dimension": 4,
+      "exact_algebra": "PASS"
+    },
+    {
+      "twice_spin": 4,
+      "dimension": 5,
+      "exact_algebra": "PASS"
+    }
+  ],
+  "mixed_spin_dimension": 12,
+  "mixed_spin_pencil": "PASS",
+  "generalized_rayleigh_rational": true,
+  "full_residual_variance_rational": true,
+  "complex_field_realification_doubled_multiplicities": "PASS"
+}

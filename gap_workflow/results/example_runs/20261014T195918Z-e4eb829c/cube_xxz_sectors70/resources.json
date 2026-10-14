@@ -1,0 +1,106 @@
+{
+  "admits_dense": true,
+  "admits_matrix_free": true,
+  "admits_sparse": true,
+  "assumptions": [
+    "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+    "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+    "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+    "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+    "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+    "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+    "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+    "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+    "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+    "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+  ],
+  "budget": {
+    "max_basis_dimension": 4096,
+    "memory_bytes": 536870912,
+    "time_seconds": null
+  },
+  "bytes": {
+    "dense_eigensolve_peak_estimate": 2224128,
+    "dense_matrix": 524288,
+    "matrix_free_iterative_peak_estimate": 181376,
+    "mps_tensor_storage_estimate": null,
+    "projected_trial_matrix": 288,
+    "python_basis_and_lookup_estimate": 98304,
+    "real_vector": 2048,
+    "sparse_construction_peak_estimate": 1021960,
+    "sparse_csr_upper_estimate": 104456,
+    "sparse_iterative_peak_estimate": 1021960,
+    "trial_vectors": 12288
+  },
+  "computational_dimension": 256,
+  "exact_required_block_dimension": 70,
+  "exact_sector_dimensions": {
+    "-8": 1,
+    "-6": 8,
+    "-4": 28,
+    "-2": 56,
+    "0": 70,
+    "2": 56,
+    "4": 28,
+    "6": 8,
+    "8": 1
+  },
+  "exact_sector_partition_admitted": true,
+  "full_hilbert_dimension": 256,
+  "hard_wall_seconds": 30,
+  "linear_trial_rank": 6,
+  "model": {
+    "edge_count": 12,
+    "expanded_term_count": 12,
+    "geometry": {
+      "bond_convention": "positive_direction_multigraph",
+      "periodic": [
+        false,
+        false,
+        false
+      ],
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "type": "lattice"
+    },
+    "hilbert_dimension": 256,
+    "local_dimensions": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "n_sites": 8,
+    "name": "Open 2x2x2 spin-half XXZ cube",
+    "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+    "preserves_total_sz": true,
+    "spins": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "mps_bond_dimension": null,
+  "runtime_admission": "bounded pilot; completion time is not forecast",
+  "sparse_nnz_upper_bound": 6400,
+  "symmetry_sector": null,
+  "timing": {
+    "dense_seconds": null,
+    "expected_matvecs": 200,
+    "matrix_free_seconds": null,
+    "rigorous_bound": false,
+    "status": "uncalibrated"
+  }
+}

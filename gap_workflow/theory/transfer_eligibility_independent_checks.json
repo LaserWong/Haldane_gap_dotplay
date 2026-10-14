@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "realignment_identity": "PASS",
+  "rational_LDL_witness": "PASS",
+  "antiferromagnetic_SzSz_negative_quadratic_form": "-1/4",
+  "classical_transfer_cases": [
+    {
+      "width": 1,
+      "length": 2,
+      "exact_trace": "35/32",
+      "status": "PASS"
+    },
+    {
+      "width": 1,
+      "length": 3,
+      "exact_trace": "275/256",
+      "status": "PASS"
+    },
+    {
+      "width": 1,
+      "length": 4,
+      "exact_trace": "2225/2048",
+      "status": "PASS"
+    },
+    {
+      "width": 1,
+      "length": 5,
+      "exact_trace": "18125/16384",
+      "status": "PASS"
+    },
+    {
+      "width": 2,
+      "length": 2,
+      "exact_trace": "529025/524288",
+      "status": "PASS"
+    },
+    {
+      "width": 2,
+      "length": 3,
+      "exact_trace": "33791375/33554432",
+      "status": "PASS"
+    },
+    {
+      "width": 2,
+      "length": 4,
+      "exact_trace": "554747770625/549755813888",
+      "status": "PASS"
+    },
+    {
+      "width": 2,
+      "length": 5,
+      "exact_trace": "35583459865625/35184372088832",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "counts": {
+    "exact_sqrt_checks": 4,
+    "exact_exp_reference_containment": 4,
+    "mp200_enclosures_diagnostic": 1008,
+    "ed_trace_diagnostic": 224,
+    "ed_bridge_diagnostic": 28,
+    "tampered_scalar_label_rejected": 4,
+    "malformed_rejected": 9,
+    "caps_or_singular_rejected": 4
+  },
+  "ed_max_logZ_error": 3.268496584496461e-13,
+  "ed_min_bridge_margin": -8.881784197001252e-15,
+  "gap_lower": "121183565803/250000000000",
+  "numerical_comparisons_are_proof": false,
+  "source_sha256": {
+    "gapflow/quantum_ising.py": "91375a9a2632d18fd690c4136b08ff65eec5bd43253aa4fb827b00a21c1db74b",
+    "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+    "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+    "theory/QUANTUM_ISING_SEEDS.md": "bab2df03592cabb69532e26b01e1237770ac6078d6beae0866d8a920764af310",
+    "theory/QUANTUM_ISING_INTERVAL.md": "602803f17409ac6d9d9d265f73a46c40e3927e684aa7334ce2f4d5ebfdcbdc37"
+  },
+  "purity_intervals": [
+    {
+      "lower": "49793052266486928332740661787350476333084979323711/50000000000000000000000000000000000000000000000000",
+      "upper": "99586104532973856665481323574700952666169958650019/100000000000000000000000000000000000000000000000000"
+    },
+    {
+      "lower": "3120950724927491133522407757364423814536783091317/3125000000000000000000000000000000000000000000000",
+      "upper": "99870423197679716272717048235661562065177058927377/100000000000000000000000000000000000000000000000000"
+    }
+  ]
+}

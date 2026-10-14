@@ -1,0 +1,35 @@
+{
+  "analytic_all_finite_sizes_bridge_gap_lower_bound": "1",
+  "bridge_scope": "all integer L>=2; covers all sizes outside the accepted scalar bootstrap scope",
+  "composed_uniform_gap_lower_bound": "121183565803/250000000000",
+  "composition_rule": "minimum of scalar replay lower bound and analytic all-L>=2 bridge",
+  "ground_multiplicity": 1,
+  "ground_multiplicity_source": "derived from the paramagnetic parity/Fourier proof; not supplied",
+  "partition_evidence": "EXACT_RATIONAL_PARTITION_SEED_ENCLOSURES",
+  "physical_audit_cleared": true,
+  "proof_sources": [
+    "theory/QUANTUM_ISING_SEEDS.md",
+    "theory/QUANTUM_ISING_INTERVAL.md",
+    "theory/TRANSFER_ELIGIBILITY.md"
+  ],
+  "reviewed_source_sha256": {
+    "audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md": "0e9c4d584cb72129edb689dcdfde034b5bf7b4e29a73fa5cde859af7d4555428",
+    "gapflow/bootstrap.py": "4547563b245b0417f126721806dfd60679cbaebe048735f4574fae2b78ec872d",
+    "gapflow/quantum_ising_interval.py": "ab88cb3b0c66f5e6ae0d7b7d80a049566df5532a11f749bf125182c538508558",
+    "theory/QUANTUM_ISING_INTERVAL.md": "6f0ba52a47d25bcbef43ccef48abf19af1af0f906e30454726881422cb5bac3a",
+    "theory/QUANTUM_ISING_SEEDS.md": "42a0724cea8a6f1b4409c69c709b1d596098da596cf0a6aa2ac4dc3b2d340209",
+    "theory/TRANSFER_ELIGIBILITY.md": "06ea50e49f6e775a415e2cfd79aa95b94fc0fd450f0f0025fb896329fa986369"
+  },
+  "scalar_accepted_scope": {
+    "arbitrary_aspect_ratios": false,
+    "base_lengths": [
+      16
+    ],
+    "hypercubes_all_L_ge_seed": true,
+    "small_size_bridge_verified": false,
+    "type": "common_scale_integer_boxes"
+  },
+  "scalar_bootstrap_gap_lower_bound": "121183565803/250000000000",
+  "status": "CERTIFIED_UNIFORM_FAMILY",
+  "uniform_family_claim": true
+}

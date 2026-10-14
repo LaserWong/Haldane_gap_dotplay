@@ -1,0 +1,12 @@
+{
+  "model": {
+    "name": "Unequal-coupling AF chain with initially unknown ground multiplicity",
+    "spin": 0.5,
+    "geometry": {"type": "graph", "n_sites": 3, "edges": [[0, 1], [1, 2]]},
+    "terms": [
+      {"type": "heisenberg", "sites": [0, 1], "J": "1"},
+      {"type": "heisenberg", "sites": [1, 2], "J": "7/10"}
+    ]
+  },
+  "budget": {"wall_seconds": 30, "memory_mb": 512, "max_dimension": 16, "trial_rank": 6, "exact_max_dimension": 16}
+}

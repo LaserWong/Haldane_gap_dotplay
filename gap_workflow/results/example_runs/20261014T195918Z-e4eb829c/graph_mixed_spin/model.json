@@ -1,0 +1,52 @@
+{
+  "edge_count": 3,
+  "expanded_term_count": 7,
+  "geometry": {
+    "bond_convention": "explicit_multigraph",
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "n_sites": 3,
+    "positions": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        "0.5",
+        1
+      ]
+    ],
+    "type": "graph"
+  },
+  "hilbert_dimension": 12,
+  "local_dimensions": [
+    2,
+    3,
+    2
+  ],
+  "n_sites": 3,
+  "name": "Mixed-spin triangle with field",
+  "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+  "preserves_total_sz": true,
+  "spins": [
+    0.5,
+    1.0,
+    0.5
+  ]
+}

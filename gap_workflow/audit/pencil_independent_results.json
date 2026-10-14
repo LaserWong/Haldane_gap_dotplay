@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "symbolic_kronecker_cases": [
+    {
+      "spins": [
+        "1/2",
+        "1"
+      ],
+      "exact_matrix_and_sector_checks": 5
+    },
+    {
+      "spins": [
+        "3/2",
+        "2"
+      ],
+      "exact_matrix_and_sector_checks": 9
+    },
+    {
+      "spins": [
+        "2",
+        "2"
+      ],
+      "exact_matrix_and_sector_checks": 10
+    },
+    {
+      "spins": [
+        "1/2",
+        "1",
+        "3/2"
+      ],
+      "exact_matrix_and_sector_checks": 8
+    }
+  ],
+  "exact_heisenberg_pair_gap_checks": 3,
+  "scope": "Independent exact symbolic matrix construction; numerical inertia comparison; analytic pair energies"
+}

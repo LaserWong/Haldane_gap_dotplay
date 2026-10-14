@@ -1,0 +1,88 @@
+{
+  "certificate": {
+    "F": 256,
+    "K": 512,
+    "claim": "Model-specific exact family; no extension to arbitrary noncommuting models.",
+    "finite_bridge": "Analytic projector spectrum for every finite graph",
+    "full_family_gap_exact": "1",
+    "seed_admitted": true,
+    "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED",
+    "target_gap": "1/2",
+    "target_verified": true,
+    "threshold": "1/6400"
+  },
+  "search": [
+    {
+      "q_power_10": 1,
+      "status": "SEED_NOT_SUFFICIENT"
+    },
+    {
+      "q_power_10": 2,
+      "status": "SEED_NOT_SUFFICIENT"
+    },
+    {
+      "q_power_10": 3,
+      "status": "SEED_NOT_SUFFICIENT"
+    },
+    {
+      "q_power_10": 4,
+      "status": "SEED_NOT_SUFFICIENT"
+    },
+    {
+      "q_power_10": 5,
+      "status": "SEED_NOT_SUFFICIENT"
+    },
+    {
+      "q_power_10": 6,
+      "status": "SEED_NOT_SUFFICIENT"
+    },
+    {
+      "q_power_10": 7,
+      "status": "SEED_NOT_SUFFICIENT"
+    },
+    {
+      "q_power_10": 8,
+      "status": "SEED_NOT_SUFFICIENT"
+    },
+    {
+      "q_power_10": 9,
+      "status": "SEED_NOT_SUFFICIENT"
+    },
+    {
+      "q_power_10": 10,
+      "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED"
+    }
+  ],
+  "seed": {
+    "beta_definition": "log(10000000000/1) / (1)",
+    "defect": "1280000000000/100000000020000000001",
+    "dimension": 3,
+    "full_hilbert_dimension": "18446744073709551616",
+    "full_hilbert_dimension_log2": 64,
+    "h": "1",
+    "low_energy_levels_required": 1,
+    "numerically_computed_eigenpairs": 0,
+    "purities": [
+      "1",
+      "1",
+      "1",
+      "99999998740000000001/100000000020000000001"
+    ],
+    "purity_bound": "Bernoulli lower bound 1 - V * 2q/(1+q)^2",
+    "q": "1/10000000000",
+    "retained_ground_space_rank": 1,
+    "scope": "Every finite simple graph; thermal bootstrap uses rectangular periodic family.",
+    "seed_volume": 8,
+    "shape": [
+      2,
+      2,
+      2
+    ],
+    "spectrum_status": "ANALYTIC_UNITARY_EQUIVALENCE",
+    "tail_status": "EXACT_BINOMIAL_MULTIPLICITIES",
+    "temporal_seed_volume": 64,
+    "transfer_proof": "Positive scalar X_i=(1+q)^transverse_volume reproduces every integer-length heat trace",
+    "trial_rank": 1,
+    "trial_rank_interpretation": "Analytically known retained ground-state rank, not a numerical trial solve"
+  }
+}

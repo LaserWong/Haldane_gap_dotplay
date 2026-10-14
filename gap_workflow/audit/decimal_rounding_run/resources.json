@@ -1,0 +1,70 @@
+{
+  "admits_dense": true,
+  "admits_matrix_free": true,
+  "admits_sparse": true,
+  "assumptions": [
+    "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+    "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+    "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+    "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+    "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+    "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+    "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+    "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+    "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+    "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+  ],
+  "budget": {
+    "max_basis_dimension": 4096,
+    "memory_bytes": 536870912,
+    "time_seconds": null
+  },
+  "bytes": {
+    "dense_eigensolve_peak_estimate": 832,
+    "dense_matrix": 32,
+    "matrix_free_iterative_peak_estimate": 1248,
+    "mps_tensor_storage_estimate": null,
+    "projected_trial_matrix": 32,
+    "python_basis_and_lookup_estimate": 544,
+    "real_vector": 16,
+    "sparse_construction_peak_estimate": 856,
+    "sparse_csr_upper_estimate": 56,
+    "sparse_iterative_peak_estimate": 1304,
+    "trial_vectors": 32
+  },
+  "computational_dimension": 2,
+  "full_hilbert_dimension": 2,
+  "hard_wall_seconds": 30,
+  "linear_trial_rank": 2,
+  "model": {
+    "edge_count": 0,
+    "expanded_term_count": 1,
+    "geometry": {
+      "bond_convention": "explicit_multigraph",
+      "edges": [],
+      "n_sites": 1,
+      "type": "graph"
+    },
+    "hilbert_dimension": 2,
+    "local_dimensions": [
+      2
+    ],
+    "n_sites": 1,
+    "name": "unnamed",
+    "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+    "spins": [
+      0.5
+    ]
+  },
+  "mps_bond_dimension": null,
+  "runtime_admission": "bounded pilot; completion time is not forecast",
+  "sparse_nnz_upper_bound": 2,
+  "symmetry_sector": null,
+  "timing": {
+    "dense_seconds": null,
+    "expected_matvecs": 200,
+    "matrix_free_seconds": null,
+    "rigorous_bound": false,
+    "status": "uncalibrated"
+  }
+}

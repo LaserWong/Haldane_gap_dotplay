@@ -1,0 +1,16 @@
+{
+  "budget": {
+    "exact_max_dimension": 32,
+    "max_dimension": 4096,
+    "max_iterations": 1000,
+    "memory_mb": 256,
+    "tolerance": 1e-09,
+    "trial_rank": 6,
+    "wall_seconds": 10
+  },
+  "model": {
+    "J": "1",
+    "family": "ferromagnetic_heisenberg_chain",
+    "name": "Periodic spin-half ferromagnetic Heisenberg gapless control"
+  }
+}

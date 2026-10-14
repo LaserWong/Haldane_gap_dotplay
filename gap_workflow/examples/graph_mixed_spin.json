@@ -1,0 +1,67 @@
+{
+  "model": {
+    "name": "Mixed-spin triangle with field",
+    "spins": [
+      0.5,
+      1,
+      0.5
+    ],
+    "geometry": {
+      "type": "graph",
+      "n_sites": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "positions": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0.5,
+          1
+        ]
+      ]
+    },
+    "terms": [
+      {
+        "type": "heisenberg",
+        "J": "1"
+      },
+      {
+        "type": "onsite_d",
+        "sites": [
+          1
+        ],
+        "D": "1/4"
+      },
+      {
+        "type": "field_z",
+        "h": "1/10"
+      }
+    ],
+    "schema_version": 1
+  },
+  "budget": {
+    "wall_seconds": 30,
+    "memory_mb": 512,
+    "max_dimension": 4096,
+    "trial_rank": 6,
+    "exact_max_dimension": 32
+  }
+}

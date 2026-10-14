@@ -1,0 +1,32 @@
+{
+  "model": {
+    "name": "Ferromagnetic Ising four-site ring obstruction",
+    "spin": 0.5,
+    "geometry": {
+      "type": "lattice",
+      "shape": [
+        4
+      ],
+      "periodic": true,
+      "bond_convention": "simple_graph"
+    },
+    "terms": [
+      {
+        "type": "xxz",
+        "Jxy": "0",
+        "Jz": "-4"
+      }
+    ]
+  },
+  "budget": {
+    "wall_seconds": 20,
+    "memory_mb": 512,
+    "max_dimension": 64,
+    "trial_rank": 4,
+    "exact_max_dimension": 32
+  },
+  "certificate": {
+    "ground_energy": "-4",
+    "gap_lower_bound": "4"
+  }
+}

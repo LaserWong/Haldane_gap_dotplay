@@ -1,0 +1,33 @@
+{
+  "edge_count": 4,
+  "expanded_term_count": 8,
+  "geometry": {
+    "bond_convention": "positive_direction_multigraph",
+    "periodic": [
+      false,
+      false
+    ],
+    "shape": [
+      2,
+      2
+    ],
+    "type": "lattice"
+  },
+  "hilbert_dimension": 81,
+  "local_dimensions": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "n_sites": 4,
+  "name": "Open 2x2 spin-one large-D square",
+  "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift",
+  "preserves_total_sz": true,
+  "spins": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

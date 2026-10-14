@@ -1,0 +1,1416 @@
+[
+  {
+    "model": {
+      "name": "spin0.5_chain_4",
+      "spin": 0.5,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          4
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 16,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 4.697899930761196e-05,
+    "matvec_seconds": 0.00034765400050673634,
+    "partial_solve_seconds": 0.003196505000232719,
+    "eigenvalues": [
+      -2.000000000000001,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "ritz_residual_norms": [
+      8.153717046859511e-16,
+      2.5641410257469597e-16,
+      3.6639612480229697e-16,
+      2.435541875787129e-16
+    ],
+    "lowest_ritz_spacing": 1.0000000000000009,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "spin0.5_chain_4",
+        "n_sites": 4,
+        "spins": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "local_dimensions": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "hilbert_dimension": 16,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            4
+          ],
+          "periodic": [
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 4,
+        "expanded_term_count": 4,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 16,
+      "symmetry_sector": null,
+      "computational_dimension": 16,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 128,
+        "trial_vectors": 512,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 5120,
+        "dense_matrix": 2048,
+        "dense_eigensolve_peak_estimate": 14848,
+        "sparse_csr_upper_estimate": 2440,
+        "sparse_construction_peak_estimate": 25992,
+        "sparse_iterative_peak_estimate": 25992,
+        "matrix_free_iterative_peak_estimate": 10752,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 144,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 0.06953080010134727,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 16,
+          "expanded_term_count": 4,
+          "matvec_seconds": 0.00034765400050673634,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "spin0.5_chain_6",
+      "spin": 0.5,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          6
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 64,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 3.8938000216148794e-05,
+    "matvec_seconds": 0.0006042840032023378,
+    "partial_solve_seconds": 0.027806568999949377,
+    "eigenvalues": [
+      -2.8027756377319974,
+      -2.1180339887498993,
+      -2.1180339887498967,
+      -2.118033988749895
+    ],
+    "ritz_residual_norms": [
+      3.129833999268371e-15,
+      4.568385685380524e-15,
+      1.8861129556479736e-15,
+      5.119809474401696e-16
+    ],
+    "lowest_ritz_spacing": 0.6847416489820981,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "spin0.5_chain_6",
+        "n_sites": 6,
+        "spins": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "local_dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "hilbert_dimension": 64,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            6
+          ],
+          "periodic": [
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 6,
+        "expanded_term_count": 6,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 64,
+      "symmetry_sector": null,
+      "computational_dimension": 64,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 512,
+        "trial_vectors": 2048,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 22528,
+        "dense_matrix": 32768,
+        "dense_eigensolve_peak_estimate": 159744,
+        "sparse_csr_upper_estimate": 13832,
+        "sparse_construction_peak_estimate": 142856,
+        "sparse_iterative_peak_estimate": 142856,
+        "matrix_free_iterative_peak_estimate": 43520,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 832,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 0.12085680064046755,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 64,
+          "expanded_term_count": 6,
+          "matvec_seconds": 0.0006042840032023378,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "spin0.5_chain_8",
+      "spin": 0.5,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          8
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 256,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 0.00019522499860613607,
+    "matvec_seconds": 0.002828505999787012,
+    "partial_solve_seconds": 0.2288583280023886,
+    "eigenvalues": [
+      -3.651093408937182,
+      -3.1284190638445817,
+      -3.128419063844576,
+      -2.6996281482753197
+    ],
+    "ritz_residual_norms": [
+      6.586164969953259e-15,
+      4.565098773669247e-15,
+      1.041213858050819e-14,
+      2.4367735842929007e-15
+    ],
+    "lowest_ritz_spacing": 0.5226743450926001,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "spin0.5_chain_8",
+        "n_sites": 8,
+        "spins": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "local_dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "hilbert_dimension": 256,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            8
+          ],
+          "periodic": [
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 8,
+        "expanded_term_count": 8,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 256,
+      "symmetry_sector": null,
+      "computational_dimension": 256,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 2048,
+        "trial_vectors": 8192,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 98304,
+        "dense_matrix": 524288,
+        "dense_eigensolve_peak_estimate": 2220032,
+        "sparse_csr_upper_estimate": 71688,
+        "sparse_construction_peak_estimate": 727048,
+        "sparse_iterative_peak_estimate": 727048,
+        "matrix_free_iterative_peak_estimate": 180736,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 4352,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 0.5657011999574024,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 256,
+          "expanded_term_count": 8,
+          "matvec_seconds": 0.002828505999787012,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "spin0.5_chain_10",
+      "spin": 0.5,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          10
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 1024,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 0.0004220060000079684,
+    "matvec_seconds": 0.015300629998819204,
+    "partial_solve_seconds": 1.3953191350010457,
+    "eigenvalues": [
+      -4.515446354492048,
+      -4.0922073467386655,
+      -4.092207346738651,
+      -3.7705974354084444
+    ],
+    "ritz_residual_norms": [
+      5.428831244553207e-15,
+      3.0665770541024236e-11,
+      6.882135901763844e-14,
+      2.5048103666784796e-15
+    ],
+    "lowest_ritz_spacing": 0.4232390077533825,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "spin0.5_chain_10",
+        "n_sites": 10,
+        "spins": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "local_dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "hilbert_dimension": 1024,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            10
+          ],
+          "periodic": [
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 10,
+        "expanded_term_count": 10,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 1024,
+      "symmetry_sector": null,
+      "computational_dimension": 1024,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 8192,
+        "trial_vectors": 32768,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 425984,
+        "dense_matrix": 8388608,
+        "dense_eigensolve_peak_estimate": 34078720,
+        "sparse_csr_upper_estimate": 352264,
+        "sparse_construction_peak_estimate": 3530760,
+        "sparse_iterative_peak_estimate": 3530760,
+        "matrix_free_iterative_peak_estimate": 754176,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 21504,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 3.060125999763841,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 1024,
+          "expanded_term_count": 10,
+          "matvec_seconds": 0.015300629998819204,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "spin1_chain_2",
+      "spin": 1,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          2
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 9,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 5.7322002248838544e-05,
+    "matvec_seconds": 6.027999916113913e-05,
+    "partial_solve_seconds": 0.0007044710000627674,
+    "eigenvalues": [
+      -4.0,
+      -2.0,
+      -1.9999999999999998,
+      -1.999999999999998
+    ],
+    "ritz_residual_norms": [
+      1.6232207472206046e-15,
+      7.195067539997724e-16,
+      5.864904842088747e-16,
+      2.4439191362680255e-15
+    ],
+    "lowest_ritz_spacing": 2.0,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "spin1_chain_2",
+        "n_sites": 2,
+        "spins": [
+          1.0,
+          1.0
+        ],
+        "local_dimensions": [
+          3,
+          3
+        ],
+        "hilbert_dimension": 9,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            2
+          ],
+          "periodic": [
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 2,
+        "expanded_term_count": 2,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 9,
+      "symmetry_sector": null,
+      "computational_dimension": 9,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 72,
+        "trial_vectors": 288,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 2592,
+        "dense_matrix": 648,
+        "dense_eigensolve_peak_estimate": 6048,
+        "sparse_csr_upper_estimate": 800,
+        "sparse_construction_peak_estimate": 9152,
+        "sparse_iterative_peak_estimate": 9152,
+        "matrix_free_iterative_peak_estimate": 5984,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 45,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 0.012055999832227826,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 9,
+          "expanded_term_count": 2,
+          "matvec_seconds": 6.027999916113913e-05,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "spin1_chain_4",
+      "spin": 1,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          4
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 81,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 4.028200055472553e-05,
+    "matvec_seconds": 0.0007323640020331368,
+    "partial_solve_seconds": 0.02785433200187981,
+    "eigenvalues": [
+      -5.999999999999995,
+      -5.000000000000003,
+      -5.000000000000001,
+      -4.999999999999999
+    ],
+    "ritz_residual_norms": [
+      5.267138784378097e-15,
+      3.4456593212397515e-15,
+      1.705228269428476e-15,
+      1.7762600848145668e-15
+    ],
+    "lowest_ritz_spacing": 0.999999999999992,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "spin1_chain_4",
+        "n_sites": 4,
+        "spins": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_dimensions": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "hilbert_dimension": 81,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            4
+          ],
+          "periodic": [
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 4,
+        "expanded_term_count": 4,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 81,
+      "symmetry_sector": null,
+      "computational_dimension": 81,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 648,
+        "trial_vectors": 2592,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 25920,
+        "dense_matrix": 52488,
+        "dense_eigensolve_peak_estimate": 243648,
+        "sparse_csr_upper_estimate": 12320,
+        "sparse_construction_peak_estimate": 131552,
+        "sparse_iterative_peak_estimate": 131552,
+        "matrix_free_iterative_peak_estimate": 52352,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 729,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 0.14647280040662736,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 81,
+          "expanded_term_count": 4,
+          "matvec_seconds": 0.0007323640020331368,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "spin1_chain_6",
+      "spin": 1,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          6
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 729,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 0.00021655399905284867,
+    "matvec_seconds": 0.011090537998825312,
+    "partial_solve_seconds": 0.6992186660027073,
+    "eigenvalues": [
+      -8.617423181814218,
+      -7.896795819190332,
+      -7.896795819190325,
+      -6.461718147684709
+    ],
+    "ritz_residual_norms": [
+      6.405542792871804e-15,
+      5.873765519338564e-15,
+      6.720055118919864e-13,
+      7.906473988270734e-13
+    ],
+    "lowest_ritz_spacing": 0.7206273626238859,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "spin1_chain_6",
+        "n_sites": 6,
+        "spins": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_dimensions": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "hilbert_dimension": 729,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            6
+          ],
+          "periodic": [
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 6,
+        "expanded_term_count": 6,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 729,
+      "symmetry_sector": null,
+      "computational_dimension": 729,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 5832,
+        "trial_vectors": 23328,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 256608,
+        "dense_matrix": 4251528,
+        "dense_eigensolve_peak_estimate": 17332704,
+        "sparse_csr_upper_estimate": 157472,
+        "sparse_construction_peak_estimate": 1627136,
+        "sparse_iterative_peak_estimate": 1627136,
+        "matrix_free_iterative_peak_estimate": 490400,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 9477,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 2.2181075997650623,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 729,
+          "expanded_term_count": 6,
+          "matvec_seconds": 0.011090537998825312,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "half_lattice_2x2",
+      "spin": 0.5,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          2,
+          2
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 16,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 5.523699655896053e-05,
+    "matvec_seconds": 0.0002352070005144924,
+    "partial_solve_seconds": 0.004880034000962041,
+    "eigenvalues": [
+      -3.999999999999999,
+      -2.0,
+      -1.9999999999999996,
+      -1.999999999999999
+    ],
+    "ritz_residual_norms": [
+      1.4813540306310248e-15,
+      3.042845413037218e-16,
+      5.36036886371479e-16,
+      1.28026305058e-15
+    ],
+    "lowest_ritz_spacing": 1.9999999999999991,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "half_lattice_2x2",
+        "n_sites": 4,
+        "spins": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "local_dimensions": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "hilbert_dimension": 16,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            2,
+            2
+          ],
+          "periodic": [
+            true,
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 8,
+        "expanded_term_count": 8,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 16,
+      "symmetry_sector": null,
+      "computational_dimension": 16,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 128,
+        "trial_vectors": 512,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 5120,
+        "dense_matrix": 2048,
+        "dense_eigensolve_peak_estimate": 14848,
+        "sparse_csr_upper_estimate": 4232,
+        "sparse_construction_peak_estimate": 44168,
+        "sparse_iterative_peak_estimate": 44168,
+        "matrix_free_iterative_peak_estimate": 10752,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 256,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 0.04704140010289848,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 16,
+          "expanded_term_count": 8,
+          "matvec_seconds": 0.0002352070005144924,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "half_lattice_2x3",
+      "spin": 0.5,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          2,
+          3
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 64,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 3.6836998333455995e-05,
+    "matvec_seconds": 0.0010595290004857816,
+    "partial_solve_seconds": 0.037439531999552855,
+    "eigenvalues": [
+      -4.9999999999999964,
+      -3.137458608817688,
+      -3.137458608817687,
+      -3.1374586088176866
+    ],
+    "ritz_residual_norms": [
+      4.215972385524396e-15,
+      1.4481723071880974e-15,
+      8.29919681245518e-16,
+      1.3439524267889188e-15
+    ],
+    "lowest_ritz_spacing": 1.8625413911823085,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "half_lattice_2x3",
+        "n_sites": 6,
+        "spins": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "local_dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "hilbert_dimension": 64,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            2,
+            3
+          ],
+          "periodic": [
+            true,
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 12,
+        "expanded_term_count": 12,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 64,
+      "symmetry_sector": null,
+      "computational_dimension": 64,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 512,
+        "trial_vectors": 2048,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 22528,
+        "dense_matrix": 32768,
+        "dense_eigensolve_peak_estimate": 159744,
+        "sparse_csr_upper_estimate": 26120,
+        "sparse_construction_peak_estimate": 253448,
+        "sparse_iterative_peak_estimate": 253448,
+        "matrix_free_iterative_peak_estimate": 43520,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 1600,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 0.21190580009715632,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 64,
+          "expanded_term_count": 12,
+          "matvec_seconds": 0.0010595290004857816,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "half_lattice_3x3",
+      "spin": 0.5,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          3,
+          3
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 512,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 8.35150021885056e-05,
+    "matvec_seconds": 0.0124664600007236,
+    "partial_solve_seconds": 1.2179380159977882,
+    "eigenvalues": [
+      -3.9690017499285273,
+      -3.9690017499285144,
+      -3.686140661634524,
+      -3.6861406616345054
+    ],
+    "ritz_residual_norms": [
+      9.633930037606165e-15,
+      6.2668541281395225e-15,
+      1.2953509807998084e-13,
+      3.9113724881602104e-11
+    ],
+    "lowest_ritz_spacing": 1.2878587085651816e-14,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "half_lattice_3x3",
+        "n_sites": 9,
+        "spins": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "local_dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "hilbert_dimension": 512,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            3,
+            3
+          ],
+          "periodic": [
+            true,
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 18,
+        "expanded_term_count": 18,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 512,
+      "symmetry_sector": null,
+      "computational_dimension": 512,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 4096,
+        "trial_vectors": 16384,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 204800,
+        "dense_matrix": 2097152,
+        "dense_eigensolve_peak_estimate": 8642560,
+        "sparse_csr_upper_estimate": 307208,
+        "sparse_construction_peak_estimate": 2936840,
+        "sparse_iterative_peak_estimate": 2936840,
+        "matrix_free_iterative_peak_estimate": 369152,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 18944,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 2.49329200014472,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 512,
+          "expanded_term_count": 18,
+          "matvec_seconds": 0.0124664600007236,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  },
+  {
+    "model": {
+      "name": "half_lattice_2x2x2",
+      "spin": 0.5,
+      "geometry": {
+        "type": "lattice",
+        "shape": [
+          2,
+          2,
+          2
+        ],
+        "periodic": true
+      },
+      "terms": [
+        {
+          "type": "heisenberg",
+          "J": "1"
+        }
+      ]
+    },
+    "dimension": 256,
+    "computed_low_eigenpairs": 4,
+    "build_seconds": 8.456900104647502e-05,
+    "matvec_seconds": 0.008488554998621112,
+    "partial_solve_seconds": 0.4312482679997629,
+    "eigenvalues": [
+      -9.64017874874956,
+      -8.000000000000002,
+      -7.999999999999999,
+      -5.23606797749978
+    ],
+    "ritz_residual_norms": [
+      1.5525309604165924e-14,
+      7.101284284614343e-10,
+      5.2071875709429276e-15,
+      1.0794389378012993e-14
+    ],
+    "lowest_ritz_spacing": 1.640178748749559,
+    "evidence": "FLOATING_PARTIAL_SPECTRUM_ONLY",
+    "uniform_gap_claim": false,
+    "plan": {
+      "model": {
+        "name": "half_lattice_2x2x2",
+        "n_sites": 8,
+        "spins": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "local_dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "hilbert_dimension": 256,
+        "geometry": {
+          "type": "lattice",
+          "shape": [
+            2,
+            2,
+            2
+          ],
+          "periodic": [
+            true,
+            true,
+            true
+          ],
+          "bond_convention": "positive_direction_multigraph"
+        },
+        "edge_count": 24,
+        "expanded_term_count": 24,
+        "normalization": "hbar=1; S^2=s(s+1); exchange=Jxy*(SxSx+SySy)+Jz*SzSz; field_z=+h*Sz; onsite_d=D*Sz^2; no energy shift"
+      },
+      "full_hilbert_dimension": 256,
+      "symmetry_sector": null,
+      "computational_dimension": 256,
+      "linear_trial_rank": 4,
+      "mps_bond_dimension": null,
+      "bytes": {
+        "real_vector": 2048,
+        "trial_vectors": 8192,
+        "projected_trial_matrix": 128,
+        "python_basis_and_lookup_estimate": 98304,
+        "dense_matrix": 524288,
+        "dense_eigensolve_peak_estimate": 2220032,
+        "sparse_csr_upper_estimate": 202760,
+        "sparse_construction_peak_estimate": 1906696,
+        "sparse_iterative_peak_estimate": 1906696,
+        "matrix_free_iterative_peak_estimate": 180736,
+        "mps_tensor_storage_estimate": null
+      },
+      "sparse_nnz_upper_bound": 12544,
+      "timing": {
+        "status": "heuristic_calibrated_extrapolation",
+        "matrix_free_seconds": 1.6977109997242223,
+        "dense_seconds": null,
+        "expected_matvecs": 200,
+        "rigorous_bound": false,
+        "calibration": {
+          "dimension": 256,
+          "expanded_term_count": 24,
+          "matvec_seconds": 0.008488554998621112,
+          "provenance": "Measured in this pilot, same Python matrix-free backend; one matvec measurement."
+        }
+      },
+      "budget": {
+        "memory_bytes": 536870912,
+        "time_seconds": 60.0,
+        "max_basis_dimension": 2000000
+      },
+      "admits_dense": null,
+      "admits_matrix_free": true,
+      "admits_sparse": null,
+      "assumptions": [
+        "Dimensions and byte arithmetic are exact integers; memory overheads are estimates, not certified peaks.",
+        "float64 real arithmetic, 8-byte vectors and 8-byte sparse indices; complex arithmetic is not supported by the model schema.",
+        "Dense peak assumes four dense matrices, basis, trial vectors, and eight work vectors; LAPACK/workspace overhead can vary.",
+        "Matrix-free implementation retains Python tuple basis and dict; estimated 256+16*N bytes per state.",
+        "Sparse construction budgets 128 bytes per candidate entry for Python lists, then CSR; duplicates are combined.",
+        "Iterative workspace includes krylov_vectors+8 full vectors, two trial blocks, and four projected matrices.",
+        "MPS estimate counts only open-boundary tensors, not optimization workspace; no MPS solver is implemented.",
+        "Timing extrapolation assumes comparable hardware/backend and linear matvec or cubic dense scaling; convergence and allocation time are not guaranteed.",
+        "Admission null means missing memory or calibrated timing information; admission true is only an estimate, not enforcement.",
+        "Sector dimensions do not imply a gap in the full Hilbert space; omitted sectors require independent bounds."
+      ]
+    }
+  }
+]

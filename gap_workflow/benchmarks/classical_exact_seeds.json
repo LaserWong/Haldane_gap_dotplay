@@ -1,0 +1,596 @@
+[
+  {
+    "seed": {
+      "family": "pinned_ferromagnetic_ising",
+      "dimension": 1,
+      "shape": [
+        2
+      ],
+      "J": "1",
+      "h": "1",
+      "q": "1/10000",
+      "seed_volume": 2,
+      "temporal_seed_volume": 4,
+      "bond_convention": "positive_direction_multigraph",
+      "beta_definition": "log(10000/1) / (1)",
+      "full_hilbert_dimension_log2": 4,
+      "retained_ground_space_rank": 1,
+      "trial_rank": 1,
+      "trial_rank_interpretation": "Analytically known retained ground state, no numerical trial solve",
+      "numerically_computed_eigenpairs": 0,
+      "purities": [
+        "1249/1250",
+        "1249/1250"
+      ],
+      "defect": "1/1250",
+      "tail_status": "EXACT_COUNTED_COMPARISON_BOUND",
+      "trace_bound": "1 <= Z(beta) <= (1+q)^N from E(configuration) >= h * flipped_spin_count",
+      "purity_bound": "P >= (1+q)^(-2 * temporal_seed_volume) >= 1 - 2 * temporal_seed_volume * q",
+      "transfer_proof": "Exact real symmetric classical column transfer for symmetric nearest-neighbor bond tables",
+      "analytic_gap_lower_bound": "1",
+      "ground_multiplicity": 1,
+      "scope": "Homogeneous periodic rectangular Ising family in any spatial dimension; analytic gap lower bound holds on every finite graph with nonnegative bonds."
+    },
+    "certificate": {
+      "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED",
+      "seed_admitted": true,
+      "target_verified": true,
+      "target_gap": "1/2",
+      "K": 9,
+      "F": 4,
+      "threshold": "1/100",
+      "analytic_gap_lower_bound": "1",
+      "physical_gap_is_claimed_exact": false,
+      "finite_bridge": "E(configuration) >= h * flipped_spin_count on every finite graph",
+      "claim": "Model-specific analytic comparison benchmark, not a new Ising gap theorem."
+    },
+    "search": [
+      {
+        "q_power_10": 1,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 2,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 3,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 4,
+        "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED"
+      }
+    ]
+  },
+  {
+    "seed": {
+      "family": "pinned_ferromagnetic_ising",
+      "dimension": 2,
+      "shape": [
+        2,
+        2
+      ],
+      "J": "1",
+      "h": "1",
+      "q": "1/10000000",
+      "seed_volume": 4,
+      "temporal_seed_volume": 16,
+      "bond_convention": "positive_direction_multigraph",
+      "beta_definition": "log(10000000/1) / (1)",
+      "full_hilbert_dimension_log2": 16,
+      "retained_ground_space_rank": 1,
+      "trial_rank": 1,
+      "trial_rank_interpretation": "Analytically known retained ground state, no numerical trial solve",
+      "numerically_computed_eigenpairs": 0,
+      "purities": [
+        "312499/312500",
+        "312499/312500",
+        "312499/312500"
+      ],
+      "defect": "1/312500",
+      "tail_status": "EXACT_COUNTED_COMPARISON_BOUND",
+      "trace_bound": "1 <= Z(beta) <= (1+q)^N from E(configuration) >= h * flipped_spin_count",
+      "purity_bound": "P >= (1+q)^(-2 * temporal_seed_volume) >= 1 - 2 * temporal_seed_volume * q",
+      "transfer_proof": "Exact real symmetric classical column transfer for symmetric nearest-neighbor bond tables",
+      "analytic_gap_lower_bound": "1",
+      "ground_multiplicity": 1,
+      "scope": "Homogeneous periodic rectangular Ising family in any spatial dimension; analytic gap lower bound holds on every finite graph with nonnegative bonds."
+    },
+    "certificate": {
+      "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED",
+      "seed_admitted": true,
+      "target_verified": true,
+      "target_gap": "1/2",
+      "K": 64,
+      "F": 32,
+      "threshold": "1/800",
+      "analytic_gap_lower_bound": "1",
+      "physical_gap_is_claimed_exact": false,
+      "finite_bridge": "E(configuration) >= h * flipped_spin_count on every finite graph",
+      "claim": "Model-specific analytic comparison benchmark, not a new Ising gap theorem."
+    },
+    "search": [
+      {
+        "q_power_10": 1,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 2,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 3,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 4,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 5,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 6,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 7,
+        "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED"
+      }
+    ]
+  },
+  {
+    "seed": {
+      "family": "pinned_ferromagnetic_ising",
+      "dimension": 3,
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "J": "1",
+      "h": "1",
+      "q": "1/10000000000",
+      "seed_volume": 8,
+      "temporal_seed_volume": 64,
+      "bond_convention": "positive_direction_multigraph",
+      "beta_definition": "log(10000000000/1) / (1)",
+      "full_hilbert_dimension_log2": 64,
+      "retained_ground_space_rank": 1,
+      "trial_rank": 1,
+      "trial_rank_interpretation": "Analytically known retained ground state, no numerical trial solve",
+      "numerically_computed_eigenpairs": 0,
+      "purities": [
+        "78124999/78125000",
+        "78124999/78125000",
+        "78124999/78125000",
+        "78124999/78125000"
+      ],
+      "defect": "1/78125000",
+      "tail_status": "EXACT_COUNTED_COMPARISON_BOUND",
+      "trace_bound": "1 <= Z(beta) <= (1+q)^N from E(configuration) >= h * flipped_spin_count",
+      "purity_bound": "P >= (1+q)^(-2 * temporal_seed_volume) >= 1 - 2 * temporal_seed_volume * q",
+      "transfer_proof": "Exact real symmetric classical column transfer for symmetric nearest-neighbor bond tables",
+      "analytic_gap_lower_bound": "1",
+      "ground_multiplicity": 1,
+      "scope": "Homogeneous periodic rectangular Ising family in any spatial dimension; analytic gap lower bound holds on every finite graph with nonnegative bonds."
+    },
+    "certificate": {
+      "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED",
+      "seed_admitted": true,
+      "target_verified": true,
+      "target_gap": "1/2",
+      "K": 512,
+      "F": 256,
+      "threshold": "1/6400",
+      "analytic_gap_lower_bound": "1",
+      "physical_gap_is_claimed_exact": false,
+      "finite_bridge": "E(configuration) >= h * flipped_spin_count on every finite graph",
+      "claim": "Model-specific analytic comparison benchmark, not a new Ising gap theorem."
+    },
+    "search": [
+      {
+        "q_power_10": 1,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 2,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 3,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 4,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 5,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 6,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 7,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 8,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 9,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 10,
+        "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED"
+      }
+    ]
+  },
+  {
+    "seed": {
+      "family": "pinned_ferromagnetic_ising",
+      "dimension": 4,
+      "shape": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "J": "1",
+      "h": "1",
+      "q": "1/10000000000000",
+      "seed_volume": 16,
+      "temporal_seed_volume": 256,
+      "bond_convention": "positive_direction_multigraph",
+      "beta_definition": "log(10000000000000/1) / (1)",
+      "full_hilbert_dimension_log2": 256,
+      "retained_ground_space_rank": 1,
+      "trial_rank": 1,
+      "trial_rank_interpretation": "Analytically known retained ground state, no numerical trial solve",
+      "numerically_computed_eigenpairs": 0,
+      "purities": [
+        "19531249999/19531250000",
+        "19531249999/19531250000",
+        "19531249999/19531250000",
+        "19531249999/19531250000",
+        "19531249999/19531250000"
+      ],
+      "defect": "1/19531250000",
+      "tail_status": "EXACT_COUNTED_COMPARISON_BOUND",
+      "trace_bound": "1 <= Z(beta) <= (1+q)^N from E(configuration) >= h * flipped_spin_count",
+      "purity_bound": "P >= (1+q)^(-2 * temporal_seed_volume) >= 1 - 2 * temporal_seed_volume * q",
+      "transfer_proof": "Exact real symmetric classical column transfer for symmetric nearest-neighbor bond tables",
+      "analytic_gap_lower_bound": "1",
+      "ground_multiplicity": 1,
+      "scope": "Homogeneous periodic rectangular Ising family in any spatial dimension; analytic gap lower bound holds on every finite graph with nonnegative bonds."
+    },
+    "certificate": {
+      "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED",
+      "seed_admitted": true,
+      "target_verified": true,
+      "target_gap": "1/2",
+      "K": 4096,
+      "F": 2048,
+      "threshold": "1/51200",
+      "analytic_gap_lower_bound": "1",
+      "physical_gap_is_claimed_exact": false,
+      "finite_bridge": "E(configuration) >= h * flipped_spin_count on every finite graph",
+      "claim": "Model-specific analytic comparison benchmark, not a new Ising gap theorem."
+    },
+    "search": [
+      {
+        "q_power_10": 1,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 2,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 3,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 4,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 5,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 6,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 7,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 8,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 9,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 10,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 11,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 12,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 13,
+        "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED"
+      }
+    ]
+  },
+  {
+    "seed": {
+      "family": "pinned_ferromagnetic_ising",
+      "dimension": 5,
+      "shape": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "J": "1",
+      "h": "1",
+      "q": "1/10000000000000000",
+      "seed_volume": 32,
+      "temporal_seed_volume": 1024,
+      "bond_convention": "positive_direction_multigraph",
+      "beta_definition": "log(10000000000000000/1) / (1)",
+      "full_hilbert_dimension_log2": 1024,
+      "retained_ground_space_rank": 1,
+      "trial_rank": 1,
+      "trial_rank_interpretation": "Analytically known retained ground state, no numerical trial solve",
+      "numerically_computed_eigenpairs": 0,
+      "purities": [
+        "4882812499999/4882812500000",
+        "4882812499999/4882812500000",
+        "4882812499999/4882812500000",
+        "4882812499999/4882812500000",
+        "4882812499999/4882812500000",
+        "4882812499999/4882812500000"
+      ],
+      "defect": "1/4882812500000",
+      "tail_status": "EXACT_COUNTED_COMPARISON_BOUND",
+      "trace_bound": "1 <= Z(beta) <= (1+q)^N from E(configuration) >= h * flipped_spin_count",
+      "purity_bound": "P >= (1+q)^(-2 * temporal_seed_volume) >= 1 - 2 * temporal_seed_volume * q",
+      "transfer_proof": "Exact real symmetric classical column transfer for symmetric nearest-neighbor bond tables",
+      "analytic_gap_lower_bound": "1",
+      "ground_multiplicity": 1,
+      "scope": "Homogeneous periodic rectangular Ising family in any spatial dimension; analytic gap lower bound holds on every finite graph with nonnegative bonds."
+    },
+    "certificate": {
+      "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED",
+      "seed_admitted": true,
+      "target_verified": true,
+      "target_gap": "1/2",
+      "K": 32768,
+      "F": 16384,
+      "threshold": "1/409600",
+      "analytic_gap_lower_bound": "1",
+      "physical_gap_is_claimed_exact": false,
+      "finite_bridge": "E(configuration) >= h * flipped_spin_count on every finite graph",
+      "claim": "Model-specific analytic comparison benchmark, not a new Ising gap theorem."
+    },
+    "search": [
+      {
+        "q_power_10": 1,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 2,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 3,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 4,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 5,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 6,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 7,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 8,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 9,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 10,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 11,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 12,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 13,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 14,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 15,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 16,
+        "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED"
+      }
+    ]
+  },
+  {
+    "seed": {
+      "family": "pinned_ferromagnetic_ising",
+      "dimension": 6,
+      "shape": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "J": "1",
+      "h": "1",
+      "q": "1/10000000000000000000",
+      "seed_volume": 64,
+      "temporal_seed_volume": 4096,
+      "bond_convention": "positive_direction_multigraph",
+      "beta_definition": "log(10000000000000000000/1) / (1)",
+      "full_hilbert_dimension_log2": 4096,
+      "retained_ground_space_rank": 1,
+      "trial_rank": 1,
+      "trial_rank_interpretation": "Analytically known retained ground state, no numerical trial solve",
+      "numerically_computed_eigenpairs": 0,
+      "purities": [
+        "1220703124999999/1220703125000000",
+        "1220703124999999/1220703125000000",
+        "1220703124999999/1220703125000000",
+        "1220703124999999/1220703125000000",
+        "1220703124999999/1220703125000000",
+        "1220703124999999/1220703125000000",
+        "1220703124999999/1220703125000000"
+      ],
+      "defect": "1/1220703125000000",
+      "tail_status": "EXACT_COUNTED_COMPARISON_BOUND",
+      "trace_bound": "1 <= Z(beta) <= (1+q)^N from E(configuration) >= h * flipped_spin_count",
+      "purity_bound": "P >= (1+q)^(-2 * temporal_seed_volume) >= 1 - 2 * temporal_seed_volume * q",
+      "transfer_proof": "Exact real symmetric classical column transfer for symmetric nearest-neighbor bond tables",
+      "analytic_gap_lower_bound": "1",
+      "ground_multiplicity": 1,
+      "scope": "Homogeneous periodic rectangular Ising family in any spatial dimension; analytic gap lower bound holds on every finite graph with nonnegative bonds."
+    },
+    "certificate": {
+      "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED",
+      "seed_admitted": true,
+      "target_verified": true,
+      "target_gap": "1/2",
+      "K": 262144,
+      "F": 131072,
+      "threshold": "1/3276800",
+      "analytic_gap_lower_bound": "1",
+      "physical_gap_is_claimed_exact": false,
+      "finite_bridge": "E(configuration) >= h * flipped_spin_count on every finite graph",
+      "claim": "Model-specific analytic comparison benchmark, not a new Ising gap theorem."
+    },
+    "search": [
+      {
+        "q_power_10": 1,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 2,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 3,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 4,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 5,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 6,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 7,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 8,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 9,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 10,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 11,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 12,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 13,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 14,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 15,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 16,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 17,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 18,
+        "status": "SEED_NOT_SUFFICIENT"
+      },
+      {
+        "q_power_10": 19,
+        "status": "EXACT_BOOTSTRAP_TARGET_VERIFIED"
+      }
+    ]
+  }
+]

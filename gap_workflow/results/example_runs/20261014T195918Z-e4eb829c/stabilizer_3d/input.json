@@ -1,0 +1,21 @@
+{
+  "budget": {
+    "exact_max_dimension": 32,
+    "max_dimension": 4096,
+    "max_iterations": 1000,
+    "memory_mb": 512,
+    "tolerance": 1e-09,
+    "trial_rank": 6,
+    "wall_seconds": 20
+  },
+  "model": {
+    "family": "graph_state_projector",
+    "h": "1",
+    "shape": [
+      2,
+      2,
+      2
+    ],
+    "target_gap": "1/2"
+  }
+}

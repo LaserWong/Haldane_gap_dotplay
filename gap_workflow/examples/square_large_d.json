@@ -1,0 +1,32 @@
+{
+  "model": {
+    "name": "Open 2x2 spin-one large-D square",
+    "spin": 1,
+    "geometry": {
+      "type": "lattice",
+      "shape": [
+        2,
+        2
+      ],
+      "periodic": false
+    },
+    "terms": [
+      {
+        "type": "heisenberg",
+        "J": "1/100"
+      },
+      {
+        "type": "onsite_d",
+        "D": "1"
+      }
+    ],
+    "schema_version": 1
+  },
+  "budget": {
+    "wall_seconds": 30,
+    "memory_mb": 512,
+    "max_dimension": 4096,
+    "trial_rank": 6,
+    "exact_max_dimension": 32
+  }
+}

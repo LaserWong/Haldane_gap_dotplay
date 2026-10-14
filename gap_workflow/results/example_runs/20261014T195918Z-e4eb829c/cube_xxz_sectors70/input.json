@@ -1,0 +1,32 @@
+{
+  "budget": {
+    "exact_max_dimension": 70,
+    "max_dimension": 4096,
+    "max_iterations": 1000,
+    "memory_mb": 512,
+    "tolerance": 1e-09,
+    "trial_rank": 6,
+    "wall_seconds": 30
+  },
+  "model": {
+    "geometry": {
+      "periodic": false,
+      "shape": [
+        2,
+        2,
+        2
+      ],
+      "type": "lattice"
+    },
+    "name": "Open 2x2x2 spin-half XXZ cube",
+    "schema_version": 1,
+    "spin": 0.5,
+    "terms": [
+      {
+        "Jxy": "1",
+        "Jz": "3/2",
+        "type": "xxz"
+      }
+    ]
+  }
+}

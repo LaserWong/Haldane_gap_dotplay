@@ -1,8 +1,19 @@
 # Spectral-gap bounds for spin chains and square bilayers
 
-Updated 2026-10-14 15:16 EDT (America/New_York, UTC−4) / 2026-10-14 19:16 UTC.
+Updated 2026-10-14 16:00 EDT (America/New_York, UTC−4) / 2026-10-14 20:00 UTC.
 
-Documentation is maintained in English at its original paths. Code, numerical data, and certificates are unchanged. The next research task is to recover missing late-stage proof inputs. See [current status](CURRENT_STATUS.json), the [documentation index](docs/INDEX.md), and [Getting started](GETTING_STARTED.md).
+The current task is a budgeted model-to-gap workflow. It starts with partial low-energy calculations, checks what can be certified, and reports the next calculation and its resource requirements. Ground-state multiplicity is unknown by default. The [workflow](gap_workflow/README.md), [input schema](gap_workflow/INPUT.md), and [current status](CURRENT_STATUS.json) describe the implementation. Earlier results and their recovery limitations remain recorded below.
+
+## Latest progress
+
+- An executable workflow now accepts finite spin models on graphs or rectangular lattices, including mixed spins and real transverse spin products. Numerical candidates are checked with rational inertia or weighted pencils. Exhaustive symmetry-sector coverage can certify the full finite space while storing one block at a time.
+- Ground multiplicity is inferred when exact distinct-root counts or verified symmetry arguments permit it. Otherwise, the output gives a low-energy cluster's rank, width, and separation from the remaining spectrum. A split cluster is never reported as an exactly degenerate ground space. An adversarial splitting of 10^-100 is resolved by exact arithmetic.
+- The periodic quantum Ising chain with Pauli normalization, J=1 and h=3/2, gives a rational bootstrap bound 0.484734263212 from n=16 and beta=8. The reviewed transfer theorem and analytic finite-size bridge extend it to all integer L>=2. The seed calculation uses single-particle mode enclosures and no many-body eigenpairs. The separately known analytic bound is 1, so this validates the bootstrap implementation rather than improving the model's known gap.
+- Graph-state and pinned classical-Ising families have registered uniform-gap routes. Ferromagnetic Ising demonstrates failure of the unique-ground thermal criterion despite a positive excitation gap. A ferromagnetic Heisenberg-chain control has a proved zero uniform gap from its magnon branch.
+- Physical seed size, Hilbert dimension, sector dimension, and trial rank are tracked separately. Pilot-based resource and seed forecasts are heuristic. No universal minimum-size estimator or arbitrary-model gap decision procedure is claimed.
+- The current source passes 157 tests. Independent audits cover rational certificates, near-degenerate clusters, model construction, and quantum-Ising trace enclosures. These are code and mathematical reviews, not proof-assistant verification. See the [low-band review](gap_workflow/audit/LOW_BAND_REVIEW.md) and [quantum-Ising review](gap_workflow/audit/QUANTUM_ISING_CERTIFICATE_REVIEW.md).
+
+The main open step is a spatial bootstrap that accepts an initially unknown ground rank or an isolated low band. The [unknown-multiplicity analysis](gap_workflow/theory/UNKNOWN_MULTIPLICITY_BOOTSTRAP.md) proves finite-matrix criteria and explains why a thermal plateau alone is insufficient. Exact polynomial methods still require the complete finite operator or exhaustive blocks. Generic finite-size certificates do not automatically imply a uniform thermodynamic gap. Missing historical late-stage proof dependencies remain a separate recovery task.
 
 ## Research question and main results
 
