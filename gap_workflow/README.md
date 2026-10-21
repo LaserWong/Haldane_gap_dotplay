@@ -61,7 +61,7 @@ These modules are available through Python functions rather than additional CLI 
 
 - [degenerate.py](gapflow/degenerate.py) evaluates finite-spectrum temporal defects and supplies the exact uniform ferromagnetic Ising-cycle certificate. The [degenerate-purity analysis](theory/DEGENERATE_PURITY.md) states its scope and the unresolved general spatial criterion.
 - [seed_obstruction.py](gapflow/seed_obstruction.py) checks the model-specific global-width Hoeffding obstruction described in [HOEFFDING_SEED_LIMITS.md](theory/HOEFFDING_SEED_LIMITS.md).
-- [forecast.py](gapflow/forecast.py) proposes physical seed sizes from measured pilot data. Its forecasts are heuristic, as detailed in [RESOURCE_ESTIMATION.md](docs/RESOURCE_ESTIMATION.md).
+- [forecast.py](gapflow/forecast.py) checks per-record model, geometry, optimization and criterion metadata before proposing physical seed sizes from measured pilots. Missing provenance returns an unverified result and conflicting declarations block extrapolation. Compatibility verifies the supplied declarations only. Forecasts remain heuristic, as detailed in [RESOURCE_ESTIMATION.md](docs/RESOURCE_ESTIMATION.md).
 
 The [transfer-eligibility analysis](theory/TRANSFER_ELIGIBILITY.md) gives structural conditions and their mathematical justification. It is not a registered generic model-to-seed CLI adapter.
 

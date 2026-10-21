@@ -20,9 +20,93 @@ The spin-half 3 by 3 by 3 model has full dimension 134217728. Its smallest-|Sz| 
 
 ## Predicting a seed size
 
-`forecast_seed_size` accepts comparable bootstrap-defect records at distinct physical sizes, their evidence labels, and the applicable threshold. A certified input bound below threshold identifies a tested sufficient scalar seed. Its model-to-seed proof and coverage bridge must also be verified.
+`forecast_seed_size(records, threshold, max_size=None)` is a callable Python interface. The CLI does not currently call it or generate its records. The similarly named `benchmarks/resource_forecast.py` estimates computational costs through `plan_resources` and does not call this seed predictor.
 
-With at least three failing pilot sizes, the optional fit uses log(defect)=a+b*size to propose a next even size. The fit is heuristic. It neither proves a minimum nor proves failure at untested sizes. No improving trend gives no finite crossing estimate. Too few data give an explicit missing-data result. Exact threshold comparisons use rational arithmetic. Floating point is used only for the forecast.
+Each record requires a distinct integer `linear_size >= 2`, `defect_upper` in (0,1], and an explicit `evidence` label of `certified_bound` or `floating_estimate`. Defects must also be representable as positive finite floats for the existing fit. The threshold lies in (0,1). Optional `max_size` is an integer at least 2 and is checked before any early return. It limits the proposed next computation, not the sizes of existing measurements.
+
+### Sample provenance
+
+Each record supplies its own `provenance` object with the five descriptors below. Every descriptor contains a nonempty string `id` and a JSON object `settings`. The certificate descriptor additionally requires `threshold`, expressed as an exact rational or decimal string. It must equal the function's threshold exactly.
+
+| Descriptor | Meaning of the immutable definition and its settings |
+| --- | --- |
+| `model_family` | Hamiltonian family, spins, all fixed couplings and fields, energy normalization and shifts, and spectral or sector scope |
+| `geometry_family` | Shape as a function of `linear_size`, dimension, boundaries, bond multiplicity, and the physical unit counted by `linear_size` |
+| `temperature_protocol` | Fixed temperature or search grid, objective, search order, stopping rule, tolerances and implementation revision |
+| `trial_rank_protocol` | Trial representation, fixed rank or size-dependent rank rule, search and stopping rules, tolerances and implementation revision |
+| `certificate_criterion` | Defect definition, certificate version, normalization, target, inequality convention and all criterion parameters |
+
+An `id` identifies an immutable definition, such as a versioned specification or a content hash of a complete manifest. A display name alone is insufficient. `settings` records its complete configuration, including explicitly resolved defaults. An empty object is appropriate only when the referenced definition has no adjustable settings. Exact physical parameters should use canonical rational strings. The validator checks declarations for agreement. It does not reconstruct a Hamiltonian from an ID, check that a manifest exists, or detect false or omitted settings inside a caller's declaration.
+
+The descriptors are compared by value, including every nested setting. Object key order is irrelevant. List order is significant because optimization order can change a result. Booleans and integers remain distinct. Except for the certificate threshold, no algebraic equivalence of settings is inferred. Producers should canonicalize equivalent parameter expressions before saving records. Non-JSON or nonfinite settings and unknown descriptor keys raise `ValueError`. Additional configuration belongs inside `settings` so it participates in comparison.
+
+Physical sizes and the temperatures or ranks selected by a shared optimization rule can differ between samples. Record the common size dependence or optimization rule in provenance, rather than substituting the selected result as the protocol identity. Use different IDs or settings when the rule or its implementation changes. A method using no trial states still supplies an explicit descriptor for that fact.
+
+For example, this synthetic dataset illustrates the interface without asserting a physical certificate.
+
+```python
+from copy import deepcopy
+from gapflow.forecast import forecast_seed_size
+
+provenance = {
+    "model_family": {
+        "id": "spin_one_heisenberg_v1",
+        "settings": {"spin": "1", "J": "1", "normalization": "S_dot_S",
+                     "energy_shift": "0", "scope": "full_space"}
+    },
+    "geometry_family": {
+        "id": "cycle_v1",
+        "settings": {"shape_rule": ["n"], "size_unit": "sites",
+                     "boundary": "periodic", "bonds": "positive_direction_multigraph"}
+    },
+    "temperature_protocol": {
+        "id": "grid_minimum_v1",
+        "settings": {"beta_grid": ["2", "4", "8"], "stop": "exhaust_grid"}
+    },
+    "trial_rank_protocol": {
+        "id": "partial_ritz_v1",
+        "settings": {"rank_rule": "min(6,dimension-1)", "tolerance": "1/1000000000"}
+    },
+    "certificate_criterion": {
+        "id": "synthetic_scalar_test_v1",
+        "settings": {"defect": "u", "comparison": "<=", "target": "unique_ground"},
+        "threshold": "1/1000"
+    }
+}
+records = [
+    {"linear_size": n, "defect_upper": u, "evidence": "floating_estimate",
+     "provenance": deepcopy(provenance)}
+    for n, u in [(2, "1/10"), (4, "1/20"), (6, "1/40")]
+]
+result = forecast_seed_size(records, "1/1000")
+assert result["sample_compatibility"]["status"] == "verified"
+assert result["prediction"]["candidate_even_linear_size"] == 16
+assert result["prediction_is_certified"] is False
+```
+
+### Compatibility and legacy data
+
+Compatibility is checked across every input record before either accepting a tested scalar seed or fitting a trend. No record is silently discarded and no metadata is inferred from its size, evidence label or position in the input.
+
+| `sample_compatibility.status` | Meaning | Effect |
+| --- | --- | --- |
+| `verified` | All five supplied descriptors are complete and equal, and their thresholds equal the requested threshold | Continue to scalar comparison and, if needed, the empirical fit |
+| `unverified` | At least one descriptor or required member is absent or null, without a known conflict | Return `UNVERIFIED_SAMPLE_COMPATIBILITY` |
+| `incompatible` | Known declarations disagree, or a recorded threshold differs from the requested threshold | Return `INCOMPATIBLE_SAMPLES` |
+
+Known conflicts take precedence over missing information. The output identifies missing fields and conflicting fields with their physical sizes. Both blocked outcomes return `prediction=None` and `smallest_tested_sufficient_size=None`, even when an individual record is below threshold. The exact per-record arithmetic remains visible as `defect_at_or_below_threshold`. This boolean alone conveys neither a certified bound nor a compatible family. The returned samples preserve a copy of the supplied metadata, with thresholds normalized to rational strings.
+
+Old records without provenance remain readable but cannot drive a size recommendation. Recover their definitions and settings from original input manifests before supplying them again. If those sources are unavailable, retain the `unverified` result. Copying the same invented ID onto old records does not establish comparability. Mixed datasets must be separated explicitly by the caller. There is no override that silently treats unknown provenance as verified.
+
+### Scalar evidence and extrapolation
+
+For compatible samples, a `certified_bound` at or below the threshold identifies a tested sufficient scalar seed. Comparisons use exact rational arithmetic, including equality and decimal differences below floating-point resolution. `smallest_tested_sufficient_size` is the smallest passing certified size in this supplied dataset. The input certification is caller supplied and is not independently reverified. Its model-to-seed proof and coverage bridge remain separate obligations.
+
+With at least three distinct sizes and no tested certified success, the optional fit uses log(defect)=a+b*size to propose a next even size. Evidence labels may differ across otherwise compatible samples. A floating estimate below threshold cannot establish scalar sufficiency, and even a fit based entirely on certified bounds remains heuristic. No improving trend gives no finite crossing estimate. Too few data give an explicit missing-data result.
+
+Compatibility has scope `declared_metadata_only`, with `source_artifacts_reverified=False`. It establishes agreement of the declarations rather than a new certificate. Every outcome retains `prediction_is_certified=False`, `input_bound_certification_reverified=False`, `minimality_proved=False`, `true_minimum_size=None`, and `uniform_gap_proved=False`. Neither compatibility nor a fitted crossing proves a minimum, failure at untested sizes, or physical gaplessness.
+
+Run the forecast regressions from `gap_workflow` with `python -m unittest discover -s tests -p test_forecast.py -v`. They cover each source and protocol mismatch, incomplete legacy data, malformed metadata, evidence labels, early scalar success and exact rational boundaries. The 2026-10-14 [forecast audit](../audit/HOEFFDING_FORECAST_REVIEW.md) describes the earlier contract. Its metadata-free reproducer now returns `UNVERIFIED_SAMPLE_COMPATIBILITY`, while the boundary regression with complete provenance still excludes false scalar success.
 
 ## When more resources will not fix the chosen method
 
