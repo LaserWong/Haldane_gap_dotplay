@@ -1,0 +1,50 @@
+ "a2|b2": {
+  "nnz": 9,
+  "annihilated_by_all_bonds": true,
+  "maxabs": 4
+ },
+ "ab|ab": {
+  "nnz": 9,
+  "annihilated_by_all_bonds": true,
+  "maxabs": 4
+ },
+ "b2|a2": {
+  "nnz": 9,
+  "annihilated_by_all_bonds": true,
+  "maxabs": 4
+ },
+ "exact_rank": 3
+}
+PROVED: dim ker(H_n) cap {Sz=0} >= 3 for n = 3
+
+real	0m0.024s
+user	0m0.024s
+sys	0m0.000s
+ "a2|b2": {
+  "nnz": 2187,
+  "annihilated_by_all_bonds": true,
+  "maxabs": 128
+ },
+ "ab|ab": {
+  "nnz": 2187,
+  "annihilated_by_all_bonds": true,
+  "maxabs": 128
+ },
+ "b2|a2": {
+  "nnz": 2187,
+  "annihilated_by_all_bonds": true,
+  "maxabs": 128
+ },
+ "exact_rank": 3
+}
+PROVED: dim ker(H_n) cap {Sz=0} >= 3 for n = 8
+
+real	0m0.184s
+user	0m0.172s
+sys	0m0.012s
+  "annihilated_by_all_bonds": false,
+  "annihilated_by_all_bonds": false,
+  "annihilated_by_all_bonds": false,
+ "exact_rank": 3
+    assert r == 3 and all(v['annihilated_by_all_bonds'] for k, v in res.items() if k != 'exact_rank')
+AssertionError

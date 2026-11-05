@@ -1,0 +1,5 @@
+# negative control n=8, t=0.1253 > eps_8~0.1252296 (expect failure in the block holding the first excited multiplet)
+{'r': 1, 'f': 1, 'db': 9719, 'kb': 2, 'info': 0, 'CERTIFIED': True}
+{'r': 1, 'f': -1, 'db': 9406, 'kb': 0, 'info': 0, 'CERTIFIED': True}
+{'r': -1, 'f': 1, 'db': 9364, 'kb': 0, 'info': 0, 'CERTIFIED': True}
+{'r': -1, 'f': -1, 'db': 9676, 'kb': 1, 'info': 9676, 'CERTIFIED': False}
