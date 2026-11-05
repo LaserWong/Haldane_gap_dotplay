@@ -1,0 +1,343 @@
+{
+  "test": "T2",
+  "date_local": "2026-11-05 America/Chicago",
+  "model": "periodic spin-1",
+  "H_Heis": "sum_i S_i\u00b7S_{i+1}",
+  "H_AKLT": "sum_i [(1/2)S\u00b7S+(1/6)(S\u00b7S)^2+(1/3)] = sum_i P_{J=2}",
+  "criterion": "YES if exists real c,\u03b1 with operator-norm residual \u2016H_Heis-c H_AKLT-\u03b1 I\u2016 < \u03b3_AKLT(L) with meaningful margin (we require r < 0.5 \u03b3 for YES); else NO",
+  "precision": "FLOAT64 (numpy/scipy); not arb/interval certified",
+  "results_by_L": {
+    "6": {
+      "L": 6,
+      "dim": 729,
+      "label": "FLOAT64_dense_eigvalsh",
+      "bond_sanity": {
+        "h_aklt_eigs_rounded": [
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "x_eigs_rounded": [
+          -2.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "h_aklt_is_projector_float": true
+      },
+      "bond_frobenius_match": {
+        "c_frobenius": 2.25,
+        "alpha_frobenius": -1.25,
+        "bond_resid_Frobenius": 0.8660254037844389,
+        "bond_resid_spectral": 0.7500000000000001,
+        "bond_resid_eigs": [
+          -0.75,
+          -1.242127474727854e-16,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.25,
+          0.2500000000000001
+        ],
+        "note": "EXACT algebra for bond; FLOAT evaluation"
+      },
+      "bond_linear_c2": {
+        "c": 2.0,
+        "alpha": -1.5,
+        "bond_resid_spectral": 0.5000000000000001,
+        "bond_resid_Frobenius": 1.5,
+        "bond_resid_eigs": [
+          -0.5000000000000002,
+          0.49999999999999967,
+          0.4999999999999999,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "note": "EXACT c=2 from matching coeff of S\u00b7S; FLOAT residual"
+      },
+      "Heisenberg": {
+        "E0": -8.617423181814203,
+        "E1": -7.896795819190352,
+        "Emax": 6.000000000000034,
+        "gap": 0.7206273626238513,
+        "op_norm": 8.617423181814203
+      },
+      "AKLT": {
+        "E0": -6.661338147750939e-15,
+        "E1": 0.34786572934466076,
+        "Emax": 6.000000000000014,
+        "gap_gamma_AKLT": 0.3478657293446674,
+        "op_norm": 6.000000000000014,
+        "note": "H_AKLT=sum P_J=2; exact GS energy 0; FLOAT E0 ~ machine eps * scale"
+      },
+      "best_global": {
+        "c": 2.0,
+        "r": 1.8791528696059023,
+        "alpha": -7.879152869605886,
+        "lmin": -9.758305739211789,
+        "lmax": -5.999999999999984
+      },
+      "fixed_c_evals": {
+        "linear_coeff_c2": {
+          "c": 2.0,
+          "alpha": -7.879152869605886,
+          "r": 1.8791528696059023,
+          "lmin": -9.758305739211789,
+          "lmax": -5.999999999999984,
+          "r_over_gamma_AKLT": 5.401948829929224
+        },
+        "frobenius_bond_c": {
+          "c": 2.25,
+          "alpha": -8.17615009305889,
+          "r": 1.9792976984343187,
+          "lmin": -10.15544779149321,
+          "lmax": -6.196852394624572,
+          "r_over_gamma_AKLT": 5.689832402183024
+        }
+      },
+      "verdict_numbers": {
+        "residual_r": 1.8791528696059023,
+        "gamma_AKLT": 0.3478657293446674,
+        "gamma_Heis": 0.7206273626238513,
+        "opnorm_Heis": 8.617423181814203,
+        "residual_lt_gamma_AKLT": false,
+        "r_over_gamma_AKLT": 5.401948829929224,
+        "r_over_opnorm_Heis": 0.21806435983921232,
+        "r_over_gamma_Heis": 2.607662388455226,
+        "margin_gamma_minus_r": -1.531287140261235,
+        "triangle_upper_L_times_bond_resid_spectral_c2": 3.000000000000001
+      },
+      "timing_sec": {
+        "build_heis": 0.005539417266845703,
+        "build_aklt": 0.0008754730224609375,
+        "optimize": 11.682850360870361
+      },
+      "n_grid_evals": 225
+    },
+    "8": {
+      "L": 8,
+      "dim": 6561,
+      "label": "FLOAT64_sparse_Lanczos",
+      "bond_sanity": {
+        "h_aklt_eigs_rounded": [
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "x_eigs_rounded": [
+          -2.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "h_aklt_is_projector_float": true
+      },
+      "bond_frobenius_match": {
+        "c_frobenius": 2.25,
+        "alpha_frobenius": -1.25,
+        "bond_resid_Frobenius": 0.8660254037844389,
+        "bond_resid_spectral": 0.7500000000000001,
+        "bond_resid_eigs": [
+          -0.75,
+          -1.242127474727854e-16,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.25,
+          0.2500000000000001
+        ],
+        "note": "EXACT algebra for bond; FLOAT evaluation"
+      },
+      "bond_linear_c2": {
+        "c": 2.0,
+        "alpha": -1.5,
+        "bond_resid_spectral": 0.5000000000000001,
+        "bond_resid_Frobenius": 1.5,
+        "bond_resid_eigs": [
+          -0.5000000000000002,
+          0.49999999999999967,
+          0.4999999999999999,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "note": "EXACT c=2 from matching coeff of S\u00b7S; FLOAT residual"
+      },
+      "Heisenberg": {
+        "E0": -11.336956077897359,
+        "E1": -10.743400823522098,
+        "Emax": 7.999999999999993,
+        "gap": 0.5935552543752607,
+        "op_norm": 11.336956077897359
+      },
+      "AKLT": {
+        "E0": -6.852157730108391e-16,
+        "E1": 0.349849122179464,
+        "Emax": 8.000000000000004,
+        "gap_gamma_AKLT": 0.3498491221794647,
+        "op_norm": 8.000000000000004,
+        "note": "H_AKLT=sum P_J=2; exact GS energy 0; FLOAT E0 ~ machine eps * scale"
+      },
+      "best_global": {
+        "c": 2.0,
+        "r": 2.454582216654406,
+        "alpha": -10.454582216654412,
+        "lmin": -12.909164433308817,
+        "lmax": -8.000000000000005
+      },
+      "fixed_c_evals": {
+        "linear_coeff_c2": {
+          "c": 2.0,
+          "alpha": -10.454582216654416,
+          "r": 2.454582216654426,
+          "lmin": -12.909164433308842,
+          "lmax": -7.999999999999989,
+          "r_over_gamma_AKLT": 7.016116551509542
+        },
+        "frobenius_bond_c": {
+          "c": 2.25,
+          "alpha": -10.913254586722063,
+          "r": 2.540580755317075,
+          "lmin": -13.453835342039138,
+          "lmax": -8.372673831404988,
+          "r_over_gamma_AKLT": 7.261932628242567
+        }
+      },
+      "verdict_numbers": {
+        "residual_r": 2.454582216654406,
+        "gamma_AKLT": 0.3498491221794647,
+        "gamma_Heis": 0.5935552543752607,
+        "opnorm_Heis": 11.336956077897359,
+        "residual_lt_gamma_AKLT": false,
+        "r_over_gamma_AKLT": 7.016116551509484,
+        "r_over_opnorm_Heis": 0.2165115750461346,
+        "r_over_gamma_Heis": 4.13538958430744,
+        "margin_gamma_minus_r": -2.104733094474941,
+        "triangle_upper_L_times_bond_resid_spectral_c2": 4.000000000000001
+      },
+      "timing_sec": {
+        "build_heis": 0.004173994064331055,
+        "build_aklt": 0.01804661750793457,
+        "optimize": 35.432164430618286
+      },
+      "n_grid_evals": 225
+    }
+  },
+  "BB_calibration_L6": {
+    "theta_AKLT_arctan_1_3": 0.3217505543966422,
+    "points": [
+      {
+        "theta": 0.3217505543966422,
+        "theta_minus_aklt": 0.0,
+        "is_aklt_angle": true,
+        "is_heisenberg_angle_cos1": false,
+        "best_c": 1.8974000000000004,
+        "best_alpha": -3.794833403898978,
+        "residual_r": 0.0001002116969195388,
+        "gamma_AKLT": 0.3478657293446674,
+        "gamma_Htheta": 0.6600288147868731,
+        "E0_Htheta": -3.7947331922020524,
+        "r_over_gamma_AKLT": 0.00028807579610766557
+      },
+      {
+        "theta": 0.3717505543966422,
+        "theta_minus_aklt": 0.04999999999999999,
+        "is_aklt_angle": false,
+        "is_heisenberg_angle_cos1": false,
+        "best_c": 1.8633000000000002,
+        "best_alpha": -3.1135837908151784,
+        "residual_r": 0.29702121305494966,
+        "gamma_AKLT": 0.3478657293446674,
+        "gamma_Htheta": 0.7057987685136067,
+        "E0_Htheta": -3.1068560193524855,
+        "r_over_gamma_AKLT": 0.853838673946117
+      },
+      {
+        "theta": 0.2717505543966422,
+        "theta_minus_aklt": -0.04999999999999999,
+        "is_aklt_angle": false,
+        "is_heisenberg_angle_cos1": false,
+        "best_c": 1.9266000000000003,
+        "best_alpha": -4.466283917902361,
+        "residual_r": 0.2970078330346855,
+        "gamma_AKLT": 0.3478657293446674,
+        "gamma_Htheta": 0.6361681782132358,
+        "E0_Htheta": -4.514966978095339,
+        "r_over_gamma_AKLT": 0.8538002107715772
+      },
+      {
+        "theta": 0.0,
+        "theta_minus_aklt": -0.3217505543966422,
+        "is_aklt_angle": false,
+        "is_heisenberg_angle_cos1": true,
+        "best_c": 2.0,
+        "best_alpha": -7.879152869605886,
+        "residual_r": 1.8791528696059023,
+        "gamma_AKLT": 0.3478657293446674,
+        "gamma_Htheta": 0.7206273626238513,
+        "E0_Htheta": -8.617423181814203,
+        "r_over_gamma_AKLT": 5.401948829929224
+      }
+    ],
+    "label": "FLOAT64"
+  },
+  "verdict": "NO",
+  "verdict_reason": "NO: at L=8 best r=2.455 >= gamma_AKLT=0.350 (ratio 7.02); local bond residual delta=0.5 also >= gamma_AKLT; r/||H_Heis||~0.22 = O(1). Naive parent transfer dead for pure Heisenberg.",
+  "summary": {
+    "L6": {
+      "r": 1.8791528696059023,
+      "gamma_AKLT": 0.3478657293446674,
+      "r_over_gamma": 5.401948829929224,
+      "strict_lt": false,
+      "half_margin": false
+    },
+    "L8": {
+      "r": 2.454582216654406,
+      "gamma_AKLT": 0.3498491221794647,
+      "r_over_gamma": 7.016116551509484,
+      "strict_lt": false,
+      "half_margin": false
+    }
+  },
+  "total_sec": 110.54979205131531,
+  "exact_notes": {
+    "bond_c2_residual_spectral": 0.5,
+    "bond_c2_residual_derivation": "x-2h_AKLT=-1/3 x^2-2/3; after shift -1.5 I, eigs in {-1/2,+1/2}",
+    "AKLT_angle_exact_c": 1.8973665961010275,
+    "AKLT_angle_L6_residual_at_exact_c": 9.103828801926284e-15,
+    "label": "EXACT algebra for bond; FLOAT for many-body spectra"
+  }
+}

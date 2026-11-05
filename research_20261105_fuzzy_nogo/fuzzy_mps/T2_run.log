@@ -1,0 +1,27 @@
+=== L=6 dim=729 ===
+bond sanity: {'h_aklt_eigs_rounded': [-0.0, -0.0, -0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0], 'x_eigs_rounded': [-2.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 'h_aklt_is_projector_float': True}
+bond frobenius: {'c_frobenius': 2.25, 'alpha_frobenius': -1.25, 'bond_resid_Frobenius': 0.8660254037844389, 'bond_resid_spectral': 0.7500000000000001, 'bond_resid_eigs': [-0.75, -1.242127474727854e-16, 0.0, 0.0, 0.0, 0.0, 0.25, 0.25, 0.2500000000000001], 'note': 'EXACT algebra for bond; FLOAT evaluation'}
+bond linear c=2: {'c': 2.0, 'alpha': -1.5, 'bond_resid_spectral': 0.5000000000000001, 'bond_resid_Frobenius': 1.5, 'bond_resid_eigs': [-0.5000000000000002, 0.49999999999999967, 0.4999999999999999, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5], 'note': 'EXACT c=2 from matching coeff of S·S; FLOAT residual'}
+built sparse H in 0.01s / 0.00s; nnz=4552
+Heis: E0=-8.617423181814 E1=-7.896795819190 gap=0.720627362624 Emax=6.000000000000
+AKLT: E0=-6.661338147751e-15 E1=0.347865729345 gap=0.347865729345 Emax=6.000000000000
+best (c,α,r)={'c': 2.0, 'r': 1.8791528696059023, 'alpha': -7.879152869605886, 'lmin': -9.758305739211789, 'lmax': -5.999999999999984}  optimize_sec=11.7
+linear_coeff_c2 {'c': 2.0, 'alpha': -7.879152869605886, 'r': 1.8791528696059023, 'lmin': -9.758305739211789, 'lmax': -5.999999999999984, 'r_over_gamma_AKLT': 5.401948829929224}
+frobenius_bond_c {'c': 2.25, 'alpha': -8.17615009305889, 'r': 1.9792976984343187, 'lmin': -10.15544779149321, 'lmax': -6.196852394624572, 'r_over_gamma_AKLT': 5.689832402183024}
+=== L=8 dim=6561 ===
+bond sanity: {'h_aklt_eigs_rounded': [-0.0, -0.0, -0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0], 'x_eigs_rounded': [-2.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 'h_aklt_is_projector_float': True}
+bond frobenius: {'c_frobenius': 2.25, 'alpha_frobenius': -1.25, 'bond_resid_Frobenius': 0.8660254037844389, 'bond_resid_spectral': 0.7500000000000001, 'bond_resid_eigs': [-0.75, -1.242127474727854e-16, 0.0, 0.0, 0.0, 0.0, 0.25, 0.25, 0.2500000000000001], 'note': 'EXACT algebra for bond; FLOAT evaluation'}
+bond linear c=2: {'c': 2.0, 'alpha': -1.5, 'bond_resid_spectral': 0.5000000000000001, 'bond_resid_Frobenius': 1.5, 'bond_resid_eigs': [-0.5000000000000002, 0.49999999999999967, 0.4999999999999999, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5], 'note': 'EXACT c=2 from matching coeff of S·S; FLOAT residual'}
+built sparse H in 0.00s / 0.02s; nnz=52960
+Heis: E0=-11.336956077897 E1=-10.743400823522 gap=0.593555254375 Emax=8.000000000000
+AKLT: E0=-6.852157730108e-16 E1=0.349849122179 gap=0.349849122179 Emax=8.000000000000
+best (c,α,r)={'c': 2.0, 'r': 2.454582216654406, 'alpha': -10.454582216654412, 'lmin': -12.909164433308817, 'lmax': -8.000000000000005}  optimize_sec=35.4
+linear_coeff_c2 {'c': 2.0, 'alpha': -10.454582216654416, 'r': 2.454582216654426, 'lmin': -12.909164433308842, 'lmax': -7.999999999999989, 'r_over_gamma_AKLT': 7.016116551509542}
+frobenius_bond_c {'c': 2.25, 'alpha': -10.913254586722063, 'r': 2.540580755317075, 'lmin': -13.453835342039138, 'lmax': -8.372673831404988, 'r_over_gamma_AKLT': 7.261932628242567}
+=== BB calibration L=6 ===
+BB {'theta': 0.3217505543966422, 'theta_minus_aklt': 0.0, 'is_aklt_angle': True, 'is_heisenberg_angle_cos1': False, 'best_c': 1.8974000000000004, 'best_alpha': -3.794833403898978, 'residual_r': 0.0001002116969195388, 'gamma_AKLT': 0.3478657293446674, 'gamma_Htheta': 0.6600288147868731, 'E0_Htheta': -3.7947331922020524, 'r_over_gamma_AKLT': 0.00028807579610766557}
+BB {'theta': 0.3717505543966422, 'theta_minus_aklt': 0.04999999999999999, 'is_aklt_angle': False, 'is_heisenberg_angle_cos1': False, 'best_c': 1.8633000000000002, 'best_alpha': -3.1135837908151784, 'residual_r': 0.29702121305494966, 'gamma_AKLT': 0.3478657293446674, 'gamma_Htheta': 0.7057987685136067, 'E0_Htheta': -3.1068560193524855, 'r_over_gamma_AKLT': 0.853838673946117}
+BB {'theta': 0.2717505543966422, 'theta_minus_aklt': -0.04999999999999999, 'is_aklt_angle': False, 'is_heisenberg_angle_cos1': False, 'best_c': 1.9266000000000003, 'best_alpha': -4.466283917902361, 'residual_r': 0.2970078330346855, 'gamma_AKLT': 0.3478657293446674, 'gamma_Htheta': 0.6361681782132358, 'E0_Htheta': -4.514966978095339, 'r_over_gamma_AKLT': 0.8538002107715772}
+BB {'theta': 0.0, 'theta_minus_aklt': -0.3217505543966422, 'is_aklt_angle': False, 'is_heisenberg_angle_cos1': True, 'best_c': 2.0, 'best_alpha': -7.879152869605886, 'residual_r': 1.8791528696059023, 'gamma_AKLT': 0.3478657293446674, 'gamma_Htheta': 0.7206273626238513, 'E0_Htheta': -8.617423181814203, 'r_over_gamma_AKLT': 5.401948829929224}
+Wrote /workspace/haldane_chat_bundle/runs/fuzzy_mps/T2_results.json
+VERDICT: NO | r ≥ γ_AKLT at pure Heisenberg (L=8); naive parent-gap transfer dead
