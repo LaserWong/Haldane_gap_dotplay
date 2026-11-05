@@ -1,0 +1,81 @@
+=== CERT 3 1 1 79/100 ===
+{'n': 3, 'r': 1, 'f': 1, 't': '79/100', 'db': 7, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.1341954727250876, 'E_build': 4.664011011393819e-14, 'rho': 9.284959134392185e-15, 'F2': 5.786861745629839e-15}
+=== CERT 3 1 -1 79/100 ===
+{'n': 3, 'r': 1, 'f': -1, 't': '79/100', 'db': 4, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.020008942620058777, 'E_build': 4.365845593431381e-14, 'rho': 6.066750023871122e-15, 'F2': 9.14052564215816e-15}
+=== CERT 3 -1 1 79/100 ===
+{'n': 3, 'r': -1, 'f': 1, 't': '79/100', 'db': 3, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.2999101446318534, 'E_build': 4.365845593431381e-14, 'rho': 2.554354014564421e-15, 'F2': 1.6459123417187559e-15}
+=== CERT 3 -1 -1 79/100 ===
+{'n': 3, 'r': -1, 'f': -1, 't': '79/100', 'db': 5, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.017109926578804193, 'E_build': 4.365845593431381e-14, 'rho': 8.560266450993923e-15, 'F2': 1.1518666292688114e-14}
+=== NEG 3 1 1 81/100 ===
+{'n': 3, 'r': 1, 'f': 1, 't': '81/100', 'db': 7, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.11298006991283778, 'E_build': 4.670228266548791e-14, 'rho': 9.082412737012575e-15, 'F2': 6.519693503049974e-15}
+=== NEG 3 1 -1 81/100 ===
+{'n': 3, 'r': 1, 'f': -1, 't': '81/100', 'db': 4, 'kb': 0, 'CERTIFIED': False, 'reason': 'chol_fail_discovery', 'lam_min_AstarU_lower': None, 'E_build': 4.3738392072022885e-14, 'rho': None, 'F2': None}
+=== NEG 3 -1 1 81/100 ===
+{'n': 3, 'r': -1, 'f': 1, 't': '81/100', 'db': 3, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.25461545506392447, 'E_build': 4.3738392072022885e-14, 'rho': 2.2690761374142982e-15, 'F2': 1.8007392585374857e-15}
+=== NEG 3 -1 -1 81/100 ===
+{'n': 3, 'r': -1, 'f': -1, 't': '81/100', 'db': 5, 'kb': 0, 'CERTIFIED': False, 'reason': 'chol_fail_discovery', 'lam_min_AstarU_lower': None, 'E_build': 4.3738392072022885e-14, 'rho': None, 'F2': None}
+=== CERT 4 1 1 7975/100000 ===
+{'n': 4, 'r': 1, 'f': 1, 't': '319/4000', 'db': 29, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.059356171684106424, 'E_build': 6.591212761390027e-14, 'rho': 1.1673837240166942e-13, 'F2': 3.8355845042439307e-14}
+=== CERT 4 1 -1 7975/100000 ===
+{'n': 4, 'r': 1, 'f': -1, 't': '319/4000', 'db': 16, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.3120350655571117, 'E_build': 6.033587878525726e-14, 'rho': 5.333891338736551e-14, 'F2': 1.5381373369212178e-14}
+=== CERT 4 -1 1 7975/100000 ===
+{'n': 4, 'r': -1, 'f': 1, 't': '319/4000', 'db': 14, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 1.0797372684058844, 'E_build': 6.033587878525726e-14, 'rho': 3.633545682891147e-14, 'F2': 6.586107582932559e-15}
+=== CERT 4 -1 -1 7975/100000 ===
+{'n': 4, 'r': -1, 'f': -1, 't': '319/4000', 'db': 26, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 1.3688492758757541e-05, 'E_build': 6.033587878525726e-14, 'rho': 9.991038174724656e-14, 'F2': 2.145697566794008e-12}
+=== NEG 4 1 1 7977/100000 ===
+{'n': 4, 'r': 1, 'f': 1, 't': '7977/100000', 'db': 29, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.05934485987721189, 'E_build': 6.59315876225359e-14, 'rho': 1.170955964528129e-13, 'F2': 3.8273654318058186e-14}
+=== NEG 4 1 -1 7977/100000 ===
+{'n': 4, 'r': 1, 'f': -1, 't': '7977/100000', 'db': 16, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.3120016071299284, 'E_build': 6.035535655747905e-14, 'rho': 5.31111011093343e-14, 'F2': 1.532759797781662e-14}
+=== NEG 4 -1 1 7977/100000 ===
+{'n': 4, 'r': -1, 'f': 1, 't': '7977/100000', 'db': 14, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 1.0796957362738298, 'E_build': 6.035535655747905e-14, 'rho': 3.578030369945135e-14, 'F2': 6.583172150423739e-15}
+=== NEG 4 -1 -1 7977/100000 ===
+{'n': 4, 'r': -1, 'f': -1, 't': '7977/100000', 'db': 26, 'kb': 0, 'CERTIFIED': False, 'reason': 'chol_fail_discovery', 'lam_min_AstarU_lower': None, 'E_build': 6.035535655747905e-14, 'rho': None, 'F2': None}
+=== CERT 5 1 1 2121/10000 ===
+{'n': 5, 'r': 1, 'f': 1, 't': '2121/10000', 'db': 105, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.13879010666731909, 'E_build': 8.629917933955199e-14, 'rho': 6.239858437560527e-13, 'F2': 1.6365318523814758e-13}
+=== CERT 5 1 -1 2121/10000 ===
+{'n': 5, 'r': 1, 'f': -1, 't': '2121/10000', 'db': 92, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 8.5560190494707e-05, 'E_build': 7.893137560466909e-14, 'rho': 5.732711521203714e-13, 'F2': 5.237209585673282e-12}
+=== CERT 5 -1 1 2121/10000 ===
+{'n': 5, 'r': -1, 'f': 1, 't': '2121/10000', 'db': 86, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.2235772326878286, 'E_build': 7.893137560466909e-14, 'rho': 4.235766630144662e-13, 'F2': 1.0381763798746817e-13}
+=== CERT 5 -1 -1 2121/10000 ===
+{'n': 5, 'r': -1, 'f': -1, 't': '2121/10000', 'db': 98, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 6.233252430319896e-05, 'E_build': 7.893137560466909e-14, 'rho': 7.678925025652785e-13, 'F2': 6.739046993832752e-12}
+=== NEG 5 1 1 2122/10000 ===
+{'n': 5, 'r': 1, 'f': 1, 't': '1061/5000', 'db': 105, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.13873238579210553, 'E_build': 8.625721286725473e-14, 'rho': 6.24264602631216e-13, 'F2': 1.6393949304618932e-13}
+=== NEG 5 1 -1 2122/10000 ===
+{'n': 5, 'r': 1, 'f': -1, 't': '1061/5000', 'db': 92, 'kb': 0, 'CERTIFIED': False, 'reason': 'chol_fail_discovery', 'lam_min_AstarU_lower': None, 'E_build': 7.888949795030262e-14, 'rho': None, 'F2': None}
+=== NEG 5 -1 1 2122/10000 ===
+{'n': 5, 'r': -1, 'f': 1, 't': '1061/5000', 'db': 86, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.22347973137923058, 'E_build': 7.888949795030262e-14, 'rho': 4.237150610005191e-13, 'F2': 1.036888518351938e-13}
+=== NEG 5 -1 -1 2122/10000 ===
+{'n': 5, 'r': -1, 'f': -1, 't': '1061/5000', 'db': 98, 'kb': 0, 'CERTIFIED': False, 'reason': 'chol_fail_discovery', 'lam_min_AstarU_lower': None, 'E_build': 7.888949795030262e-14, 'rho': None, 'F2': None}
+=== CERT 6 1 1 959/10000 ===
+{'n': 6, 'r': 1, 'f': 1, 't': '959/10000', 'db': 474, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.017432676001113322, 'E_build': 1.0779796105983148e-13, 'rho': 4.36453839263712e-12, 'F2': 1.7090706162919151e-12}
+=== CERT 6 1 -1 959/10000 ===
+{'n': 6, 'r': 1, 'f': -1, 't': '959/10000', 'db': 411, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.09666659486622707, 'E_build': 9.871008903769332e-14, 'rho': 3.257043003405479e-12, 'F2': 9.30372737848636e-13}
+=== CERT 6 -1 1 959/10000 ===
+{'n': 6, 'r': -1, 'f': 1, 't': '959/10000', 'db': 402, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.19009354022836397, 'E_build': 9.871008903769332e-14, 'rho': 2.8531236195478086e-12, 'F2': 6.096288235176391e-13}
+=== CERT 6 -1 -1 959/10000 ===
+{'n': 6, 'r': -1, 'f': -1, 't': '959/10000', 'db': 464, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 9.52882097369477e-06, 'E_build': 9.871008903769332e-14, 'rho': 4.880605640759768e-12, 'F2': 7.029896909933788e-11}
+=== NEG 6 1 1 960/10000 ===
+{'n': 6, 'r': 1, 'f': 1, 't': '12/125', 'db': 474, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.017416103185725222, 'E_build': 1.0780244636533626e-13, 'rho': 4.363864620501081e-12, 'F2': 1.7097217451079496e-12}
+=== NEG 6 1 -1 960/10000 ===
+{'n': 6, 'r': 1, 'f': -1, 't': '12/125', 'db': 411, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.09660615470240483, 'E_build': 9.87146631611289e-14, 'rho': 3.2558139399442604e-12, 'F2': 9.30804361251875e-13}
+=== NEG 6 -1 1 960/10000 ===
+{'n': 6, 'r': -1, 'f': 1, 't': '12/125', 'db': 402, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.1900197461898046, 'E_build': 9.87146631611289e-14, 'rho': 2.8528448398982e-12, 'F2': 6.098529696954224e-13}
+=== NEG 6 -1 -1 960/10000 ===
+{'n': 6, 'r': -1, 'f': -1, 't': '12/125', 'db': 464, 'kb': 0, 'CERTIFIED': False, 'reason': 'chol_fail_discovery', 'lam_min_AstarU_lower': None, 'E_build': 9.87146631611289e-14, 'rho': None, 'F2': None}
+=== CERT 7 1 1 1517/10000 ===
+{'n': 7, 'r': 1, 'f': 1, 't': '1517/10000', 'db': 2079, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.02208771265890046, 'E_build': 1.3023643918081124e-13, 'rho': 2.7820795142710942e-11, 'F2': 1.0574203438602253e-11}
+=== CERT 7 1 -1 1517/10000 ===
+{'n': 7, 'r': 1, 'f': -1, 't': '1517/10000', 'db': 2016, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 2.1069670194360726e-05, 'E_build': 1.199776193796882e-13, 'rho': 3.04416627302306e-11, 'F2': 3.274765306220386e-10}
+=== CERT 7 -1 1 1517/10000 ===
+{'n': 7, 'r': -1, 'f': 1, 't': '1517/10000', 'db': 1989, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.051180847562642656, 'E_build': 1.199776193796882e-13, 'rho': 2.0563055851052797e-11, 'F2': 6.379651743880946e-12}
+=== CERT 7 -1 -1 1517/10000 ===
+{'n': 7, 'r': -1, 'f': -1, 't': '1517/10000', 'db': 2051, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 1.273867054450021e-05, 'E_build': 1.199776193796882e-13, 'rho': 3.9788206933722714e-11, 'F2': 4.314239664726788e-10}
+=== NEG 7 1 1 1518/10000 ===
+{'n': 7, 'r': 1, 'f': 1, 't': '759/5000', 'db': 2079, 'kb': 1, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.022070629358980333, 'E_build': 1.3026836922692945e-13, 'rho': 2.7820081870470298e-11, 'F2': 1.0577943812388292e-11}
+=== NEG 7 1 -1 1518/10000 ===
+{'n': 7, 'r': 1, 'f': -1, 't': '759/5000', 'db': 2016, 'kb': 0, 'CERTIFIED': False, 'reason': 'chol_fail_discovery', 'lam_min_AstarU_lower': None, 'E_build': 1.2000963824373726e-13, 'rho': None, 'F2': None}
+=== NEG 7 -1 1 1518/10000 ===
+{'n': 7, 'r': -1, 'f': 1, 't': '759/5000', 'db': 1989, 'kb': 0, 'CERTIFIED': True, 'reason': None, 'lam_min_AstarU_lower': 0.05114749738755289, 'E_build': 1.2000963824373726e-13, 'rho': 2.05654023563635e-11, 'F2': 6.3818295716350214e-12}
+=== NEG 7 -1 -1 1518/10000 ===
+{'n': 7, 'r': -1, 'f': -1, 't': '759/5000', 'db': 2051, 'kb': 0, 'CERTIFIED': False, 'reason': 'chol_fail_discovery', 'lam_min_AstarU_lower': None, 'E_build': 1.2000963824373726e-13, 'rho': None, 'F2': None}
+ALLDONE

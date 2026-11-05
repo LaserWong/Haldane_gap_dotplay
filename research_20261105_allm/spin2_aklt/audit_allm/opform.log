@@ -1,0 +1,4 @@
+AKLT S=1 n=6 c=[np.float64(0.05), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(0.05)]: lambda+_min(B)=0.04047 vs avg(c)*eps_n=0.24704 -> VIOLATED
+AKLT S=1 n=6 c=[np.float64(0.3), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(0.3)]: lambda+_min(B)=0.21532 vs avg(c)*eps_n=0.28688 -> VIOLATED
+AKLT S=1 n=8 c=[np.float64(465.0), np.float64(771.0), np.float64(944.0), np.float64(1000.0), np.float64(944.0), np.float64(771.0), np.float64(465.0)]: lambda+_min(B)=278.83924 vs avg(c)*eps_n=290.47305 -> VIOLATED
+AKLT S=1 n=8 c=[np.float64(0.1), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0), np.float64(0.1)]: lambda+_min(B)=0.08080 vs avg(c)*eps_n=0.28180 -> VIOLATED
