@@ -1,0 +1,80 @@
+{
+ "L11_I": {
+  "Z_lower": "0.3776293449024036024550951",
+  "Z_upper": "0.3776293449507706365200166",
+  "Z_rel_radius": 6.404035427162625e-11,
+  "repo_lo": "377628045019811911/1000000000000000000",
+  "repo_hi": "75526128967036709/200000000000000000",
+  "repo_rel_width": 6.884545539911589e-06,
+  "inside_refined": true,
+  "moments_contain_exact": true,
+  "digests_match": true,
+  "max_eig_err": 8.594890544056317e-12,
+  "blocks_by_mode": {
+   "exact": 48,
+   "hp": 19,
+   "empty": 5
+  },
+  "cert_seconds": 1405.6976277828217,
+  "inside_coarse_window": true
+ },
+ "L11_P": {
+  "Z_lower": "1.314544185189407701529993",
+  "Z_upper": "1.314544185354688306487553",
+  "Z_rel_radius": 6.286612759363232e-11,
+  "repo_lo": "164317719995436527/125000000000000000",
+  "repo_hi": "657273305291638563/500000000000000000",
+  "repo_rel_width": 3.6899564807045776e-06,
+  "inside_refined": true,
+  "moments_contain_exact": true,
+  "digests_match": true,
+  "max_eig_err": 8.706059733880935e-12,
+  "blocks_by_mode": {
+   "exact": 48,
+   "hp": 19,
+   "empty": 5
+  },
+  "cert_seconds": 1418.4484252929688,
+  "inside_coarse_window": true
+ },
+ "L12_I": {
+  "Z_lower": "1.900547563954856529282874",
+  "Z_upper": "1.900547564527809249273346",
+  "Z_rel_radius": 1.5073359140558652e-10,
+  "repo_lo": "380106309859875847/200000000000000000",
+  "repo_hi": "237570447406727807/125000000000000000",
+  "repo_rel_width": 1.6852871849620646e-05,
+  "inside_refined": true,
+  "moments_contain_exact": true,
+  "digests_match": true,
+  "max_eig_err": 2.2229228599772523e-11,
+  "blocks_by_mode": {
+   "exact_chunked": 28,
+   "exact": 35,
+   "hp": 22,
+   "empty": 6
+  },
+  "cert_seconds": 731.6798293590546,
+  "inside_coarse_window": true
+ },
+ "L12_P": {
+  "Z_lower": "0.7874053613805283708642947",
+  "Z_upper": "0.7874053616217252892050861",
+  "Z_rel_radius": 1.5315930658699623e-10,
+  "repo_lo": "393697526628446257/500000000000000000",
+  "repo_hi": "19685391745340407/25000000000000000",
+  "repo_rel_width": 2.6182558354021585e-05,
+  "inside_refined": true,
+  "moments_contain_exact": true,
+  "digests_match": true,
+  "max_eig_err": 2.2625333812383616e-11,
+  "blocks_by_mode": {
+   "exact_chunked": 26,
+   "exact": 33,
+   "hp": 20,
+   "empty": 6
+  },
+  "cert_seconds": 724.3842875957489,
+  "inside_coarse_window": true
+ }
+}

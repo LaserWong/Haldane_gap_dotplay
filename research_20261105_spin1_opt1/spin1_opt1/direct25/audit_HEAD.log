@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/hrepo/research_20261010/uniform_direct25_coverage_review/audit.py", line 59, in <module>
+    for name,h in [('uniform_direct25_coverage','abd4e0f0a315ef9878129c56ee884d797707687f07361c83f1cb140f0ebee9fa'),('uniform_n24_second_coverage_review','9d31eeb0dc44f24047943a4ad4dd06e4f8f82aced5ca321857a1aaedf82b8282'),('uniform_n26_second_coverage_review','b4e4bc246acb27b63bb51745c23cbd28b7b0928d5d45ad19ddfb3ffe5d6d077d'),('uniform_smaller_second_initialization_review','54401c08804d8cade3cd91f652c2ae4d9182ceb25599e153802cc1a1770ffa2f'),('uniform_second_thermal_full_review','792127565ad16526eeaa61add62bcc15db499578fc9d2157f11df27848867b94')]:seals[name]=seal(R/name,h)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ~~~~^^^^^^^^^^
+  File "/tmp/hrepo/research_20261010/uniform_direct25_coverage_review/audit.py", line 14, in seal
+    for f,v in js(p/'MANIFEST_SHA256.json').items():assert hashlib.sha256(rd(p/f)).hexdigest()==v
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

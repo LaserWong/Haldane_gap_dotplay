@@ -1,0 +1,1 @@
+./job.sh: line 5: 890439 Killed                  timeout 595 python3 chunked.py "$@" >> logs/$K.log 2>&1

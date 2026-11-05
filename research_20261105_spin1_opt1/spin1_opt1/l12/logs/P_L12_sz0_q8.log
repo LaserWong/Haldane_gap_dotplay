@@ -1,0 +1,18 @@
+FAIL eig P_L12_sz0_q8
+eig P_L12_sz0_q8 6160 cplx 376s
+gram P_L12_sz0_q8 0 0 36s
+gram P_L12_sz0_q8 0 1 38s
+gram P_L12_sz0_q8 0 2 38s
+gram P_L12_sz0_q8 0 3 37s
+gram P_L12_sz0_q8 1 1 33s
+gram P_L12_sz0_q8 1 2 34s
+gram P_L12_sz0_q8 1 3 37s
+gram P_L12_sz0_q8 2 2 33s
+gram P_L12_sz0_q8 2 3 38s
+gram P_L12_sz0_q8 3 3 36s
+resid P_L12_sz0_q8 0 38s
+resid P_L12_sz0_q8 1 35s
+resid P_L12_sz0_q8 2 36s
+resid P_L12_sz0_q8 3 36s
+finish P_L12_sz0_q8 6160 maxerr 2.17e-11 eta 5.24e-13
+DONE P_L12_sz0_q8

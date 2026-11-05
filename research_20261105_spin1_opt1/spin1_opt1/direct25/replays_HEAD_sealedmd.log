@@ -1,0 +1,7 @@
+Replay at HEAD a99fa21 in /tmp/hrepo (copy of repo minus .git); 253 .md files restored to their sealed blobs
+(each found in git history with exactly the manifest SHA-256; 0 unresolved for the gap-chain dirs). Each audit run
+in isolation (results.json restored between runs, since audits rewrite their own results.json).
+uniform_direct25_coverage_review/audit.py : exit 0; results.json identical except CPU_seconds/RSS fields; INPUT_SHA256 identical
+uniform_gap_0248_all_sizes_review/audit.py: exit 0 (3.25 s CPU); results.json identical except scalar_CPU_seconds/RSS; INPUT_SHA256 identical
+uniform_n24_second_coverage_review/audit.py: "ACCEPTED isolated L24 certificate; L25 unresolved by this package"
+direct-25 contraction (limited_run.py 25, RLIMIT_CPU 15 s, RLIMIT_AS 100 MiB, sealed binary sha 4dd3ef1a...): see rerun.log

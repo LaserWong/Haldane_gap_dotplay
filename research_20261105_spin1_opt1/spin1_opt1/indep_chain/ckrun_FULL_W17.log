@@ -1,0 +1,21 @@
+R68 = -8.322178606774621e-06
+FULL W 17 digits 10000 seed_digits 600 ell 9999977627/10000000000 S 0.9464744079261146 T 0.8333945892513164
+window 0 34 ok cpu 1
+window 1 68 ok cpu 2
+window 2 136 ok cpu 2
+window 3 272 ok cpu 2
+window 4 544 ok cpu 2
+window 5 1088 ok cpu 3
+window 6 2176 ok cpu 3
+window 7 4352 ok cpu 3
+window 8 8704 ok cpu 3
+window 9 17408 ok cpu 4
+window 10 34816 ok cpu 4
+window 11 69632 ok cpu 4
+window 12 139264 ok cpu 4
+window 13 278528 ok cpu 5
+window 14 557056 ok cpu 5
+window 15 1114112 ok cpu 5
+window 16 2228224 ok cpu 6
+gap 63033/2500000 ACCEPTED ('asym from L=2228224 beta=802816 windows=17 u>0:True', 0.9576926444664424) cpu 5.7s
+exit rc 0
