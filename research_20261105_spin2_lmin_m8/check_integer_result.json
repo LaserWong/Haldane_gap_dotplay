@@ -1,0 +1,42 @@
+{
+  "status": "TESTED",
+  "accepted": true,
+  "checks": {
+    "integer_weights": true,
+    "PF": true,
+    "bulk_cap": true,
+    "Z4": true,
+    "P4": true,
+    "Z5": true,
+    "P5": true,
+    "Z6": true,
+    "P6": true,
+    "Z7": true,
+    "P7": true,
+    "Z8": true,
+    "P8": true,
+    "F4_all_lengths": true,
+    "seed_killed_256": true,
+    "seed_killed_300": true
+  },
+  "relative_residuals": {
+    "Z4": 1.5616306650701185e-165,
+    "P4": 1.3381107758396453e-123,
+    "Z5": 5.214315292597076e-71,
+    "P5": 2.777748433753786e-153,
+    "Z6": 2.0706048334978965e-166,
+    "P6": 4.426326032866903e-140,
+    "Z7": 5.62919617670117e-105,
+    "P7": 5.814933220971443e-157,
+    "Z8": 6.230155908963712e-167,
+    "P8": 1.6596693835515908e-147
+  },
+  "F4_tail_from": 14,
+  "F4_prefix_failures": [],
+  "S": {
+    "256": 0.5082725203986761,
+    "300": 0.511313810262523
+  },
+  "candidate_sha256": "79ef23bac92fb7c3954d2be889343234c3969f4c6efcc57e647f911f55ecbd3e",
+  "basis": "Exact integer/Fraction checks against rational synthetic estimates. ED input NOT rigorous."
+}

@@ -1,0 +1,73 @@
+{
+  "accepted": true,
+  "checks": {
+    "integer_weights": true,
+    "PF_simple_dominant": true,
+    "bulk_cap_.95": true,
+    "second_J_atom_positive": true,
+    "Z4_in_box": true,
+    "P4_in_box": true,
+    "Z5_in_box": true,
+    "P5_in_box": true,
+    "Z6_in_box": true,
+    "P6_in_box": true,
+    "Z7_in_box": true,
+    "P7_in_box": true,
+    "Z8_in_box": true,
+    "P8_in_box": true,
+    "F4_all_lengths": true,
+    "seed_killed_256": true,
+    "seed_killed_300": true
+  },
+  "box_position_and_relwidth": {
+    "Z4": [
+      0.5,
+      2.85561008654833e-31
+    ],
+    "P4": [
+      0.5,
+      3.6969482969659676e-31
+    ],
+    "Z5": [
+      0.5,
+      1.2196883981831823e-10
+    ],
+    "P5": [
+      0.5,
+      1.2480060958483366e-10
+    ],
+    "Z6": [
+      0.5,
+      2.958034340744215e-10
+    ],
+    "P6": [
+      0.5,
+      2.8398666782743444e-10
+    ],
+    "Z7": [
+      0.5,
+      1.148332299346347e-06
+    ],
+    "P7": [
+      0.5,
+      1.1835355760645211e-06
+    ],
+    "Z8": [
+      0.5,
+      2.2987520425334526e-05
+    ],
+    "P8": [
+      0.5,
+      2.2749012881766758e-05
+    ]
+  },
+  "F4_tail_from": 14,
+  "F4_prefix_failures": [],
+  "S": {
+    "256": 0.5082725203986761,
+    "300": 0.511313810262523
+  },
+  "candidate_sha256": "886dbe6def9a20002db81644417f17b2246180995e5fffab0ffea597494db363",
+  "enclosures_sha256": "74d9d50f1d5996bf48e763e69ccd38e6bf28b0af9f80b185714903611d8135ce"
+}
+strict seed failures verified exactly

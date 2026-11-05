@@ -1,0 +1,35 @@
+{
+  "python_executable": "/usr/bin/python3",
+  "python_version": "3.13.5",
+  "contract": "B-test-v1",
+  "evidence_class": "Heuristic numerical inputs; exact finite verification against synthetic rational constants",
+  "result": "TESTED",
+  "files": {
+    "DISCRIMINATOR.md": "a6f8522a3b89db67d2b3213883b7a8f616dbb44ec32730e4c89434c36ec3073c",
+    "PLAN.md": "4bbe3bc393e4096fbff139519728de4c95881ffc1994822260c8b37df41730a0",
+    "candidate.json": "79ef23bac92fb7c3954d2be889343234c3969f4c6efcc57e647f911f55ecbd3e",
+    "candidate_grid095.json": "44210ae98c9b940fc26f6f7adc0c162bd0583d42e60fba4f3c26cf16c5135c2a",
+    "check_candidate.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "check_candidate.py": "43af0cab092a86b0b2ddd637b1873adf65ec0753e40eea28fa51b041b88993d7",
+    "check_integer.log": "0a29bf2570572b8faec8732d73345513b87e97bf8cdbaae8bf515126ccdefc07",
+    "check_integer.py": "d9f18e9d1947ce5c05b4d3952802da550524ee9cc9aeca538803ff27dbc8b44f",
+    "check_integer_result.json": "c867c5290bb67e94a10c82948114906ab1a6a889a791a0d063b932c73b705fe2",
+    "ed_estimates.json": "fe78476a625a1c3d19c401f61c76d0d1f9ecdec9fac5613db74af8399bb77c00",
+    "ed_estimates_symmetric_start.json": "b954c9b31d6cc90b221aea9736526846907a199e467387bf6c1c7d1011a352b9",
+    "ed_helpers.py": "4516a38ec7a817d77df699a8c7160490ea11c07528bd9b32c2e9ee66470501b8",
+    "estimate_data.log": "6e7c6675d43e2e15475e810b7a389a9645da3fc6bc740a8b2758dab05b055928",
+    "estimate_data.py": "5b21509f1c2531f1cad9d1f5ffbd168c18f7bd62b3030f9c29ac0cd696b26c57",
+    "estimate_data_symmetric_start.log": "f44e0c83fd4af02fdc548cfaecc0871bab3a71b907defa5f7b4274b73c626246",
+    "fit_fake.log": "03368abe55ef83d446562e82152a988cba146f302ad3a428e906a0d379dbc065",
+    "fit_fake.py": "fbd7da9548f19d7550a4159fb21d4631a217e754798510276816c0e09c9913f4",
+    "fit_fake_grid095.log": "9e99960284e199b89553402c9237f7e0371ea813cbf7ba052804f19f8c0501e8"
+  },
+  "source_hashes": {
+    "/workspace/haldane_chat_bundle/runs/spin2/MOMENT_NOGO.md": "69d9a43d7d8b9dcc0ee7feb352c3c4aed8b3e38f87bc5dd665a55b16b8d528a1",
+    "/workspace/haldane_chat_bundle/runs/spin2/FEASIBILITY.md": "803699c6de2bba6d653ed0e17539e1d51d1a457d6b6fc780b9b0fdd8f40b1fb4",
+    "/workspace/haldane_chat_bundle/runs/spin2/NEW_IDEAS.md": "235d181f94562c299815ce64a578e9c5c9f0cf8cdeed6475573a4ec5a2993df6",
+    "/workspace/haldane_chat_bundle/runs/spin2/ed_small.py": "358c00cde7f9a34e3ddb744c3543042fa465a09b505339531f27ee512298f7fa",
+    "/workspace/haldane_chat_bundle/runs/spin2/moment_nogo/explore_fake.py": "d16037f228c2d183e2ba5fde703b4334dce7050a32794db4707344650d271437",
+    "/workspace/haldane_chat_bundle/runs/spin2/moment_nogo/build.py": "c56b7c78b5c4b4d353ad5f0575c1a5e4db31590dcec71e7c6b2434b444ec88a5"
+  }
+}
