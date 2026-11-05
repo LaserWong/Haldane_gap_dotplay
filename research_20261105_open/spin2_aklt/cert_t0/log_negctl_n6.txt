@@ -1,0 +1,6 @@
+# negative control n=6, t=0.135 > eps_6=0.134498 (expect a failure)
+{'r': 1, 'f': 1, 'db': 474, 'kb': 2, 'info': 472, 'CERTIFIED': False}
+{'r': 1, 'f': -1, 'db': 411, 'kb': 0, 'info': 0, 'CERTIFIED': True}
+{'r': -1, 'f': 1, 'db': 402, 'kb': 0, 'info': 0, 'CERTIFIED': True}
+{'r': -1, 'f': -1, 'db': 464, 'kb': 1, 'info': 464, 'CERTIFIED': False}
+# positive n=6 t=0.134 above: all CERTIFIED

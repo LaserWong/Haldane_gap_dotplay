@@ -1,0 +1,594 @@
+{
+  "schema_version": "1.0",
+  "review_id": "AUDIT_OPEN_LM_prime_20261105",
+  "snapshot_id": "7402a7df96bcb12610fa86c3534f42b72e667bfda8d49cf84973e6eced58827d",
+  "profile": "FOCUSED",
+  "domains": [
+    "mathematics"
+  ],
+  "scope": {
+    "statement": "FOCUSED audit of Lemma LM\u2032 (CERT_OPEN \u00a72 wrap-around steps 2\u20133), Prop 4.6 without n\u2264m/2, \u03bc/F_lo/G_up, every m\u22652 coverage, IEEE trusted-base wording.",
+    "requested_claim_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "inventory_complete": true,
+    "inventory_evidence_ids": [
+      "E_cert_open"
+    ],
+    "limitations": [
+      "KHH(1) open corollary out of scope",
+      "spin-2 Prop 4.6 dense ED at large m not re-run; spin-1 used as cex host",
+      "full arb-ball certs beyond residual not re-derived"
+    ]
+  },
+  "source_policy": {
+    "mode": "LITERATURE_ENABLED",
+    "network_search": "not_performed",
+    "limitations": [
+      "Used local fetched lm.txt/pdf already present under /workspace/papers"
+    ]
+  },
+  "reviewer": {
+    "session_id": "executor-AUDIT_OPEN-20261105",
+    "producer_session_ids": [
+      "parent-haldane-open-cert"
+    ],
+    "independence": "SEPARATE_CONTEXT_DECLARED",
+    "separation_evidence_ids": [],
+    "limitations": [
+      "Same box filesystem as producer; independent scripts and paper re-read; SELF not claimed as runtime-isolated"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "E_cert_open",
+      "root": "input",
+      "path": "CERT_OPEN.md",
+      "sha256": "d46e9ed9fd4875f69561e31585e483474fa585829de333c302551eb13d72fa90",
+      "locator": "CERT_OPEN.md \u00a7\u00a70\u20139",
+      "kind": "manuscript",
+      "origin": "provided",
+      "inspection": "full"
+    },
+    {
+      "id": "E_lm_txt",
+      "root": "input",
+      "path": "papers/lm.txt",
+      "sha256": "8a610d4dffe88e613c9c9ce7f911e17764a93c7d155a0b551f11aade8d76f03b",
+      "locator": "Prop 4.4, 4.6, App A, Rem 2.6, Def 4.2, Ass 4.1",
+      "kind": "literature",
+      "origin": "retrieved",
+      "inspection": "relevant_sections",
+      "source_identity": "Lemm\u2013Mozgunov, Spectral gaps of frustration-free spin systems with boundary, arXiv:1801.08915 (local papers/lm.txt)"
+    },
+    {
+      "id": "E_lm_prime",
+      "root": "input",
+      "path": "open/lm_prime.json",
+      "sha256": "05313cc8072659f5ff295c6f6c0987dceba0fd164b31074aa21bf26cf238c99b",
+      "locator": "F_lo,G_up,bound_lo,CM_finite",
+      "kind": "calculation",
+      "origin": "provided",
+      "inspection": "full"
+    },
+    {
+      "id": "E_float_ed",
+      "root": "input",
+      "path": "open/float_ed_open_3to10.json",
+      "sha256": "02baa7754afda14b04c416d71efa1f824bfd751d50fe7f53815664b407306b10",
+      "locator": "open gaps m=3..10",
+      "kind": "run_log",
+      "origin": "provided",
+      "inspection": "full"
+    },
+    {
+      "id": "E_attack3",
+      "root": "review",
+      "path": "auditor/attack_lm3.log",
+      "sha256": "b6c99061f7792aeab6ca1e27a2aeee4e019bdaf850d37769ad3eafe9720212be",
+      "locator": "LM\u2032 cex + Knabe PSD + bound arith",
+      "kind": "run_log",
+      "origin": "reviewer_generated",
+      "inspection": "full"
+    },
+    {
+      "id": "E_audit_allm",
+      "root": "input",
+      "path": "AUDIT_ALLM.md",
+      "sha256": "34f7442ae629071d69a0cf53108f9fc4fe948cb3fe22b68dc1789230f883a347",
+      "locator": "GM Lemma 4 false operator form",
+      "kind": "other",
+      "origin": "provided",
+      "inspection": "relevant_sections"
+    },
+    {
+      "id": "E_review",
+      "root": "review",
+      "path": "review.md",
+      "sha256": "905f93feff7830c63ef0030d6cad5385e32d507f680c311d26c434040be31273",
+      "locator": "this report",
+      "kind": "other",
+      "origin": "reviewer_generated",
+      "inspection": "full"
+    },
+    {
+      "id": "E_cert_n8",
+      "root": "input",
+      "path": "open/arb/cert_arb_n8_r+1_f+1_t6261_50000.json",
+      "sha256": "68ce8ea51d0c6717476b2f96bd10df69aab805da3bdbd0b2d4ff1a0946470ef7",
+      "locator": "n=8 residual ++ CERTIFIED kb=2",
+      "kind": "run_log",
+      "origin": "provided",
+      "inspection": "full"
+    },
+    {
+      "id": "E_cert_n7",
+      "root": "input",
+      "path": "open/arb/cert_n7_r+1_f-1_t1255_10000.json",
+      "sha256": "6680e8ec8185c4ecc95151d3c7f94c070c5265444e9182bb9d61695c4dfb13b0",
+      "locator": "negctl n=7 t=1255/10000 fails",
+      "kind": "run_log",
+      "origin": "provided",
+      "inspection": "full"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "anchor": "CERT_OPEN \u00a72 Lemma LM\u2032",
+      "statement": "LM\u2032 gap bound under C_M hypothesis for m\u2265n",
+      "load_bearing": true,
+      "depends_on": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "coverage": "checked",
+      "assessment": "supported_in_checked_scope",
+      "methods": [
+        "proof_inspection",
+        "independent_rederivation",
+        "cex_search"
+      ],
+      "checked_obligations": [
+        "wrap-around expansion",
+        "adjacent cancel",
+        "min-weight window bound",
+        "combine on eigenvector"
+      ],
+      "unresolved_obligations": [],
+      "evidence_ids": [
+        "E_cert_open",
+        "E_lm_txt",
+        "E_attack3"
+      ]
+    },
+    {
+      "id": "C2",
+      "anchor": "LM Prop 4.6; CERT_OPEN \u00a72 step 4",
+      "statement": "Prop 4.6 proof needs only m\u2265n, not n\u2264m/2",
+      "load_bearing": true,
+      "depends_on": [],
+      "coverage": "checked",
+      "assessment": "supported_in_checked_scope",
+      "methods": [
+        "literature_proof_inspection",
+        "numerical_prop46"
+      ],
+      "checked_obligations": [
+        "bulk nonempty range",
+        "edge Lemma 4.7 sizes",
+        "Ass 4.1 c0 factor"
+      ],
+      "unresolved_obligations": [],
+      "evidence_ids": [
+        "E_lm_txt",
+        "E_attack3"
+      ]
+    },
+    {
+      "id": "C3",
+      "anchor": "CERT_OPEN \u00a72 steps 2\u20133",
+      "statement": "C_M Knabe expansion and H\u00b2+\u03b2H\u2265\u03b1\u03a3B\u00b2",
+      "load_bearing": true,
+      "depends_on": [],
+      "coverage": "checked",
+      "assessment": "supported_in_checked_scope",
+      "methods": [
+        "coeff_expand",
+        "operator_PSD"
+      ],
+      "checked_obligations": [
+        "C_M coefficients",
+        "adjacent cancel",
+        "PSD under hyp"
+      ],
+      "unresolved_obligations": [],
+      "evidence_ids": [
+        "E_lm_txt",
+        "E_attack3"
+      ]
+    },
+    {
+      "id": "C4",
+      "anchor": "CERT_OPEN \u00a73",
+      "statement": "F_lo G_up bound_lo and C_M for M\u22658",
+      "load_bearing": true,
+      "depends_on": [],
+      "coverage": "checked",
+      "assessment": "supported_in_checked_scope",
+      "methods": [
+        "exact_fraction",
+        "float_CM_sweep"
+      ],
+      "checked_obligations": [
+        "convergent bounds",
+        "bound product",
+        "CM M=8..40"
+      ],
+      "unresolved_obligations": [],
+      "evidence_ids": [
+        "E_lm_prime",
+        "E_attack3"
+      ]
+    },
+    {
+      "id": "C5",
+      "anchor": "CERT_OPEN \u00a74",
+      "statement": "\u03bc=6261/50000 below \u03b3_n for n=2..8; ker dim 9",
+      "load_bearing": true,
+      "depends_on": [],
+      "coverage": "checked",
+      "assessment": "supported_in_checked_scope",
+      "methods": [
+        "cert_json_spotcheck",
+        "negctl"
+      ],
+      "checked_obligations": [
+        "\u03a3kb=3",
+        "CERTIFIED",
+        "negctl direction"
+      ],
+      "unresolved_obligations": [],
+      "evidence_ids": [
+        "E_cert_n8",
+        "E_cert_n7",
+        "E_float_ed"
+      ]
+    },
+    {
+      "id": "C6",
+      "anchor": "CERT_OPEN \u00a70 \u00a76",
+      "statement": "every m\u22652 covered",
+      "load_bearing": true,
+      "depends_on": [
+        "C1",
+        "C5"
+      ],
+      "coverage": "checked",
+      "assessment": "supported_in_checked_scope",
+      "methods": [
+        "case_split_inspection"
+      ],
+      "checked_obligations": [
+        "m=2",
+        "m=3..7 direct",
+        "m\u22658 LM\u2032",
+        "m=7 excluded from LM\u2032"
+      ],
+      "unresolved_obligations": [],
+      "evidence_ids": [
+        "E_cert_open"
+      ]
+    },
+    {
+      "id": "C7",
+      "anchor": "CERT_OPEN header",
+      "statement": "trusted base IEEE not full arb",
+      "load_bearing": false,
+      "depends_on": [],
+      "coverage": "checked",
+      "assessment": "supported_in_checked_scope",
+      "methods": [
+        "wording_check"
+      ],
+      "checked_obligations": [
+        "header honesty"
+      ],
+      "unresolved_obligations": [],
+      "evidence_ids": [
+        "E_cert_open",
+        "E_audit_allm"
+      ]
+    },
+    {
+      "id": "C8",
+      "anchor": "CERT_OPEN \u00a70 corollary",
+      "statement": "open KHH(1) gap corollary",
+      "load_bearing": false,
+      "depends_on": [
+        "C1"
+      ],
+      "coverage": "not_checked",
+      "assessment": "not_assessed",
+      "methods": [],
+      "checked_obligations": [],
+      "unresolved_obligations": [
+        "full corollary audit"
+      ],
+      "evidence_ids": [
+        "E_cert_open"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "claim_id": "C1",
+      "facets": [
+        "RESULT",
+        "METHOD"
+      ],
+      "status": "difference_supported",
+      "evidence_ids": [
+        "E_lm_txt",
+        "E_cert_open"
+      ],
+      "rationale": "LM\u2032 extends Prop 4.4 via C_M to m\u2265n; published LM Rem 2.6 only covers n\u2264m/2 (m\u226516 at n=8).",
+      "independent_search": "not_performed",
+      "limitations": [
+        "No fresh arXiv sweep; comparison to the cited LM paper only"
+      ]
+    },
+    {
+      "claim_id": "C2",
+      "facets": [
+        "MECHANISM",
+        "METHOD"
+      ],
+      "status": "overlap_supported",
+      "evidence_ids": [
+        "E_lm_txt"
+      ],
+      "rationale": "Prop 4.6 proof steps match CERT_OPEN\u2019s reading; statement still prints n\u2264m/2.",
+      "independent_search": "not_performed",
+      "limitations": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "claim_ids": [
+        "C2"
+      ],
+      "anchor": "LM Def 4.2 / Prop 4.6 stated n\u2264m/2",
+      "kind": "exposition",
+      "severity": "minor",
+      "disposition": "confirmed",
+      "assertion": "Published statements carry n\u2264m/2; proof needs only m\u2265n. Recommend explicit Def 4.2 extension sentence.",
+      "evidence_ids": [
+        "E_lm_txt",
+        "E_cert_open"
+      ],
+      "warrant": "Proof text of Prop 4.6 (lm.txt 1075\u20131172) never invokes m/2; bulk needs m\u2265n only.",
+      "impact": "No change to theorem or bound.",
+      "resolution": "optional_wording_edit",
+      "refutes_claim": false,
+      "duplicate_of": null,
+      "countercheck": {
+        "manuscript_search": "complete",
+        "hypothesis_check": "pass",
+        "result": "survives",
+        "evidence_ids": [
+          "E_attack3"
+        ],
+        "rationale": "Numerical Prop 4.6 margins OK for n>m/2 on spin-1"
+      }
+    },
+    {
+      "id": "F2",
+      "claim_ids": [
+        "C1",
+        "C3"
+      ],
+      "anchor": "CERT_OPEN \u00a72 steps 2\u20135 vs AUDIT_ALLM",
+      "kind": "exposition",
+      "severity": "informational",
+      "disposition": "confirmed",
+      "assertion": "LM\u2032 correctly uses C_M wrap-around and min-weight c_0; does not repeat the false GM Lemma 4 operator form.",
+      "evidence_ids": [
+        "E_cert_open",
+        "E_audit_allm",
+        "E_attack3"
+      ],
+      "warrant": "CERT_OPEN \u00a72 step 4 explicit note; PSD and cex tests pass.",
+      "impact": "Positive confirmation.",
+      "resolution": "none",
+      "refutes_claim": false,
+      "duplicate_of": null,
+      "countercheck": {
+        "manuscript_search": "complete",
+        "hypothesis_check": "pass",
+        "result": "survives",
+        "evidence_ids": [
+          "E_attack3"
+        ],
+        "rationale": "0 LM\u2032 violations; Knabe PSD"
+      }
+    },
+    {
+      "id": "F3",
+      "claim_ids": [
+        "C4"
+      ],
+      "anchor": "CERT_OPEN \u00a73",
+      "kind": "numerical",
+      "severity": "informational",
+      "disposition": "confirmed",
+      "assertion": "F_lo, G_up, bound_lo and C_M checks independently confirmed.",
+      "evidence_ids": [
+        "E_lm_prime",
+        "E_attack3"
+      ],
+      "warrant": "Fraction arithmetic and float CM sweep.",
+      "impact": "Bound retained.",
+      "resolution": "none",
+      "refutes_claim": false,
+      "duplicate_of": null,
+      "countercheck": {
+        "manuscript_search": "complete",
+        "hypothesis_check": "pass",
+        "result": "survives",
+        "evidence_ids": [
+          "E_attack3"
+        ],
+        "rationale": "exact match 907760209/740162500000"
+      }
+    },
+    {
+      "id": "F4",
+      "claim_ids": [
+        "C5"
+      ],
+      "anchor": "CERT_OPEN \u00a74",
+      "kind": "numerical",
+      "severity": "informational",
+      "disposition": "confirmed",
+      "assertion": "\u03bc inputs CERTIFIED with \u03a3kb=3; negctl direction correct.",
+      "evidence_ids": [
+        "E_cert_n8",
+        "E_cert_n7",
+        "E_float_ed"
+      ],
+      "warrant": "Spot-check of cert JSON suites.",
+      "impact": "\u03bc load-bearing input OK on IEEE base.",
+      "resolution": "none",
+      "refutes_claim": false,
+      "duplicate_of": null,
+      "countercheck": {
+        "manuscript_search": "complete",
+        "hypothesis_check": "pass",
+        "result": "survives",
+        "evidence_ids": [
+          "E_cert_n7"
+        ],
+        "rationale": "negctl fails as claimed"
+      }
+    },
+    {
+      "id": "F5",
+      "claim_ids": [
+        "C7"
+      ],
+      "anchor": "CERT_OPEN header",
+      "kind": "exposition",
+      "severity": "informational",
+      "disposition": "confirmed",
+      "assertion": "Trusted-base wording already honest (IEEE, not arb).",
+      "evidence_ids": [
+        "E_cert_open",
+        "E_audit_allm"
+      ],
+      "warrant": "Header text vs AUDIT_ALLM Item 5 contrast.",
+      "impact": "No edit required.",
+      "resolution": "none",
+      "refutes_claim": false,
+      "duplicate_of": null,
+      "countercheck": {
+        "manuscript_search": "complete",
+        "hypothesis_check": "not_applicable",
+        "result": "survives",
+        "evidence_ids": [
+          "E_cert_open"
+        ],
+        "rationale": "wording OK"
+      }
+    },
+    {
+      "id": "F6",
+      "claim_ids": [
+        "C6"
+      ],
+      "anchor": "CERT_OPEN \u00a70 \u00a76",
+      "kind": "exposition",
+      "severity": "informational",
+      "disposition": "confirmed",
+      "assertion": "All m\u22652 covered; m=7 correctly excluded from LM\u2032.",
+      "evidence_ids": [
+        "E_cert_open"
+      ],
+      "warrant": "Case split inspection.",
+      "impact": "Coverage claim stands.",
+      "resolution": "none",
+      "refutes_claim": false,
+      "duplicate_of": null,
+      "countercheck": {
+        "manuscript_search": "complete",
+        "hypothesis_check": "pass",
+        "result": "survives",
+        "evidence_ids": [
+          "E_cert_open"
+        ],
+        "rationale": "m\u2212n+1=0 at m=7 n=8"
+      }
+    },
+    {
+      "id": "F7",
+      "claim_ids": [
+        "C5"
+      ],
+      "anchor": "open/arb n=6 residual",
+      "kind": "exposition",
+      "severity": "informational",
+      "disposition": "confirmed",
+      "assertion": "Only two n=6 residual files in open/arb; full Higham suite is in cert_t0/. Non-blocking clarity nit.",
+      "evidence_ids": [
+        "E_cert_open"
+      ],
+      "warrant": "Directory listing.",
+      "impact": "None on theorem if CERT_T0 citation kept.",
+      "resolution": "optional_wording_edit",
+      "refutes_claim": false,
+      "duplicate_of": null,
+      "countercheck": {
+        "manuscript_search": "complete",
+        "hypothesis_check": "pass",
+        "result": "survives",
+        "evidence_ids": [
+          "E_cert_open"
+        ],
+        "rationale": "CERT_OPEN cites CERT_T0 for n=6"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "no_blocker_found_in_checked_scope",
+    "coverage": "complete",
+    "rationale": "FOCUSED obligations on LM\u2032 wrap-around, Prop 4.6 extension, F/G/\u03bc, all-m coverage, and trusted-base wording were checked. No load-bearing mathematical error. Bound and coverage survive. Minor exposition nits only.",
+    "limitations": [
+      "KHH corollary not audited",
+      "cex host primarily spin-1 open chains through m=7"
+    ],
+    "recommendation": "Accept T_OPEN / LM\u2032 at stated bound on IEEE base. Optional F1/F7 wording edits before sync and new PR. Do not change the bound."
+  },
+  "report": {
+    "path": "review.md",
+    "sha256": "905f93feff7830c63ef0030d6cad5385e32d507f680c311d26c434040be31273"
+  },
+  "review_selfcheck": {
+    "findings_audited": true,
+    "coverage_audited": true,
+    "report_record_agreement": true,
+    "evidence_ids": [
+      "E_review"
+    ],
+    "limitations": [
+      "Self-check by same reviewer session; no second independent adjudicator"
+    ]
+  }
+}

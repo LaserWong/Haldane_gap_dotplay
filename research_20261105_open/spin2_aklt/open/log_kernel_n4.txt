@@ -1,0 +1,19 @@
+{
+ "a2|b2": {
+  "nnz": 27,
+  "annihilated_by_all_bonds": true,
+  "maxabs": 8
+ },
+ "ab|ab": {
+  "nnz": 27,
+  "annihilated_by_all_bonds": true,
+  "maxabs": 8
+ },
+ "b2|a2": {
+  "nnz": 27,
+  "annihilated_by_all_bonds": true,
+  "maxabs": 8
+ },
+ "exact_rank": 3
+}
+PROVED: dim ker(H_n) cap {Sz=0} >= 3 for n = 4

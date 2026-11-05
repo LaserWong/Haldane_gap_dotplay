@@ -1,0 +1,414 @@
+boot
+spin1 m=2 gap=1.00000000 ker=4
+spin1 m=3 gap=0.50000000 ker=4
+spin1 m=4 gap=0.44895587 ker=4
+spin1 m=5 gap=0.41323981 ker=4
+spin1 m=6 gap=0.39845123 ker=4
+spin1 m=7 gap=0.38659526 ker=4
+=== LM' bound spin-1 ===
+n=4 m=4 eq: bound=0.173434 gap=0.448956 OK n>m/2=True CMok
+n=4 m=5 eq: bound=0.173434 gap=0.413240 OK n>m/2=True CMok
+n=4 m=6 eq: bound=0.173434 gap=0.398451 OK n>m/2=True CMok
+n=4 m=7 eq: bound=0.173434 gap=0.386595 OK n>m/2=True CMok
+n=4 m=4 sym: bound=0.107115 gap=0.448956 OK n>m/2=True CMok
+n=4 m=5 sym: bound=0.107115 gap=0.413240 OK n>m/2=True CMok
+n=4 m=6 sym: bound=0.107115 gap=0.398451 OK n>m/2=True CMok
+n=4 m=7 sym: bound=0.107115 gap=0.386595 OK n>m/2=True CMok
+n=4 ramp vacuous mu=0.44896 G=0.47949 F=1.15385
+n=4 m=4 edgeheavy: bound=0.197216 gap=0.448956 OK n>m/2=True CMok
+n=4 m=5 edgeheavy: bound=0.197216 gap=0.413240 OK n>m/2=True CMok
+n=4 m=6 edgeheavy: bound=0.197216 gap=0.398451 OK n>m/2=True CMok
+n=4 m=7 edgeheavy: bound=0.197216 gap=0.386595 OK n>m/2=True CMok
+n=5 m=5 eq: bound=0.217653 gap=0.413240 OK n>m/2=True CMok
+n=5 m=6 eq: bound=0.217653 gap=0.398451 OK n>m/2=True CMok
+n=5 m=7 eq: bound=0.217653 gap=0.386595 OK n>m/2=True CMok
+n=5 m=5 sym: bound=0.155466 gap=0.413240 OK n>m/2=True CMok
+n=5 m=6 sym: bound=0.155466 gap=0.398451 OK n>m/2=True CMok
+n=5 m=7 sym: bound=0.155466 gap=0.386595 OK n>m/2=True CMok
+n=5 ramp vacuous mu=0.41324 G=0.42069 F=0.90343
+n=5 m=5 edgeheavy: bound=0.283100 gap=0.413240 OK n>m/2=True CMok
+n=5 m=6 edgeheavy: bound=0.283100 gap=0.398451 OK n>m/2=True CMok
+n=5 m=7 edgeheavy: bound=0.283100 gap=0.386595 OK n>m/2=True CMok
+n=6 m=6 eq: bound=0.248064 gap=0.398451 OK n>m/2=True CMok
+n=6 m=7 eq: bound=0.248064 gap=0.386595 OK n>m/2=True CMok
+n=6 m=6 sym: bound=0.143240 gap=0.398451 OK n>m/2=True CMok
+n=6 m=7 sym: bound=0.143240 gap=0.386595 OK n>m/2=True CMok
+n=6 m=6 ramp: bound=0.008265 gap=0.398451 OK n>m/2=True CMok
+n=6 m=7 ramp: bound=0.008265 gap=0.386595 OK n>m/2=True CMok
+n=6 m=6 edgeheavy: bound=0.356283 gap=0.398451 OK n>m/2=True CMok
+n=6 m=7 edgeheavy: bound=0.356283 gap=0.386595 OK n>m/2=True CMok
+VIOLATIONS []
+=== Knabe op ineq spin-1 ===
+m=4 sym CMok=True λmin=-1.4142e-15 PSD α=0.4167 β=0.4333
+m=4 eq CMok=True λmin=-1.1296e-15 PSD α=0.5000 β=0.5000
+m=4 ramp CMok=True λmin=-1.6636e-15 PSD α=0.3472 β=0.5278
+m=5 sym CMok=True λmin=-2.1369e-15 PSD α=0.4167 β=0.4333
+m=5 eq CMok=True λmin=-1.7983e-15 PSD α=0.5000 β=0.5000
+m=5 ramp CMok=True λmin=-1.9263e-15 PSD α=0.3472 β=0.5278
+m=6 sym CMok=True λmin=-3.1386e-15 PSD α=0.4167 β=0.4333
+m=6 eq CMok=True λmin=-3.3987e-15 PSD α=0.5000 β=0.5000
+m=6 ramp CMok=True λmin=-3.5172e-15 PSD α=0.3472 β=0.5278
+m=7 sym CMok=True λmin=-6.8100e-15 PSD α=0.4167 β=0.4333
+m=7 eq CMok=True λmin=-6.5670e-15 PSD α=0.5000 β=0.5000
+m=7 ramp CMok=True λmin=-6.5135e-15 PSD α=0.3472 β=0.5278
+=== c0 = min vs endpoint ===
+FG with c0=cs[0] (0.5625, 0.3333333333333333)
+FG with c0=cs[0] (larger) (2.0625, 0.3333333333333333)
+FG with c0=min 0.5625 0.3333333333333333
+=== author float_ed ===
+[
+ {
+  "n": 3,
+  "eps": 0.1605034235923268,
+  "dimSz0": 19,
+  "zero_modes_Sz0": 3,
+  "levels": [
+   0.0,
+   0.0,
+   0.0,
+   0.1605034236,
+   0.4748333852,
+   0.7142857143,
+   0.8,
+   0.931931995,
+   0.9891190994,
+   1.0108809006,
+   1.068068005,
+   1.2
+  ]
+ },
+ {
+  "n": 4,
+  "eps": 0.1495624567773204,
+  "dimSz0": 85,
+  "zero_modes_Sz0": 3,
+  "levels": [
+   -0.0,
+   0.0,
+   0.0,
+   0.1495624568,
+   0.1505554873,
+   0.1822987215,
+   0.2217873358,
+   0.3639955486,
+   0.5093926158,
+   0.6046788583,
+   0.6577748863,
+   0.7201060023
+  ]
+ },
+ {
+  "n": 5,
+  "eps": 0.13393094513974865,
+  "dimSz0": 381,
+  "zero_modes_Sz0": 3,
+  "levels": [
+   -0.0,
+   0.0,
+   0.0,
+   0.1339309451,
+   0.1673274952,
+   0.1747281021,
+   0.1752909816,
+   0.1786426374,
+   0.2504660661,
+   0.2652605543,
+   0.2880876536,
+   0.3518610481
+  ]
+ },
+ {
+  "n": 6,
+  "eps": 0.134497985911813,
+  "dimSz0": 1751,
+  "zero_modes_Sz0": 3,
+  "levels": [
+   -0.0,
+   0.0,
+   0.0,
+   0.1344979859,
+   0.1348451083,
+   0.1392152948,
+   0.1501705915,
+   0.1776058122,
+   0.1784702933,
+   0.1837390052,
+   0.2232835817,
+   0.2544327338
+  ]
+ },
+ {
+  "n": 7,
+  "eps": 0.125414379308523,
+  "dimSz0": 8135,
+  "zero_modes_Sz0": 3,
+  "levels": [
+   -0.0,
+   0.0,
+   0.0,
+   0.1254143793,
+   0.1386003464,
+   0.1386940844,
+   0.1406811941,
+   0.1435623062,
+   0.1623794979,
+   0.1756452826
+  ]
+ },
+ {
+  "n": 8,
+  "eps": 0.12522964947282442,
+  "dimSz0": 38165,
+  "zero_modes_Sz0": 3,
+  "levels": [
+   0.0,
+   0.0,
+   0.0,
+   0.1252296495,
+   0.1258503995,
+   0.1263758336,
+   0.1316066369,
+   0.143499065,
+   0.1437621943,
+   0.1468020353
+  ]
+ },
+ {
+  "n": 9,
+  "eps": 0.12006529231492356,
+  "dimSz0": 180325,
+  "zero_modes_Sz0": 3,
+  "levels": [
+   -0.0,
+   -0.0,
+   0.0,
+   0.1200652923,
+   0.1250738447,
+   0.1254767212,
+   0.1271665281,
+   0.1306777129,
+   0.1365516236,
+   0.1419019761
+  ]
+ },
+ {
+  "n": 10,
+  "eps": 0.11882507115863,
+  "dimSz0": 856945,
+  "zero_modes_Sz0": 3,
+  "levels": [
+   -0.0,
+   0.0,
+   0.0,
+   0.1188250712,
+   0.1202
+=== bound arithmetic ===
+bound 907760209/740162500000 0.0012264336669312482 match True
+F_lo 157497/192250 0.8192301690507152
+G_up 1429/11550 0.12372294372294372
+mu-G 17291/11550000 0.001497056277056277
+=== author C_M for M=9..40 ===
+lm_prime keys ['n', 'xn', 'F_exact', 'G_exact', 'F_lo', 'G_up', 'mu', 'bound_lo', 'bound_lo_float', 'autocorrelation', 'CM_finite', 'CM_covers_all_M_ge', 'criterion_covers_m_ge', 'published_LM_covers_m_ge', 'LM_prime_covers_m_ge']
+{
+ "n": 8,
+ "xn": "-16*sqrt(2)/5 + 32*sqrt(42)/35",
+ "F_exact": "49/250 + 17*sqrt(21)/125",
+ "G_exact": "-2/5 + 4*sqrt(21)/35",
+ "F_lo": "157497/192250",
+ "G_up": "1429/11550",
+ "mu": "6261/50000",
+ "bound_lo": "907760209/740162500000",
+ "bound_lo_float": 0.0012264336669312482,
+ "autocorrelation": [
+  {
+   "x": 1,
+   "ok": true,
+   "witness": "a^2-21b^2=195821568/35"
+  },
+  {
+   "x": 2,
+   "ok": true,
+   "witness": "a^2-21b^2=6857949184/1225"
+  },
+  {
+   "x": 3,
+   "ok": true,
+   "witness": "a^2-21b^2=659554304/245"
+  },
+  {
+   "x": 4,
+   "ok": true,
+   "witness": "a=9216/35>=0, b=6144/35>=0"
+  },
+  {
+   "x": 5,
+   "ok": true,
+   "witness": "21b^2-a^2=10747904/7"
+  }
+ ],
+ "CM_finite": [
+  {
+   "M": 8,
+   "e": 2,
+   "a": "14336/5",
+   "b": "18432/35",
+   "a2_minus_21b2": "16777216/7",
+   "ok": true
+  },
+  {
+   "M": 8,
+   "e": 3,
+   "a": "1114112/175",
+   "b": "212992/175",
+   "a2_minus_21b2": "11542724608/1225",
+   "ok": true
+  },
+  {
+   "M": 8,
+   "e": 4,
+   "a": "1370112/175",
+   "b": "264192/175",
+   "a2_minus_21b2": "16458448896/1225",
+   "ok": true
+  },
+  {
+   "M": 9,
+   "e": 2,
+   "a": "16896/5",
+   "b": "18432/35",
+   "a2_minus_21b2": "195821568/35",
+   "ok": true
+  },
+  {
+   "M": 9,
+   "e": 3,
+   "a": "1024512/175",
+   "b": "161792/175",
+   "a2_minus_21b2": "19996606464/1225",
+   "ok": true
+  },
+  {
+   "M": 9,
+   "e": 4,
+   "a": "1416192/175",
+   "b": "233472/175",
+   "a2_minus_21b2": "34436284416/1225",
+   "ok": true
+  },
+  {
+   "M": 10,
+   "e": 2,
+   "a": "16896/5",
+   "b": "18432/35",
+   "a2_minus_21b2": "195821568/35",
+   "ok": true
+  },
+  {
+   "M": 10,
+   "e": 3,
+   "a": "1114112/175",
+   "b": "161792/175",
+   "a2_minus_21b2": "5532286976/245",
+   "ok": true
+  },
+  {
+   "M": 10,
+   "e": 4,
+   "a": "1326592/175",
+   "b": "182272/175",
+   "a2_minus_21b2": "42486464512/1225",
+   "ok": true
+  },
+  {
+   "M": 10,
+   "e": 5,
+   "a": "208896/25",
+   "b": "202752/175",
+   "a2_minus_21b2": "7285506048/175",
+   "ok": true
+  },
+  {
+   "M": 11,
+   "e": 2,
+   "a": "16896/5",
+   "b": "18432/35",
+   "a2_minus_21b2": "195821568/35",
+   "ok": true
+  },
+  {
+   "M": 11,
+   "e": 3,
+   "a": "1114112/175",
+   "b": "161792/175",
+   "a2_minus_21b2": "5532286976/245",
+   "ok": true
+  },
+  {
+   "M": 11,
+   "e": 4,
+   "a": "1416192/175",
+   "b": "182272/175",
+   "a2_minus_21b2": "52316602368/1225",
+   "ok": true
+  },
+  {
+   "M": 11,
+   "e": 5,
+   "a": "196096/25",
+   "b": "151552/175",
+   "a2_minus_21b2": "8010858496/175",
+   "ok": true
+  },
+  {
+   "M": 12,
+   "e": 2,
+   
+=== cert spot ===
+arb listing ['cert_arb_n3_r+1_f+1_t6261_50000.json', 'cert_arb_n4_r+1_f+1_t6261_50000.json', 'cert_arb_n5_r+1_f+1_t6261_50000.json', 'cert_arb_n6_r+1_f+1_t134_1000.json', 'cert_arb_n6_r-1_f-1_t134_1000.json', 'cert_arb_n7_r+1_f+1_t6261_50000.json', 'cert_arb_n7_r+1_f-1_t6261_50000.json', 'cert_arb_n7_r-1_f+1_t6261_50000.json', 'cert_arb_n7_r-1_f-1_t6261_50000.json', 'cert_arb_n8_r+1_f+1_t6261_50000.json', 'cert_arb_n8_r+1_f-1_t6261_50000.json', 'cert_arb_n8_r-1_f+1_t6261_50000.json', 'cert_arb_n8_r-1_f-1_t6261_50000.json', 'cert_n3_r+1_f+1_t1605_10000.json', 'cert_n3_r+1_f+1_t16_100.json', 'cert_n3_r+1_f+1_t6261_50000.json', 'cert_n3_r+1_f-1_t1605_10000.json', 'cert_n3_r+1_f-1_t16_100.json', 'cert_n3_r+1_f-1_t6261_50000.json', 'cert_n3_r-1_f+1_t1605_10000.json', 'cert_n3_r-1_f+1_t16_100.json', 'cert_n3_r-1_f+1_t6261_50000.json', 'cert_n3_r-1_f-1_t1605_10000.json', 'cert_n3_r-1_f-1_t16_100.json', 'cert_n3_r-1_f-1_t6261_50000.json', 'cert_n4_r+1_f+1_t1495_10000.json', 'cert_n4_r+1_f+1_t6261_50000.json', 'cert_n4_r+1_f-1_t1495_10000.json', 'cert_n4_r+1_f-1_t6261_50000.json', 'cert_n4_r-1_f+1_t1495_10000.json']
+cert_n7_*_t6261_50000.json 4 ['/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_n7_r+1_f+1_t6261_50000.json', '/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_n7_r+1_f-1_t6261_50000.json', '/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_n7_r-1_f+1_t6261_50000.json']
+cert_n8_*_t6261_50000.json 0 []
+cert_n3_*_t6261_50000.json 4 ['/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_n3_r+1_f+1_t6261_50000.json', '/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_n3_r+1_f-1_t6261_50000.json', '/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_n3_r-1_f+1_t6261_50000.json']
+cert_arb_n7_*_t6261_50000.json 4 ['/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_arb_n7_r+1_f+1_t6261_50000.json', '/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_arb_n7_r+1_f-1_t6261_50000.json', '/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_arb_n7_r-1_f+1_t6261_50000.json']
+*n7*t6261* 12 ['/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_arb_n7_r+1_f+1_t6261_50000.json', '/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_arb_n7_r+1_f-1_t6261_50000.json', '/workspace/haldane_chat_bundle/runs/spin2_aklt/open/arb/cert_arb_n7_r-1_f+1_t6261_50000.json']
+all open json count 66
+  arb/cert_arb_n3_r+1_f+1_t6261_50000.json
+  arb/cert_arb_n4_r+1_f+1_t6261_50000.json
+  arb/cert_arb_n5_r+1_f+1_t6261_50000.json
+  arb/cert_arb_n6_r+1_f+1_t134_1000.json
+  arb/cert_arb_n6_r-1_f-1_t134_1000.json
+  arb/cert_arb_n7_r+1_f+1_t6261_50000.json
+  arb/cert_arb_n7_r+1_f-1_t6261_50000.json
+  arb/cert_arb_n7_r-1_f+1_t6261_50000.json
+  arb/cert_arb_n7_r-1_f-1_t6261_50000.json
+  arb/cert_arb_n8_r+1_f+1_t6261_50000.json
+  arb/cert_arb_n8_r+1_f-1_t6261_50000.json
+  arb/cert_arb_n8_r-1_f+1_t6261_50000.json
+  arb/cert_arb_n8_r-1_f-1_t6261_50000.json
+  arb/cert_n3_r+1_f+1_t1605_10000.json
+  arb/cert_n3_r+1_f+1_t16_100.json
+  arb/cert_n3_r+1_f+1_t6261_50000.json
+  arb/cert_n3_r+1_f-1_t1605_10000.json
+  arb/cert_n3_r+1_f-1_t16_100.json
+  arb/cert_n3_r+1_f-1_t6261_50000.json
+  arb/cert_n3_r-1_f+1_t1605_10000.json
+  arb/cert_n3_r-1_f+1_t16_100.json
+  arb/cert_n3_r-1_f+1_t6261_50000.json
+  arb/cert_n3_r-1_f-1_t1605_10000.json
+  arb/cert_n3_r-1_f-1_t16_100.json
+  arb/cert_n3_r-1_f-1_t6261_50000.json
+  arb/cert_n4_r+1_f+1_t1495_10000.json
+  arb/cert_n4_r+1_f+1_t6261_50000.json
+  arb/cert_n4_r+1_f-1_t1495_10000.json
+  arb/cert_n4_r+1_f-1_t6261_50000.json
+  arb/cert_n4_r-1_f+1_t1495_10000.json
+  arb/cert_n4_r-1_f+1_t6261_50000.json
+  arb/cert_n4_r-1_f-1_t1495_10000.json
+  arb/cert_n4_r-1_f-1_t6261_50000.json
+  arb/cert_n5_r+1_f+1_t1339_10000.json
+  arb/cert_n5_r+1_f+1_t6261_50000.json
+  arb/cert_n5_r+1_f-1_t1339_10000.json
+  arb/cert_n5_r+1_f-1_t6261_50000.json
+  arb/cert_n5_r-1_f+1_t1339_10000.json
+  arb/cert_n5_r-1_f+1_t6261_50000.json
+  arb/cert_n5_r-1_f-1_t1339_10000.json
+DONE
