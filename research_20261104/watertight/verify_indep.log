@@ -1,0 +1,5 @@
+L 8 n_enc 2404 dim 6561 exact TrH^j (0, 69984, -34992) enclosed ['[+/- 4.05e-5]', '[69984.000 +/- 2.22e-4]', '[-34992.00 +/- 1.39e-3]'] contain [True, True, True, True, True]
+L 12 n_enc 176571 dim 531441 exact TrH^j (0, 8503056, -4251528) enclosed ['[+/- 0.160]', '[8.50306e+6 +/- 5.08]', '[-4.2515e+6 +/- 36.4]'] contain [True, True, True, True, True]
+(1) Z12(49/4) <= [1.90055706747398 +/- 8.78e-16]  (old cert 1.90055706558595)
+(2) sup over b in [0,80] <= [0.099979201 +/- 3.35e-10] at [71/16,9/2], 360 intervals; tail slope c=-0.359375, f(b>=80) <= [1.406e-5 +/- 3.76e-10]
+    => sup_{b>0} W8-bound <= [0.099979201 +/- 3.35e-10] < 1/2  (old cert 0.100397)  time 4s

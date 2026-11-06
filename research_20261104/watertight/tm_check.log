@@ -1,0 +1,18 @@
+Cartesian basis: [S_a,S_b]=i eps S_c, S^2=2, S=iA with A real antisym: OK; ||A_a||_op = [np.float64(1.0), np.float64(1.0), np.float64(1.0)]
+
+(1) discretised X_M: Tr X_M^L vs Z_L(beta=0.5) (unshifted; H = sum S.S so -H = sum A(x)A)
+2 ED 17.383298790164996  TrX^L: M=2:13.582031 M=3:14.472013 M=4:15.023896 M=5:15.399361  min eig -1.055e+00
+3 ED 40.508136647508465  TrX^L: M=2:31.182678 M=3:33.838598 M=4:35.294379 M=5:36.222494  min eig -1.055e+00
+4 ED 163.48423995067037  TrX^L: M=2:113.919594 M=3:126.834261 M=4:134.322690 M=5:139.246393  min eig -1.055e+00
+5 ED 557.8566937287845  TrX^L: M=2:356.963464 M=3:408.420778 M=4:438.551361 M=5:458.478376  min eig -1.055e+00
+
+(2) Monte Carlo of the continuum representation, beta=0.5, 4e5 samples
+2 ED 17.3833 MC 17.23726 +- 0.06822 z-score -2.14
+3 ED 40.50814 MC 40.57185 +- 0.45713 z-score 0.14
+4 ED 163.48424 MC 157.72049 +- 2.94319 z-score -1.96
+
+(1b) Richardson extrapolation of Tr X_M^L in h=1/M (cubic fit through M=2..5)
+2 extrap 17.318 ED 17.383 rel.err -3.75e-03
+3 extrap 40.459 ED 40.508 rel.err -1.20e-03
+4 extrap 163.01 ED 163.484 rel.err -2.90e-03
+5 extrap 555.718 ED 557.857 rel.err -3.83e-03
