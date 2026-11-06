@@ -1,0 +1,29 @@
+{
+  "status": "ACCEPTED exact scalar chains with freshly rebuilt physical anchors and locally reproduced thermal inputs",
+  "rows": [
+    {
+      "n": 32,
+      "gap": "49/2000",
+      "asymptotic_from": 16384
+    },
+    {
+      "n": 30,
+      "gap": "179/10000",
+      "asymptotic_from": 30720
+    },
+    {
+      "n": 34,
+      "gap": "63033/2500000",
+      "asymptotic_from": 2228224
+    }
+  ],
+  "resources": {
+    "CPU_seconds": 353.365966841,
+    "RSS_KiB": 29432,
+    "CPU_affinity": 4
+  }
+}
+
+real	7m32.822s
+user	5m53.319s
+sys	0m0.103s

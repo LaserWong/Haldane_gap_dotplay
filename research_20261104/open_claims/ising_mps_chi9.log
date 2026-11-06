@@ -1,0 +1,13 @@
+bonds=ring           truncate=step        : chi=6,9,16 -> ['1.4920200', '1.7087557', '1.9313050']
+bonds=ring           truncate=after_zz    : chi=6,9,16 -> ['1.4798537', '1.7073323', '1.9313050']
+bonds=ring           truncate=after_field1: chi=6,9,16 -> ['1.4920200', '1.7108144', '1.9313050']
+bonds=ring           truncate=end         : chi=6,9,16 -> ['1.5258020', '1.7347188', '1.9313050']
+bonds=periodic_first truncate=step        : chi=6,9,16 -> ['1.4920200', '1.7076912', '1.9313050']
+bonds=periodic_first truncate=after_zz    : chi=6,9,16 -> ['1.4798537', '1.7073323', '1.9313050']
+bonds=periodic_first truncate=after_field1: chi=6,9,16 -> ['1.4920200', '1.7125533', '1.9313050']
+bonds=periodic_first truncate=end         : chi=6,9,16 -> ['1.5258020', '1.7347188', '1.9313050']
+bonds=even_odd       truncate=step        : chi=6,9,16 -> ['1.4920200', '1.7112306', '1.9313050']
+bonds=even_odd       truncate=after_zz    : chi=6,9,16 -> ['1.4798537', '1.7073323', '1.9313050']
+bonds=even_odd       truncate=after_field1: chi=6,9,16 -> ['1.4920200', '1.7040950', '1.9313050']
+bonds=even_odd       truncate=end         : chi=6,9,16 -> ['1.5258020', '1.7347188', '1.9313050']
+claimed: 1.492020 1.714857 1.931304

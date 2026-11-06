@@ -1,0 +1,43 @@
+wrote certificate_full_W15.json ell 9999977627/10000000000 closure factor 0.9940352135770729 from 557056
+{
+  "status": "ACCEPTED exact scalar chains with freshly rebuilt physical anchors and locally reproduced thermal inputs",
+  "rows": [
+    {
+      "n": 32,
+      "gap": "49/2000",
+      "asymptotic_from": 16384
+    },
+    {
+      "n": 30,
+      "gap": "179/10000",
+      "asymptotic_from": 30720
+    },
+    {
+      "n": 34,
+      "gap": "126049/5000000",
+      "asymptotic_from": 557056
+    }
+  ],
+  "resources": {
+    "CPU_seconds": 29.255757462000002,
+    "RSS_KiB": 24944,
+    "CPU_affinity": 4
+  }
+}
+ok full_W15
+{
+  "status": "ACCEPTED stronger uniform all-size gap",
+  "gap": "126049/5000000",
+  "all_integer_L_at_least": 2,
+  "bootstrap_initialization_used_for_this_stronger_gap": 34,
+  "resources": {
+    "scalar_CPU_seconds": 3.244345448,
+    "scalar_RSS_KiB": 21444,
+    "CPU_affinity": 7
+  }
+}
+{"mode":"FULL","tag":"full_W15","gap":"126049/5000000","W":15,"digits":3016,"scalar_wall_s":78,"allsizes_wall_s":3}
+
+real	1m20.927s
+user	1m20.770s
+sys	0m0.123s

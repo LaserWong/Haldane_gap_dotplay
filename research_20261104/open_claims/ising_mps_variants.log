@@ -1,0 +1,8 @@
+split_bond_2nd  trunc_each_gate=False: chi=6,9,16 -> ['1.494139', '1.726473', '1.962222']
+strang_field    trunc_each_gate=False: chi=6,9,16 -> ['1.492020', '1.708756', '1.931305']
+strang_field    trunc_each_gate=True: chi=6,9,16 -> ['1.482698', '1.709742', '1.931305']
+strang_zz       trunc_each_gate=False: chi=6,9,16 -> ['1.487397', '1.694920', '1.902267']
+strang_zz       trunc_each_gate=True: chi=6,9,16 -> ['1.478492', '1.693918', '1.902267']
+first_split     trunc_each_gate=False: chi=6,9,16 -> [None, None, None]
+first_split     trunc_each_gate=True: chi=6,9,16 -> [None, None, None]
+claimed                       : chi=6,9,16 -> 1.492020 1.714857 1.931304 ; ideal 1.973380
