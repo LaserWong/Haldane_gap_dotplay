@@ -1,0 +1,42 @@
+I_L10_sz0_q10 891 exact maxerr 2.61e-12 cert 2.3s
+I_L10_sz0_q0 902 exact maxerr 2.74e-12 cert 2.4s
+P_L10_sz0_q0 902 exact maxerr 2.55e-12 cert 2.4s
+Traceback (most recent call last):
+  File "/workspace/haldane_chat_bundle/runs/thermal_arb/run.py", line 32, in <module>
+    m, ent, Hf, real = block(L, q, sd); t2 = time.time()
+                       ~~~~~^^^^^^^^^^
+  File "/workspace/haldane_chat_bundle/runs/thermal_arb/blocks.py", line 114, in block
+    w = ent.get((j, i)); assert w is not None and (v - w.conjugate()).contains(0), 'non-Hermitian block'
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: non-Hermitian block
+Traceback (most recent call last):
+  File "/workspace/haldane_chat_bundle/runs/thermal_arb/run.py", line 32, in <module>
+    m, ent, Hf, real = block(L, q, sd); t2 = time.time()
+                       ~~~~~^^^^^^^^^^
+  File "/workspace/haldane_chat_bundle/runs/thermal_arb/blocks.py", line 114, in block
+    w = ent.get((j, i)); assert w is not None and (v - w.conjugate()).contains(0), 'non-Hermitian block'
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: non-Hermitian block
+I_L10_sz0_q6 890 exact maxerr 3.33e-12 cert 6.5s
+I_L10_sz0_q8 900 exact maxerr 3.36e-12 cert 6.5s
+P_L10_sz0_q6 890 exact maxerr 3.22e-12 cert 6.4s
+P_L9_sz3_q5 172 exact maxerr 7.64e-13 cert 0.1s
+I_L10_sz5_q2 145 exact maxerr 7.12e-13 cert 0.1s
+I_L10_sz5_q6 145 exact maxerr 7.11e-13 cert 0.1s
+P_L7_sz1_q1 51 exact maxerr 2.11e-13 cert 0.0s
+Traceback (most recent call last):
+  File "/workspace/haldane_chat_bundle/runs/thermal_arb/run.py", line 32, in <module>
+    m, ent, Hf, real = block(L, q, sd); t2 = time.time()
+                       ~~~~~^^^^^^^^^^
+  File "/workspace/haldane_chat_bundle/runs/thermal_arb/blocks.py", line 114, in block
+    w = ent.get((j, i)); assert w is not None and (v - w.conjugate()).contains(0), 'non-Hermitian block'
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: non-Hermitian block
+Traceback (most recent call last):
+  File "/workspace/haldane_chat_bundle/runs/thermal_arb/run.py", line 32, in <module>
+    m, ent, Hf, real = block(L, q, sd); t2 = time.time()
+                       ~~~~~^^^^^^^^^^
+  File "/workspace/haldane_chat_bundle/runs/thermal_arb/blocks.py", line 114, in block
+    w = ent.get((j, i)); assert w is not None and (v - w.conjugate()).contains(0), 'non-Hermitian block'
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: non-Hermitian block
