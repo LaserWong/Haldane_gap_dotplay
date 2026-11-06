@@ -1,0 +1,30 @@
+CERTIFICATE (ball/interval arithmetic, python-flint 0.9.0 arb + exact integer products)  -- 2026-11-04 CST
+Run: enclose8.py (74 s), enclose12.py (~91 min, 1 CPU), enclose12_fix.py (4 blocks), verify.py (5.4 s). Output: verify_output.txt
+
+RESULTS
+ (1) Z12(49/4) <= 1.90055706558595   vs claim 1.900577  -> TRUE, margin >= 1.993e-5
+ (2) sup_{b>=0} Z12(2b)^(4/3)/Z8(b)^4 <= 0.100397  (b in [0,64]: 2142 arb b-intervals, adaptive to width<=1/2000;
+     tail b>=64: ln f <= (4/3)ln 3^12 + b c, c = -(8/3)x0+4y0 <= -0.3533 < 0, f(64) <= 0.0065)
+ Checks: 176571 L12 enclosures, total multiplicity 531441 = 3^12; 6561 L8 enclosures = 3^8;
+         sum Tr = 0 (ball contains 0), sum ||H_k||_F^2 contains 8503056 = Tr H^2; no nan/inf in any sector.
+
+METHOD
+ Each (Sz,k) block H built with exact ball entries exp(-2 pi i k s/L) sqrt(p_r/p_c) (arb). LAPACK eigh gives trial
+ V, Lambda only (untrusted). Vt = round(V 2^38)/2^38, Lt = round(Lambda 2^30)/2^30, Hs = round(H 2^30)/2^30.
+ ||Vt*Vt-I||_F and ||Hs Vt - Vt Lt||_F computed EXACTLY (integer limbs in float64 BLAS, every partial sum < 2^53,
+ int64 recombination, Python-int sums of squares); ||H-Hs||_F in arb. Theorem: eta>=||Vt*Vt-I||<1,
+ r>=||H Vt - Vt Lt|| => ||H - Vt Lt Vt*|| <= ||H|| eta + r sqrt(1+eta) = delta (||H||<=24 / 16);
+ Ostrowski + Weyl => |mu_i - Lt_i| <= eta|Lt_i| + delta, exactly m enclosures per block. Max radius 6.0e-7.
+ Symmetry: blocks k and L-k are exact entrywise complex conjugates (same reps, conjugated phases) => identical
+ spectra; only k=0..6 computed, k=1..5 counted twice; k=0,6 exactly real. Sz and -Sz by spin flip (mult x2).
+ Sz=+-12: E=12 exactly. Z and f bounds: exp of arb balls with b as a ball covering [b1,b2]; energies binned
+ outward (width 1/200, each bin edge checked in arb).
+
+FIX DURING RUN: flint's `x**2` on a ball straddling 0 returns nan; this hit ||H-Hs||_F in 4 tiny/exact blocks
+ (11,2 11,4 10,6 2,6). Replaced by x*x; those blocks recomputed into fix12.json (verifier overrides + checks finiteness).
+
+REMAINING ASSUMPTIONS (not machine-checked)
+ - Correctness of the sector/Bloch-basis construction code (supported by exact dim, trace and Tr H^2 checks).
+ - Conjugation/spin-flip multiplicity argument (mathematical, stated above).
+ - BLAS exactness assumes IEEE double with no Strassen/fast-math (selftest.py verifies vs Python ints).
+ - Correctness of python-flint/arb itself.

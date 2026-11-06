@@ -1,0 +1,15 @@
+overriding blocks from fix12.json: ['10,6', '11,2', '11,4', '2,6']
+L12 enclosures: 176571 distinct, total multiplicity 531441 (3^12 = 531441 )
+  sum_blocks Tr H_k = [+/- 1.54e-10] (exact Tr H = 0)  sum ||H_k||_F^2 = [8503056.0000 +/- 9.99e-6] (exact Tr H^2 = 8503056)
+  max enclosure radius: L12 6.039e-07  L8 2.671e-07
+(1) Z12(49/4) in [1.9005570656 +/- 3.37e-11] ; rigorous upper endpoint [1.90055706558595 +/- 1.39e-15] 
+    Z12 < 1.900577 : True   margin >= [1.99344e-5 +/- 3.37e-11]
+(2) bins: Z12 4174 Z8 596  (width 1/200, every edge checked in arb to lie outside the enclosure)
+    sup over b in [0,64] <= [0.100397 +/- 4.99e-7]  (worst interval [4745/1024,9491/2048]; 2142 intervals)
+    tail b>=64: c in [-0.353333 +/- 3.34e-7] (<0 so decreasing), bound at 64: [0.006503 +/- 2.93e-7]
+    => sup_b Z12(2b)^(4/3)/Z8(b)^4 <= [0.100397 +/- 4.99e-7] < 1/2
+verifier time 5.4s
+
+real	0m5.682s
+user	0m5.554s
+sys	0m0.069s
