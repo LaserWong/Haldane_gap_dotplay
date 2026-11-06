@@ -1,0 +1,71 @@
+{
+  "checked_at_utc": "2026-10-21T22:57:13.035042+00:00",
+  "base_commit": "a99fa2190ce8c30b33936c8e99af96cdc22e9b76",
+  "scope": "Declared sample compatibility, exact scalar comparisons, and heuristic forecast regression. No new spectral certificate.",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "not installed",
+    "mpmath": "not installed"
+  },
+  "commands_from_gap_workflow": [
+    "python -m unittest discover -s tests -p test_forecast.py -v",
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python -m unittest discover -s tests -v"
+  ],
+  "forecast_tests": {
+    "run": 29,
+    "passed": 29,
+    "failures": 0,
+    "errors": 0
+  },
+  "documentation_example": "passed",
+  "source_sha256": {
+    "gap_workflow/gapflow/forecast.py": "48f322e937f2cbf6fe86d9b19da19c65d1a43bfc4f45c4c336df66d9e69672bb",
+    "gap_workflow/tests/test_forecast.py": "ad6cb8a78ad8f01f2280c96b155030b8c79abf0e77f6e0de7596dbaf05d3c70b",
+    "gap_workflow/docs/RESOURCE_ESTIMATION.md": "639d780e90bb5947c71118752da9a4ee3508482655aff787f7ac6ccbeead099a"
+  },
+  "base_suite": {
+    "tests_or_loader_failures": 161,
+    "passed": 134,
+    "failures": 2,
+    "errors": 25
+  },
+  "modified_suite": {
+    "tests_or_loader_failures": 184,
+    "passed": 157,
+    "failures": 2,
+    "errors": 25
+  },
+  "full_suite": "Not all green. Both revisions have the same 27 failing test or loader entries without SymPy and mpmath. Two dependent CLI assertions fail because multiplicity inference requires SymPy.",
+  "failure_ids_identical_to_base": true,
+  "failure_ids": [
+    "test_all_space_cluster_no_gap_despite_root_multiplicity (test_low_band_audit.IndependentLowBandTests.test_all_space_cluster_no_gap_despite_root_multiplicity)",
+    "test_all_space_one_energy_is_not_excitation_gap (test_invariant_witness.InvariantWitnessTests.test_all_space_one_energy_is_not_excitation_gap)",
+    "test_candidate_replay (test_quantum_ising.QuantumIsingTests.test_candidate_replay)",
+    "test_dense_positive_metric (test_invariant_witness.InvariantWitnessTests.test_dense_positive_metric)",
+    "test_double_irrational_ground_inferred (test_low_band.LowBandTests.test_double_irrational_ground_inferred)",
+    "test_double_rational_ground_inferred_without_input (test_low_band.LowBandTests.test_double_rational_ground_inferred_without_input)",
+    "test_even_integer_spins_union_counts_one_root_across_five_sectors (test_low_band.UnionRootTests.test_even_integer_spins_union_counts_one_root_across_five_sectors)",
+    "test_invariant_witness_audit (unittest.loader._FailedTest.test_invariant_witness_audit)",
+    "test_low_temperature_no_cancellation (test_quantum_ising.QuantumIsingTests.test_low_temperature_no_cancellation)",
+    "test_lower_endpoint_closed_upper_endpoint_excluded_threshold_inclusive (test_low_band_audit.IndependentLowBandTests.test_lower_endpoint_closed_upper_endpoint_excluded_threshold_inclusive)",
+    "test_nearly_degenerate_is_cluster_not_ground_degeneracy (test_low_band.LowBandTests.test_nearly_degenerate_is_cluster_not_ground_degeneracy)",
+    "test_nonminimal_annihilator_without_matrix_charpoly (test_invariant_witness.NoCharacteristicPolynomialTests.test_nonminimal_annihilator_without_matrix_charpoly)",
+    "test_omitted_lower_state (test_invariant_witness.InvariantWitnessTests.test_omitted_lower_state)",
+    "test_omitted_states_and_boundaries_fail (test_low_band.LowBandTests.test_omitted_states_and_boundaries_fail)",
+    "test_pencil_and_root_budget (test_low_band.LowBandTests.test_pencil_and_root_budget)",
+    "test_proper_subspace_irrational_ground (test_invariant_witness.InvariantWitnessTests.test_proper_subspace_irrational_ground)",
+    "test_quantum_ising_interval (unittest.loader._FailedTest.test_quantum_ising_interval)",
+    "test_rational_parameter_strings (test_quantum_ising.QuantumIsingTests.test_rational_parameter_strings)",
+    "test_reject_bad_inputs (test_quantum_ising.QuantumIsingTests.test_reject_bad_inputs)",
+    "test_seeds_and_precision (test_quantum_ising.QuantumIsingTests.test_seeds_and_precision)",
+    "test_shifted_positive_factors (test_quantum_ising.QuantumIsingTests.test_shifted_positive_factors)",
+    "test_small_split_is_not_degeneracy (test_invariant_witness.InvariantWitnessTests.test_small_split_is_not_degeneracy)",
+    "test_tiny_split_cluster_does_not_become_true_ground_gap (test_workflow.WorkflowCLITests.test_tiny_split_cluster_does_not_become_true_ground_gap)",
+    "test_unknown_ground_multiplicity_inferred_without_input (test_workflow.WorkflowCLITests.test_unknown_ground_multiplicity_inferred_without_input)",
+    "test_unresolvably_small_rational_splitting_stays_distinct (test_low_band_audit.IndependentLowBandTests.test_unresolvably_small_rational_splitting_stays_distinct)",
+    "test_weighted_nondiagonal_irrational_root_equality (test_low_band_audit.IndependentLowBandTests.test_weighted_nondiagonal_irrational_root_equality)",
+    "test_wrong_and_nonsquarefree_polynomials (test_invariant_witness.InvariantWitnessTests.test_wrong_and_nonsquarefree_polynomials)"
+  ]
+}
